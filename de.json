@@ -1,0 +1,1577 @@
+{
+  "enabled": "aktiviert",
+  "disabled": "deaktiviert",
+  "common": {
+    "delta": {
+      "date": "am {date|date}",
+      "allTime": "alltime",
+      "lastMonth": "letzten Monat",
+      "lastWeek": "letzte Woche",
+      "lastYear": "letztes Jahr",
+      "thisMonth": "diesen Monat",
+      "thisWeek": "diese Woche",
+      "thisYear": "dieses Jahr",
+      "today": "heute",
+      "yesterday": "gestern"
+    },
+    "has": "hat",
+    "have": "haben",
+    "id": "ID: {id}"
+  },
+  "error": {
+    "api": "susgeeDank API Error",
+    "banned": {
+      "channel": "susgeeDank Channel {channel} ist gebannt: {reason}",
+      "user": "susgeeDank User {channel} ist gebannt: {reason}"
+    },
+    "general": "susgeeDank Es ist ein Fehler aufgetreten",
+    "invalidUrl": "susgeeDank Ungültige URL",
+    "notFound": {
+      "channel": "susgeeDank Channel {channel} nicht gefunden",
+      "channelPlatform": "susgeeDank Channel {channel|antiPing} nicht auf {platform} gefunden",
+      "command": "susgeeDank Command {command} existiert nicht",
+      "database": "susgeeDank Channel {channel|antiPing} ist nicht in meiner Datenbank",
+      "emote": "susgeeDank Emote {emote} ist kein Twitch Emote",
+      "permission": "susgeeDank Permission {permission} existiert nicht. Verfügbare Permissions: {permissions}",
+      "user": "susgeeDank User {user} nicht gefunden",
+      "userPlatform": "susgeeDank User {user|antiPing} nicht auf {platform} gefunden",
+      "userOrBadge": "susgeeDank Kein Badge oder User gefunden",
+      "userOrPaint": "susgeeDank Keine Paint oder User gefunden"
+    },
+    "unknown": {
+      "category": "(keine Kategorie)",
+      "title": "(kein Titel)",
+      "user": "(unbekannter User)"
+    },
+    "usage": "susgeeDank Benutzung: {prefix}{command} {usage}",
+    "userOptOut": "susgeeDank Dieser User ist vom Logging ausgeschlossen"
+  },
+  "toggle": {
+    "are": {
+      "changed": "susgeeOK {type|include} sind jetzt {state|include}",
+      "notChanged": "susgeeDank {type|include} sind bereits {state|include}",
+      "state": "{type|include} sind aktuell {state|include}"
+    },
+    "channel": {
+      "changed": "susgeeOK {type|include} für {channel|antiPing} sind jetzt {state|include}",
+      "notChanged": "susgeeDank {type|include} für {channel|antiPing} sind bereits {state|include}",
+      "state": "{type|include} für {channel|antiPing} sind aktuell {state|include}"
+    },
+    "is": {
+      "changed": "susgeeDank {type|include} ist jetzt {state|include}",
+      "notChanged": "susgeeDank {type|include} ist bereits {state|include}",
+      "state": "{type|include} ist aktuell {state|include}"
+    },
+    "names": {
+      "7tv": "(7TV) Emote Updates",
+      "banMsg": "Bann Nachrichten",
+      "birthdayMsg": "Geburtstags Nachrichten",
+      "command": "Command {command}",
+      "globalEmoteAnnounce": "Global-Emote Ankündigungen",
+      "updateMsg": "Titel/Kategorie Updates"
+    },
+    "ping": {
+      "disabled": "Ich pinge dich nicht mehr,",
+      "enabled": "Ich pinge dich,"
+    }
+  },
+  "7tv": {
+    "badge": {
+      "active": "{active|plural(one|User, other|Users)} haben dieses Badge aktiv",
+      "name": "Badge: {badge}",
+      "none": "kein Badge aktiv",
+      "owned": "{owned|plural(one|User, other|Users)} besitzen dieses Badge",
+      "added": "hinzugefügt vor {date|time}"
+    },
+    "editor": {
+      "added": "susgeeOK {user|antiPing} zur (7TV) Editor Liste hinzugefügt",
+      "bot": "susgeeDank Du musst mich nicht als Editor hinzufügen",
+      "list": "susgeeOK In diesem Channel haben folgende User (7TV) Editor Rechte für diesen Bot: {editors}",
+      "noEntries": "susgeeDank Dieser Channel hat keine (7TV) Editoren für diesen Bot gespeichert",
+      "removed": "susgeeOK {user|antiPing} von der (7TV) Editor Liste entfernt",
+      "self": "susgeeDank Du musst dich selber nicht als Editor hinzufügen"
+    },
+    "emote": {
+      "notFound": "susgeeDank Emote {emote} nicht gefunden",
+      "added": "susgeeOK Emote {emote} hinzugefügt",
+      "removed": "susgeeOK Emote {emote} entfernt",
+      "renamed": "susgeeOK {oldName} umbenannt zu {newName}",
+      "replaced": "susgeeOK {oldEmote} ersetzt mit {newEmote}",
+      "yoinked": "susgeeOK Emote {emote} von {channel|antiPing} gestohlen",
+      "fromChannel": "vom Channel {channel|antiPing}",
+      "emoteSetImported": "susgeeOK Emote-Set {emoteSet} (https://7tv.app/emote-sets/{emoteSetId}) importiert"
+    },
+    "emotes": {
+      "removed": "Entfernte Emotes: {emotes}",
+      "notRemoved": "Nicht entfernte Emotes: {emotes}",
+      "notFound": "Nicht gefundene Emotes: {emotes}"
+    },
+    "emoteSet": {
+      "capacity": "Kapazität: {count|number} / {capacity|number}",
+      "name": "Name: {name}"
+    },
+    "emoteSets": {
+      "noEntries": "susgeeDank {channel|antiPing} hat keine Emote-Sets",
+      "success": "Emote-Sets von {channel|antiPing} susgeePoint {paste}"
+    },
+    "error": {
+      "emoteNameTaken": "susgeeDank Emote mit dem Namen {emote} existiert bereits",
+      "emoteLinkNotFound": "susgeeDank Kein Emote mit diesem Link gefunden",
+      "emoteNotFound": "susgeeDank Emote {emote} nicht gefunden",
+      "emoteNotFoundInSet": "susgeeDank Emote {emote} nicht gefunden in diesem Set",
+      "emoteSetFull": "susgeeDank Emote Set hat kein Platz mehr",
+      "noEmotesFoundToRemove": "susgeeDank Keine Emotes gefunden zum entfernen",
+      "invalidName": "susgeeDank Name vom Emote enthält ein Zeichen, welches (7TV) nicht erlaubt",
+      "noAccount": "susgeeDank Channel {channel|antiPing} hat keinen (7TV) Account",
+      "noActiveEmoteSet": "susgeeDank Channel {channel|antiPing} hat kein aktives Emote Set",
+      "noChannelPerms": "Du hast keine (7TV) Editoren Rechte in diesem Channel. @{streamer} kann dich mit dem Command {prefix}7tveditor {user} hinzufügen susgeeOK",
+      "noEditor": "Susgeebot hat keine Editor Rechte. Füge ihn bei https://7tv.app/settings/editors als Editor hinzu susgeeOK",
+      "noEmoteSets": "susgeeDank Channel {channel|antiPing} hat keine Emote Sets",
+      "privateEmote": "susgeeDank Emote {emote} ist privat und kann nicht hinzugefügt werden",
+      "ezGifError": "Derzeit werden nur Emote-Links von BTTV, 7TV und FFZ unterstützt",
+      "cantStealFromSelf": "susgeeDank Du kannst deine eigenen Emotes nicht stehlen",
+      "cantImportFromSelf": "susgeeDank Du kannst deine eigenes Emoteset nicht importieren"
+    },
+    "paint": {
+      "active": "{active|plural(one|User, other|Users)} haben diese Paint aktiv",
+      "name": "Paint: {paint}",
+      "none": "kein Paint aktiv",
+      "owned": "{owned|plural(one|User, other|Users)} besitzen diese Paint",
+      "added": "hinfugefügt vor {date|time}"
+    },
+    "presence": {
+      "error": "Fehler beim aktualisieren der (7TV) Presence",
+      "success": "(7TV) Presence aktualisiert"
+    },
+    "preview": "Preview: {link}",
+    "sub": {
+      "ended": "vor {delta|time} geendet",
+      "ends": "endet in {delta|time}",
+      "expired": "kein Sub mehr",
+      "giftedSub": "geschenkt von {giftedBy|antiPing}",
+      "neverSubbed": "noch nie einen (7TV) Sub gehabt",
+      "nextBadge": "nächstes Badge \"{badge}\" {delta} ({percent}%)",
+      "nextBadgeInDays": "in {days|plural(one|Tag, other|Tagen)}",
+      "nextBadgeInHours": "in {hours|plural(one|Stunde, other|Stunden)}",
+      "renews": "erneuert sich in {delta|time}",
+      "since": "Sub seit {days|plural(one|Tag, other|Tagen)}",
+      "subscribedFor": "bisher für {days|plural(one|Tag, other|Tagen)} abonniert"
+    },
+    "user": {
+      "badge": "Badge: {badge}",
+      "editorOf": "Editor von {channels|plural(one|Channel, other|Channels)}",
+      "editors": "{editors|plural(one|Editor, other|Editors)}",
+      "emoteSet": "Emote-Set: {count|number} / {capacity|number}",
+      "paint": "Paint: {paint}",
+      "profile": "Profil: {profile}",
+      "roles": "Rollen: {roles}",
+      "unlocked": "{paints|plural(one|Paint, other|Paints)} & {badges|plural(one|Badge, other|Badges)} freigeschaltet"
+    },
+    "updates": {
+      "channel": "Channel {channel|antiPing}",
+      "actor": "Editor {actor|antiPing}",
+      "emote": {
+        "added": "Emote {emote} hinzugefügt",
+        "removed": "Emote {emote} entfernt"
+      },
+      "emoteSet": {
+        "changed": "Aktives Emote-Set geändert von {old} zu {new}",
+        "name": "Emote-Set Name geändert von {old} zu {new}",
+        "capacity": "Emote-Set Kapazität geändert von {old} zu {new}",
+        "emotes": "Emote {old} umbenannt zu {new}"
+      }
+    },
+    "yoink": "susgeeOK Emote {emote} yoinked vom Channel {channel|antiPing} WideHardo Clap"
+  },
+  "8ball": {
+    "msg1": "höchstwahrscheinlich",
+    "msg10": "sehr zweifelhaft",
+    "msg11": "ohne Zweifel",
+    "msg12": "Ja",
+    "msg2": "definitiv ja",
+    "msg3": "sehr zweifelhaft",
+    "msg4": "meine Quellen sagen nein",
+    "msg5": "meine Antwort ist nein",
+    "msg6": "gute Aussichten",
+    "msg7": "Nein!",
+    "msg8": "darauf kannst du dich verlassen",
+    "msg9": "die Zeichen deuten auf ja"
+  },
+  "aare": "Die Aare in {city} hat aktuell {temp}°C",
+  "activeChannel": {
+    "messages": "{channel} ({entries|plural(one|Nachricht, other|Nachrichten)})",
+    "noEntries": "Keine Nachrichten vom User {user|antiPing} in der Datenbank gefunden",
+    "success": "susgeeNoted Nachrichten in {channels|plural(one|Channel, other|Channels)} gefunden susgeePoint {paste}"
+  },
+  "addBot": "Adde Susgeebot über meine Website susgeePoint https://susgee.dev/",
+  "afk": {
+    "afk": "@{user} ist jetzt AFK {message}",
+    "brb": "@{user} ist gleich wieder da {message}",
+    "food": "@{user} geht jetzt Essen {message}",
+    "gn": "@{user} geht jetzt schlafen {message}",
+    "nap": "@{user} macht jetzt einen Powernap {message}",
+    "resume": {
+      "failed": "@{user} du kannst deinen AFK-Status nicht wieder aufnehmen, da er vor mehr als {minutes} Minuten beendet wurde!",
+      "ok": "@{user} ist wieder AFK"
+    },
+    "returned": {
+      "afk": "@{user} ist nicht mehr AFK",
+      "brb": "@{user} ist wieder da",
+      "duration": "Dauer: {duration|time}",
+      "food": "@{user} hat fertig gegessen",
+      "gn": "@{user} ist aufgewacht",
+      "message": "Nachricht: {message}",
+      "nap": "@{user} hat sich jetzt erholt",
+      "noMessage": "(keine Nachricht)",
+      "shower": "@{user} hat fertig geduscht",
+      "study": "@{user} hat aufgehört zu lernen",
+      "work": "@{user} hat zurück vom Arbeiten"
+    },
+    "shower": "@{user} geht jetzt Duschen {message}",
+    "study": "@{user} geht jetzt Lernen {message}",
+    "work": "@{user} geht jetzt Arbeiten {message}"
+  },
+  "allEmotes": {
+    "noEmotes": "susgeeDank {channel|antiPing} hat keine Channel Emotes"
+  },
+  "ban": {
+    "admin": "susgeeOK ich banne keinen meiner admins",
+    "alreadyBanned": "susgeeDank {user} ist bereits gebannt",
+    "notBanned": "susgeeDank {user} konnte nicht gebannt werden"
+  },
+  "banList": {
+    "success": "susgeeOK {count|plural(one|User, other|Users)} gebannt"
+  },
+  "banMsg": {
+    "allChannels": "für alle Channels"
+  },
+  "bans": {
+    "noEntries": "susgeeDank Channel {channel|antiPing} hat keine geloggten Bans {delta|include}",
+    "success": "susgeeOK Bisher gebannte User {time|include}: {count|number}"
+  },
+  "bible": {
+    "added": "susgeeOk Zur Datenbank hinzugefügt",
+    "botInfo": "Bibel {id} (Text: {text}) wurde von {user|antiPing} gelöscht",
+    "deleted": "susgeeOk Text mit der ID {id} wurde gelöscht",
+    "entryExists": "susgeeDank Dieser Text ist bereits in der Datenbank",
+    "noEntries": "susgeeDank Keine Einträge in der Datenbank gefunden",
+    "noEntryWithId": "susgeeDank Keinen Eintrag in der Datenbank mit der ID {id} gefunden",
+    "notAllowed": "susgeeDank Du hast nicht die Berechtigung, den Text mit der ID {id} zu löschen",
+    "noEntriesByUser": "susgeeDank Keine Einträge von dir in der Datenbank gefunden"
+  },
+  "birthday": {
+    "added": "susgeeOK Geburtstag von {user} am {day}.{month}. hinzugefügt",
+    "notFound": "susgeeDank Es gibt keinen Geburtstag für den User {user} am {day}.{month}. in der Datenbank",
+    "removed": "susgeeOK Geburtstag von {user} am {day}.{month}. entfernt"
+  },
+  "birthdays": {
+    "next": "Die nächsten Geburtstage sind: {birthdays}",
+    "noEntries": "Dieser Channel hat keine Geburtstage in der Datenbank. Um welche hinzuzufügen nutze {prefix}birthday add <Name> <Tag> <Monat>",
+    "today": "Heute ist der Geburtstag von {users} FeelsBirthdayMan Clap"
+  },
+  "booba": {
+    "noEntries": "Keine BOOBA verfügbar"
+  },
+  "botSubs": {
+    "none": "FeelsBadMan Susgeebot hat keine Subs"
+  },
+  "botties": {
+    "appendix": "🏦 {botties|plural(one|Bottie, other|Botties)}, Prestige {prestige}",
+    "banned": "FeelsBadMan Du bist von den Botties gesperrt",
+    "cooldown": "susgeeDank {randomMessage|include} Verfügbar in {cooldown|time}",
+    "cooldowns": {
+      "msg1": "⏳ Vorsicht! Deine Prozessoren sind überhitzt. Eine kurze Abkühlung ist erforderlich, um optimale Leistung zu gewährleisten. 🌬️",
+      "msg10": "🔐 Sicherheitscheck! Deine digitalen Türen werden überprüft, um sicherzustellen, dass alles geschützt ist. Die Sicherheit hat oberste Priorität! 🔒",
+      "msg2": "⚙️ Technische Pause! Unsere Ingenieure führen Wartungsarbeiten durch, um deine Systemstabilität zu verbessern. Danke für deine Geduld! 🛠️",
+      "msg3": "🔧 Wichtige Aktualisierung! Ein Systemtuning ist im Gange. Deine digitalen Ressourcen werden feinabgestimmt, um Höchstleistungen zu erzielen. 🚀",
+      "msg4": "🕰️ Zeit für eine kurze Verschnaufpause! Deine virtuellen Schaltkreise nehmen sich eine kleine Pause, um sich auf kommende Herausforderungen vorzubereiten. ⏸️",
+      "msg5": "🔄 Neustart erforderlich! Ein Soft-Reset wird durchgeführt, um unnötigen Ballast zu beseitigen. In Kürze bist du wieder einsatzbereit. 🔄",
+      "msg6": "⚡ Energiesparmodus aktiviert! Deine Systeme schalten vorübergehend in den Energiesparmodus, um Ressourcen zu schonen. Bald geht es mit voller Power weiter! ⚡",
+      "msg7": "🛑 Stopp! Ein kurzzeitiger Systemstopp ist notwendig, um wichtige Konfigurationen zu aktualisieren. Wir sind gleich zurück! ⏩",
+      "msg8": "🔍 Analyse läuft! Deine Daten werden genau unter die Lupe genommen, um mögliche Leistungsverbesserungen zu identifizieren. Bitte habe einen Moment Geduld. 🔬",
+      "msg9": "🚧 Baustelle im Code! Unsere Entwickler arbeiten daran, einige Bugs zu beheben. Dein System wird in Kürze fehlerfrei und stabiler sein! 🚀"
+    },
+    "dailyBonus": "🎉 Täglicher Login-Bonus! Du hast {bonus} Botties für deinen heutigen Login erhalten",
+    "messages": {
+      "<-27": "🚨 Extrem gefährlich! Dein System befindet sich in einem äußerst kritischen Zustand. {botties|number} sofortige Sicherheitsverletzungen wurden festgestellt! Sofort handeln!",
+      "<-5": "⚠️ Achtung! Dein System ist stark gefährdet. Du hast {botties|number} kritische Sicherheitsverletzungen! Sofortige Maßnahmen sind erforderlich, um deine Systeme zu schützen!",
+      "<=-1 >=-5": "📉 Ups! Du hast {botties|number} Systemabstürze erlitten forsenLaughingAtYou Arbeite an der Stabilität deiner Systeme, um zukünftige Ausfälle zu vermeiden!",
+      ">=1 <=4": "🌟 Großartig! Du hast {botties|number} neue Technologiepatente erhalten! Setze dein Wissen klug ein und revolutioniere die Computerwelt!",
+      ">=10 <=15": "🏆 Fantastisch! Du hast {botties|number} Upgrades für deine virtuelle Ausrüstung erhalten! Deine Technologie ist jetzt auf dem neuesten Stand. Mach weiter so!",
+      ">=1001 <=1500": "🌌 Kosmisch! Du hast {botties|number} kosmische Software-Galaxien erschaffen! Deine Programme erstrecken sich über die Weiten des digitalen Universums. Ein Meister des digitalen Kosmos!",
+      ">=101 <=150": "🔮 Mystisch! Du hast {botties|number} mystische Algorithmen entdeckt! Deine Fähigkeiten sind jenseits der logischen Grenzen. Die Programmierwelt staunt über dein mystisches Können!",
+      ">=1501 <=2000": "🚀 Göttlich! Du hast {botties|number} göttliche Software-Universen geschaffen! Deine Codierungsfähigkeiten sind göttlich, und deine Programme gestalten das digitale Universum nach deinem Willen!",
+      ">=151 <=200": "🚁 Fliegend! Du hast {botties|number} fliegende Roboter mit künstlicher Intelligenz geschaffen! Deine Innovation hebt die Technologie auf neue Höhen. Die Zukunft ist jetzt!",
+      ">=16 <=20": "🔥 Unglaublich! Du hast einen Rekord aufgestellt und {botties|number} Firewall-Herausforderungen erfolgreich gemeistert!",
+      ">=2001": "🌌 Jenseits! Du hast {botties|number} Programme jenseits aller Grenzen geschrieben! Deine Codes durchdringen die Dimensionen, und deine Programmierkunst ist unübertroffen!",
+      ">=201 <=500": "🌈 Magisch! Du hast {botties|number} magische Codes geschrieben! Deine Programme haben eine magische Aura, die Technologie und Fantasie verbindet. Ein magischer Programmierer!",
+      ">=21 <=30": "🚀 Herausragend! Du hast {botties|number} bahnbrechende Innovationen geschaffen! Deine Ideen verändern die Zukunft der Technologie. Die Welt schaut auf dich!",
+      ">=31 <=40": "🌌 Übermenschlich! Du hast {botties|number} galaktische Code-Algorithmen entwickelt! Dein Beitrag zur Programmierung ist außerirdisch genial. Die Sterne applaudieren!",
+      ">=41 <=50": "💡 Göttlich! Du hast {botties|number} göttliche Software-Lösungen geschaffen! Dein Genie ist unübertroffen, und deine Technologien werden Legenden formen!",
+      ">=5 <=9": "🔒 Fantastisch! Du hast {botties|number} neue Sicherheitsprotokolle implementiert. Deine Systeme sind nun noch besser geschützt. Die Cyberwelt kann dir nichts anhaben!",
+      ">=501 <=1000": "🌟 Episch! Du hast {botties|number} epische Virtual-Reality-Welten erschaffen! Deine Kreationen sind atemberaubend und entführen die Nutzer in eine neue Dimension. Virtuelle Realität, realer Ruhm!",
+      ">=51 <=75": "🎉 Legendär! Du hast {botties|number} legendäre KI-Entwicklungen hervorgebracht! Deine Beiträge sind Meilensteine in der Geschichte der künstlichen Intelligenz. Applaus, Applaus!",
+      ">=76 <=100": "🌐 Virtuos! Du hast {botties|number} virtuose Daten-Orchester dirigiert! Dein Talent für Datenmanagement ist unübertroffen. Die Datenströme tanzen zu deinem Takt!",
+      "0": "⛔️ Ups! Dein Versuch war nicht erfolgreich und du hast {botties|number} Virenangriffe erlitten forsenLaughingAtYou . Bleibe wachsam und schärfe deine Abwehrfähigkeiten für zukünftige Angriffe!"
+    },
+    "reminders": {
+      "msg1": "⏳ Dein Fortschritt zahlt sich aus! Du kannst jetzt noch mehr Botties verdienen. Nutze dein technisches Geschick und sammle weitere digitale Schätze. Die Computerwelt erwartet dich! {user}",
+      "msg2": "💰 Zeit für eine Bottie-Belohnung! Deine Bemühungen haben sich gelohnt. Du kannst jetzt noch mehr Botties erhalten, um deine technologischen Ziele zu erreichen. Auf geht's, {user} !",
+      "msg3": "🔥 Bereit für die nächste Bottie-Herausforderung? Du hast dich als wahrer Technikexperte erwiesen und kannst jetzt noch mehr Botties verdienen. Zeige der Welt, was du drauf hast! {user}",
+      "msg4": "🏆 Du bist auf dem besten Weg zum Bottie-Meister! Mit deinem Einsatz und deiner Hingabe kannst du jetzt noch mehr Botties verdienen. Lass deine technischen Fähigkeiten glänzen, {user} !",
+      "msg5": "🌟 Mach dich bereit für eine Bottie-Explosion! Deine Leistungen haben sich herumgesprochen, und jetzt kannst du noch mehr Botties in deinem virtuellen Bankkonto ansammeln. Feiere deinen Erfolg in der Computerwelt! {user}",
+      "msg6": "💡 Die Bottie-Bank ist geöffnet! Du kannst jetzt noch mehr Botties abholen und deine technische Sammlung erweitern. Nutze diese Gelegenheit, um deine digitalen Träume wahr werden zu lassen! {user}",
+      "msg7": "🚀 Der Himmel ist das Limit für deine Bottie-Sammlung! Mit deinem Ehrgeiz und deiner Neugier kannst du jetzt noch mehr Botties verdienen und dich in der Spitze der Computerelite etablieren. Viel Erfolg, {user} !",
+      "msg8": "🎮 Dein Können wird belohnt! Tauche ein in die Welt der Codes und Algorithmen, um noch mehr Botties zu verdienen. Die digitale Arena wartet auf dich, {user} !",
+      "msg9": "💻 Zeit für eine Technologie-Trophäe! Dein Fleiß zahlt sich aus, und jetzt kannst du noch mehr Botties sammeln, um deine virtuellen Innovationen voranzutreiben. Los geht's, {user} !",
+      "msg10": "🚨 Bereit für die nächste Tech-Mission? Als Meister der Technik kannst du jetzt noch mehr Botties verdienen. Zeig der Welt, dass du die Herausforderungen der digitalen Ära spielend meisterst, {user} !",
+      "msg11": "🔒 Du knackst die Bottie-Rätsel wie ein Profi! Deine Hingabe wird belohnt, und du kannst jetzt noch mehr Botties verdienen. Lass deine technischen Fähigkeiten strahlen, {user} !",
+      "msg12": "🌐 Mach dich bereit für einen Bottie-Regen! Dein Erfolg eilt dir voraus, und jetzt kannst du noch mehr Botties in deinem digitalen Tresor sammeln. Feiere deine Errungenschaften in der Tech-Welt, {user} !",
+      "msg13": "🔍 Die Tech-Schatzkammer ist geöffnet! Hol dir jetzt weitere Botties und erweitere deine Sammlung. Nutze diese Gelegenheit, um deine digitalen Träume zu verwirklichen, {user} !",
+      "msg15": "🚀 Dein Können wird belohnt. Nimm teil an der Welt der Codes und Algorithmen, um mehr Botties zu verdienen. Die digitale Arena wartet auf dich, {user}",
+      "msg16": "💼 Zeit für eine Technologie-Trophäe. Dein Fleiß zahlt sich aus, und jetzt kannst du mehr Botties sammeln, um deine virtuellen Innovationen voranzutreiben. Los geht's, {user}",
+      "msg17": "🔧 Bereit für die nächste Tech-Mission. Als Meister der Technik kannst du mehr Botties verdienen. Zeig der Welt, dass du die Herausforderungen der digitalen Ära spielend meisterst, {user}",
+      "msg18": "🔑 Du knackst die Bottie-Rätsel wie ein Profi. Deine Hingabe wird belohnt, und du kannst mehr Botties verdienen. Lass deine technischen Fähigkeiten strahlen, {user}",
+      "msg19": "💾 Mach dich bereit für einen Bottie-Regen. Dein Erfolg eilt dir voraus, und jetzt kannst du mehr Botties in deinem digitalen Tresor sammeln. Feiere deine Errungenschaften in der Tech-Welt, {user}",
+      "msg20": "🕵 Die Tech-Schatzkammer ist geöffnet. Hol dir mehr Botties und erweitere deine Sammlung. Nutze diese Gelegenheit, um deine digitalen Träume zu verwirklichen, {user}",
+      "msg21": "🚁 Deine Bottie-Galaxie wächst. Mit deinem Eifer und deiner Entschlossenheit kannst du mehr Botties verdienen und dich an die Spitze der Technologieelite katapultieren. Erfolg voraus, {user}",
+      "msg22": "🌐 Die Datenautobahn ruft. Dein technisches Geschick wird belohnt. Sammle weitere digitale Schätze und mach die Computerwelt zu deiner Bühne, {user}",
+      "msg23": "💻 Zeit für eine Bottie-Belohnung. Deine Bemühungen haben sich gelohnt. Du kannst jetzt mehr Botties erhalten, um deine technologischen Ziele zu erreichen. Auf geht's, {user}",
+      "msg24": "🔥 Bereit für die nächste Bottie-Herausforderung. Du hast dich als wahrer Technikexperte erwiesen und kannst jetzt mehr Botties verdienen. Zeige der Welt, was du drauf hast, {user}",
+      "msg25": "🏆 Du bist auf dem besten Weg zum Bottie-Meister. Mit deinem Einsatz und deiner Hingabe kannst du mehr Botties verdienen. Lass deine technischen Fähigkeiten glänzen, {user}",
+      "msg26": "💻 Dein technisches Talent zahlt sich aus. Tauche tiefer in die Welt der Codes und Algorithmen ein, um noch mehr Botties zu verdienen. Die digitale Herausforderung erwartet dich, {user}",
+      "msg27": "📈 Zeit für eine Bottie-Steigerung. Dein Engagement zahlt sich aus, und jetzt kannst du mehr Botties sammeln, um deine technologischen Ziele zu erreichen. Los geht's, {user}",
+      "msg28": "🛠️ Bereit für die nächste Technik-Herausforderung. Du hast bewiesen, dass du ein echter Technikexperte bist und kannst jetzt mehr Botties verdienen. Zeige der Welt, was in dir steckt, {user}",
+      "msg29": "🏅 Du bist auf dem richtigen Weg zum Bottie-Meister. Mit deinem Einsatz kannst du jetzt mehr Botties verdienen. Lass deine technischen Fähigkeiten erstrahlen, {user}",
+      "msg30": "✨ Mach dich bereit für eine Bottie-Revolution. Deine Erfolge haben sich verbreitet, und jetzt kannst du mehr Botties in deinem virtuellen Tresor ansammeln. Feiere deinen Erfolg in der Tech-Welt, {user}",
+      "msg31": "🌌 Die Bottie-Bank freut sich auf dich. Hol dir jetzt mehr Botties und erweitere deine technische Sammlung. Nutze diese Gelegenheit, um deine digitalen Träume zu verwirklichen, {user}",
+      "msg14": "🛰️ Deine Bottie-Galaxie wächst! Mit deinem Fleiß und deiner Entschlossenheit kannst du jetzt noch mehr Botties verdienen und dich an die Spitze der Technologie-Elite katapultieren. Erfolg liegt vor dir!"
+    },
+    "newUser": "Willkommen in der virtuellen Welt, {user}! Als neuer Spieler erhältst du das exklusive Starterkit, bestehend aus 20 digitalen Botties. Nutze sie weise, um deine technologische Reise zu beginnen und aufregende Upgrade freizuschalten. Viel Spaß beim Entdecken der Computerwelt!",
+    "notEnough": "susgeeDank Du hast nicht genug Botties! Du hast {botties|plural(one|Bottie, other|botties)}",
+    "prestigeAvailable": "Du hast genügend Botties für das nächste Prestige. Prestige {prestige} kostet {cost|number} Botties",
+    "treasureChest": "🎁 Du hast eine Schatzkiste gefunden! Du erhältst {bonus} Botties!"
+  },
+  "bottiesBan": {
+    "admin": "susgeeDank Du kannst keinen Admin von Botties ausschliessen",
+    "ban": "susgeeOK {user|antiPing} von Botties ausgeschlossen",
+    "unban": "susgeeOK {user|antiPing} nicht mehr von Botties ausgeschlossen"
+  },
+  "channel": {
+    "joined": "susgeeOK Channel {channel} joined",
+    "parted": "susgeeOK Channel {channel} verlassen",
+    "rejoined": "susgeeOK Channel {channel} rejoined"
+  },
+  "channelStats": {
+    "added": "vor {added|time} hinzugefügt",
+    "messages": "{messages|plural(one|geloggte Nachricht, other|geloggte Nachrichten)}"
+  },
+  "chat": {
+    "noData": "Keine Daten zum angegebenen Benutzer",
+    "success": "{user|antiPing} letzte Nachricht wurde wahrscheinlich über {client|include} gesendet",
+    "thirdParty": "Chatterino oder einen anderen third-party client B-)",
+    "webChat": "Twitch Web Chat KEK"
+  },
+  "chatters": {
+    "noEntries": "Im Channel {channel|antiPing} sind derzeit keine Chatter",
+    "success": "Im Channel {channel|antiPing} sind derzeit {chatter|number} Chatter ( {data} ) susgeePoint {link}"
+  },
+  "chatting": {
+    "noEntries": "susgeeDank Keine Nachrichten von {user|antiPing} im Channel {channel|antiPing} {delta|include} gefunden",
+    "success": "susgeeOK {user|antiPing} hat {delta|include} im Channel {channel|antiPing} {count|plural(one|Nachricht, other|Nachrichten)} gesendet"
+  },
+  "clip": {
+    "forbidden": "PoroSad Der Channel {channel|antiPing} erlaubt keine Clips",
+    "offline": "susgeeDank Channel {channel|antiPing) ist offline",
+    "unknown": "susgeeDank Clips sind in dem Channel {channel|antiPing} derzeit nicht möglich"
+  },
+  "cock": "{user|antiPing} kok ist {cm}cm lang {emote}",
+  "coinFlip": {
+    "heads": "Kopf (Ja)",
+    "tails": "Zahl (Nein)"
+  },
+  "command": {
+    "alreadyDisabled": "susgeeDank Dieser Command ist bereits deaktiviert",
+    "alreadyEnabled": "susgeeDank Dieser Command ist bereits aktiviert",
+    "check": "Command {command} ist aktuell {status}",
+    "disabled": "susgeeOk Command {command} erfolgreich deaktiviert",
+    "enabled": "susgeeOk Command {command} erfolgreich aktiviert",
+    "notAllowed": "susgeeDank Du kannst diesen Command nicht deaktivieren"
+  },
+  "customCommands": {
+    "added": "susgeeOK Command {name} hinzugefügt",
+    "removed": "susgeeOK Command {name} entfernt",
+    "edited": "susgeeOK Command {name} bearbeitet",
+    "exists": "susgeeDank Command {name} existiert bereits",
+    "notExists": "susgeeDank Command {name} existiert nicht",
+    "noCommands": "susgeeDank Dieser Channel hat keine Custom Commands",
+    "list": "Liste der Custom Commands in diesem Channel susgeePoint {link}"
+  },
+  "deadChannels": {
+    "list": "Liste an Channels ohne Nachricht in den letzten 2 Wochen susgeePoint {paste}",
+    "none": "Es wurden keine inaktiven Channels gefunden"
+  },
+  "deleteSuggest": {
+    "botInfo": "Die Suggestion mit der ID {id} (Text: {text}) wurde von {user|antiPing} gelöscht",
+    "entryDeleted": "susgeeOk Suggestion mit der ID {id} von {user} wurde gelöscht",
+    "entryNotFound": "susgeeDank Es gibt keinen Vorschlag mit der ID {id} in der Datenbank",
+    "error": "susgeeDank Du hast nicht die Berechtigung, den Vorschlag mit der ID {id} zu löschen"
+  },
+  "eCount": {
+    "entry": "{emote} wurde im Channel {channel|antiPing} {count|number} mal benutzt",
+    "noEntries": "susgeeDank Keine Einträge in der Datenbank gefunden"
+  },
+  "eCountToday": {
+    "entry": "Das Emote {emote} wurde heute im Channel {channel} {count|number} mal verwendet",
+    "noEntries": "susgeeDank Keine Einträge für heute in der Datenbank gefunden"
+  },
+  "eCountUser": {
+    "entry": "{user|antiPing} hat das Emote {emote} im Channel {channel|antiPing} {entries|number} mal benutzt"
+  },
+  "emote": {
+    "channel": "Channel @{channel}"
+  },
+  "emotes": {
+    "success": "Emotes vom Channel {channel|antiPing} susgeePoint {link}"
+  },
+  "esearch": {
+    "toShort": "Der zu suchende Emote-Name sollte nicht kürzer als 3 Zeichen sein",
+    "notFound": "susgeeDank Keine Emotes gefunden"
+  },
+  "followAge": {
+    "notFollowed": "FeelsBadMan {user|antiPing} folgt {channel|antiPing} nicht",
+    "self": "susgeeDank man kann sich selber nicht folgen",
+    "since": "susgeeOK {user|antiPing} folgt {channel|antiPing} seit {since|time}"
+  },
+  "founders": {
+    "none": "susgeeDank Channel {channel|antiPing} hat keine Founder",
+    "since": "vor {since|time} Founder geworden",
+    "subbed": "ist noch subbed? {emoji}"
+  },
+  "gamba": {
+    "lost": "verloren 📉",
+    "noBotties": "susgeeDank Du hast keine Botties! Benutze {prefix}botties um welche zu erhalten",
+    "notEnough": "susgeeDank Du kannst nicht mehr Botties setzen als du hast. Du hast {botties|plural(one|Bottie, other|Botties)}",
+    "notZero": "susgeeDank Du kannst nicht 0 Botties setzen",
+    "prestige": "Du hast genügend Botties für das nächste Prestige! Prestige {prestige} kostet {cost|number}. Um ins nächste Prestige zu gelangen, benutze den Command {prefix}prestige",
+    "response": "Du hast {betAmount|plural(one|Bottie, other|Botties)} {result|include}! Du hast jetzt {newAmount|plural(one|Bottie, other|Botties)}",
+    "won": "gewonnen 📈"
+  },
+  "give": {
+    "neverPlayed": "susgeeDank {user|antiPing} hat noch nie mit Botties gespielt",
+    "notEnough": "susgeeDank Du kannst nicht mehr Botties abgeben als du hast! Du hast {botties|plural(one|Bottie, other|Botties)}",
+    "notZero": "susgeeDank Du kannst nicht 0 Botties geben",
+    "self": "susgeeDank Du kannst dir selber keine Botties geben",
+    "success": "Du gibst {user|antiPing} {amount|plural(one|Bottie, other|Botties)}. Du hast jetzt {senderBotties|plural(one|Bottie, other|Botties)}. {user|antiPing} hat jetzt {receiverBotties|plural(one|Bottie, other|Botties)}"
+  },
+  "globalMessage": {
+    "preview": "Vorschau: {link}",
+    "info": "Info: {link}",
+    "emote": {
+      "added": "{set} Global-Emote \" {emote} \" wurde hinzugefügt",
+      "removed": "{set} Global-Emote \" {emote} \" wurde entfernt",
+      "newId": "{set} Global-Emote \" {emote} \" wurde aktualisiert (neue ID: {id})"
+    },
+    "badge": {
+      "added": "{set} Global-Badge \" {badge} \" wurde hinzugefügt",
+      "removed": "{set} Global-Badge \" {badge} \" wurde entfernt"
+    },
+    "7tv": {
+      "added": "(7TV) {kind} \"{name}\" wurde hinzugefügt",
+      "removed": "(7TV) {kind} \"{name}\" wurde entfernt",
+      "renamed": "(7TV) {kind} \"{oldName}\" wurde umbenannt zu \"{newName}\"",
+      "replaced": "(7TV) {kind} \"{oldName}\" wurde geändert (neue Id: {id})"
+    }
+  },
+  "gpt": {
+    "content1": "Du bist der persönliche Assistent {channel}. Achte darauf, dass deine Antwort maximal 500 Zeichen lang ist und versuche keine Sätze abzuschneiden. Antworte direkt und persönlich, ohne Rückfragen zu stellen. Versuche die gestellte Frage so gut wie möglich zu beantworten.",
+    "content2": "Hallo, mein Name ist {user}. Hier ist meine Frage: {args}"
+  },
+  "hack": {
+    "noTarget": "Du musst einen User angeben, den du hacken möchtest",
+    "selfHack": "Du kannst dich nicht selbst hacken",
+    "targetNotFound": "Der angegebene User wurde nicht gefunden",
+    "noBottiesToSteal": "Der Ziel-User hat keine Botties, die du stehlen könntest",
+    "success": "Du hast erfolgreich {stolenBotties} Botties von {target} gestohlen",
+    "fail": "Dein Hack ist fehlgeschlagen! Du hast {lostBotties} Botties verloren"
+  },
+  "help": {
+    "access": "Berechtigung: {access}",
+    "cooldown": "Cooldown: {cooldown}s",
+    "everyone": "alle",
+    "usage": "Benutzung: {usage|include}"
+  },
+  "hug": {
+    "bot": "MrDestructoid // 🤗",
+    "noUser": "{hugger} umarmt {receiver} VirtualHug",
+    "self": "{hugger} umarmt sich selbst FeelsBadMan",
+    "success": "{hugger} umarmt {receiver} VirtualHug {receiver} wurde schon {count} mal umarmt"
+  },
+  "ignore": {
+    "added": "susgeeOK User {user|antiPing} wird jetzt ignoriert",
+    "alreadyIgnored": "susgeeDank User {user|antiPing} wird bereits ignoriert",
+    "isIgnored": "User {user|antiPing} wird ignoriert",
+    "isNotIgnored": "User {user|antiPing} wird nicht ignoriert",
+    "owner": "NOIDONTTHINKSO Du kannst Lucas nicht ignorieren",
+    "removed": "susgeeOK User {user|antiPing} wird jetzt nicht mehr ignoriert",
+    "self": "susgeeDank Du kannst dich nicht selber auf die Ignore-Liste setzen"
+  },
+  "ignorePhrase": {
+    "added": "susgeeOK Diese Phrase wird jetzt ignoriert",
+    "alreadyIgnored": "susgeeDank Diese Phrase wird bereits ignoriert",
+    "isIgnored": "Diese Phrase wird ignoriert",
+    "isNotIgnored": "Diese Phrase wird nicht ignoriert",
+    "noPhrase": "susgeeDank Du musst eine Phrase angeben",
+    "removed": "susgeeOK Diese Phrase wird jetzt nicht mehr ignoriert"
+  },
+  "irc": {
+    "banned": "@{user} wurde im Channel @{channel} gebannt",
+    "lastMessages": "Letzte Nachrichten susgeePoint {link} MODS Clap",
+    "subgiftWhisper": "susgeeBusiness Subgift erhalten susgeePoint @{gifter} haut im Channel @{channel} einen Tier {tier} Sub an dich raus KUSS",
+    "subgift": "susgeeBusiness Subgift erhalten susgeePoint @{gifter} haut im Channel @{channel} einen Tier {tier} Sub an @{receiver} raus KUSS"
+  },
+  "isBanned": {
+    "self": "susgeeDank Man kann im eigenen Channel nicht gebannt werden",
+    "banned": "{user|antiPing} ist im Channel {channel|antiPing} wahrscheinlich gebannt",
+    "notBanned": "{user|antiPing} ist im Channel {channel|antiPing} wahrscheinlich nicht gebannt"
+  },
+  "isInChat": {
+    "notMod": "susgeeDank Susgeebot ist kein Mod in {channel|antiPing}",
+    "true": "{user|antiPing} ist gerade im Channel {channel|antiPing}",
+    "false": "{user|antiPing} ist gerade nicht im Channel {channel|antiPing}"
+  },
+  "language": {
+    "changed": "susgeeOK Sprache ist jetzt Deutsch",
+    "invalid": "Aktuelle Sprache ist deutsch. Verfügbare Sprachen: {languages}"
+  },
+  "lastTimeout": {
+    "self": "susgeeDank Man kann im eigenen Channel nicht getimeouted werden",
+    "none": "{user|antiPing} hat keine geloggten Timeouts in Channel {channel|antiPing}",
+    "success": "Der letzte Timeout von {user|antiPing} im Channel {channel|antiPing} war vor {delta|time}",
+    "message": "Nachricht: {message}"
+  },
+  "leaderboard": {
+    "cat": {
+      "badges": "(7TV) Badges",
+      "botties": "Botties",
+      "commands": "Commands",
+      "paints": "(7TV) Paints",
+      "prestige": "Prestige",
+      "treasures": "Schatzkisten"
+    },
+    "template": {
+      "badges": "\"{name}\": {count|number}",
+      "botties": "Prestige {prestige}, {botties|plural(one|Bottie, other|Botties)}",
+      "command": "{command}: {count|number} mal",
+      "paints": "\"{name}\": {count|number}",
+      "prestige": "{prestige}",
+      "treasures": "{treasures}"
+    },
+    "text": "Top 10 {category|include} susgeePoint {leaderboard}"
+  },
+  "lines": {
+    "success": "Im Channel {channel|antiPing} wurden {time|include} {count|plural(one|Line, other|Lines)} geschrieben"
+  },
+  "liveMessages": {
+    "noEntries": "susgeeDank Dieser Channel hat keine aktiven Live-Updates",
+    "text": "Dieser Channel hat {count|plural(one|Live-Update, other|Live-Updates)} aktiv susgeePoint {users}"
+  },
+  "liveMsg": "susgeeOK Live-Updates für {streamer|antiPing} sind jetzt {state|include}",
+  "livePing": {
+    "noLiveMessage": "susgeeDank für @{streamer} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}livemsg {streamer} aktivieren",
+    "text": "susgeeOK {ping|include} wenn @{streamer} online geht"
+  },
+  "logging": {
+    "added": "susgeeOK Nachrichten von {user|antiPing} werden nicht mehr geloggt",
+    "removed": "susgeeOK Nachrichten von {user|antiPing} werden jetzt geloggt"
+  },
+  "logs": {
+    "link": "Logs von {user|antiPing} im Channel {channel|antiPing} susgeePoint {link}",
+    "channelOrUserNotFound": "susgeeDank Keine Logs für den Channel oder User gefunden",
+    "firstMessage": "Erste Nachricht von {user|antiPing} in {channel|antiPing}: {message}",
+    "delta": "vor {time|time}"
+  },
+  "lookup": {
+    "hasRole": "susgeeOK {user|antiPing} ist {type|include} in Channel {channel|antiPing} seit {since|time}",
+    "mod": "Mod",
+    "none": "susgeeDank Channel {channel|antiPing} hat keine {type|include}s",
+    "noRole": "susgeeDank {user|antiPing} ist kein {type|include} in Channel {channel|antiPing}",
+    "noTracked": "susgeeDank {user|antiPing} ist in keinem getrackten Channel {type|include}",
+    "since": "{type|include} seit {since|time}",
+    "success": "{user|antiPing} ist in {count|plural(one|getrackten Channel, other|getrackten Channels)} {type|include} susgeePoint {link}",
+    "vip": "Vip"
+  },
+  "maersuggest": {
+    "error": "susgeeDank Nachricht konnte nicht gesendet werden",
+    "success": "BabyRage"
+  },
+  "mode": {
+    "7tv": "7tv",
+    "changed": "susgeeOK Bot Mode erfolgreich geändert zu {mode}: {name}",
+    "check": "Aktueller Bot Mode ist {mode}: {name}",
+    "default": "standard",
+    "mods": "mods",
+    "offline": "offline"
+  },
+  "mostSent": {
+    "noEntries": "susgeeDank {user|antiPing} hat noch nichts in Channel {channel|antiPing} geschrieben",
+    "success": "Meist gesendete Nachricht von {user|antiPing} in Channel {channel|antiPing}",
+    "message": "Nachricht: {message}",
+    "count": "{count|number} Mal"
+  },
+  "mostSentChannel": {
+    "noEntries": "susgeeDank Keine Nachrichten gefunden in {channel|antiPing} von {delta|include}",
+    "success": "Meist gesandte Nachricht {delta|include} in {channel|antiPing}",
+    "message": "Nachricht: {message}",
+    "count": "{count|number} Mal"
+  },
+  "mining": {
+    "noRigs": "Du besitzt noch keine Mining-Rigs! Kaufe dir eines mit {prefix}mining buy <rig-type>",
+    "invalidRig": "Ungültiger Rig-Typ! Verfügbare Typen: {types}",
+    "cantAfford": "Du hast nicht genug Botties! Preis: {price} (Du hast: {botties})",
+    "bought": "Du hast erfolgreich ein {type} Mining-Rig für {price} Botties gekauft! Hashrate: {hashrate}% pro Stunde",
+    "status": "Deine Mining-Rigs: {status}",
+    "collected": "Du hast {amount} Botties gemined! Neuer Kontostand: {newTotal} Botties"
+  },
+  "myReminder": {
+    "noEntries": "susgeeDank Du hast keine offenen Reminder",
+    "message": "Message Triggered Reminder: \n{reminder}",
+    "timed": "Time Triggered Reminder: \n{reminder}",
+    "timedMessage": "Timed Message Triggered: \n{reminder}"
+  },
+  "nameChanges": {
+    "noEntries": "User {user|antiPing} hat den Namen noch nicht geändert",
+    "optOut": "{user|antiPing} ist vom Logging ausgeschlossen susgeeNoted ",
+    "text": "Bisher geloggte Namen von {user|antiPing} (Aktueller Name seit: {since|date}): {usernames}"
+  },
+  "permissions": {
+    "bot": {
+      "admin": "susgeeDank ich werde keinen meiner Admins als Bot markieren",
+      "added": "susgeeOK {user|antiPing} ist jetzt als Bot markiert",
+      "removed": "susgeeOK {user|antiPing} ist nicht mehr als Bot markiert"
+    },
+    "ignored": {
+      "admin": "susgeeDank ich werde keinen meiner Admins ignorieren",
+      "added": "susgeeOK {user|antiPing} wird jetzt ignoriert",
+      "removed": "susgeeOK {user|antiPing} wird nicht mehr ignoriert"
+    },
+    "insufficient": {
+      "ignored": "susgeeDank Du bist auf der Ignore-Liste des Bots und kannst keine Befehle ausführen",
+      "vip": "Du musst VIP sein, um diesen Command nutzen zu können",
+      "mod": "Du musst Moderator sein, um diesen Command nutzen zu können",
+      "broadcaster": "Du musst Kanalinhaber sein, um diesen Command nutzen zu können",
+      "admin": "Du musst Admin sein, um diesen Command nutzen zu können",
+      "dev": "Du musst Dev sein, um diesen Command nutzen zu können",
+      "owner": "NOIDONTTHINKSO nur Lucas kann diesen Command ausführen"
+    },
+    "onlyAdmin": "susgeeDank Du musst Admin sein, um Permissions zu ändern",
+    "onlyOwner": "susgeeDank Du kannst Lucas' Permissions nicht ändert",
+    "ownerForbidden": "susgeeDank Die Owner Permission kann nicht vergeben werden",
+    "same": "susgeeDank User {user|antiPing} hat bereits diese Permission",
+    "status": "{user|antiPing} hat die Permission {permission}",
+    "success": "susgeeOK {user|antiPing} hat jetzt die Permission {permission}"
+  },
+  "prefix": {
+    "reserved": "susgeeDank Prefix wurde nicht geändert, da er mit einem von Twitch reservierten Symbol startet",
+    "success": "susgeeOK Prefix zu {prefix} gewechselt",
+    "tooLong": "susgeeDank Der Prefix darf maximal 15 Zeichen lang sein"
+  },
+  "prestige": {
+    "notEnough": "Du hast nicht genügend Botties. Prestige {prestige} kostet {cost|number} Botties und du hast {botties|plural(one|Bottie, other|Botties)}",
+    "success": "Prestige erfolgreich! Du hast jetzt {botties|plural(one|Bottie, other|Botties)} und bist im Prestige {prestige}. Das nächste Prestige kostet {cost|number} Botties"
+  },
+  "randLine": {
+    "noEntries": "susgeeDank {user|antiPing} hat noch nie in Channel {channel|antiPing} gechatted",
+    "entry": "Nachricht von {user|antiPing} in {channel|antiPing}: {message}",
+    "delta": "vor {delta|time}"
+  },
+  "randLineChannel": {
+    "noEntries": "susgeeDank Wir haben keine Nachrichten von Channel {channel|antiPing} gelooged",
+    "entry": "zufällige Nachricht von {user|antiPing}: {message}",
+    "delta": "vor {delta|time}"
+  },
+  "receivedSubs": {
+    "noEntries": "susgeeDank Wir haben von {user|antiPing} noch keine erhaltene Subs geloggt",
+    "success": "{user|antiPing} hat {delta|include} {count|plural(one|Sub, other|Subs)} erhalten"
+  },
+  "record": {
+    "added": "Channel der Record-Liste hinzugefügt",
+    "removed": "Channel aus der Record Liste entfernt",
+    "started": "Channel ist live, starte Aufnahme"
+  },
+  "remind": {
+    "at": "am {time} erinnern",
+    "bot": "susgeeOK Danke dass du mich daran erinnerst",
+    "userBot": "susgeeDank {user} ist ein Bot, dem ich keine Reminder sende",
+    "userIgnored": "susgeeDank {user|antiPing} wird ignoriert und kann keine Reminder erhalten",
+    "maxReminders": "Du hast bereits das Limit für Reminder erreicht",
+    "nextTimeSelf": "beim Nächsten mal schreiben erinnern",
+    "nextTimeOther": "wenn du das nächste Mal schreibst erinnern",
+    "other": "Ich werde {user}",
+    "pastDate": "susgeeDank Du kannst keine Reminder für die Vergangenheit setzen",
+    "self": "Ich werde dich",
+    "tooFarAway": "susgeeDank Du kannst keine Reminder erstellen, der mehr als 2 Jahre in der Zukunft liegt"
+  },
+  "reminder": {
+    "tooLong": "@{receiver} Deine Reminder sind zu lang für den Chat susgeePoint {paste}",
+    "message": "Reminder von {sender|antiPing} susgeePoint \" {text} \" vor {delta|time}",
+    "timed": "@{receiver} Timed Reminder von {sender|antiPing}: \" {text} \" vor {delta|time}"
+  },
+  "rename": {
+    "failed": "susgeeDank Kein neuer Name für {user|antiPing} gefunden",
+    "notInDatabase": "susgeeDank {user|antiPing} ist nicht in meiner Datenbank",
+    "success": "susgeeOK Rename erfolgreich: {oldUser} susgeePoint {newUser}"
+  },
+  "seRank": {
+    "notFound": "{user|antiPing} ist nicht in den Top 100 Chattern von {channel|antiPing}",
+    "success": "{user|antiPing} ist Platz {rank} im StreamElements Ranking von {channel|antiPing}"
+  },
+  "split": {
+    "usage": "susgeeDank Die Nachricht muss zwischen {min} und {max} Wörtern beinhalten"
+  },
+  "stalk": {
+    "bot": "Ich bin doch hier susgeeDank",
+    "channel": {
+      "other": "Channel {channel|antiPing}",
+      "theirs": "deren Channel"
+    },
+    "delta": "vor {delta|time}",
+    "neverSeen": "susgeeDank Keine Nachricht von {user|antiPing} gefunden",
+    "self": "Du bist doch hier susgeeDank",
+    "success": "susgeeNoted Letzte Nachricht von {user|antiPing} in {channel}: {message}"
+  },
+  "streamInfo": {
+    "live": "{channel|antiPing} ist gerade live susgeeLIVE",
+    "offline": "{channel|antiPing} ist offline susgeeOffline",
+    "neverStreamed": "Auf diesem Channel wurde noch nie gestreamt PoroSad",
+    "lastStream": "Letzter Stream vor {delta|time}",
+    "title": "Titel: {title}",
+    "category": "Kategorie: {category}",
+    "uptime": "Live seit: {delta|time}",
+    "viewers": "Zuschauer: {viewers|number}",
+    "language": "Sprache: {language} {flag}",
+    "link": "Link: {link}",
+    "newCategoryAndTitle": "susgeeNoted Neue Kategorie und Titel im Channel @{channel}",
+    "noTitle": "(Kein Titel)",
+    "noCategory": "(Keine Kategorie)",
+    "newTitle": "susgeeNoted Neuer Titel im Channel @{channel}",
+    "newCategory": "susgeeNoted Neue Kategorie im Channel @{channel}"
+  },
+  "streamStatus": {
+    "live": "@{streamer} ist susgeeLIVE",
+    "offline": "@${streamer} ist susgeeOffline"
+  },
+  "subAge": {
+    "ended": "vor {delta|time} geendet",
+    "ends": "endet in {delta|time}",
+    "expired": "kein Sub mehr",
+    "giftedSub": "geschenkt von {giftedBy|antiPing}",
+    "neverSubbed": "noch nie bei {channel|antiPing} abonniert",
+    "notSubscribable": "susgeeDank Channel {channel|antiPing} ist nicht Affiliate/Partner",
+    "permanent": "permanenter Sub",
+    "renews": "erneuert sich in {delta|time}",
+    "since": "Sub seit {months|plural(one|Monat, other|Monate)}",
+    "statusHidden": "User {user|antiPing} hat den Substatus versteckt",
+    "streak": "{streak} monatige Streak",
+    "subscribedFor": "bisher für {months|plural(one|Monat, other|Monate)} bei {channel|antiPing} abonniert",
+    "tier": "{tier} Sub"
+  },
+  "subEmotes": {
+    "none": "susgeeDank Channel {channel|antiPing} hat keine Sub-Emotes"
+  },
+  "subgifts": {
+    "noEntries": "{user|antiPing} hat {delta|include} im Channel {channel|antiPing} keine Subs verschenkt",
+    "stats": "{user|antiPing} hat {delta|include} im Channel {channel|antiPing} {count|number} Subs verschenkt (Wert: {price}€)"
+  },
+  "subGiftPing": {
+    "disabled": "Ich pinge dich nicht mehr, wenn ich einen Subgift erkenne",
+    "enabled": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift erkenne",
+    "whisper": "susgeeOK Ich werde dir whispern, wenn ich ein Subgift erkenne"
+  },
+  "subinfo": {
+    "noEntries": "Im Channel {channel|antiPing} wurden {delta|include} keine Subs verteilt",
+    "stats": "Sub-Info für Channel {channel|antiPing} {delta|include}: Total Subs: {total|number}, First-time subs: {firstTime|number}, Tiers: (P, T1, T2, T3) => {prime|number}, {tier1|number}, {tier2|number}, {tier3|number}"
+  },
+  "suggestion": {
+    "actions": {
+      "finished": "fertig gemacht",
+      "approved": "approved und wird demnächst bearbeitet",
+      "deleted": "gelöscht",
+      "implemented": "implementiert"
+    },
+    "maxEntries": "susgeeDank Du kannst nicht mehr als 5 Vorschläge pro Tag einreichen",
+    "noEntries": "susgeeDank Keine Suggestions in der Datenbank gefunden",
+    "notFound": "susgeeDank Keine Suggestion mit der ID {id} gefunden",
+    "notification": "susgeeOK Suggestion \"{text}\" wurde {action|include}",
+    "response": "Suggestion {id} von {user|antiPing} erfolgreich {action|include}",
+    "success": "susgeeOK Dein Vorschlag/Anfrage wurde gespeichert, und wird manuell bearbeitet (ID: {id})"
+  },
+  "topBans": {
+    "noEntries": "susgeeDank Im Channel {channel|antiPing} gibt es keine Ban",
+    "success": "Die Chatter mit den meisten Bans im Channel {channel|antiPing} sind: {leaderboard} KEK"
+  },
+  "topChatter": {
+    "noEntries": "susgeeDank Im Channel {channel|antiPing} wurde {delta|include} nicht gechattet",
+    "entry": "{user|antiPing}: {count|number}",
+    "text": "Die aktivsten Chatter {delta|include} im Channel {channel|antiPing} sind: {leaderboard}"
+  },
+  "topSubgifts": {
+    "noEntries": "susgeeDank Im Channel {channel|antiPing} wurden {delta|include} keine subs gegiftet",
+    "entry": "{user|antiPing}: {count|number}",
+    "text": "Die aktivsten Sub-Gifter {delta|include} im Channel {channel|antiPing} sind: {leaderboard}"
+  },
+  "topTimeouts": {
+    "noEntries": "susgeeDank Im Channel {channel|antiPing} wurde {delta|include} niemand getimeouted",
+    "success": "Im Channel {channel|antiPing} wurden {delta|include} {count|number} Timeouts geloggt"
+  },
+  "timeouts": {
+    "noEntries": "{user|antiPing} hat {delta|include} im Channel {channel|antiPing} noch keine Timeouts kassiert",
+    "userStats": "{user|antiPing} hat {delta|include} im Channel {channel|antiPing} insgesamt {count|plural(one|timeout, other|timeouts)} kassiert"
+  },
+  "unban": {
+    "error": "susgeeDank konnte {user|antiPing} nicht im Channel {channel|antiPing} unbannen",
+    "noUsers": "susgeeDank konnte keine User finden",
+    "success": "susgeeOK fertig mit dem unbannen"
+  },
+  "unRemind": {
+    "invalidId": "susgeeDank ID muss eine Zahl sein",
+    "notFound": "susgeeDank Keinen Reminder mit der ID {id} gefunden",
+    "notYours": "susgeeDank Reminder mit der ID {id} ist nicht von dir",
+    "success": "susgeeOK Reminder mit der ID {id} wurde gelöscht"
+  },
+  "user": {
+    "age": "Alter: {age|time}",
+    "badge": "Badge: {badge}",
+    "banned": {
+      "deactivated": "Banned: ⏸ FALSE ({reason}) Account deaktiviert seit {since|time}",
+      "false": "Banned: ⏸ FALSE",
+      "true": "Banned: ⛔ TRUE ({reason}) gebannt seit {since|time}"
+    },
+    "banner": "Profile Banner: {banner}",
+    "bot": {
+      "known": "Intern als Bot gekennzeichnet: {check}",
+      "verified": "Verifizierter Bot: {check}"
+    },
+    "color": "Farbe: {color}",
+    "createdAt": "Erstellt am: {createdAt|date}",
+    "followers": "Followers: {followers|number}",
+    "follows": "Follows: {follows|number}",
+    "isBanned": "⛔ Banned ({reason})",
+    "role": "{type|include}: {emoji}",
+    "roles": {
+      "affiliate": "Affiliate",
+      "list": "Rollen: {roles}",
+      "partner": "Partner",
+      "staff": "Staff"
+    }
+  },
+  "weather": {
+    "noUser": "susgeeDank Du musst einen User angeben",
+    "noUserLocation": "susgeeDank Dieser Benutzer hat keine Stadt gespeichert",
+    "noLocationSet": "susgeeDank Gib eine Stadt an, oder sende Susgeebot eine Whisper-Nachricht mit dem Inhalt \"wetter stadt\" um deine Stadt zu speichern",
+    "locationNotFound": "susgeeDank Ich kann keine Informationen über diesen Ort finden",
+    "location": "{location} {flag}",
+    "locationHidden": "Standort versteckt forsenCD {flag}",
+    "weather": "Wetter: {weather}",
+    "temperature": "Temperatur: {temp}°C",
+    "feelsLike": "Gefühlt: {temp}°C",
+    "humidity": "Luftfeuchtigkeit: {humidity}%",
+    "sunrise": "Sonnenaufgang: {time}",
+    "sunset": "Sonnenuntergang: {time}",
+    "currentTime": "Aktuelle Uhrzeit (circa): {date}"
+  },
+  "youtube": {
+    "submitId": "Du musst eine YouTube Video ID/Link angeben",
+    "likes": "👍 Likes: {likes|number} ({percentage}%)",
+    "dislikes": "👎 Dislikes: {dislikes|number} ({percentage}%)",
+    "views": "👁 Views: {views|number}",
+    "date": "📅 Stats erfasst vor: {delta|time}"
+  },
+  "meta": {
+    "7tv": {
+      "usage": "[add | remove | rename | replace | yoink | import]",
+      "description": "Verwaltet in deinem Twitch Channel 7TV Emotes. (Der Bot braucht 7TV-Editor Rechte vom Channel)",
+      "usages": {
+        "add": "<Emote> (<NeuerName>)",
+        "remove": "<Emote> <Emote>",
+        "rename": "<Emote> <NeuerName>",
+        "replace": "<Altes Emote> <Neues Emote> (<NeuerName>)",
+        "yoink": "<Channel> <Emote> (<NeuerName>)",
+        "import": "<Channel / Emote-Set-Id>"
+      }
+    },
+    "7tvc": {
+      "usage": "[add | remove | rename | replace | yoink | import]",
+      "description": "Verwaltet 7TV Emotes in anderen Channels",
+      "usages": {
+        "add": "<Emote> (<NeuerName>)",
+        "remove": "<Emote> <Emote>",
+        "rename": "<Emote> <NeuerName>",
+        "replace": "<Altes Emote> <Neues Emote> (<NeuerName>)",
+        "yoink": "<Channel> <Emote> (<NeuerName>)",
+        "import": "<Channel / Emote-Set-Id>"
+      }
+    },
+    "7tvEditor": {
+      "usage": "<User>",
+      "description": "Füge einen Editor für (7TV) Emotes hinzu"
+    },
+    "7tvEditorList": {
+      "description": "Zeigt die User mit 7tv Bot Editoren Rechte an"
+    },
+    "7tvMsg": {
+      "usage": "<Channel>",
+      "description": "Aktiviert/deaktiviert 7TV-Benachrichtigungen im Chat"
+    },
+    "7tvSa": {
+      "usage": "<User>",
+      "description": "Zeigt den Substatus von einem User bei 7tv an"
+    },
+    "7tvUser": {
+      "usage": "<User>",
+      "description": "Suche einen User auf 7TV"
+    },
+    "8ball": {
+      "usage": "<Message>",
+      "description": "Antwortet auf deine Fragen"
+    },
+    "aare": {
+      "description": "Flusstemperatur in Thun"
+    },
+    "activeChannel": {
+      "usage": "<User>",
+      "description": "Sendet eine Liste an Channels in welchen ein User eine Nachricht geschickt hat"
+    },
+    "addBetween": {
+      "usage": "<Füllwort> <Trennwort>",
+      "description": "Teilt jedes Wort in eine einzelne Nachricht auf"
+    },
+    "addBot": {
+      "description": "Infos wie du den Bot hinzufügen kannst"
+    },
+    "afk": {
+      "usage": "<AFK Text>",
+      "description": "Setzt deinen Status auf AFK"
+    },
+    "allEmotes": {
+      "usage": "<Channel>",
+      "description": "Sendet alle Emotes 7TV/BTTV/FFZ/TWITCH von einem Channel in den Chat"
+    },
+    "animal": {
+      "description": "Sendet ein zufälliges Bild eines Tieres"
+    },
+    "announce": {
+      "usage": "<Text>",
+      "description": "Spam eine Twitch-Ankündigung im Chat"
+    },
+    "antiPing": {
+      "usage": "<Wort/Text>",
+      "description": "FeelsBingMan 💢 "
+    },
+    "avatar": {
+      "usage": "<User>",
+      "description": "Sendet den Link zum Profilbild eines Users"
+    },
+    "ayaya": {
+      "description": "AYAYA"
+    },
+    "badge": {
+      "usage": "<User>",
+      "description": "Zeigt die aktuelle 7TV Badge von einem User an"
+    },
+    "ban": {
+      "usage": "<User>",
+      "description": "Bannt einen User im Channel"
+    },
+    "banList": {
+      "usage": "<raw user list url> [<Reason>]",
+      "description": "Bannt eine Liste von Benutzern im Channel"
+    },
+    "banMsg": {
+      "usage": "<Channel> oder disable, um alle zu deaktivieren",
+      "description": "Aktiviert/deaktiviert die Ban Mitteilungen"
+    },
+    "bans": {
+      "usage": "[alltime | today | yesterday | month | lastmonth | year | lastyear] <Channel>",
+      "description": "Zeigt die Anzahl der Bans auf bestimmten Chats an"
+    },
+    "bible": {
+      "usage": "(<ID>)",
+      "description": "Sendet eine Random Nachricht aus der Bible Datenbank"
+    },
+    "bibleAdd": {
+      "usage": "<Text>",
+      "description": "Fügt einen Text der Bibeldatenbank hinzu"
+    },
+    "bibleDelete": {
+      "usage": "<ID>",
+      "description": "Löscht einen Text von dir aus der Datenbank"
+    },
+    "bibleList": {
+      "description": "Gibt dir den Link zur Bibeldatenbank"
+    },
+    "birthday": {
+      "usage": "[add | remove] <Name> <Tag> <Monat>",
+      "description": "Fügt einen Geburtstag hinzu oder entfernt ihn aus der Datenbank"
+    },
+    "birthdayMsg": {
+      "description": "Schaltet Geburtstags Ankündigungen aus oder ein"
+    },
+    "birthdays": {
+      "description": "Sendet alle Geburtstage aus der Datenbank für den aktuellen Channel"
+    },
+    "blow": {
+      "description": "💨 🎈"
+    },
+    "boobaTv": {
+      "description": "Sendet das Thumbnail von einen Streamer auf booba.tv"
+    },
+    "bot": {
+      "usage": "<User>",
+      "description": "Gibt einem User die Bot-Permission (shortcut für permission bot <user>"
+    },
+    "botSubs": {
+      "description": "Sehe alle Sub-Emotes von Kanälen an, von denen der Bot einen Sub hat"
+    },
+    "botties": {
+      "description": "Botties Mini-Game"
+    },
+    "bottiesBan": {
+      "usage": "<User>",
+      "description": "Jemanden von Botties Mini-Game ausschliessen"
+    },
+    "casino": {
+      "description": "Casino"
+    },
+    "channel": {
+      "usage": "[join | rejoin | part] <Channel>",
+      "description": "Join oder part einen Channel"
+    },
+    "channels": {
+      "description": "Sendet einen Liste von allen Channels"
+    },
+    "channelStats": {
+      "usage": "<Channel>",
+      "description": "Sendet die aktuellen Chat-Statistiken eines Channels"
+    },
+    "chat": {
+      "usage": "<User>",
+      "description": "Zeigt an ob jemand Chatterino oder den Twitch Web Chat nutzt"
+    },
+    "chatterino": {
+      "description": "Sendet Links zu den aktuellen Chatterino Versionen"
+    },
+    "chatters": {
+      "usage": "<Channel>",
+      "description": "Sendet die Anzahl der Chatter in einem Channel"
+    },
+    "chatting": {
+      "usage": "[alltime | today | yesterday | month | lastmonth | year] <User> <Channel>",
+      "description": "Sendet Chat-Statistiken von einem Twitch User in einem Channel"
+    },
+    "clear": {
+      "description": "Leert den Chat "
+    },
+    "clip": {
+      "usage": "<Channel>",
+      "description": "Erstellt einen Clip vom angegebenen Kanal"
+    },
+    "cock": {
+      "description": "Wie huge ist dein kok?"
+    },
+    "coinFlip": {
+      "description": "Kopf oder Zahl?"
+    },
+    "command": {
+      "usage": "[check | disable | enable] <Command>",
+      "description": "Deaktivieren/Aktivieren eines Befehls im aktuellen Kanal"
+    },
+    "customCommand": {
+      "usage": "[add | remove | edit | list] <Name> <Command>",
+      "description": "Benutzerdefinierte Befehle verwalten (hinzufügen, entfernen, aktualisieren, auflisten)"
+    },
+    "deadChannels": {
+      "usage": "<Channel>",
+      "description": "Sucht nach Channels, die länger als 2 Wochen keine geloggte Nachricht haben"
+    },
+    "deleteSuggest": {
+      "usage": "<ID>",
+      "description": "Löscht deinen Vorschlag aus der Datenbank"
+    },
+    "dislikes": {
+      "usage": "<YouTube Video ID/Link>",
+      "description": "Sendet die Stats eines YouTube-Videos"
+    },
+    "duhuuuuuuure": {
+      "description": "Special Shoutout für einen random User im Chat"
+    },
+    "echo": {
+      "usage": "<Text>",
+      "description": "Wiederholt deine Nachricht"
+    },
+    "eCount": {
+      "usage": "<Emote> <Channel>",
+      "description": "Zeigt wie Oft ein Emote in einem Channel benutzt wurde"
+    },
+    "eCountToday": {
+      "usage": "<Emote> <Channel>",
+      "description": "Zeigt wie Oft ein Emote in einem Channel heute benutzt wurde"
+    },
+    "eCountUser": {
+      "usage": "<Emote> <User> <Channel>",
+      "description": "Zeigt wie oft ein User ein Emote in einem Channel benutzt hat"
+    },
+    "emote": {
+      "usage": "<Emote>",
+      "description": "Gibt Informationen zu einem Twitch-Emote zurück"
+    },
+    "emotes": {
+      "usage": "<Channel>",
+      "description": "Sendet den Link zu allen Emotes im Channel"
+    },
+    "emoteSet": {
+      "usage": "<Channel>",
+      "description": "Gibt das aktive 7TV Emote-Set von einem Channel zurück"
+    },
+    "emoteSets": {
+      "usage": "<Channel>",
+      "description": "Gibt alle 7TV Emote-Sets von einem Channel zurück"
+    },
+    "errorList": {
+      "description": "Schickt eine Liste an Errors"
+    },
+    "eSearch": {
+      "usage": "[bttv | ffz | seventv] <Emote>",
+      "description": "Suche ein Emote auf bttv/ffz/7tv nach Namen"
+    },
+    "eval": {
+      "usage": "<Code>",
+      "description": "Führt Javascript aus"
+    },
+    "ezGif": {
+      "usage": "<Emote>",
+      "description": "Erhalte einen Ezgif Link für ein Emote"
+    },
+    "feelsGoodMan": {
+      "description": "FeelsGoodMan"
+    },
+    "fill": {
+      "usage": "<Text>",
+      "description": "Wiederholt die angegebene Phrase, bis sie 500 Zeichen erreicht"
+    },
+    "firstLoggedLine": {
+      "usage": "<User> <Channel>",
+      "description": "Sendet die erste geloggte Nachricht des Users aus der Datenbank von https://logs.florian2807.me"
+    },
+    "followAge": {
+      "usage": "<User> <Channel>",
+      "description": "Zeigt den Follow-Status eines Users an"
+    },
+    "founders": {
+      "usage": "<Channel>",
+      "description": "Sendet eine Founderliste von einem Channel"
+    },
+    "freeAll": {
+      "description": "Hebt alle Timeouts von Usern aus der Userlist auf"
+    },
+    "fuck": {
+      "usage": "<User>",
+      "description": "Dink a specific user or randomly select a chatter"
+    },
+    "funFact": {
+      "description": "Sendet einen zufälligen FunFact"
+    },
+    "gamba": {
+      "usage": "<Anzahl Botties | half | all | z.b 20%>",
+      "description": "Verspiele deine Botties"
+    },
+    "give": {
+      "usage": "<User> <Anzahl Botties | half | all | zB 20%>",
+      "description": "Verschenke Botties an einen anderen User"
+    },
+    "global": {
+      "description": "Sendet alle Globalen Emotes von 7TV/BTTV/FFZ/TWITCH"
+    },
+    "global2": {
+      "description": "Sendet alle Globalen Twitch Badges"
+    },
+    "global3": {
+      "description": "Sendet alle Globalen 7TV Badges"
+    },
+    "globalEmoteAnnounce": {
+      "description": "Sendet eine Nachricht, wenn ein Global Emote/Badge bei BTTV, Twitch oder 7TV hinzugefügt wird"
+    },
+    "gpt": {
+      "usage": "<Text>",
+      "description": "Frage ChatGPT nach seiner Meinung"
+    },
+    "help": {
+      "usage": "<Command>",
+      "description": "Bringt dich hier her"
+    },
+    "hug": {
+      "usage": "<User>",
+      "description": "Umarme jemanden 🤗"
+    },
+    "id": {
+      "usage": "<User>",
+      "description": "Gibt die User-IDs von Twitch/7TV zurück"
+    },
+    "ignore": {
+      "usage": "<User>",
+      "description": "Ignorier ein User"
+    },
+    "isBanned": {
+      "usage": "<User> <Channel>",
+      "description": "Überprüft, ob ein User im angegeben Channel gebannt ist"
+    },
+    "isInChat": {
+      "usage": "<User> <Channel>",
+      "description": "Schaut ob ein User im Chat ist"
+    },
+    "kok": {
+      "description": "COCK WAVE"
+    },
+    "lang": {
+      "usage": "[de | en]",
+      "description": "Ändert die Sprache des Bots"
+    },
+    "lastLine": {
+      "usage": "<User> <Channel>",
+      "description": "Sendet die zuletzt geloggte Nachricht von einem User in einem Channel"
+    },
+    "lastTimeout": {
+      "usage": "<User> <Channel>",
+      "description": "Sendet den zuletzt geloggten Timeout von einem User"
+    },
+    "leaderboard": {
+      "description": "Sendet das Leaderboard der Botties"
+    },
+    "lilb": {
+      "description": "julius"
+    },
+    "lines": {
+      "usage": "[today | yesterday | month | year | alltime] <Channel>",
+      "description": "Sendet die Anzahl der gesendeten Nachrichten in einem Channel"
+    },
+    "liveMsg": {
+      "usage": "<Channel>",
+      "description": "Aktiviert/deaktiviert Live-Ankündigungen für einen Channel"
+    },
+    "liveMsgs": {
+      "description": "Zeigt alle Channels an, für welche Live-Benachrichtigungen aktiviert sind"
+    },
+    "livePing": {
+      "usage": "<Channel>",
+      "description": "Pingt dich (nicht mehr), wenn ein Streamer online geht"
+    },
+    "logging": {
+      "usage": "(<User>)",
+      "description": "Aktiviert oder deaktiviert das Logging für den Benutzer"
+    },
+    "logs": {
+      "usage": "<User> <Channel>",
+      "description": "Sendet einen Link zu Userlogs in einem Channel"
+    },
+    "lol": {
+      "usage": "<User>",
+      "description": "Bannt/Unbannt einen User 10x"
+    },
+    "loserboard": {
+      "description": "Sendet das Loserboard von Botties"
+    },
+    "maersuggest": {
+      "usage": "<Text>",
+      "description": "BabyRage marceeeeel"
+    },
+    "math": {
+      "usage": "<Mathe (5*2^2)>",
+      "description": "Rechnet etwas aus"
+    },
+    "mining": {
+      "usage": "[buy | collect | status] [basic | advanced | pro | experimental]",
+      "description": "Verwalte deine Bottie-Mining-Rigs"
+    },
+    "modAge": {
+      "usage": "<User> <Channel>",
+      "description": "Mod Status von einem User anzeigen"
+    },
+    "mode": {
+      "usage": "<0: deaktiviert, 1: standard, 2: offline, 3: 7tv, 4: mods>",
+      "description": "Ändert den Modus des Bots"
+    },
+    "modLookup": {
+      "usage": "<User>",
+      "description": "Sendet eine List von Channels wo der User Mod ist"
+    },
+    "mods": {
+      "usage": "<Channel>",
+      "description": "Zeigt eine Liste der Mods in einem Channel an"
+    },
+    "mostSent": {
+      "usage": "<User> <Channel>",
+      "description": "Sendet die am häufigsten gesendete Nachricht eines Users in einem Kanal"
+    },
+    "mostSentChannel": {
+      "usage": "[alltime | today | yesterday | month] <Channel>",
+      "description": "Sendet die am häufigsten gesendete Nachricht in einem Kanal"
+    },
+    "myBible": {
+      "description": "Sendet dir deine Bibel-Texte aus der Datenbank"
+    },
+    "mylifeislul": {
+      "description": "buh"
+    },
+    "myReminder": {
+      "description": "Zeigt dir deine Reminder an"
+    },
+    "nameChanges": {
+      "usage": "<User>",
+      "description": "Zeigt Namensänderungen eines Users an"
+    },
+    "nextBirthday": {
+      "description": "Zeigt die nächsten Geburtstage von diesem Channel"
+    },
+    "paint": {
+      "usage": "<User | Paint>",
+      "description": "Zeigt Infos einer Paint oder die aktuelle 7TV Paint von einem User an"
+    },
+    "paste": {
+      "description": "Link zur Susgee-Paste"
+    },
+    "percent": {
+      "description": "Sendet eine zufällige Prozentzahl zwischen 0% und 100%"
+    },
+    "permission": {
+      "usage": "[status | admin | dev | mod | vip | default] <User>",
+      "description": "Zeigt die Bot-Rechte von einem User an oder ändert diese"
+    },
+    "pick": {
+      "usage": "<Option 1> <Option 2> ...",
+      "description": "Wählt ein zufälliges Wort aus der Eingabe"
+    },
+    "ping": {
+      "description": "pong! 🏓"
+    },
+    "prefix": {
+      "usage": "<Prefix>",
+      "description": "Ändert den Bot-Prefix für deinen Kanal (Standard ist ?)"
+    },
+    "presence": {
+      "usage": "<User>",
+      "description": "Aktualisiert dein 7TV Paint und Badge"
+    },
+    "prestige": {
+      "description": "Erhöhe dein Botties-Prestige, um mehr Botties jede Stunde abzuholen"
+    },
+    "pyramid": {
+      "usage": "<Amount (1-25)> <Text> oder stop, um die Pyramide abzubrechen",
+      "description": "Erstellt eine Pyramide im Chat"
+    },
+    "randLine": {
+      "usage": "<User> <Channel>",
+      "description": "Sendet eine zufällige Nachricht eines Users in einem Kanal"
+    },
+    "randLineChannel": {
+      "usage": "<Channel>",
+      "description": "Sendet eine zufällige Nachricht aus einem Kanal"
+    },
+    "randomColor": {
+      "description": "Sendet eine Zufällen Hex Farbcode"
+    },
+    "randomPing": {
+      "description": "Pingt einen User im Channel"
+    },
+    "randomPoofAll": {
+      "description": "Gibt allen Chattern im Channel einen Timeout mit einer zufälligen Länge"
+    },
+    "receivedSubs": {
+      "usage": "[alltime | today | yesterday | month] <User>",
+      "description": "Zeigt wie viele Subgifts ein User bekommen hat"
+    },
+    "record": {
+      "usage": "<Channel>",
+      "description": "Fügt einen Channel zur Recording-Liste hinzu oder entfernt ihn"
+    },
+    "regex": {
+      "usage": "<Text>",
+      "description": "Erstellt einen Regex für Chatterino"
+    },
+    "remind": {
+      "usage": "<User> <Text> (in 6 tagen 49 minuten) oder (am 14.02.2023 15:38)",
+      "description": "Setze eine Erinnerung an einen User oder dich selbst. Erinnerungen können auch in zeitlich erstellt werden",
+      "usages": {
+        "me": "<Text> (in 6 tagen 49 minuten 15 sekunden) oder (am 14.02.2023 15:38)"
+      }
+    },
+    "rename": {
+      "description": "Ändert deinen Namen in der Datenbank nach einem Rename"
+    },
+    "say": {
+      "usage": "<Channel> <Text>",
+      "description": "Says something in a given chat"
+    },
+    "scrape": {
+      "usage": "[7tv-cosmetics | 7tv-ids | stop]",
+      "description": "scraped bisschen daten"
+    },
+    "seRank": {
+      "usage": "<User> <Channel>",
+      "description": "Zeigt dir deinen StreamElements Rank in einem Channel an"
+    },
+    "short": {
+      "usage": "<Url>",
+      "description": "Kürzt deinen Link"
+    },
+    "spam": {
+      "usage": "<Amount (1-50)> <Message> oder stop, um den spam abzubrechen",
+      "description": "Spam eine Phrase im Chat"
+    },
+    "split": {
+      "usage": "<Text>",
+      "description": "Teilt jedes Wort in eine einzelne Nachricht auf"
+    },
+    "sql": {
+      "usage": "(ch) [console | paste | chat] <SQL>",
+      "description": "Führt eine SQL Query aus"
+    },
+    "stalk": {
+      "usage": "<User>",
+      "description": "Sendet die zuletzt gesehene Chat-Nachricht des Users"
+    },
+    "stats": {
+      "usage": "<User>",
+      "description": "Sendet die Botties Stats von einem User"
+    },
+    "streamInfo": {
+      "usage": "<Channel>",
+      "description": "Sendet Informationen über den Stream des angegebenen Channels"
+    },
+    "subAge": {
+      "usage": "<User> <Channel>",
+      "description": "Zeigt den Substatus von einem User an"
+    },
+    "subGiftPing": {
+      "usage": "(whisper) wenn subgifts über whisper gesendet werden sollen",
+      "description": "Add/remove User von der Subgiftping Liste"
+    },
+    "subGifts": {
+      "usage": "[alltime | today | yesterday | month] <User> <Channel>",
+      "description": "Zeigt wie viele Subgifts ein User verteilt hat"
+    },
+    "subInfo": {
+      "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <Channel>",
+      "description": "Checkt, wie viele Subs ein Channel am aktuellen Tag erhalten hat"
+    },
+    "suggest": {
+      "usage": "<Text>",
+      "description": "Mache einen Vorschlag für den Bot"
+    },
+    "suggestion": {
+      "usage": "[approve | finish | deletesilent] <ID> oder list",
+      "description": "Verwalte Vorschläge"
+    },
+    "swim": {
+      "usage": "<Location>",
+      "description": "die tägliche schwimm-streak von marcel"
+    },
+    "timeouts": {
+      "usage": "[today | alltime] <User> <Channel>",
+      "description": "Zeigt wie viele Timeouts ein User in einem Channel hat"
+    },
+    "topBadges": {
+      "description": "Zeigt die Top 5 Badges in der Susgee Datenbank an"
+    },
+    "topBans": {
+      "usage": "<Channel>",
+      "description": "Zeigt die Chatter mit den meisten Bans in einem Channel"
+    },
+    "topChatter": {
+      "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <Channel>",
+      "description": "Zeigt die Topchatter von einem Channel"
+    },
+    "topCommands": {
+      "description": "Zeigt die Top 10 Commands von Susgeebot an"
+    },
+    "topPaints": {
+      "description": "Zeigt die Top 5 Paints in der Susgee Datenbank an"
+    },
+    "topSubGifts": {
+      "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <Channel>",
+      "description": "Zeigt die Topsubgifter von einem Channel"
+    },
+    "topTimeouts": {
+      "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <Channel>",
+      "description": "Zeigt wie viele Timeouts ein User in einem Channel hat"
+    },
+    "unban": {
+      "usage": "<User>",
+      "description": "Entbannt einen Benutzer aus einem Twitch-Chat"
+    },
+    "unbanList": {
+      "usage": "<raw user list url, one user per line>",
+      "description": "Entbannt eine Liste von Leuten im Channel"
+    },
+    "unRemind": {
+      "usage": "<ID>",
+      "description": "Entfernt einen Reminder aus der Datenbank"
+    },
+    "updateMsg": {
+      "usage": "<Channel>",
+      "description": "Aktiviert/deaktiviert Title/Kategorie Updates für einen Channel"
+    },
+    "user": {
+      "usage": "<User | UserId>",
+      "description": "Details zu einem Twitch-Benutzer abrufen"
+    },
+    "vanish": {
+      "description": "Timeouted dich für eine Sekunde"
+    },
+    "vanity": {
+      "description": "Teste Paint/Badge Kombinationen"
+    },
+    "vipAge": {
+      "usage": "<User> <Channel>",
+      "description": "Vip Status von einem User anzeigen"
+    },
+    "vipLookup": {
+      "usage": "<User>",
+      "description": "Sendet eine List von Channels wo der User Vip ist"
+    },
+    "vips": {
+      "usage": "<Channel>",
+      "description": "Zeigt eine Liste der Vips in einem Channel an"
+    },
+    "weather": {
+      "usage": "<location> oder user <username>",
+      "description": "Sendet die Wetterinformationen für den angegebenen Ort"
+    },
+    "xd": {
+      "usage": "[restart | pull | load/reload/unload <Command> | module <Module>] chainable mit ,|",
+      "description": "Startet den Bot neu, pull git changes, re/un-load commands. Chainable mit ,|"
+    },
+    "y": {
+      "usage": "<EmoteName | 7TV-Link> -c channel1, channel2",
+      "description": "Laze only"
+    },
+    "yoink": {
+      "usage": "<Emote> (<NeuerName>)",
+      "description": "Klaue ein Emote und adde es in deinem Channel"
+    },
+    "z": {
+      "usage": "[add | remove | rename | replace | yoink | import]",
+      "description": "Laze only",
+      "usages": {
+        "add": "<Emote> (<NeuerName>)",
+        "remove": "<Emote> <Emote>",
+        "rename": "<Emote> <NeuerName>",
+        "replace": "<Altes Emote> <Neues Emote> (<NeuerName>)",
+        "yoink": "<Channel> <Emote> (<NeuerName>)",
+        "import": "<Channel / Emote-Set-Id>"
+      }
+    },
+    "zimtzimt": {
+      "description": "Zimtzimt ist super"
+    }
+  }
+}
