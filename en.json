@@ -43,7 +43,7 @@
       "title": "(no title)",
       "user": "(unknown user)"
     },
-    "usage": "susgeeDank usage: {prefix}{command} {usage}",
+    "usage": "susgeeDank usage: {prefix}{command} {usage|include}",
     "userOptOut": "susgeeDank this user has opted out of logging"
   },
   "toggle": {

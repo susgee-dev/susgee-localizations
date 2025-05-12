@@ -43,7 +43,7 @@
       "title": "(kein Titel)",
       "user": "(unbekannter User)"
     },
-    "usage": "susgeeDank Benutzung: {prefix}{command} {usage}",
+    "usage": "susgeeDank Benutzung: {prefix}{command} {usage|include}",
     "userOptOut": "susgeeDank Dieser User ist vom Logging ausgeschlossen"
   },
   "toggle": {
