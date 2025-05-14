@@ -154,8 +154,8 @@
       "nextBadgeInDays": "in {days|plural(one|day, other|days)}",
       "nextBadgeInHours": "in {hours|plural(one|hour, other|hours)}",
       "renews": "renews in {delta|time}",
-      "since": "subscribed for {days|plural(one|day, other|days)}",
-      "subscribedFor": "subscribed for {days|plural(one|day, other|days)}"
+      "since": "subscribed since {days|plural(one|day, other|days)}",
+      "subscribedFor": "previously subscribed for {days|plural(one|day, other|days)}"
     },
     "user": {
       "badge": "badge: {badge}",
@@ -770,10 +770,10 @@
     "notSubscribable": "susgeeDank channel {channel|antiPing} is not affiliate/partner",
     "permanent": "permanent sub",
     "renews": "renews in {delta|time}",
-    "since": "subscribed since {months|plural(one|month, other|months)}",
     "statusHidden": "user {user|antiPing} has hidden their subscription status",
     "streak": "{streak} month streak",
-    "subscribedFor": "subscribed to {channel|antiPing} for {months|plural(one|month, other|months)}",
+    "since": "subscribed to {channel|antiPing} since {months|plural(one|month, other|months)}",
+    "subscribedFor": "previously subscribed to {channel|antiPing} for {months|plural(one|month, other|months)}",
     "tier": "{tier} sub"
   },
   "subEmotes": {

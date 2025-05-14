@@ -155,7 +155,7 @@
       "nextBadgeInHours": "in {hours|plural(one|Stunde, other|Stunden)}",
       "renews": "erneuert sich in {delta|time}",
       "since": "Sub seit {days|plural(one|Tag, other|Tagen)}",
-      "subscribedFor": "bisher für {days|plural(one|Tag, other|Tagen)} abonniert"
+      "subscribedFor": "hatte einen Sub für {days|plural(one|Tag, other|Tage)}"
     },
     "user": {
       "badge": "Badge: {badge}",
@@ -770,10 +770,10 @@
     "notSubscribable": "susgeeDank Channel {channel|antiPing} ist nicht Affiliate/Partner",
     "permanent": "permanenter Sub",
     "renews": "erneuert sich in {delta|time}",
-    "since": "Sub seit {months|plural(one|Monat, other|Monate)}",
     "statusHidden": "User {user|antiPing} hat den Substatus versteckt",
     "streak": "{streak} monatige Streak",
-    "subscribedFor": "bisher für {months|plural(one|Monat, other|Monate)} bei {channel|antiPing} abonniert",
+    "since": "Sub bei {channel|antiPing} seit {months|plural(one|Monat, other|Monate)}",
+    "subscribedFor": "war für {months|plural(one|Monat, other|Monate)} bei {channel|antiPing} abonniert",
     "tier": "{tier} Sub"
   },
   "subEmotes": {
