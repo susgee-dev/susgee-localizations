@@ -759,7 +759,7 @@
   },
   "streamStatus": {
     "live": "@{streamer} ist susgeeLIVE",
-    "offline": "@${streamer} ist susgeeOffline"
+    "offline": "@{streamer} ist susgeeOffline"
   },
   "subAge": {
     "ended": "vor {delta|time} geendet",
