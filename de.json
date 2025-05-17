@@ -58,7 +58,7 @@
       "state": "{type|include} für {channel|antiPing} sind aktuell {state|include}"
     },
     "is": {
-      "changed": "susgeeDank {type|include} ist jetzt {state|include}",
+      "changed": "susgeeOK {type|include} ist jetzt {state|include}",
       "notChanged": "susgeeDank {type|include} ist bereits {state|include}",
       "state": "{type|include} ist aktuell {state|include}"
     },
