@@ -267,7 +267,9 @@
   "birthdays": {
     "next": "Die nächsten Geburtstage sind: {birthdays}",
     "noEntries": "Dieser Channel hat keine Geburtstage in der Datenbank. Um welche hinzuzufügen nutze {prefix}birthday add <Name> <Tag> <Monat>",
-    "today": "Heute ist der Geburtstag von {users} FeelsBirthdayMan Clap"
+    "today": "Heute ist der Geburtstag von {users} FeelsBirthdayMan Clap",
+    "success": "Gesamtanzahl der Geburtstage: {totalBirthdays}",
+    "response": "Geburtstagsliste susgeePoint {pasteUrl}"
   },
   "booba": {
     "noEntries": "Keine BOOBA verfügbar"
