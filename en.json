@@ -267,7 +267,9 @@
   "birthdays": {
     "next": "upcoming birthdays: {birthdays}",
     "noEntries": "this channel has no birthdays in the database. To add some, use {prefix}birthday add <Name> <Day> <Month>",
-    "today": "today is the birthday of {users} FeelsBirthdayMan Clap"
+    "today": "today is the birthday of {users} FeelsBirthdayMan Clap",
+    "success": "Total number of birthdays: {totalBirthdays}",
+    "response": "Birthday list susgeePoint {pasteUrl}"
   },
   "booba": {
     "noEntries": "no BOOBA available"
@@ -873,6 +875,7 @@
     "location": "{location} {flag}",
     "locationHidden": "location hidden forsenCD {flag}",
     "weather": "weather: {weather}",
+    "wind": "windspeed: {wind}",
     "temperature": "temperature: {temp}°C",
     "feelsLike": "feels like: {temp}°C",
     "humidity": "humidity: {humidity}%",

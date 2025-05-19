@@ -58,7 +58,7 @@
       "state": "{type|include} für {channel|antiPing} sind aktuell {state|include}"
     },
     "is": {
-      "changed": "susgeeDank {type|include} ist jetzt {state|include}",
+      "changed": "susgeeOK {type|include} ist jetzt {state|include}",
       "notChanged": "susgeeDank {type|include} ist bereits {state|include}",
       "state": "{type|include} ist aktuell {state|include}"
     },
@@ -267,7 +267,9 @@
   "birthdays": {
     "next": "Die nächsten Geburtstage sind: {birthdays}",
     "noEntries": "Dieser Channel hat keine Geburtstage in der Datenbank. Um welche hinzuzufügen nutze {prefix}birthday add <Name> <Tag> <Monat>",
-    "today": "Heute ist der Geburtstag von {users} FeelsBirthdayMan Clap"
+    "today": "Heute ist der Geburtstag von {users} FeelsBirthdayMan Clap",
+    "success": "Gesamtanzahl der Geburtstage: {totalBirthdays}",
+    "response": "Geburtstagsliste susgeePoint {pasteUrl}"
   },
   "booba": {
     "noEntries": "Keine BOOBA verfügbar"
@@ -345,7 +347,7 @@
       "msg29": "🏅 Du bist auf dem richtigen Weg zum Bottie-Meister. Mit deinem Einsatz kannst du jetzt mehr Botties verdienen. Lass deine technischen Fähigkeiten erstrahlen, {user}",
       "msg30": "✨ Mach dich bereit für eine Bottie-Revolution. Deine Erfolge haben sich verbreitet, und jetzt kannst du mehr Botties in deinem virtuellen Tresor ansammeln. Feiere deinen Erfolg in der Tech-Welt, {user}",
       "msg31": "🌌 Die Bottie-Bank freut sich auf dich. Hol dir jetzt mehr Botties und erweitere deine technische Sammlung. Nutze diese Gelegenheit, um deine digitalen Träume zu verwirklichen, {user}",
-      "msg14": "🛰️ Deine Bottie-Galaxie wächst! Mit deinem Fleiß und deiner Entschlossenheit kannst du jetzt noch mehr Botties verdienen und dich an die Spitze der Technologie-Elite katapultieren. Erfolg liegt vor dir!"
+      "msg14": "🛰️ Deine Bottie-Galaxie wächst! Mit deinem Fleiß und deiner Entschlossenheit kannst du jetzt noch mehr Botties verdienen und dich an die Spitze der Technologie-Elite katapultieren. Erfolg liegt vor dir {user} !"
     },
     "newUser": "Willkommen in der virtuellen Welt, {user}! Als neuer Spieler erhältst du das exklusive Starterkit, bestehend aus 20 digitalen Botties. Nutze sie weise, um deine technologische Reise zu beginnen und aufregende Upgrade freizuschalten. Viel Spaß beim Entdecken der Computerwelt!",
     "notEnough": "susgeeDank Du hast nicht genug Botties! Du hast {botties|plural(one|Bottie, other|botties)}",
@@ -705,8 +707,8 @@
     "userBot": "susgeeDank {user} ist ein Bot, dem ich keine Reminder sende",
     "userIgnored": "susgeeDank {user|antiPing} wird ignoriert und kann keine Reminder erhalten",
     "maxReminders": "Du hast bereits das Limit für Reminder erreicht",
-    "nextTimeSelf": "beim Nächsten mal schreiben erinnern",
-    "nextTimeOther": "wenn du das nächste Mal schreibst erinnern",
+    "nextTimeSelf": "wenn du das nächste Mal schreibst erinnern",
+    "nextTimeOther": "beim Nächsten mal schreiben erinnern",
     "other": "Ich werde {user}",
     "pastDate": "susgeeDank Du kannst keine Reminder für die Vergangenheit setzen",
     "self": "Ich werde dich",
@@ -873,6 +875,7 @@
     "location": "{location} {flag}",
     "locationHidden": "Standort versteckt forsenCD {flag}",
     "weather": "Wetter: {weather}",
+    "wind": "Windgeschwindigkeit: {wind}",
     "temperature": "Temperatur: {temp}°C",
     "feelsLike": "Gefühlt: {temp}°C",
     "humidity": "Luftfeuchtigkeit: {humidity}%",
