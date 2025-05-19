@@ -875,6 +875,7 @@
     "location": "{location} {flag}",
     "locationHidden": "location hidden forsenCD {flag}",
     "weather": "weather: {weather}",
+    "wind": "windspeed: {wind}",
     "temperature": "temperature: {temp}°C",
     "feelsLike": "feels like: {temp}°C",
     "humidity": "humidity: {humidity}%",
