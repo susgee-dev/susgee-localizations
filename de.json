@@ -201,7 +201,7 @@
   "activeChannel": {
     "messages": "{channel} ({entries|plural(one|Nachricht, other|Nachrichten)})",
     "noEntries": "Keine Nachrichten vom User {user|antiPing} in der Datenbank gefunden",
-    "success": "susgeeNoted Nachrichten in {channels|plural(one|Channel, other|Channels)} gefunden susgeePoint {paste}"
+    "success": "susgeeNoted {messages|number} Nachrichten in {channels|plural(one|Channel, other|Channels)} gefunden susgeePoint {paste}"
   },
   "addBot": "Adde Susgeebot über meine Website susgeePoint https://susgee.dev/",
   "afk": {

@@ -200,8 +200,8 @@
   "aare": "the Aare in {city} is currently {temp}°C",
   "activeChannel": {
     "messages": "{channel} ({entries|plural(one|message, other|messages)})",
-    "noEntries": "No messages from user {user|antiPing} found in the database",
-    "success": "susgeeNoted Messages found in {channels|plural(one|channel, other|channels)} susgeePoint {paste}"
+    "noEntries": "no messages from user {user|antiPing} found in the database",
+    "success": "susgeeNoted {messages|number} messages found in {channels|plural(one|channel, other|channels)} susgeePoint {paste}"
   },
   "addBot": "add Susgeebot via my website susgeePoint https://susgee.dev/",
   "afk": {
