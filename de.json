@@ -250,9 +250,9 @@
     "success": "susgeeOK Bisher gebannte User {time|include}: {count|number}"
   },
   "bible": {
-    "added": "susgeeOk Zur Datenbank hinzugefügt",
+    "added": "susgeeOK Zur Datenbank hinzugefügt",
     "botInfo": "Bibel {id} (Text: {text}) wurde von {user|antiPing} gelöscht",
-    "deleted": "susgeeOk Text mit der ID {id} wurde gelöscht",
+    "deleted": "susgeeOK Text mit der ID {id} wurde gelöscht",
     "entryExists": "susgeeDank Dieser Text ist bereits in der Datenbank",
     "noEntries": "susgeeDank Keine Einträge in der Datenbank gefunden",
     "noEntryWithId": "susgeeDank Keinen Eintrag in der Datenbank mit der ID {id} gefunden",
@@ -396,8 +396,8 @@
     "alreadyDisabled": "susgeeDank Dieser Command ist bereits deaktiviert",
     "alreadyEnabled": "susgeeDank Dieser Command ist bereits aktiviert",
     "check": "Command {command} ist aktuell {status}",
-    "disabled": "susgeeOk Command {command} erfolgreich deaktiviert",
-    "enabled": "susgeeOk Command {command} erfolgreich aktiviert",
+    "disabled": "susgeeOK Command {command} erfolgreich deaktiviert",
+    "enabled": "susgeeOK Command {command} erfolgreich aktiviert",
     "notAllowed": "susgeeDank Du kannst diesen Command nicht deaktivieren"
   },
   "customCommands": {
@@ -415,7 +415,7 @@
   },
   "deleteSuggest": {
     "botInfo": "Die Suggestion mit der ID {id} (Text: {text}) wurde von {user|antiPing} gelöscht",
-    "entryDeleted": "susgeeOk Suggestion mit der ID {id} von {user} wurde gelöscht",
+    "entryDeleted": "susgeeOK Suggestion mit der ID {id} von {user} wurde gelöscht",
     "entryNotFound": "susgeeDank Es gibt keinen Vorschlag mit der ID {id} in der Datenbank",
     "error": "susgeeDank Du hast nicht die Berechtigung, den Vorschlag mit der ID {id} zu löschen"
   },

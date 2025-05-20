@@ -250,9 +250,9 @@
     "success": "susgeeOK banned users {time|include} so far: {count|number}"
   },
   "bible": {
-    "added": "susgeeOk added to the database",
+    "added": "susgeeOK added to the database",
     "botInfo": "bible {id} (text: {text}) has been deleted by {user|antiPing}",
-    "deleted": "susgeeOk entry with id {id} has been deleted",
+    "deleted": "susgeeOK entry with id {id} has been deleted",
     "entryExists": "susgeeDank this text already is in the database",
     "noEntries": "susgeeDank no entries found in the database",
     "noEntryWithId": "susgeeDank no entry found with the id {id}",
