@@ -694,7 +694,7 @@
   },
   "receivedSubs": {
     "noEntries": "susgeeDank Wir haben von {user|antiPing} noch keine erhaltene Subs geloggt",
-    "success": "{user|antiPing} hat {delta|include} {count|plural(one|Sub, other|Subs)} erhalten"
+    "success": "{user|antiPing} hat {delta|include} {count|plural(one|Subgift, other|Subgifts)} erhalten"
   },
   "record": {
     "added": "Channel der Record-Liste hinzugefügt",
