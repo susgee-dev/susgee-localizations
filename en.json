@@ -694,7 +694,7 @@
   },
   "receivedSubs": {
     "noEntries": "susgeeDank we have not logged any gifted subs for {user|antiPing}",
-    "success": "{user|antiPing} has received {count|plural(one|sub, other|subs)} {delta|include}"
+    "success": "{user|antiPing} has received {count|plural(one|subgift, other|subgifts)} {delta|include}"
   },
   "record": {
     "added": "channel added to the record list",
