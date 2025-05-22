@@ -388,7 +388,7 @@
     "offline": "susgeeDank {channel|antiPing) is offline",
     "unknown": "susgeeDank creating clips for {channel|antiPing} is currently unavailable"
   },
-  "cock": "{user|antiPing} kok is {cm}cm long {emote}",
+  "cock": "{user|antiPing} kok is {cm}cm long {emote} {bar}",
   "coinFlip": {
     "heads": "heads (yes)",
     "tails": "tails (no)"
