@@ -76,6 +76,7 @@
     }
   },
   "7tv": {
+    "dod": "(7TV) ist aktuell dod, versuch's später nochmal",
     "badge": {
       "active": "{active|plural(one|User, other|Users)} haben dieses Badge aktiv",
       "name": "Badge: {badge}",

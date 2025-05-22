@@ -76,6 +76,7 @@
     }
   },
   "7tv": {
+    "dod": "(7TV) is currently dead, please retry later",
     "badge": {
       "active": "{active|plural(one|user has, other|users have)} this badge active",
       "name": "badge: {badge}",
