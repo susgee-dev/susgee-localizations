@@ -138,7 +138,7 @@
       "name": "Paint: {paint}",
       "none": "kein Paint aktiv",
       "owned": "{owned|plural(one|User, other|Users)} besitzen diese Paint",
-      "added": "hinfugefügt vor {date|time}"
+      "added": "hinzugefügt vor {date|time}"
     },
     "presence": {
       "error": "Fehler beim aktualisieren der (7TV) Presence",
