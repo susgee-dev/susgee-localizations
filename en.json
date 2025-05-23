@@ -1296,6 +1296,10 @@
       "usage": "<text>",
       "description": "BabyRage marceeeeel"
     },
+    "mass": {
+      "usage": "<Text>",
+      "description": "Pings every user in the channel"
+    },
     "math": {
       "usage": "<math (5*2^2)>",
       "description": "calculate something"
