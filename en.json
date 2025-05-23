@@ -208,7 +208,7 @@
   "afk": {
     "afk": "@{user} is now AFK {message}",
     "brb": "@{user} is right back {message}",
-    "food": "@{user} now goes out to eat {message}",
+    "food": "@{user} goes out to eat now {message}",
     "gn": "@{user} goes to sleep now {message}",
     "nap": "@{user} is now taking a power nap {message}",
     "resume": {
@@ -229,8 +229,8 @@
       "work": "@{user} is back from working"
     },
     "shower": "@{user} is now taking a shower {message}",
-    "study": "@{user} now goes learning {message}",
-    "work": "@{user} now goes to work {message}"
+    "study": "@{user} goes learning {message}",
+    "work": "@{user} goes to work now {message}"
   },
   "allEmotes": {
     "noEmotes": "susgeeDank {channel|antiPing} has no channel emotes"
