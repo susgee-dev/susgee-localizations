@@ -599,7 +599,7 @@
   "logs": {
     "link": "logs from {user|antiPing} in channel {channel|antiPing} susgeePoint {link}",
     "channelOrUserNotFound": "susgeeDank no logs for this channel or found",
-    "firstMessage": "first message from {user|antiPing} in {channel|antiPing}: {message}",
+    "firstMessage": "first message from {user|antiPing} in channel {channel|antiPing}: {message}",
     "delta": "{time|time} ago"
   },
   "lookup": {
@@ -626,7 +626,7 @@
   },
   "mostSent": {
     "noEntries": "susgeeDank {user|antiPing} has never chatted in {channel|antiPing}",
-    "success": "most sent message from {user|antiPing} in {channel|antiPing}",
+    "success": "most sent message from {user|antiPing} in channel {channel|antiPing}",
     "message": "message: {message}",
     "count": "{count|plural(one|time, other|times)}"
   },
@@ -693,7 +693,7 @@
   },
   "randLine": {
     "noEntries": "susgeeDank {user|antiPing} has never chatted in {channel|antiPing}",
-    "entry": "message from {user|antiPing} in {channel|antiPing}: {message}",
+    "entry": "message from {user|antiPing} in channel {channel|antiPing}: {message}",
     "delta": "{delta|time} ago"
   },
   "randLineChannel": {
