@@ -298,7 +298,7 @@
     "messages": {
       "<-27": "🚨 Extremely dangerous! Your system is in a critical state. {botties|number} immediate security breaches have been detected! Act now!",
       "<-5": "⚠️ Warning! Your system is highly vulnerable. You have {botties|number} critical security breaches! Immediate action is required to protect your systems!",
-      "<=-1 >=-5": "📉 Oops! You have suffered {botties|number} system crashes forsenLaughingAtYou. Work on your system’s stability to avoid future failures!",
+      "<=-1 >=-5": "📉 Oops! You have suffered {botties|number} system crashes forsenLaughingAtYou . Work on your system’s stability to avoid future failures!",
       ">=1 <=4": "🌟 Great! You have obtained {botties|number} new technology patents! Use your knowledge wisely and revolutionize the world of computing!",
       ">=10 <=15": "🏆 Amazing! You have received {botties|number} upgrades for your virtual equipment! Your technology is now up-to-date. Keep it up!",
       ">=1001 <=1500": "🌌 Cosmic! You have created {botties|number} cosmic software galaxies! Your programs stretch across the vastness of the digital universe. A master of the digital cosmos!",
