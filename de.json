@@ -84,6 +84,14 @@
       "owned": "{owned|plural(one|User, other|Users)} besitzen dieses Badge",
       "added": "hinzugefügt vor {date|time}"
     },
+    "ascii": {
+      "noArgs": "Parameter fehlen :Z Verfügbare zusätzliche Optionen: -w, -h, -r, -d, -i, -tr, -t, -g, -b, -e | Nutze ascii help für beschreibungen.",
+      "textToLong": "Der angegebene Text ist zu lang! Teile ihn auf!",
+      "emoteNotFound": "Konnte das Emote nicht im Channel finden. Bitte gebe den Link von dem Emote ein :Z",
+      "wrongDimensions": "Bitte wähle gültige Abmessungen (maximale Breite ist {maxWidth}, maximale Höhe ist {maxHeightOverall})",
+      "invalidFileType": "Dieses Format wird nicht unterstützt. Es werden nur WebP, GIF, JPG und PNG unterstützt.",
+      "apiError": "Es gab einen Fehler beim Abrufen der Emote-Links."
+    },
     "editor": {
       "added": "susgeeOK {user|antiPing} zur (7TV) Editor Liste hinzugefügt",
       "bot": "susgeeDank Du musst mich nicht als Editor hinzufügen",
@@ -549,7 +557,7 @@
   },
   "lastTimeout": {
     "self": "susgeeDank Man kann im eigenen Channel nicht getimeouted werden",
-    "none": "{user|antiPing} hat keine geloggten Timeouts in Channel {channel|antiPing}",
+    "none": "{user|antiPing} hat keine geloggten Timeouts im Channel {channel|antiPing}",
     "success": "Der letzte Timeout von {user|antiPing} im Channel {channel|antiPing} war vor {delta|time}",
     "message": "Nachricht: {message}"
   },
@@ -591,14 +599,14 @@
   "logs": {
     "link": "Logs von {user|antiPing} im Channel {channel|antiPing} susgeePoint {link}",
     "channelOrUserNotFound": "susgeeDank Keine Logs für den Channel oder User gefunden",
-    "firstMessage": "Erste Nachricht von {user|antiPing} in {channel|antiPing}: {message}",
+    "firstMessage": "Erste Nachricht von {user|antiPing} im Channel {channel|antiPing}: {message}",
     "delta": "vor {time|time}"
   },
   "lookup": {
-    "hasRole": "susgeeOK {user|antiPing} ist {type|include} in Channel {channel|antiPing} seit {since|time}",
+    "hasRole": "susgeeOK {user|antiPing} ist {type|include} im Channel {channel|antiPing} seit {since|time}",
     "mod": "Mod",
     "none": "susgeeDank Channel {channel|antiPing} hat keine {type|include}s",
-    "noRole": "susgeeDank {user|antiPing} ist kein {type|include} in Channel {channel|antiPing}",
+    "noRole": "susgeeDank {user|antiPing} ist kein {type|include} im Channel {channel|antiPing}",
     "noTracked": "susgeeDank {user|antiPing} ist in keinem getrackten Channel {type|include}",
     "since": "{type|include} seit {since|time}",
     "success": "{user|antiPing} ist in {count|plural(one|getrackten Channel, other|getrackten Channels)} {type|include} susgeePoint {link}",
@@ -617,8 +625,8 @@
     "offline": "offline"
   },
   "mostSent": {
-    "noEntries": "susgeeDank {user|antiPing} hat noch nichts in Channel {channel|antiPing} geschrieben",
-    "success": "Meist gesendete Nachricht von {user|antiPing} in Channel {channel|antiPing}",
+    "noEntries": "susgeeDank {user|antiPing} hat noch nichts im Channel {channel|antiPing} geschrieben",
+    "success": "Meist gesendete Nachricht von {user|antiPing} im Channel {channel|antiPing}",
     "message": "Nachricht: {message}",
     "count": "{count|number} Mal"
   },
@@ -684,8 +692,8 @@
     "success": "Prestige erfolgreich! Du hast jetzt {botties|plural(one|Bottie, other|Botties)} und bist im Prestige {prestige}. Das nächste Prestige kostet {cost|number} Botties"
   },
   "randLine": {
-    "noEntries": "susgeeDank {user|antiPing} hat noch nie in Channel {channel|antiPing} gechatted",
-    "entry": "Nachricht von {user|antiPing} in {channel|antiPing}: {message}",
+    "noEntries": "susgeeDank {user|antiPing} hat noch nie im Channel {channel|antiPing} gechatted",
+    "entry": "Nachricht von {user|antiPing} im Channel {channel|antiPing}: {message}",
     "delta": "vor {delta|time}"
   },
   "randLineChannel": {
@@ -741,7 +749,7 @@
     "delta": "vor {delta|time}",
     "neverSeen": "susgeeDank Keine Nachricht von {user|antiPing} gefunden",
     "self": "Du bist doch hier susgeeDank",
-    "success": "susgeeNoted Letzte Nachricht von {user|antiPing} in {channel}: {message}"
+    "success": "susgeeNoted Letzte Nachricht von {user|antiPing} im {channel}: {message}"
   },
   "streamInfo": {
     "live": "{channel|antiPing} ist gerade live susgeeLIVE",
@@ -1287,6 +1295,10 @@
     "maersuggest": {
       "usage": "<Text>",
       "description": "BabyRage marceeeeel"
+    },
+    "mass": {
+      "usage": "<Text>",
+      "description": "Pingt jeden User im Channel"
     },
     "math": {
       "usage": "<Mathe (5*2^2)>",

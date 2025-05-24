@@ -84,6 +84,14 @@
       "owned": "{owned|plural(one|user owns, other|users own)} this badge",
       "added": "added {date|time} ago"
     },
+    "ascii": {
+      "noArgs": "Parameters missing :Z Available additional options: -w, -h, -r, -d, -i, -tr, -t, -g, -b, -e | Use ascii help for descriptions.",
+      "textToLong": "The given text is too long! Split it up!",
+      "emoteNotFound": "Could not find the emote in the channel. Please enter the link of the emote :Z",
+      "wrongDimensions": "Please select valid dimensions (maximum width is {maxWidth}, maximum height is {maxHeightOverall})",
+      "invalidFileType": "This format is not supported. Only WebP, GIF, JPG and PNG are supported.",
+      "apiError": "There was an error when retrieving the emote links."
+    },
     "editor": {
       "added": "susgeeOK {user|antiPing} added as a 7TV editor",
       "bot": "susgeeDank You do not need to add me as an editor",
@@ -591,7 +599,7 @@
   "logs": {
     "link": "logs from {user|antiPing} in channel {channel|antiPing} susgeePoint {link}",
     "channelOrUserNotFound": "susgeeDank no logs for this channel or found",
-    "firstMessage": "first message from {user|antiPing} in {channel|antiPing}: {message}",
+    "firstMessage": "first message from {user|antiPing} in channel {channel|antiPing}: {message}",
     "delta": "{time|time} ago"
   },
   "lookup": {
@@ -618,7 +626,7 @@
   },
   "mostSent": {
     "noEntries": "susgeeDank {user|antiPing} has never chatted in {channel|antiPing}",
-    "success": "most sent message from {user|antiPing} in {channel|antiPing}",
+    "success": "most sent message from {user|antiPing} in channel {channel|antiPing}",
     "message": "message: {message}",
     "count": "{count|plural(one|time, other|times)}"
   },
@@ -685,7 +693,7 @@
   },
   "randLine": {
     "noEntries": "susgeeDank {user|antiPing} has never chatted in {channel|antiPing}",
-    "entry": "message from {user|antiPing} in {channel|antiPing}: {message}",
+    "entry": "message from {user|antiPing} in channel {channel|antiPing}: {message}",
     "delta": "{delta|time} ago"
   },
   "randLineChannel": {
@@ -1287,6 +1295,10 @@
     "maersuggest": {
       "usage": "<text>",
       "description": "BabyRage marceeeeel"
+    },
+    "mass": {
+      "usage": "<Text>",
+      "description": "Pings every user in the channel"
     },
     "math": {
       "usage": "<math (5*2^2)>",
