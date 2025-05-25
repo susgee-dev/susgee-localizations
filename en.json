@@ -1352,6 +1352,10 @@
     "nextBirthday": {
       "description": "displays the upcoming birthdays"
     },
+    "optout": {
+      "description": "remove target from an command",
+      "usage": "keine ahnung"
+    },
     "paint": {
       "usage": "<User | Paint>",
       "description": "displays information about a paint or the current paint of a user"
