@@ -980,6 +980,10 @@
       "usage": "<Wort/Text>",
       "description": "FeelsBingMan 💢 "
     },
+    "ascii": {
+      "usage": "<Emote>",
+      "description": "Wandelt ein Bild in ein Ascii um"
+    },
     "avatar": {
       "usage": "<User>",
       "description": "Sendet den Link zum Profilbild eines Users"
