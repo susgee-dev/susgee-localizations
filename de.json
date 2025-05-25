@@ -1348,6 +1348,10 @@
     "nextBirthday": {
       "description": "Zeigt die nächsten Geburtstage von diesem Channel"
     },
+    "optout": {
+      "description": "remove target from an command",
+      "usage": "keine ahnung"
+    },
     "paint": {
       "usage": "<User | Paint>",
       "description": "Zeigt Infos einer Paint oder die aktuelle 7TV Paint von einem User an"
