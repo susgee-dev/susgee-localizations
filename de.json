@@ -396,7 +396,7 @@
     "offline": "susgeeDank Channel {channel|antiPing) ist offline",
     "unknown": "susgeeDank Clips sind in dem Channel {channel|antiPing} derzeit nicht möglich"
   },
-  "cock": "{user|antiPing} kok ist {cm}cm lang {emote} {bar}",
+  "cock": "Der kok von {user|antiPing} ist {cm}cm lang {emote} {bar}",
   "coinFlip": {
     "heads": "Kopf (Ja)",
     "tails": "Zahl (Nein)"
