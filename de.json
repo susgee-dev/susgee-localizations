@@ -668,6 +668,7 @@
     },
     "insufficient": {
       "ignored": "susgeeDank Du bist auf der Ignore-Liste des Bots und kannst keine Befehle ausführen",
+      "helper": "Du musst Helper sein, um diesen Command nutzen zu können",
       "vip": "Du musst VIP sein, um diesen Command nutzen zu können",
       "mod": "Du musst Moderator sein, um diesen Command nutzen zu können",
       "broadcaster": "Du musst Kanalinhaber sein, um diesen Command nutzen zu können",

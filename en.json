@@ -668,6 +668,7 @@
     },
     "insufficient": {
       "ignored": "susgeeDank you are on the ignore list of this bot and cannot execute commands",
+      "helper": "you need to be a helper to execute this command",
       "vip": "you need to be a VIP to execute this command",
       "mod": "you need to be a mod to execute this command",
       "broadcaster": "you need to be the broadcaster to execute this command",
