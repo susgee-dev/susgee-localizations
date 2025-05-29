@@ -655,6 +655,10 @@
     "optOut": "{user|antiPing} ist vom Logging ausgeschlossen susgeeNoted ",
     "text": "Bisher geloggte Namen von {user|antiPing} (Aktueller Name seit: {since|date}): {usernames}"
   },
+  "noMention": {
+    "enabled": "susgeeOK Du wirst in der Command-Antwort nicht mehr erwähnt",
+    "disabled": "susgeeOK Du wirst in der Command-Antwort wieder erwähnt"
+  },
   "permissions": {
     "bot": {
       "admin": "susgeeDank ich werde keinen meiner Admins als Bot markieren",
@@ -1349,6 +1353,9 @@
     "nameChanges": {
       "usage": "<User>",
       "description": "Zeigt Namensänderungen eines Users an"
+    },
+    "noMention": {
+      "description": "Deaktiviert Erwähnungen in Command-Antworten"
     },
     "nextBirthday": {
       "description": "Zeigt die nächsten Geburtstage von diesem Channel"

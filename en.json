@@ -655,6 +655,10 @@
     "optOut": "{user|antiPing} has opted out of being logged susgeeNoted ",
     "text": "previously logged usernames for {user|antiPing} (Current Name since {since|date}): {usernames}"
   },
+  "noMention": {
+    "enabled": "susgeeOK you will no longer be mentioned in a command response",
+    "disabled": "susgeeOK you will now be mentioned in a command response"
+  },
   "permissions": {
     "bot": {
       "admin": "susgeeDank i refuse to flag an admin as bot",
@@ -1349,6 +1353,9 @@
     "nameChanges": {
       "usage": "<user>",
       "description": "display past names of a user"
+    },
+    "noMention": {
+      "description": "allows you to opt-out of being mentioned in a command response"
     },
     "nextBirthday": {
       "description": "displays the upcoming birthdays"
