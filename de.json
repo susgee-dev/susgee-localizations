@@ -85,14 +85,6 @@
       "owned": "{owned|plural(one|User, other|Users)} besitzen dieses Badge",
       "added": "hinzugefügt vor {date|time}"
     },
-    "ascii": {
-      "noArgs": "Parameter fehlen :Z Verfügbare zusätzliche Optionen: -w, -h, -r, -d, -i, -tr, -t, -g, -b, -e | Nutze ascii help für beschreibungen.",
-      "textToLong": "Der angegebene Text ist zu lang! Teile ihn auf!",
-      "emoteNotFound": "Konnte das Emote nicht im Channel finden. Bitte gebe den Link von dem Emote ein :Z",
-      "wrongDimensions": "Bitte wähle gültige Abmessungen (maximale Breite ist {maxWidth}, maximale Höhe ist {maxHeightOverall})",
-      "invalidFileType": "Dieses Format wird nicht unterstützt. Es werden nur WebP, GIF, JPG und PNG unterstützt.",
-      "apiError": "Es gab einen Fehler beim Abrufen der Emote-Links."
-    },
     "editor": {
       "added": "susgeeOK {user|antiPing} zur (7TV) Editor Liste hinzugefügt",
       "bot": "susgeeDank Du musst mich nicht als Editor hinzufügen",
@@ -243,6 +235,14 @@
   },
   "allEmotes": {
     "noEmotes": "susgeeDank {channel|antiPing} hat keine Channel Emotes"
+  },
+  "ascii": {
+    "noArgs": "Parameter fehlen :Z Verfügbare zusätzliche Optionen: -w, -h, -r, -d, -i, -tr, -t, -g, -b, -e | Nutze ascii help für beschreibungen.",
+    "textToLong": "Der angegebene Text ist zu lang! Teile ihn auf!",
+    "emoteNotFound": "Konnte das Emote nicht im Channel finden. Bitte gebe den Link von dem Emote ein :Z",
+    "wrongDimensions": "Bitte wähle gültige Abmessungen (maximale Breite ist {maxWidth}, maximale Höhe ist {maxHeightOverall})",
+    "invalidFileType": "Dieses Format wird nicht unterstützt. Es werden nur WebP, GIF, JPG und PNG unterstützt.",
+    "apiError": "Es gab einen Fehler beim Abrufen der Emote-Links."
   },
   "ban": {
     "admin": "susgeeOK ich banne keinen meiner admins",

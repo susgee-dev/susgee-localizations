@@ -85,14 +85,6 @@
       "owned": "{owned|plural(one|user owns, other|users own)} this badge",
       "added": "added {date|time} ago"
     },
-    "ascii": {
-      "noArgs": "Parameters missing :Z Available additional options: -w, -h, -r, -d, -i, -tr, -t, -g, -b, -e | Use ascii help for descriptions.",
-      "textToLong": "The given text is too long! Split it up!",
-      "emoteNotFound": "Could not find the emote in the channel. Please enter the link of the emote :Z",
-      "wrongDimensions": "Please select valid dimensions (maximum width is {maxWidth}, maximum height is {maxHeightOverall})",
-      "invalidFileType": "This format is not supported. Only WebP, GIF, JPG and PNG are supported.",
-      "apiError": "There was an error when retrieving the emote links."
-    },
     "editor": {
       "added": "susgeeOK {user|antiPing} added as a 7TV editor",
       "bot": "susgeeDank You do not need to add me as an editor",
@@ -243,6 +235,14 @@
   },
   "allEmotes": {
     "noEmotes": "susgeeDank {channel|antiPing} has no channel emotes"
+  },
+  "ascii": {
+    "noArgs": "Parameters missing :Z Available additional options: -w, -h, -r, -d, -i, -tr, -t, -g, -b, -e | Use ascii help for descriptions.",
+    "textToLong": "The given text is too long! Split it up!",
+    "emoteNotFound": "Could not find the emote in the channel. Please enter the link of the emote :Z",
+    "wrongDimensions": "Please select valid dimensions (maximum width is {maxWidth}, maximum height is {maxHeightOverall})",
+    "invalidFileType": "This format is not supported. Only WebP, GIF, JPG and PNG are supported.",
+    "apiError": "There was an error when retrieving the emote links."
   },
   "ban": {
     "admin": "susgeeOK i refuse to ban an admin of me",
