@@ -1,6 +1,7 @@
 {
   "enabled": "enabled",
   "disabled": "disabled",
+  "commandDisabled": "{user}, the command {command} has been disabled in the channel {channel} by a moderator.",
   "common": {
     "delta": {
       "date": "on {date|date}",

@@ -1,6 +1,7 @@
 {
   "enabled": "aktiviert",
   "disabled": "deaktiviert",
+  "commandDisabled": "{user}, der Command {command} wurde im Channel {channel} von einem Moderator deaktiviert.",
   "common": {
     "delta": {
       "date": "am {date|date}",
