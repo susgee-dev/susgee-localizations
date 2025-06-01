@@ -579,7 +579,7 @@
       "prestige": "{prestige}",
       "treasures": "{treasures}"
     },
-    "text": "Top 10 {category|include} susgeePoint {leaderboard}"
+    "text": "{rankingType} 10 {category|include} susgeePoint {leaderboard}"
   },
   "lines": {
     "success": "channel {channel|antiPing} has {count|plural(one|logged line, other|logged lines)} {time|include}"
