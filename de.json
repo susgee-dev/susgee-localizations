@@ -19,7 +19,7 @@
     "id": "ID: {id}"
   },
   "error": {
-    "api": "susgeeDank API Error",
+    "api": "susgeeDank API Error - Versuche es später erneut.",
     "banned": {
       "channel": "susgeeDank Channel {channel} ist gebannt: {reason}",
       "user": "susgeeDank User {channel} ist gebannt: {reason}"
@@ -1604,6 +1604,17 @@
     },
     "zimtzimt": {
       "description": "Zimtzimt ist super"
+    }
+  },
+  "whisper": {
+    "weather": {
+      "alreadySet": "Du hast bereits einen Wetterstandort festgelegt: {city}. Wenn du ihn ändern möchtest, sende eine Whisper-Nachricht mit „wetterupdate <Stadt>“.",
+      "weatherSet": "Wetterlocation erfolgreich gesetzt. Um deine Location zu ändern, nutze wetterupdate <Stadt>.'",
+      "noArgs": "Bitte geben eine Stadt ein. Beispiel: „wetter Berlin“.",
+      "weatherUpdated": "Wetterstandort erfolgreich aktualisiert.",
+      "noWeatherLocationSet": "Du hast noch keine Wetterlocation gesetzt. Bitte benutze 'wetter <Stadt>' um eine Wetterlocation zu setzen.",
+      "noArgsUpdate": "Bitte geben eine Stadt ein. Beispiel: „wetterupdate Berlin“.",
+      "currentLocation": "Dein aktueller Wetterort ist: {city}"
     }
   }
 }

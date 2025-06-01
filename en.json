@@ -1605,5 +1605,16 @@
     "zimtzimt": {
       "description": "Zimtzimt is great"
     }
+  },
+  "whisper": {
+    "weather": {
+      "alreadySet": "You have already set a weather location: {city}. If you want to change it, send a whisper with 'weatherupdate <city>'.",
+      "weatherSet": "Weather location successfully set. To change your location, use 'weatherupdate <city>'.",
+      "noArgs": "Please provide a city. Example: 'weather Berlin'.",
+      "weatherUpdated": "Weather location successfully updated.",
+      "noWeatherLocationSet": "You haven't set a weather location yet. Please use 'weather <city>' to set one.",
+      "noArgsUpdate": "Please provide a city. Example: 'weatherupdate Berlin'.",
+      "currentLocation": "Your current weather location is: {city}"
+    }
   }
 }
