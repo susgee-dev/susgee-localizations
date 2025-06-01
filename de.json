@@ -748,13 +748,13 @@
   "stalk": {
     "bot": "Ich bin doch hier susgeeDank",
     "channel": {
-      "other": "Channel {channel|antiPing}",
-      "theirs": "deren Channel"
+      "other": "im Channel {channel|antiPing}",
+      "theirs": "in deren Channel"
     },
     "delta": "vor {delta|time}",
     "neverSeen": "susgeeDank Keine Nachricht von {user|antiPing} gefunden",
     "self": "Du bist doch hier susgeeDank",
-    "success": "susgeeNoted Letzte Nachricht von {user|antiPing} im {channel}: {message}"
+    "success": "susgeeNoted Letzte Nachricht von {user|antiPing} {channel}: {message}"
   },
   "streamInfo": {
     "live": "{channel|antiPing} ist gerade live susgeeLIVE",
