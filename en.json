@@ -207,6 +207,11 @@
     "success": "susgeeNoted {messages|number} messages found in {channels|plural(one|channel, other|channels)} susgeePoint {paste}"
   },
   "addBot": "add Susgeebot via my website susgeePoint https://susgee.dev/",
+  "affiliatePing": {
+    "alreadyAffiliate": "susgeeDank channel {channel|antiPing} already is affiliate/partner",
+    "added": "susgeeOK you will now get pinged when {channel|antiPing} gets affiliate",
+    "removed": "susgeeOK you will no longer get pinged when {channel|antiPing} gets affiliate"
+  },
   "afk": {
     "afk": "@{user} is now AFK {message}",
     "brb": "@{user} is right back {message}",
