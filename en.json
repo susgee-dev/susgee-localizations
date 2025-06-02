@@ -210,7 +210,8 @@
   "affiliatePing": {
     "alreadyAffiliate": "susgeeDank channel {channel|antiPing} already is affiliate/partner",
     "added": "susgeeOK you will now get pinged when {channel|antiPing} gets affiliate",
-    "removed": "susgeeOK you will no longer get pinged when {channel|antiPing} gets affiliate"
+    "removed": "susgeeOK you will no longer get pinged when {channel|antiPing} gets affiliate",
+    "ping": "@{channel} is now affiliate!"
   },
   "afk": {
     "afk": "@{user} is now AFK {message}",
