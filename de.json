@@ -208,9 +208,10 @@
   },
   "addBot": "Adde Susgeebot über meine Website susgeePoint https://susgee.dev/",
   "affiliatePing": {
-    "alreadyAffiliate": "susgeeDank Channel {channel|antiPing} ist bereits affiliate/partner",
-    "added": "susgeeOK du wirst nicht mehr gepinged, wenn {channel|antiPing} affiliate wird",
-    "removed": "susgeeOK du wirst jetzt gepinged, wenn {channel|antiPing} affiliate wird"
+    "alreadyAffiliate": "susgeeDank Channel {channel|antiPing} ist bereits Affiliate/Partner",
+    "added": "susgeeOK du wirst nicht mehr gepinged, wenn {channel|antiPing} Affiliate wird",
+    "removed": "susgeeOK du wirst jetzt gepinged, wenn {channel|antiPing} Affiliate wird",
+    "ping": "@{channel} ist jetzt Affiliate!"
   },
   "afk": {
     "afk": "@{user} ist jetzt AFK {message}",
