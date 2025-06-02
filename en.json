@@ -974,6 +974,10 @@
     "addBot": {
       "description": "information on how to add the bot"
     },
+    "affiliatePing": {
+      "usage": "<user>",
+      "description": "get a notification when a channel gets affiliate"
+    },
     "afk": {
       "usage": "<afk text>",
       "description": "sets your status to AFK"
