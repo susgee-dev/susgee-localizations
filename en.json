@@ -42,7 +42,8 @@
     "unknown": {
       "category": "(no category)",
       "title": "(no title)",
-      "user": "(unknown user)"
+      "user": "(unknown user)",
+      "description": "(no description)"
     },
     "usage": "susgeeDank usage: {prefix}{command} {usage|include}",
     "userOptOut": "susgeeDank this user has opted out of logging"
@@ -878,6 +879,7 @@
     },
     "color": "color: {color}",
     "createdAt": "created on: {createdAt|date}",
+    "description": "description: {text}",
     "followers": "followers: {followers|number}",
     "follows": "follows: {follows|number}",
     "isBanned": "⛔ banned ({reason})",
