@@ -879,7 +879,7 @@
     },
     "color": "Farbe: {color}",
     "createdAt": "Erstellt am: {createdAt|date}",
-    "description": "Bio: {text}",
+    "bio": "Bio: {text}",
     "followers": "Followers: {followers|number}",
     "follows": "Follows: {follows|number}",
     "isBanned": "⛔ Banned ({reason})",
