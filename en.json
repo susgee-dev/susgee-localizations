@@ -43,7 +43,7 @@
       "category": "(no category)",
       "title": "(no title)",
       "user": "(unknown user)",
-      "description": "(no description)"
+      "bio": "(no bio)"
     },
     "usage": "susgeeDank usage: {prefix}{command} {usage|include}",
     "userOptOut": "susgeeDank this user has opted out of logging"
