@@ -437,6 +437,9 @@
     "entryNotFound": "susgeeDank Es gibt keinen Vorschlag mit der ID {id} in der Datenbank",
     "error": "susgeeDank Du hast nicht die Berechtigung, den Vorschlag mit der ID {id} zu löschen"
   },
+  "discord": {
+    "link": "susgeeBot Check unseren Discord aus susgeePoint {link}"
+  },
   "eCount": {
     "entry": "{emote} wurde im Channel {channel|antiPing} {count|number} mal benutzt",
     "noEntries": "susgeeDank Keine Einträge in der Datenbank gefunden"
@@ -1132,6 +1135,9 @@
     "deleteSuggest": {
       "usage": "<ID>",
       "description": "Löscht deinen Vorschlag aus der Datenbank"
+    },
+    "discord": {
+      "description": "Sendet den Link zu unserem Discord"
     },
     "dislikes": {
       "usage": "<YouTube Video ID/Link>",

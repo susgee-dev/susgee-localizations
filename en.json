@@ -437,6 +437,9 @@
     "entryNotFound": "there is no suggestion with the id {id} in the database",
     "error": "you do not have permission to delete the suggestion with the id {id}"
   },
+  "discord": {
+    "link": "susgeeBot check out our discord susgeePoint {link}"
+  },
   "eCount": {
     "entry": "{emote} has been used {count|plural(one|time, other|times)} in channel {channel|antiPing}",
     "noEntries": "susgeeDank no entries found in the database"
@@ -1132,6 +1135,9 @@
     "deleteSuggest": {
       "usage": "<id>",
       "description": "deletes a suggestion"
+    },
+    "discord": {
+      "description": "get the link to our discord server"
     },
     "dislikes": {
       "usage": "<YouTube Video ID/Link>",
