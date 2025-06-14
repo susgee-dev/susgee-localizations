@@ -897,7 +897,7 @@
   "weather": {
     "noUser": "susgeeDank Du musst einen User angeben",
     "noUserLocation": "susgeeDank Dieser Benutzer hat keine Stadt gespeichert",
-    "noLocationSet": "susgeeDank Gib eine Stadt an, oder sende Susgeebot eine Whisper-Nachricht mit dem Inhalt \"wetter stadt\" um deine Stadt zu speichern",
+    "noLocationSet": "susgeeDank Gib eine Stadt an, oder sende Susgeebot eine Whisper-Nachricht mit dem Inhalt \"wetter <stadt>\" um deine Stadt zu speichern",
     "locationNotFound": "susgeeDank Ich kann keine Informationen über diesen Ort finden",
     "location": "{location} {flag}",
     "locationHidden": "Standort versteckt forsenCD {flag}",
