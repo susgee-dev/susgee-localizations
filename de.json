@@ -734,7 +734,7 @@
     "userIgnored": "susgeeDank {user|antiPing} wird ignoriert und kann keine Reminder erhalten",
     "maxReminders": "Du hast bereits das Limit für Reminder erreicht",
     "nextTimeSelf": "wenn du das nächste Mal schreibst erinnern",
-    "nextTimeOther": "beim Nächsten mal schreiben erinnern",
+    "nextTimeOther": "beim nächsten Mal schreiben erinnern",
     "other": "Ich werde {user}",
     "pastDate": "susgeeDank Du kannst keine Reminder für die Vergangenheit setzen",
     "self": "Ich werde dich",
