@@ -816,6 +816,13 @@
     "enabled": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift erkenne",
     "whisper": "susgeeOK Ich werde dir whispern, wenn ich ein Subgift erkenne"
   },
+  "subEvents": {
+    "anonymous": "Ein anonymer User",
+    "gift": "{user} gifted {total} Tier {tier} {total|plural(one|Sub, other|Subs)}!! sheCrazy",
+    "total": "insgesamt {total|plural(one|Sub, other|Subs)} verschenkt",
+    "subscribe": "{user} hat einen Tier {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen - insgesamt {cumulative|plural(one|Monat, other|Monate)} sheCrazy",
+    "streak": "Aktuelle Sub-Streak: {streak|plural(one|Monat, other|Monate)}!"
+  },
   "subinfo": {
     "noEntries": "Im Channel {channel|antiPing} wurden {delta|include} keine Subs verteilt",
     "stats": "Sub-Info für Channel {channel|antiPing} {delta|include}: Total Subs: {total|number}, First-time subs: {firstTime|number}, Tiers: (P, T1, T2, T3) => {prime|number}, {tier1|number}, {tier2|number}, {tier3|number}"

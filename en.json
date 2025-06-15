@@ -1511,6 +1511,13 @@
       "usage": "[alltime | today | yesterday | month] <user> <channel>",
       "description": "shows how many subs a user has gifted in a channel"
     },
+    "subEvents": {
+      "anonymous": "an anonym user",
+      "gift": "{user} gifted {total} tier {tier} {total|plural(one|sub, other|subs)}!! sheCrazy",
+      "total": "gifted {total} subs",
+      "subscribe": "{user} subbed with a tier {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
+      "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
+    },
     "subInfo": {
       "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
       "description": "checks how many subs have been gifted in a channel"
