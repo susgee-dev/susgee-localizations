@@ -800,7 +800,7 @@
     "renews": "erneuert sich in {delta|time}",
     "statusHidden": "User {user|antiPing} hat den Substatus versteckt",
     "streak": "{streak} monatige Streak",
-    "since": "Sub bei {channel|antiPing} seit {months|plural(one|Monat, other|Monate)}",
+    "since": "Sub bei {channel|antiPing} seit {months|plural(one|Monat, other|Monaten)}",
     "subscribedFor": "war für {months|plural(one|Monat, other|Monate)} bei {channel|antiPing} abonniert",
     "tier": "{tier} Sub"
   },
