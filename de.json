@@ -671,6 +671,20 @@
     "enabled": "susgeeOK Du wirst in der Command-Antwort nicht mehr erwähnt",
     "disabled": "susgeeOK Du wirst in der Command-Antwort wieder erwähnt"
   },
+  "optOut": {
+    "triggered": "susgeeDank Dieser User oder Channel hat sich vom targeting dieses Commands ausgeschlossen",
+    "success": "susgeeOK Du hast dich von dem Command {command} ausgeschlossen",
+    "alreadyOptedOutCommand": "susgeeDank Du bist bereits vom Command {command} ausgeschlossen",
+    "optedOutOfAll": "susgeeOK Du hast dich von allen unterstützten Commands ausgeschlossen",
+    "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich ausschliessen kannst"
+  },
+  "optIn": {
+    "success": "susgeeOK Du hast dich wieder für den Command {command} eingeschlossen",
+    "alreadyOptedIn": "susgeeDank Du bist bereits für den Command {command} eingeschlossen",
+    "optedIntoAll": "susgeeOK Du bist jetzt wieder für alle Command eingeschlossen",
+    "nothingToOptIn": "susgeeDank Du bist bereits für alle Command eingeschlossen",
+    "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich einschliessen kannst"
+  },
   "permissions": {
     "bot": {
       "admin": "susgeeDank ich werde keinen meiner Admins als Bot markieren",

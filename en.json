@@ -671,6 +671,20 @@
     "enabled": "susgeeOK you will no longer be mentioned in a command response",
     "disabled": "susgeeOK you will now be mentioned in a command response"
   },
+  "optOut": {
+    "triggered": "susgeeDank this user or channel has opted out of being targeted by this command",
+    "success": "susgeeOK you have opted out of command {command}",
+    "alreadyOptedOutCommand": "susgeeDank you are already opted out of command {command}",
+    "optedOutOfAll": "susgeeOK you have opted out of all supported commands",
+    "notOptOutCommand": "susgeeDank {command} is not a command you can opt out of"
+  },
+  "optIn": {
+    "success": "susgeeOK you have opted back in to command {command}",
+    "alreadyOptedIn": "susgeeDank you are already opted in to command {command}",
+    "optedIntoAll": "susgeeOK you are now opted in to all commands",
+    "nothingToOptIn": "susgeeDank you are already opted in to everything",
+    "notOptOutCommand": "susgeeDank {command} is not a command you can opt out of"
+  },
   "permissions": {
     "bot": {
       "admin": "susgeeDank i refuse to flag an admin as bot",
