@@ -1394,9 +1394,13 @@
     "nextBirthday": {
       "description": "displays the upcoming birthdays"
     },
-    "optout": {
-      "description": "remove target from an command",
-      "usage": "keine ahnung"
+    "optOut": {
+      "description": "opt-out of being targeted by one or all commands",
+      "usage": "[all | <command>]"
+    },
+    "optIn": {
+      "description": "opt-in of being targeted by one or all commands",
+      "usage": "[all | <command>]"
     },
     "paint": {
       "usage": "<User | Paint>",

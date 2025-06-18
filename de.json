@@ -1401,9 +1401,13 @@
     "nextBirthday": {
       "description": "Zeigt die nächsten Geburtstage von diesem Channel"
     },
-    "optout": {
-      "description": "remove target from an command",
-      "usage": "keine ahnung"
+    "optOut": {
+      "description": "Schliesse dich aus als target von einem oder allen Commands",
+      "usage": "[all | <command>]"
+    },
+    "optIn": {
+      "description": "Schliesse dich ein als target von einem oder allen Commands",
+      "usage": "[all | <command>]"
     },
     "paint": {
       "usage": "<User | Paint>",
