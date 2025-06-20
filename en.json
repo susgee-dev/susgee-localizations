@@ -678,7 +678,8 @@
     "optedOutOfAll": "susgeeOK you have opted out of all supported commands",
     "notOptOutCommand": "susgeeDank {command} is not a command you can opt out of",
     "list": "You have opted out of the following commands susgeePoint {list}",
-    "noList": "susgeeDank You are not opted out of any commands."
+    "noList": "susgeeDank You are not opted out of any commands.",
+    "optedOutOfAllList": "susgeeOK You are opted out from all commands."
   },
   "optIn": {
     "success": "susgeeOK you have opted back in to command {command}",

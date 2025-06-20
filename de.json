@@ -678,7 +678,8 @@
     "optedOutOfAll": "susgeeOK Du hast dich von allen unterstützten Commands ausgeschlossen",
     "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich ausschliessen kannst",
     "list": "Du bist von folgenden Commands ausgeschlossen susgeePoint {list}",
-    "noList": "susgeeDank Du bist von keinen Command ausgeschlossen."
+    "noList": "susgeeDank Du bist von keinen Command ausgeschlossen.",
+    "optedOutOfAllList": "susgeeOK Du bist von allen Commands ausgeschlossen."
   },
   "optIn": {
     "success": "susgeeOK Du hast dich wieder für den Command {command} eingeschlossen",
