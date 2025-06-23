@@ -676,7 +676,10 @@
     "success": "susgeeOK Du hast dich von dem Command {command} ausgeschlossen",
     "alreadyOptedOutCommand": "susgeeDank Du bist bereits vom Command {command} ausgeschlossen",
     "optedOutOfAll": "susgeeOK Du hast dich von allen unterstützten Commands ausgeschlossen",
-    "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich ausschliessen kannst"
+    "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich ausschliessen kannst",
+    "list": "Du bist von folgenden Commands ausgeschlossen susgeePoint {list}",
+    "noList": "susgeeDank Du bist von keinen Command ausgeschlossen.",
+    "optedOutOfAllList": "susgeeOK Du bist von allen Commands ausgeschlossen."
   },
   "optIn": {
     "success": "susgeeOK Du hast dich wieder für den Command {command} eingeschlossen",
@@ -1403,7 +1406,7 @@
     },
     "optOut": {
       "description": "Schliesse dich aus als target von einem oder allen Commands",
-      "usage": "[all | <command>]"
+      "usage": "[all | list | <command>]"
     },
     "optIn": {
       "description": "Schliesse dich ein als target von einem oder allen Commands",
