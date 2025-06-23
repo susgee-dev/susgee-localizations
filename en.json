@@ -1666,6 +1666,14 @@
     }
   },
   "web": {
+    "forms": {
+      "searching": "Searching...",
+      "search": "Search"
+    },
+    "footer": {
+      "rightsReserved": "not affiliated with Twitch",
+      "privacy": "privacy (german)"
+    },
     "pages": {
       "home": {
         "hero": {
@@ -1693,6 +1701,12 @@
         "backToCommands": "back to commands",
         "description": "Description",
         "usage": "Usage"
+      },
+      "bans": {
+        "description": "Search for bans by channel and/or user",
+        "time": "Time",
+        "noSearchCriteria": "Please enter a channel or user to search",
+        "noEntries": "No bans found for the given search criteria"
       }
     }
   }
