@@ -1661,5 +1661,17 @@
       "noArgsUpdate": "Bitte geben eine Stadt ein. Beispiel: „wetterupdate Berlin“.",
       "currentLocation": "Dein aktueller Wetterort ist: {city}"
     }
+  },
+  "web": {
+    "pages": {
+      "commands": {
+        "search": "nach Commands suchen"
+      },
+      "command": {
+        "backToCommands": "zurück zu den Commands",
+        "description": "Beschreibung",
+        "usage": "Benutzung"
+      }
+    }
   }
 }

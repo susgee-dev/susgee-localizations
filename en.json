@@ -1661,5 +1661,17 @@
       "noArgsUpdate": "Please provide a city. Example: 'weatherupdate Berlin'.",
       "currentLocation": "Your current weather location is: {city}"
     }
+  },
+  "web": {
+    "pages": {
+      "commands": {
+        "search": "search for commands"
+      },
+      "command": {
+        "backToCommands": "back to commands",
+        "description": "Description",
+        "usage": "Usage"
+      }
+    }
   }
 }
