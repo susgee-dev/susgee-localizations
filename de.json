@@ -1667,6 +1667,25 @@
   },
   "web": {
     "pages": {
+      "home": {
+        "hero": {
+          "title": "Mehr Power für deinen Chat mit",
+          "subtitle": "Hol dir Emotes, sammel Botties, kontrolliere den Chat – easy und schnell.",
+          "cta": "Susgeebot hinzufügen"
+        },
+        "cards": {
+          "7tv": {
+            "title": "7TV Emotes ✨",
+            "description": "Emote gesehen, die du haben willst? Mit <code>?7TV</code> kannst du Emotes easy zu deinem Set hinzufügen.",
+            "linkLabel": "7TV Commands entdecken"
+          },
+          "botties": {
+            "title": "Botties sammeln 🎰",
+            "description": "<code>?gamba</code> und <code>?casino</code> bringen Spaß in deinen Chat. Spieler können Botties riskieren und den Leaderboard-Kampf beginnen!",
+            "linkLabel": "Spielmodi entdecken"
+          }
+        }
+      },
       "commands": {
         "search": "nach Commands suchen"
       },
