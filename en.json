@@ -119,7 +119,7 @@
       "success": "emote-sets from {channel|antiPing} susgeePoint {paste}"
     },
     "error": {
-      "emoteNameTaken": "susgeeDank an emote with the name {name} exists already",
+      "emoteNameTaken": "emote already exists with the name {name}",
       "emoteNotFound": "susgeeDank emote {emote} not found",
       "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
       "emoteLinkNotFound": "susgeeDank no emote found with this link",
