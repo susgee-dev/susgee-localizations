@@ -490,6 +490,7 @@
   "globalMessage": {
     "preview": "preview: {link}",
     "info": "info: {link}",
+    "description": "description: {description}",
     "emote": {
       "added": "{set} global emote \" {emote} \" has been added",
       "removed": "{set} global emote \" {emote} \" has been removed",
