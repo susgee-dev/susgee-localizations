@@ -1535,9 +1535,9 @@
     },
     "subEvents": {
       "anonymous": "an anonym user",
-      "gift": "{user} gifted {total} tier {tier} {total|plural(one|sub, other|subs)}!! sheCrazy",
+      "gift": "{user} gifted {total} {total|plural(one|sub, other|subs)}!! sheCrazy",
       "total": "gifted {total} subs",
-      "subscribe": "{user} subbed with a tier {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
+      "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
       "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
     },
     "subInfo": {

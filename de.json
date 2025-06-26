@@ -836,7 +836,7 @@
   },
   "subEvents": {
     "anonymous": "Ein anonymer User",
-    "gift": "{user} gifted {total} Tier {tier} {total|plural(one|Sub, other|Subs)}!! sheCrazy",
+    "gift": "{user} gifted {total} {total|plural(one|Sub, other|Subs)}!! sheCrazy",
     "total": "insgesamt {total|plural(one|Sub, other|Subs)} verschenkt",
     "subscribe": "{user} hat einen {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen - insgesamt {cumulative|plural(one|Monat, other|Monate)} sheCrazy",
     "streak": "Aktuelle Sub-Streak: {streak|plural(one|Monat, other|Monate)}!"
