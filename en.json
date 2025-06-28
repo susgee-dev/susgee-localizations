@@ -466,6 +466,10 @@
     "self": "susgeeDank you can't follow yourself",
     "since": "susgeeOK {user|antiPing} is following {channel|antiPing} since {since|time}"
   },
+  "forecast": {
+    "title": "🌤 5-Day Weather Forecast:",
+    "day": "📅 {day} at {hour} | {weather} | 🌡️ {temp}°C (feels like {feelsLike}°C) | 💧 {humidity}% | 🌪️ {wind} | 🌧️ {pop}% rain"
+  },
   "founders": {
     "none": "susgeeDank channel {channel|antiPing} has no founders",
     "since": "got founder {since|time} ago",
@@ -1228,6 +1232,10 @@
     "founders": {
       "usage": "<channel>",
       "description": "displays the founders of a channel"
+    },
+    "forecast": {
+      "description": "Shows a 5-day weather forecast for a city",
+      "usage": "<stadt> or user <user>"
     },
     "freeAll": {
       "description": "removes all timeouts of all users in the current channel"
