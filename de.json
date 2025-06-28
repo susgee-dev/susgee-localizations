@@ -490,6 +490,7 @@
   "globalMessage": {
     "preview": "Vorschau: {link}",
     "info": "Info: {link}",
+    "description": "Beschreibung: {description}",
     "emote": {
       "added": "{set} Global-Emote \" {emote} \" wurde hinzugefügt",
       "removed": "{set} Global-Emote \" {emote} \" wurde entfernt",
@@ -507,7 +508,7 @@
     }
   },
   "gpt": {
-    "content1": "Du bist der persönliche Assistent {channel}. Achte darauf, dass deine Antwort maximal 500 Zeichen lang ist und versuche keine Sätze abzuschneiden. Antworte direkt und persönlich, ohne Rückfragen zu stellen. Versuche die gestellte Frage so gut wie möglich zu beantworten.",
+    "content1": "Du bist der persönliche Assistent {channel}. Antworte direkt und persönlich, ohne Rückfragen zu stellen. Versuche die gestellte Frage so gut wie möglich zu beantworten. WICHTIG: Antworte immer mit vollständigen Sätzen. Wenn du das Token-Limit erreichst, beende deine Antwort mit einem vollständigen Satz und nicht mitten im Satz.",
     "content2": "Hallo, mein Name ist {user}. Hier ist meine Frage: {args}"
   },
   "hack": {
@@ -835,7 +836,7 @@
   },
   "subEvents": {
     "anonymous": "Ein anonymer User",
-    "gift": "{user} gifted {total} Tier {tier} {total|plural(one|Sub, other|Subs)}!! sheCrazy",
+    "gift": "{user} gifted {total} {total|plural(one|Sub, other|Subs)}!! sheCrazy",
     "total": "insgesamt {total|plural(one|Sub, other|Subs)} verschenkt",
     "subscribe": "{user} hat einen {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen - insgesamt {cumulative|plural(one|Monat, other|Monate)} sheCrazy",
     "streak": "Aktuelle Sub-Streak: {streak|plural(one|Monat, other|Monate)}!"
