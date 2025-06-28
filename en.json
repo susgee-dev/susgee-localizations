@@ -1677,20 +1677,20 @@
     "pages": {
       "home": {
         "hero": {
-          "title": "More Power for your Chat with",
-          "subtitle": "Get Emotes, collect Botties, control the Chat – easy and quick.",
+          "title": "More power for your chat with",
+          "subtitle": "Get emotes, collect botties, control the chat – easy and quick.",
           "cta": "Add Susgeebot"
         },
         "cards": {
           "7tv": {
-            "title": "7TV Emotes ✨",
-            "description": "Seen an Emote you want? With <code>?7TV</code> you can easily add Emotes to your set.",
-            "linkLabel": "Discover 7TV Commands"
+            "title": "7TV emotes ✨",
+            "description": "Seen an emote you want? With <code>?7TV</code> you can easily add emotes to your set.",
+            "linkLabel": "Discover 7TV commands"
           },
           "botties": {
-            "title": "Collect Botties 🎰",
-            "description": "<code>?gamba</code> and <code>?casino</code> bring fun to your Chat. Players can risk Botties and start the leaderboard battle!",
-            "linkLabel": "Discover Game Modes"
+            "title": "Collect botties 🎰",
+            "description": "<code>?gamba</code> and <code>?botties</code> bring fun to your chat. Players can risk botties and start the leaderboard battle!",
+            "linkLabel": "Discover game modes"
           }
         }
       },
