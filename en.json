@@ -119,7 +119,7 @@
       "success": "emote-sets from {channel|antiPing} susgeePoint {paste}"
     },
     "error": {
-      "emoteNameTaken": "susgeeDank an emote with the name {name} exists already",
+      "emoteNameTaken": "emote already exists with the name {name}",
       "emoteNotFound": "susgeeDank emote {emote} not found",
       "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
       "emoteLinkNotFound": "susgeeDank no emote found with this link",
@@ -494,6 +494,7 @@
   "globalMessage": {
     "preview": "preview: {link}",
     "info": "info: {link}",
+    "description": "description: {description}",
     "emote": {
       "added": "{set} global emote \" {emote} \" has been added",
       "removed": "{set} global emote \" {emote} \" has been removed",
@@ -1542,9 +1543,9 @@
     },
     "subEvents": {
       "anonymous": "an anonym user",
-      "gift": "{user} gifted {total} tier {tier} {total|plural(one|sub, other|subs)}!! sheCrazy",
+      "gift": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy",
       "total": "gifted {total} subs",
-      "subscribe": "{user} subbed with a tier {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
+      "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
       "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
     },
     "subInfo": {
@@ -1671,6 +1672,51 @@
       "noWeatherLocationSet": "You haven't set a weather location yet. Please use 'weather <city>' to set one.",
       "noArgsUpdate": "Please provide a city. Example: 'weatherupdate Berlin'.",
       "currentLocation": "Your current weather location is: {city}"
+    }
+  },
+  "web": {
+    "forms": {
+      "searching": "Searching...",
+      "search": "Search"
+    },
+    "footer": {
+      "rightsReserved": "not affiliated with Twitch",
+      "privacy": "privacy (german)"
+    },
+    "pages": {
+      "home": {
+        "hero": {
+          "title": "More power for your chat with",
+          "subtitle": "Get emotes, collect botties, control the chat – easy and quick.",
+          "cta": "Add Susgeebot"
+        },
+        "cards": {
+          "7tv": {
+            "title": "7TV emotes ✨",
+            "description": "Seen an emote you want? With <code>?7TV</code> you can easily add emotes to your set.",
+            "linkLabel": "Discover 7TV commands"
+          },
+          "botties": {
+            "title": "Collect botties 🎰",
+            "description": "<code>?gamba</code> and <code>?botties</code> bring fun to your chat. Players can risk botties and start the leaderboard battle!",
+            "linkLabel": "Discover game modes"
+          }
+        }
+      },
+      "commands": {
+        "search": "search for commands"
+      },
+      "command": {
+        "backToCommands": "back to commands",
+        "description": "Description",
+        "usage": "Usage"
+      },
+      "bans": {
+        "description": "Search for bans by channel and/or user",
+        "time": "Time",
+        "noSearchCriteria": "Please enter a channel or user to search",
+        "noEntries": "No bans found for the given search criteria"
+      }
     }
   }
 }

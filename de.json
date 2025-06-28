@@ -119,7 +119,7 @@
       "success": "Emote-Sets von {channel|antiPing} susgeePoint {paste}"
     },
     "error": {
-      "emoteNameTaken": "susgeeDank Emote mit dem Namen {emote} existiert bereits",
+      "emoteNameTaken": "emote existiert in deinem Channel bereits als {emote}",
       "emoteLinkNotFound": "susgeeDank Kein Emote mit diesem Link gefunden",
       "emoteNotFound": "susgeeDank Emote {emote} nicht gefunden",
       "emoteNotFoundInSet": "susgeeDank Emote {emote} nicht gefunden in diesem Set",
@@ -494,6 +494,7 @@
   "globalMessage": {
     "preview": "Vorschau: {link}",
     "info": "Info: {link}",
+    "description": "Beschreibung: {description}",
     "emote": {
       "added": "{set} Global-Emote \" {emote} \" wurde hinzugefügt",
       "removed": "{set} Global-Emote \" {emote} \" wurde entfernt",
@@ -511,7 +512,7 @@
     }
   },
   "gpt": {
-    "content1": "Du bist der persönliche Assistent {channel}. Achte darauf, dass deine Antwort maximal 500 Zeichen lang ist und versuche keine Sätze abzuschneiden. Antworte direkt und persönlich, ohne Rückfragen zu stellen. Versuche die gestellte Frage so gut wie möglich zu beantworten.",
+    "content1": "Du bist der persönliche Assistent {channel}. Antworte direkt und persönlich, ohne Rückfragen zu stellen. Versuche die gestellte Frage so gut wie möglich zu beantworten. WICHTIG: Antworte immer mit vollständigen Sätzen. Wenn du das Token-Limit erreichst, beende deine Antwort mit einem vollständigen Satz und nicht mitten im Satz.",
     "content2": "Hallo, mein Name ist {user}. Hier ist meine Frage: {args}"
   },
   "hack": {
@@ -839,7 +840,7 @@
   },
   "subEvents": {
     "anonymous": "Ein anonymer User",
-    "gift": "{user} gifted {total} Tier {tier} {total|plural(one|Sub, other|Subs)}!! sheCrazy",
+    "gift": "{user} gifted {total|plural(one|Sub, other|Subs)}!! sheCrazy",
     "total": "insgesamt {total|plural(one|Sub, other|Subs)} verschenkt",
     "subscribe": "{user} hat einen {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen - insgesamt {cumulative|plural(one|Monat, other|Monate)} sheCrazy",
     "streak": "Aktuelle Sub-Streak: {streak|plural(one|Monat, other|Monate)}!"
@@ -1671,6 +1672,51 @@
       "noWeatherLocationSet": "Du hast noch keine Wetterlocation gesetzt. Bitte benutze 'wetter <Stadt>' um eine Wetterlocation zu setzen.",
       "noArgsUpdate": "Bitte geben eine Stadt ein. Beispiel: „wetterupdate Berlin“.",
       "currentLocation": "Dein aktueller Wetterort ist: {city}"
+    }
+  },
+  "web": {
+    "forms": {
+      "searching": "Suche...",
+      "search": "Suchen"
+    },
+    "footer": {
+      "rightsReserved": "steht in keiner rechtlichen Verbindung zu Twitch",
+      "privacy": "Datenschutz"
+    },
+    "pages": {
+      "home": {
+        "hero": {
+          "title": "Mehr Power für deinen Chat mit",
+          "subtitle": "Hol dir Emotes, sammel Botties, kontrolliere den Chat – easy und schnell.",
+          "cta": "Susgeebot hinzufügen"
+        },
+        "cards": {
+          "7tv": {
+            "title": "7TV Emotes ✨",
+            "description": "Emote gesehen, die du haben willst? Mit <code>?7TV</code> kannst du Emotes easy zu deinem Set hinzufügen.",
+            "linkLabel": "7TV Commands entdecken"
+          },
+          "botties": {
+            "title": "Botties sammeln 🎰",
+            "description": "<code>?gamba</code> und <code>?casino</code> bringen Spaß in deinen Chat. Spieler können Botties riskieren und den Leaderboard-Kampf beginnen!",
+            "linkLabel": "Spielmodi entdecken"
+          }
+        }
+      },
+      "commands": {
+        "search": "nach Commands suchen"
+      },
+      "command": {
+        "backToCommands": "zurück zu den Commands",
+        "description": "Beschreibung",
+        "usage": "Benutzung"
+      },
+      "bans": {
+        "description": "Suche Bans nach Channel und/oder User",
+        "time": "Zeit",
+        "noSearchCriteria": "Bitte gib ein Channel oder User zum Suchen an",
+        "noEntries": "Keine Bans gefunden mit diesen Suchkriterien"
+      }
     }
   }
 }
