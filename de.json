@@ -929,7 +929,7 @@
     "noLocationSet": "susgeeDank Gib eine Stadt an, oder sende Susgeebot eine Whisper-Nachricht mit dem Inhalt \"wetter <stadt>\" um deine Stadt zu speichern",
     "locationNotFound": "susgeeDank Ich kann keine Informationen über diesen Ort finden",
     "location": "{location} {flag}",
-    "locationHidden": "Standort versteckt forsenCD {flag}",
+    "locationHidden": "Standort versteckt susgeeBased {flag}",
     "weather": "Wetter: {weather}",
     "wind": "Windgeschwindigkeit: {wind}",
     "temperature": "Temperatur: {temp}°C",

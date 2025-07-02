@@ -922,7 +922,7 @@
     "noLocationSet": "susgeeDank enter a city, or send Susgeebot a whisper message saying \"weather <city>\" to save your location",
     "locationNotFound": "susgeeDank couldn't find a location with this name",
     "location": "{location} {flag}",
-    "locationHidden": "location hidden forsenCD {flag}",
+    "locationHidden": "location hidden susgeeBased {flag}",
     "weather": "weather: {weather}",
     "wind": "windspeed: {wind}",
     "temperature": "temperature: {temp}°C",
