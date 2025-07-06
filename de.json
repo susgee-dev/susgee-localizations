@@ -466,6 +466,10 @@
     "self": "susgeeDank man kann sich selber nicht folgen",
     "since": "susgeeOK {user|antiPing} folgt {channel|antiPing} seit {since|time}"
   },
+  "forecast": {
+    "title": "🌤 5-Tage-Wettervorhersage:",
+    "day": "📅 {day} um {hour} | {weather} | 🌡️ {temp}°C (gefühlt {feelsLike}°C) | 💧 {humidity}% | 🌪️ {wind} | 🌧️ {pop}% Regen"
+  },
   "founders": {
     "none": "susgeeDank Channel {channel|antiPing} hat keine Founder",
     "since": "vor {since|time} Founder geworden",
@@ -925,7 +929,7 @@
     "noLocationSet": "susgeeDank Gib eine Stadt an, oder sende Susgeebot eine Whisper-Nachricht mit dem Inhalt \"wetter <stadt>\" um deine Stadt zu speichern",
     "locationNotFound": "susgeeDank Ich kann keine Informationen über diesen Ort finden",
     "location": "{location} {flag}",
-    "locationHidden": "Standort versteckt forsenCD {flag}",
+    "locationHidden": "Standort versteckt susgeeBased {flag}",
     "weather": "Wetter: {weather}",
     "wind": "Windgeschwindigkeit: {wind}",
     "temperature": "Temperatur: {temp}°C",
@@ -1236,6 +1240,10 @@
     "founders": {
       "usage": "<Channel>",
       "description": "Sendet eine Founderliste von einem Channel"
+    },
+    "forecast": {
+      "description": "Zeigt eine 5-Tage-Wettervorhersage für eine Stadt an",
+      "usage": "<stadt> oder user <user>"
     },
     "freeAll": {
       "description": "Hebt alle Timeouts von Usern aus der Userlist auf"
