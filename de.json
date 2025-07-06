@@ -1275,6 +1275,9 @@
       "usage": "<Command>",
       "description": "Bringt dich hier her"
     },
+    "history": {
+      "description": "Sendet den Link von recent-messages eines Channels"
+    },
     "hug": {
       "usage": "<User>",
       "description": "Umarme jemanden 🤗"

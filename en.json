@@ -1268,6 +1268,9 @@
       "usage": "<command>",
       "description": "brings you here"
     },
+    "history": {
+      "description": "sends a link to recent-messages of a channel"
+    },
     "hug": {
       "usage": "<user>",
       "description": "hug someone 🤗"
