@@ -928,16 +928,16 @@
     "noUserLocation": "susgeeDank Dieser Benutzer hat keine Stadt gespeichert",
     "noLocationSet": "susgeeDank Gib eine Stadt an, oder sende Susgeebot eine Whisper-Nachricht mit dem Inhalt \"wetter <stadt>\" um deine Stadt zu speichern",
     "locationNotFound": "susgeeDank Ich kann keine Informationen über diesen Ort finden",
-    "location": "{location} {flag}",
+    "location": "📍 {location} {flag}",
     "locationHidden": "Standort versteckt susgeeBased {flag}",
-    "weather": "Wetter: {weather}",
-    "wind": "Windgeschwindigkeit: {wind}",
-    "temperature": "Temperatur: {temp}°C",
+    "weather": "🌥️ Wetter: {weather}",
+    "wind": "🌬️ Windgeschwindigkeit: {wind}",
+    "temperature": "🌡️ Temperatur: {temp}°C",
     "feelsLike": "Gefühlt: {temp}°C",
     "humidity": "Luftfeuchtigkeit: {humidity}%",
-    "sunrise": "Sonnenaufgang: {time}",
-    "sunset": "Sonnenuntergang: {time}",
-    "currentTime": "Aktuelle Uhrzeit (circa): {date}"
+    "sunrise": "🌅 Sonnenaufgang: {time}",
+    "sunset": "🌆 Sonnenuntergang: {time}",
+    "currentTime": "🕰️ Aktuelle Uhrzeit (circa): {date}"
   },
   "youtube": {
     "submitId": "Du musst eine YouTube Video ID/Link angeben",
