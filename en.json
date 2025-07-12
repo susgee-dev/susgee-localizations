@@ -930,7 +930,7 @@
     "humidity": "💧 humidity: {humidity}%",
     "sunrise": "🌅 sunrise: {time}",
     "sunset": "🌆 sunset: {time}",
-    "currentTime": "🕰️current time (circa): {date}"
+    "currentTime": "🕰️ current time (circa): {date}"
   },
   "youtube": {
     "submitId": "you have to submit a youtube link/id",
