@@ -933,8 +933,8 @@
     "weather": "🌥️ Wetter: {weather}",
     "wind": "🌬️ Windgeschwindigkeit: {wind}",
     "temperature": "🌡️ Temperatur: {temp}°C",
-    "feelsLike": "Gefühlt: {temp}°C",
-    "humidity": "Luftfeuchtigkeit: {humidity}%",
+    "feelsLike": "🌡️ Gefühlt: {temp}°C",
+    "humidity": "💧 Luftfeuchtigkeit: {humidity}%",
     "sunrise": "🌅 Sonnenaufgang: {time}",
     "sunset": "🌆 Sonnenuntergang: {time}",
     "currentTime": "🕰️ Aktuelle Uhrzeit (circa): {date}"
