@@ -396,7 +396,8 @@
     "noData": "Keine Daten zum angegebenen Benutzer",
     "success": "{user|antiPing} letzte Nachricht wurde wahrscheinlich über {client|include} gesendet",
     "thirdParty": "Chatterino oder einen anderen third-party client B-)",
-    "webChat": "Twitch Web Chat KEK"
+    "hashFormat": "Twitch Web Chat KEK",
+    "uuidFormat": "Twitch Mobile App"
   },
   "chatters": {
     "noEntries": "Im Channel {channel|antiPing} sind derzeit keine Chatter",
