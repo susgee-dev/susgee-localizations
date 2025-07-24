@@ -386,6 +386,12 @@
     "added": "vor {added|time} hinzugefügt",
     "messages": "{messages|plural(one|geloggte Nachricht, other|geloggte Nachrichten)}"
   },
+  "channelSettings": {
+    "currentSettings": "Aktuelle Einstellungen: {output}",
+    "invalidSetting": "susgeeDank Ungültige Einstellung. Erlaubte Einstellungen: {settings}",
+    "settingSet": "susgeeOK Einstellung '{setting}' wurde auf {value} gesetzt.",
+    "settingChanged": "susgeeOK Einstellung '{setting}' wurde auf {value} geändert."
+  },
   "chat": {
     "noData": "Keine Daten zum angegebenen Benutzer",
     "success": "{user|antiPing} letzte Nachricht wurde wahrscheinlich über {client|include} gesendet",
@@ -1120,6 +1126,10 @@
     "channelStats": {
       "usage": "<Channel>",
       "description": "Sendet die aktuellen Chat-Statistiken eines Channels"
+    },
+    "channelSettings": {
+      "usage": "<Einstellung> <Wert>",
+      "description": "Ändert die Einstellungen eines Channels"
     },
     "chat": {
       "usage": "<User>",

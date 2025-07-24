@@ -386,6 +386,12 @@
     "added": "added {added|time} ago",
     "messages": "{messages|plural(one|logged message, other|logged messages)}"
   },
+  "channelSettings": {
+    "currentSettings": "Current settings: {output}",
+    "invalidSetting": "susgeeDank Invalid setting. Allowed settings: {settings}",
+    "settingSet": "susgeeOK setting '{setting}' set to {value}.",
+    "settingChanged": "susgeeOK setting '{setting}' changed to {value}."
+  },
   "chat": {
     "noData": "i have no data from this user",
     "success": "the last message from {user|antiPing} has probably been sent via {client|include}",
@@ -1113,6 +1119,10 @@
     "channelStats": {
       "usage": "<channel>",
       "description": "displays the channel stats of the current channel"
+    },
+    "channelSettings": {
+      "usage": "<setting> <value>",
+      "description": "changes the settings of a channel"
     },
     "chat": {
       "usage": "<user>",
