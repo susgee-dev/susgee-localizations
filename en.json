@@ -159,6 +159,7 @@
       "nextBadgeInHours": "in {hours|plural(one|hour, other|hours)}",
       "renews": "renews in {delta|time}",
       "since": "subscribed since {days|plural(one|day, other|days)}",
+      "sinceStv": "subscribed in total for {days|plural(one|day, other|days)}",
       "subscribedFor": "previously subscribed for {days|plural(one|day, other|days)}"
     },
     "user": {

@@ -159,6 +159,7 @@
       "nextBadgeInHours": "in {hours|plural(one|Stunde, other|Stunden)}",
       "renews": "erneuert sich in {delta|time}",
       "since": "Sub seit {days|plural(one|Tag, other|Tagen)}",
+      "sinceStv": "Sub seit insgesamt {days|plural(one|Tag, other|Tagen)}",
       "subscribedFor": "hatte einen Sub für {days|plural(one|Tag, other|Tage)}"
     },
     "user": {
