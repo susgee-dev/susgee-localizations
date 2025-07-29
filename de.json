@@ -1166,6 +1166,10 @@
     },
     "customCommand": {
       "usage": "[add | remove | edit | list] <Name> <Command>",
+      "usages": {
+        "add": "<Name> <Command>",
+        "delete": "<Name>"
+      },
       "description": "Benutzerdefinierte Befehle verwalten (hinzufügen, entfernen, aktualisieren, auflisten)"
     },
     "deadChannels": {
