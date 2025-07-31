@@ -845,6 +845,13 @@
     "enabled": "susgeeOK I will notify you, when I detect a subgift for you",
     "whisper": "susgeeOK I will whisper you, when I detect a subgift for you"
   },
+  "subEvents": {
+    "anonymous": "an anonym user",
+    "gift": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy",
+    "total": "gifted {total} subs",
+    "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
+    "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
+  },
   "subinfo": {
     "noEntries": "No subs were distributed in the {channel|antiPing} {delta|include} channel",
     "stats": "Sub info for channel {channel|antiPing} {delta|include}: Total Subs: {total|number}, First-time subs: {firstTime|number}, Tiers: (P, T1, T2, T3) => {prime|number}, {tier1|number}, {tier2|number}, {tier3|number}"
@@ -1554,13 +1561,6 @@
     "subGifts": {
       "usage": "[alltime | today | yesterday | month] <user> <channel>",
       "description": "shows how many subs a user has gifted in a channel"
-    },
-    "subEvents": {
-      "anonymous": "an anonym user",
-      "gift": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy",
-      "total": "gifted {total} subs",
-      "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
-      "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
     },
     "subInfo": {
       "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
