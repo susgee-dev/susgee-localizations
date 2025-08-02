@@ -683,6 +683,21 @@
     "enabled": "susgeeOK Du wirst in der Command-Antwort nicht mehr erwähnt",
     "disabled": "susgeeOK Du wirst in der Command-Antwort wieder erwähnt"
   },
+  "notifications": {
+    "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}"
+  },
+  "notify": {
+    "info": "Verfügbare Benachrichtigungen: {availableTypes}",
+    "invalidType": "Ungültige Benachrichtigungen. Verfügbare Typen: {types}",
+    "alreadySubscribed": "Dieser Channel hat bereits {type} Benachrichtigungen abonniert",
+    "subscribed": "Erfolgreich für {type} Benachrichtigungen abonniert",
+    "noSubscriptions": "Dieser Channel hat keine Benachrichtigungen abonniert",
+    "notSubscribed": "Dieser Channel hat {type} Benachrichtigungen nicht abonniert",
+    "unsubscribed": "Erfolgreich von {type} Benachrichtigungen abgemeldet"
+  },
+  "unnotify": {
+    "info": "Dieser Channel hat folgende Benachrichtigungen abonniert: {subscriptions}"
+  },
   "optOut": {
     "triggered": "susgeeDank Dieser User oder Channel hat sich vom targeting dieses Commands ausgeschlossen",
     "success": "susgeeOK Du hast dich von dem Command {command} ausgeschlossen",
@@ -1430,6 +1445,14 @@
     },
     "nextBirthday": {
       "description": "Zeigt die nächsten Geburtstage von diesem Channel"
+    },
+    "notify": {
+      "description": "Abonniere Benachrichtigungen für verschiedene Ereignisse",
+      "usage": "<Typ>"
+    },
+    "unnotify": {
+      "description": "Melde dich von Benachrichtigungen ab",
+      "usage": "<Typ>"
     },
     "optOut": {
       "description": "Schliesse dich aus als target von einem oder allen Commands",

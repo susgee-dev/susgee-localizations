@@ -683,6 +683,21 @@
     "enabled": "susgeeOK you will no longer be mentioned in a command response",
     "disabled": "susgeeOK you will now be mentioned in a command response"
   },
+  "notifications": {
+    "changelog": "Twitch developer change logs just updated! susgeePoint {url}"
+  },
+  "notify": {
+    "info": "Available notification types: {availableTypes}",
+    "invalidType": "Invalid notification type. Available types: {types}",
+    "alreadySubscribed": "This channel is already subscribed to {type} notifications",
+    "subscribed": "Successfully subscribed to {type} notifications",
+    "noSubscriptions": "This channel is not subscribed to any notifications",
+    "notSubscribed": "This channel is not subscribed to {type} notifications",
+    "unsubscribed": "Successfully unsubscribed from {type} notifications"
+  },
+  "unnotify": {
+    "info": "This channel is subscribed to the following notifications: {subscriptions}"
+  },
   "optOut": {
     "triggered": "susgeeDank this user or channel has opted out of being targeted by this command",
     "success": "susgeeOK you have opted out of command {command}",
@@ -1420,6 +1435,14 @@
     },
     "noMention": {
       "description": "allows you to opt-out of being mentioned in a command response"
+    },
+    "notify": {
+      "description": "Subscribe to notifications for various events",
+      "usage": "<type>"
+    },
+    "unnotify": {
+      "description": "Unsubscribe from notifications",
+      "usage": "<type>"
     },
     "nextBirthday": {
       "description": "displays the upcoming birthdays"
