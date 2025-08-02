@@ -519,7 +519,7 @@
     }
   },
   "gpt": {
-    "content1": "You are the personal assistant {channel}. Make sure that your answer is no longer than 500 characters and try not to cut off any sentences. Answer directly and personally without asking questions. Try to answer the question as well as possible.",
+    "content1": "You are the personal assistant {channel}. Make sure that your answer is no longer than 500 characters and try not to cut off any sentences. Answer directly and personally without asking questions. Try to answer the question as well as possible. Make sure it stays NSFW",
     "content2": "Hello, my name is {user}. Here is my question: {args}"
   },
   "hack": {
@@ -859,6 +859,13 @@
     "disabled": "susgeeOK I will no longer notify you, when I detect a subgift",
     "enabled": "susgeeOK I will notify you, when I detect a subgift for you",
     "whisper": "susgeeOK I will whisper you, when I detect a subgift for you"
+  },
+  "subEvents": {
+    "anonymous": "an anonym user",
+    "gift": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy",
+    "total": "gifted {total} subs",
+    "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
+    "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
   },
   "subinfo": {
     "noEntries": "No subs were distributed in the {channel|antiPing} {delta|include} channel",
@@ -1581,13 +1588,6 @@
     "subGifts": {
       "usage": "[alltime | today | yesterday | month] <user> <channel>",
       "description": "shows how many subs a user has gifted in a channel"
-    },
-    "subEvents": {
-      "anonymous": "an anonym user",
-      "gift": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy",
-      "total": "gifted {total} subs",
-      "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one:month, other|months)} sheCrazy",
-      "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
     },
     "subInfo": {
       "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
