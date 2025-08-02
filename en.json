@@ -687,16 +687,16 @@
     "changelog": "Twitch developer change logs just updated! susgeePoint {url}"
   },
   "notify": {
-    "info": "Available notification types: {availableTypes}",
-    "invalidType": "Invalid notification type. Available types: {types}",
-    "alreadySubscribed": "This channel is already subscribed to {type} notifications",
-    "subscribed": "Successfully subscribed to {type} notifications",
-    "noSubscriptions": "This channel is not subscribed to any notifications",
-    "notSubscribed": "This channel is not subscribed to {type} notifications",
-    "unsubscribed": "Successfully unsubscribed from {type} notifications"
+    "info": "available notification types: {availableTypes}",
+    "invalidType": "susgeeDank invalid notification type. available types: {types}",
+    "alreadySubscribed": "susgeeDank this channel is already subscribed to {type} notifications",
+    "subscribed": "susgeeOK successfully subscribed to {type} notifications",
+    "noSubscriptions": "susgeeDank this channel is not subscribed to any notifications",
+    "notSubscribed": "susgeeDank this channel is not subscribed to {type} notifications",
+    "unsubscribed": "susgeeOK successfully unsubscribed from {type} notifications"
   },
   "unnotify": {
-    "info": "This channel is subscribed to the following notifications: {subscriptions}"
+    "info": "this channel is subscribed to the following notifications: {subscriptions}"
   },
   "optOut": {
     "triggered": "susgeeDank this user or channel has opted out of being targeted by this command",

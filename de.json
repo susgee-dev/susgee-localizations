@@ -688,12 +688,12 @@
   },
   "notify": {
     "info": "Verfügbare Benachrichtigungen: {availableTypes}",
-    "invalidType": "Ungültige Benachrichtigungen. Verfügbare Typen: {types}",
-    "alreadySubscribed": "Dieser Channel hat bereits {type} Benachrichtigungen abonniert",
-    "subscribed": "Erfolgreich für {type} Benachrichtigungen abonniert",
-    "noSubscriptions": "Dieser Channel hat keine Benachrichtigungen abonniert",
-    "notSubscribed": "Dieser Channel hat {type} Benachrichtigungen nicht abonniert",
-    "unsubscribed": "Erfolgreich von {type} Benachrichtigungen abgemeldet"
+    "invalidType": "susgeeDank Ungültige Benachrichtigungen. Verfügbare Typen: {types}",
+    "alreadySubscribed": "susgeeDank Dieser Channel hat bereits {type} Benachrichtigungen abonniert",
+    "subscribed": "susgeeOK Erfolgreich {type} Benachrichtigungen abonniert",
+    "noSubscriptions": "susgeeDank Dieser Channel hat keine Benachrichtigungen abonniert",
+    "notSubscribed": "susgeeDank Dieser Channel hat {type} Benachrichtigungen nicht abonniert",
+    "unsubscribed": "susgeeOK Erfolgreich von {type} Benachrichtigungen abgemeldet"
   },
   "unnotify": {
     "info": "Dieser Channel hat folgende Benachrichtigungen abonniert: {subscriptions}"
