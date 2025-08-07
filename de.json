@@ -640,6 +640,9 @@
     "error": "susgeeDank Nachricht konnte nicht gesendet werden",
     "success": "BabyRage"
   },
+  "mass": {
+    "noChatter": "susgeeDank Chatter für {channel|antiPing} konnten nicht geladen werden"
+  },
   "mode": {
     "7tv": "7tv",
     "changed": "susgeeOK Bot Mode erfolgreich geändert zu {mode}: {name}",

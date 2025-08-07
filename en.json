@@ -640,6 +640,9 @@
     "error": "susgeeDank message not sent",
     "success": "BabyRage"
   },
+  "mass": {
+    "noChatter": "susgeeDank failed to fetch chatters for {channel|antiPing}"
+  },
   "mode": {
     "7tv": "7tv",
     "changed": "susgeeOK successfully changed bot mode to {mode}: {name}",
