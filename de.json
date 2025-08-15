@@ -687,6 +687,7 @@
     "disabled": "susgeeOK Du wirst in der Command-Antwort wieder erwähnt"
   },
   "notifications": {
+    "blog": "Neuer Twitch Blog Artikel: {title} susgeePoint {url}",
     "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}"
   },
   "notify": {

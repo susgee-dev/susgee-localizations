@@ -687,6 +687,7 @@
     "disabled": "susgeeOK you will now be mentioned in a command response"
   },
   "notifications": {
+    "blog": "New Twitch Blog post: {title} susgeePoint {url}",
     "changelog": "Twitch developer change logs just updated! susgeePoint {url}"
   },
   "notify": {
