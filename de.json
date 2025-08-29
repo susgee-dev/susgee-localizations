@@ -459,6 +459,7 @@
     "entry": "{user|antiPing} hat das Emote {emote} im Channel {channel|antiPing} {entries|number} mal benutzt"
   },
   "emote": {
+    "artist": "Künstler: @{artist}",
     "channel": "Channel @{channel}"
   },
   "emotes": {
