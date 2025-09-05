@@ -149,7 +149,7 @@
     },
     "preview": "Preview: {link}",
     "sub": {
-      "ended": "vor {delta|time} geendet",
+      "ended": "endete vor {delta|time}",
       "ends": "endet in {delta|time}",
       "expired": "kein Sub mehr",
       "giftedSub": "geschenkt von {giftedBy|antiPing}",
@@ -839,7 +839,7 @@
     "offline": "@{streamer} ist susgeeOffline"
   },
   "subAge": {
-    "ended": "vor {delta|time} geendet",
+    "ended": "endete vor {delta|time}",
     "ends": "endet in {delta|time}",
     "expired": "kein Sub mehr",
     "giftedSub": "geschenkt von {giftedBy|antiPing}",
