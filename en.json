@@ -241,6 +241,15 @@
     "study": "@{user} goes learning {message}",
     "work": "@{user} goes to work now {message}"
   },
+  "azb": {
+    "alreadyTracking": "You are already tracking AZB since {startTime} KEK",
+    "started": "AZB tracking started! Every minute you write will be counted as 1 minute AZB KEK",
+    "notTracking": "You are not currently tracking AZB KEK",
+    "stopped": "AZB tracking stopped! You have committed {minutes} minutes of AZB KEK",
+    "currentlyTracking": "Currently running AZB tracking since {startTime} - {minutes} minutes AZB KEK",
+    "status": "AZB Status: {totalMinutes} minutes total ({totalSessions} sessions), today: {todayMinutes} minutes KEK",
+    "reset": "All AZB data has been deleted KEK"
+  },
   "allEmotes": {
     "noEmotes": "susgeeDank {channel|antiPing} has no channel emotes"
   },
