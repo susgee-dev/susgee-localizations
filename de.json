@@ -1043,6 +1043,10 @@
       "usage": "<AFK Text>",
       "description": "Setzt deinen Status auf AFK"
     },
+    "azb": {
+      "description": "Arbeitszeitbetrug Tracker - trackt wie viel Zeit man mit Chatten verschwendet hat",
+      "usage": "azb <start|stop|status|reset>"
+    },
     "allEmotes": {
       "usage": "<Channel>",
       "description": "Sendet alle Emotes 7TV/BTTV/FFZ/TWITCH von einem Channel in den Chat"

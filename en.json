@@ -1043,6 +1043,10 @@
       "usage": "<afk text>",
       "description": "sets your status to AFK"
     },
+    "azb": {
+      "description": "AZB - tracks how much time you've wasted with chatting",
+      "usage": "azb <start|stop|status|reset>"
+    },
     "allEmotes": {
       "usage": "<channel>",
       "description": "sends all 7TV/BTTV/FFZ/TWITCH emotes from a channel to the chat"
