@@ -1045,7 +1045,7 @@
     },
     "azb": {
       "description": "AZB - tracks how much time you've wasted with chatting",
-      "usage": "azb <start|stop|status|reset>"
+      "usage": "<start|stop|status|reset>"
     },
     "allEmotes": {
       "usage": "<channel>",

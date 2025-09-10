@@ -1045,7 +1045,7 @@
     },
     "azb": {
       "description": "Arbeitszeitbetrug Tracker - trackt wie viel Zeit man mit Chatten verschwendet hat",
-      "usage": "azb <start|stop|status|reset>"
+      "usage": "<start|stop|status|reset>"
     },
     "allEmotes": {
       "usage": "<Channel>",
