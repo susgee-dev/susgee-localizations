@@ -65,8 +65,8 @@
       "state": "{type|include} is currently {state|include}"
     },
     "names": {
-      "7tv": "(7TV) emote updates",
-      "7tvAnnounce": "(7TV) global emote/badge announcements",
+      "7tv": "7tvC emote updates",
+      "7tvAnnounce": "7tvC global emote/badge announcements",
       "banMsg": "ban updates",
       "birthdayMsg": "birthday messages",
       "command": "command",
@@ -79,7 +79,7 @@
     }
   },
   "7tv": {
-    "dod": "(7TV) is currently dead, please retry later",
+    "dod": "7tvC is currently dead, please retry later",
     "badge": {
       "active": "{active|plural(one|user has, other|users have)} this badge active",
       "name": "badge: {badge}",
@@ -90,8 +90,8 @@
     "editor": {
       "added": "susgeeOK {user|antiPing} added as a 7TV editor",
       "bot": "susgeeDank You do not need to add me as an editor",
-      "list": "susgeeOK in this channel, these users are (7TV) editors for this bot: {editors}",
-      "noEntries": "susgeeDank this channel has no (7TV) editors for this bot",
+      "list": "susgeeOK in this channel, these users are 7tvC editors for this bot: {editors}",
+      "noEntries": "susgeeDank this channel has no 7tvC editors for this bot",
       "removed": "susgeeOK {user|antiPing} removed as a 7tv editor",
       "self": "susgeeDank You do not need to add yourself as an editor"
     },
@@ -125,11 +125,11 @@
       "emoteLinkNotFound": "susgeeDank no emote found with this link",
       "noEmotesFoundToRemove": "susgeeDank no emotes found to remove",
       "emoteSetFull": "susgeeDank emote not added, the set is already full",
-      "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
-      "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
+      "invalidName": "susgeeDank emote-name contains a character which is not allowed by 7tvC",
+      "noAccount": "susgeeDank channel {channel|antiPing} has no 7tvC account",
       "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",
-      "noChannelPerms": "you are no bot (7TV) editor for this channel. @{streamer} can add you with by using {prefix}7tveditor {user} susgeeOK",
-      "noEditor": "susgeeDank Susgeebot is not a (7TV) editor for this channel. add me as an editor on https://7tv.app/settings/editors",
+      "noChannelPerms": "you are no bot 7tvC editor for this channel. @{streamer} can add you with by using {prefix}7tveditor {user} susgeeOK",
+      "noEditor": "susgeeDank Susgeebot is not a 7tvC editor for this channel. add me as an editor on https://7tv.app/settings/editors",
       "noEmoteSets": "susgeeDank channel {channel|antiPing} has no emote-sets",
       "privateEmote": "susgeeDank emote {emote} is private and can't be added",
       "ezGifError": "susgeeDank Currently only emote links from BTTV, 7TV and FFZ are supported",
@@ -144,8 +144,8 @@
       "added": "added {date|time} ago"
     },
     "presence": {
-      "error": "failed to update (7TV) presence",
-      "success": "(7TV) presence updated"
+      "error": "failed to update 7tvC presence",
+      "success": "7tvC presence updated"
     },
     "preview": "preview: {link}",
     "sub": {
@@ -153,7 +153,7 @@
       "ends": "ends in {delta|time}",
       "expired": "no longer subscribed",
       "giftedSub": "gifted by {giftedBy|antiPing}",
-      "neverSubbed": "never subbed to (7TV)",
+      "neverSubbed": "never subbed to 7tvC",
       "nextBadge": "next badge \"{badge}\" {delta} ({percent}%)",
       "nextBadgeInDays": "in {days|plural(one|day, other|days)}",
       "nextBadgeInHours": "in {hours|plural(one|hour, other|hours)}",
@@ -522,10 +522,10 @@
       "removed": "{set} global badge \" {badge} \" has been removed"
     },
     "7tv": {
-      "added": "(7TV) {kind} \"{name}\" has been added",
-      "removed": "(7TV) {kind} \"{name}\" has been removed",
-      "renamed": "(7TV) {kind} \"{oldName}\" has been renamed to \"{newName}\"",
-      "replaced": "(7TV) {kind} \"{oldName}\" has been changed (new id: {id})"
+      "added": "7tvC {kind} \"{name}\" has been added",
+      "removed": "7tvC {kind} \"{name}\" has been removed",
+      "renamed": "7tvC {kind} \"{oldName}\" has been renamed to \"{newName}\"",
+      "replaced": "7tvC {kind} \"{oldName}\" has been changed (new id: {id})"
     }
   },
   "gpt": {
@@ -597,10 +597,10 @@
   },
   "leaderboard": {
     "cat": {
-      "badges": "(7TV) badges",
+      "badges": "7tvC badges",
       "botties": "botties",
       "commands": "commands",
-      "paints": "(7TV) paints",
+      "paints": "7tvC paints",
       "prestige": "prestige",
       "treasures": "treasure chests"
     },
@@ -1009,18 +1009,18 @@
     },
     "7tvEditor": {
       "usage": "<user>",
-      "description": "add an editor for (7TV) emotes"
+      "description": "add an editor for 7tvC emotes"
     },
     "7tvEditorList": {
-      "description": "shows users with (7TV) bot editor permissions"
+      "description": "shows users with 7tvC bot editor permissions"
     },
     "7tvMsg": {
       "usage": "<channel>",
-      "description": "enables/disables (7TV) notifications in chat"
+      "description": "enables/disables 7tvC notifications in chat"
     },
     "7tvSa": {
       "usage": "<user>",
-      "description": "Shows a user's sub status on (7TV)"
+      "description": "Shows a user's sub status on 7tvC"
     },
     "7tvUser": {
       "usage": "<user>",
@@ -1084,7 +1084,7 @@
     },
     "badge": {
       "usage": "<user>",
-      "description": "shows the current (7TV) badge of a user"
+      "description": "shows the current 7tvC badge of a user"
     },
     "ban": {
       "usage": "<user>",
@@ -1249,11 +1249,11 @@
     },
     "emoteSet": {
       "usage": "<channel>",
-      "description": "shows information the current (7TV) emote-set"
+      "description": "shows information the current 7tvC emote-set"
     },
     "emoteSets": {
       "usage": "<channel>",
-      "description": "shows information about all (7TV) emote-sets from a channel"
+      "description": "shows information about all 7tvC emote-sets from a channel"
     },
     "errorList": {
       "description": "returns a list of all errors in the database"
@@ -1318,10 +1318,10 @@
       "description": "displays all global twitch emotes"
     },
     "global3": {
-      "description": "displays all (7TV) cosmetics"
+      "description": "displays all 7tvC cosmetics"
     },
     "globalEmoteAnnounce": {
-      "description": "send a notification, when a global badge/emote has been updated from Twitch (7TV) or BTTV"
+      "description": "send a notification, when a global badge/emote has been updated from Twitch 7tvC or BTTV"
     },
     "gpt": {
       "usage": "<text>",
@@ -1340,7 +1340,7 @@
     },
     "id": {
       "usage": "<user>",
-      "description": "returns the user ids from Twitch and (7TV)"
+      "description": "returns the user ids from Twitch and 7tvC"
     },
     "ignore": {
       "usage": "<user>",
@@ -1507,7 +1507,7 @@
     },
     "presence": {
       "usage": "<user>",
-      "description": "refreshes your (7TV) paint and badge"
+      "description": "refreshes your 7tvC paint and badge"
     },
     "prestige": {
       "description": "increase your prestige to gain more botties"
@@ -1628,7 +1628,7 @@
       "description": "shows how many timeouts a user has in a channel"
     },
     "topBadges": {
-      "description": "displays the top 5 active (7TV) badges"
+      "description": "displays the top 5 active 7tvC badges"
     },
     "topBans": {
       "usage": "<channel>",
@@ -1642,7 +1642,7 @@
       "description": "shows the 10 most used commands"
     },
     "topPaints": {
-      "description": "displays the top 5 active (7TV) paints"
+      "description": "displays the top 5 active 7tvC paints"
     },
     "topSubGifts": {
       "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
@@ -1779,3 +1779,4 @@
     }
   }
 }
+
