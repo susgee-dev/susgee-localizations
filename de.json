@@ -163,6 +163,7 @@
     },
     "user": {
       "badge": "Badge: {badge}",
+      "created": "Erstellt vor: {date|time}",
       "editorOf": "Editor von {channels|plural(one|Channel, other|Channels)}",
       "editors": "{editors|plural(one|Editor, other|Editors)}",
       "emoteSet": "Emote-Set: {count|number} / {capacity|number}",
