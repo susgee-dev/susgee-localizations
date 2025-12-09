@@ -1428,7 +1428,7 @@
       "description": "display the mod-state of a user in a channel"
     },
     "mode": {
-      "usage": "<0: disabled, 1: default, 2: offline, 3: 7tv, 4: mods, 5: offlineAllOnlineMod>",
+      "usage": "<0: disabled, 1: default, 2: offline, 3: 7tv, 4: mods, 5: offlineAllOnlineModOnly>",
       "description": "changes the mode of the bot in this channel"
     },
     "modLookup": {

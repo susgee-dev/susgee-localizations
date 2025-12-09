@@ -1428,7 +1428,7 @@
       "description": "Mod Status von einem User anzeigen"
     },
     "mode": {
-      "usage": "<0: deaktiviert, 1: standard, 2: offline, 3: 7tv, 4: mods, 5: offlineAllOnlineMod>",
+      "usage": "<0: deaktiviert, 1: standard, 2: offline, 3: 7tv, 4: mods, 5: offlineAllOnlineModOnly>",
       "description": "Ändert den Modus des Bots"
     },
     "modLookup": {
