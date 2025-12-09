@@ -660,7 +660,8 @@
     "check": "Aktueller Bot Mode ist {mode}: {name}",
     "default": "standard",
     "mods": "mods",
-    "offline": "offline"
+    "offline": "offline",
+    "offlineAllOnlineMod": "Online nur für Mods. Offline für alle"
   },
   "mostSent": {
     "noEntries": "susgeeDank {user|antiPing} hat noch nichts im Channel {channel|antiPing} geschrieben",
