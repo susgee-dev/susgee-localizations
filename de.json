@@ -65,8 +65,8 @@
       "state": "{type|include} ist aktuell {state|include}"
     },
     "names": {
-      "7tv": "7tvC Emote Updates",
-      "7tvAnnounce": "7tvC Global Emote/Badge Ankündigungen",
+      "7tv": "(7TV) Emote Updates",
+      "7tvAnnounce": "(7TV) Global Emote/Badge Ankündigungen",
       "banMsg": "Bann Nachrichten",
       "birthdayMsg": "Geburtstags Nachrichten",
       "command": "Command {command}",
@@ -79,7 +79,7 @@
     }
   },
   "7tv": {
-    "dod": "7tvC ist aktuell dod, versuch's später nochmal",
+    "dod": "(7TV) ist aktuell dod, versuch's später nochmal",
     "badge": {
       "active": "{active|plural(one|User, other|Users)} haben dieses Badge aktiv",
       "name": "Badge: {badge}",
@@ -88,11 +88,11 @@
       "added": "hinzugefügt vor {date|time}"
     },
     "editor": {
-      "added": "susgeeOK {user|antiPing} zur 7tvC Editor Liste hinzugefügt",
+      "added": "susgeeOK {user|antiPing} zur (7TV) Editor Liste hinzugefügt",
       "bot": "susgeeDank Du musst mich nicht als Editor hinzufügen",
-      "list": "susgeeOK In diesem Channel haben folgende User 7tvC Editor Rechte für diesen Bot: {editors}",
-      "noEntries": "susgeeDank Dieser Channel hat keine 7tvC Editoren für diesen Bot gespeichert",
-      "removed": "susgeeOK {user|antiPing} von der 7tvC Editor Liste entfernt",
+      "list": "susgeeOK In diesem Channel haben folgende User (7TV) Editor Rechte für diesen Bot: {editors}",
+      "noEntries": "susgeeDank Dieser Channel hat keine (7TV) Editoren für diesen Bot gespeichert",
+      "removed": "susgeeOK {user|antiPing} von der (7TV) Editor Liste entfernt",
       "self": "susgeeDank Du musst dich selber nicht als Editor hinzufügen"
     },
     "emote": {
@@ -125,10 +125,10 @@
       "emoteNotFoundInSet": "susgeeDank Emote {emote} nicht gefunden in diesem Set",
       "emoteSetFull": "susgeeDank Emote Set hat kein Platz mehr",
       "noEmotesFoundToRemove": "susgeeDank Keine Emotes gefunden zum entfernen",
-      "invalidName": "susgeeDank Name vom Emote enthält ein Zeichen, welches 7tvC nicht erlaubt",
-      "noAccount": "susgeeDank Channel {channel|antiPing} hat keinen 7tvC Account",
+      "invalidName": "susgeeDank Name vom Emote enthält ein Zeichen, welches (7TV) nicht erlaubt",
+      "noAccount": "susgeeDank Channel {channel|antiPing} hat keinen (7TV) Account",
       "noActiveEmoteSet": "susgeeDank Channel {channel|antiPing} hat kein aktives Emote Set",
-      "noChannelPerms": "Du hast keine 7tvC Editoren Rechte in diesem Channel. @{streamer} kann dich mit dem Command {prefix}7tveditor {user} hinzufügen susgeeOK",
+      "noChannelPerms": "Du hast keine (7TV) Editoren Rechte in diesem Channel. @{streamer} kann dich mit dem Command {prefix}7tveditor {user} hinzufügen susgeeOK",
       "noEditor": "Susgeebot hat keine Editor Rechte. Füge ihn bei https://7tv.app/settings/editors als Editor hinzu susgeeOK",
       "noEmoteSets": "susgeeDank Channel {channel|antiPing} hat keine Emote Sets",
       "privateEmote": "susgeeDank Emote {emote} ist privat und kann nicht hinzugefügt werden",
@@ -144,8 +144,8 @@
       "added": "hinzugefügt vor {date|time}"
     },
     "presence": {
-      "error": "Fehler beim aktualisieren der 7tvC Presence",
-      "success": "7tvC Presence aktualisiert"
+      "error": "Fehler beim aktualisieren der (7TV) Presence",
+      "success": "(7TV) Presence aktualisiert"
     },
     "preview": "Preview: {link}",
     "sub": {
@@ -153,7 +153,7 @@
       "ends": "endet in {delta|time}",
       "expired": "kein Sub mehr",
       "giftedSub": "geschenkt von {giftedBy|antiPing}",
-      "neverSubbed": "noch nie einen 7tvC Sub gehabt",
+      "neverSubbed": "noch nie einen (7TV) Sub gehabt",
       "nextBadge": "nächstes Badge \"{badge}\" {delta} ({percent}%)",
       "nextBadgeInDays": "in {days|plural(one|Tag, other|Tagen)}",
       "nextBadgeInHours": "in {hours|plural(one|Stunde, other|Stunden)}",
@@ -523,10 +523,10 @@
       "removed": "{set} Global-Badge \" {badge} \" wurde entfernt"
     },
     "7tv": {
-      "added": "7tvC {kind} \"{name}\" wurde hinzugefügt",
-      "removed": "7tvC {kind} \"{name}\" wurde entfernt",
-      "renamed": "7tvC {kind} \"{oldName}\" wurde umbenannt zu \"{newName}\"",
-      "replaced": "7tvC {kind} \"{oldName}\" wurde geändert (neue Id: {id})"
+      "added": "(7TV) {kind} \"{name}\" wurde hinzugefügt",
+      "removed": "(7TV) {kind} \"{name}\" wurde entfernt",
+      "renamed": "(7TV) {kind} \"{oldName}\" wurde umbenannt zu \"{newName}\"",
+      "replaced": "(7TV) {kind} \"{oldName}\" wurde geändert (neue Id: {id})"
     }
   },
   "gpt": {
@@ -598,10 +598,10 @@
   },
   "leaderboard": {
     "cat": {
-      "badges": "7tvC Badges",
+      "badges": "(7TV) Badges",
       "botties": "Botties",
       "commands": "Commands",
-      "paints": "7tvC Paints",
+      "paints": "(7TV) Paints",
       "prestige": "Prestige",
       "treasures": "Schatzkisten"
     },
@@ -997,7 +997,7 @@
         "import": "<Channel / Emote-Set-Id>"
       }
     },
-    "7tvc": {
+    "(7TV)": {
       "usage": "[add | remove | rename | replace | yoink | import]",
       "description": "Verwaltet 7TV Emotes in anderen Channels",
       "usages": {
@@ -1011,7 +1011,7 @@
     },
     "7tvEditor": {
       "usage": "<User>",
-      "description": "Füge einen Editor für 7tvC Emotes hinzu"
+      "description": "Füge einen Editor für (7TV) Emotes hinzu"
     },
     "7tvEditorList": {
       "description": "Zeigt die User mit 7tv Bot Editoren Rechte an"
