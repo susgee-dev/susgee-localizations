@@ -768,6 +768,16 @@
     "notEnough": "Du hast nicht genügend Botties. Prestige {prestige} kostet {cost|number} Botties und du hast {botties|plural(one|Bottie, other|Botties)}",
     "success": "Prestige erfolgreich! Du hast jetzt {botties|plural(one|Bottie, other|Botties)} und bist im Prestige {prestige}. Das nächste Prestige kostet {cost|number} Botties"
   },
+  "ram": {
+    "error": {
+      "noPrice": "Konnte den Preis nicht abrufen."
+    },
+    "message": {
+      "article": "Artikel: {url} | Aktueller Preis: {price}€",
+      "noChange": " | Unverändert (0%) ➡️",
+      "noComparison": " | Kein Vergleichswert verfügbar"
+    }
+  },
   "randLine": {
     "noEntries": "susgeeDank {user|antiPing} hat noch nie im Channel {channel|antiPing} gechatted",
     "entry": "Nachricht von {user|antiPing} im Channel {channel|antiPing}: {message}",
@@ -1410,6 +1420,9 @@
     "maersuggest": {
       "usage": "<Text>",
       "description": "BabyRage marceeeeel"
+    },
+    "ram": {
+      "description": "Zeigt den aktuellen Preis von RAM auf idealo.de an"
     },
     "mass": {
       "usage": "<Text>",
