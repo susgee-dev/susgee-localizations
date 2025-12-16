@@ -770,12 +770,15 @@
   },
   "ram": {
     "error": {
-      "noPrice": "Konnte den Preis nicht abrufen."
+      "noPrice": "Konnte den Preis nicht abrufen.",
+      "fetchPrice": "Fehler beim Abrufen des Preises: {message}"
     },
     "message": {
-      "article": "Artikel: {url} | Aktueller Preis: {price}€",
-      "noChange": " | Unverändert (0%) ➡️",
-      "noComparison": " | Kein Vergleichswert verfügbar"
+      "article": "Artikel: {url} | Aktuell: {price}€",
+      "priceIncrease": " | Vorher ({oldDate}): {oldPrice}€ → +{diff}€ (+{percent}%) 📈",
+      "priceDecrease": " | Vorher ({oldDate}): {oldPrice}€ → {diff}€ ({percent}%) 📉",
+      "noChange": " | Unverändert seit {oldDate} ({oldPrice}€) ➡️",
+      "noComparison": " | Kein Vergleich verfügbar"
     }
   },
   "randLine": {

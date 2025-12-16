@@ -770,12 +770,15 @@
   },
   "ram": {
     "error": {
-      "noPrice": "Could not fetch price."
+      "noPrice": "Could not fetch price.",
+      "fetchPrice": "Error fetching price: {message}"
     },
     "message": {
-      "article": "Article: {url} | Current price: {price}€",
-      "noChange": " | Unchanged (0%) ➡️",
-      "noComparison": " | No comparison value available"
+      "article": "Article: {url} | Current: {price}€",
+      "priceIncrease": " | Previous ({oldDate}): {oldPrice}€ → +{diff}€ (+{percent}%) 📈",
+      "priceDecrease": " | Previous ({oldDate}): {oldPrice}€ → {diff}€ ({percent}%) 📉",
+      "noChange": " | Unchanged since {oldDate} ({oldPrice}€) ➡️",
+      "noComparison": " | No comparison available"
     }
   },
   "randLine": {
