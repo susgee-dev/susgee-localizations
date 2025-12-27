@@ -1010,7 +1010,7 @@
         "import": "<Channel / emote-set id>"
       }
     },
-    "(7TV)": {
+    "7tvc": {
       "usage": "[add | remove | rename | replace | yoink | import]",
       "description": "Manages 7TV emotes in other channels",
       "usages": {
