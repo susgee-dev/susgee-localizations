@@ -1509,7 +1509,7 @@
       "description": "returns a random percentage"
     },
     "permission": {
-      "usage": "[status | admin | dev | mod | vip | default] <user>",
+      "usage": "[status | default | vip | mod | admin | dev] <user>",
       "description": "display a users bot permission or update it"
     },
     "pick": {

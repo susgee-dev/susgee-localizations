@@ -1509,7 +1509,7 @@
       "description": "Sendet eine zufällige Prozentzahl zwischen 0% und 100%"
     },
     "permission": {
-      "usage": "[status | admin | dev | mod | vip | default] <User>",
+      "usage": "[status | default | vip | mod | admin | dev] <User>",
       "description": "Zeigt die Bot-Rechte von einem User an oder ändert diese"
     },
     "pick": {
