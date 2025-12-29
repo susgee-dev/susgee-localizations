@@ -909,7 +909,7 @@
   },
   "suggestion": {
     "actions": {
-      "finished": "fertig gemacht",
+      "finished": "implementiert",
       "approved": "approved und wird demnächst bearbeitet",
       "deleted": "gelöscht",
       "implemented": "implementiert"
