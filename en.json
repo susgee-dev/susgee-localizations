@@ -221,6 +221,7 @@
     "food": "@{user} goes out to eat now {message}",
     "gn": "@{user} goes to sleep now {message}",
     "nap": "@{user} is now taking a power nap {message}",
+    "lurk": "@{user} is now lurking {message}",
     "resume": {
       "failed": "@{user} you can't resume your AFK status because it ended more than {minutes} minutes ago!",
       "ok": "@{user} is AFK again"
@@ -233,6 +234,7 @@
       "gn": "@{user} woke up",
       "message": "message: {message}",
       "nap": "@{user} feels refreshed",
+      "lurk": "@{user} is no longer lurking",
       "noMessage": "(no message)",
       "shower": "@{user} has finished showering",
       "study": "@{user} stopped learning",
