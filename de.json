@@ -555,6 +555,11 @@
     "self": "{hugger} umarmt sich selbst FeelsBadMan",
     "success": "{hugger} umarmt {receiver} VirtualHug {receiver} wurde schon {count} mal umarmt"
   },
+  "rehug": {
+    "noLastHug": "Niemand hat dich in den letzten 24 Stunden umarmt. FeelsBadMan",
+    "userNotFound": "Der Benutzer konnte nicht gefunden werden.",
+    "success": "{hugger} umarmt {receiver} zurück! ({receiver} wurde schon {count} mal umarmt)"
+  },
   "ignore": {
     "added": "susgeeOK User {user|antiPing} wird jetzt ignoriert",
     "alreadyIgnored": "susgeeDank User {user|antiPing} wird bereits ignoriert",
@@ -1354,6 +1359,9 @@
     "hug": {
       "usage": "<User>",
       "description": "Umarme jemanden 🤗"
+    },
+    "rehug": {
+      "description": "Umarme die letzte Person zurück, die dich gehuggt hat 🤗"
     },
     "id": {
       "usage": "<User>",

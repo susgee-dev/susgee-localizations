@@ -555,6 +555,11 @@
     "self": "{hugger} hugs themselves FeelsBadMan",
     "success": "{hugger} hugs {receiver} VirtualHug {receiver} has been hugged {count|plural(one|time, other|times)}"
   },
+  "rehug": {
+    "noLastHug": "No one has hugged you in the last 24 hours. FeelsBadMan",
+    "userNotFound": "The user could not be found.",
+    "success": "{hugger} hugs {receiver} back! ({receiver} has been hugged {count|plural(one|time, other|times)})"
+  },
   "ignore": {
     "added": "susgeeOK user {user|antiPing} is now ignored",
     "alreadyIgnored": "susgeeDank user {user|antiPing} already is ignored",
@@ -1354,6 +1359,9 @@
     "hug": {
       "usage": "<user>",
       "description": "hug someone 🤗"
+    },
+    "rehug": {
+      "description": "hug back the last person who hugged you 🤗"
     },
     "id": {
       "usage": "<user>",
