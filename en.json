@@ -1780,6 +1780,17 @@
           }
         }
       },
+      "stats": {
+        "commandsExecuted": "Commands executed",
+        "messages": "Logged messages",
+        "subGifts": "Logged subgifts",
+        "modActions": "Logged mod actions",
+        "nameChanges": "Logged name changes",
+        "chatter": "Unique chatters",
+        "reminder": "Active reminders",
+        "afk": "Active AFKs",
+        "botties": "Botties player"
+      },
       "commands": {
         "search": "search for commands"
       },
