@@ -3,6 +3,9 @@
   "disabled": "deaktiviert",
   "commandDisabled": "{user}, der Command {command} wurde im Channel {channel} von einem Moderator deaktiviert.",
   "common": {
+    "channel": {
+      "joined": "susgeeArrive Rejoined"
+    },
     "delta": {
       "date": "am {date|date}",
       "allTime": "alltime",
