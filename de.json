@@ -628,6 +628,9 @@
   "lines": {
     "success": "Im Channel {channel|antiPing} wurden {time|include} {count|plural(one|Line, other|Lines)} geschrieben"
   },
+  "linesUser": {
+    "success": "{user|antiPing} hat {time|include} {count|plural(one|Line, other|Lines)} im Channel {channel|antiPing} geschrieben"
+  },
   "liveMessages": {
     "noEntries": "susgeeDank Dieser Channel hat keine aktiven Live-Updates",
     "text": "Dieser Channel hat {count|plural(one|Live-Update, other|Live-Updates)} aktiv susgeePoint {users}"
@@ -1406,6 +1409,10 @@
     "lines": {
       "usage": "[today | yesterday | month | year | alltime] <Channel>",
       "description": "Sendet die Anzahl der gesendeten Nachrichten in einem Channel"
+    },
+    "linesUser": {
+      "usage": "<User> [today | yesterday | month | year | alltime] <Channel>",
+      "description": "Sendet die Anzahl der gesendeten Nachrichten von einem User in einem Channel"
     },
     "liveMsg": {
       "usage": "<Channel>",
