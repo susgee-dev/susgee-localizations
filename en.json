@@ -221,6 +221,7 @@
     "food": "@{user} goes out to eat now {message}",
     "gn": "@{user} goes to sleep now {message}",
     "nap": "@{user} is now taking a power nap {message}",
+    "lurk": "@{user} is now lurking {message}",
     "resume": {
       "failed": "@{user} you can't resume your AFK status because it ended more than {minutes} minutes ago!",
       "ok": "@{user} is AFK again"
@@ -233,6 +234,7 @@
       "gn": "@{user} woke up",
       "message": "message: {message}",
       "nap": "@{user} feels refreshed",
+      "lurk": "@{user} is no longer lurking",
       "noMessage": "(no message)",
       "shower": "@{user} has finished showering",
       "study": "@{user} stopped learning",
@@ -552,6 +554,11 @@
     "noUser": "{hugger} hugs {receiver} VirtualHug",
     "self": "{hugger} hugs themselves FeelsBadMan",
     "success": "{hugger} hugs {receiver} VirtualHug {receiver} has been hugged {count|plural(one|time, other|times)}"
+  },
+  "rehug": {
+    "noLastHug": "No one has hugged you in the last 24 hours. FeelsBadMan",
+    "userNotFound": "The user could not be found.",
+    "success": "{hugger} hugs {receiver} back! ({receiver} has been hugged {count|plural(one|time, other|times)})"
   },
   "ignore": {
     "added": "susgeeOK user {user|antiPing} is now ignored",
@@ -1352,6 +1359,9 @@
     "hug": {
       "usage": "<user>",
       "description": "hug someone 🤗"
+    },
+    "rehug": {
+      "description": "hug back the last person who hugged you 🤗"
     },
     "id": {
       "usage": "<user>",
