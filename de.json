@@ -1197,6 +1197,9 @@
       "usage": "<User>",
       "description": "Zeigt an ob jemand Chatterino oder den Twitch Web Chat nutzt"
     },
+    "chatis": {
+      "description": "Sendet den Link zum Chatis Overlay"
+    },
     "chatterino": {
       "description": "Sendet Links zu den aktuellen Chatterino Versionen"
     },

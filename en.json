@@ -1197,6 +1197,9 @@
       "usage": "<user>",
       "description": "shows if a user is using a third-party app to chat or twitch web chat"
     },
+    "chatis": {
+      "description": "returns the link to the chatis overlay"
+    },
     "chatterino": {
       "description": "returns links to chatterino forks downloads"
     },
