@@ -494,9 +494,11 @@
     "day": "📅 {day} at {hour} | {weather} | 🌡️ {temp}°C (feels like {feelsLike}°C) | 💧 {humidity}% | 🌪️ {wind} | 🌧️ {pop}% rain"
   },
   "founders": {
+    "response": "founders for {channel|antiPing} (unclaimed: {available}) susgeePoint {link}",
     "none": "susgeeDank channel {channel|antiPing} has no founders",
+    "notSubscribable": "susgeeDank channel {channel|antiPing} is not subscribable",
     "since": "got founder {since|time} ago",
-    "subbed": "still subscribed? {emoji}"
+    "subbed": "still subscribed: {emoji}"
   },
   "gamba": {
     "lost": "lost 📉",
