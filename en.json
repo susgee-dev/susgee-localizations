@@ -1603,7 +1603,7 @@
       "description": "says something in a given chat"
     },
     "scrape": {
-      "usage": "[7tv-cosmetics | 7tv-ids | stop]",
+      "usage": "[7tv-cosmetics | 7tv-ids | 7tv-ids-kick | stop]",
       "description": "scrapes some data"
     },
     "seRank": {
