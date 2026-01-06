@@ -762,6 +762,7 @@
       "helper": "you need to be a helper to execute this command",
       "vip": "you need to be a VIP to execute this command",
       "mod": "you need to be a mod to execute this command",
+      "ambassador": "you need to be an ambassador/broadcaster to execute this command",
       "broadcaster": "you need to be the broadcaster to execute this command",
       "admin": "you need to be an admin to execute this command",
       "dev": "you need to be a dev to execute this command",
@@ -1534,7 +1535,7 @@
       "description": "returns a random percentage"
     },
     "permission": {
-      "usage": "[status | default | vip | mod | admin | dev] <user>",
+      "usage": "[status | default | vip | mod | ambassador | admin | dev] <user>",
       "description": "display a users bot permission or update it"
     },
     "pick": {

@@ -762,6 +762,7 @@
       "helper": "Du musst Helper sein, um diesen Command nutzen zu können",
       "vip": "Du musst VIP sein, um diesen Command nutzen zu können",
       "mod": "Du musst Moderator sein, um diesen Command nutzen zu können",
+      "ambassador": "Du musst Ambassador/Kanalinhaber sein, um diesen Command nutzen zu können",
       "broadcaster": "Du musst Kanalinhaber sein, um diesen Command nutzen zu können",
       "admin": "Du musst Admin sein, um diesen Command nutzen zu können",
       "dev": "Du musst Dev sein, um diesen Command nutzen zu können",
@@ -1534,7 +1535,7 @@
       "description": "Sendet eine zufällige Prozentzahl zwischen 0% und 100%"
     },
     "permission": {
-      "usage": "[status | default | vip | mod | admin | dev] <User>",
+      "usage": "[status | default | vip | mod | ambassador | admin | dev] <User>",
       "description": "Zeigt die Bot-Rechte von einem User an oder ändert diese"
     },
     "pick": {
