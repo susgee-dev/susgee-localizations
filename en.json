@@ -189,6 +189,7 @@
         "emotes": "renamed emote {old} to {new}"
       }
     },
+    "whoAddedThisEmote": "susgeeNoted Emote {emote} was added by {actor|antiPing} {delta|time} ago",
     "yoink": "susgeeOK Emote {emote} yoinked from channel {channel|antiPing} WideHardo Clap"
   },
   "8ball": {
@@ -1737,6 +1738,10 @@
     "weather": {
       "usage": "<location> oder user <username>",
       "description": "displays weather information on a given location"
+    },
+    "whoAddedThisEmote": {
+      "usage": "<emote>",
+      "description": "displays who added a given emote"
     },
     "xd": {
       "usage": "[restart | pull | load/reload/unload <command> | module <Module>] chainable mit ,|",
