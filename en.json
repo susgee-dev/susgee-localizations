@@ -424,7 +424,7 @@
     "success": "susgeeOK {user|antiPing} sent {count|plural(one|message, other|messages)} in channel {channel|antiPing} {delta|include}"
   },
   "clip": {
-    "forbidden": "PoroSad channel {channel|antiPing} doesn't allow creating clips",
+    "forbidden": "TearGlove channel {channel|antiPing} doesn't allow creating clips",
     "offline": "susgeeDank {channel|antiPing) is offline",
     "unknown": "susgeeDank creating clips for {channel|antiPing} is currently unavailable"
   },
@@ -861,7 +861,7 @@
   "streamInfo": {
     "live": "{channel|antiPing} is live susgeeLIVE",
     "offline": "{channel|antiPing} is offline susgeeOffline",
-    "neverStreamed": "channel {channel|antiPing} has never streamed before PoroSad",
+    "neverStreamed": "channel {channel|antiPing} has never streamed before TearGlove",
     "lastStream": "last stream was {delta|time} ago",
     "title": "title: {title}",
     "category": "category: {category}",
