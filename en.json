@@ -987,6 +987,10 @@
       "staff": "staff"
     }
   },
+  "updateMessages": {
+    "noEntries": "susgeeDank this channel has no active title and category updates",
+    "text": "this channel has {count|plural(one|title and category update, other|title and category updates)} enabled susgeePoint {users}"
+  },
   "weather": {
     "noUser": "susgeeDank you have to pass a user",
     "noUserLocation": "susgeeDank this user has no saved location",
@@ -1705,6 +1709,9 @@
     "updateMsg": {
       "usage": "<channel>",
       "description": "enable/disable title and category updates for a channel"
+    },
+    "updateMsgs": {
+      "description": "displays all enabled title and category updates in this channel"
     },
     "user": {
       "usage": "<User | UserId>",
