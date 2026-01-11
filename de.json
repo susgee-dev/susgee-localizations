@@ -137,7 +137,9 @@
       "privateEmote": "susgeeDank Emote {emote} ist privat und kann nicht hinzugefügt werden",
       "ezGifError": "Derzeit werden nur Emote-Links von BTTV, 7TV und FFZ unterstützt",
       "cantStealFromSelf": "susgeeDank Du kannst deine eigenen Emotes nicht stehlen",
-      "cantImportFromSelf": "susgeeDank Du kannst deine eigenes Emoteset nicht importieren"
+      "cantImportFromSelf": "susgeeDank Du kannst deine eigenes Emoteset nicht importieren",
+      "cantSyncWithSelf": "susgeeDank Du kannst das Emoteset nicht mit deinem eigenen synchronisieren",
+      "alreadySynced": "susgeeDank Nichts zu synchronisieren, da das Emoteset bereits identisch ist"
     },
     "paint": {
       "active": "{active|plural(one|User, other|Users)} haben diese Paint aktiv",
@@ -163,6 +165,9 @@
       "renews": "erneuert sich in {delta|time}",
       "since": "Sub seit insgesamt {days|plural(one|Tag, other|Tagen)}",
       "subscribedFor": "hatte einen Sub für {days|plural(one|Tag, other|Tage)}"
+    },
+    "syncSet": {
+      "success": "susgeeOK Emoteset erfolgreich synchronisiert mit https://7tv.app/emote-sets/{emoteSetId}"
     },
     "user": {
       "badge": "Badge: {badge}",
@@ -1674,6 +1679,10 @@
     "swim": {
       "usage": "<Location>",
       "description": "die tägliche schwimm-streak von marcel"
+    },
+    "syncSet": {
+      "usage": "<Channel / Emoteset ID>",
+      "description": "Synchronisiert das aktuelle Emoteset mit einem Channel oder Emoteset ID"
     },
     "timeouts": {
       "usage": "[today | alltime] <User> <Channel>",
