@@ -993,7 +993,7 @@
   },
   "updateMessages": {
     "noEntries": "susgeeDank dieser Channel hat keine aktiven Titel- und Kategorie-Updates",
-    "text": "dieser Channel hat {count|plural(one|Titel- und Kategorie-Update, other|Titel- und Kategorie-Updates)} aktiv susgeePoint {users}"
+    "text": "Dieser Channel hat {count|plural(one|Titel- und Kategorie-Update, other|Titel- und Kategorie-Updates)} aktiv susgeePoint {users}"
   },
   "weather": {
     "noUser": "susgeeDank Du musst einen User angeben",
