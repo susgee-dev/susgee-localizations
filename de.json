@@ -189,6 +189,7 @@
         "emotes": "Emote {old} umbenannt zu {new}"
       }
     },
+    "whoAddedThisEmote": "susgeeNoted Emote {emote} wurde von {actor|antiPing} vor {delta|time} hinzugefügt",
     "yoink": "susgeeOK Emote {emote} yoinked vom Channel {channel|antiPing} WideHardo Clap"
   },
   "8ball": {
@@ -423,7 +424,7 @@
     "success": "susgeeOK {user|antiPing} hat {delta|include} im Channel {channel|antiPing} {count|plural(one|Nachricht, other|Nachrichten)} gesendet"
   },
   "clip": {
-    "forbidden": "PoroSad Der Channel {channel|antiPing} erlaubt keine Clips",
+    "forbidden": "TearGlove Der Channel {channel|antiPing} erlaubt keine Clips",
     "offline": "susgeeDank Channel {channel|antiPing) ist offline",
     "unknown": "susgeeDank Clips sind in dem Channel {channel|antiPing} derzeit nicht möglich"
   },
@@ -494,9 +495,11 @@
     "day": "📅 {day} um {hour} | {weather} | 🌡️ {temp}°C (gefühlt {feelsLike}°C) | 💧 {humidity}% | 🌪️ {wind} | 🌧️ {pop}% Regen"
   },
   "founders": {
+    "response": "Founder für {channel|antiPing} (verfügbar: {available}) susgeePoint {link}",
     "none": "susgeeDank Channel {channel|antiPing} hat keine Founder",
+    "notSubscribable": "susgeeDank Channel {channel|antiPing} kann man nicht abonnieren",
     "since": "vor {since|time} Founder geworden",
-    "subbed": "ist noch subbed? {emoji}"
+    "subbed": "noch abonniert: {emoji}"
   },
   "gamba": {
     "lost": "verloren 📉",
@@ -760,6 +763,7 @@
       "helper": "Du musst Helper sein, um diesen Command nutzen zu können",
       "vip": "Du musst VIP sein, um diesen Command nutzen zu können",
       "mod": "Du musst Moderator sein, um diesen Command nutzen zu können",
+      "ambassador": "Du musst Ambassador/Kanalinhaber sein, um diesen Command nutzen zu können",
       "broadcaster": "Du musst Kanalinhaber sein, um diesen Command nutzen zu können",
       "admin": "Du musst Admin sein, um diesen Command nutzen zu können",
       "dev": "Du musst Dev sein, um diesen Command nutzen zu können",
@@ -857,7 +861,7 @@
   "streamInfo": {
     "live": "{channel|antiPing} ist gerade live susgeeLIVE",
     "offline": "{channel|antiPing} ist offline susgeeOffline",
-    "neverStreamed": "Auf diesem Channel wurde noch nie gestreamt PoroSad",
+    "neverStreamed": "Auf diesem Channel wurde noch nie gestreamt TearGlove",
     "lastStream": "Letzter Stream vor {delta|time}",
     "title": "Titel: {title}",
     "category": "Kategorie: {category}",
@@ -1201,6 +1205,9 @@
       "usage": "<User>",
       "description": "Zeigt an ob jemand Chatterino oder den Twitch Web Chat nutzt"
     },
+    "chatis": {
+      "description": "Sendet den Link zum Chatis Overlay"
+    },
     "chatterino": {
       "description": "Sendet Links zu den aktuellen Chatterino Versionen"
     },
@@ -1533,7 +1540,7 @@
       "description": "Sendet eine zufällige Prozentzahl zwischen 0% und 100%"
     },
     "permission": {
-      "usage": "[status | default | vip | mod | admin | dev] <User>",
+      "usage": "[status | default | vip | mod | ambassador | admin | dev] <User>",
       "description": "Zeigt die Bot-Rechte von einem User an oder ändert diese"
     },
     "pick": {
@@ -1602,7 +1609,7 @@
       "description": "Says something in a given chat"
     },
     "scrape": {
-      "usage": "[7tv-cosmetics | 7tv-ids | stop]",
+      "usage": "[7tv-cosmetics | 7tv-ids | 7tv-ids-kick | stop]",
       "description": "scraped bisschen daten"
     },
     "seRank": {
@@ -1738,6 +1745,10 @@
     "weather": {
       "usage": "<location> oder user <username>",
       "description": "Sendet die Wetterinformationen für den angegebenen Ort"
+    },
+    "whoAddedThisEmote": {
+      "usage": "<emote>",
+      "description": "Zeigt an, welcher User ein Emote hinzugefügt hat"
     },
     "xd": {
       "usage": "[restart | pull | load/reload/unload <Command> | module <Module>] chainable mit ,|",
