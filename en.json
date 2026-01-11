@@ -1087,6 +1087,10 @@
       "usage": "<afk text>",
       "description": "sets your status to AFK"
     },
+    "ambassador": {
+      "usage": "[add | remove] <user> or list",
+      "description": "add or remove ambassador status in your channel to your trusted users"
+    },
     "azb": {
       "description": "AZB - tracks how much time you've wasted with chatting",
       "usage": "<start|stop|status|reset>"

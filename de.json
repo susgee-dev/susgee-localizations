@@ -1087,6 +1087,10 @@
       "usage": "<AFK Text>",
       "description": "Setzt deinen Status auf AFK"
     },
+    "ambassador": {
+      "usage": "[add | remove] <User> oder list",
+      "description": "Füge vertrauten User in deinem Channel als Ambassador hinzu oder entferne sie"
+    },
     "azb": {
       "description": "Arbeitszeitbetrug Tracker - trackt wie viel Zeit man mit Chatten verschwendet hat",
       "usage": "<start|stop|status|reset>"
