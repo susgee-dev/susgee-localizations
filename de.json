@@ -248,14 +248,13 @@
     "study": "@{user} geht jetzt Lernen {message}",
     "work": "@{user} geht jetzt Arbeiten {message}"
   },
-  "azb": {
-    "alreadyTracking": "Du trackst bereits AZB seit {startTime} KEK",
-    "started": "AZB Tracking gestartet! Jede Minute in der du schreibst wird als 1 Minute AZB gezählt KEK",
-    "notTracking": "Du trackst gerade kein AZB KEK",
-    "stopped": "AZB Tracking gestoppt! Du hast {minutes} Minuten AZB begangen KEK",
-    "currentlyTracking": "Aktuell läuft AZB Tracking seit {startTime} - {minutes} Minuten AZB KEK",
-    "status": "AZB Status: {totalMinutes} Minuten insgesamt ({totalSessions} Sessions), heute: {todayMinutes} Minuten KEK",
-    "reset": "Alle AZB Daten wurden gelöscht KEK"
+  "ambassador": {
+    "none": "susgeeDank Dieser Channel hat keine Ambassadoren",
+    "list": "susgeeOK Ambassadoren für dieseen Channel sind: {users}",
+    "alreadyAmbassador": "susgeeDank {user|antiPing} ist bereits Ambassador für diesen Channel",
+    "notAmbassador": "susgeeDank {user|antiPing} ist kein Ambassador für diesen Channel",
+    "added": "susgeeOK {user|antiPing} wurde als Ambassador für diesen Channel hinzugefügt",
+    "removed": "susgeeOK {user|antiPing} wurde als Ambassador für diesen Channel entfernt"
   },
   "allEmotes": {
     "noEmotes": "susgeeDank {channel|antiPing} hat keine Channel Emotes"
