@@ -167,7 +167,8 @@
       "subscribedFor": "previously subscribed for {days|plural(one|day, other|days)}"
     },
     "syncSet": {
-      "success": "susgeeOK successfully synced with emote-set https://7tv.app/emote-sets/{emoteSetId}"
+      "success": "susgeeOK successfully synced with emote-set https://7tv.app/emote-sets/{emoteSetId}",
+      "running": "susgeeDank this channel is already syncing with another emote-set"
     },
     "user": {
       "badge": "badge: {badge}",
