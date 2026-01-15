@@ -911,12 +911,13 @@
     "enabled": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift erkenne",
     "whisper": "susgeeOK Ich werde dir whispern, wenn ich ein Subgift erkenne"
   },
-  "subEvents": {
+  "channelEvents": {
+    "bits": "{user} hat gerade das {bits|number} Bits Badge freigeschaltet sheCrazy",
     "anonymous": "Ein anonymer User",
-    "gift": "{user} gifted {total|plural(one|Sub, other|Subs)}!! sheCrazy",
-    "total": "insgesamt {total|plural(one|Sub, other|Subs)} verschenkt",
-    "subscribe": "{user} hat einen {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen - insgesamt {cumulative|plural(one|Monat, other|Monate)} sheCrazy",
-    "streak": "Aktuelle Sub-Streak: {streak|plural(one|Monat, other|Monate)}!"
+    "gift": "{user} hat einen {tier} Sub an {recipient} verschenkt!! sheCrazy insgesamt {total|plural(one|Sub, other|Subs)} verschenkt!",
+    "gifts": "{user} verschenkt {total|plural(one|Sub, other|Subs)}!! sheCrazy insgesamt {alltime|plural(one|Sub, other|Subs)} verschenkt!",
+    "newSub": "{user} hat einen {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen sheCrazy",
+    "reSub": "{user} hat den {tier} Sub erneuert - insgesamt schon {cumulative|plural(one|Monat, other|Monate)} dabei sheCrazy"
   },
   "subinfo": {
     "noEntries": "Im Channel {channel|antiPing} wurden {delta|include} keine Subs verteilt",
