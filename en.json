@@ -749,6 +749,7 @@
     "success": "susgeeOK you have opted back in to command {command}",
     "alreadyOptedIn": "susgeeDank you are already opted in to command {command}",
     "optedIntoAll": "susgeeOK you are now opted in to all commands",
+    "cannotOptInSingle": "susgeeDank you are opted out for all commands, you cannot opt in for one single command",
     "nothingToOptIn": "susgeeDank you are already opted in to everything",
     "notOptOutCommand": "susgeeDank {command} is not a command you can opt out of"
   },
@@ -911,13 +912,12 @@
     "enabled": "susgeeOK I will notify you, when I detect a subgift for you",
     "whisper": "susgeeOK I will whisper you, when I detect a subgift for you"
   },
-  "channelEvents": {
-    "bits": "{user} just unlocked the {bits|number} bits badge!! sheCrazy",
-    "anonymous": "an anonymous user",
-    "gift": "{user} gifted a {tier} to {recipient}!! sheCrazy They have gifted {total|plural(one|sub, other|subs)} in this channel!",
-    "gifts": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy They have gifted {alltime|plural(one|sub, other|subs)} in this channel!",
-    "newSub": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} sheCrazy",
-    "reSub": "{user} subscribed with a {tier} sub. They've subscribed for {cumulative|plural(one|total month, other|total months)} sheCrazy"
+  "subEvents": {
+    "anonymous": "an anonym user",
+    "gift": "{user} gifted {total|plural(one|sub, other|subs)}!! sheCrazy",
+    "total": "gifted {total} subs",
+    "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one|month, other|months)} sheCrazy",
+    "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
   },
   "subinfo": {
     "noEntries": "No subs were distributed in the {channel|antiPing} {delta|include} channel",
@@ -1860,3 +1860,5 @@
     }
   }
 }
+
+

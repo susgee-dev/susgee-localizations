@@ -749,6 +749,7 @@
     "success": "susgeeOK Du hast dich wieder für den Command {command} eingeschlossen",
     "alreadyOptedIn": "susgeeDank Du bist bereits für den Command {command} eingeschlossen",
     "optedIntoAll": "susgeeOK Du bist jetzt wieder für alle Command eingeschlossen",
+    "cannotOptInSingle": "susgeeDank Du bist für alle Commands ausgeschlossen, du kannst dich nicht für einzelne Commands einschliessen",
     "nothingToOptIn": "susgeeDank Du bist bereits für alle Command eingeschlossen",
     "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich einschliessen kannst"
   },
