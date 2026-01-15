@@ -831,7 +831,7 @@
     "maxReminders": "you have reached the maximum active reminders",
     "nextTimeSelf": "when you next type",
     "nextTimeOther": "when they next type",
-    "other": "i will remind {user}",
+    "other": "i will remind {user|antiPing}",
     "pastDate": "susgeeDank you can't set reminders for the past",
     "self": "i will remind you",
     "tooFarAway": "susgeeDank you cannot create a reminder more than 2 years in the future"

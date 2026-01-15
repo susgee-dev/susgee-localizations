@@ -831,7 +831,7 @@
     "maxReminders": "Du hast bereits das Limit für Reminder erreicht",
     "nextTimeSelf": "wenn du das nächste Mal schreibst erinnern",
     "nextTimeOther": "beim nächsten Mal schreiben erinnern",
-    "other": "Ich werde {user}",
+    "other": "Ich werde {user|antiPing}",
     "pastDate": "susgeeDank Du kannst keine Reminder für die Vergangenheit setzen",
     "self": "Ich werde dich",
     "tooFarAway": "susgeeDank Du kannst keine Reminder erstellen, der mehr als 2 Jahre in der Zukunft liegt"
