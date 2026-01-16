@@ -1793,6 +1793,7 @@
     }
   },
   "whisper": {
+    "commandList": "susgeePoint Available commands are weather, weatherupdate, weatherlocation",
     "weather": {
       "alreadySet": "You have already set a weather location: {city}. If you want to change it, send a whisper with 'weatherupdate <city>'.",
       "weatherSet": "Weather location successfully set. To change your location, use 'weatherupdate <city>'.",
