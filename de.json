@@ -429,7 +429,7 @@
     "success": "susgeeOK {user|antiPing} hat {delta|include} im Channel {channel|antiPing} {count|plural(one|Nachricht, other|Nachrichten)} gesendet"
   },
   "clip": {
-    "forbidden": "TearGlove Der Channel {channel|antiPing} erlaubt keine Clips",
+    "forbidden": "susgeeSad  Der Channel {channel|antiPing} erlaubt keine Clips",
     "offline": "susgeeDank Channel {channel|antiPing) ist offline",
     "unknown": "susgeeDank Clips sind in dem Channel {channel|antiPing} derzeit nicht möglich"
   },
@@ -867,7 +867,7 @@
   "streamInfo": {
     "live": "{channel|antiPing} ist gerade live susgeeLIVE",
     "offline": "{channel|antiPing} ist offline susgeeOffline",
-    "neverStreamed": "Auf diesem Channel wurde noch nie gestreamt TearGlove",
+    "neverStreamed": "Auf diesem Channel wurde noch nie gestreamt susgeeSad ",
     "lastStream": "Letzter Stream vor {delta|time}",
     "title": "Titel: {title}",
     "category": "Kategorie: {category}",
