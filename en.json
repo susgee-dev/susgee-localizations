@@ -430,7 +430,7 @@
     "success": "susgeeOK {user|antiPing} sent {count|plural(one|message, other|messages)} in channel {channel|antiPing} {delta|include}"
   },
   "clip": {
-    "forbidden": "TearGlove channel {channel|antiPing} doesn't allow creating clips",
+    "forbidden": "susgeeSad channel {channel|antiPing} doesn't allow creating clips",
     "offline": "susgeeDank {channel|antiPing) is offline",
     "unknown": "susgeeDank creating clips for {channel|antiPing} is currently unavailable"
   },
@@ -832,7 +832,7 @@
     "maxReminders": "you have reached the maximum active reminders",
     "nextTimeSelf": "when you next type",
     "nextTimeOther": "when they next type",
-    "other": "i will remind {user}",
+    "other": "i will remind {user|antiPing}",
     "pastDate": "susgeeDank you can't set reminders for the past",
     "self": "i will remind you",
     "tooFarAway": "susgeeDank you cannot create a reminder more than 2 years in the future"
@@ -868,7 +868,7 @@
   "streamInfo": {
     "live": "{channel|antiPing} is live susgeeLIVE",
     "offline": "{channel|antiPing} is offline susgeeOffline",
-    "neverStreamed": "channel {channel|antiPing} has never streamed before TearGlove",
+    "neverStreamed": "channel {channel|antiPing} has never streamed before susgeeSad",
     "lastStream": "last stream was {delta|time} ago",
     "title": "title: {title}",
     "category": "category: {category}",
@@ -1794,6 +1794,7 @@
     }
   },
   "whisper": {
+    "commandList": "susgeePoint Available commands are (please without prefix): weather, weatherupdate, weatherlocation",
     "weather": {
       "alreadySet": "You have already set a weather location: {city}. If you want to change it, send a whisper with 'weatherupdate <city>'.",
       "weatherSet": "Weather location successfully set. To change your location, use 'weatherupdate <city>'.",
