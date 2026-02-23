@@ -1809,7 +1809,7 @@
     },
     "web": {
         "forms": {
-            "searching": "Suche...",
+            "searching": "Suche... ",
             "search": "Suchen"
         },
         "footer": {
@@ -1865,6 +1865,7 @@
     },
     "subEvents": {
         "anonymous": "ein Anonymer User",
-        "gift": "{user} schenkt {total|plural(one|sub, other|subs)}!! sheCrazy"
+        "gift": "{user} schenkt {total|plural(one|sub, other|subs)}!! sheCrazy",
+        "total": "schenkte {total} subs"
     }
 }
