@@ -1557,7 +1557,7 @@
             "description": "Zeigt die Bot-Rechte von einem User an oder ändert diese"
         },
         "pick": {
-            "usage": "<Option 1> <Option 2> ...",
+            "usage": "<Option 1> <Option 2> . . .",
             "description": "Wählt ein zufälliges Wort aus der Eingabe"
         },
         "ping": {
