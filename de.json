@@ -537,6 +537,7 @@
       "removed": "{set} Global-Badge \" {badge} \" wurde entfernt"
     },
     "7tv": {
+      "globalSet": "(7TV) Global-Emote-Set wurde auf \"{name}\" ({link}) geändert",
       "added": "(7TV) {kind} \"{name}\" wurde hinzugefügt",
       "removed": "(7TV) {kind} \"{name}\" wurde entfernt",
       "renamed": "(7TV) {kind} \"{oldName}\" wurde umbenannt zu \"{newName}\"",
