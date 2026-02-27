@@ -1868,7 +1868,7 @@
         "anonymous": "ein Anonymer User",
         "gift": "{user} schenkt {total|plural(one|sub, other|subs)}!! sheCrazy",
         "total": "schenkte {total} subs",
-        "subscribe": "{user} hat ein {tier}-Abo für {duration|plural(one|month, other|months)} abonniert - insgesamt {cumulative|plural(one|month, other|months)} sheCrazy",
-        "streak": "aktueller Sub-Streak: {streak|plural(one|month, other|months)}!"
+        "subscribe": "{user} hat ein {tier}-Abo für {duration|plural(one|month, other|months)} - insgesamt {cumulative|plural(one|month, other|months)} sheCrazy",
+        "streak": "aktuelle Sub-Streak: {streak|plural(one|month, other|months)}!"
     }
 }
