@@ -726,10 +726,10 @@
         "blog": "Neuer Twitch Blog Artikel: {title} susgeePoint {url}",
         "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}",
         "types": {
-            "7tv": "Ankündigungen zu 7TV Cosmetics / Global-Emotes",
-            "twitch": "Ankündigungen zu Twitch Global Emotes / Badges",
-            "blog": "Ankündigungen zu Twitch Blog Änderungen",
-            "changelog": "Ankündigungen zu Twitch Changelog Änderungen"
+            "7tv": "7TV Cosmetics / Global-Emotes Änderungen",
+            "twitch": "Twitch Global Emotes / Badges Änderungen",
+            "blog": "Neue Twitch Blog Beiträge",
+            "changelog": "Twitch Changelog Änderungen"
         }
     },
     "notify": {
