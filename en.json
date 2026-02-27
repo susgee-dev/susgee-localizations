@@ -16,7 +16,8 @@
             "thisWeek": "this week",
             "thisYear": "this year",
             "today": "today",
-            "yesterday": "yesterday"
+            "yesterday": "yesterday",
+            "test": "common.delta.test"
         },
         "has": "has",
         "have": "have",
