@@ -1799,6 +1799,9 @@
         },
         "zimtzimt": {
             "description": "Zimtzimt is great"
+        },
+        "tldr": {
+            "description": "Generates a summary of the current chat history."
         }
     },
     "whisper": {
@@ -1868,5 +1871,12 @@
                 "noEntries": "No bans found for the given search criteria"
             }
         }
+    },
+    "tldr": {
+        "generating": "⏳ Generate summary...",
+        "no_logs": "There is not enough activity to generate a summary.",
+        "not_enough_activity": "The chat is too quiet at the moment for a summary.",
+        "system": "You are a humorous, cheeky Twitch bot on the channel of {channel} . \nYour job is to summarize the current vibe and topic of the stream in 1-2 short, snappy sentences based on the latest chat messages. \nWrite in English. Be entertaining, feel free to use Twitch slang (OMEGALUL, KEKW, Pepega, etc. where appropriate), but don't be offensive.",
+        "chat_context": "Here are the latest messages: {chatContext}"
     }
 }
