@@ -1800,6 +1800,9 @@
         },
         "zimtzimt": {
             "description": "Zimtzimt ist super"
+        },
+        "tldr": {
+            "description": "Erstellt eine Zusammenfassung des aktuellen Chat-Verlaufs."
         }
     },
     "whisper": {
@@ -1876,5 +1879,12 @@
         "total": "schenkte {total} subs",
         "subscribe": "{user} hat ein {tier}-Abo für {duration|plural(one|month, other|months)} - insgesamt {cumulative|plural(one|month, other|months)} sheCrazy",
         "streak": "aktuelle Sub-Streak: {streak|plural(one|month, other|months)}!"
+    },
+    "tldr": {
+        "generating": "⏳ Zusammenfassung wird erstellt...",
+        "no_logs": "Es gibt nicht genügend Chataktivität, um eine Zusammenfassung zu erstellen.",
+        "not_enough_activity": "Der Chat ist im Moment zu ruhig für eine Zusammenfassung.",
+        "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .\nDeine Aufgabe ist es, die aktuelle Stimmung und das Thema des Streams in 1–2 kurzen, prägnanten Sätzen zusammenzufassen, basierend auf den neuesten Chat-Nachrichten.\nSchreibe auf Englisch. Sei unterhaltsam, verwende gerne Twitch-Slang (OMEGALUL, KEKW, Pepega usw., wo es angebracht ist), aber sei nicht beleidigend.",
+        "chat_context": "Hier sind die neuesten Nachrichten: {chatContext}"
     }
 }
