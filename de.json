@@ -1884,7 +1884,7 @@
         "generating": "⏳ Zusammenfassung wird erstellt...",
         "no_logs": "Es gibt nicht genügend Chataktivität, um eine Zusammenfassung zu erstellen.",
         "not_enough_activity": "Der Chat ist im Moment zu ruhig für eine Zusammenfassung.",
-        "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .Deine Aufgabe ist es, die aktuelle Stimmung und das Thema des Streams in 1–2 kurzen, prägnanten Sätzen zusammenzufassen, basierend auf den neuesten Chat-Nachrichten. Sei unterhaltsam, verwende gerne Twitch-Slang (OMEGALUL, KEKW, Pepega usw., wo es angebracht ist), aber sei nicht beleidigend.",
+        "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .Deine Aufgabe ist es, die aktuelle Stimmung und das Thema des Chats in 1–2 kurzen, prägnanten Sätzen zusammenzufassen, basierend auf den neuesten Chat-Nachrichten. Sei unterhaltsam, verwende gerne Twitch/7TV Global Emotes, aber sei nicht beleidigend.",
         "chat_context": "Hier sind die neuesten Nachrichten: {chatContext}"
     }
 }
