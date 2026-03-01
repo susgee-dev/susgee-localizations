@@ -1873,7 +1873,7 @@
         }
     },
     "tldr": {
-        "generating": "⏳ Generate summary...",
+        "generating": "⏳ Generate summary based on the last 75 messages...",
         "no_logs": "There is not enough activity to generate a summary.",
         "not_enough_activity": "The chat is too quiet at the moment for a summary.",
         "system": "You are a humorous, cheeky Twitch bot on the channel of {channel} . Your job is to summarize the current vibe and topic of the chat in 1-2 short, snappy sentences based on the latest chat messages. Be entertaining, feel free to use Twitch/ 7TV Global Emotes, but don't be offensive.",
