@@ -79,7 +79,9 @@
         "ping": {
             "disabled": "i will no longer ping you",
             "enabled": "i will ping you"
-        }
+        },
+        "empty": "No commands are disabled in this channel.",
+        "list": "Disabled commands ({count}): {link}"
     },
     "7tv": {
         "dod": "(7TV) is currently dead, please retry later",
