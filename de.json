@@ -816,7 +816,7 @@
         }
     },
     "randLine": {
-        "noEntries": "susgeeDank {user|antiPing} hat noch nie im Channel {channel|antiPing} gechatted",
+        "noEntries": "susgeeDank {user|antiPing} hat noch nie im Channel {channel|antiPing} gechattet",
         "entry": "Nachricht von {user|antiPing} im Channel {channel|antiPing}: {message}",
         "delta": "vor {delta|time}"
     },
