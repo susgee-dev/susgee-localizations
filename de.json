@@ -651,7 +651,7 @@
     "liveMsg": "susgeeOK Live-Updates für {streamer|antiPing} sind jetzt {state|include}",
     "livePing": {
         "noLiveMessage": "susgeeDank für @{streamer} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}livemsg {streamer} aktivieren",
-        "text": "susgeeOK {ping|include} wenn @{streamer} online geht"
+        "text": "susgeeOK {ping|include} wenn {streamer|antiPing} online geht"
     },
     "logging": {
         "added": "susgeeOK Nachrichten von {user|antiPing} werden nicht mehr geloggt",
