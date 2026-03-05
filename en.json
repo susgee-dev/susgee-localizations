@@ -650,8 +650,8 @@
     },
     "liveMsg": "susgeeOK {state|include} live updates for {streamer|antiPing}",
     "livePing": {
-        "noLiveMessage": "there are no live updates for @{streamer}. A mod can enable them by typing {prefix}livemsg {streamer}",
-        "text": "susgeeOK {ping|include} when @{streamer} goes live"
+        "noLiveMessage": "there are no live updates for {streamer|antiPing}. A mod can enable them by typing {prefix}livemsg {streamer|antiPing}",
+        "text": "susgeeOK {ping|include} when {streamer|antiPing} goes live"
     },
     "logging": {
         "added": "susgeeOK messages from {user|antiPing} will no longer be logged",
