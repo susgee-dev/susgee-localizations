@@ -827,16 +827,16 @@
         "started": "Channel ist live, starte Aufnahme"
     },
     "remind": {
-        "at": "am {time} erinnern",
+        "at": "am {time}",
         "bot": "susgeeOK Danke dass du mich daran erinnerst",
         "userBot": "susgeeDank {user} ist ein Bot, dem ich keine Reminder sende",
         "userIgnored": "susgeeDank {user|antiPing} wird ignoriert und kann keine Reminder erhalten",
         "maxReminders": "Du hast bereits das Limit für Reminder erreicht",
-        "nextTimeSelf": "wenn du das nächste Mal schreibst erinnern",
-        "nextTimeOther": "beim nächsten Mal schreiben erinnern",
-        "other": "Ich werde {user|antiPing}",
+        "nextTimeSelf": "wenn du das nächste Mal schreibst",
+        "nextTimeOther": "beim nächsten Mal schreiben",
+        "other": "Ich werde {user|antiPing} erinnern",
         "pastDate": "susgeeDank Du kannst keine Reminder für die Vergangenheit setzen",
-        "self": "Ich werde dich",
+        "self": "Ich werde dich erinnern",
         "tooFarAway": "susgeeDank Du kannst keine Reminder erstellen, der mehr als 2 Jahre in der Zukunft liegt"
     },
     "reminder": {
