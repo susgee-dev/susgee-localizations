@@ -79,7 +79,9 @@
         "ping": {
             "disabled": "i will no longer ping you",
             "enabled": "i will ping you"
-        }
+        },
+        "empty": "No commands are disabled in this channel.",
+        "list": "Disabled commands ({count}): {link}"
     },
     "7tv": {
         "dod": "(7TV) is currently dead, please retry later",
@@ -648,8 +650,8 @@
     },
     "liveMsg": "susgeeOK {state|include} live updates for {streamer|antiPing}",
     "livePing": {
-        "noLiveMessage": "there are no live updates for @{streamer}. A mod can enable them by typing {prefix}livemsg {streamer}",
-        "text": "susgeeOK {ping|include} when @{streamer} goes live"
+        "noLiveMessage": "there are no live updates for {streamer|antiPing}. A mod can enable them by typing {prefix}livemsg {streamer|antiPing}",
+        "text": "susgeeOK {ping|include} when {streamer|antiPing} goes live"
     },
     "logging": {
         "added": "susgeeOK messages from {user|antiPing} will no longer be logged",
@@ -724,7 +726,13 @@
     },
     "notifications": {
         "blog": "New Twitch Blog post: {title} susgeePoint {url}",
-        "changelog": "Twitch developer change logs just updated! susgeePoint {url}"
+        "changelog": "Twitch developer change logs just updated! susgeePoint {url}",
+        "types": {
+            "7tv": "7TV cosmetics / global emote changes",
+            "twitch": "Twitch global emote / badge changes",
+            "blog": "Twitch blog updates",
+            "changelog": "Twitch changelog updates"
+        }
     },
     "notify": {
         "info": "available notification types: {availableTypes}",
@@ -1793,6 +1801,9 @@
         },
         "zimtzimt": {
             "description": "Zimtzimt is great"
+        },
+        "tldr": {
+            "description": "Generates a summary of the current chat history."
         }
     },
     "whisper": {
@@ -1814,7 +1825,7 @@
         },
         "footer": {
             "rightsReserved": "not affiliated with Twitch",
-            "privacy": "privacy (german)"
+            "privacy": "privacy"
         },
         "pages": {
             "home": {
@@ -1862,5 +1873,12 @@
                 "noEntries": "No bans found for the given search criteria"
             }
         }
+    },
+    "tldr": {
+        "generating": "⏳ Generate summary based on the last {limit} messages...",
+        "no_logs": "There is not enough activity to generate a summary.",
+        "not_enough_activity": "The chat is too quiet at the moment for a summary.",
+        "system": "You are a humorous, cheeky Twitch bot on the channel of {channel} . Your job is to summarize the current vibe and topic of the chat in 1-2 short, snappy sentences based on the latest chat messages. Be entertaining, feel free to use Twitch/ 7TV Global Emotes, but don't be offensive.",
+        "chat_context": "Here are the latest messages: {chatContext}"
     }
 }

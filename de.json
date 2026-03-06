@@ -79,7 +79,9 @@
         "ping": {
             "disabled": "Ich pinge dich nicht mehr,",
             "enabled": "Ich pinge dich,"
-        }
+        },
+        "empty": "In diesem Kanal sind keine Commands deaktiviert.",
+        "list": "Deaktivierte Commands ({count}): {link}"
     },
     "7tv": {
         "dod": "(7TV) ist aktuell dod, versuch's später nochmal",
@@ -648,8 +650,8 @@
     },
     "liveMsg": "susgeeOK Live-Updates für {streamer|antiPing} sind jetzt {state|include}",
     "livePing": {
-        "noLiveMessage": "susgeeDank für @{streamer} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}livemsg {streamer} aktivieren",
-        "text": "susgeeOK {ping|include} wenn @{streamer} online geht"
+        "noLiveMessage": "susgeeDank für {streamer|antiPing} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}livemsg {streamer|antiPing} aktivieren",
+        "text": "susgeeOK {ping|include} wenn {streamer|antiPing} online geht"
     },
     "logging": {
         "added": "susgeeOK Nachrichten von {user|antiPing} werden nicht mehr geloggt",
@@ -724,7 +726,13 @@
     },
     "notifications": {
         "blog": "Neuer Twitch Blog Artikel: {title} susgeePoint {url}",
-        "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}"
+        "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}",
+        "types": {
+            "7tv": "7TV Cosmetics / Global-Emotes Änderungen",
+            "twitch": "Twitch Global Emotes / Badges Änderungen",
+            "blog": "Neue Twitch Blog Beiträge",
+            "changelog": "Twitch Changelog Änderungen"
+        }
     },
     "notify": {
         "info": "Verfügbare Benachrichtigungen: {availableTypes}",
@@ -808,7 +816,7 @@
         }
     },
     "randLine": {
-        "noEntries": "susgeeDank {user|antiPing} hat noch nie im Channel {channel|antiPing} gechatted",
+        "noEntries": "susgeeDank {user|antiPing} hat noch nie im Channel {channel|antiPing} gechattet",
         "entry": "Nachricht von {user|antiPing} im Channel {channel|antiPing}: {message}",
         "delta": "vor {delta|time}"
     },
@@ -1794,6 +1802,9 @@
         },
         "zimtzimt": {
             "description": "Zimtzimt ist super"
+        },
+        "tldr": {
+            "description": "Erstellt eine Zusammenfassung des aktuellen Chat-Verlaufs."
         }
     },
     "whisper": {
@@ -1868,7 +1879,14 @@
         "anonymous": "ein Anonymer User",
         "gift": "{user} schenkt {total|plural(one|sub, other|subs)}!! sheCrazy",
         "total": "schenkte {total} subs",
-        "subscribe": "{user} hat ein {tier}-Abo für {duration|plural(one|month, other|months)} abonniert - insgesamt {cumulative|plural(one|month, other|months)} sheCrazy",
-        "streak": "aktueller Sub-Streak: {streak|plural(one|month, other|months)}!"
+        "subscribe": "{user} hat ein {tier}-Abo für {duration|plural(one|month, other|months)} - insgesamt {cumulative|plural(one|month, other|months)} sheCrazy",
+        "streak": "aktuelle Sub-Streak: {streak|plural(one|month, other|months)}!"
+    },
+    "tldr": {
+        "generating": "⏳ Zusammenfassung anhand der letzen {limit} Nachrichten wird erstellt...",
+        "no_logs": "Es gibt nicht genügend Chataktivität, um eine Zusammenfassung zu erstellen.",
+        "not_enough_activity": "Der Chat ist im Moment zu ruhig für eine Zusammenfassung.",
+        "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .Deine Aufgabe ist es, die aktuelle Stimmung und das Thema des Chats in 1–4 kurzen, prägnanten Sätzen  akkurat zusammenzufassen, basierend auf den neuesten Chat-Nachrichten. Sei unterhaltsam, verwende gerne Twitch/7TV Global Emotes, aber sei nicht beleidigend.",
+        "chat_context": "Hier sind die neuesten Nachrichten: {chatContext}"
     }
 }
