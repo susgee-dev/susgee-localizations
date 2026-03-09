@@ -457,7 +457,8 @@
         "exists": "susgeeDank command {name} exists already",
         "notExists": "susgeeDank command {name} doesn't exist",
         "noCommands": "susgeeDank this channel has no custom commands",
-        "list": "list of all custom commands in this channel susgeePoint {link}"
+        "list": "list of all custom commands in this channel susgeePoint {link}",
+        "reservedPrefix": "susgeeDank command cannot start with a twitch reserved symbol"
     },
     "deadChannels": {
         "list": "list of channels without message since two weeks susgeePoint {paste}",
@@ -1880,8 +1881,5 @@
         "not_enough_activity": "The chat is too quiet at the moment for a summary.",
         "system": "You are a humorous, cheeky Twitch bot on the channel of {channel} . Your job is to summarize the current vibe and topic of the chat in 1-2 short, snappy sentences based on the latest chat messages. Be entertaining, feel free to use Twitch/ 7TV Global Emotes, but don't be offensive.",
         "chat_context": "Here are the latest messages: {chatContext}"
-    },
-    "customCommand": {
-        "reservedPrefix": "susgeeDank command cannot start with a twitch reserved symbol"
     }
 }
