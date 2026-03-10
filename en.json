@@ -126,7 +126,7 @@
         "error": {
             "unhandled": "susgeeDank unhandled error occurred",
             "emoteIsPrivate": "susgeeDank emote {emote} is private and can't be added",
-            "emoteNameTaken": "emote already exists with the name {name}",
+            "emoteNameTaken": "emote already exists with the name {emote}",
             "emoteNotFound": "susgeeDank emote {emote} not found",
             "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
             "emoteLinkNotFound": "susgeeDank no emote found with this link",
