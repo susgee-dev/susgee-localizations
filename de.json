@@ -126,7 +126,7 @@
         "error": {
             "unhandled": "susgeeDank Ein unerwarteter Fehler ist aufgetreten",
             "emoteIsPrivate": "susgeeDank Emote {emote} ist privat und kann nicht hinzugefügt werden",
-            "emoteNameTaken": "emote existiert in deinem Channel bereits als {emote}",
+            "emoteNameTaken": "emote existiert in deinem Channel bereits als {name}",
             "emoteLinkNotFound": "susgeeDank Kein Emote mit diesem Link gefunden",
             "emoteNotFound": "susgeeDank Emote {emote} nicht gefunden",
             "emoteNotFoundInSet": "susgeeDank Emote {emote} nicht gefunden in diesem Set",
