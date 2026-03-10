@@ -1,1 +1,61 @@
-{}
+{
+    "7tv": {
+        "emoteSet": {
+            "name": "Название: {name}"
+        },
+        "paint": {
+            "name": "Краска: {paint}"
+        },
+        "preview": "Предпросмотр: {link}",
+        "user": {
+            "profile": "Профиль: {profile}",
+            "roles": "Роли: {roles}"
+        }
+    },
+    "8ball": {
+        "msg12": "Да",
+        "msg7": "Нет!",
+        "msg1": "скорее всего",
+        "msg11": "несомненно",
+        "msg2": "безусловно да",
+        "msg3": "очень сомнительно",
+        "msg4": "мои источники говорят, что нет",
+        "msg5": "мой ответ - нет",
+        "msg6": "хорошие перспективы"
+    },
+    "afk": {
+        "returned": {
+            "brb": "@{user} вернулся",
+            "food": "@{user} закончил есть",
+            "gn": "@{user} проснулся",
+            "duration": "Продолжительность: {duration|time}",
+            "message": "Сообщение: {message}",
+            "afk": "@{user} больше не АФК",
+            "lurk": "@{user} больше не наблюдает",
+            "work": "@{user} вернулся с работы"
+        },
+        "resume": {
+            "failed": "@{user} вы не можете снова войти в АФК, так как он закончился более {minutes} минут назад!",
+            "ok": "@{user} снова АФК"
+        },
+        "lurk": "@{user} теперь наблюдает {message}",
+        "afk": "@{user} теперь АФК {message}"
+    },
+    "affiliatePing": {
+        "ping": "@{channel} теперь компаньон!",
+        "alreadyAffiliate": "susgeeDank Канал {channel|antiPing} уже компаньон/партнёр"
+    },
+    "addBot": "Добавьте Susgeebot через мой сайт susgeePoint https://susgee.dev/",
+    "activeChannel": {
+        "success": "susgeeNoted {messages|number} сообщений найдено в {channels|plural(one|channel, other|channels)} susgeePoint {paste}"
+    },
+    "ambassador": {
+        "list": "susgeeOK Амбассадоры этого канала: {users}"
+    },
+    "banMsg": {
+        "allChannels": "для всех каналов"
+    },
+    "bible": {
+        "added": "susgeeOK Добавлено в базу данных"
+    }
+}
