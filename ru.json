@@ -57,5 +57,195 @@
     },
     "bible": {
         "added": "susgeeOK Добавлено в базу данных"
+    },
+    "command": {
+        "disabled": "susgeeOK Команда {command} успешно отключена",
+        "enabled": "susgeeOK Команда {command} успешно включена"
+    },
+    "emote": {
+        "artist": "Художник: @{artist}",
+        "channel": "Канал @{channel}"
+    },
+    "lastTimeout": {
+        "message": "Сообщение: {message}"
+    },
+    "leaderboard": {
+        "cat": {
+            "commands": "Команды"
+        }
+    },
+    "mode": {
+        "offline": "офлайн",
+        "default": "по умолчанию"
+    },
+    "logs": {
+        "delta": "{time|time} назад"
+    },
+    "mostSent": {
+        "message": "Сообщение: {message}"
+    },
+    "randLine": {
+        "delta": "{delta|time} назад"
+    },
+    "randLineChannel": {
+        "delta": "{delta|time} назад"
+    },
+    "stalk": {
+        "delta": "{delta|time} назад",
+        "channel": {
+            "other": "Канал {channel|antiPing}"
+        }
+    },
+    "streamInfo": {
+        "language": "Язык: {language} {flag}",
+        "category": "Категория: {category}",
+        "title": "Название: {title}",
+        "link": "Ссылка: {link}"
+    },
+    "user": {
+        "roles": {
+            "partner": "Партнёр",
+            "list": "Роли: {roles}",
+            "affiliate": "Компаньон",
+            "staff": "Команда"
+        },
+        "color": "Цвет: {color}",
+        "isBanned": "⛔ Забанен ({reason})"
+    },
+    "weather": {
+        "temperature": "🌡️ Температура: {temp}°C",
+        "weather": "🌥️ Погода: {weather}",
+        "feelsLike": "🌡️ Ощущается как: {temp}°C",
+        "humidity": "💧 Влажность: {humidity}%",
+        "wind": "🌬️ Скорость ветра: {wind}",
+        "sunrise": "🌅 Восход: {time}",
+        "sunset": "🌆 Закат: {time}",
+        "currentTime": "🕰️ Текущее время (примерно): {date}",
+        "locationHidden": "Местоположение скрыто susgeeBased {flag}"
+    },
+    "meta": {
+        "7tvEditor": {
+            "usage": "<Пользователь>"
+        },
+        "7tvSa": {
+            "usage": "<Пользователь>"
+        },
+        "7tvUser": {
+            "usage": "<Пользователь>"
+        },
+        "vipLookup": {
+            "usage": "<Пользователь>"
+        },
+        "vips": {
+            "usage": "<Канал>"
+        },
+        "vipAge": {
+            "usage": "<Пользователь> <Канал>"
+        },
+        "topBans": {
+            "usage": "<Канал>"
+        },
+        "swim": {
+            "usage": "<Местоположение>"
+        },
+        "unban": {
+            "usage": "<Пользователь>"
+        },
+        "subAge": {
+            "usage": "<Пользователь> <Канал>"
+        },
+        "streamInfo": {
+            "usage": "<Канал>"
+        },
+        "stats": {
+            "usage": "<Пользователь>"
+        },
+        "stalk": {
+            "usage": "<Пользователь>"
+        },
+        "suggest": {
+            "usage": "<Текст>"
+        },
+        "regex": {
+            "usage": "<Текст>"
+        },
+        "record": {
+            "usage": "<Канал>"
+        },
+        "say": {
+            "usage": "<Канал> <Текст>"
+        },
+        "seRank": {
+            "usage": "<Пользователь> <Канал>"
+        },
+        "split": {
+            "usage": "<Текст>"
+        },
+        "presence": {
+            "usage": "<Пользователь>"
+        },
+        "randLine": {
+            "usage": "<Пользователь> <Канал>"
+        },
+        "chat": {
+            "usage": "<Пользователь>"
+        },
+        "chatters": {
+            "usage": "<Канал>"
+        },
+        "clip": {
+            "usage": "<Канал>"
+        },
+        "channelStats": {
+            "usage": "<Канал>"
+        },
+        "blow": {
+            "description": "💨 🎈"
+        },
+        "bot": {
+            "usage": "<Пользователь>"
+        },
+        "bibleAdd": {
+            "usage": "<Текст>"
+        },
+        "bottiesBan": {
+            "usage": "<Пользователь>"
+        },
+        "antiPing": {
+            "usage": "<Слово/Текст>"
+        },
+        "ban": {
+            "usage": "<Пользователь>"
+        },
+        "badge": {
+            "usage": "<Пользователь>"
+        },
+        "avatar": {
+            "usage": "<Пользователь>"
+        },
+        "activeChannel": {
+            "usage": "<Пользователь>"
+        },
+        "affiliatePing": {
+            "usage": "<Пользователь>"
+        },
+        "allEmotes": {
+            "usage": "<Канал>"
+        },
+        "announce": {
+            "usage": "<Текст>"
+        },
+        "8ball": {
+            "usage": "<Сообщение>"
+        }
+    },
+    "web": {
+        "forms": {
+            "search": "Поиск"
+        }
+    },
+    "maersuggest": {
+        "error": "susgeeDank Сообщение не отправлено",
+        "success": "BabyRage"
     }
 }
