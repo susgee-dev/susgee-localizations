@@ -1480,9 +1480,6 @@
             "usage": "<math (5*2^2)>",
             "description": "calculate something"
         },
-        "mining": {
-            "description": "manage your botties rigs"
-        },
         "modAge": {
             "usage": "<user> <channel>",
             "description": "display the mod-state of a user in a channel"
