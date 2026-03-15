@@ -795,11 +795,6 @@
         "notEnough": "you don't have enough botties. prestige {prestige} costs {cost|number} botties, you have {botties|plural(one|bottie, other|botties)}",
         "success": "prestige successful! you now have {botties|plural(one|bottie, other|botties)} and are in prestige {prestige}. next prestige costs {cost|number} botties"
     },
-    "ram": {
-        "message": {
-            "noComparison": " | No comparison available"
-        }
-    },
     "randLine": {
         "noEntries": "susgeeDank {user|antiPing} has never chatted in {channel|antiPing}",
         "entry": "message from {user|antiPing} in channel {channel|antiPing}: {message}",
