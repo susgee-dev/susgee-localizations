@@ -1,1 +1,33 @@
-{}
+{
+    "common": {
+        "channel": {
+            "joined": "susgeeArrive unkomm"
+        },
+        "delta": {
+            "lastMonth": "lëschte Mount",
+            "lastWeek": "lëscht Woch",
+            "lastYear": "lëscht Joer",
+            "thisMonth": "dëse Mount",
+            "thisWeek": "dës Woch",
+            "thisYear": "dëst Joer",
+            "today": "haut",
+            "yesterday": "gëschter"
+        },
+        "has": "hued",
+        "have": "hued",
+        "id": "id: {id}"
+    },
+    "error": {
+        "api": "susgeeDank API Feeler",
+        "banned": {
+            "channel": "susgeeDank Kanal {channel} ass verbannt: {reason}",
+            "user": "susgeeDank Notzer {channel} ass verbannt: {reason}"
+        },
+        "general": "susgeeDank e Feeler ass opgetrueden",
+        "invalidUrl": "susgeeDank ongëlteg url",
+        "notFound": {
+            "channel": "susgeeDank kanal {channel} konnt net fonnt ginn",
+            "channelPlatform": "susgeeDank kanal {channel|antiPing} konnt net fonnt ginn op {platform}"
+        }
+    }
+}
