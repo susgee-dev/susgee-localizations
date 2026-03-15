@@ -703,7 +703,6 @@
         "count": "{count|number} Mal"
     },
     "mining": {
-        "bought": "Du hast erfolgreich ein {type} Mining-Rig für {price} Botties gekauft! Hashrate: {hashrate}% pro Stunde",
         "status": "Deine Mining-Rigs: {status}",
         "collected": "Du hast {amount} Botties gemined! Neuer Kontostand: {newTotal} Botties"
     },
