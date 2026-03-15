@@ -708,9 +708,6 @@
         "timed": "time triggered reminder: \n{reminder}",
         "timedMessage": "timed message triggered: \n{reminder}"
     },
-    "mining": {
-        "collected": "You have mined {amount} botties! New balance: {newTotal} botties"
-    },
     "nameChanges": {
         "noEntries": "user {user|antiPing} has never changed their username",
         "optOut": "{user|antiPing} has opted out of being logged susgeeNoted ",
