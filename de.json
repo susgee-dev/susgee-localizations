@@ -1457,9 +1457,6 @@
             "usage": "<Text>",
             "description": "BabyRage marceeeeel"
         },
-        "ram": {
-            "description": "Zeigt den aktuellen Preis von RAM auf idealo.de an"
-        },
         "mass": {
             "usage": "<Text>",
             "description": "Pingt jeden User im Channel"
