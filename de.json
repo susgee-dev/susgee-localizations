@@ -702,9 +702,6 @@
         "message": "Nachricht: {message}",
         "count": "{count|number} Mal"
     },
-    "mining": {
-        "collected": "Du hast {amount} Botties gemined! Neuer Kontostand: {newTotal} Botties"
-    },
     "myReminder": {
         "noEntries": "susgeeDank Du hast keine offenen Reminder",
         "message": "Message Triggered Reminder: \n{reminder}",
