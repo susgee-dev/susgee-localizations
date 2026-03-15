@@ -1482,7 +1482,6 @@
             "description": "Rechnet etwas aus"
         },
         "mining": {
-            "usage": "[buy | collect | status] [basic | advanced | pro | experimental]",
             "description": "Verwalte deine Bottie-Mining-Rigs"
         },
         "modAge": {
