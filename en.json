@@ -709,7 +709,6 @@
         "timedMessage": "timed message triggered: \n{reminder}"
     },
     "mining": {
-        "bought": "Successfully bought a {type} mining rig for {price} botties! Hashrate: {hashrate}% per hour",
         "status": "Your Mining Rigs: {status}",
         "collected": "You have mined {amount} botties! New balance: {newTotal} botties"
     },
