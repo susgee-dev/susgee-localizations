@@ -797,7 +797,6 @@
     },
     "ram": {
         "error": {
-            "noPrice": "Konnte den Preis nicht abrufen.",
             "fetchPrice": "Fehler beim Abrufen des Preises: {message}"
         },
         "message": {
