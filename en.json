@@ -709,7 +709,6 @@
         "timedMessage": "timed message triggered: \n{reminder}"
     },
     "mining": {
-        "invalidRig": "Invalid rig type! Available types: {types}",
         "cantAfford": "You don't have enough botties! Price: {price} (You have: {botties})",
         "bought": "Successfully bought a {type} mining rig for {price} botties! Hashrate: {hashrate}% per hour",
         "status": "Your Mining Rigs: {status}",
