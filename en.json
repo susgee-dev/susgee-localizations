@@ -709,7 +709,6 @@
         "timedMessage": "timed message triggered: \n{reminder}"
     },
     "mining": {
-        "status": "Your Mining Rigs: {status}",
         "collected": "You have mined {amount} botties! New balance: {newTotal} botties"
     },
     "nameChanges": {
