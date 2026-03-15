@@ -27,7 +27,10 @@
         "invalidUrl": "susgeeDank ongëlteg url",
         "notFound": {
             "channel": "susgeeDank kanal {channel} konnt net fonnt ginn",
-            "channelPlatform": "susgeeDank kanal {channel|antiPing} konnt net fonnt ginn op {platform}"
+            "channelPlatform": "susgeeDank kanal {channel|antiPing} konnt net fonnt ginn op {platform}",
+            "command": "susgeeDank command {command} konnt net fonnt ginn",
+            "database": "susgeeDank kanal {channel|antiPing} ass net an der Datenbank",
+            "emote": "susgeeDank emote {emote} ass këen twitch emote"
         }
     }
 }
