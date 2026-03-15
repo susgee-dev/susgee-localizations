@@ -703,7 +703,6 @@
         "count": "{count|number} Mal"
     },
     "mining": {
-        "status": "Deine Mining-Rigs: {status}",
         "collected": "Du hast {amount} Botties gemined! Neuer Kontostand: {newTotal} Botties"
     },
     "myReminder": {
