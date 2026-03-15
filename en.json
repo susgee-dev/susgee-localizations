@@ -797,7 +797,6 @@
     },
     "ram": {
         "error": {
-            "noPrice": "Could not fetch price.",
             "fetchPrice": "Error fetching price: {message}"
         },
         "message": {
