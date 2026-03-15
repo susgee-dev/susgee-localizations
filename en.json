@@ -1481,7 +1481,6 @@
             "description": "calculate something"
         },
         "mining": {
-            "usage": "[buy | collect | status] [basic | advanced | pro | experimental]",
             "description": "manage your botties rigs"
         },
         "modAge": {
