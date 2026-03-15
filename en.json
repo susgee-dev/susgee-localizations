@@ -797,7 +797,6 @@
     },
     "ram": {
         "message": {
-            "priceDecrease": " | Previous ({oldDate}): {oldPrice}€ → {diff}€ ({percent}%) 📉",
             "noChange": " | Unchanged since {oldDate} ({oldPrice}€) ➡️",
             "noComparison": " | No comparison available"
         }
