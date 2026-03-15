@@ -703,7 +703,6 @@
         "count": "{count|number} Mal"
     },
     "mining": {
-        "invalidRig": "Ungültiger Rig-Typ! Verfügbare Typen: {types}",
         "cantAfford": "Du hast nicht genug Botties! Preis: {price} (Du hast: {botties})",
         "bought": "Du hast erfolgreich ein {type} Mining-Rig für {price} Botties gekauft! Hashrate: {hashrate}% pro Stunde",
         "status": "Deine Mining-Rigs: {status}",
