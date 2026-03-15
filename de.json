@@ -1481,9 +1481,6 @@
             "usage": "<Mathe (5*2^2)>",
             "description": "Rechnet etwas aus"
         },
-        "mining": {
-            "description": "Verwalte deine Bottie-Mining-Rigs"
-        },
         "modAge": {
             "usage": "<User> <Channel>",
             "description": "Mod Status von einem User anzeigen"
