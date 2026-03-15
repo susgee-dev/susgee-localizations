@@ -796,9 +796,6 @@
         "success": "prestige successful! you now have {botties|plural(one|bottie, other|botties)} and are in prestige {prestige}. next prestige costs {cost|number} botties"
     },
     "ram": {
-        "error": {
-            "fetchPrice": "Error fetching price: {message}"
-        },
         "message": {
             "article": "Article: {url} | Current: {price}€",
             "priceIncrease": " | Previous ({oldDate}): {oldPrice}€ → +{diff}€ (+{percent}%) 📈",
