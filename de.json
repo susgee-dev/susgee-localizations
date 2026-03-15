@@ -433,7 +433,7 @@
         "success": "susgeeOK {user|antiPing} hat {delta|include} im Channel {channel|antiPing} {count|plural(one|Nachricht, other|Nachrichten)} gesendet"
     },
     "clip": {
-        "forbidden": "susgeeSad  Der Channel {channel|antiPing} erlaubt keine Clips",
+        "forbidden": "susgeeSad Der Channel {channel|antiPing} erlaubt keine Clips",
         "offline": "susgeeDank Channel {channel|antiPing) ist offline",
         "unknown": "susgeeDank Clips sind in dem Channel {channel|antiPing} derzeit nicht möglich"
     },
@@ -1128,7 +1128,7 @@
         },
         "antiPing": {
             "usage": "<Wort/Text>",
-            "description": "FeelsBingMan 💢 "
+            "description": "FeelsBingMan 💢"
         },
         "ascii": {
             "usage": "<Emote>",
@@ -1243,7 +1243,7 @@
             "description": "Sendet Chat-Statistiken von einem Twitch User in einem Channel"
         },
         "clear": {
-            "description": "Leert den Chat "
+            "description": "Leert den Chat"
         },
         "clip": {
             "usage": "<Channel>",
@@ -1887,7 +1887,7 @@
         "generating": "⏳ Zusammenfassung anhand der letzen {limit} Nachrichten wird erstellt...",
         "no_logs": "Es gibt nicht genügend Chataktivität, um eine Zusammenfassung zu erstellen.",
         "not_enough_activity": "Der Chat ist im Moment zu ruhig für eine Zusammenfassung.",
-        "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .Deine Aufgabe ist es, die aktuelle Stimmung und das Thema des Chats in 1–4 kurzen, prägnanten Sätzen  akkurat zusammenzufassen, basierend auf den neuesten Chat-Nachrichten. Sei unterhaltsam, verwende gerne Twitch/7TV Global Emotes, aber sei nicht beleidigend.",
+        "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .Deine Aufgabe ist es, die aktuelle Stimmung und das Thema des Chats in 1–4 kurzen, prägnanten Sätzen akkurat zusammenzufassen, basierend auf den neuesten Chat-Nachrichten. Sei unterhaltsam, verwende gerne Twitch/7TV Global Emotes, aber sei nicht beleidigend.",
         "chat_context": "Hier sind die neuesten Nachrichten: {chatContext}"
     }
 }
