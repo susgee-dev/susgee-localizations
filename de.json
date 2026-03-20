@@ -825,7 +825,8 @@
         "other": "Ich werde {user|antiPing} erinnern",
         "pastDate": "susgeeDank Du kannst keine Reminder für die Vergangenheit setzen",
         "self": "Ich werde dich erinnern",
-        "tooFarAway": "susgeeDank Du kannst keine Reminder erstellen, der mehr als 2 Jahre in der Zukunft liegt"
+        "tooFarAway": "susgeeDank Du kannst keine Reminder erstellen, der mehr als 2 Jahre in der Zukunft liegt",
+        "userBlocked": "susgeePoint Du kannst {user|antiPing} keine reminder senden"
     },
     "reminder": {
         "tooLong": "@{receiver} Deine Reminder sind zu lang für den Chat susgeePoint {paste}",
@@ -1778,6 +1779,16 @@
         },
         "tldr": {
             "description": "Erstellt eine Zusammenfassung des aktuellen Chat-Verlaufs."
+        },
+        "block": {
+            "description": "Blockier einen User für bestimmte Commands",
+            "usage": "<User>"
+        },
+        "unblock": {
+            "description": "Entblockt einen User für bestimmte Commands.",
+            "usage": "<User>",
+            "notBlocked": "susgeeDank {user|antiPing} ist nicht blockiert.",
+            "success": "susgeeOK Du hast {user|antiPing} erfolgreich unblocked"
         }
     },
     "whisper": {
@@ -1861,5 +1872,10 @@
         "not_enough_activity": "Der Chat ist im Moment zu ruhig für eine Zusammenfassung.",
         "system": "Du bist ein humorvoller, frecher Twitch-Bot auf dem Kanal von {channel} .Deine Aufgabe ist es, das Thema des Chats in 1–4 kurzen, prägnanten Sätzen akkurat zusammenzufassen. Sei unterhaltsam, verwende Twitch/7TV Global Emotes.",
         "chat_context": "Hier sind die neuesten Nachrichten: {chatContext}"
+    },
+    "block": {
+        "self": "susgeeDank Du kannst dich nicht selbst blockieren.",
+        "alreadyBlocked": "susgeeDank {user|antiPing} ist für dich bereits blockiert.",
+        "success": "susgeeOK Du hast {user|antiPing} erfolgreich blockiert"
     }
 }
