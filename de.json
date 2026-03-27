@@ -293,7 +293,7 @@
         "success": "susgeeOK Bisher gebannte User {time|include}: {count|number}"
     },
     "bible": {
-        "added": "susgeeOK Zur Datenbank hinzugefügt",
+        "added": "susgeeOK Zur Datenbank hinzugefügt mit der ID: {id}",
         "botInfo": "Bibel {id} (Text: {text}) wurde von {user|antiPing} gelöscht",
         "deleted": "susgeeOK Text mit der ID {id} wurde gelöscht",
         "entryExists": "susgeeDank Dieser Text ist bereits in der Datenbank",
