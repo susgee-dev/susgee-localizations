@@ -1788,6 +1788,10 @@
             "usage": "<User>",
             "notBlocked": "susgeeDank {user|antiPing} is not blocked.",
             "success": "susgeeOK You have successfully unblocked {user|antiPing}"
+        },
+        "stablediffusion": {
+            "description": "Generates an image using StableDiffusion",
+            "usage": "<Prompt>"
         }
     },
     "whisper": {
