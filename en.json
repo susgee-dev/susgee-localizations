@@ -986,6 +986,7 @@
             "affiliate": "affiliate",
             "list": "roles: {roles}",
             "partner": "partner",
+            "preAffiliate": "pre-affiliate",
             "staff": "staff"
         }
     },
