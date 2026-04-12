@@ -36,7 +36,7 @@
             "command": "susgeeDank Command {command} existiert nicht",
             "database": "susgeeDank Channel {channel|antiPing} ist nicht in meiner Datenbank",
             "emote": "susgeeDank Emote {emote} ist kein Twitch Emote",
-            "permission": "susgeeDank Permission {permission} existiert nicht. Verfügbare Permissions: {permissions}",
+            "permission": "susgeeDank Berechtigung {permission} existiert nicht. Verfügbare Berechtigungen: {permissions}",
             "user": "susgeeDank User {user} nicht gefunden",
             "userPlatform": "susgeeDank User {user|antiPing} nicht auf {platform} gefunden",
             "userOrBadge": "susgeeDank Kein Badge oder User gefunden",
@@ -779,12 +779,12 @@
             "dev": "Du musst Dev sein, um diesen Command nutzen zu können",
             "owner": "NOIDONTTHINKSO nur Lucas kann diesen Command ausführen"
         },
-        "onlyAdmin": "susgeeDank Du musst Admin sein, um Permissions zu ändern",
-        "onlyOwner": "susgeeDank Du kannst Lucas' Permissions nicht ändert",
-        "ownerForbidden": "susgeeDank Die Owner Permission kann nicht vergeben werden",
-        "same": "susgeeDank User {user|antiPing} hat bereits diese Permission",
-        "status": "{user|antiPing} hat die Permission {permission}",
-        "success": "susgeeOK {user|antiPing} hat jetzt die Permission {permission}"
+        "onlyAdmin": "susgeeDank Du musst Admin sein, um Berechtigungen zu ändern",
+        "onlyOwner": "susgeeDank Du kannst Lucas' Berechtigung nicht ändert",
+        "ownerForbidden": "susgeeDank Die Owner Berechtigung kann nicht vergeben werden",
+        "same": "susgeeDank User {user|antiPing} hat bereits diese Berechtigung",
+        "status": "{user|antiPing} hat die Berechtigung {permission}",
+        "success": "susgeeOK {user|antiPing} hat jetzt die Berechtigung {permission}"
     },
     "prefix": {
         "reserved": "susgeeDank Prefix wurde nicht geändert, da er mit einem von Twitch reservierten Symbol startet",
@@ -1175,7 +1175,7 @@
         },
         "bot": {
             "usage": "<User>",
-            "description": "Gibt einem User die Bot-Permission (shortcut für permission bot <user>"
+            "description": "Gibt einem User die Bot-Berechtigung (shortcut für permission bot <user>)"
         },
         "botSubs": {
             "description": "Sehe alle Sub-Emotes von Kanälen an, von denen der Bot einen Sub hat"
