@@ -1793,6 +1793,9 @@
         "stablediffusion": {
             "description": "Generates an image using StableDiffusion",
             "usage": "<Prompt>"
+        },
+        "autopresence": {
+            "description": "Update your cosmetics on 7TV automatically."
         }
     },
     "whisper": {
@@ -1874,5 +1877,9 @@
         "self": "susgeeDank You cannot block yourself.",
         "alreadyBlocked": "susgeeDank {user|antiPing} is already blocked.",
         "success": "susgeeOK You have successfully blocked {user|antiPing}"
+    },
+    "autopresence": {
+        "disabled": "susgeeOK Auto presence disabled",
+        "enabled": "susgeeOK Auto presence enabled"
     }
 }
