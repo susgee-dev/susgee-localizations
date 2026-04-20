@@ -1794,6 +1794,9 @@
         "stablediffusion": {
             "description": "Generiert ein Bild mithilfe von StableDiffusion",
             "usage": "<Prompt>"
+        },
+        "autopresence": {
+            "description": "Update deine Cosmetics auf 7TV automatisch."
         }
     },
     "whisper": {
@@ -1882,5 +1885,9 @@
         "self": "susgeeDank Du kannst dich nicht selbst blockieren.",
         "alreadyBlocked": "susgeeDank {user|antiPing} ist für dich bereits blockiert.",
         "success": "susgeeOK Du hast {user|antiPing} erfolgreich blockiert"
+    },
+    "autopresence": {
+        "disabled": "susgeeOK Auto presence deaktiviert",
+        "enabled": "susgeeOK Auto presence aktiviert"
     }
 }
