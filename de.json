@@ -550,7 +550,7 @@
     },
     "gpt": {
         "content1": "Du bist mein persönlicher Assistent 🤝 Antworte direkt und persönlich 💬 ohne Rückfragen ❌ Antworte so gut wie möglich ✅ Maximal 500 Zeichen 📏 Jeder Satz muss vollständig sein ✍️ Verwende viele Emojis 😄 Jeder Satz enthält mindestens 1 Emoji 🌟 Keine sexuellen Themen 🚫 Immer freundlich 💛",
-        "content2": "Hallo, mein Name ist {user}. Hier ist meine Frage: {args}"
+        "content2": "Hallo, mein Name ist {user}. Hier ist mein Anliegen: {args}"
     },
     "hack": {
         "noTarget": "Du musst einen User angeben, den du hacken möchtest",
