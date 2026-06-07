@@ -458,7 +458,11 @@
         "notExists": "susgeeDank Command {name} existiert nicht",
         "noCommands": "susgeeDank Dieser Channel hat keine Custom Commands",
         "list": "Liste der Custom Commands in diesem Channel susgeePoint {link}",
-        "reservedPrefix": "susgeeDank Command darf nicht mit einem Twitch reservierten Symbol starten"
+        "reservedPrefix": "susgeeDank Command darf nicht mit einem Twitch reservierten Symbol starten",
+        "copySuccess": "susgeeOK {copied|number} Commands von {channel|antiPing} kopiert ({skipped|number} übersprungen)",
+        "copyNone": "susgeeDank Keine kopierbaren Commands von {channel|antiPing} gefunden",
+        "copyFromSelf": "susgeeDank Du kannst nicht von deinem eigenen Channel kopieren",
+        "copyNoCommands": "susgeeDank {channel|antiPing} hat keine Custom Commands"
     },
     "deadChannels": {
         "list": "Liste an Channels ohne Nachricht in den letzten 2 Wochen susgeePoint {paste}",
@@ -1241,12 +1245,13 @@
             "description": "Deaktivieren/Aktivieren eines Befehls im aktuellen Kanal"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | list] <Name> <Command>",
+            "usage": "[add | remove | edit | list | copy] <Name> <Command>",
             "usages": {
                 "add": "<Name> <Command>",
-                "delete": "<Name>"
+                "delete": "<Name>",
+                "copy": "<Channel> <Command1> [Command2 ...]"
             },
-            "description": "Benutzerdefinierte Befehle verwalten (hinzufügen, entfernen, aktualisieren, auflisten)"
+            "description": "Benutzerdefinierte Befehle verwalten (hinzufügen, entfernen, aktualisieren, auflisten, kopieren)"
         },
         "deadChannels": {
             "usage": "<Channel>",
