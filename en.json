@@ -458,7 +458,11 @@
         "notExists": "susgeeDank command {name} doesn't exist",
         "noCommands": "susgeeDank this channel has no custom commands",
         "list": "list of all custom commands in this channel susgeePoint {link}",
-        "reservedPrefix": "susgeeDank command cannot start with a twitch reserved symbol"
+        "reservedPrefix": "susgeeDank command cannot start with a twitch reserved symbol",
+        "copySuccess": "susgeeOK copied {copied|number} commands from {channel|antiPing} ({skipped|number} skipped)",
+        "copyNone": "susgeeDank no copyable commands found from {channel|antiPing}",
+        "copyFromSelf": "susgeeDank you cannot copy from your own channel",
+        "copyNoCommands": "susgeeDank {channel|antiPing} has no custom commands"
     },
     "deadChannels": {
         "list": "list of channels without message since two weeks susgeePoint {paste}",
@@ -1240,12 +1244,13 @@
             "description": "enable/disable a command in the current channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | list] <name> <command>",
+            "usage": "[add | remove | edit | list | copy] <name> <command>",
             "usages": {
                 "add": "<name> <command>",
-                "delete": "<name>"
+                "delete": "<name>",
+                "copy": "<channel> <command1> [command2 ...]"
             },
-            "description": "manage custom commands"
+            "description": "manage custom commands (add, remove, edit, list, copy)"
         },
         "deadChannels": {
             "usage": "<channel>",
