@@ -125,6 +125,15 @@
         },
         "error": {
             "unhandled": "susgeeDank Ein unerwarteter Fehler ist aufgetreten",
+            "rateLimit": "susgeeDank (7TV) Rate-Limit erreicht, versuch es gleich nochmal",
+            "emoteSetNotFound": "susgeeDank Emote-Set nicht gefunden",
+            "userNotFound": "susgeeDank (7TV) User nicht gefunden",
+            "emoteNotPublic": "susgeeDank Emote muss erst öffentlich freigegeben werden, bevor es hinzugefügt werden kann",
+            "emoteNotAllowedInPersonal": "susgeeDank Dieses Emote ist in persönlichen Emote-Sets nicht erlaubt",
+            "tooManyPendingRequests": "susgeeDank Zu viele offene (7TV) Moderationsanfragen, versuch es später nochmal",
+            "notANormalSet": "susgeeDank Das ist kein normales Emote-Set und kann nicht aktiviert werden",
+            "noBotPermission": "susgeeDank Dem Bot fehlen die (7TV) Berechtigungen für diese Aktion. https://7tv.app/settings/editors",
+            "apiError": "susgeeDank (7TV) hatte einen internen Fehler, versuch es gleich nochmal",
             "emoteIsPrivate": "susgeeDank Emote {emote} ist privat und kann nicht hinzugefügt werden",
             "emoteNameTaken": "emote existiert in deinem Channel bereits als {emote}",
             "emoteLinkNotFound": "susgeeDank Kein Emote mit diesem Link gefunden",
@@ -137,6 +146,8 @@
             "noActiveEmoteSet": "susgeeDank Channel {channel|antiPing} hat kein aktives Emote Set",
             "noChannelPerms": "Du hast keine (7TV) Editoren Rechte in diesem Channel. @{streamer} kann dich mit dem Command {prefix}7tveditor {user} hinzufügen susgeeOK",
             "noEditor": "Susgeebot hat keine Editor Rechte. Füge ihn bei https://7tv.app/settings/editors als Editor hinzu susgeeOK",
+            "noEmoteSetCreation": "susgeeDank Der Bot hat keine Berechtigung, ein Emote-Set zu erstellen. https://7tv.app/settings/editors",
+            "noActiveEmoteSetChange": "susgeeDank Der Bot hat keine Berechtigung, das aktive Emote-Set zu wechseln. https://7tv.app/settings/editors",
             "noEmoteSets": "susgeeDank Channel {channel|antiPing} hat keine Emote Sets",
             "privateEmote": "susgeeDank Emote {emote} ist privat und kann nicht hinzugefügt werden",
             "ezGifError": "Derzeit werden nur Emote-Links von BTTV, 7TV und FFZ unterstützt",
@@ -169,6 +180,11 @@
             "renews": "erneuert sich in {delta|time}",
             "since": "Sub seit insgesamt {days|plural(one|Tag, other|Tagen)}",
             "subscribedFor": "hatte einen Sub für {days|plural(one|Tag, other|Tage)}"
+        },
+        "copySet": {
+            "success": "susgeeOK {count|plural(one|Emote, other|Emotes)} kopiert nach https://7tv.app/emote-sets/{emoteSetId} und aktiviert",
+            "notActivated": "susgeeOK {count|plural(one|Emote, other|Emotes)} kopiert nach https://7tv.app/emote-sets/{emoteSetId}, konnte aber nicht aktiviert werden",
+            "notCopied": "nicht kopierte Emotes: {emotes}"
         },
         "syncSet": {
             "success": "susgeeOK Emoteset erfolgreich synchronisiert mit https://7tv.app/emote-sets/{emoteSetId}",
@@ -1673,6 +1689,10 @@
         "swim": {
             "usage": "<Location>",
             "description": "die tägliche schwimm-streak von marcel"
+        },
+        "copySet": {
+            "usage": "<Channel / Emoteset ID>",
+            "description": "Kopiert ein Emoteset in ein neues Set und aktiviert es"
         },
         "syncSet": {
             "usage": "<Channel / Emoteset ID>",

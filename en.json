@@ -124,26 +124,37 @@
             "success": "emote-sets from {channel|antiPing} susgeePoint {paste}"
         },
         "error": {
-            "unhandled": "susgeeDank unhandled error occurred",
-            "emoteIsPrivate": "susgeeDank emote {emote} is private and can't be added",
-            "emoteNameTaken": "emote already exists with the name {emote}",
-            "emoteNotFound": "susgeeDank emote {emote} not found",
-            "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
-            "emoteLinkNotFound": "susgeeDank no emote found with this link",
-            "noEmotesFoundToRemove": "susgeeDank no emotes found to remove",
-            "emoteSetFull": "susgeeDank emote not added, the set is already full",
-            "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
-            "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
-            "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",
-            "noChannelPerms": "you are no bot (7TV) editor for this channel. @{streamer} can add you with by using {prefix}7tveditor {user} susgeeOK",
-            "noEditor": "susgeeDank Susgeebot is not a (7TV) editor for this channel. add me as an editor on https://7tv.app/settings/editors",
-            "noEmoteSets": "susgeeDank channel {channel|antiPing} has no emote-sets",
-            "privateEmote": "susgeeDank emote {emote} is private and can't be added",
-            "ezGifError": "susgeeDank Currently only emote links from BTTV, 7TV and FFZ are supported",
-            "cantStealFromSelf": "susgeeDank you can't steal your own emotes",
-            "cantImportFromSelf": "susgeeDank you cannot import your own emote set",
-            "cantSyncWithSelf": "susgeeDank you cannot sync with your own emote set",
-            "alreadySynced": "susgeeDank no changes to sync, emote-set is identical"
+          "unhandled": "susgeeDank unhandled error occurred",
+          "rateLimit": "susgeeDank (7TV) rate limit reached, try again in a moment",
+          "emoteSetNotFound": "susgeeDank emote-set not found",
+          "userNotFound": "susgeeDank (7TV) user not found",
+          "emoteNotPublic": "susgeeDank emote has to be approved for public listing before it can be added",
+          "emoteNotAllowedInPersonal": "susgeeDank this emote is not allowed in personal emote-sets",
+          "tooManyPendingRequests": "susgeeDank too many pending (7TV) moderation requests, try again later",
+          "notANormalSet": "susgeeDank this is not a normal emote-set and can't be activated",
+          "noBotPermission": "susgeeDank the bot is missing (7TV) permissions for this action. https://7tv.app/settings/editors",
+          "apiError": "susgeeDank (7TV) ran into an internal error, try again in a moment",
+          "emoteIsPrivate": "susgeeDank emote {emote} is private and can't be added",
+          "emoteNameTaken": "emote already exists with the name {emote}",
+          "emoteNotFound": "susgeeDank emote {emote} not found",
+          "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
+          "emoteLinkNotFound": "susgeeDank no emote found with this link",
+          "noEmotesFoundToRemove": "susgeeDank no emotes found to remove",
+          "emoteSetFull": "susgeeDank emote not added, the set is already full",
+          "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
+          "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
+          "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",
+          "noChannelPerms": "you are no bot (7TV) editor for this channel. @{streamer} can add you with by using {prefix}7tveditor {user} susgeeOK",
+          "noEditor": "susgeeDank Susgeebot is not a (7TV) editor for this channel. add me as an editor on https://7tv.app/settings/editors",
+          "noEmoteSetCreation": "susgeeDank the bot does not have the permission to create a new emote-set. https://7tv.app/settings/editors",
+          "noActiveEmoteSetChange": "susgeeDank the bot does not have the permission to change the active emote-set. https://7tv.app/settings/editors",
+          "noEmoteSets": "susgeeDank channel {channel|antiPing} has no emote-sets",
+          "privateEmote": "susgeeDank emote {emote} is private and can't be added",
+          "ezGifError": "susgeeDank Currently only emote links from BTTV, 7TV and FFZ are supported",
+          "cantStealFromSelf": "susgeeDank you can't steal your own emotes",
+          "cantImportFromSelf": "susgeeDank you cannot import your own emote set",
+          "cantSyncWithSelf": "susgeeDank you cannot sync with your own emote set",
+          "alreadySynced": "susgeeDank no changes to sync, emote-set is identical"
         },
         "paint": {
             "active": "{active|plural(one|user has, other|users have)} this paint active",
@@ -169,6 +180,11 @@
             "renews": "renews in {delta|time}",
             "since": "subscribed in total for {days|plural(one|day, other|days)}",
             "subscribedFor": "previously subscribed for {days|plural(one|day, other|days)}"
+        },
+        "copySet": {
+            "success": "susgeeOK copied {count|plural(one|emote, other|emotes)} into https://7tv.app/emote-sets/{emoteSetId} and activated it",
+            "notActivated": "susgeeOK copied {count|plural(one|emote, other|emotes)} into https://7tv.app/emote-sets/{emoteSetId}, but could not activate it",
+            "notCopied": "not copied emotes: {emotes}"
         },
         "syncSet": {
             "success": "susgeeOK successfully synced with emote-set https://7tv.app/emote-sets/{emoteSetId}",
@@ -1672,6 +1688,10 @@
         "swim": {
             "usage": "<location>",
             "description": "the daily swim-streak from marcel"
+        },
+        "copySet": {
+            "usage": "<channel / emote-set id>",
+            "description": "copies an emote-set into a new set and activates it"
         },
         "syncSet": {
             "usage": "<channel / emote-set id>",
