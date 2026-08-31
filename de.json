@@ -802,6 +802,8 @@
         "onlyAdmin": "susgeeDank Du musst Admin sein, um Berechtigungen zu ändern",
         "onlyOwner": "susgeeDank Du kannst Lucas' Berechtigung nicht ändert",
         "ownerForbidden": "susgeeDank Die Owner Berechtigung kann nicht vergeben werden",
+        "targetTooHigh": "susgeeDank Du kannst nur Nutzer unterhalb deiner eigenen Berechtigung ändern",
+        "levelTooHigh": "susgeeDank Du kannst die Berechtigung {permission} nicht vergeben, sie liegt über deiner eigenen",
         "same": "susgeeDank User {user|antiPing} hat bereits diese Berechtigung",
         "status": "{user|antiPing} hat die Berechtigung {permission}",
         "success": "susgeeOK {user|antiPing} hat jetzt die Berechtigung {permission}"

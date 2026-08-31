@@ -802,6 +802,8 @@
         "onlyAdmin": "susgeeDank you have to be an admin to update permissions",
         "onlyOwner": "susgeeDank you cannot change lucas' permission",
         "ownerForbidden": "susgeeDank the owner permission cannot be given",
+        "targetTooHigh": "susgeeDank you can only change users below your own permission level",
+        "levelTooHigh": "susgeeDank you cannot grant the permission {permission}, it is above your own",
         "same": "susgeeDank user {user|antiPing} already has this permission",
         "status": "{user|antiPing} has the permission {permission}",
         "success": "susgeeOK {user|antiPing} now has the permission {permission}"
