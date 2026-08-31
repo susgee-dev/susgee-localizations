@@ -778,16 +778,6 @@
         "notOptOutCommand": "susgeeDank {command} ist kein Command, von dem du dich einschliessen kannst"
     },
     "permissions": {
-        "bot": {
-            "admin": "susgeeDank ich werde keinen meiner Admins als Bot markieren",
-            "added": "susgeeOK {user|antiPing} ist jetzt als Bot markiert",
-            "removed": "susgeeOK {user|antiPing} ist nicht mehr als Bot markiert"
-        },
-        "ignored": {
-            "admin": "susgeeDank ich werde keinen meiner Admins ignorieren",
-            "added": "susgeeOK {user|antiPing} wird jetzt ignoriert",
-            "removed": "susgeeOK {user|antiPing} wird nicht mehr ignoriert"
-        },
         "insufficient": {
             "ignored": "susgeeDank Du bist auf der Ignore-Liste des Bots und kannst keine Befehle ausführen",
             "helper": "Du musst Helper sein, um diesen Command nutzen zu können",
@@ -1195,9 +1185,9 @@
         "boobaTv": {
             "description": "Sendet das Thumbnail von einen Streamer auf booba.tv"
         },
-        "bot": {
-            "usage": "<User>",
-            "description": "Gibt einem User die Bot-Berechtigung (shortcut für permission bot <user>)"
+        "susgeebotmsg": {
+            "usage": "<Nachricht>",
+            "description": "Schickt eine Nachricht als Action an alle aktiven Channels (mit Bestätigung)"
         },
         "botSubs": {
             "description": "Sehe alle Sub-Emotes von Kanälen an, von denen der Bot einen Sub hat"
@@ -1410,10 +1400,6 @@
         "id": {
             "usage": "<User>",
             "description": "Gibt die User-IDs von Twitch/7TV zurück"
-        },
-        "ignore": {
-            "usage": "<User>",
-            "description": "Ignorier ein User"
         },
         "isBanned": {
             "usage": "<User> <Channel>",

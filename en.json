@@ -778,16 +778,6 @@
         "notOptOutCommand": "susgeeDank {command} is not a command you can opt out of"
     },
     "permissions": {
-        "bot": {
-            "admin": "susgeeDank i refuse to flag an admin as bot",
-            "added": "susgeeOK {user|antiPing} is now flagged as bot",
-            "removed": "susgeeOK {user|antiPing} is no longer flagged as bot"
-        },
-        "ignored": {
-            "admin": "susgeeDank i refuse to ignore an admin",
-            "added": "susgeeOK {user|antiPing} is now being ignored",
-            "removed": "susgeeOK {user|antiPing} is no longer being ignored"
-        },
         "insufficient": {
             "ignored": "susgeeDank you are on the ignore list of this bot and cannot execute commands",
             "helper": "you need to be a helper to execute this command",
@@ -1194,9 +1184,9 @@
         "boobaTv": {
             "description": "sends a thumbnail of a streamer from booba.tv"
         },
-        "bot": {
-            "usage": "<user>",
-            "description": "sets the state of a user to a bot (shortcut for permission bot <user>"
+        "susgeebotmsg": {
+            "usage": "<message>",
+            "description": "Broadcasts a message as an action to every active channel (requires confirmation)"
         },
         "botSubs": {
             "description": "show all sub-emotes the bot currently has"
@@ -1409,10 +1399,6 @@
         "id": {
             "usage": "<user>",
             "description": "returns the user ids from Twitch and (7TV)"
-        },
-        "ignore": {
-            "usage": "<user>",
-            "description": "ignore a user"
         },
         "isBanned": {
             "usage": "<user> <channel>",
