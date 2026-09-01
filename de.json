@@ -672,7 +672,7 @@
     },
     "liveMsg": "susgeeOK Live-Updates für {streamer|antiPing} sind jetzt {state|include}",
     "livePing": {
-        "noLiveMessage": "susgeeDank für {streamer|antiPing} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}livemsg {streamer|antiPing} aktivieren",
+        "noLiveMessage": "susgeeDank für {streamer|antiPing} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}notify live {streamer|antiPing} aktivieren",
         "text": "susgeeOK {ping|include} wenn {streamer|antiPing} online geht"
     },
     "logging": {
@@ -749,16 +749,26 @@
         }
     },
     "notify": {
-        "info": "Verfügbare Benachrichtigungen: {availableTypes}",
-        "invalidType": "susgeeDank Ungültige Benachrichtigungen. Verfügbare Typen: {types}",
-        "alreadySubscribed": "susgeeDank Dieser Channel hat bereits {type} Benachrichtigungen abonniert",
-        "subscribed": "susgeeOK Erfolgreich {type} Benachrichtigungen abonniert",
+        "invalidType": "susgeeDank Ungültige Benachrichtigung. Verfügbare Typen: {types}",
+        "alreadySubscribed": "susgeeDank {type|include} ist hier bereits abonniert",
+        "subscribed": "susgeeOK {type|include} abonniert",
         "noSubscriptions": "susgeeDank Dieser Channel hat keine Benachrichtigungen abonniert",
-        "notSubscribed": "susgeeDank Dieser Channel hat {type} Benachrichtigungen nicht abonniert",
-        "unsubscribed": "susgeeOK Erfolgreich von {type} Benachrichtigungen abgemeldet"
-    },
-    "unnotify": {
-        "info": "Dieser Channel hat folgende Benachrichtigungen abonniert: {subscriptions}"
+        "notSubscribed": "susgeeDank {type|include} ist hier nicht abonniert",
+        "unsubscribed": "susgeeOK {type|include} abbestellt",
+        "onlyMod": "susgeeDank Nur Mods können die Abos dieses Channels ändern",
+        "noPersonal": "susgeeDank {type|include} kennt keine persönliche Anmeldung. Ein Mod kann sie mit {prefix}notify für den ganzen Channel aktivieren",
+        "onlyPersonal": "susgeeDank {type|include} gibt es nur persönlich, nimm {prefix}pingme",
+        "names": {
+            "live": "Live-Updates",
+            "subgift": "Subgift-Pings",
+            "affiliate": "Affiliate-Pings"
+        },
+        "list": {
+            "text": "susgeeOK In diesem Channel aktiv: {entries}",
+            "entry": "{type}: {targets}",
+            "personal": "{count|number} persönlich",
+            "tooLong": "susgeeOK Abos dieses Channels susgeePoint {paste}"
+        }
     },
     "optOut": {
         "triggered": "susgeeDank Dieser User oder Channel hat sich vom targeting dieses Commands ausgeschlossen",
@@ -1148,7 +1158,7 @@
             "description": "Bannt eine Liste von Benutzern im Channel"
         },
         "banMsg": {
-            "usage": "<Channel> oder disable, um alle zu deaktivieren",
+            "usage": "<Channel>",
             "description": "Aktiviert/deaktiviert die Ban Mitteilungen"
         },
         "bans": {
@@ -1522,11 +1532,18 @@
         },
         "notify": {
             "description": "Abonniere Benachrichtigungen für verschiedene Ereignisse",
-            "usage": "<Typ>"
+            "usage": "<Typ> (<Channel>)"
+        },
+        "notifications": {
+            "description": "Zeigt, welche Benachrichtigungen in diesem Channel aktiv sind"
+        },
+        "pingMe": {
+            "description": "Meldet dich persönlich für eine Benachrichtigung an oder ab",
+            "usage": "<Typ> (<Channel>)"
         },
         "unnotify": {
-            "description": "Melde dich von Benachrichtigungen ab",
-            "usage": "<Typ>"
+            "description": "Deaktiviert eine Benachrichtigung für diesen Channel",
+            "usage": "<Typ> (<Channel>)"
         },
         "optOut": {
             "description": "Schliesse dich aus als target von einem oder allen Commands",
