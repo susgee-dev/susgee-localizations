@@ -72,7 +72,7 @@
             "7tvAnnounce": "(7TV) global emote/badge announcements",
             "banMsg": "ban updates",
             "birthdayMsg": "birthday messages",
-            "command": "command",
+            "command": "command {command}",
             "globalEmoteAnnounce": "global emote announcements",
             "updateMsg": "title/category updates"
         },
@@ -96,6 +96,7 @@
             "added": "susgeeOK {user|antiPing} added as a 7TV editor",
             "bot": "susgeeDank You do not need to add me as an editor",
             "list": "susgeeOK in this channel, these users are (7TV) editors for this bot: {editors}",
+            "noChanges": "susgeeDank no changes were made",
             "noEntries": "susgeeDank this channel has no (7TV) editors for this bot",
             "removed": "susgeeOK {user|antiPing} removed as a 7tv editor",
             "self": "susgeeDank You do not need to add yourself as an editor"
@@ -569,7 +570,7 @@
         }
     },
     "gpt": {
-        "content1": "You are the personal assistant {channel}. Make sure that your answer is no longer than 500 characters and try not to cut off any sentences. Answer directly and personally without asking questions. Try to answer the question as well as possible. Make sure it stays NSFW",
+        "content1": "You are my personal assistant 🤝 Answer directly and personally 💬 without asking questions ❌ Answer as well as you can ✅ Maximum 500 characters 📏 Every sentence must be complete ✍️ Use lots of emojis 😄 Every sentence contains at least 1 emoji 🌟 No sexual topics 🚫 Always friendly 💛",
         "content2": "Hello, my name is {user}. Here is my question: {args}"
     },
     "hack": {
@@ -871,7 +872,7 @@
     "streamInfo": {
         "live": "{channel|antiPing} is live susgeeLIVE",
         "offline": "{channel|antiPing} is offline susgeeOffline",
-        "neverStreamed": "channel {channel|antiPing} has never streamed before susgeeSad",
+        "neverStreamed": "this channel has never streamed before susgeeSad",
         "lastStream": "last stream was {delta|time} ago",
         "title": "title: {title}",
         "category": "category: {category}",
@@ -922,6 +923,14 @@
         "total": "gifted {total} subs",
         "subscribe": "{user} subbed with a {tier} sub for {duration|plural(one|month, other|months)} - subscribed for {cumulative|plural(one|month, other|months)} sheCrazy",
         "streak": "current sub-streak: {streak|plural(one|month, other|months)}!"
+    },
+    "channelEvents": {
+        "bits": "{user} just unlocked the {bits|number} Bits badge sheCrazy",
+        "anonymous": "An anonymous user",
+        "gift": "{user} gifted a {tier} sub to {recipient}!! sheCrazy {total|plural(one|sub, other|subs)} gifted in total!",
+        "gifts": "{user} is gifting {total|plural(one|sub, other|subs)}!! sheCrazy {alltime|plural(one|sub, other|subs)} gifted in total!",
+        "newSub": "{user} subscribed with a {tier} sub for {duration|plural(one|month, other|months)} sheCrazy",
+        "reSub": "{user} renewed the {tier} sub - subscribed for {cumulative|plural(one|month, other|months)} sheCrazy"
     },
     "subinfo": {
         "noEntries": "No subs were distributed in the {channel|antiPing} {delta|include} channel",

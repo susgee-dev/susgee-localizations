@@ -96,6 +96,7 @@
             "added": "susgeeOK {user|antiPing} zur (7TV) Editor Liste hinzugefügt",
             "bot": "susgeeDank Du musst mich nicht als Editor hinzufügen",
             "list": "susgeeOK In diesem Channel haben folgende User (7TV) Editor Rechte für diesen Bot: {editors}",
+            "noChanges": "susgeeDank Keine Änderungen vorgenommen",
             "noEntries": "susgeeDank Dieser Channel hat keine (7TV) Editoren für diesen Bot gespeichert",
             "removed": "susgeeOK {user|antiPing} von der (7TV) Editor Liste entfernt",
             "self": "susgeeDank Du musst dich selber nicht als Editor hinzufügen"
