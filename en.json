@@ -764,10 +764,12 @@
             "affiliate": "affiliate pings"
         },
         "list": {
-            "text": "susgeeOK active in this channel: {entries}",
-            "entry": "{type}: {targets}",
-            "personal": "{count|number} personal",
-            "tooLong": "susgeeOK this channel's subscriptions susgeePoint {paste}"
+            "short": "susgeeOK {count|number} active notifications in #{channel} susgeePoint {paste}"
+        },
+        "paste": {
+            "header": "Active notifications in #{channel} — {count|number} rows",
+            "own": "Your pings: {entries}",
+            "ownEntry": "{type} via whisper"
         }
     },
     "optOut": {
