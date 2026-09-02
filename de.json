@@ -771,9 +771,10 @@
             "short": "susgeeOK {count|number} aktive Benachrichtigungen in #{channel} susgeePoint {paste}"
         },
         "paste": {
-            "header": "Aktive Benachrichtigungen in #{channel} — {count|number} Zeilen",
-            "own": "Deine Pings: {entries}",
-            "ownEntry": "{type} per Whisper"
+            "header": "Aktive Benachrichtigungen in {channel}",
+            "ping": "ping: {users}",
+            "own": "nur für dich, channelunabhängig",
+            "whisper": "per Whisper"
         }
     },
     "optOut": {
