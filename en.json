@@ -758,7 +758,7 @@
         "onlyMod": "susgeeDank only mods can change this channel's subscriptions",
         "noPersonal": "susgeeDank {type|include} has no personal signup. a mod can enable it for the whole channel with {prefix}notify",
         "onlyPersonal": "susgeeDank {type|include} is personal only, use {prefix}pingme",
-        "replaced": "susgeeDank this command has been replaced and no longer does anything — use {command} instead susgeePoint {docs}",
+        "replaced": "susgeeDank this command does nothing anymore. use {command} instead susgeePoint {docs}",
         "noMessage": "susgeeDank {type|include} has no custom message yet",
         "messageTooLong": "susgeeDank the custom message can have a maximum of {max|number} characters",
         "messageSet": "susgeeOK custom message for {type|include} of {channel|antiPing} set",
