@@ -758,6 +758,7 @@
         "onlyMod": "susgeeDank Nur Mods können die Abos dieses Channels ändern",
         "noPersonal": "susgeeDank {type|include} kennt keine persönliche Anmeldung. Ein Mod kann sie mit {prefix}notify für den ganzen Channel aktivieren",
         "onlyPersonal": "susgeeDank {type|include} gibt es nur persönlich, nimm {prefix}pingme",
+        "replaced": "susgeeDank Dieser Command wurde abgelöst und macht nichts mehr — nimm stattdessen {command} susgeePoint {docs}",
         "noMessage": "susgeeDank {type|include} kennt noch keinen eigenen Text",
         "messageTooLong": "susgeeDank Der eigene Text darf maximal {max|number} Zeichen lang sein",
         "messageSet": "susgeeOK Eigener Text für {type|include} von {channel|antiPing} gesetzt",
