@@ -749,7 +749,7 @@
         }
     },
     "notify": {
-        "invalidType": "susgeeDank Ungültige Benachrichtigung. Verfügbare Typen: {types}",
+        "invalidType": "susgeeDank Ungültige Benachrichtigung. Verfügbare Typen: {types} susgeePoint {docs}",
         "alreadySubscribed": "susgeeDank {type|include} ist hier bereits abonniert",
         "subscribed": "susgeeOK {type|include} abonniert",
         "noSubscriptions": "susgeeDank Dieser Channel hat keine Benachrichtigungen abonniert",
