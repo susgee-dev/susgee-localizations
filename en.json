@@ -749,7 +749,7 @@
         }
     },
     "notify": {
-        "invalidType": "susgeeDank invalid notification type. available types: {types}",
+        "invalidType": "susgeeDank invalid notification type. available types: {types} susgeePoint {docs}",
         "alreadySubscribed": "susgeeDank {type|include} is already subscribed here",
         "subscribed": "susgeeOK subscribed to {type|include}",
         "noSubscriptions": "susgeeDank this channel is not subscribed to any notifications",
