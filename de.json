@@ -758,16 +758,22 @@
         "onlyMod": "susgeeDank Nur Mods können die Abos dieses Channels ändern",
         "noPersonal": "susgeeDank {type|include} kennt keine persönliche Anmeldung. Ein Mod kann sie mit {prefix}notify für den ganzen Channel aktivieren",
         "onlyPersonal": "susgeeDank {type|include} gibt es nur persönlich, nimm {prefix}pingme",
+        "noMessage": "susgeeDank {type|include} kennt noch keinen eigenen Text",
+        "messageTooLong": "susgeeDank Der eigene Text darf maximal {max|number} Zeichen lang sein",
+        "messageSet": "susgeeOK Eigener Text für {type|include} von {channel|antiPing} gesetzt",
+        "messageAdded": "eigener Text gesetzt",
         "names": {
             "live": "Live-Updates",
             "subgift": "Subgift-Pings",
             "affiliate": "Affiliate-Pings"
         },
         "list": {
-            "text": "susgeeOK In diesem Channel aktiv: {entries}",
-            "entry": "{type}: {targets}",
-            "personal": "{count|number} persönlich",
-            "tooLong": "susgeeOK Abos dieses Channels susgeePoint {paste}"
+            "short": "susgeeOK {count|number} aktive Benachrichtigungen in #{channel} susgeePoint {paste}"
+        },
+        "paste": {
+            "header": "Aktive Benachrichtigungen in #{channel} — {count|number} Zeilen",
+            "own": "Deine Pings: {entries}",
+            "ownEntry": "{type} per Whisper"
         }
     },
     "optOut": {
@@ -1532,7 +1538,7 @@
         },
         "notify": {
             "description": "Abonniere Benachrichtigungen für verschiedene Ereignisse",
-            "usage": "<Typ> (<Channel>)"
+            "usage": "<Typ> (<Channel>) (<eigener Text>)"
         },
         "notifications": {
             "description": "Zeigt, welche Benachrichtigungen in diesem Channel aktiv sind"
