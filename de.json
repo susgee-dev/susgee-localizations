@@ -618,7 +618,6 @@
     "irc": {
         "banned": "@{user} wurde im Channel @{channel} gebannt",
         "lastMessages": "Letzte Nachrichten susgeePoint {link} MODS Clap",
-        "subgiftWhisper": "susgeeBusiness Subgift erhalten susgeePoint @{gifter} haut im Channel @{channel} einen Tier {tier} Sub an dich raus KUSS",
         "subgift": "susgeeBusiness Subgift erhalten susgeePoint @{gifter} haut im Channel @{channel} einen Tier {tier} Sub an @{receiver} raus KUSS"
     },
     "isBanned": {
@@ -763,10 +762,6 @@
             "disabled": "susgeeOK Ich pinge dich nicht mehr bei {type|include} von {channel|antiPing}"
         },
         "replaced": "susgeeDank Dieser Command macht nichts mehr. Nimm stattdessen {command} susgeePoint {docs}",
-        "noMessage": "susgeeDank {type|include} kennt noch keinen eigenen Text",
-        "messageTooLong": "susgeeDank Der eigene Text darf maximal {max|number} Zeichen lang sein",
-        "messageSet": "susgeeOK Eigener Text für {type|include} von {channel|antiPing} gesetzt",
-        "messageAdded": "eigener Text gesetzt",
         "names": {
             "live": "Live-Updates",
             "subgift": "Subgift-Pings",
@@ -777,9 +772,7 @@
         },
         "paste": {
             "header": "Aktive Benachrichtigungen in {channel}",
-            "ping": "ping: {users}",
-            "own": "nur für dich, channelunabhängig",
-            "whisper": "per Whisper"
+            "ping": "ping: {users}"
         }
     },
     "optOut": {
@@ -936,8 +929,7 @@
     },
     "subGiftPing": {
         "disabled": "Ich pinge dich nicht mehr, wenn ich einen Subgift erkenne",
-        "enabled": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift erkenne",
-        "whisper": "susgeeOK Ich werde dir whispern, wenn ich ein Subgift erkenne"
+        "enabled": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift erkenne"
     },
     "channelEvents": {
         "bits": "{user} hat gerade das {bits|number} Bits Badge freigeschaltet sheCrazy",
