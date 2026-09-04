@@ -2135,7 +2135,9 @@
                 "logging": "Log messages in my channel",
                 "verboseLiveMsg": "Include title and category in live messages",
                 "birthdayGreetings": "Enable birthday messages",
-                "bottiesReminder": "Enable Botties reminder"
+                "bottiesReminder": "Enable Botties reminder",
+                "hideFromLookups": "Hide my channel from lookups",
+                "hideFromLookupsHint": "The channel no longer shows up in ?ac lists or in the ban search. Commands used inside the channel itself keep working."
             },
             "ambassadors": {
                 "title": "Ambassadors",

@@ -2135,7 +2135,9 @@
                 "logging": "Nachrichten in meinem Channel loggen",
                 "verboseLiveMsg": "Titel und Kategorie in Live-Nachrichten anzeigen",
                 "birthdayGreetings": "Geburtstagsnachrichten aktivieren",
-                "bottiesReminder": "Botties-Reminder aktivieren"
+                "bottiesReminder": "Botties-Reminder aktivieren",
+                "hideFromLookups": "Meinen Channel in Abfragen verstecken",
+                "hideFromLookupsHint": "Der Channel taucht nicht mehr in ?ac-Listen oder in der Ban-Suche auf. Commands im Channel selbst funktionieren weiter."
             },
             "ambassadors": {
                 "title": "Ambassadors",
