@@ -618,7 +618,6 @@
     "irc": {
         "banned": "@{user} has been banned in channel @{channel}",
         "lastMessages": "last messages susgeePoint {link} MODS Clap",
-        "subgiftWhisper": "susgeeBusiness Subgift received susgeePoint @{gifter} gifted a tier {tier} sub to you in channel @{channel}",
         "subgift": "susgeeBusiness Subgift received susgeePoint @{gifter} gifted a tier {tier} sub to @{receiver} in channel @{channel}"
     },
     "isBanned": {
@@ -763,10 +762,6 @@
             "disabled": "susgeeOK i will no longer ping you for {type|include} of {channel|antiPing}"
         },
         "replaced": "susgeeDank this command does nothing anymore. use {command} instead susgeePoint {docs}",
-        "noMessage": "susgeeDank {type|include} has no custom message yet",
-        "messageTooLong": "susgeeDank the custom message can have a maximum of {max|number} characters",
-        "messageSet": "susgeeOK custom message for {type|include} of {channel|antiPing} set",
-        "messageAdded": "custom message set",
         "names": {
             "live": "live updates",
             "subgift": "subgift pings",
@@ -777,9 +772,7 @@
         },
         "paste": {
             "header": "Active notifications in {channel}",
-            "ping": "ping: {users}",
-            "own": "only for you, not bound to a channel",
-            "whisper": "via whisper"
+            "ping": "ping: {users}"
         }
     },
     "optOut": {
@@ -936,8 +929,7 @@
     },
     "subGiftPing": {
         "disabled": "susgeeOK I will no longer notify you, when I detect a subgift",
-        "enabled": "susgeeOK I will notify you, when I detect a subgift for you",
-        "whisper": "susgeeOK I will whisper you, when I detect a subgift for you"
+        "enabled": "susgeeOK I will notify you, when I detect a subgift for you"
     },
     "subEvents": {
         "anonymous": "an anonym user",
