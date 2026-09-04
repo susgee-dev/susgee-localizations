@@ -732,7 +732,7 @@
         "optOut": "{user|antiPing} has opted out of being logged susgeeNoted ",
         "text": "previously logged usernames for {user|antiPing} (Current Name since {since|date}): {usernames}"
     },
-    "antiPing": {
+    "noPing": {
         "enabled": "susgeeOK your name will no longer ping you when others use commands on you",
         "disabled": "susgeeOK your name will ping you again when others use commands on you"
     },
@@ -1539,7 +1539,7 @@
             "usage": "<user>",
             "description": "display past names of a user"
         },
-        "antiPing": {
+        "noPing": {
             "description": "toggles whether your name pings you when others use commands on you"
         },
         "noMention": {

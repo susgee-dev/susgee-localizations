@@ -732,7 +732,7 @@
         "optOut": "{user|antiPing} ist vom Logging ausgeschlossen susgeeNoted ",
         "text": "Bisher geloggte Namen von {user|antiPing} (Aktueller Name seit: {since|date}): {usernames}"
     },
-    "antiPing": {
+    "noPing": {
         "enabled": "susgeeOK Dein Name pingt dich nicht mehr, wenn andere Commands auf dich benutzen",
         "disabled": "susgeeOK Dein Name pingt dich wieder, wenn andere Commands auf dich benutzen"
     },
@@ -1532,7 +1532,7 @@
             "usage": "<User>",
             "description": "Zeigt Namensänderungen eines Users an"
         },
-        "antiPing": {
+        "noPing": {
             "description": "Schaltet um, ob dein Name dich pingt, wenn andere Commands auf dich benutzen"
         },
         "noMention": {
