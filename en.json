@@ -130,7 +130,7 @@
           "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
           "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
           "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",
-          "noChannelPerms": "you are no bot (7TV) editor for this channel. @{streamer} can add you with by using {prefix}7tveditor {user} susgeeOK",
+          "noChannelPerms": "susgeeDank you are not a (7TV) editor for this bot in this channel. @{streamer} can add you by using {prefix}7tveditor add {user}",
           "noEditor": "susgeeDank Susgeebot is not a (7TV) editor for this channel. add me as an editor on https://7tv.app/settings/editors",
           "noEmoteSetCreation": "susgeeDank the bot does not have the permission to create a new emote-set. https://7tv.app/settings/editors",
           "noActiveEmoteSetChange": "susgeeDank the bot does not have the permission to change the active emote-set. https://7tv.app/settings/editors",
@@ -193,7 +193,7 @@
                 "removed": "removed emote {emote}"
             },
             "emoteSet": {
-                "changed": "change active emote-set from {old} to {new}",
+                "changed": "changed active emote-set from {old} to {new}",
                 "name": "changed emote-set name from {old} to {new}",
                 "capacity": "changed emote-set capacity from {old} to {new}",
                 "emotes": "renamed emote {old} to {new}"
@@ -251,11 +251,11 @@
             "lurk": "@{user} is no longer lurking",
             "noMessage": "(no message)",
             "shower": "@{user} has finished showering",
-            "study": "@{user} stopped learning",
+            "study": "@{user} finished studying",
             "work": "@{user} is back from working"
         },
         "shower": "@{user} is now taking a shower {message}",
-        "study": "@{user} goes learning {message}",
+        "study": "@{user} is now studying {message}",
         "work": "@{user} goes to work now {message}"
     },
     "ambassador": {
@@ -270,7 +270,7 @@
         "noEmotes": "susgeeDank {channel|antiPing} has no channel emotes"
     },
     "ban": {
-        "admin": "susgeeOK i refuse to ban an admin of me",
+        "admin": "susgeeOK i refuse to ban one of my admins",
         "notBanned": "susgeeDank failed to ban {user}"
     },
     "banList": {
@@ -281,7 +281,7 @@
         "success": "susgeeOK banned users {time|include} so far: {count|number}"
     },
     "bible": {
-        "added": "susgeeOK added to the database with ID:  {id}",
+        "added": "susgeeOK added to the database with ID: {id}",
         "botInfo": "bible {id} (text: {text}) has been deleted by {user|antiPing}",
         "deleted": "susgeeOK entry with id {id} has been deleted",
         "entryExists": "susgeeDank this text already is in the database",
@@ -317,7 +317,7 @@
             "msg4": "🕰️ Time for a short break! Your virtual circuits are taking a little pause to prepare for upcoming challenges. ⏸️",
             "msg5": "🔄 Restart required! A soft reset is being performed to clear unnecessary load. You'll be ready to go again shortly. 🔄",
             "msg6": "⚡ Power-saving mode activated! Your systems are temporarily entering power-saving mode to conserve resources. Full power will resume soon! ⚡",
-            "msg7": "🛑 Stop! A temporary system pause is necessary to update important configurations. We’ll be right back! ⏩",
+            "msg7": "🛑 Stop! A temporary system pause is necessary to update important configurations. We'll be right back! ⏩",
             "msg8": "🔍 Analysis in progress! Your data is being closely examined to identify possible performance improvements. Please be patient. 🔬",
             "msg9": "🚧 Code under construction! Our developers are working on fixing some bugs. Your system will soon be error-free and more stable! 🚀"
         },
@@ -375,7 +375,7 @@
             "msg28": "🛠️ Ready for the next tech challenge. You've proven you're a real tech expert and now you can earn more botties. Show the world what you're made of, {user}",
             "msg29": "🎵 You're on the right path to becoming a Bottie Master. You can now earn more botties with your efforts. Let your technical skills shine, {user}",
             "msg30": "✨ Get ready for a bottie revolution. Your achievements have gone viral, and now you can accumulate more Botties in your virtual vault. Celebrate your success in the tech world, {user}",
-            "msg31": "🌌 The Bottie bench is looking forward to seeing you. Get more Botties now and expand your tech collection. Use this opportunity to make your digital dreams come true, {user}"
+            "msg31": "🌌 The Bottie Bank is looking forward to seeing you. Get more Botties now and expand your tech collection. Use this opportunity to make your digital dreams come true, {user}"
         },
         "newUser": "Welcome to the virtual world, {user}! As a new player, you receive the exclusive starter kit, consisting of 20 digital Botties. Use them wisely to begin your technological journey and unlock exciting upgrades. Have fun exploring the world of computing!",
         "notEnough": "susgeeDank you don't have enough botties! you have {botties|plural(one|bottie, other|botties)}",
@@ -389,7 +389,7 @@
     },
     "channel": {
         "joined": "susgeeOK channel {channel} joined",
-        "parted": "susgeeOK channel {channel} verlassen",
+        "parted": "channel {channel} parted",
         "rejoined": "susgeeOK channel {channel} rejoined"
     },
     "channelStats": {
@@ -410,8 +410,8 @@
         "uuidFormat": "twitch mobile app"
     },
     "chatters": {
-        "noEntries": "channel {channel|antiPing} has no chatter",
-        "success": "there are {chatter|number} chatter in channel {channel|antiPing} ( {data} ) susgeePoint {link}"
+        "noEntries": "channel {channel|antiPing} has no chatters",
+        "success": "there are {chatter|number} chatters in channel {channel|antiPing} ( {data} ) susgeePoint {link}"
     },
     "chatting": {
         "noEntries": "susgeeDank no messages found from {user|antiPing} in channel {channel|antiPing} {delta|include}",
@@ -419,7 +419,7 @@
     },
     "clip": {
         "forbidden": "susgeeSad channel {channel|antiPing} doesn't allow creating clips",
-        "offline": "susgeeDank {channel|antiPing) is offline",
+        "offline": "susgeeDank {channel|antiPing} is offline",
         "unknown": "susgeeDank creating clips for {channel|antiPing} is currently unavailable"
     },
     "cock": "the kok of {user|antiPing} is {cm}cm long {emote} {bar}",
@@ -563,7 +563,7 @@
     },
     "language": {
         "changed": "susgeeOK language is now set to english",
-        "invalid": "current language is english. available langauges: {languages}"
+        "invalid": "current language is english. available languages: {languages}"
     },
     "lastTimeout": {
         "self": "susgeeDank you cannot be timeouted in your own channel",
@@ -606,7 +606,7 @@
     },
     "logs": {
         "link": "logs from {user|antiPing} in channel {channel|antiPing} susgeePoint {link}",
-        "channelOrUserNotFound": "susgeeDank no logs for this channel or found",
+        "channelOrUserNotFound": "susgeeDank no logs found for this channel or user",
         "firstMessage": "first message from {user|antiPing} in channel {channel|antiPing}: {message}",
         "delta": "{time|time} ago"
     },
@@ -615,7 +615,7 @@
         "mod": "mod",
         "none": "susgeeDank channel {channel|antiPing} has no {type|include}s",
         "noRole": "susgeeDank {user|antiPing} is not a {type|include} in channel {channel|antiPing}",
-        "noTracked": "susgeeDank {user|antiPing} is is not a {type|include} in any tracked channel",
+        "noTracked": "susgeeDank {user|antiPing} is not a {type|include} in any tracked channel",
         "since": "{type|include} since {since|time}",
         "success": "{user|antiPing} is {type|include} in {count|plural(one|tracked channel, other|tracked channels)} susgeePoint {link}",
         "vip": "vip"
@@ -812,7 +812,7 @@
         "language": "language: {language} {flag}",
         "link": "link: {link}",
         "newCategoryAndTitle": "susgeeNoted new category and title in channel @{channel}",
-        "noTitle": "(no Title)",
+        "noTitle": "(no title)",
         "noCategory": "(no category)",
         "newTitle": "susgeeNoted new title in channel @{channel}",
         "newCategory": "susgeeNoted new category in channel @{channel}"
@@ -831,7 +831,7 @@
         "renews": "renews in {delta|time}",
         "statusHidden": "user {user|antiPing} has hidden their subscription status",
         "streak": "{streak} month streak",
-        "since": "subscribed to {channel|antiPing} since {months|plural(one|month, other|months)}",
+        "since": "subscribed to {channel|antiPing} for {months|plural(one|month, other|months)}",
         "subscribedFor": "previously subscribed to {channel|antiPing} for {months|plural(one|month, other|months)}",
         "tier": "{tier} sub"
     },
@@ -840,8 +840,8 @@
         "stats": "{user|antiPing} has given away {count|number} subs {delta|include} in channel {channel|antiPing} (value: {price}€)"
     },
     "subGiftPing": {
-        "disabled": "susgeeOK I will no longer notify you, when I detect a subgift",
-        "enabled": "susgeeOK I will notify you, when I detect a subgift for you"
+        "disabled": "susgeeOK I will no longer notify you when I detect a subgift",
+        "enabled": "susgeeOK I will notify you when I detect a subgift for you"
     },
     "channelEvents": {
         "bits": "{user} just unlocked the {bits|number} Bits badge sheCrazy",
@@ -852,7 +852,7 @@
         "reSub": "{user} renewed the {tier} sub - subscribed for {cumulative|plural(one|month, other|months)} sheCrazy"
     },
     "subinfo": {
-        "noEntries": "No subs were distributed in the {channel|antiPing} {delta|include} channel",
+        "noEntries": "No subs were distributed in the {channel|antiPing} channel {delta|include}",
         "stats": "Sub info for channel {channel|antiPing} {delta|include}: Total Subs: {total|number}, First-time subs: {firstTime|number}, Tiers: (P, T1, T2, T3) => {prime|number}, {tier1|number}, {tier2|number}, {tier3|number}"
     },
     "suggestion": {
@@ -880,7 +880,7 @@
     },
     "topSubgifts": {
         "noEntries": "susgeeDank there are no logged subgifts in channel {channel|antiPing} {delta|include}",
-        "text": "the most subgifters {delta|include} in channel {channel|antiPing} are: {leaderboard}"
+        "text": "the top subgifters {delta|include} in channel {channel|antiPing} are: {leaderboard}"
     },
     "topTimeouts": {
         "noEntries": "susgeeDank there are no logged timeouts in channel {channel|antiPing} {delta|include}",
@@ -978,7 +978,7 @@
         },
         "7tvEditor": {
             "usage": "<user>",
-            "description": "add an editor for (7TV) emotes"
+            "description": "adds an editor for (7TV) emotes"
         },
         "7tvEditorList": {
             "description": "shows users with (7TV) bot editor permissions"
@@ -993,7 +993,7 @@
         },
         "7tvUser": {
             "usage": "<user>",
-            "description": "search for a user on 7TV"
+            "description": "searches for a user on 7TV"
         },
         "8ball": {
             "usage": "<message>",
@@ -1015,7 +1015,7 @@
         },
         "affiliatePing": {
             "usage": "<user>",
-            "description": "get a notification when a channel gets affiliate"
+            "description": "notifies you when a channel becomes affiliate"
         },
         "afk": {
             "usage": "<afk text>",
@@ -1023,7 +1023,7 @@
         },
         "ambassador": {
             "usage": "[add | remove] <user> or list",
-            "description": "add or remove ambassador status in your channel to your trusted users"
+            "description": "adds or removes ambassador status in your channel for your trusted users"
         },
         "allEmotes": {
             "usage": "<channel>",
@@ -1034,7 +1034,7 @@
         },
         "announce": {
             "usage": "<text>",
-            "description": "send a twitch announcement in chat"
+            "description": "sends a twitch announcement in chat"
         },
         "antiPing": {
             "usage": "<word/text>",
@@ -1057,11 +1057,11 @@
         },
         "banMsg": {
             "usage": "<channel>",
-            "description": "enable/disable ban-messages"
+            "description": "enables/disables ban-messages"
         },
         "bans": {
             "usage": "[alltime | today | yesterday | month | lastmonth | year | lastyear] <channel>",
-            "description": "shows the number of timeouts logged in a channel"
+            "description": "shows the number of bans logged in a channel"
         },
         "bible": {
             "usage": "(<id>)",
@@ -1069,7 +1069,7 @@
         },
         "bibleAdd": {
             "usage": "<text>",
-            "description": "add a text to the bible database"
+            "description": "adds a text to the bible database"
         },
         "bibleDelete": {
             "usage": "<id>",
@@ -1083,7 +1083,7 @@
             "description": "adds a birthday to the database or removes it"
         },
         "birthdayMsg": {
-            "description": "enable/disable birthday announcements"
+            "description": "enables/disables birthday announcements"
         },
         "birthdays": {
             "description": "returns all stored birthdays in the current channel"
@@ -1096,22 +1096,22 @@
             "description": "Broadcasts a message as an action to every active channel (requires confirmation)"
         },
         "botSubs": {
-            "description": "show all sub-emotes the bot currently has"
+            "description": "shows all sub-emotes the bot currently has"
         },
         "botties": {
             "description": "botties mini-game"
         },
         "bottiesBan": {
             "usage": "<user>",
-            "description": "ban a user from using botties"
+            "description": "bans a user from using botties"
         },
         "channel": {
             "usage": "[join | rejoin | part] <channel>",
-            "description": "join or part a channel"
+            "description": "joins or parts a channel"
         },
         "channelStats": {
             "usage": "<channel>",
-            "description": "displays the channel stats of the current channel"
+            "description": "displays the chat stats of a channel"
         },
         "channelSettings": {
             "usage": "<setting> <value>",
@@ -1150,7 +1150,7 @@
         },
         "command": {
             "usage": "[check | disable | enable] <command>",
-            "description": "enable/disable a command in the current channel"
+            "description": "enables/disables a command in the current channel"
         },
         "customCommand": {
             "usage": "[add | remove | edit | list | copy] <name> <command>",
@@ -1159,14 +1159,14 @@
                 "delete": "<name>",
                 "copy": "<channel> <command1> [command2 ...]"
             },
-            "description": "manage custom commands (add, remove, edit, list, copy)"
+            "description": "manages custom commands (add, remove, edit, list, copy)"
         },
         "deleteSuggest": {
             "usage": "<id>",
             "description": "deletes a suggestion"
         },
         "discord": {
-            "description": "get the link to our discord server"
+            "description": "sends the link to our discord server"
         },
         "dislikes": {
             "usage": "<YouTube Video ID/Link>",
@@ -1185,7 +1185,7 @@
         },
         "eCountToday": {
             "usage": "<emote> <channel>",
-            "description": "shows how often an emote has been used in a today channel"
+            "description": "shows how often an emote has been used in a channel today"
         },
         "eCountUser": {
             "usage": "<emote> <user> <channel>",
@@ -1201,7 +1201,7 @@
         },
         "emoteSet": {
             "usage": "<channel>",
-            "description": "shows information the current (7TV) emote-set"
+            "description": "shows information about the current (7TV) emote-set"
         },
         "emoteSets": {
             "usage": "<channel>",
@@ -1209,11 +1209,11 @@
         },
         "eSearch": {
             "usage": "[bttv | ffz | seventv] <emote>",
-            "description": "search an emote on bttv/ffz/7tv by name"
+            "description": "searches an emote on bttv/ffz/7tv by name"
         },
         "eval": {
             "usage": "<code>",
-            "description": "executes a javascript code"
+            "description": "executes javascript code"
         },
         "ezGif": {
             "usage": "<emote>",
@@ -1240,7 +1240,7 @@
         },
         "forecast": {
             "description": "Shows a 5-day weather forecast for a city",
-            "usage": "<stadt> or user <user>"
+            "usage": "<city> or user <user>"
         },
         "freeAll": {
             "description": "removes all timeouts of all users in the current channel"
@@ -1258,17 +1258,17 @@
         },
         "give": {
             "usage": "<user> <amount of botties | half | all | eg 20%>",
-            "description": "give your botties to another user"
+            "description": "gives your botties to another user"
         },
         "global": {
             "description": "displays all global emotes from 7TV/BTTV/FFZ/TWITCH"
         },
         "globalEmoteAnnounce": {
-            "description": "send a notification, when a global badge/emote has been updated from Twitch (7TV) or BTTV"
+            "description": "sends a notification when a global badge/emote has been updated on Twitch, 7TV or BTTV"
         },
         "gpt": {
             "usage": "<text>",
-            "description": "ask ChatGPT something"
+            "description": "asks ChatGPT something"
         },
         "help": {
             "usage": "<command>",
@@ -1321,7 +1321,7 @@
         },
         "liveMsg": {
             "usage": "<channel>",
-            "description": "enable/disable live-messages for a streamer"
+            "description": "enables/disables live-messages for a streamer"
         },
         "liveMsgs": {
             "description": "displays all enabled live-messages in this channel"
@@ -1332,7 +1332,7 @@
         },
         "logging": {
             "usage": "(<user>)",
-            "description": "enable/disable logging for a user"
+            "description": "enables/disables logging for a user"
         },
         "logs": {
             "usage": "<user> <channel>",
@@ -1363,7 +1363,7 @@
         },
         "modLookup": {
             "usage": "<user>",
-            "description": "displays a list of channels a user is modded"
+            "description": "displays a list of channels a user is modded in"
         },
         "mods": {
             "usage": "<channel>",
@@ -1375,7 +1375,7 @@
         },
         "mostSentChannel": {
             "usage": "[alltime | today | yesterday | month] <channel>",
-            "description": "returns the most-sent messag in a channel"
+            "description": "returns the most-sent message in a channel"
         },
         "myBible": {
             "description": "displays all texts from you in the bible database"
@@ -1412,11 +1412,11 @@
             "description": "displays the upcoming birthdays"
         },
         "optOut": {
-            "description": "opt-out of being targeted by one or all commands",
+            "description": "opts you out of being targeted by one or all commands",
             "usage": "[all | list | <command>]"
         },
         "optIn": {
-            "description": "opt-in of being targeted by one or all commands",
+            "description": "opts you back in to being targeted by one or all commands",
             "usage": "[all | <command>]"
         },
         "paint": {
@@ -1431,29 +1431,29 @@
         },
         "permission": {
             "usage": "[status | default | vip | mod | ambassador | admin | dev] <user>",
-            "description": "display a users bot permission or update it"
+            "description": "displays a user's bot permission or updates it"
         },
         "pick": {
             "usage": "<option 1> <option 2> . . .",
-            "description": "returns a random selected word of a given text"
+            "description": "returns a randomly selected word of a given text"
         },
         "ping": {
             "description": "pong! 🏓"
         },
         "prefix": {
             "usage": "<prefix>",
-            "description": "changes the bots prefix (default is ?)"
+            "description": "changes the bot's prefix (default is ?)"
         },
         "presence": {
             "usage": "<user>",
             "description": "refreshes your (7TV) paint and badge"
         },
         "prestige": {
-            "description": "increase your prestige to gain more botties"
+            "description": "increases your prestige to gain more botties"
         },
         "pyramid": {
-            "usage": "<amount (1-25)> <text> or stop, to cancel the pyramide",
-            "description": "creates a pyramide in chat"
+            "usage": "<amount (1-25)> <text> or stop, to cancel the pyramid",
+            "description": "creates a pyramid in chat"
         },
         "randLine": {
             "usage": "<user> <channel>",
@@ -1482,7 +1482,7 @@
         },
         "remind": {
             "usage": "<user> <text> (in 6 days 49 minutes) or (on 14.02.2023 15:38)",
-            "description": "create a reminder for a user or yourself. reminder can also be set in a given time",
+            "description": "creates a reminder for a user or yourself. reminders can also be set for a given time",
             "usages": {
                 "me": "<text> (in 49 minutes 15 seconds) or (on 14.02.2023 15:38)"
             }
@@ -1505,7 +1505,7 @@
         },
         "spam": {
             "usage": "<amount (1-50)> <message> or stop, to cancel the spam",
-            "description": "spam a message in chat"
+            "description": "spams a message in chat"
         },
         "split": {
             "usage": "<text>",
@@ -1533,7 +1533,7 @@
         },
         "subGiftPing": {
             "usage": "(whisper) when subgifts should be announced via whisper",
-            "description": "add/remove notifications when a subgift for a user is detected"
+            "description": "enables/disables notifications when a subgift for a user is detected"
         },
         "subGifts": {
             "usage": "[alltime | today | yesterday | month] <user> <channel>",
@@ -1545,11 +1545,11 @@
         },
         "suggest": {
             "usage": "<text>",
-            "description": "suggest a feature or report a bug"
+            "description": "suggests a feature or reports a bug"
         },
         "suggestion": {
-            "usage": "[approve | finish | deletesilent] <id> oder list",
-            "description": "manage suggestions"
+            "usage": "[approve | finish | deletesilent] <id> or list",
+            "description": "manages suggestions"
         },
         "copySet": {
             "usage": "<channel / emote-set id>",
@@ -1598,11 +1598,11 @@
         },
         "unRemind": {
             "usage": "<id>",
-            "description": "delete a reminder"
+            "description": "deletes a reminder"
         },
         "updateMsg": {
             "usage": "<channel>",
-            "description": "enable/disable title and category updates for a channel"
+            "description": "enables/disables title and category updates for a channel"
         },
         "updateMsgs": {
             "description": "displays all enabled title and category updates in this channel"
@@ -1615,7 +1615,7 @@
             "description": "you will be timeouted for 1 second"
         },
         "vanity": {
-            "description": "test paint/badge combinations"
+            "description": "tests paint/badge combinations"
         },
         "vipAge": {
             "usage": "<user> <channel>",
@@ -1630,7 +1630,7 @@
             "description": "displays a list of vips in a channel"
         },
         "weather": {
-            "usage": "<location> oder user <username>",
+            "usage": "<location> or user <username>",
             "description": "displays weather information on a given location"
         },
         "whoAddedThisEmote": {
@@ -1638,8 +1638,8 @@
             "description": "displays who added a given emote"
         },
         "xd": {
-            "usage": "[restart | pull | load/reload/unload <command> | module <Module>] chainable mit ,|",
-            "description": "restarts the bot, pulls from git, reload commands/modules"
+            "usage": "[restart | pull | load/reload/unload <command> | module <Module>] chainable with ,|",
+            "description": "restarts the bot, pulls from git, reloads commands/modules"
         },
         "y": {
             "usage": "<EmoteName | 7TV-Link> -c channel1, channel2",
@@ -1647,7 +1647,7 @@
         },
         "yoink": {
             "usage": "<emote> (<new name>)",
-            "description": "yoink an emote and add it to your channel (with an optional alias)"
+            "description": "yoinks an emote and adds it to your channel (with an optional alias)"
         },
         "z": {
             "usage": "[add | remove | rename | replace | yoink | import]",
@@ -1679,7 +1679,7 @@
             "usage": "<Prompt>"
         },
         "autopresence": {
-            "description": "Update your cosmetics on 7TV automatically."
+            "description": "Updates your 7TV cosmetics automatically."
         }
     },
     "whisper": {
@@ -1696,8 +1696,9 @@
     },
     "web": {
         "forms": {
-            "searching": "Searching . . . ",
-            "search": "Search"
+            "searching": "Searching…",
+            "search": "Search",
+            "selectOptions": "Select options"
         },
         "footer": {
             "rightsReserved": "not affiliated with Twitch",
@@ -1732,29 +1733,159 @@
                 "chatter": "Unique chatters",
                 "reminder": "Active reminders",
                 "afk": "Active AFKs",
-                "botties": "Botties player"
+                "botties": "Botties players",
+                "title": "Stats",
+                "description": "Real-time statistics of Susgeebot.",
+                "liveConnection": "Live connection",
+                "channels": "Channels",
+                "commands": "Commands",
+                "uptime": "Uptime",
+                "msgPerMin": "Ø msg / min",
+                "totals": "Totals",
+                "topCommands": "Top commands"
             },
             "commands": {
-                "search": "search for commands"
+                "search": "search for commands",
+                "title": "Bot commands",
+                "description": "Search and filter through all available bot commands.",
+                "metaDescription": "Browse and search bot commands",
+                "allCategories": "All categories",
+                "anyAccess": "Any access",
+                "searchLabel": "Search",
+                "selectCategory": "Select category",
+                "selectAccess": "Select access level",
+                "empty": "No commands found. Try a different search or category."
             },
             "command": {
                 "backToCommands": "back to commands",
                 "description": "Description",
-                "usage": "Usage"
+                "usage": "Usage",
+                "metaTitle": "{name} command",
+                "notFoundTitle": "Command not found",
+                "notFoundMessage": "Could not find a command with that name.",
+                "aliases": "Aliases",
+                "permission": "Permission",
+                "cooldown": "Cooldown"
             },
             "bans": {
                 "description": "Search for bans by channel and/or user",
                 "time": "Time",
                 "noSearchCriteria": "Please enter a channel or user to search",
-                "noEntries": "No bans found for the given search criteria"
+                "noEntries": "No bans found for the given search criteria",
+                "title": "Twitch bans",
+                "channel": "Channel",
+                "user": "User",
+                "vod": "VOD",
+                "link": "Link",
+                "logs": "Logs",
+                "error": "An error occurred while fetching bans.",
+                "itemsLabel": "bans",
+                "findVod": "Find VOD",
+                "searchingVod": "Searching…",
+                "noVod": "No VOD",
+                "vodError": "Error"
             }
+        },
+        "common": {
+            "cancel": "Cancel",
+            "add": "Add",
+            "save": "Save",
+            "delete": "Delete",
+            "edit": "Edit",
+            "remove": "Remove",
+            "loading": "Loading…",
+            "saved": "Saved",
+            "saving": "Saving…",
+            "couldNotSave": "Could not save",
+            "confirm": "Confirm",
+            "confirmAction": "Confirm action",
+            "goHome": "Go to home",
+            "tryAgain": "Try again",
+            "items": "items",
+            "or": "or",
+            "close": "Close"
+        },
+        "nav": {
+            "commands": "Commands",
+            "stats": "Stats",
+            "tools": "Tools",
+            "discord": "Discord",
+            "dashboard": "Dashboard",
+            "settings": "Settings",
+            "logout": "Logout",
+            "signIn": "Sign in",
+            "userMenu": "User menu",
+            "navigation": "Navigation",
+            "openMenu": "Open navigation menu",
+            "home": "Susgee home",
+            "language": "Language"
+        },
+        "errors": {
+            "badRequest": {
+                "title": "Bad request",
+                "message": "Something went wrong with your request."
+            },
+            "forbidden": {
+                "title": "Forbidden",
+                "message": "You don't have permission to access this resource."
+            },
+            "notFound": {
+                "title": "Not found",
+                "message": "The page you're looking for doesn't exist. Not yet, or not anymore."
+            },
+            "serverError": {
+                "title": "Server error",
+                "message": "Something went wrong on our end."
+            },
+            "somethingWentWrong": "Something went wrong!",
+            "image": "Error"
+        },
+        "pagination": {
+            "first": "First",
+            "previous": "Previous",
+            "next": "Next",
+            "last": "Last",
+            "showing": "Showing <visible>{visible}</visible> of <total>{total}</total> {label}"
+        },
+        "permissions": {
+            "bot": "Bot",
+            "ignored": "Ignored",
+            "default": "Default",
+            "vip": "VIP",
+            "mod": "Mod",
+            "ambassador": "Ambassador",
+            "broadcaster": "Broadcaster",
+            "admin": "Admin",
+            "dev": "Dev",
+            "owner": "Owner"
+        },
+        "categories": {
+            "fun": "Fun",
+            "botties": "Botties",
+            "twitch": "Twitch",
+            "chatting": "Chatting",
+            "utils": "Utils",
+            "apps": "Apps",
+            "bot": "Bot",
+            "7tv": "7TV"
+        },
+        "live": {
+            "connected": "WebSocket connected",
+            "disconnected": "WebSocket disconnected"
+        },
+        "chat": {
+            "moderator": "Moderator",
+            "bot": "Chat bot"
+        },
+        "time": {
+            "days": "{count|plural(one|day,other|days)}"
         }
     },
     "tldr": {
-        "generating": "⏳ Generate summary based on the last {limit} messages...",
+        "generating": "⏳ Generating summary based on the last {limit} messages...",
         "no_logs": "There is not enough activity to generate a summary.",
         "not_enough_activity": "The chat is too quiet at the moment for a summary.",
-        "system": "You are a humorous, cheeky Twitch bot on the channel of {channel} . Your job is to summarize the current vibe and topic of the chat in 1-2 short, snappy sentences based on the latest chat messages. Be entertaining, feel free to use Twitch/ 7TV Global Emotes, but don't be offensive.",
+        "system": "You are a humorous, cheeky Twitch bot in the channel of {channel}. Your job is to summarize the current vibe and topic of the chat in 1-2 short, snappy sentences based on the latest chat messages. Be entertaining, feel free to use Twitch/7TV Global Emotes, but don't be offensive. When you use emotes, make sure they stand alone, with no period or comma before or after them.",
         "chat_context": "Here are the latest messages: {chatContext}"
     },
     "block": {
