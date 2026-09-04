@@ -672,7 +672,6 @@
     },
     "liveMsg": "susgeeOK Live-Updates für {streamer|antiPing} sind jetzt {state|include}",
     "livePing": {
-        "noLiveMessage": "susgeeDank für {streamer|antiPing} gibt es keine Live-Updates. Ein Mod kann dies mit {prefix}notify live {streamer|antiPing} aktivieren",
         "text": "susgeeOK {ping|include} wenn {streamer|antiPing} online geht"
     },
     "logging": {
@@ -758,6 +757,11 @@
         "onlyMod": "susgeeDank Nur Mods können die Abos dieses Channels ändern",
         "noPersonal": "susgeeDank {type|include} kennt keine persönliche Anmeldung. Ein Mod kann sie mit {prefix}notify für den ganzen Channel aktivieren",
         "onlyPersonal": "susgeeDank {type|include} gibt es nur persönlich, nimm {prefix}pingme",
+        "noChannelSubscription": "susgeeDank {type|include} für {channel|antiPing} sind hier nicht aktiviert. Ein Mod kann sie mit {prefix}notify {command} {channel|antiPing} aktivieren",
+        "ping": {
+            "enabled": "susgeeOK Ich pinge dich bei {type|include} von {channel|antiPing}",
+            "disabled": "susgeeOK Ich pinge dich nicht mehr bei {type|include} von {channel|antiPing}"
+        },
         "replaced": "susgeeDank Dieser Command macht nichts mehr. Nimm stattdessen {command} susgeePoint {docs}",
         "noMessage": "susgeeDank {type|include} kennt noch keinen eigenen Text",
         "messageTooLong": "susgeeDank Der eigene Text darf maximal {max|number} Zeichen lang sein",
