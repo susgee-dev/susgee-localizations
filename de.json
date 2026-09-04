@@ -679,6 +679,7 @@
     },
     "notify": {
         "invalidType": "susgeeDank Ungültiger Benachrichtigungstyp. Verfügbare Typen: {types} susgeePoint {docs}",
+        "usageHint": "Typen: {types} susgeePoint {docs}",
         "alreadySubscribed": "susgeeDank {type|include} ist hier bereits abonniert",
         "subscribed": "susgeeOK {type|include} abonniert",
         "noSubscriptions": "susgeeDank Dieser Channel hat keine Benachrichtigungen abonniert",
@@ -1398,7 +1399,7 @@
         },
         "notify": {
             "description": "Abonniere Benachrichtigungen für verschiedene Ereignisse",
-            "usage": "<Typ> (<Channel>) (<eigener Text>)"
+            "usage": "<Typ> (<Channel>)"
         },
         "notifications": {
             "description": "Zeigt, welche Benachrichtigungen in diesem Channel aktiv sind"
@@ -1698,7 +1699,8 @@
         "forms": {
             "searching": "Suche…",
             "search": "Suchen",
-            "selectOptions": "Optionen wählen"
+            "selectOptions": "Optionen wählen",
+            "remove": "{name} entfernen"
         },
         "footer": {
             "rightsReserved": "steht in keiner rechtlichen Verbindung zu Twitch",

@@ -679,6 +679,7 @@
     },
     "notify": {
         "invalidType": "susgeeDank invalid notification type. available types: {types} susgeePoint {docs}",
+        "usageHint": "types: {types} susgeePoint {docs}",
         "alreadySubscribed": "susgeeDank {type|include} is already subscribed here",
         "subscribed": "susgeeOK subscribed to {type|include}",
         "noSubscriptions": "susgeeDank this channel is not subscribed to any notifications",
@@ -1395,7 +1396,7 @@
         },
         "notify": {
             "description": "Subscribe to notifications for various events",
-            "usage": "<type> (<channel>) (<custom message>)"
+            "usage": "<type> (<channel>)"
         },
         "notifications": {
             "description": "Shows which notifications are active in this channel"
@@ -1698,7 +1699,8 @@
         "forms": {
             "searching": "Searching…",
             "search": "Search",
-            "selectOptions": "Select options"
+            "selectOptions": "Select options",
+            "remove": "Remove {name}"
         },
         "footer": {
             "rightsReserved": "not affiliated with Twitch",
