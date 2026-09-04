@@ -1706,22 +1706,61 @@
         },
         "pages": {
             "home": {
-                "hero": {
-                    "title": "Mehr Power für deinen Chat mit",
-                    "subtitle": "Hol dir Emotes, sammle Botties, kontrolliere den Chat – easy und schnell.",
-                    "cta": "Susgeebot hinzufügen"
-                },
-                "cards": {
+                "metaTitle": "Startseite",
+                "tagline": "Ein vielseitiger Twitch-Bot für Nützliches, Unterhaltung und Statistiken.",
+                "channelsJoined": "Channels beigetreten",
+                "features": {
                     "7tv": {
-                        "title": "7TV Emotes ✨",
-                        "description": "Emote gesehen, das du haben willst? Mit <code>?7TV</code> kannst du Emotes easy zu deinem Set hinzufügen.",
-                        "linkLabel": "7TV Commands entdecken"
+                        "title": "7TV-Integration",
+                        "description": "Verwalte die Emotes deines Channels direkt aus dem Chat, mit einfachen Commands.",
+                        "cta": "Alle 7TV-Commands entdecken"
                     },
-                    "botties": {
-                        "title": "Botties sammeln 🎰",
-                        "description": "<code>?gamba</code> und <code>?botties</code> bringen Spass in deinen Chat. Spieler können Botties riskieren und den Leaderboard-Kampf beginnen!",
-                        "linkLabel": "Spielmodi entdecken"
+                    "economy": {
+                        "title": "Wirtschaft & Spiele",
+                        "description": "Bring deine Community mit einem vollständigen Wirtschaftssystem und interaktiven Spielen zusammen.",
+                        "cta": "Botties-Commands ansehen"
+                    },
+                    "tools": {
+                        "title": "Tools & mehr",
+                        "description": "Entdecke unsere Tools und mehr, um dein Chat-Erlebnis zu verbessern.",
+                        "cta": "Nützliche Commands entdecken"
                     }
+                },
+                "modes": {
+                    "title": "Bot-Modi",
+                    "description": "Bestimme mit verschiedenen Modi, wie sich der Bot in deinem Channel verhält.",
+                    "default": {
+                        "name": "Standard",
+                        "description": "Alle Funktionen sind für alle in deinem Channel aktiv."
+                    },
+                    "offline": {
+                        "name": "Offline",
+                        "description": "Der Bot antwortet nur, solange dein Stream offline ist."
+                    },
+                    "7tv": {
+                        "name": "7TV",
+                        "description": "Nur die 7TV-Commands sind aktiv."
+                    },
+                    "mods": {
+                        "name": "Mods",
+                        "description": "Nur Moderatoren können Bot-Commands benutzen."
+                    },
+                    "offlineAllOnlineMod": {
+                        "name": "Offline für alle, online für Mods",
+                        "description": "Offline können alle Commands benutzen, online nur die Mods."
+                    }
+                },
+                "more": {
+                    "text": "Dazu kommen Statistiken in Echtzeit, Aktivitäts-Logs von Usern und Moderations-Tools für Bans und Berechtigungen.",
+                    "stats": "Bot-Stats ansehen →",
+                    "tools": "Unsere Tools entdecken →"
+                },
+                "cta": {
+                    "title": "Bereit loszulegen?",
+                    "description": "Schliess dich den Channels an, die Susgeebot schon nutzen.",
+                    "signIn": "Mit Twitch anmelden",
+                    "manage": "Einstellungen verwalten",
+                    "add": "Susgeebot zu deinem Channel hinzufügen"
                 }
             },
             "stats": {
@@ -1784,15 +1823,151 @@
                 "searchingVod": "Suche…",
                 "noVod": "Kein VOD",
                 "vodError": "Fehler"
+            },
+            "tools": {
+                "metaTitle": "Tools",
+                "metaDescription": "Twitch-IDs umwandeln, Follows nachschlagen, Moderatoren verwalten und mehr mit den Susgee Tools.",
+                "title": "Susgee Tools",
+                "description": "Eine Sammlung nützlicher Tools für Twitch-User und Streamer.",
+                "groups": {
+                    "tools": "Tools",
+                    "services": "Dienste"
+                },
+                "status": {
+                    "checking": "Prüft",
+                    "online": "Online",
+                    "offline": "Offline"
+                },
+                "items": {
+                    "bans": {
+                        "title": "Ban-Check",
+                        "description": "Suche Bans nach Channel und/oder User."
+                    },
+                    "user": {
+                        "title": "Twitch-User nachschlagen",
+                        "description": "Grundlegende Twitch-Infos nach Username oder User-ID abrufen."
+                    },
+                    "vodTime": {
+                        "title": "VOD-Zeitfinder",
+                        "description": "Spring zum exakten Moment in einer Stream-Aufzeichnung, per Zeitangabe oder Clip."
+                    },
+                    "emotes": {
+                        "title": "Susgee Emotes",
+                        "description": "Twitch-Emotes aus jedem Channel durchstöbern und ansehen."
+                    },
+                    "history": {
+                        "title": "Susgee History",
+                        "description": "Die letzten Nachrichten aus jedem Twitch-Channel lesbar aufbereitet."
+                    },
+                    "logs": {
+                        "title": "Susgee Logs",
+                        "description": "Twitch-Chatlogs von Channels und Usern ansehen und durchsuchen."
+                    },
+                    "paste": {
+                        "title": "Susgee Paste",
+                        "description": "Code-Schnipsel und Text mit unserem Paste-Dienst teilen."
+                    },
+                    "uploader": {
+                        "title": "Susgee Uploader",
+                        "description": "Bilder und Videos mit unserem Hosting-Dienst hochladen und teilen."
+                    }
+                }
+            },
+            "user": {
+                "metaTitle": "User-Tool",
+                "metaDescription": "Einen Twitch-User nach ID oder Username nachschlagen.",
+                "title": "Twitch-User nachschlagen",
+                "description": "Suche nach Username oder User-ID",
+                "userId": "User-ID",
+                "username": "Username",
+                "go": "Los",
+                "searchById": "Nach User-ID suchen",
+                "searchByName": "Nach Username suchen",
+                "notFound": "User nicht gefunden",
+                "apiError": "User nicht gefunden oder API-Fehler",
+                "banned": "Gebannt:",
+                "followers": "Follower",
+                "following": "Folgt",
+                "partner": "Partner",
+                "affiliate": "Affiliate",
+                "lastStream": "Letzter Stream:"
+            },
+            "vodTime": {
+                "metaTitle": "VOD-Zeit",
+                "title": "VOD-Zeitfinder",
+                "description": "Spring zum exakten Moment in einer Stream-Aufzeichnung, per Zeitangabe oder Clip.",
+                "channel": "Channel",
+                "channelPlaceholder": "Wessen VOD willst du durchsuchen?",
+                "howLongAgo": "Wie lange her?",
+                "howLongAgoHint": "Eine bestimmte Zeitspanne zurückspringen…",
+                "daysAgo": "Tage her",
+                "hoursAgo": "Stunden her",
+                "minutesAgo": "Minuten her",
+                "days": "Tage",
+                "hours": "Stunden",
+                "minutes": "Minuten",
+                "specificTime": "Bestimmtes Datum & Uhrzeit",
+                "specificTimeHint": "…oder einen bestimmten Moment wählen (beide Felder bleiben synchron)",
+                "exactTime": "Genaue Zeit",
+                "clip": "Einen Clip als Referenz nutzen",
+                "clipPlaceholder": "Clip-Link einfügen, wir finden den Moment im VOD des gewählten Channels",
+                "searching": "Suche…",
+                "jump": "Zum Moment springen",
+                "errors": {
+                    "noChannel": "Bitte gib einen Channel ein",
+                    "noTime": "Bitte gib eine Zeit oder einen Clip-Link ein",
+                    "invalidTime": "Ungültige Zeit",
+                    "noVod": "Kein VOD für diese Zeit gefunden. Es ist vielleicht abgelaufen oder gelöscht."
+                },
+                "timestamp": "Zeitstempel:",
+                "basedOnClip": "Basierend auf einem Clip von",
+                "approximate": "(das VOD des Clips ist weg, stattdessen zählt die Erstellungszeit des Clips, weniger genau)",
+                "openVod": "VOD beim Zeitstempel öffnen",
+                "player": "Twitch-VOD-Player"
+            },
+            "seventv": {
+                "metaTitle": "7TV-Editor-Rechte",
+                "title": "7TV-Editoren",
+                "description": "Liste aller 7TV-Accounts mit Editor-Rechten",
+                "editorOf": "Editor von <count>{count}</count> Channels:"
+            },
+            "bible": {
+                "metaTitle": "Bibel",
+                "title": "Susgeebot-Bibel",
+                "description": "Durchsuche und stöbere in den Einträgen der Susgeebot-Bibel.",
+                "searchLabel": "Bibel durchsuchen",
+                "searchPlaceholder": "Bibel durchsuchen...",
+                "confirmDelete": "Willst du diesen Bibel-Eintrag wirklich löschen?",
+                "genericError": "Ein Fehler ist aufgetreten",
+                "fetchError": "Beim Laden der Bibel-Einträge ist ein Fehler aufgetreten",
+                "deleteError": "Beim Löschen des Bibel-Eintrags ist ein Fehler aufgetreten",
+                "empty": "Keine Bibel-Einträge für deine Suche gefunden.",
+                "itemsLabel": "Einträge"
+            },
+            "publicCommands": {
+                "title": "Commands von {name}",
+                "joinedDescription": "Custom Commands, auf die Susgeebot im Channel von {name} antwortet.",
+                "notJoinedDescription": "Susgeebot ist nicht im Channel von {name}.",
+                "notJoined": "Es gibt keine Commands zu zeigen, weil der Bot diesem Channel noch nicht beigetreten ist.",
+                "addFromDashboard": "Wenn das dein Channel ist, melde dich an und füge Susgeebot über das <link>Dashboard</link> hinzu.",
+                "noPublic": "Dieser Channel hat keine öffentlichen Custom Commands.",
+                "cooldown": "Cooldown"
+            },
+            "paint": {
+                "metaTitle": "7TV-Paint „{name}“",
+                "metaNotFound": "Paint nicht gefunden",
+                "noPaintTitle": "Kein Paint angegeben",
+                "noPaintMessage": "Bitte gib eine Paint-ID, einen Paint-Namen oder einen Twitch-Usernamen in der URL an",
+                "notFoundTitle": "Paint nicht gefunden",
+                "notFoundMessage": "Das angefragte Paint existiert nicht",
+                "previewPlaceholder": "Text für die Vorschau eingeben...",
+                "paintName": "Paint-Name:"
             }
         },
         "common": {
             "cancel": "Abbrechen",
             "add": "Hinzufügen",
             "save": "Speichern",
-            "delete": "Löschen",
-            "edit": "Bearbeiten",
-            "remove": "Entfernen",
             "loading": "Lädt…",
             "saved": "Gespeichert",
             "saving": "Speichert…",
@@ -1803,7 +1978,10 @@
             "tryAgain": "Nochmal versuchen",
             "items": "Einträge",
             "or": "oder",
-            "close": "Schliessen"
+            "actions": "Aktionen",
+            "enabled": "Aktiv",
+            "public": "Öffentlich",
+            "id": "ID:"
         },
         "nav": {
             "commands": "Commands",
@@ -1879,6 +2057,389 @@
         },
         "time": {
             "days": "{count|plural(one|Tag,other|Tage)}"
+        },
+        "notificationTypes": {
+            "live": "Live & offline",
+            "title": "Titel- & Kategoriewechsel",
+            "bans": "Bans & Timeouts",
+            "emotes": "7TV-Emote-Änderungen",
+            "subgift": "Subgifts",
+            "affiliate": "Affiliate-Status",
+            "7tv": "7TV-Cosmetics & Global-Emotes",
+            "twitchglobals": "Twitch Global-Emotes & Badges",
+            "blog": "Twitch-Blog",
+            "changelog": "Twitch-Changelog"
+        },
+        "actions": {
+            "fetchBans": "Beim Laden der Bans ist ein Fehler aufgetreten.",
+            "fetchBible": "Beim Laden der Bibel ist ein Fehler aufgetreten.",
+            "deleteBible": "Beim Löschen des Bibel-Eintrags ist ein Fehler aufgetreten.",
+            "partChannel": "Der Bot konnte den Channel nicht verlassen.",
+            "joinChannel": "Der Bot konnte dem Channel nicht beitreten.",
+            "save": "Speichern fehlgeschlagen.",
+            "noSuchUser": "Es gibt keinen Twitch-User namens „{login}“.",
+            "lookupUser": "Der User konnte nicht nachgeschlagen werden.",
+            "invalidTimestamp": "Ungültiger Zeitstempel.",
+            "lookupVod": "Beim Suchen des VOD ist ein Fehler aufgetreten.",
+            "saveLocation": "Der Standort konnte nicht gespeichert werden.",
+            "updateAutoPresence": "Die Auto-Presence konnte nicht geändert werden.",
+            "removePing": "Der Ping konnte nicht entfernt werden.",
+            "deleteReminder": "Der Reminder konnte nicht gelöscht werden.",
+            "createCommand": "Der Command konnte nicht erstellt werden.",
+            "updateCommand": "Der Command konnte nicht geändert werden.",
+            "deleteCommand": "Der Command konnte nicht gelöscht werden.",
+            "invalidClip": "Ungültige Clip-URL.",
+            "clipNotFound": "Clip nicht gefunden.",
+            "subscribe": "Die Benachrichtigung konnte nicht eingeschaltet werden.",
+            "unsubscribe": "Die Benachrichtigung konnte nicht ausgeschaltet werden.",
+            "addPing": "Der Ping konnte nicht hinzugefügt werden."
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "metaCommands": "Commands von {name}",
+            "metaNotifications": "Benachrichtigungen von {name}",
+            "noAccessTitle": "Kein Zugriff",
+            "noAccessDescription": "Du kannst #{login} nicht verwalten.",
+            "noAccessHint": "Du musst der Channel-Inhaber oder ein Ambassador dieses Channels sein, und Susgeebot muss ihm beigetreten sein.",
+            "tabs": {
+                "channel": "Channel",
+                "commands": "Commands",
+                "notifications": "Benachrichtigungen"
+            },
+            "selector": {
+                "label": "Channel",
+                "you": "(Du)",
+                "adminAccess": "Admin-Zugriff",
+                "suspended": "gesperrt"
+            },
+            "join": {
+                "title": "Channel-Einstellungen",
+                "description": "Verbinde den Bot mit deinem Channel, um die Channel-Einstellungen zu bearbeiten.",
+                "button": "Channel beitreten",
+                "joining": "Tritt bei…",
+                "modRequired": "Susgeebot braucht Moderator-Rechte. Benutze <code>/mod Susgeebot</code> in <link>deinem Channel</link> und versuch es dann nochmal.",
+                "failed": "Der Bot konnte dem Channel nicht beitreten. Bitte versuch es nochmal."
+            },
+            "general": {
+                "title": "Allgemein",
+                "prefix": "Command-Prefix",
+                "prefixPlaceholder": "z. B. !",
+                "prefixError": "Maximal 15 Zeichen, darf nicht mit . oder / beginnen",
+                "language": "Channel-Sprache",
+                "mode": "Bot-Modus"
+            },
+            "features": {
+                "title": "Funktionen",
+                "logging": "Nachrichten in meinem Channel loggen",
+                "verboseLiveMsg": "Titel und Kategorie in Live-Nachrichten anzeigen",
+                "birthdayGreetings": "Geburtstagsnachrichten aktivieren",
+                "bottiesReminder": "Botties-Reminder aktivieren"
+            },
+            "ambassadors": {
+                "title": "Ambassadors",
+                "description": "Erlaube vertrauten Usern, deine Channel-Einstellungen zu verwalten.",
+                "readOnly": "Nur der Channel-Inhaber kann diese Liste ändern.",
+                "add": "Ambassador hinzufügen",
+                "empty": "Noch keine Ambassadors",
+                "remove": "{name} entfernen",
+                "username": "Twitch-Username",
+                "usernamePlaceholder": "z. B. xqc",
+                "notFound": "User nicht gefunden",
+                "alreadyAmbassador": "Der User ist bereits Ambassador"
+            },
+            "danger": {
+                "title": "Susgeebot aus diesem Channel entfernen",
+                "description": "Der Bot verlässt deinen Chat, und die Logs, die er für diesen Channel gespeichert hat, werden gelöscht.",
+                "button": "Channel verlassen",
+                "parting": "Verlässt Channel…",
+                "confirmTitle": "Channel verlassen",
+                "confirmMessage": "Willst du den Bot wirklich aus deinem Channel entfernen?\nBestehende Logs werden gelöscht.",
+                "failed": "Der Bot konnte den Channel nicht verlassen"
+            },
+            "commands": {
+                "title": "Custom Commands",
+                "publicPage": "Öffentliche Seite",
+                "add": "Command hinzufügen",
+                "empty": "Noch keine Custom Commands",
+                "command": "Command",
+                "enable": "{name} aktivieren",
+                "makePublic": "{name} öffentlich machen",
+                "edit": "{name} bearbeiten",
+                "delete": "{name} löschen",
+                "footnote": "Öffentliche Commands stehen auf deiner <link>öffentlichen Command-Seite</link>. Deaktivierte Commands bleiben gespeichert, antworten aber nicht.",
+                "editTitle": "{name} bearbeiten",
+                "name": "Command-Name",
+                "namePlaceholder": "z. B. !discord",
+                "response": "Antwort",
+                "responsePlaceholder": "Was der Bot antworten soll",
+                "cooldown": "Cooldown (Sekunden)",
+                "required": "Name und Antwort sind Pflicht",
+                "saveFailed": "Der Command konnte nicht gespeichert werden",
+                "docs": {
+                    "title": "Variablen",
+                    "description": "Platzhalter, die du in eine Antwort einbauen kannst",
+                    "channel": "Der Name des Channels, in dem der Command benutzt wurde",
+                    "channelId": "Die ID des Channels, in dem der Command benutzt wurde",
+                    "sender": "Der User, der den Command ausgelöst hat",
+                    "senderId": "Die ID des Absenders, falls verfügbar",
+                    "user": "Ziel-User (Argument 1, falls angegeben, sonst der Absender)",
+                    "argument": "Das Argument an dieser Position",
+                    "rest": "Das Argument und alle folgenden",
+                    "fallback": "Argument oder Ersatzwert, falls nicht angegeben (der Ersatz ist ein fester Text oder eines der Schlüsselwörter 'sender' oder 'channel')",
+                    "streamTitle": "Stream-Titel (ohne Titel: '(no title)')",
+                    "game": "Aktuelles Spiel oder Kategorie (ohne Kategorie: '(no game)')",
+                    "followers": "Anzahl der Follower",
+                    "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf {channel}, {channelId}, {sender}, {senderId} und {user} enthalten",
+                    "allowlist": "Freigegebene Hosts für die Custom API (alles andere wird blockiert). Melde dich, wenn du einen weiteren brauchst"
+                }
+            },
+            "notifications": {
+                "announcements": "Channel-Ankündigungen",
+                "streamers": "Streamer-Benachrichtigungen",
+                "streamersDescription": "Erfahre, wenn ein bestimmter Streamer live geht, den Titel ändert, jemanden bannt oder Emotes aktualisiert.",
+                "streamerPlaceholder": "Streamer",
+                "pingMe": "Mich pingen",
+                "empty": "Noch keine Streamer-Benachrichtigungen",
+                "userNotFound": "Dieser User wurde nicht gefunden",
+                "alreadySubscribed": "{type} für {login} ist bereits abonniert",
+                "removePing": "Ping für {name} entfernen",
+                "removeSubscription": "{type} für {name} entfernen"
+            },
+            "metaChannel": "Dashboard von {name}"
+        },
+        "settings": {
+            "metaTitle": "Einstellungen",
+            "title": "Einstellungen",
+            "general": {
+                "title": "Allgemein",
+                "mention": "Mich in Antworten erwähnen",
+                "mentionHint": "Susgeebot beantwortet deine Commands als Antwort, damit Twitch sie für dich hervorhebt.",
+                "pingable": "Mich pingen, wenn andere Commands auf mich anwenden",
+                "pingableHint": "Standardmässig aus. Susgeebot schreibt deinen Namen so, dass Twitch ihn nicht hervorhebt, wenn jemand einen Command auf dich anwendet.",
+                "autoPresence": "Meine 7TV-Presence automatisch auffrischen",
+                "autoPresenceHint": "Hält dein 7TV-Paint und -Badge in jedem Channel sichtbar, in dem du chattest."
+            },
+            "privacy": {
+                "title": "Privatsphäre",
+                "logging": "Meine Chat-Nachrichten speichern",
+                "loggingHint": "Nötig für Commands, die deine Nachrichten nachschlagen, etwa lastline. Schaltest du es aus, speichert Susgeebot sie nicht mehr.",
+                "location": "Wetterstandort",
+                "locationPlaceholder": "z. B. Berlin",
+                "locationHint": "Wird benutzt, wenn du Wetter-Commands ohne Stadt ausführst. Nur du siehst ihn hier, im Chat zeigt der Bot ihn nie an.",
+                "optOut": "Von Commands ausschliessen",
+                "optOutPlaceholder": "Commands wählen…",
+                "optOutHint": "Niemand kann diese Commands auf dich anwenden."
+            },
+            "pings": {
+                "title": "Benachrichtigungen",
+                "description": "Überall dort, wo Susgeebot dich mit Namen pingt, über alle Channels hinweg.",
+                "for": "für {name}",
+                "in": "in #{channel}",
+                "remove": "Mich für {type} in {channel} nicht mehr pingen",
+                "empty": "Du wirst noch nirgends gepingt. Nutze ?pingme in einem Channel oder das Häkchen „Mich pingen“ im Dashboard dieses Channels."
+            },
+            "reminders": {
+                "title": "Reminder",
+                "description": "Von dir gesetzte Reminder, die noch nicht ausgelöst wurden.",
+                "someone": "jemand",
+                "onNextMessage": "{name}, bei der nächsten Nachricht",
+                "at": "{name}, {date}",
+                "atInChannel": "{name} in #{channel}, {date}",
+                "delete": "Reminder {id} löschen",
+                "empty": "Keine offenen Reminder."
+            }
+        },
+        "guide": {
+            "metaTitle": "Benachrichtigungen",
+            "title": "Benachrichtigungen",
+            "description": "So wirst du benachrichtigt, wenn auf Twitch oder 7TV etwas passiert.",
+            "howItWorks": {
+                "title": "So funktioniert es",
+                "lead": "Wir können in deinen Chat schreiben, wenn ein Streamer live geht, wenn jemand seine 7TV-Emotes ändert oder wenn Twitch etwas Neues veröffentlicht.",
+                "body": "<data>?notify</data> und <data>?unnotify</data> richten eine Benachrichtigung für den ganzen Channel ein, <data>?pingme</data> nur für dich, und <data>?notifications</data> zeigt, was gerade eingestellt ist."
+            },
+            "list": {
+                "title": "?notifications",
+                "lead": "Zeigt, was dieser Channel abonniert hat und wer dafür gepingt wird.",
+                "body": "Jeder kann ihn benutzen. Wir antworten mit einem Paste-Link, weil ein voller Channel weit mehr Abos hat, als in eine Chat-Nachricht passen."
+            },
+            "notify": {
+                "title": "?notify und ?unnotify",
+                "lead": "Schaltet eine Benachrichtigung für den ganzen Channel ein oder aus. Nur für Mods.",
+                "body": "Typen ohne Ziel funktionieren genauso, du lässt nur das zweite Wort weg. <data>?notify 7tv</data> abonniert die globalen Änderungen von 7TV für deinen Channel."
+            },
+            "pingme": {
+                "title": "?pingme",
+                "lead": "Meldet dich persönlich an, damit wir dich mit Namen pingen. Jeder kann ihn benutzen.",
+                "body": "Führ ihn nochmal aus, um dich wieder abzumelden. Bei <data>live</data> braucht der Channel zuerst das Abo, das ein Mod mit <data>?notify live forsen</data> setzt. Dieses Channel-Abo legen wir über <data>?pingme</data> nie an, sonst könnte jeder Zuschauer durch die Hintertür eine Mod-Einstellung einschalten."
+            },
+            "types": {
+                "title": "Typen",
+                "lead": "Zehn Typen. Manche beobachten einen bestimmten Channel, der Rest ist global.",
+                "headers": {
+                    "type": "Typ",
+                    "fires": "Löst aus, wenn",
+                    "target": "Ziel",
+                    "pingme": "?pingme"
+                },
+                "targets": {
+                    "streamer": "Streamer",
+                    "channel": "Channel",
+                    "none": "—"
+                },
+                "personal": {
+                    "yes": "ja",
+                    "no": "nein",
+                    "only": "nur"
+                },
+                "rows": {
+                    "live": "Ein Streamer geht live und wieder offline.",
+                    "title": "Ein Streamer ändert seinen Titel oder seine Kategorie.",
+                    "bans": "Jemand wird in dem Channel, den du beobachtest, dauerhaft gebannt.",
+                    "emotes": "Ein Streamer fügt Emotes in seinem 7TV-Set hinzu, entfernt sie oder benennt sie um.",
+                    "subgift": "Du bekommst ein Subgift, irgendwo auf Twitch.",
+                    "affiliate": "Ein Channel wird Twitch-Affiliate.",
+                    "7tv": "7TV ändert seine globalen Emotes, Paints oder Badges.",
+                    "twitchglobals": "Twitch ändert seine globalen Emotes oder Badges.",
+                    "blog": "Twitch veröffentlicht einen neuen Blog-Artikel.",
+                    "changelog": "Der Twitch-Entwickler-Changelog wird aktualisiert."
+                },
+                "note": "<data>nur</data> in der ?pingme-Spalte heisst: Es gibt keine Channel-weite Variante dieses Typs, er existiert nur als persönliche Anmeldung."
+            },
+            "permissions": {
+                "title": "Wer darf was",
+                "lead": "Es kommt darauf an, ob du etwas für den Channel oder nur für dich änderst.",
+                "channel": "Etwas für den ganzen Channel zu ändern, braucht <strong>Moderator</strong>.",
+                "own": "Den eigenen Ping zu ändern, darf <strong>jeder</strong>.",
+                "read": "Lesen darf <strong>jeder</strong>."
+            },
+            "replaced": {
+                "title": "Ersetzte Commands",
+                "lead": "Diese Commands tun nichts mehr. Sie sagen dir nur, was du stattdessen benutzen sollst.",
+                "headers": {
+                    "old": "Alt",
+                    "now": "Stattdessen"
+                },
+                "note": "Alles, was du damit eingerichtet hast, ist umgezogen und noch da. Die einzige Ausnahme sind Subgift-Whisper, die haben wir gestrichen. Im <link>Changelog</link> steht, was sich wann geändert hat."
+            }
+        },
+        "privacy": {
+            "metaTitle": "Datenschutz",
+            "title": "Rechtliches & Datenschutz",
+            "updated": "Zuletzt aktualisiert: 1. Januar 2025"
+        },
+        "apiErrors": {
+            "auth": {
+                "missing": "Du bist nicht angemeldet.",
+                "invalidSession": "Deine Sitzung ist abgelaufen, bitte melde dich neu an.",
+                "adminOnly": "Das dürfen nur Admins.",
+                "selfOnly": "Du kannst nur deine eigenen Einstellungen ändern.",
+                "notEditor": "Du darfst diesen Channel nicht verwalten."
+            },
+            "route": {
+                "notFound": "Diesen Endpunkt gibt es nicht."
+            },
+            "channel": {
+                "notJoined": "Der Bot ist nicht in diesem Channel.",
+                "notFound": "Channel nicht gefunden.",
+                "idMissing": "Keine Channel-ID angegeben.",
+                "idInvalid": "Die Channel-ID muss eine Zahl sein.",
+                "processing": "Dieser Channel wird gerade verarbeitet, versuch es gleich nochmal.",
+                "joining": "Der Bot tritt diesem Channel gerade bei.",
+                "alreadyJoined": "Der Bot ist schon in diesem Channel.",
+                "modRequired": "Der Bot muss in diesem Channel Moderator sein, um beizutreten.",
+                "fetchFailed": "Die Channel-Daten konnten nicht geladen werden.",
+                "loginNotFound": "Der Channel-Name konnte nicht aufgelöst werden.",
+                "ambassadorsOwnerOnly": "Nur der Channel-Besitzer kann Ambassadors ändern.",
+                "updateFailed": "Die Channel-Einstellungen konnten nicht gespeichert werden."
+            },
+            "command": {
+                "exists": "Einen Command namens \"{name}\" gibt es schon.",
+                "notFound": "Es gibt keinen Command namens \"{name}\".",
+                "name": {
+                    "missing": "Gib einen Command-Namen ein.",
+                    "tooLong": "Der Command-Name darf höchstens 50 Zeichen lang sein.",
+                    "whitespace": "Der Command-Name darf keine Leerzeichen enthalten."
+                },
+                "response": {
+                    "missing": "Gib eine Antwort ein.",
+                    "empty": "Die Antwort darf nicht leer sein.",
+                    "tooLong": "Die Antwort darf höchstens 500 Zeichen lang sein.",
+                    "reserved": "Die Antwort darf nicht mit einem reservierten Zeichen beginnen."
+                },
+                "cooldown": {
+                    "invalid": "Der Cooldown muss eine ganze Zahl von Sekunden zwischen 0 und 86400 sein."
+                }
+            },
+            "field": {
+                "boolean": "{field} muss an oder aus sein."
+            },
+            "nothingToUpdate": "Nichts zu aktualisieren.",
+            "notification": {
+                "unknownType": "Unbekannter Benachrichtigungstyp \"{type}\".",
+                "noPings": "\"{type}\" hat keine Pings.",
+                "pingOnly": "\"{type}\" gibt es nur als Ping.",
+                "targetRequired": "\"{type}\" braucht einen Ziel-Channel.",
+                "noTarget": "\"{type}\" hat kein Ziel.",
+                "targetInvalid": "Das Ziel muss eine numerische User-ID sein.",
+                "userInvalid": "Der User muss eine numerische User-ID sein.",
+                "alreadySubscribed": "Dieser Channel hat das schon abonniert.",
+                "notSubscribed": "Dieser Channel hat das nicht abonniert.",
+                "notSubscribedTarget": "Dieser Channel hat {type} für dieses Ziel nicht abonniert.",
+                "targetNotFound": "Ziel-User nicht gefunden.",
+                "bansNeedLogging": "Ban-Benachrichtigungen gibt es nur für Channels, die der Bot loggt."
+            },
+            "ping": {
+                "affiliateChatOnly": "Affiliate-Pings können nur über den Chat-Command eingerichtet werden.",
+                "selfOnly": "Du kannst Pings nur für dich selbst hinzufügen.",
+                "alreadyPinged": "Dieser User wird schon gepingt.",
+                "notPinged": "Dieser User wird nicht gepingt.",
+                "notPingedSelf": "Du wirst dafür nicht gepingt.",
+                "channelInvalid": "Der Channel muss eine numerische User-ID sein."
+            },
+            "user": {
+                "notFound": "User nicht gefunden.",
+                "idMissing": "Keine User-ID angegeben.",
+                "updateFailed": "Die User-Einstellungen konnten nicht gespeichert werden."
+            },
+            "settings": {
+                "prefix": {
+                    "length": "Der Prefix muss 1 bis 15 Zeichen lang sein.",
+                    "whitespace": "Der Prefix darf keine Leerzeichen enthalten.",
+                    "reserved": "Der Prefix darf nicht mit einem reservierten Zeichen beginnen."
+                },
+                "language": {
+                    "invalid": "Die Sprache muss eine von diesen sein: {languages}."
+                },
+                "botMode": {
+                    "invalid": "Der Bot-Modus muss einer von diesen sein: {modes}."
+                },
+                "liveMsgEmote": {
+                    "invalid": "Das Live-Emote muss ein einzelnes Wort sein."
+                },
+                "optOut": {
+                    "list": "{field} muss eine Liste von Command-Namen sein.",
+                    "unknown": "Von \"{command}\" kannst du dich nicht ausschliessen."
+                }
+            },
+            "autoPresence": {
+                "no7tv": "Mit deinem Twitch-Konto ist kein 7TV-Konto verknüpft."
+            },
+            "location": {
+                "invalid": "Die Stadt muss ein Text sein.",
+                "tooLong": "Die Stadt darf höchstens 100 Zeichen lang sein.",
+                "updateFailed": "Der Standort konnte nicht gespeichert werden."
+            },
+            "reminder": {
+                "idInvalid": "Ungültige Reminder-ID.",
+                "notFound": "Reminder nicht gefunden.",
+                "notOwner": "Du kannst nur Reminder löschen, die du gesetzt hast."
+            },
+            "bible": {
+                "idMissing": "Keine Bibel-ID angegeben.",
+                "idInvalid": "Die Bibel-ID muss eine positive Zahl sein.",
+                "notFound": "Es gibt keinen Bibel-Eintrag mit der ID {id}."
+            }
         }
     },
     "tldr": {
