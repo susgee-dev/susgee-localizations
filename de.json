@@ -323,6 +323,7 @@
         },
         "dailyBonus": "🎉 Täglicher Login-Bonus! Du hast {bonus} Botties für deinen heutigen Login erhalten",
         "messages": {
+            "0": "⛔️ Ups! Dein Versuch war nicht erfolgreich und du hast {botties|number} Virenangriffe erlitten forsenLaughingAtYou . Bleibe wachsam und schärfe deine Abwehrfähigkeiten für zukünftige Angriffe!",
             "<-27": "🚨 Extrem gefährlich! Dein System befindet sich in einem äusserst kritischen Zustand. {botties|number} sofortige Sicherheitsverletzungen wurden festgestellt! Sofort handeln!",
             "<-5": "⚠️ Achtung! Dein System ist stark gefährdet. Du hast {botties|number} kritische Sicherheitsverletzungen! Sofortige Massnahmen sind erforderlich, um deine Systeme zu schützen!",
             "<=-1 >=-5": "📉 Ups! Du hast {botties|number} Systemabstürze erlitten forsenLaughingAtYou Arbeite an der Stabilität deiner Systeme, um zukünftige Ausfälle zu vermeiden!",
@@ -341,8 +342,7 @@
             ">=5 <=9": "🔒 Fantastisch! Du hast {botties|number} neue Sicherheitsprotokolle implementiert. Deine Systeme sind nun noch besser geschützt. Die Cyberwelt kann dir nichts anhaben!",
             ">=501 <=1000": "🌟 Episch! Du hast {botties|number} epische Virtual-Reality-Welten erschaffen! Deine Kreationen sind atemberaubend und entführen die User in eine neue Dimension. Virtuelle Realität, realer Ruhm!",
             ">=51 <=75": "🎉 Legendär! Du hast {botties|number} legendäre KI-Entwicklungen hervorgebracht! Deine Beiträge sind Meilensteine in der Geschichte der künstlichen Intelligenz. Applaus, Applaus!",
-            ">=76 <=100": "🌐 Virtuos! Du hast {botties|number} virtuose Daten-Orchester dirigiert! Dein Talent für Datenmanagement ist unübertroffen. Die Datenströme tanzen zu deinem Takt!",
-            "0": "⛔️ Ups! Dein Versuch war nicht erfolgreich und du hast {botties|number} Virenangriffe erlitten forsenLaughingAtYou . Bleibe wachsam und schärfe deine Abwehrfähigkeiten für zukünftige Angriffe!"
+            ">=76 <=100": "🌐 Virtuos! Du hast {botties|number} virtuose Daten-Orchester dirigiert! Dein Talent für Datenmanagement ist unübertroffen. Die Datenströme tanzen zu deinem Takt!"
         },
         "reminders": {
             "msg1": "⏳ Dein Fortschritt zahlt sich aus! Du kannst jetzt noch mehr Botties verdienen. Nutze dein technisches Geschick und sammle weitere digitale Schätze. Die Computerwelt erwartet dich! {user}",
@@ -844,13 +844,13 @@
         "disabled": "susgeeOK Ich pinge dich nicht mehr, wenn ich ein Subgift für dich erkenne",
         "enabled": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift für dich erkenne"
     },
-    "channelEvents": {
-        "bits": "{user} hat gerade das {bits|number}-Bits-Badge freigeschaltet sheCrazy",
+    "alerts": {
         "anonymous": "Ein anonymer User",
-        "gift": "{user} hat einen {tier} Sub an {recipient} verschenkt!! sheCrazy insgesamt {total|plural(one|Sub, other|Subs)} verschenkt!",
-        "gifts": "{user} verschenkt {total|plural(one|Sub, other|Subs)}!! sheCrazy insgesamt {alltime|plural(one|Sub, other|Subs)} verschenkt!",
-        "newSub": "{user} hat einen {tier} Sub für {duration|plural(one|Monat, other|Monate)} abgeschlossen sheCrazy",
-        "reSub": "{user} hat den {tier} Sub erneuert - insgesamt schon {cumulative|plural(one|Monat, other|Monate)} dabei sheCrazy"
+        "sub": "{user} hat einen {tier} Sub für {months} Monat(e) abgeschlossen sheCrazy",
+        "resub": "{user} hat den {tier} Sub erneuert - insgesamt schon {months} Monat(e) dabei sheCrazy",
+        "subGift": "{user} hat einen {tier} Sub an {recipient} verschenkt!! sheCrazy insgesamt {total} Sub(s) verschenkt!",
+        "communitySubGift": "{user} verschenkt {count} Sub(s)!! sheCrazy insgesamt {total} Sub(s) verschenkt!",
+        "bitsBadgeTier": "{user} hat gerade das {tier}-Bits-Badge freigeschaltet sheCrazy"
     },
     "subinfo": {
         "noEntries": "Im Channel {channel|antiPing} wurden {delta|include} keine Subs verteilt",
@@ -2094,7 +2094,9 @@
             "clipNotFound": "Clip nicht gefunden.",
             "subscribe": "Die Benachrichtigung konnte nicht eingeschaltet werden.",
             "unsubscribe": "Die Benachrichtigung konnte nicht ausgeschaltet werden.",
-            "addPing": "Der Ping konnte nicht hinzugefügt werden."
+            "addPing": "Der Ping konnte nicht hinzugefügt werden.",
+            "saveAlert": "Der Alert konnte nicht gespeichert werden.",
+            "removeAlert": "Der Alert konnte nicht deaktiviert werden."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -2138,6 +2140,38 @@
                 "bottiesReminder": "Botties-Reminder aktivieren",
                 "hideFromLookups": "Meinen Channel in Abfragen verstecken",
                 "hideFromLookupsHint": "Der Channel taucht nicht mehr in ?ac-Listen oder in der Ban-Suche auf. Commands im Channel selbst funktionieren weiter."
+            },
+            "alerts": {
+                "title": "Alerts",
+                "description": "Susgeebot meldet Subs, Geschenke und Bits-Badges in deinem Chat. Leere Nachricht heisst Standardtext.",
+                "types": {
+                    "sub": "Neue Subs",
+                    "resub": "Resubs",
+                    "sub_gift": "Verschenkter Sub",
+                    "community_sub_gift": "Verschenkte Subs",
+                    "bits_badge_tier": "Bits-Badges"
+                },
+                "hints": {
+                    "sub": "Jemand subscribt zum ersten Mal",
+                    "resub": "Jemand erneuert den Sub",
+                    "sub_gift": "Jemand verschenkt einen Sub an einen User",
+                    "community_sub_gift": "Jemand verschenkt mehrere Subs auf einmal",
+                    "bits_badge_tier": "Jemand schaltet ein neues Bits-Badge frei"
+                },
+                "message": "Nachricht für {type}",
+                "variables": "Variablen",
+                "docs": {
+                    "title": "Variablen",
+                    "description": "Platzhalter, die du in eine Nachricht einbauen kannst. Jeder Typ zeigt die, die er unterstützt.",
+                    "user": "Der User, der das Ereignis ausgelöst hat, mit @. Anonyme Schenker werden zu \"Ein anonymer User\"",
+                    "channel": "Der Name deines Channels",
+                    "tier": "Die Sub-Stufe (tier 1, tier 2, tier 3 oder Prime). Bei Bits-Badges die Bits-Menge des Badges",
+                    "months": "Die Anzahl Monate: bei neuen Subs und Geschenken die Sub-Dauer, bei Resubs die Gesamtmonate",
+                    "streak": "Die Monate am Stück bei einem Resub, 0 wenn der User sie nicht teilt",
+                    "recipient": "Der User, der den verschenkten Sub bekommen hat, mit @",
+                    "count": "Wie viele Subs in diesem Schwung verschenkt werden",
+                    "total": "Wie viele Subs der Schenker in diesem Channel insgesamt verschenkt hat"
+                }
             },
             "ambassadors": {
                 "title": "Ambassadors",
@@ -2392,6 +2426,15 @@
                 "notSubscribedTarget": "Dieser Channel hat {type} für dieses Ziel nicht abonniert.",
                 "targetNotFound": "Ziel-User nicht gefunden.",
                 "bansNeedLogging": "Ban-Benachrichtigungen gibt es nur für Channels, die der Bot loggt."
+            },
+            "alert": {
+                "unknownType": "Unbekannter Alert-Typ \"{type}\".",
+                "notEnabled": "Dieser Alert ist nicht aktiv.",
+                "message": {
+                    "tooLong": "Die Nachricht darf höchstens {limit} Zeichen lang sein.",
+                    "unknownVariable": "Unbekannte Variable {variable}. Verfügbar: {variables}"
+                },
+                "affiliateOnly": "Alerts gibt es nur für Affiliate- und Partner-Channels."
             },
             "ping": {
                 "affiliateChatOnly": "Affiliate-Pings können nur über den Chat-Command eingerichtet werden.",

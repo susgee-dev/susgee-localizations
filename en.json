@@ -323,6 +323,7 @@
         },
         "dailyBonus": "🎉 Daily Login Bonus! You received {bonus} Botties for logging in today",
         "messages": {
+            "0": "⛔️ Oops! Your attempt was unsuccessful, and you suffered {botties|number} virus attacks forsenLaughingAtYou Stay alert and sharpen your defense skills for future attacks!",
             "<-27": "🚨 Extremely dangerous! Your system is in a critical state. {botties|number} immediate security breaches have been detected! Act now!",
             "<-5": "⚠️ Warning! Your system is highly vulnerable. You have {botties|number} critical security breaches! Immediate action is required to protect your systems!",
             "<=-1 >=-5": "📉 Oops! You have suffered {botties|number} system crashes forsenLaughingAtYou . Work on your system’s stability to avoid future failures!",
@@ -341,8 +342,7 @@
             ">=5 <=9": "🔒 Fantastic! You have implemented {botties|number} new security protocols. Your systems are now better protected. The cyber world can’t harm you!",
             ">=501 <=1000": "🌟 Epic! You have created {botties|number} epic virtual reality worlds! Your creations are breathtaking and transport users to a new dimension. Virtual reality, real fame!",
             ">=51 <=75": "🎉 Legendary! You have brought {botties|number} legendary AI developments to life! Your contributions are milestones in AI history. Applause, applause!",
-            ">=76 <=100": "🌐 Virtuoso! You have conducted {botties|number} virtuoso data orchestrations! Your talent in data management is unparalleled. The data streams dance to your rhythm!",
-            "0": "⛔️ Oops! Your attempt was unsuccessful, and you suffered {botties|number} virus attacks forsenLaughingAtYou Stay alert and sharpen your defense skills for future attacks!"
+            ">=76 <=100": "🌐 Virtuoso! You have conducted {botties|number} virtuoso data orchestrations! Your talent in data management is unparalleled. The data streams dance to your rhythm!"
         },
         "reminders": {
             "msg1": "⏳ Your progress pays off! You can now earn even more Botties. Use your technical skills and collect more digital treasures. The computer world awaits you! {user}",
@@ -844,13 +844,13 @@
         "disabled": "susgeeOK I will no longer notify you when I detect a subgift",
         "enabled": "susgeeOK I will notify you when I detect a subgift for you"
     },
-    "channelEvents": {
-        "bits": "{user} just unlocked the {bits|number} Bits badge sheCrazy",
+    "alerts": {
         "anonymous": "An anonymous user",
-        "gift": "{user} gifted a {tier} sub to {recipient}!! sheCrazy {total|plural(one|sub, other|subs)} gifted in total!",
-        "gifts": "{user} is gifting {total|plural(one|sub, other|subs)}!! sheCrazy {alltime|plural(one|sub, other|subs)} gifted in total!",
-        "newSub": "{user} subscribed with a {tier} sub for {duration|plural(one|month, other|months)} sheCrazy",
-        "reSub": "{user} renewed the {tier} sub - subscribed for {cumulative|plural(one|month, other|months)} sheCrazy"
+        "sub": "{user} subscribed with a {tier} sub for {months} month(s) sheCrazy",
+        "resub": "{user} renewed the {tier} sub - subscribed for {months} month(s) sheCrazy",
+        "subGift": "{user} gifted a {tier} sub to {recipient}!! sheCrazy {total} sub(s) gifted in total!",
+        "communitySubGift": "{user} is gifting {count} sub(s)!! sheCrazy {total} sub(s) gifted in total!",
+        "bitsBadgeTier": "{user} just unlocked the {tier} Bits badge sheCrazy"
     },
     "subinfo": {
         "noEntries": "No subs were distributed in the {channel|antiPing} channel {delta|include}",
@@ -2094,7 +2094,9 @@
             "clipNotFound": "Clip not found.",
             "subscribe": "Failed to enable the notification.",
             "unsubscribe": "Failed to disable the notification.",
-            "addPing": "Failed to add the ping."
+            "addPing": "Failed to add the ping.",
+            "saveAlert": "Failed to save the alert.",
+            "removeAlert": "Failed to disable the alert."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -2138,6 +2140,38 @@
                 "bottiesReminder": "Enable Botties reminder",
                 "hideFromLookups": "Hide my channel from lookups",
                 "hideFromLookupsHint": "The channel no longer shows up in ?ac lists or in the ban search. Commands used inside the channel itself keep working."
+            },
+            "alerts": {
+                "title": "Alerts",
+                "description": "Susgeebot announces subs, gifts and Bits badges in your chat. Leave a message empty to use the default text.",
+                "types": {
+                    "sub": "New subs",
+                    "resub": "Resubs",
+                    "sub_gift": "Gifted sub",
+                    "community_sub_gift": "Gifted subs",
+                    "bits_badge_tier": "Bits badges"
+                },
+                "hints": {
+                    "sub": "Someone subscribes for the first time",
+                    "resub": "Someone renews their sub",
+                    "sub_gift": "Someone gifts a sub to one user",
+                    "community_sub_gift": "Someone gifts several subs at once",
+                    "bits_badge_tier": "Someone unlocks a new Bits badge"
+                },
+                "message": "Message for {type}",
+                "variables": "Variables",
+                "docs": {
+                    "title": "Variables",
+                    "description": "Placeholders you can put in a message. Each type lists the ones it supports.",
+                    "user": "The user who triggered the event, with @. Anonymous gifters become \"An anonymous user\"",
+                    "channel": "Your channel name",
+                    "tier": "The sub tier (tier 1, tier 2, tier 3 or Prime). For Bits badges the Bits amount of the badge",
+                    "months": "The number of months: the sub length for new subs and gifts, the total months for resubs",
+                    "streak": "The consecutive months of a resub streak, 0 if the user does not share it",
+                    "recipient": "The user who received the gifted sub, with @",
+                    "count": "How many subs are gifted in this batch",
+                    "total": "How many subs the gifter has given in this channel in total"
+                }
             },
             "ambassadors": {
                 "title": "Ambassadors",
@@ -2392,6 +2426,15 @@
                 "notSubscribedTarget": "This channel is not subscribed to {type} for that target.",
                 "targetNotFound": "Target user not found.",
                 "bansNeedLogging": "Ban notifications are only available for channels the bot logs."
+            },
+            "alert": {
+                "unknownType": "Unknown alert type \"{type}\".",
+                "notEnabled": "This alert is not enabled.",
+                "message": {
+                    "tooLong": "The message may be at most {limit} characters.",
+                    "unknownVariable": "Unknown variable {variable}. Available: {variables}"
+                },
+                "affiliateOnly": "Alerts are only available for affiliate and partner channels."
             },
             "ping": {
                 "affiliateChatOnly": "Affiliate pings can only be set up with the chat command.",
