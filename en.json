@@ -850,7 +850,8 @@
         "resub": "{user} renewed the {tier} sub - subscribed for {months} month(s) sheCrazy",
         "subGift": "{user} gifted a {tier} sub to {recipient}!! sheCrazy {total} sub(s) gifted in total!",
         "communitySubGift": "{user} is gifting {count} sub(s)!! sheCrazy {total} sub(s) gifted in total!",
-        "bitsBadgeTier": "{user} just unlocked the {tier} Bits badge sheCrazy"
+        "bitsBadgeTier": "{user} just unlocked the {tier} Bits badge sheCrazy",
+        "raid": "{user} is raiding with {viewers} viewer(s) sheCrazy"
     },
     "subinfo": {
         "noEntries": "No subs were distributed in the {channel|antiPing} channel {delta|include}",
@@ -2143,20 +2144,22 @@
             },
             "alerts": {
                 "title": "Alerts",
-                "description": "Susgeebot announces subs, gifts and Bits badges in your chat. Leave a message empty to use the default text.",
+                "description": "Susgeebot announces subs, gifts, Bits badges and raids in your chat. Leave a message empty to use the default text.",
                 "types": {
                     "sub": "New subs",
                     "resub": "Resubs",
                     "sub_gift": "Gifted sub",
                     "community_sub_gift": "Gifted subs",
-                    "bits_badge_tier": "Bits badges"
+                    "bits_badge_tier": "Bits badges",
+                    "raid": "Raids"
                 },
                 "hints": {
                     "sub": "Someone subscribes for the first time",
                     "resub": "Someone renews their sub",
                     "sub_gift": "Someone gifts a sub to one user",
                     "community_sub_gift": "Someone gifts several subs at once",
-                    "bits_badge_tier": "Someone unlocks a new Bits badge"
+                    "bits_badge_tier": "Someone unlocks a new Bits badge",
+                    "raid": "Another channel raids yours"
                 },
                 "message": "Message for {type}",
                 "variables": "Variables",
@@ -2170,7 +2173,8 @@
                     "streak": "The consecutive months of a resub streak, 0 if the user does not share it",
                     "recipient": "The user who received the gifted sub, with @",
                     "count": "How many subs are gifted in this batch",
-                    "total": "How many subs the gifter has given in this channel in total"
+                    "total": "How many subs the gifter has given in this channel in total",
+                    "viewers": "How many viewers the raid brings along"
                 }
             },
             "ambassadors": {
