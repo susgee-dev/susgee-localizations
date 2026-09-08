@@ -455,6 +455,15 @@
             "notExists": "susgeeDank command {name} doesn't exist",
             "taken": "susgeeDank {alias} is already taken by a command or alias",
             "tooMany": "susgeeDank a command may have at most {limit|number} aliases"
+        },
+        "link": {
+            "done": "susgeeOK {name} now runs {command} from {channel|antiPing} susgeePoint changes there apply here too",
+            "notExists": "susgeeDank {channel|antiPing} has no command called {name}",
+            "notPublic": "susgeeDank {name} is not public in {channel|antiPing}",
+            "sameChannel": "susgeeDank you cannot link a command from your own channel",
+            "taken": "susgeeDank {name} is already taken by a command or alias",
+            "brokenSource": "susgeeDank that command points at a deleted command",
+            "isLink": "susgeeDank {name} runs another channel's command, edit it over there"
         }
     },
     "deleteSuggest": {
@@ -1168,15 +1177,16 @@
             "description": "enables/disables a command in the current channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | rename | alias | list | copy] <name> <command>",
+            "usage": "[add | remove | edit | rename | alias | list | copy | link] <name> <command>",
             "usages": {
                 "add": "<name> <command>",
                 "delete": "<name>",
                 "copy": "<channel> <command1> [command2 ...]",
                 "rename": "<name> <new name>",
-                "alias": "<name> <alias1, alias2, ...>"
+                "alias": "<name> <alias1, alias2, ...>",
+                "link": "<channel> <command> [own name]"
             },
-            "description": "manages custom commands (add, remove, edit, rename, aliases, list, copy)"
+            "description": "manages custom commands (add, remove, edit, rename, aliases, list, copy, link)"
         },
         "deleteSuggest": {
             "usage": "<id>",
@@ -2243,6 +2253,11 @@
                 },
                 "reply": "Send as a reply",
                 "action": "Send as /me",
+                "onlyLive": "Only while the stream is live",
+                "count": "Counter",
+                "linked": "Runs {name} from {channel}",
+                "linkedBroken": "The command this points at was deleted",
+                "linkedHint": "The response belongs to the source channel and can only be edited there.",
                 "docs": {
                     "title": "Variables",
                     "description": "Placeholders you can put in a response",
@@ -2261,7 +2276,8 @@
                     "randomPick": "Random entry from a comma separated list",
                     "time": "Current time in an IANA timezone (defaults to UTC)",
                     "date": "Current date in an IANA timezone (defaults to UTC)",
-                    "customApi": "Fetch data from an external URL (allowlisted hosts only). The URL can include $(channel), $(channelId), $(sender), $(senderId) and $(user)",
+                    "count": "Counts up by one on every use",
+                    "customApi": "Fetch data from an external URL (allowlisted hosts only). The URL can include any variable, arguments like $(1) included - every value is URL encoded",
                     "allowlist": "Custom API allowlist (requests outside it are blocked). Contact us if you need an addition"
                 }
             },

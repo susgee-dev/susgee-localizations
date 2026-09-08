@@ -455,6 +455,15 @@
             "notExists": "susgeeDank Command {name} existiert nicht",
             "taken": "susgeeDank {alias} ist bereits als Command oder Alias vergeben",
             "tooMany": "susgeeDank Ein Command darf höchstens {limit|number} Aliase haben"
+        },
+        "link": {
+            "done": "susgeeOK {name} führt jetzt {command} von {channel|antiPing} aus susgeePoint Änderungen dort gelten auch hier",
+            "notExists": "susgeeDank {channel|antiPing} hat keinen Command namens {name}",
+            "notPublic": "susgeeDank {name} ist in {channel|antiPing} nicht öffentlich",
+            "sameChannel": "susgeeDank Du kannst keinen Command aus deinem eigenen Channel verknüpfen",
+            "taken": "susgeeDank {name} ist bereits als Command oder Alias vergeben",
+            "brokenSource": "susgeeDank Dieser Command zeigt auf einen gelöschten Command",
+            "isLink": "susgeeDank {name} führt den Command eines anderen Channels aus, bearbeite ihn dort"
         }
     },
     "deleteSuggest": {
@@ -1168,15 +1177,16 @@
             "description": "Deaktivieren/Aktivieren eines Befehls im aktuellen Channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | rename | alias | list | copy] <Name> <Command>",
+            "usage": "[add | remove | edit | rename | alias | list | copy | link] <Name> <Command>",
             "usages": {
                 "add": "<Name> <Command>",
                 "delete": "<Name>",
                 "copy": "<Channel> <Command1> [Command2 ...]",
                 "rename": "<Name> <neuer Name>",
-                "alias": "<Name> <Alias1, Alias2, ...>"
+                "alias": "<Name> <Alias1, Alias2, ...>",
+                "link": "<Channel> <Command> [eigener Name]"
             },
-            "description": "Benutzerdefinierte Commands verwalten (hinzufügen, entfernen, aktualisieren, umbenennen, Aliase, auflisten, kopieren)"
+            "description": "Benutzerdefinierte Commands verwalten (hinzufügen, entfernen, aktualisieren, umbenennen, Aliase, auflisten, kopieren, verknüpfen)"
         },
         "deleteSuggest": {
             "usage": "<ID>",
@@ -2243,6 +2253,11 @@
         },
         "reply": "Als Antwort senden",
         "action": "Als /me senden",
+        "onlyLive": "Nur wenn der Stream live ist",
+        "count": "Zähler",
+        "linked": "Führt {name} von {channel} aus",
+        "linkedBroken": "Der verknüpfte Command wurde gelöscht",
+        "linkedHint": "Die Antwort gehört dem Quell-Channel und kann nur dort bearbeitet werden.",
                 "docs": {
                     "title": "Variablen",
                     "description": "Platzhalter, die du in eine Antwort einbauen kannst",
@@ -2261,7 +2276,8 @@
             "randomPick": "Zufälliger Eintrag aus einer durch Komma getrennten Liste",
             "time": "Aktuelle Uhrzeit in einer IANA-Zeitzone (ohne Angabe UTC)",
             "date": "Aktuelles Datum in einer IANA-Zeitzone (ohne Angabe UTC)",
-            "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf $(channel), $(channelId), $(sender), $(senderId) und $(user) enthalten",
+            "count": "Zählt bei jeder Benutzung um eins hoch",
+            "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf jede Variable enthalten, auch Argumente wie $(1) - jeder Wert wird URL-kodiert",
                     "allowlist": "Freigegebene Hosts für die Custom API (alles andere wird blockiert). Melde dich, wenn du einen weiteren brauchst"
                 }
             },
