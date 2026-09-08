@@ -2233,7 +2233,7 @@
                 "required": "Name and response are required",
                 "saveFailed": "Could not save that command",
                 "aliases": "Aliases",
-                "aliasesPlaceholder": "comma separated, e.g. !dc, !disc",
+                "aliasesPlaceholder": "type an alias, press Enter to add",
                 "permission": "Who may use it",
                 "permissions": {
                     "0": "Everyone",

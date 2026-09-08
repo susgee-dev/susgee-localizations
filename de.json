@@ -2233,7 +2233,7 @@
                 "required": "Name und Antwort sind Pflicht",
                 "saveFailed": "Der Command konnte nicht gespeichert werden",
         "aliases": "Aliase",
-        "aliasesPlaceholder": "durch Komma getrennt, z. B. !dc, !disc",
+        "aliasesPlaceholder": "Alias tippen, Enter zum Hinzufügen",
         "permission": "Wer darf ihn benutzen",
         "permissions": {
             "0": "Jeder",
