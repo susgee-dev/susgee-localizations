@@ -442,7 +442,20 @@
         "copySuccess": "susgeeOK copied {copied|number} commands from {channel|antiPing} ({skipped|number} skipped)",
         "copyNone": "susgeeDank no copyable commands found from {channel|antiPing}",
         "copyFromSelf": "susgeeDank you cannot copy from your own channel",
-        "copyNoCommands": "susgeeDank {channel|antiPing} has no custom commands"
+        "copyNoCommands": "susgeeDank {channel|antiPing} has no custom commands",
+        "rename": {
+            "done": "susgeeOK command {name} is now called {newName}",
+            "notExists": "susgeeDank command {name} doesn't exist",
+            "sameName": "susgeeDank {name} is already called that",
+            "taken": "susgeeDank {newName} is already taken by a command or alias"
+        },
+        "alias": {
+            "set": "susgeeOK aliases for {name}: {aliases}",
+            "cleared": "susgeeOK removed all aliases from {name}",
+            "notExists": "susgeeDank command {name} doesn't exist",
+            "taken": "susgeeDank {alias} is already taken by a command or alias",
+            "tooMany": "susgeeDank a command may have at most {limit|number} aliases"
+        }
     },
     "deleteSuggest": {
         "botInfo": "the suggestion with id {id} (text: {text}) has been deleted by {user|antiPing}",
@@ -1155,13 +1168,15 @@
             "description": "enables/disables a command in the current channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | list | copy] <name> <command>",
+            "usage": "[add | remove | edit | rename | alias | list | copy] <name> <command>",
             "usages": {
                 "add": "<name> <command>",
                 "delete": "<name>",
-                "copy": "<channel> <command1> [command2 ...]"
+                "copy": "<channel> <command1> [command2 ...]",
+                "rename": "<name> <new name>",
+                "alias": "<name> <alias1, alias2, ...>"
             },
-            "description": "manages custom commands (add, remove, edit, list, copy)"
+            "description": "manages custom commands (add, remove, edit, rename, aliases, list, copy)"
         },
         "deleteSuggest": {
             "usage": "<id>",
@@ -2217,6 +2232,17 @@
                 "cooldown": "Cooldown (seconds)",
                 "required": "Name and response are required",
                 "saveFailed": "Could not save that command",
+                "aliases": "Aliases",
+                "aliasesPlaceholder": "comma separated, e.g. !dc, !disc",
+                "permission": "Who may use it",
+                "permissions": {
+                    "0": "Everyone",
+                    "1": "VIP",
+                    "2": "Moderator",
+                    "4": "Broadcaster"
+                },
+                "reply": "Send as a reply",
+                "action": "Send as /me",
                 "docs": {
                     "title": "Variables",
                     "description": "Placeholders you can put in a response",
@@ -2231,6 +2257,10 @@
                     "streamTitle": "Channel title (falls back to '(no title)' if unset)",
                     "game": "Current game or category (falls back to '(no game)' if unset)",
                     "followers": "Follower count",
+                    "randomNumber": "Random whole number. Defaults to 1 to 100",
+                    "randomPick": "Random entry from a comma separated list",
+                    "time": "Current time in an IANA timezone (defaults to UTC)",
+                    "date": "Current date in an IANA timezone (defaults to UTC)",
                     "customApi": "Fetch data from an external URL (allowlisted hosts only). The URL can include {channel}, {channelId}, {sender}, {senderId} and {user}",
                     "allowlist": "Custom API allowlist (requests outside it are blocked). Contact us if you need an addition"
                 }

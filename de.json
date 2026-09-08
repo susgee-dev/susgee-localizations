@@ -442,7 +442,20 @@
         "copySuccess": "susgeeOK {copied|number} Commands von {channel|antiPing} kopiert ({skipped|number} übersprungen)",
         "copyNone": "susgeeDank Keine kopierbaren Commands von {channel|antiPing} gefunden",
         "copyFromSelf": "susgeeDank Du kannst nicht von deinem eigenen Channel kopieren",
-        "copyNoCommands": "susgeeDank {channel|antiPing} hat keine Custom Commands"
+        "copyNoCommands": "susgeeDank {channel|antiPing} hat keine Custom Commands",
+        "rename": {
+            "done": "susgeeOK Command {name} heisst jetzt {newName}",
+            "notExists": "susgeeDank Command {name} existiert nicht",
+            "sameName": "susgeeDank {name} heisst schon so",
+            "taken": "susgeeDank {newName} ist bereits als Command oder Alias vergeben"
+        },
+        "alias": {
+            "set": "susgeeOK Aliase für {name}: {aliases}",
+            "cleared": "susgeeOK Alle Aliase von {name} entfernt",
+            "notExists": "susgeeDank Command {name} existiert nicht",
+            "taken": "susgeeDank {alias} ist bereits als Command oder Alias vergeben",
+            "tooMany": "susgeeDank Ein Command darf höchstens {limit|number} Aliase haben"
+        }
     },
     "deleteSuggest": {
         "botInfo": "Die Suggestion mit der ID {id} (Text: {text}) wurde von {user|antiPing} gelöscht",
@@ -1155,13 +1168,15 @@
             "description": "Deaktivieren/Aktivieren eines Befehls im aktuellen Channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | list | copy] <Name> <Command>",
+            "usage": "[add | remove | edit | rename | alias | list | copy] <Name> <Command>",
             "usages": {
                 "add": "<Name> <Command>",
                 "delete": "<Name>",
-                "copy": "<Channel> <Command1> [Command2 ...]"
+                "copy": "<Channel> <Command1> [Command2 ...]",
+                "rename": "<Name> <neuer Name>",
+                "alias": "<Name> <Alias1, Alias2, ...>"
             },
-            "description": "Benutzerdefinierte Commands verwalten (hinzufügen, entfernen, aktualisieren, auflisten, kopieren)"
+            "description": "Benutzerdefinierte Commands verwalten (hinzufügen, entfernen, aktualisieren, umbenennen, Aliase, auflisten, kopieren)"
         },
         "deleteSuggest": {
             "usage": "<ID>",
@@ -2217,6 +2232,17 @@
                 "cooldown": "Cooldown (Sekunden)",
                 "required": "Name und Antwort sind Pflicht",
                 "saveFailed": "Der Command konnte nicht gespeichert werden",
+        "aliases": "Aliase",
+        "aliasesPlaceholder": "durch Komma getrennt, z. B. !dc, !disc",
+        "permission": "Wer darf ihn benutzen",
+        "permissions": {
+            "0": "Jeder",
+            "1": "VIP",
+            "2": "Moderator",
+            "4": "Broadcaster"
+        },
+        "reply": "Als Antwort senden",
+        "action": "Als /me senden",
                 "docs": {
                     "title": "Variablen",
                     "description": "Platzhalter, die du in eine Antwort einbauen kannst",
@@ -2231,7 +2257,11 @@
                     "streamTitle": "Stream-Titel (ohne Titel: '(no title)')",
                     "game": "Aktuelles Spiel oder Kategorie (ohne Kategorie: '(no game)')",
                     "followers": "Anzahl der Follower",
-                    "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf {channel}, {channelId}, {sender}, {senderId} und {user} enthalten",
+                    "randomNumber": "Zufällige ganze Zahl. Ohne Angabe zwischen 1 und 100",
+            "randomPick": "Zufälliger Eintrag aus einer durch Komma getrennten Liste",
+            "time": "Aktuelle Uhrzeit in einer IANA-Zeitzone (ohne Angabe UTC)",
+            "date": "Aktuelles Datum in einer IANA-Zeitzone (ohne Angabe UTC)",
+            "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf {channel}, {channelId}, {sender}, {senderId} und {user} enthalten",
                     "allowlist": "Freigegebene Hosts für die Custom API (alles andere wird blockiert). Melde dich, wenn du einen weiteren brauchst"
                 }
             },
