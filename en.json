@@ -859,12 +859,12 @@
     },
     "alerts": {
         "anonymous": "An anonymous user",
-        "sub": "{user} subscribed with a {tier} sub for {months} month(s) sheCrazy",
-        "resub": "{user} renewed the {tier} sub - subscribed for {months} month(s) sheCrazy",
-        "subGift": "{user} gifted a {tier} sub to {recipient}!! sheCrazy {total} sub(s) gifted in total!",
-        "communitySubGift": "{user} is gifting {count} sub(s)!! sheCrazy {total} sub(s) gifted in total!",
-        "bitsBadgeTier": "{user} just unlocked the {tier} Bits badge sheCrazy",
-        "raid": "{user} is raiding with {viewers} viewer(s) sheCrazy"
+        "sub": "$(user) subscribed with a $(tier) sub for $(months) month(s) sheCrazy",
+        "resub": "$(user) renewed the $(tier) sub - subscribed for $(months) month(s) sheCrazy",
+        "subGift": "$(user) gifted a $(tier) sub to $(recipient)!! sheCrazy $(total) sub(s) gifted in total!",
+        "communitySubGift": "$(user) is gifting $(count) sub(s)!! sheCrazy $(total) sub(s) gifted in total!",
+        "bitsBadgeTier": "$(user) just unlocked the $(tier) Bits badge sheCrazy",
+        "raid": "$(user) is raiding with $(viewers) viewer(s) sheCrazy"
     },
     "subinfo": {
         "noEntries": "No subs were distributed in the {channel|antiPing} channel {delta|include}",
@@ -2261,7 +2261,7 @@
                     "randomPick": "Random entry from a comma separated list",
                     "time": "Current time in an IANA timezone (defaults to UTC)",
                     "date": "Current date in an IANA timezone (defaults to UTC)",
-                    "customApi": "Fetch data from an external URL (allowlisted hosts only). The URL can include {channel}, {channelId}, {sender}, {senderId} and {user}",
+                    "customApi": "Fetch data from an external URL (allowlisted hosts only). The URL can include $(channel), $(channelId), $(sender), $(senderId) and $(user)",
                     "allowlist": "Custom API allowlist (requests outside it are blocked). Contact us if you need an addition"
                 }
             },

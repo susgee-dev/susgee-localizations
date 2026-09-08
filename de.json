@@ -859,12 +859,12 @@
     },
     "alerts": {
         "anonymous": "Ein anonymer User",
-        "sub": "{user} hat einen {tier} Sub für {months} Monat(e) abgeschlossen sheCrazy",
-        "resub": "{user} hat den {tier} Sub erneuert - insgesamt schon {months} Monat(e) dabei sheCrazy",
-        "subGift": "{user} hat einen {tier} Sub an {recipient} verschenkt!! sheCrazy insgesamt {total} Sub(s) verschenkt!",
-        "communitySubGift": "{user} verschenkt {count} Sub(s)!! sheCrazy insgesamt {total} Sub(s) verschenkt!",
-        "bitsBadgeTier": "{user} hat gerade das {tier}-Bits-Badge freigeschaltet sheCrazy",
-        "raid": "{user} raidet mit {viewers} Zuschauer(n) sheCrazy"
+        "sub": "$(user) hat einen $(tier) Sub für $(months) Monat(e) abgeschlossen sheCrazy",
+        "resub": "$(user) hat den $(tier) Sub erneuert - insgesamt schon $(months) Monat(e) dabei sheCrazy",
+        "subGift": "$(user) hat einen $(tier) Sub an $(recipient) verschenkt!! sheCrazy insgesamt $(total) Sub(s) verschenkt!",
+        "communitySubGift": "$(user) verschenkt $(count) Sub(s)!! sheCrazy insgesamt $(total) Sub(s) verschenkt!",
+        "bitsBadgeTier": "$(user) hat gerade das $(tier)-Bits-Badge freigeschaltet sheCrazy",
+        "raid": "$(user) raidet mit $(viewers) Zuschauer(n) sheCrazy"
     },
     "subinfo": {
         "noEntries": "Im Channel {channel|antiPing} wurden {delta|include} keine Subs verteilt",
@@ -2261,7 +2261,7 @@
             "randomPick": "Zufälliger Eintrag aus einer durch Komma getrennten Liste",
             "time": "Aktuelle Uhrzeit in einer IANA-Zeitzone (ohne Angabe UTC)",
             "date": "Aktuelles Datum in einer IANA-Zeitzone (ohne Angabe UTC)",
-            "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf {channel}, {channelId}, {sender}, {senderId} und {user} enthalten",
+            "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf $(channel), $(channelId), $(sender), $(senderId) und $(user) enthalten",
                     "allowlist": "Freigegebene Hosts für die Custom API (alles andere wird blockiert). Melde dich, wenn du einen weiteren brauchst"
                 }
             },
