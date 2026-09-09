@@ -2009,6 +2009,7 @@
             "actions": "Aktionen",
             "enabled": "Aktiv",
             "public": "Öffentlich",
+            "chars": "{used} / {limit}",
             "id": "ID:"
         },
         "nav": {
@@ -2263,6 +2264,40 @@
         },
         "reply": "Als Antwort senden",
         "action": "Als /me senden",
+        "sections": {
+            "general": "Allgemein",
+            "aliases": "Aliase",
+            "conditions": "Bedingungen"
+        },
+        "responseType": {
+            "label": "Antworttyp",
+            "hint": "Wie der Bot die Antwort schickt",
+            "say": "Normale Nachricht",
+            "sayHint": "Schickt die Antwort als normale Chat-Nachricht",
+            "reply": "Als Antwort",
+            "replyHint": "Antwortet im Thread unter der auslösenden Nachricht",
+            "action": "Als /me",
+            "actionHint": "Schickt die Antwort als /me-Action"
+        },
+        "liveState": {
+            "label": "Antworten, wenn der Stream",
+            "always": "Online und offline",
+            "online": "Nur online",
+            "offline": "Nur offline"
+        },
+        "search": "Commands durchsuchen…",
+        "noResults": "Kein Command passt zu \"{query}\"",
+        "emptyDescription": "Custom Commands sind automatische Antworten, die dein Chat mit etwas wie !discord auslöst. Variablen wie $(sender) oder $(customapi …) machen sie dynamisch.",
+        "hints": {
+            "name": "Der Trigger, mit oder ohne ! (z. B. !discord)",
+            "response": "Was der Bot antwortet. Versteht <link>Variablen</link>.",
+            "cooldown": "Sekunden, bis der Command wieder geht. 0 heisst kein Cooldown",
+            "permission": "Mindeststufe, um ihn auszulösen",
+            "aliases": "Weitere Trigger für denselben Command, höchstens {limit}",
+            "count": "Aktueller Wert von $(count). Zum Zurücksetzen einfach überschreiben",
+            "enabled": "Ein deaktivierter Command bleibt gespeichert, antwortet aber nicht",
+            "public": "Öffentliche Commands stehen auf deiner öffentlichen Command-Seite"
+        },
         "onlyLive": "Nur wenn der Stream live ist",
         "count": "Zähler",
         "linked": "Führt {name} von {channel} aus",

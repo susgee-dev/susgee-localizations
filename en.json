@@ -2009,6 +2009,7 @@
             "actions": "Actions",
             "enabled": "Enabled",
             "public": "Public",
+            "chars": "{used} / {limit}",
             "id": "ID:"
         },
         "nav": {
@@ -2263,6 +2264,40 @@
                 },
                 "reply": "Send as a reply",
                 "action": "Send as /me",
+                "sections": {
+                    "general": "General",
+                    "aliases": "Aliases",
+                    "conditions": "Conditions"
+                },
+                "responseType": {
+                    "label": "Response type",
+                    "hint": "How the bot sends the answer",
+                    "say": "Normal message",
+                    "sayHint": "Posts the answer as a normal chat message",
+                    "reply": "As a reply",
+                    "replyHint": "Answers in a thread under the message that triggered it",
+                    "action": "As /me",
+                    "actionHint": "Posts the answer as a /me action"
+                },
+                "liveState": {
+                    "label": "Answer when the stream is",
+                    "always": "Online and offline",
+                    "online": "Only online",
+                    "offline": "Only offline"
+                },
+                "search": "Search commands…",
+                "noResults": "No command matches \"{query}\"",
+                "emptyDescription": "Custom commands are automatic replies your chat triggers by typing something like !discord. Variables like $(sender) or $(customapi …) make them dynamic.",
+                "hints": {
+                    "name": "The trigger, with or without ! (e.g. !discord)",
+                    "response": "What the bot answers. Supports <link>variables</link>.",
+                    "cooldown": "Seconds before the command works again. 0 means no cooldown",
+                    "permission": "Minimum level needed to trigger it",
+                    "aliases": "Extra triggers for the same command, at most {limit}",
+                    "count": "Current value of $(count). Set it to any number to reset it",
+                    "enabled": "A disabled command stays saved but does not answer",
+                    "public": "Public commands are listed on your public command page"
+                },
                 "onlyLive": "Only while the stream is live",
                 "count": "Counter",
                 "linked": "Runs {name} from {channel}",
