@@ -2134,6 +2134,7 @@
             "tabs": {
                 "channel": "Channel",
                 "commands": "Commands",
+                "alerts": "Alerts",
                 "notifications": "Benachrichtigungen"
             },
             "selector": {
@@ -2170,6 +2171,15 @@
             "alerts": {
                 "title": "Alerts",
                 "description": "Susgeebot meldet Subs, Geschenke, Bits-Badges und Raids in deinem Chat. Leere Nachricht heisst Standardtext.",
+                "affiliateOnly": "Alerts gibt es für Affiliate- und Partner-Channels.",
+                "minTier": "Ab Tier",
+                "anyTier": "Jeder Tier",
+                "tier": "Tier {tier}",
+                "minValue": {
+                    "community_sub_gift": "Ab so vielen verschenkten Subs",
+                    "bits_badge_tier": "Ab diesem Bits-Badge",
+                    "raid": "Ab so vielen Zuschauern"
+                },
                 "types": {
                     "sub": "Neue Subs",
                     "resub": "Resubs",
@@ -2293,7 +2303,8 @@
                 "removePing": "Ping für {name} entfernen",
                 "removeSubscription": "{type} für {name} entfernen"
             },
-            "metaChannel": "Dashboard von {name}"
+            "metaChannel": "Dashboard von {name}",
+            "metaAlerts": "Alerts von {name}"
         },
         "settings": {
             "metaTitle": "Einstellungen",

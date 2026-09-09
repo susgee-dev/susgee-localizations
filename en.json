@@ -2134,6 +2134,7 @@
             "tabs": {
                 "channel": "Channel",
                 "commands": "Commands",
+                "alerts": "Alerts",
                 "notifications": "Notifications"
             },
             "selector": {
@@ -2170,6 +2171,15 @@
             "alerts": {
                 "title": "Alerts",
                 "description": "Susgeebot announces subs, gifts, Bits badges and raids in your chat. Leave a message empty to use the default text.",
+                "affiliateOnly": "Alerts are available for affiliate and partner channels.",
+                "minTier": "From tier",
+                "anyTier": "Any tier",
+                "tier": "Tier {tier}",
+                "minValue": {
+                    "community_sub_gift": "From this many gifted subs",
+                    "bits_badge_tier": "From this Bits badge",
+                    "raid": "From this many viewers"
+                },
                 "types": {
                     "sub": "New subs",
                     "resub": "Resubs",
@@ -2293,7 +2303,8 @@
                 "removePing": "Remove ping for {name}",
                 "removeSubscription": "Remove {type} for {name}"
             },
-            "metaChannel": "{name}'s dashboard"
+            "metaChannel": "{name}'s dashboard",
+            "metaAlerts": "Alerts for {name}"
         },
         "settings": {
             "metaTitle": "Settings",
