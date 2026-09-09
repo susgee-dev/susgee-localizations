@@ -2135,7 +2135,7 @@
             "tabs": {
                 "channel": "Channel",
                 "commands": "Commands",
-                "alerts": "Alerts",
+                "alerts": "Events",
                 "notifications": "Notifications"
             },
             "selector": {
@@ -2170,9 +2170,9 @@
                 "hideFromLookupsHint": "The channel no longer shows up in ?ac lists or in the ban search. Commands used inside the channel itself keep working."
             },
             "alerts": {
-                "title": "Alerts",
+                "title": "Events",
                 "description": "Susgeebot announces subs, gifts, Bits badges and raids in your chat. Leave a message empty to use the default text.",
-                "affiliateOnly": "Alerts are available for affiliate and partner channels.",
+                "affiliateOnly": "Events are available for affiliate and partner channels.",
                 "minTier": "From tier",
                 "anyTier": "Any tier",
                 "tier": "Tier {tier}",
@@ -2339,7 +2339,7 @@
                 "removeSubscription": "Remove {type} for {name}"
             },
             "metaChannel": "{name}'s dashboard",
-            "metaAlerts": "Alerts for {name}"
+            "metaAlerts": "Events for {name}"
         },
         "settings": {
             "metaTitle": "Settings",
