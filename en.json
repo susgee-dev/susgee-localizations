@@ -2332,7 +2332,6 @@
                 "count": "{enabled} of {total} on",
                 "search": "Search commands…",
                 "noResults": "No command matches \"{query}\"",
-                "usage": "{count}× used",
                 "toggle": "Turn {name} on or off",
                 "unavailable": "The list of built-in commands could not be loaded.",
                 "presets": {

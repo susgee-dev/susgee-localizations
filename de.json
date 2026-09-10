@@ -2332,7 +2332,6 @@
                 "count": "{enabled} von {total} an",
                 "search": "Commands suchen…",
                 "noResults": "Kein Command passt zu „{query}\"",
-                "usage": "{count}× benutzt",
                 "toggle": "{name} an- oder ausschalten",
                 "unavailable": "Die Liste der Built-in Commands konnte nicht geladen werden.",
                 "presets": {
