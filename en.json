@@ -110,35 +110,35 @@
             "success": "emote-sets from {channel|antiPing} susgeePoint {paste}"
         },
         "error": {
-          "unhandled": "susgeeDank unhandled error occurred",
-          "rateLimit": "susgeeDank (7TV) rate limit reached, try again in a moment",
-          "emoteSetNotFound": "susgeeDank emote-set not found",
-          "userNotFound": "susgeeDank (7TV) user not found",
-          "emoteNotPublic": "susgeeDank emote has to be approved for public listing before it can be added",
-          "emoteNotAllowedInPersonal": "susgeeDank this emote is not allowed in personal emote-sets",
-          "tooManyPendingRequests": "susgeeDank too many pending (7TV) moderation requests, try again later",
-          "notANormalSet": "susgeeDank this is not a normal emote-set and can't be activated",
-          "noBotPermission": "susgeeDank the bot is missing (7TV) permissions for this action. https://7tv.app/settings/editors",
-          "apiError": "susgeeDank (7TV) ran into an internal error, try again in a moment",
-          "emoteIsPrivate": "susgeeDank emote {emote} is private and can't be added",
-          "emoteNameTaken": "emote already exists with the name {emote}",
-          "emoteNotFound": "susgeeDank emote {emote} not found",
-          "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
-          "emoteLinkNotFound": "susgeeDank no emote found with this link",
-          "noEmotesFoundToRemove": "susgeeDank no emotes found to remove",
-          "emoteSetFull": "susgeeDank emote not added, the set is already full",
-          "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
-          "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
-          "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",
-          "noChannelPerms": "susgeeDank you are not a (7TV) editor for this bot in this channel. @{streamer} can add you by using {prefix}7tveditor add {user}",
-          "noEditor": "susgeeDank Susgeebot is not a (7TV) editor for this channel. add me as an editor on https://7tv.app/settings/editors",
-          "noEmoteSetCreation": "susgeeDank the bot does not have the permission to create a new emote-set. https://7tv.app/settings/editors",
-          "noActiveEmoteSetChange": "susgeeDank the bot does not have the permission to change the active emote-set. https://7tv.app/settings/editors",
-          "privateEmote": "susgeeDank emote {emote} is private and can't be added",
-          "ezGifError": "susgeeDank Currently only emote links from BTTV, 7TV and FFZ are supported",
-          "cantStealFromSelf": "susgeeDank you can't steal your own emotes",
-          "cantImportFromSelf": "susgeeDank you cannot import your own emote set",
-          "alreadySynced": "susgeeDank no changes to sync, emote-set is identical"
+            "unhandled": "susgeeDank unhandled error occurred",
+            "rateLimit": "susgeeDank (7TV) rate limit reached, try again in a moment",
+            "emoteSetNotFound": "susgeeDank emote-set not found",
+            "userNotFound": "susgeeDank (7TV) user not found",
+            "emoteNotPublic": "susgeeDank emote has to be approved for public listing before it can be added",
+            "emoteNotAllowedInPersonal": "susgeeDank this emote is not allowed in personal emote-sets",
+            "tooManyPendingRequests": "susgeeDank too many pending (7TV) moderation requests, try again later",
+            "notANormalSet": "susgeeDank this is not a normal emote-set and can't be activated",
+            "noBotPermission": "susgeeDank the bot is missing (7TV) permissions for this action. https://7tv.app/settings/editors",
+            "apiError": "susgeeDank (7TV) ran into an internal error, try again in a moment",
+            "emoteIsPrivate": "susgeeDank emote {emote} is private and can't be added",
+            "emoteNameTaken": "emote already exists with the name {emote}",
+            "emoteNotFound": "susgeeDank emote {emote} not found",
+            "emoteNotFoundInSet": "susgeeDank emote {emote} not found in this set",
+            "emoteLinkNotFound": "susgeeDank no emote found with this link",
+            "noEmotesFoundToRemove": "susgeeDank no emotes found to remove",
+            "emoteSetFull": "susgeeDank emote not added, the set is already full",
+            "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
+            "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
+            "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",
+            "noChannelPerms": "susgeeDank you are not a (7TV) editor for this bot in this channel. @{streamer} can add you by using {prefix}7tveditor add {user}",
+            "noEditor": "susgeeDank Susgeebot is not a (7TV) editor for this channel. add me as an editor on https://7tv.app/settings/editors",
+            "noEmoteSetCreation": "susgeeDank the bot does not have the permission to create a new emote-set. https://7tv.app/settings/editors",
+            "noActiveEmoteSetChange": "susgeeDank the bot does not have the permission to change the active emote-set. https://7tv.app/settings/editors",
+            "privateEmote": "susgeeDank emote {emote} is private and can't be added",
+            "ezGifError": "susgeeDank Currently only emote links from BTTV, 7TV and FFZ are supported",
+            "cantStealFromSelf": "susgeeDank you can't steal your own emotes",
+            "cantImportFromSelf": "susgeeDank you cannot import your own emote set",
+            "alreadySynced": "susgeeDank no changes to sync, emote-set is identical"
         },
         "paint": {
             "active": "{active|plural(one|user has, other|users have)} this paint active",
@@ -870,8 +870,7 @@
         "anonymous": "An anonymous user",
         "sub": "$(user) subscribed with a $(tier) sub for $(months) month(s) sheCrazy",
         "resub": "$(user) renewed the $(tier) sub - subscribed for $(months) month(s) sheCrazy",
-        "subGift": "$(user) gifted a $(tier) sub to $(recipient)!! sheCrazy $(total) sub(s) gifted in total!",
-        "communitySubGift": "$(user) is gifting $(count) sub(s)!! sheCrazy $(total) sub(s) gifted in total!",
+        "gift": "$(user) is gifting $(count) sub(s)!! sheCrazy $(total) sub(s) gifted in total!",
         "bitsBadgeTier": "$(user) just unlocked the $(tier) Bits badge sheCrazy",
         "raid": "$(user) is raiding with $(viewers) viewer(s) sheCrazy"
     },
@@ -2010,7 +2009,8 @@
             "enabled": "Enabled",
             "public": "Public",
             "chars": "{used} / {limit}",
-            "id": "ID:"
+            "id": "ID:",
+            "new": "new"
         },
         "nav": {
             "commands": "Commands",
@@ -2127,16 +2127,18 @@
         },
         "dashboard": {
             "title": "Dashboard",
+            "preview": "How it will look in chat",
             "metaCommands": "{name}'s commands",
             "metaNotifications": "{name}'s notifications",
             "noAccessTitle": "No access",
             "noAccessDescription": "You cannot manage #{login}.",
             "noAccessHint": "You need to be the channel owner, or an ambassador of that channel, and Susgeebot needs to have joined it.",
             "tabs": {
-                "channel": "Channel",
+                "settings": "Settings",
                 "commands": "Commands",
                 "alerts": "Events",
-                "notifications": "Notifications"
+                "notifications": "Notifications",
+                "joinFirst": "Available once Susgeebot has joined this channel"
             },
             "selector": {
                 "label": "Channel",
@@ -2145,12 +2147,21 @@
                 "suspended": "suspended"
             },
             "join": {
-                "title": "Channel settings",
+                "title": "Connect Susgeebot",
                 "description": "Connect the bot to your channel to configure channel settings.",
                 "button": "Join channel",
                 "joining": "Joining…",
                 "modRequired": "Susgeebot needs moderator permissions. Use <code>/mod Susgeebot</code> in <link>your channel</link>, then try again.",
-                "failed": "Failed to join the channel. Please try again."
+                "failed": "Failed to join the channel. Please try again.",
+                "loggingOnly": "Susgeebot only logs this channel right now. Connect it to run commands and send notifications.",
+                "adminHint": "The owner has to make Susgeebot a moderator. As an admin you can only log this channel.",
+                "admin": {
+                    "title": "Admin",
+                    "description": "Also for channels the bot only reads along in.",
+                    "loggingHint": "Same as ?channel join and ?channel part.",
+                    "unknown": "Susgeebot does not know this channel yet.",
+                    "lurk": "Join as logging"
+                }
             },
             "general": {
                 "title": "General",
@@ -2160,57 +2171,46 @@
                 "language": "Channel language",
                 "mode": "Bot mode"
             },
-            "features": {
-                "title": "Features",
+            "privacy": {
+                "title": "Privacy",
                 "logging": "Log messages in my channel",
-                "verboseLiveMsg": "Include title and category in live messages",
-                "birthdayGreetings": "Enable birthday messages",
-                "bottiesReminder": "Enable Botties reminder",
                 "hideFromLookups": "Hide my channel from lookups",
                 "hideFromLookupsHint": "The channel no longer shows up in ?ac lists or in the ban search. Commands used inside the channel itself keep working."
+            },
+            "autoMessages": {
+                "title": "Automatic messages",
+                "birthdayGreetings": "Birthday messages",
+                "bottiesReminder": "Botties reminder"
             },
             "alerts": {
                 "title": "Events",
                 "description": "Susgeebot announces subs, gifts, Bits badges and raids in your chat. Leave a message empty to use the default text.",
                 "affiliateOnly": "Events are available for affiliate and partner channels.",
-                "minTier": "From tier",
-                "anyTier": "Any tier",
-                "tier": "Tier {tier}",
                 "minValue": {
-                    "community_sub_gift": "From this many gifted subs",
-                    "bits_badge_tier": "From this Bits badge",
                     "raid": "From this many viewers"
                 },
                 "types": {
                     "sub": "New subs",
                     "resub": "Resubs",
-                    "sub_gift": "Gifted sub",
-                    "community_sub_gift": "Gifted subs",
+                    "gift": "Gifted subs",
                     "bits_badge_tier": "Bits badges",
                     "raid": "Raids"
                 },
                 "hints": {
                     "sub": "Someone subscribes for the first time",
                     "resub": "Someone renews their sub",
-                    "sub_gift": "Someone gifts a sub to one user",
-                    "community_sub_gift": "Someone gifts several subs at once",
+                    "gift": "Someone gifts one or more subs",
                     "bits_badge_tier": "Someone unlocks a new Bits badge",
                     "raid": "Another channel raids yours"
                 },
                 "message": "Message for {type}",
                 "variables": "Variables",
-                "docs": {
-                    "title": "Variables",
-                    "description": "Placeholders you can put in a message. Each type lists the ones it supports.",
-                    "user": "The user who triggered the event, with @. Anonymous gifters become \"An anonymous user\"",
-                    "channel": "Your channel name",
-                    "tier": "The sub tier (tier 1, tier 2, tier 3 or Prime). For Bits badges the Bits amount of the badge",
-                    "months": "The number of months: the sub length for new subs and gifts, the total months for resubs",
-                    "streak": "The consecutive months of a resub streak, 0 if the user does not share it",
-                    "recipient": "The user who received the gifted sub, with @",
-                    "count": "How many subs are gifted in this batch",
-                    "total": "How many subs the gifter has given in this channel in total",
-                    "viewers": "How many viewers the raid brings along"
+                "edit": "Edit",
+                "close": "Close",
+                "defaultText": "Default text",
+                "useDefault": "Use default text",
+                "from": {
+                    "raid": "from {value} viewers"
                 }
             },
             "ambassadors": {
@@ -2326,17 +2326,38 @@
                     "allowlist": "Custom API allowlist (requests outside it are blocked). Contact us if you need an addition"
                 }
             },
+            "builtin": {
+                "title": "Built-in commands",
+                "description": "Susgeebot's own commands. A command that is off does not answer in this channel.",
+                "count": "{enabled} of {total} on",
+                "search": "Search commands…",
+                "noResults": "No command matches \"{query}\"",
+                "usage": "{count}× used",
+                "toggle": "Turn {name} on or off",
+                "unavailable": "The list of built-in commands could not be loaded.",
+                "presets": {
+                    "title": "Quick settings",
+                    "description": "Switches a whole group at once. Single commands stay adjustable below.",
+                    "partial": "{disabled} of {total} off: {commands}"
+                },
+                "groups": {
+                    "spam": "Spam",
+                    "rude": "Rude",
+                    "botties": "Botties"
+                }
+            },
             "notifications": {
                 "announcements": "Channel announcements",
                 "streamers": "Streamer notifications",
                 "streamersDescription": "Get told when a specific streamer goes live, changes title, bans someone or updates emotes.",
-                "streamerPlaceholder": "streamer",
-                "pingMe": "Ping me",
-                "empty": "No streamer notifications yet",
                 "userNotFound": "Could not find that user",
-                "alreadySubscribed": "Already subscribed to {type} for {login}",
                 "removePing": "Remove ping for {name}",
-                "removeSubscription": "Remove {type} for {name}"
+                "verboseLiveMsg": "Include title and category in live messages",
+                "addStreamer": "Add a streamer…",
+                "pingMe": "Ping me",
+                "alreadySubscribed": "{type} for {login} is already subscribed",
+                "removeSubscription": "Remove {type} for {name}",
+                "addFor": "Add a streamer for {type}"
             },
             "metaChannel": "{name}'s dashboard",
             "metaAlerts": "Events for {name}"

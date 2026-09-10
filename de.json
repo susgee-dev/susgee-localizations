@@ -870,8 +870,7 @@
         "anonymous": "Ein anonymer User",
         "sub": "$(user) hat einen $(tier) Sub für $(months) Monat(e) abgeschlossen sheCrazy",
         "resub": "$(user) hat den $(tier) Sub erneuert - insgesamt schon $(months) Monat(e) dabei sheCrazy",
-        "subGift": "$(user) hat einen $(tier) Sub an $(recipient) verschenkt!! sheCrazy insgesamt $(total) Sub(s) verschenkt!",
-        "communitySubGift": "$(user) verschenkt $(count) Sub(s)!! sheCrazy insgesamt $(total) Sub(s) verschenkt!",
+        "gift": "$(user) verschenkt $(count) Sub(s)!! sheCrazy insgesamt $(total) Sub(s) verschenkt!",
         "bitsBadgeTier": "$(user) hat gerade das $(tier)-Bits-Badge freigeschaltet sheCrazy",
         "raid": "$(user) raidet mit $(viewers) Zuschauer(n) sheCrazy"
     },
@@ -2010,7 +2009,8 @@
             "enabled": "Aktiv",
             "public": "Öffentlich",
             "chars": "{used} / {limit}",
-            "id": "ID:"
+            "id": "ID:",
+            "new": "neu"
         },
         "nav": {
             "commands": "Commands",
@@ -2127,16 +2127,18 @@
         },
         "dashboard": {
             "title": "Dashboard",
+            "preview": "So kommt es im Chat an",
             "metaCommands": "Commands von {name}",
             "metaNotifications": "Benachrichtigungen von {name}",
             "noAccessTitle": "Kein Zugriff",
             "noAccessDescription": "Du kannst #{login} nicht verwalten.",
             "noAccessHint": "Du musst der Channel-Inhaber oder ein Ambassador dieses Channels sein, und Susgeebot muss ihm beigetreten sein.",
             "tabs": {
-                "channel": "Channel",
+                "settings": "Einstellungen",
                 "commands": "Commands",
                 "alerts": "Events",
-                "notifications": "Benachrichtigungen"
+                "notifications": "Benachrichtigungen",
+                "joinFirst": "Verfügbar, sobald Susgeebot diesem Channel beigetreten ist"
             },
             "selector": {
                 "label": "Channel",
@@ -2145,12 +2147,21 @@
                 "suspended": "gesperrt"
             },
             "join": {
-                "title": "Channel-Einstellungen",
+                "title": "Susgeebot verbinden",
                 "description": "Verbinde den Bot mit deinem Channel, um die Channel-Einstellungen zu bearbeiten.",
                 "button": "Channel beitreten",
                 "joining": "Tritt bei…",
                 "modRequired": "Susgeebot braucht Moderator-Rechte. Benutze <code>/mod Susgeebot</code> in <link>deinem Channel</link> und versuch es dann nochmal.",
-                "failed": "Der Bot konnte dem Channel nicht beitreten. Bitte versuch es nochmal."
+                "failed": "Der Bot konnte dem Channel nicht beitreten. Bitte versuch es nochmal.",
+                "loggingOnly": "Susgeebot loggt diesen Channel im Moment nur. Verbinde ihn, damit Commands und Benachrichtigungen funktionieren.",
+                "adminHint": "Der Owner muss Susgeebot zum Mod machen. Als Admin kannst du den Channel nur loggen.",
+                "admin": {
+                    "title": "Admin",
+                    "description": "Gilt auch für Channels, in denen der Bot nur mitliest.",
+                    "loggingHint": "Wie ?channel join und ?channel part.",
+                    "unknown": "Susgeebot kennt diesen Channel noch nicht.",
+                    "lurk": "Als Logging joinen"
+                }
             },
             "general": {
                 "title": "Allgemein",
@@ -2160,57 +2171,46 @@
                 "language": "Channel-Sprache",
                 "mode": "Bot-Modus"
             },
-            "features": {
-                "title": "Funktionen",
+            "privacy": {
+                "title": "Privatsphäre",
                 "logging": "Nachrichten in meinem Channel loggen",
-                "verboseLiveMsg": "Titel und Kategorie in Live-Nachrichten anzeigen",
-                "birthdayGreetings": "Geburtstagsnachrichten aktivieren",
-                "bottiesReminder": "Botties-Reminder aktivieren",
                 "hideFromLookups": "Meinen Channel in Abfragen verstecken",
                 "hideFromLookupsHint": "Der Channel taucht nicht mehr in ?ac-Listen oder in der Ban-Suche auf. Commands im Channel selbst funktionieren weiter."
+            },
+            "autoMessages": {
+                "title": "Automatische Nachrichten",
+                "birthdayGreetings": "Geburtstagsnachrichten",
+                "bottiesReminder": "Botties-Reminder"
             },
             "alerts": {
                 "title": "Events",
                 "description": "Susgeebot meldet Subs, Geschenke, Bits-Badges und Raids in deinem Chat. Leere Nachricht heisst Standardtext.",
                 "affiliateOnly": "Events gibt es für Affiliate- und Partner-Channels.",
-                "minTier": "Ab Tier",
-                "anyTier": "Jeder Tier",
-                "tier": "Tier {tier}",
                 "minValue": {
-                    "community_sub_gift": "Ab so vielen verschenkten Subs",
-                    "bits_badge_tier": "Ab diesem Bits-Badge",
                     "raid": "Ab so vielen Zuschauern"
                 },
                 "types": {
                     "sub": "Neue Subs",
                     "resub": "Resubs",
-                    "sub_gift": "Verschenkter Sub",
-                    "community_sub_gift": "Verschenkte Subs",
+                    "gift": "Verschenkte Subs",
                     "bits_badge_tier": "Bits-Badges",
                     "raid": "Raids"
                 },
                 "hints": {
                     "sub": "Jemand subscribt zum ersten Mal",
                     "resub": "Jemand erneuert den Sub",
-                    "sub_gift": "Jemand verschenkt einen Sub an einen User",
-                    "community_sub_gift": "Jemand verschenkt mehrere Subs auf einmal",
+                    "gift": "Jemand verschenkt einen oder mehrere Subs",
                     "bits_badge_tier": "Jemand schaltet ein neues Bits-Badge frei",
                     "raid": "Ein anderer Channel raidet deinen"
                 },
                 "message": "Nachricht für {type}",
                 "variables": "Variablen",
-                "docs": {
-                    "title": "Variablen",
-                    "description": "Platzhalter, die du in eine Nachricht einbauen kannst. Jeder Typ zeigt die, die er unterstützt.",
-                    "user": "Der User, der das Ereignis ausgelöst hat, mit @. Anonyme Schenker werden zu \"Ein anonymer User\"",
-                    "channel": "Der Name deines Channels",
-                    "tier": "Die Sub-Stufe (tier 1, tier 2, tier 3 oder Prime). Bei Bits-Badges die Bits-Menge des Badges",
-                    "months": "Die Anzahl Monate: bei neuen Subs und Geschenken die Sub-Dauer, bei Resubs die Gesamtmonate",
-                    "streak": "Die Monate am Stück bei einem Resub, 0 wenn der User sie nicht teilt",
-                    "recipient": "Der User, der den verschenkten Sub bekommen hat, mit @",
-                    "count": "Wie viele Subs in diesem Schwung verschenkt werden",
-                    "total": "Wie viele Subs der Schenker in diesem Channel insgesamt verschenkt hat",
-                    "viewers": "Wie viele Zuschauer der Raid mitbringt"
+                "edit": "Bearbeiten",
+                "close": "Schliessen",
+                "defaultText": "Standardtext",
+                "useDefault": "Standardtext verwenden",
+                "from": {
+                    "raid": "ab {value} Zuschauern"
                 }
             },
             "ambassadors": {
@@ -2253,56 +2253,56 @@
                 "cooldown": "Cooldown (Sekunden)",
                 "required": "Name und Antwort sind Pflicht",
                 "saveFailed": "Der Command konnte nicht gespeichert werden",
-        "aliases": "Aliase",
-        "aliasesPlaceholder": "Alias tippen, Enter zum Hinzufügen",
-        "permission": "Wer darf ihn benutzen",
-        "permissions": {
-            "0": "Jeder",
-            "1": "VIP",
-            "2": "Moderator",
-            "4": "Broadcaster"
-        },
-        "reply": "Als Antwort senden",
-        "action": "Als /me senden",
-        "sections": {
-            "general": "Allgemein",
-            "aliases": "Aliase",
-            "conditions": "Bedingungen"
-        },
-        "responseType": {
-            "label": "Antworttyp",
-            "hint": "Wie der Bot die Antwort schickt",
-            "say": "Normale Nachricht",
-            "sayHint": "Schickt die Antwort als normale Chat-Nachricht",
-            "reply": "Als Antwort",
-            "replyHint": "Antwortet im Thread unter der auslösenden Nachricht",
-            "action": "Als /me",
-            "actionHint": "Schickt die Antwort als /me-Action"
-        },
-        "liveState": {
-            "label": "Antworten, wenn der Stream",
-            "always": "Online und offline",
-            "online": "Nur online",
-            "offline": "Nur offline"
-        },
-        "search": "Commands durchsuchen…",
-        "noResults": "Kein Command passt zu \"{query}\"",
-        "emptyDescription": "Custom Commands sind automatische Antworten, die dein Chat mit etwas wie !discord auslöst. Variablen wie $(sender) oder $(customapi …) machen sie dynamisch.",
-        "hints": {
-            "name": "Der Trigger, mit oder ohne ! (z. B. !discord)",
-            "response": "Was der Bot antwortet. Versteht <link>Variablen</link>.",
-            "cooldown": "Sekunden, bis der Command wieder geht. 0 heisst kein Cooldown",
-            "permission": "Mindeststufe, um ihn auszulösen",
-            "aliases": "Weitere Trigger für denselben Command, höchstens {limit}",
-            "count": "Aktueller Wert von $(count). Zum Zurücksetzen einfach überschreiben",
-            "enabled": "Ein deaktivierter Command bleibt gespeichert, antwortet aber nicht",
-            "public": "Öffentliche Commands stehen auf deiner öffentlichen Command-Seite"
-        },
-        "onlyLive": "Nur wenn der Stream live ist",
-        "count": "Zähler",
-        "linked": "Führt {name} von {channel} aus",
-        "linkedBroken": "Der verknüpfte Command wurde gelöscht",
-        "linkedHint": "Die Antwort gehört dem Quell-Channel und kann nur dort bearbeitet werden.",
+                "aliases": "Aliase",
+                "aliasesPlaceholder": "Alias tippen, Enter zum Hinzufügen",
+                "permission": "Wer darf ihn benutzen",
+                "permissions": {
+                    "0": "Jeder",
+                    "1": "VIP",
+                    "2": "Moderator",
+                    "4": "Broadcaster"
+                },
+                "reply": "Als Antwort senden",
+                "action": "Als /me senden",
+                "sections": {
+                    "general": "Allgemein",
+                    "aliases": "Aliase",
+                    "conditions": "Bedingungen"
+                },
+                "responseType": {
+                    "label": "Antworttyp",
+                    "hint": "Wie der Bot die Antwort schickt",
+                    "say": "Normale Nachricht",
+                    "sayHint": "Schickt die Antwort als normale Chat-Nachricht",
+                    "reply": "Als Antwort",
+                    "replyHint": "Antwortet im Thread unter der auslösenden Nachricht",
+                    "action": "Als /me",
+                    "actionHint": "Schickt die Antwort als /me-Action"
+                },
+                "liveState": {
+                    "label": "Antworten, wenn der Stream",
+                    "always": "Online und offline",
+                    "online": "Nur online",
+                    "offline": "Nur offline"
+                },
+                "search": "Commands durchsuchen…",
+                "noResults": "Kein Command passt zu \"{query}\"",
+                "emptyDescription": "Custom Commands sind automatische Antworten, die dein Chat mit etwas wie !discord auslöst. Variablen wie $(sender) oder $(customapi …) machen sie dynamisch.",
+                "hints": {
+                    "name": "Der Trigger, mit oder ohne ! (z. B. !discord)",
+                    "response": "Was der Bot antwortet. Versteht <link>Variablen</link>.",
+                    "cooldown": "Sekunden, bis der Command wieder geht. 0 heisst kein Cooldown",
+                    "permission": "Mindeststufe, um ihn auszulösen",
+                    "aliases": "Weitere Trigger für denselben Command, höchstens {limit}",
+                    "count": "Aktueller Wert von $(count). Zum Zurücksetzen einfach überschreiben",
+                    "enabled": "Ein deaktivierter Command bleibt gespeichert, antwortet aber nicht",
+                    "public": "Öffentliche Commands stehen auf deiner öffentlichen Command-Seite"
+                },
+                "onlyLive": "Nur wenn der Stream live ist",
+                "count": "Zähler",
+                "linked": "Führt {name} von {channel} aus",
+                "linkedBroken": "Der verknüpfte Command wurde gelöscht",
+                "linkedHint": "Die Antwort gehört dem Quell-Channel und kann nur dort bearbeitet werden.",
                 "docs": {
                     "title": "Variablen",
                     "description": "Platzhalter, die du in eine Antwort einbauen kannst",
@@ -2318,25 +2318,46 @@
                     "game": "Aktuelles Spiel oder Kategorie (ohne Kategorie: '(no game)')",
                     "followers": "Anzahl der Follower",
                     "randomNumber": "Zufällige ganze Zahl. Ohne Angabe zwischen 1 und 100",
-            "randomPick": "Zufälliger Eintrag aus einer durch Komma getrennten Liste",
-            "time": "Aktuelle Uhrzeit in einer IANA-Zeitzone (ohne Angabe UTC)",
-            "date": "Aktuelles Datum in einer IANA-Zeitzone (ohne Angabe UTC)",
-            "count": "Zählt bei jeder Benutzung um eins hoch",
-            "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf jede Variable enthalten, auch Argumente wie $(1) - jeder Wert wird URL-kodiert",
+                    "randomPick": "Zufälliger Eintrag aus einer durch Komma getrennten Liste",
+                    "time": "Aktuelle Uhrzeit in einer IANA-Zeitzone (ohne Angabe UTC)",
+                    "date": "Aktuelles Datum in einer IANA-Zeitzone (ohne Angabe UTC)",
+                    "count": "Zählt bei jeder Benutzung um eins hoch",
+                    "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf jede Variable enthalten, auch Argumente wie $(1) - jeder Wert wird URL-kodiert",
                     "allowlist": "Freigegebene Hosts für die Custom API (alles andere wird blockiert). Melde dich, wenn du einen weiteren brauchst"
+                }
+            },
+            "builtin": {
+                "title": "Built-in Commands",
+                "description": "Susgeebots eigene Commands. Ein ausgeschalteter Command antwortet in diesem Channel nicht.",
+                "count": "{enabled} von {total} an",
+                "search": "Commands suchen…",
+                "noResults": "Kein Command passt zu „{query}\"",
+                "usage": "{count}× benutzt",
+                "toggle": "{name} an- oder ausschalten",
+                "unavailable": "Die Liste der Built-in Commands konnte nicht geladen werden.",
+                "presets": {
+                    "title": "Schnell einstellen",
+                    "description": "Schaltet eine ganze Gruppe auf einmal. Einzelne Commands bleiben darunter änderbar.",
+                    "partial": "{disabled} von {total} aus: {commands}"
+                },
+                "groups": {
+                    "spam": "Spam",
+                    "rude": "Derb",
+                    "botties": "Botties"
                 }
             },
             "notifications": {
                 "announcements": "Channel-Ankündigungen",
                 "streamers": "Streamer-Benachrichtigungen",
                 "streamersDescription": "Erfahre, wenn ein bestimmter Streamer live geht, den Titel ändert, jemanden bannt oder Emotes aktualisiert.",
-                "streamerPlaceholder": "Streamer",
-                "pingMe": "Mich pingen",
-                "empty": "Noch keine Streamer-Benachrichtigungen",
                 "userNotFound": "Dieser User wurde nicht gefunden",
-                "alreadySubscribed": "{type} für {login} ist bereits abonniert",
                 "removePing": "Ping für {name} entfernen",
-                "removeSubscription": "{type} für {name} entfernen"
+                "verboseLiveMsg": "Titel und Kategorie in Live-Nachrichten anzeigen",
+                "addStreamer": "Streamer hinzufügen…",
+                "pingMe": "Mich pingen",
+                "alreadySubscribed": "{type} für {login} ist bereits abonniert",
+                "removeSubscription": "{type} für {name} entfernen",
+                "addFor": "Streamer für {type} hinzufügen"
             },
             "metaChannel": "Dashboard von {name}",
             "metaAlerts": "Events von {name}"
