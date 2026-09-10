@@ -2356,7 +2356,9 @@
                 "pingMe": "Ping me",
                 "alreadySubscribed": "{type} for {login} is already subscribed",
                 "removeSubscription": "Remove {type} for {name}",
-                "addFor": "Add a streamer for {type}"
+                "addFor": "Add a streamer for {type}",
+                "search": "Search streamers…",
+                "showMore": "Show more ({shown} of {total})"
             },
             "metaChannel": "{name}'s dashboard",
             "metaAlerts": "Events for {name}"
