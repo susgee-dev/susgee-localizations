@@ -1,6 +1,5 @@
 {
     "enabled": "enabled",
-    "disabled": "disabled",
     "commandDisabled": "{user}, the command {command} has been disabled in the channel {channel} by a moderator.",
     "common": {
         "delta": {
@@ -397,11 +396,7 @@
         "messages": "{messages|plural(one|logged message, other|logged messages)}"
     },
     "channelSettings": {
-        "currentSettings": "Current settings: {output}",
-        "invalidSetting": "susgeeDank Invalid setting. Allowed settings: {settings}",
-        "settingSet": "susgeeOK setting '{setting}' set to {value}.",
-        "settingChanged": "susgeeOK setting '{setting}' changed to {value}.",
-        "invalidValue": "susgeeDank Invalid value for '{setting}'."
+        "dashboard": "susgeePoint The settings for this channel live in the dashboard: {url}"
     },
     "chat": {
         "noData": "i have no data from this user",
@@ -649,15 +644,6 @@
     },
     "mass": {
         "noChatter": "susgeeDank failed to fetch chatters for {channel|antiPing}"
-    },
-    "mode": {
-        "7tv": "7tv",
-        "changed": "susgeeOK successfully changed bot mode to {mode}: {name}",
-        "check": "current bot mode is {mode}: {name}",
-        "default": "default",
-        "mods": "mods",
-        "offline": "offline",
-        "offlineAllOnlineMod": "Online only for mods. Offline for all"
     },
     "mostSent": {
         "noEntries": "susgeeDank {user|antiPing} has never chatted in {channel|antiPing}",
@@ -1138,8 +1124,7 @@
             "description": "displays the chat stats of a channel"
         },
         "channelSettings": {
-            "usage": "<setting> <value>",
-            "description": "changes the settings of a channel"
+            "description": "points to the channel dashboard, where the settings live"
         },
         "chat": {
             "usage": "<user>",
@@ -1385,8 +1370,7 @@
             "description": "display the mod-state of a user in a channel"
         },
         "mode": {
-            "usage": "<0: disabled, 1: default, 2: offline, 3: 7tv, 4: mods, 5: offlineAllOnlineModOnly>",
-            "description": "changes the mode of the bot in this channel"
+            "description": "points to the channel dashboard, where the bot mode lives"
         },
         "modLookup": {
             "usage": "<user>",
@@ -1756,26 +1740,18 @@
                 },
                 "modes": {
                     "title": "Bot modes",
-                    "description": "Customize how the bot behaves in your channel with different modes.",
+                    "description": "You decide who gets to use Susgeebot in your chat, and when.",
                     "default": {
                         "name": "Default",
-                        "description": "All features enabled for everyone in your channel."
+                        "description": "Everything on, for everyone, live or not."
                     },
-                    "offline": {
-                        "name": "Offline",
-                        "description": "The bot only responds while your stream is offline."
+                    "audience": {
+                        "name": "By role",
+                        "description": "Separately for live and offline: everyone, VIPs, mods or nobody."
                     },
                     "7tv": {
-                        "name": "7TV",
-                        "description": "Only 7TV-related commands are enabled."
-                    },
-                    "mods": {
-                        "name": "Mods",
-                        "description": "Only moderators can use bot commands."
-                    },
-                    "offlineAllOnlineMod": {
-                        "name": "Offline for all, online for mods",
-                        "description": "Commands for everyone while offline, but only for mods while online."
+                        "name": "7TV only",
+                        "description": "Only the 7TV commands and 7TV notifications."
                     }
                 },
                 "more": {
@@ -2163,7 +2139,23 @@
                 "prefixPlaceholder": "e.g. !",
                 "prefixError": "Max 15 characters, must not start with . or /",
                 "language": "Channel language",
-                "mode": "Bot mode"
+                "disabled": "Bot disabled",
+                "disabledHint": "Nothing answers, nothing is posted. The other settings stay as they are.",
+                "stvOnly": "Only 7TV",
+                "stvOnlyHint": "Only the 7TV commands and 7TV notifications, everything else stays quiet.",
+                "commandsWhenLive": "Commands while you are live",
+                "commandsWhenOffline": "Commands while you are offline",
+                "audiences": {
+                    "everyone": "everyone",
+                    "vips": "VIPs and up",
+                    "mods": "mods and up",
+                    "nobody": "nobody"
+                },
+                "summary": {
+                    "off": "Susgeebot ignores this channel completely.",
+                    "stvOnly": "Only 7TV commands and 7TV notifications, for everyone, live or not.",
+                    "active": "Live: {live}. Offline: {offline}."
+                }
             },
             "privacy": {
                 "title": "Privacy",
@@ -2600,6 +2592,9 @@
                 "liveMessage": {
                     "tooLong": "The live message may be at most {limit} characters.",
                     "unknownVariable": "Unknown variable {variable}. Available: {variables}"
+                },
+                "audience": {
+                    "invalid": "Allowed: {audiences}."
                 }
             },
             "autoPresence": {
