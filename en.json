@@ -1844,7 +1844,6 @@
                 "vod": "VOD",
                 "link": "Link",
                 "logs": "Logs",
-                "error": "An error occurred while fetching bans.",
                 "itemsLabel": "bans",
                 "findVod": "Find VOD",
                 "searchingVod": "Searching…",
@@ -1965,9 +1964,6 @@
                 "searchLabel": "Search Bible",
                 "searchPlaceholder": "Search Bible...",
                 "confirmDelete": "Are you sure you want to delete this bible entry?",
-                "genericError": "An error occurred",
-                "fetchError": "An error occurred while fetching bible entries",
-                "deleteError": "An error occurred while deleting the bible entry",
                 "empty": "No bible entries found for your search.",
                 "itemsLabel": "entries"
             },
@@ -1999,8 +1995,6 @@
             "saved": "Saved",
             "saving": "Saving…",
             "couldNotSave": "Could not save",
-            "confirm": "Confirm",
-            "confirmAction": "Confirm action",
             "goHome": "Go to home",
             "tryAgain": "Try again",
             "items": "items",
@@ -2152,7 +2146,6 @@
                 "button": "Join channel",
                 "joining": "Joining…",
                 "modRequired": "Susgeebot needs moderator permissions. Use <code>/mod Susgeebot</code> in <link>your channel</link>, then try again.",
-                "failed": "Failed to join the channel. Please try again.",
                 "loggingOnly": "Susgeebot only logs this channel right now. Connect it to run commands and send notifications.",
                 "adminHint": "The owner has to make Susgeebot a moderator. As an admin you can only log this channel.",
                 "admin": {
@@ -2231,8 +2224,7 @@
                 "button": "Part channel",
                 "parting": "Parting channel…",
                 "confirmTitle": "Part channel",
-                "confirmMessage": "Are you sure you want to remove the bot from your channel?\nExisting logs will be removed.",
-                "failed": "Failed to part the channel"
+                "confirmMessage": "Are you sure you want to remove the bot from your channel?\nExisting logs will be removed."
             },
             "commands": {
                 "title": "Custom commands",
@@ -2345,7 +2337,6 @@
                 "announcements": "Channel announcements",
                 "streamers": "Streamer notifications",
                 "streamersDescription": "Get told when a specific streamer goes live, changes title, bans someone or updates emotes.",
-                "userNotFound": "Could not find that user",
                 "removePing": "Remove ping for {name}",
                 "verboseLiveMsg": "Include title and category in live messages",
                 "addStreamer": "Add a streamer…",

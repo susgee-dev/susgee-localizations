@@ -1844,7 +1844,6 @@
                 "vod": "VOD",
                 "link": "Link",
                 "logs": "Logs",
-                "error": "Beim Laden der Bans ist ein Fehler aufgetreten.",
                 "itemsLabel": "Bans",
                 "findVod": "VOD suchen",
                 "searchingVod": "Suche…",
@@ -1965,9 +1964,6 @@
                 "searchLabel": "Bibel durchsuchen",
                 "searchPlaceholder": "Bibel durchsuchen...",
                 "confirmDelete": "Willst du diesen Bibel-Eintrag wirklich löschen?",
-                "genericError": "Ein Fehler ist aufgetreten",
-                "fetchError": "Beim Laden der Bibel-Einträge ist ein Fehler aufgetreten",
-                "deleteError": "Beim Löschen des Bibel-Eintrags ist ein Fehler aufgetreten",
                 "empty": "Keine Bibel-Einträge für deine Suche gefunden.",
                 "itemsLabel": "Einträge"
             },
@@ -1999,8 +1995,6 @@
             "saved": "Gespeichert",
             "saving": "Speichert…",
             "couldNotSave": "Konnte nicht speichern",
-            "confirm": "Bestätigen",
-            "confirmAction": "Aktion bestätigen",
             "goHome": "Zur Startseite",
             "tryAgain": "Nochmal versuchen",
             "items": "Einträge",
@@ -2152,7 +2146,6 @@
                 "button": "Channel beitreten",
                 "joining": "Tritt bei…",
                 "modRequired": "Susgeebot braucht Moderator-Rechte. Benutze <code>/mod Susgeebot</code> in <link>deinem Channel</link> und versuch es dann nochmal.",
-                "failed": "Der Bot konnte dem Channel nicht beitreten. Bitte versuch es nochmal.",
                 "loggingOnly": "Susgeebot loggt diesen Channel im Moment nur. Verbinde ihn, damit Commands und Benachrichtigungen funktionieren.",
                 "adminHint": "Der Owner muss Susgeebot zum Mod machen. Als Admin kannst du den Channel nur loggen.",
                 "admin": {
@@ -2231,8 +2224,7 @@
                 "button": "Channel verlassen",
                 "parting": "Verlässt Channel…",
                 "confirmTitle": "Channel verlassen",
-                "confirmMessage": "Willst du den Bot wirklich aus deinem Channel entfernen?\nBestehende Logs werden gelöscht.",
-                "failed": "Der Bot konnte den Channel nicht verlassen"
+                "confirmMessage": "Willst du den Bot wirklich aus deinem Channel entfernen?\nBestehende Logs werden gelöscht."
             },
             "commands": {
                 "title": "Custom Commands",
@@ -2345,7 +2337,6 @@
                 "announcements": "Channel-Ankündigungen",
                 "streamers": "Streamer-Benachrichtigungen",
                 "streamersDescription": "Erfahre, wenn ein bestimmter Streamer live geht, den Titel ändert, jemanden bannt oder Emotes aktualisiert.",
-                "userNotFound": "Dieser User wurde nicht gefunden",
                 "removePing": "Ping für {name} entfernen",
                 "verboseLiveMsg": "Titel und Kategorie in Live-Nachrichten anzeigen",
                 "addStreamer": "Streamer hinzufügen…",
