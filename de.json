@@ -400,7 +400,8 @@
         "currentSettings": "Aktuelle Einstellungen: {output}",
         "invalidSetting": "susgeeDank Ungültige Einstellung. Erlaubte Einstellungen: {settings}",
         "settingSet": "susgeeOK Einstellung '{setting}' wurde auf {value} gesetzt.",
-        "settingChanged": "susgeeOK Einstellung '{setting}' wurde auf {value} geändert."
+        "settingChanged": "susgeeOK Einstellung '{setting}' wurde auf {value} geändert.",
+        "invalidValue": "susgeeDank Ungültiger Wert für '{setting}'."
     },
     "chat": {
         "noData": "Keine Daten zum angegebenen User",
@@ -2345,7 +2346,12 @@
                 "removeSubscription": "{type} für {name} entfernen",
                 "addFor": "Streamer für {type} hinzufügen",
                 "search": "Streamer suchen…",
-                "showMore": "Mehr anzeigen ({shown} von {total})"
+                "showMore": "Mehr anzeigen ({shown} von {total})",
+                "whenLive": "Benachrichtigungen senden, während ich live bin",
+                "whenLiveHint": "Aus: solange dein Stream läuft, wird nichts gepostet. Deine eigene Live-Nachricht geht trotzdem raus.",
+                "liveMessage": "Live-Nachricht",
+                "liveMessageHint": "Leer nimmt den Standardtext. Mit eigenem Text gelten die zwei Schalter darunter nicht mehr.",
+                "includeLink": "Link zum Channel anhängen"
             },
             "metaChannel": "Dashboard von {name}",
             "metaAlerts": "Events von {name}"
@@ -2566,12 +2572,13 @@
                 "botMode": {
                     "invalid": "Der Bot-Modus muss einer von diesen sein: {modes}."
                 },
-                "liveMsgEmote": {
-                    "invalid": "Das Live-Emote muss ein einzelnes Wort sein."
-                },
                 "optOut": {
                     "list": "{field} muss eine Liste von Command-Namen sein.",
                     "unknown": "Von \"{command}\" kannst du dich nicht ausschliessen."
+                },
+                "liveMessage": {
+                    "tooLong": "Die Live-Nachricht darf höchstens {limit} Zeichen lang sein.",
+                    "unknownVariable": "Unbekannte Variable {variable}. Verfügbar: {variables}"
                 }
             },
             "autoPresence": {

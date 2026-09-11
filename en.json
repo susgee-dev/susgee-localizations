@@ -400,7 +400,8 @@
         "currentSettings": "Current settings: {output}",
         "invalidSetting": "susgeeDank Invalid setting. Allowed settings: {settings}",
         "settingSet": "susgeeOK setting '{setting}' set to {value}.",
-        "settingChanged": "susgeeOK setting '{setting}' changed to {value}."
+        "settingChanged": "susgeeOK setting '{setting}' changed to {value}.",
+        "invalidValue": "susgeeDank Invalid value for '{setting}'."
     },
     "chat": {
         "noData": "i have no data from this user",
@@ -2345,7 +2346,12 @@
                 "removeSubscription": "Remove {type} for {name}",
                 "addFor": "Add a streamer for {type}",
                 "search": "Search streamers…",
-                "showMore": "Show more ({shown} of {total})"
+                "showMore": "Show more ({shown} of {total})",
+                "whenLive": "Send notifications while I am live",
+                "whenLiveHint": "Off: nothing is posted while your stream runs. Your own live message still goes out.",
+                "liveMessage": "Live message",
+                "liveMessageHint": "Empty uses the default text. With your own text the two switches below no longer apply.",
+                "includeLink": "Include a link to the channel"
             },
             "metaChannel": "{name}'s dashboard",
             "metaAlerts": "Events for {name}"
@@ -2566,12 +2572,13 @@
                 "botMode": {
                     "invalid": "The bot mode must be one of: {modes}."
                 },
-                "liveMsgEmote": {
-                    "invalid": "The live emote must be a single word."
-                },
                 "optOut": {
                     "list": "{field} must be a list of command names.",
                     "unknown": "You cannot opt out of \"{command}\"."
+                },
+                "liveMessage": {
+                    "tooLong": "The live message may be at most {limit} characters.",
+                    "unknownVariable": "Unknown variable {variable}. Available: {variables}"
                 }
             },
             "autoPresence": {
