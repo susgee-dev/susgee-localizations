@@ -1955,7 +1955,6 @@
             "seventv": {
                 "metaTitle": "7TV-Editor-Rechte",
                 "title": "7TV-Editoren",
-                "description": "Liste aller 7TV-Accounts mit Editor-Rechten",
                 "editorOf": "Editor von <count>{count}</count> Channels:"
             },
             "bible": {
@@ -2020,7 +2019,8 @@
             "navigation": "Navigation",
             "openMenu": "Navigationsmenü öffnen",
             "home": "Susgee Startseite",
-            "language": "Sprache"
+            "language": "Sprache",
+            "admin": "Admin"
         },
         "errors": {
             "badRequest": {
@@ -2632,6 +2632,71 @@
                 "dateInvalid": "Dieses Datum gibt es nicht.",
                 "exists": "Dieser Geburtstag ist für {user} schon gespeichert.",
                 "notFound": "Keinen solchen Geburtstag für {user}."
+            },
+            "suggestion": {
+                "actionInvalid": "Unbekannte Aktion.",
+                "notFound": "Diesen Vorschlag gibt es nicht mehr."
+            },
+            "error": {
+                "notFound": "Diesen Fehler gibt es nicht mehr."
+            },
+            "bottiesBan": {
+                "loginMissing": "Kein Username angegeben.",
+                "userNotFound": "User \"{login}\" nicht gefunden.",
+                "admin": "Admins kannst du nicht bannen.",
+                "exists": "\"{login}\" ist schon gebannt.",
+                "notFound": "Dieser User ist nicht gebannt."
+            }
+        },
+        "admin": {
+            "metaTitle": "Admin",
+            "title": "Admin",
+            "tiles": {
+                "seventv": "Channels mit 7TV-Editor",
+                "channels": "Channels gejoint",
+                "channelsHint": "{lurked} nur gelurkt, {total} gesamt",
+                "suggestions": "Offene Vorschläge",
+                "errors": "Fehler in 24 Stunden",
+                "botties": "Botties-Bans"
+            },
+            "suggestions": {
+                "title": "Vorschläge",
+                "empty": "Keine Vorschläge.",
+                "by": "von {user} in #{channel}",
+                "pending": "offen",
+                "approved": "angenommen",
+                "approve": "Annehmen",
+                "finish": "Erledigt",
+                "delete": "Vorschlag {id} löschen"
+            },
+            "errors": {
+                "title": "Fehler",
+                "empty": "Keine Fehler.",
+                "delete": "Fehler {id} löschen"
+            },
+            "channels": {
+                "title": "Channels",
+                "search": "Login suchen…",
+                "joined": "gejoint",
+                "lurked": "nur gelurkt",
+                "live": "live",
+                "logging": "logging",
+                "unknown": "{login} kennt der Bot nicht. Trotzdem öffnen, um ihn als Logging zu joinen.",
+                "open": "Öffnen"
+            },
+            "botties": {
+                "title": "Botties-Bans",
+                "empty": "Niemand ist gebannt.",
+                "ban": "Bannen",
+                "placeholder": "Username…",
+                "unban": "{name} entbannen"
+            },
+            "bot": {
+                "uptime": "Läuft seit",
+                "since": "Start {date}",
+                "lastError": "Letzter Fehler",
+                "ago": "vor {delta|time(largest|1)}",
+                "noErrors": "keiner"
             }
         }
     },
