@@ -2252,7 +2252,6 @@
                 "responsePlaceholder": "What the bot should reply",
                 "cooldown": "Cooldown (seconds)",
                 "required": "Name and response are required",
-                "saveFailed": "Could not save that command",
                 "aliases": "Aliases",
                 "aliasesPlaceholder": "type an alias, press Enter to add",
                 "permission": "Who may use it",
@@ -2262,8 +2261,6 @@
                     "2": "Moderator",
                     "4": "Broadcaster"
                 },
-                "reply": "Send as a reply",
-                "action": "Send as /me",
                 "sections": {
                     "general": "General",
                     "aliases": "Aliases",
@@ -2298,7 +2295,6 @@
                     "enabled": "A disabled command stays saved but does not answer",
                     "public": "Public commands are listed on your public command page"
                 },
-                "onlyLive": "Only while the stream is live",
                 "count": "Counter",
                 "linked": "Runs {name} from {channel}",
                 "linkedBroken": "The command this points at was deleted",

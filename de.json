@@ -2252,7 +2252,6 @@
                 "responsePlaceholder": "Was der Bot antworten soll",
                 "cooldown": "Cooldown (Sekunden)",
                 "required": "Name und Antwort sind Pflicht",
-                "saveFailed": "Der Command konnte nicht gespeichert werden",
                 "aliases": "Aliase",
                 "aliasesPlaceholder": "Alias tippen, Enter zum Hinzufügen",
                 "permission": "Wer darf ihn benutzen",
@@ -2262,8 +2261,6 @@
                     "2": "Moderator",
                     "4": "Broadcaster"
                 },
-                "reply": "Als Antwort senden",
-                "action": "Als /me senden",
                 "sections": {
                     "general": "Allgemein",
                     "aliases": "Aliase",
@@ -2298,7 +2295,6 @@
                     "enabled": "Ein deaktivierter Command bleibt gespeichert, antwortet aber nicht",
                     "public": "Öffentliche Commands stehen auf deiner öffentlichen Command-Seite"
                 },
-                "onlyLive": "Nur wenn der Stream live ist",
                 "count": "Zähler",
                 "linked": "Führt {name} von {channel} aus",
                 "linkedBroken": "Der verknüpfte Command wurde gelöscht",
