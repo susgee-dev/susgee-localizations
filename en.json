@@ -2354,7 +2354,18 @@
                 "includeLink": "Include a link to the channel"
             },
             "metaChannel": "{name}'s dashboard",
-            "metaAlerts": "Events for {name}"
+            "metaAlerts": "Events for {name}",
+            "birthdays": {
+                "title": "Birthdays",
+                "description": "On these days Susgeebot congratulates in your chat, as long as birthday messages are on. Same as ?birthday in chat.",
+                "empty": "No birthdays stored yet.",
+                "add": "Add",
+                "login": "Username",
+                "day": "Day",
+                "month": "Month",
+                "remove": "Remove the birthday of {name}",
+                "date": "{day}.{month}."
+            }
         },
         "settings": {
             "metaTitle": "Settings",
@@ -2396,6 +2407,14 @@
                 "atInChannel": "{name} in #{channel}, {date}",
                 "delete": "Delete reminder {id}",
                 "empty": "No pending reminders."
+            },
+            "blocks": {
+                "title": "Blocked users",
+                "description": "These users cannot target you with commands like ?remind or ?hug. Same as ?block in chat.",
+                "empty": "You have not blocked anyone.",
+                "add": "Block",
+                "placeholder": "Username…",
+                "remove": "Unblock {name}"
             }
         },
         "guide": {
@@ -2598,6 +2617,19 @@
                 "idMissing": "No bible ID given.",
                 "idInvalid": "The bible ID must be a positive number.",
                 "notFound": "There is no bible entry with ID {id}."
+            },
+            "block": {
+                "loginMissing": "No username given.",
+                "userNotFound": "User \"{login}\" not found.",
+                "self": "You cannot block yourself.",
+                "exists": "\"{login}\" is already blocked.",
+                "notFound": "This user is not blocked."
+            },
+            "birthday": {
+                "loginMissing": "No username given.",
+                "dateInvalid": "That date does not exist.",
+                "exists": "That birthday is already stored for {user}.",
+                "notFound": "No such birthday for {user}."
             }
         }
     },

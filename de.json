@@ -2354,7 +2354,18 @@
                 "includeLink": "Link zum Channel anhängen"
             },
             "metaChannel": "Dashboard von {name}",
-            "metaAlerts": "Events von {name}"
+            "metaAlerts": "Events von {name}",
+            "birthdays": {
+                "title": "Geburtstage",
+                "description": "An diesen Tagen gratuliert Susgeebot in deinem Chat, solange Geburtstagsnachrichten an sind. Dasselbe wie ?birthday im Chat.",
+                "empty": "Noch keine Geburtstage gespeichert.",
+                "add": "Hinzufügen",
+                "login": "Username",
+                "day": "Tag",
+                "month": "Monat",
+                "remove": "Geburtstag von {name} entfernen",
+                "date": "{day}.{month}."
+            }
         },
         "settings": {
             "metaTitle": "Einstellungen",
@@ -2396,6 +2407,14 @@
                 "atInChannel": "{name} in #{channel}, {date}",
                 "delete": "Reminder {id} löschen",
                 "empty": "Keine offenen Reminder."
+            },
+            "blocks": {
+                "title": "Blockierte User",
+                "description": "Diese User können dich nicht mit Commands wie ?remind oder ?hug treffen. Dasselbe wie ?block im Chat.",
+                "empty": "Du hast niemanden blockiert.",
+                "add": "Blockieren",
+                "placeholder": "Username…",
+                "remove": "{name} entblocken"
             }
         },
         "guide": {
@@ -2598,6 +2617,19 @@
                 "idMissing": "Keine Bibel-ID angegeben.",
                 "idInvalid": "Die Bibel-ID muss eine positive Zahl sein.",
                 "notFound": "Es gibt keinen Bibel-Eintrag mit der ID {id}."
+            },
+            "block": {
+                "loginMissing": "Kein Username angegeben.",
+                "userNotFound": "User \"{login}\" nicht gefunden.",
+                "self": "Dich selbst kannst du nicht blockieren.",
+                "exists": "\"{login}\" ist schon blockiert.",
+                "notFound": "Dieser User ist nicht blockiert."
+            },
+            "birthday": {
+                "loginMissing": "Kein Username angegeben.",
+                "dateInvalid": "Dieses Datum gibt es nicht.",
+                "exists": "Dieser Geburtstag ist für {user} schon gespeichert.",
+                "notFound": "Keinen solchen Geburtstag für {user}."
             }
         }
     },
