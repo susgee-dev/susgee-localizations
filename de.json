@@ -59,7 +59,6 @@
         "names": {
             "7tv": "(7TV) Emote-Updates",
             "banMsg": "Ban-Updates",
-            "birthdayMsg": "Geburtstagsnachrichten",
             "command": "Command {command}",
             "updateMsg": "Titel-/Kategorie-Updates"
         },
@@ -1093,7 +1092,7 @@
             "description": "Fügt einen Geburtstag hinzu oder entfernt ihn aus der Datenbank"
         },
         "birthdayMsg": {
-            "description": "Schaltet Geburtstagsankündigungen ein oder aus"
+            "description": "zeigt auf das Dashboard des Channels, dort werden Geburtstagsmeldungen eingestellt"
         },
         "birthdays": {
             "description": "Sendet alle Geburtstage aus der Datenbank für den aktuellen Channel"

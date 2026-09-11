@@ -59,7 +59,6 @@
         "names": {
             "7tv": "(7TV) emote updates",
             "banMsg": "ban updates",
-            "birthdayMsg": "birthday messages",
             "command": "command {command}",
             "updateMsg": "title/category updates"
         },
@@ -1093,7 +1092,7 @@
             "description": "adds a birthday to the database or removes it"
         },
         "birthdayMsg": {
-            "description": "enables/disables birthday announcements"
+            "description": "points to the channel dashboard, where birthday messages are set up"
         },
         "birthdays": {
             "description": "returns all stored birthdays in the current channel"
