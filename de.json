@@ -872,8 +872,8 @@
         "sub": "$(user) hat einen $(tier) Sub für $(months) Monat(e) abgeschlossen sheCrazy",
         "resub": "$(user) hat den $(tier) Sub erneuert - insgesamt schon $(months) Monat(e) dabei sheCrazy",
         "gift": "$(user) verschenkt $(count) Sub(s)!! sheCrazy insgesamt $(total) Sub(s) verschenkt!",
-        "bitsBadgeTier": "$(user) hat gerade das $(tier)-Bits-Badge freigeschaltet sheCrazy",
-        "raid": "$(user) raidet mit $(viewers) Zuschauer(n) sheCrazy"
+        "raid": "$(user) raidet mit $(viewers) Zuschauer(n) sheCrazy",
+        "bits": "$(user) hat $(bits) Bits gecheert, danke sheCrazy"
     },
     "subinfo": {
         "noEntries": "Im Channel {channel|antiPing} wurden {delta|include} keine Subs verteilt",
@@ -2181,21 +2181,22 @@
                 "description": "Susgeebot meldet Subs, Geschenke, Bits-Badges und Raids in deinem Chat. Leere Nachricht heisst Standardtext.",
                 "affiliateOnly": "Events gibt es für Affiliate- und Partner-Channels.",
                 "minValue": {
-                    "raid": "Ab so vielen Zuschauern"
+                    "raid": "Ab so vielen Zuschauern",
+                    "bits": "Ab so vielen Bits"
                 },
                 "types": {
                     "sub": "Neue Subs",
                     "resub": "Resubs",
                     "gift": "Verschenkte Subs",
-                    "bits_badge_tier": "Bits-Badges",
-                    "raid": "Raids"
+                    "raid": "Raids",
+                    "bits": "Bits"
                 },
                 "hints": {
                     "sub": "Jemand subscribt zum ersten Mal",
                     "resub": "Jemand erneuert den Sub",
                     "gift": "Jemand verschenkt einen oder mehrere Subs",
-                    "bits_badge_tier": "Jemand schaltet ein neues Bits-Badge frei",
-                    "raid": "Ein anderer Channel raidet deinen"
+                    "raid": "Ein anderer Channel raidet deinen",
+                    "bits": "Jemand cheert Bits"
                 },
                 "message": "Nachricht für {type}",
                 "variables": "Variablen",
@@ -2204,7 +2205,8 @@
                 "defaultText": "Standardtext",
                 "useDefault": "Standardtext verwenden",
                 "from": {
-                    "raid": "ab {value} Zuschauern"
+                    "raid": "ab {value} Zuschauern",
+                    "bits": "ab {value} Bits"
                 }
             },
             "ambassadors": {

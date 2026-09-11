@@ -872,8 +872,8 @@
         "sub": "$(user) subscribed with a $(tier) sub for $(months) month(s) sheCrazy",
         "resub": "$(user) renewed the $(tier) sub - subscribed for $(months) month(s) sheCrazy",
         "gift": "$(user) is gifting $(count) sub(s)!! sheCrazy $(total) sub(s) gifted in total!",
-        "bitsBadgeTier": "$(user) just unlocked the $(tier) Bits badge sheCrazy",
-        "raid": "$(user) is raiding with $(viewers) viewer(s) sheCrazy"
+        "raid": "$(user) is raiding with $(viewers) viewer(s) sheCrazy",
+        "bits": "$(user) cheered $(bits) bits, thank you sheCrazy"
     },
     "subinfo": {
         "noEntries": "No subs were distributed in the {channel|antiPing} channel {delta|include}",
@@ -2181,21 +2181,22 @@
                 "description": "Susgeebot announces subs, gifts, Bits badges and raids in your chat. Leave a message empty to use the default text.",
                 "affiliateOnly": "Events are available for affiliate and partner channels.",
                 "minValue": {
-                    "raid": "From this many viewers"
+                    "raid": "From this many viewers",
+                    "bits": "From this many bits"
                 },
                 "types": {
                     "sub": "New subs",
                     "resub": "Resubs",
                     "gift": "Gifted subs",
-                    "bits_badge_tier": "Bits badges",
-                    "raid": "Raids"
+                    "raid": "Raids",
+                    "bits": "Bits"
                 },
                 "hints": {
                     "sub": "Someone subscribes for the first time",
                     "resub": "Someone renews their sub",
                     "gift": "Someone gifts one or more subs",
-                    "bits_badge_tier": "Someone unlocks a new Bits badge",
-                    "raid": "Another channel raids yours"
+                    "raid": "Another channel raids yours",
+                    "bits": "Someone cheers bits"
                 },
                 "message": "Message for {type}",
                 "variables": "Variables",
@@ -2204,7 +2205,8 @@
                 "defaultText": "Default text",
                 "useDefault": "Use default text",
                 "from": {
-                    "raid": "from {value} viewers"
+                    "raid": "from {value} viewers",
+                    "bits": "from {value} bits"
                 }
             },
             "ambassadors": {
