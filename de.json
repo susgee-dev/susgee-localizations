@@ -694,12 +694,16 @@
         "notSubscribed": "susgeeDank {type|include} ist hier nicht abonniert",
         "unsubscribed": "susgeeOK {type|include} abbestellt",
         "onlyMod": "susgeeDank Nur Mods können die Abos dieses Channels ändern",
-        "noPersonal": "susgeeDank {type|include} kennt keine persönliche Anmeldung. Ein Mod kann sie mit {prefix}notify für den ganzen Channel aktivieren",
         "onlyPersonal": "susgeeDank {type|include} gibt es nur persönlich, nimm {prefix}pingme",
         "noChannelSubscription": "susgeeDank {type|include} für {channel|antiPing} sind hier nicht aktiviert. Ein Mod kann sie mit {prefix}notify {command} {channel|antiPing} aktivieren",
+        "noGlobalSubscription": "susgeeDank {type|include} sind hier nicht aktiviert. Ein Mod kann sie mit {prefix}notify {command} aktivieren",
         "ping": {
             "enabled": "susgeeOK Ich pinge dich bei {type|include} von {channel|antiPing}",
             "disabled": "susgeeOK Ich pinge dich nicht mehr bei {type|include} von {channel|antiPing}"
+        },
+        "globalPing": {
+            "enabled": "susgeeOK Ich pinge dich bei {type|include}",
+            "disabled": "susgeeOK Ich pinge dich nicht mehr bei {type|include}"
         },
         "replaced": "susgeeDank Dieser Command macht nichts mehr. Nimm stattdessen {command} susgeePoint {docs}",
         "names": {
@@ -2203,7 +2207,8 @@
             "ambassadors": {
                 "title": "Ambassadors",
                 "description": "Erlaube vertrauten Usern, deine Channel-Einstellungen zu verwalten.",
-                "readOnly": "Nur der Channel-Inhaber kann diese Liste ändern.",
+                "readOnly": "Nur der Channel-Inhaber kann diese Liste ändern. Dich selbst kannst du entfernen.",
+                "leave": "Mich als Ambassador entfernen",
                 "add": "Ambassador hinzufügen",
                 "empty": "Noch keine Ambassadors",
                 "remove": "{name} entfernen",
@@ -2450,7 +2455,6 @@
                 },
                 "personal": {
                     "yes": "ja",
-                    "no": "nein",
                     "only": "nur"
                 },
                 "rows": {
@@ -2538,7 +2542,6 @@
             "nothingToUpdate": "Nichts zu aktualisieren.",
             "notification": {
                 "unknownType": "Unbekannter Benachrichtigungstyp \"{type}\".",
-                "noPings": "\"{type}\" hat keine Pings.",
                 "pingOnly": "\"{type}\" gibt es nur als Ping.",
                 "targetRequired": "\"{type}\" braucht einen Ziel-Channel.",
                 "noTarget": "\"{type}\" hat kein Ziel.",
@@ -2546,7 +2549,7 @@
                 "userInvalid": "Der User muss eine numerische User-ID sein.",
                 "alreadySubscribed": "Dieser Channel hat das schon abonniert.",
                 "notSubscribed": "Dieser Channel hat das nicht abonniert.",
-                "notSubscribedTarget": "Dieser Channel hat {type} für dieses Ziel nicht abonniert.",
+                "notSubscribedTarget": "Dieser Channel hat {type} nicht abonniert.",
                 "targetNotFound": "Ziel-User nicht gefunden.",
                 "bansNeedLogging": "Ban-Benachrichtigungen gibt es nur für Channels, die der Bot loggt."
             },
