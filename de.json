@@ -2335,7 +2335,6 @@
             "notifications": {
                 "announcements": "Channel-Ankündigungen",
                 "streamers": "Streamer-Benachrichtigungen",
-                "streamersDescription": "Erfahre, wenn ein bestimmter Streamer live geht, den Titel ändert, jemanden bannt oder Emotes aktualisiert.",
                 "removePing": "Ping für {name} entfernen",
                 "verboseLiveMsg": "Titel und Kategorie in Live-Nachrichten anzeigen",
                 "addStreamer": "Streamer hinzufügen…",
@@ -2348,7 +2347,8 @@
                 "whenLive": "Benachrichtigungen senden, während ich live bin",
                 "whenLiveHint": "Aus: solange dein Stream läuft, wird nichts gepostet. Deine eigene Live-Nachricht geht trotzdem raus.",
                 "liveMessage": "Live-Nachricht",
-                "liveMessageHint": "Leer nimmt den Standardtext. Mit eigenem Text gelten die zwei Schalter darunter nicht mehr.",
+                "liveMessageDescription": "Wird gepostet, wenn ein Streamer aus „Live & offline“ live geht.",
+                "liveMessageHint": "Variablen:",
                 "includeLink": "Link zum Channel anhängen"
             },
             "metaChannel": "Dashboard von {name}",

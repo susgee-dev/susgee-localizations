@@ -2335,7 +2335,6 @@
             "notifications": {
                 "announcements": "Channel announcements",
                 "streamers": "Streamer notifications",
-                "streamersDescription": "Get told when a specific streamer goes live, changes title, bans someone or updates emotes.",
                 "removePing": "Remove ping for {name}",
                 "verboseLiveMsg": "Include title and category in live messages",
                 "addStreamer": "Add a streamer…",
@@ -2348,7 +2347,8 @@
                 "whenLive": "Send notifications while I am live",
                 "whenLiveHint": "Off: nothing is posted while your stream runs. Your own live message still goes out.",
                 "liveMessage": "Live message",
-                "liveMessageHint": "Empty uses the default text. With your own text the two switches below no longer apply.",
+                "liveMessageDescription": "Posted when a streamer from “Live & offline” goes live.",
+                "liveMessageHint": "Variables:",
                 "includeLink": "Include a link to the channel"
             },
             "metaChannel": "{name}'s dashboard",
