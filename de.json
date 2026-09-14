@@ -2383,7 +2383,7 @@
                 "empty": "Noch keine Einträge.",
                 "noMatch": "Kein Eintrag passt zu diesem Filter.",
                 "loadMore": "Ältere laden",
-                "change": "{field}: {before} → {after}",
+                "change": "{field}: von {before} zu {after}",
                 "fields": {
                     "botMode": "Bot-Modus",
                     "message": "Nachricht",
