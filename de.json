@@ -2097,7 +2097,8 @@
             "unsubscribe": "Die Benachrichtigung konnte nicht ausgeschaltet werden.",
             "addPing": "Der Ping konnte nicht hinzugefügt werden.",
             "saveAlert": "Der Alert konnte nicht gespeichert werden.",
-            "removeAlert": "Der Alert konnte nicht deaktiviert werden."
+            "removeAlert": "Der Alert konnte nicht deaktiviert werden.",
+            "loadAudit": "Der Verlauf konnte nicht geladen werden."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -2112,7 +2113,8 @@
                 "commands": "Commands",
                 "alerts": "Events",
                 "notifications": "Benachrichtigungen",
-                "joinFirst": "Verfügbar, sobald Susgeebot diesem Channel beigetreten ist"
+                "joinFirst": "Verfügbar, sobald Susgeebot diesem Channel beigetreten ist",
+                "audit": "Verlauf"
             },
             "selector": {
                 "label": "Channel",
@@ -2363,6 +2365,99 @@
                 "month": "Monat",
                 "remove": "Geburtstag von {name} entfernen",
                 "date": "{day}.{month}."
+            },
+            "metaAudit": "Verlauf von {name}",
+            "audit": {
+                "title": "Verlauf",
+                "description": "Wer hat wann was geändert, im Dashboard oder im Chat.",
+                "filters": {
+                    "all": "Alle",
+                    "commands": "Commands",
+                    "alerts": "Events",
+                    "notifications": "Benachrichtigungen",
+                    "settings": "Einstellungen"
+                },
+                "persons": "Alle Personen",
+                "bot": "Susgeebot",
+                "viaChat": "im Chat",
+                "empty": "Noch keine Einträge.",
+                "noMatch": "Kein Eintrag passt zu diesem Filter.",
+                "loadMore": "Ältere laden",
+                "change": "{field}: {before} → {after}",
+                "fields": {
+                    "botMode": "Bot-Modus",
+                    "message": "Nachricht",
+                    "minValue": "Schwelle",
+                    "enabled": "Aktiv",
+                    "public": "Öffentlich",
+                    "permission": "Berechtigung",
+                    "reply": "Als Antwort",
+                    "action": "Als /me",
+                    "liveState": "Antwortet"
+                },
+                "values": {
+                    "on": "an",
+                    "off": "aus",
+                    "empty": "leer",
+                    "defaultText": "Standardtext",
+                    "quoted": "„{value}“",
+                    "botMode": {
+                        "0": "Bot deaktiviert",
+                        "1": "Standard",
+                        "3": "Nur 7TV"
+                    }
+                },
+                "actions": {
+                    "command": {
+                        "create": "Command {name} erstellt: {response}",
+                        "delete": "Command {name} gelöscht",
+                        "update": "Command {name} geändert: {changes}",
+                        "saved": "Command {name} gespeichert",
+                        "rename": "Command {before} in {after} umbenannt",
+                        "aliases": "Aliase von {name}: {aliases}",
+                        "aliasesCleared": "Alle Aliase von {name} entfernt",
+                        "link": "Command {name} mit {command} von {channel} verknüpft",
+                        "copy": "Command {name} von {channel} kopiert"
+                    },
+                    "builtin": {
+                        "enable": "{name} eingeschaltet",
+                        "disable": "{name} ausgeschaltet",
+                        "groupOn": "Gruppe {group} eingeschaltet: {commands}",
+                        "groupOff": "Gruppe {group} ausgeschaltet: {commands}"
+                    },
+                    "ambassadors": {
+                        "added": "Ambassador hinzugefügt: {names}",
+                        "removed": "Ambassador entfernt: {names}"
+                    },
+                    "alert": {
+                        "enabled": "Event {type} eingeschaltet",
+                        "set": "Event {type} geändert: {changes}",
+                        "remove": "Event {type} ausgeschaltet"
+                    },
+                    "notification": {
+                        "subscribe": "{type} eingeschaltet",
+                        "subscribeTarget": "{type} für {login} eingeschaltet",
+                        "unsubscribe": "{type} ausgeschaltet",
+                        "unsubscribeTarget": "{type} für {login} ausgeschaltet"
+                    },
+                    "ping": {
+                        "add": "Ping für {login} bei {type} hinzugefügt",
+                        "addTarget": "Ping für {login} bei {type} von {target} hinzugefügt",
+                        "remove": "Ping für {login} bei {type} entfernt",
+                        "removeTarget": "Ping für {login} bei {type} von {target} entfernt"
+                    },
+                    "birthday": {
+                        "add": "Geburtstag von {user} eingetragen: {date}",
+                        "remove": "Geburtstag von {user} entfernt"
+                    },
+                    "channel": {
+                        "join": "Susgeebot ist dem Channel beigetreten",
+                        "joinLogging": "Susgeebot loggt den Channel jetzt",
+                        "part": "Susgeebot hat den Channel verlassen",
+                        "rejoin": "Susgeebot ist dem Channel neu beigetreten",
+                        "downgrade": "Susgeebot auf Logging zurückgestuft: {reason}"
+                    }
+                }
             }
         },
         "settings": {

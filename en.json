@@ -2097,7 +2097,8 @@
             "unsubscribe": "Failed to disable the notification.",
             "addPing": "Failed to add the ping.",
             "saveAlert": "Failed to save the alert.",
-            "removeAlert": "Failed to disable the alert."
+            "removeAlert": "Failed to disable the alert.",
+            "loadAudit": "The history could not be loaded."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -2112,7 +2113,8 @@
                 "commands": "Commands",
                 "alerts": "Events",
                 "notifications": "Notifications",
-                "joinFirst": "Available once Susgeebot has joined this channel"
+                "joinFirst": "Available once Susgeebot has joined this channel",
+                "audit": "History"
             },
             "selector": {
                 "label": "Channel",
@@ -2363,6 +2365,99 @@
                 "month": "Month",
                 "remove": "Remove the birthday of {name}",
                 "date": "{day}.{month}."
+            },
+            "metaAudit": "History of {name}",
+            "audit": {
+                "title": "History",
+                "description": "Who changed what and when, in the dashboard or in chat.",
+                "filters": {
+                    "all": "All",
+                    "commands": "Commands",
+                    "alerts": "Events",
+                    "notifications": "Notifications",
+                    "settings": "Settings"
+                },
+                "persons": "Everyone",
+                "bot": "Susgeebot",
+                "viaChat": "in chat",
+                "empty": "No entries yet.",
+                "noMatch": "No entry matches this filter.",
+                "loadMore": "Load older",
+                "change": "{field}: {before} → {after}",
+                "fields": {
+                    "botMode": "Bot mode",
+                    "message": "Message",
+                    "minValue": "Threshold",
+                    "enabled": "Enabled",
+                    "public": "Public",
+                    "permission": "Permission",
+                    "reply": "As reply",
+                    "action": "As /me",
+                    "liveState": "Responds"
+                },
+                "values": {
+                    "on": "on",
+                    "off": "off",
+                    "empty": "empty",
+                    "defaultText": "default text",
+                    "quoted": "“{value}”",
+                    "botMode": {
+                        "0": "Bot disabled",
+                        "1": "Default",
+                        "3": "7TV only"
+                    }
+                },
+                "actions": {
+                    "command": {
+                        "create": "Command {name} created: {response}",
+                        "delete": "Command {name} deleted",
+                        "update": "Command {name} changed: {changes}",
+                        "saved": "Command {name} saved",
+                        "rename": "Command {before} renamed to {after}",
+                        "aliases": "Aliases of {name}: {aliases}",
+                        "aliasesCleared": "All aliases of {name} removed",
+                        "link": "Command {name} linked to {command} from {channel}",
+                        "copy": "Command {name} copied from {channel}"
+                    },
+                    "builtin": {
+                        "enable": "{name} enabled",
+                        "disable": "{name} disabled",
+                        "groupOn": "Group {group} enabled: {commands}",
+                        "groupOff": "Group {group} disabled: {commands}"
+                    },
+                    "ambassadors": {
+                        "added": "Ambassador added: {names}",
+                        "removed": "Ambassador removed: {names}"
+                    },
+                    "alert": {
+                        "enabled": "Event {type} enabled",
+                        "set": "Event {type} changed: {changes}",
+                        "remove": "Event {type} disabled"
+                    },
+                    "notification": {
+                        "subscribe": "{type} enabled",
+                        "subscribeTarget": "{type} for {login} enabled",
+                        "unsubscribe": "{type} disabled",
+                        "unsubscribeTarget": "{type} for {login} disabled"
+                    },
+                    "ping": {
+                        "add": "Ping for {login} on {type} added",
+                        "addTarget": "Ping for {login} on {type} from {target} added",
+                        "remove": "Ping for {login} on {type} removed",
+                        "removeTarget": "Ping for {login} on {type} from {target} removed"
+                    },
+                    "birthday": {
+                        "add": "Birthday of {user} added: {date}",
+                        "remove": "Birthday of {user} removed"
+                    },
+                    "channel": {
+                        "join": "Susgeebot joined the channel",
+                        "joinLogging": "Susgeebot now logs the channel",
+                        "part": "Susgeebot left the channel",
+                        "rejoin": "Susgeebot rejoined the channel",
+                        "downgrade": "Susgeebot downgraded to logging: {reason}"
+                    }
+                }
             }
         },
         "settings": {
