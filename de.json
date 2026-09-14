@@ -2502,7 +2502,8 @@
                 "notEditor": "Du darfst diesen Channel nicht verwalten."
             },
             "route": {
-                "notFound": "Diesen Endpunkt gibt es nicht."
+                "notFound": "Diesen Endpunkt gibt es nicht.",
+                "rateLimited": "Zu viele Anfragen, versuch es in {seconds} Sekunden nochmal."
             },
             "channel": {
                 "notJoined": "Der Bot ist nicht in diesem Channel.",

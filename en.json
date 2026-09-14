@@ -2502,7 +2502,8 @@
                 "notEditor": "You are not allowed to manage this channel."
             },
             "route": {
-                "notFound": "This endpoint does not exist."
+                "notFound": "This endpoint does not exist.",
+                "rateLimited": "Too many requests, try again in {seconds} seconds."
             },
             "channel": {
                 "notJoined": "The bot is not in this channel.",
