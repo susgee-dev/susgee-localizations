@@ -1,7 +1,0 @@
-{
-    "7tv": {
-        "badge": {
-            "active": "{active|plural(one|user has, other|users have)} this badge active"
-        }
-    }
-}
