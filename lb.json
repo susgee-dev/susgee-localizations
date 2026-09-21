@@ -1339,7 +1339,7 @@
             "description": "COCK WAVE"
         },
         "lang": {
-            "usage": "[de | en]",
+            "usage": "[de | en | es | ru | lb]",
             "description": "ännert d'sprooch vum bot am aktuellen kanal"
         },
         "lastLine": {

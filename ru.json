@@ -1339,7 +1339,7 @@
             "description": "ВОЛНА КОКА"
         },
         "lang": {
-            "usage": "[de | en]",
+            "usage": "[de | en | es | ru | lb]",
             "description": "меняет язык бота в текущем канале"
         },
         "lastLine": {
