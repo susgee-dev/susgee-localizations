@@ -1008,6 +1008,9 @@
             "usage": "<User>",
             "description": "Sucht einen User auf 7TV"
         },
+        "7tvlog": {
+            "description": "Zeigt die letzten 7TV-Emote-Änderungen im Channel"
+        },
         "8ball": {
             "usage": "<Message>",
             "description": "Antwortet auf deine Fragen"
@@ -1165,16 +1168,25 @@
             "description": "Deaktivieren/Aktivieren eines Befehls im aktuellen Channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | rename | alias | list | copy | link] <Name> <Command>",
+            "usage": "[add | remove | edit | rename | alias | list | copy | link | enable | disable | cooldown | public | permission | live | info] <Name> <Command>",
             "usages": {
                 "add": "<Name> <Command>",
                 "delete": "<Name>",
                 "copy": "<Channel> <Command1> [Command2 ...]",
                 "rename": "<Name> <neuer Name>",
                 "alias": "<Name> <Alias1, Alias2, ...>",
-                "link": "<Channel> <Command> [eigener Name]"
+                "link": "<Channel> <Command> [eigener Name]",
+                "enable": "<Name>",
+                "disable": "<Name>",
+                "cooldown": "<Name> <Sekunden>",
+                "public": "<Name> [on | off]",
+                "reply": "<Name> [on | off]",
+                "action": "<Name> [on | off]",
+                "permission": "<Name> [everyone | vip | mod | broadcaster]",
+                "live": "<Name> [always | online | offline]",
+                "info": "<Name>"
             },
-            "description": "Benutzerdefinierte Commands verwalten (hinzufügen, entfernen, aktualisieren, umbenennen, Aliase, auflisten, kopieren, verknüpfen)"
+            "description": "Benutzerdefinierte Commands verwalten (hinzufügen, entfernen, Settings, Aliase, kopieren, verknüpfen)"
         },
         "deleteSuggest": {
             "usage": "<ID>",
@@ -1286,8 +1298,8 @@
             "description": "Fragt ChatGPT etwas"
         },
         "help": {
-            "usage": "<Command>",
-            "description": "Bringt dich hierher"
+            "usage": "<Command | Kategorie>",
+            "description": "Zeigt Hilfe zu einem Command oder listet eine Kategorie"
         },
         "history": {
             "description": "Sendet den Link von recent-messages eines Channels"
@@ -1307,6 +1319,10 @@
         "isInChat": {
             "usage": "<User> <Channel>",
             "description": "Schaut, ob ein User im Chat ist"
+        },
+        "insights": {
+            "usage": "<User> <Channel>",
+            "description": "Zeigt Log-Insights eines Users in einem Channel (Wörter, Emotes, first/last seen)"
         },
         "kok": {
             "description": "COCK WAVE"
@@ -1344,6 +1360,10 @@
         "livePing": {
             "usage": "<Channel>",
             "description": "Pingt dich, wenn ein Streamer online geht"
+        },
+        "logSearch": {
+            "usage": "<Query> [@User] [#Channel]",
+            "description": "Sucht in den Channel-Logs nach einer Nachricht"
         },
         "logging": {
             "usage": "(<User>)",
@@ -1512,6 +1532,10 @@
         "seRank": {
             "usage": "<User> <Channel>",
             "description": "Zeigt dir deinen StreamElements-Rank in einem Channel an"
+        },
+        "seen": {
+            "usage": "<User> <Channel>",
+            "description": "Zeigt first/last seen und die Nachrichtenanzahl eines Users in einem Channel"
         },
         "short": {
             "usage": "<Url>",

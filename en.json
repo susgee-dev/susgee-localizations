@@ -1008,6 +1008,9 @@
             "usage": "<user>",
             "description": "searches for a user on 7TV"
         },
+        "7tvlog": {
+            "description": "shows recent 7TV emote changes in the channel"
+        },
         "8ball": {
             "usage": "<message>",
             "description": "answers your questions"
@@ -1165,16 +1168,25 @@
             "description": "enables/disables a command in the current channel"
         },
         "customCommand": {
-            "usage": "[add | remove | edit | rename | alias | list | copy | link] <name> <command>",
+            "usage": "[add | remove | edit | rename | alias | list | copy | link | enable | disable | cooldown | public | permission | live | info] <name> <command>",
             "usages": {
                 "add": "<name> <command>",
                 "delete": "<name>",
                 "copy": "<channel> <command1> [command2 ...]",
                 "rename": "<name> <new name>",
                 "alias": "<name> <alias1, alias2, ...>",
-                "link": "<channel> <command> [own name]"
+                "link": "<channel> <command> [own name]",
+                "enable": "<name>",
+                "disable": "<name>",
+                "cooldown": "<name> <seconds>",
+                "public": "<name> [on | off]",
+                "reply": "<name> [on | off]",
+                "action": "<name> [on | off]",
+                "permission": "<name> [everyone | vip | mod | broadcaster]",
+                "live": "<name> [always | online | offline]",
+                "info": "<name>"
             },
-            "description": "manages custom commands (add, remove, edit, rename, aliases, list, copy, link)"
+            "description": "manages custom commands (add, remove, settings, aliases, copy, link)"
         },
         "deleteSuggest": {
             "usage": "<id>",
@@ -1286,8 +1298,8 @@
             "description": "asks ChatGPT something"
         },
         "help": {
-            "usage": "<command>",
-            "description": "brings you here"
+            "usage": "<command | category>",
+            "description": "shows help for a command or lists a category"
         },
         "history": {
             "description": "sends a link to recent-messages of a channel"
@@ -1307,6 +1319,10 @@
         "isInChat": {
             "usage": "<user> <channel>",
             "description": "checks if a user is in a channel"
+        },
+        "insights": {
+            "usage": "<user> <channel>",
+            "description": "shows log insights for a user in a channel (words, emotes, first/last seen)"
         },
         "kok": {
             "description": "COCK WAVE"
@@ -1344,6 +1360,10 @@
         "livePing": {
             "usage": "<channel>",
             "description": "pings you when a streamer goes live"
+        },
+        "logSearch": {
+            "usage": "<query> [@user] [#channel]",
+            "description": "searches a user's logs in a channel"
         },
         "logging": {
             "usage": "(<user>)",
@@ -1512,6 +1532,10 @@
         "seRank": {
             "usage": "<user> <channel>",
             "description": "displays your rank in the StreamElements ranking"
+        },
+        "seen": {
+            "usage": "<user> <channel>",
+            "description": "shows first/last seen and message count of a user in a channel"
         },
         "short": {
             "usage": "<url>",
