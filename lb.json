@@ -578,6 +578,13 @@
         "true": "{user|antiPing} ass grade am kanal {channel|antiPing}",
         "false": "{user|antiPing} ass grade net am kanal {channel|antiPing}"
     },
+    "insights": {
+        "average": "Ø {length} Zeechen",
+        "words": "Wierder: {words}",
+        "emotes": "Emotes: {emotes}",
+        "timeouts": "{count|plural(one|Timeout, other|Timeouts)}",
+        "bans": "{count|plural(one|Ban, other|Bans)}"
+    },
     "language": {
         "changed": "susgeeOK sprooch ass elo lëtzebuergesch",
         "invalid": "aktuell sprooch ass lëtzebuergesch. disponibel sproochen: {languages}"
@@ -798,6 +805,10 @@
     "seRank": {
         "notFound": "{user|antiPing} ass net an den top 100 chattere vun {channel|antiPing}",
         "success": "{user|antiPing} ass plaz {rank} am StreamElements-ranking vun {channel|antiPing}"
+    },
+    "seen": {
+        "first": "éischt virun {delta|time}",
+        "last": "lëscht virun {delta|time}"
     },
     "split": {
         "usage": "susgeeDank d'noriicht muss mindestens {min} an maximal {max} wierder hunn"

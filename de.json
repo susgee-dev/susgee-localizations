@@ -578,6 +578,13 @@
         "true": "{user|antiPing} ist gerade im Channel {channel|antiPing}",
         "false": "{user|antiPing} ist gerade nicht im Channel {channel|antiPing}"
     },
+    "insights": {
+        "average": "Ø {length} Zeichen",
+        "words": "Wörter: {words}",
+        "emotes": "Emotes: {emotes}",
+        "timeouts": "{count|plural(one|Timeout, other|Timeouts)}",
+        "bans": "{count|plural(one|Ban, other|Bans)}"
+    },
     "language": {
         "changed": "susgeeOK Sprache ist jetzt Deutsch",
         "invalid": "Aktuelle Sprache ist Deutsch. Verfügbare Sprachen: {languages}"
@@ -798,6 +805,10 @@
     "seRank": {
         "notFound": "{user|antiPing} ist nicht in den Top 100 Chattern von {channel|antiPing}",
         "success": "{user|antiPing} ist Platz {rank} im StreamElements-Ranking von {channel|antiPing}"
+    },
+    "seen": {
+        "first": "zuerst vor {delta|time}",
+        "last": "zuletzt vor {delta|time}"
     },
     "split": {
         "usage": "susgeeDank Die Nachricht muss aus {min} bis {max} Wörtern bestehen"

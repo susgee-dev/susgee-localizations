@@ -578,6 +578,13 @@
         "true": "{user|antiPing} сейчас в канале {channel|antiPing}",
         "false": "{user|antiPing} сейчас не в канале {channel|antiPing}"
     },
+    "insights": {
+        "average": "Ø {length} символов",
+        "words": "слова: {words}",
+        "emotes": "эмоуты: {emotes}",
+        "timeouts": "{count|plural(one|таймаут, other|таймаутов)}",
+        "bans": "{count|plural(one|бан, other|банов)}"
+    },
     "language": {
         "changed": "susgeeOK язык теперь русский",
         "invalid": "сейчас язык русский. доступные языки: {languages}"
@@ -798,6 +805,10 @@
     "seRank": {
         "notFound": "{user|antiPing} нет в топ-100 чаттеров {channel|antiPing}",
         "success": "{user|antiPing} на {rank} месте в рейтинге StreamElements канала {channel|antiPing}"
+    },
+    "seen": {
+        "first": "впервые {delta|time} назад",
+        "last": "последний раз {delta|time} назад"
     },
     "split": {
         "usage": "susgeeDank в сообщении должно быть минимум {min} и максимум {max} слов"
