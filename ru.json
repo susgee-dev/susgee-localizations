@@ -1,251 +1,2836 @@
 {
+    "enabled": "включено",
+    "commandDisabled": "{user}, команду {command} в канале {channel} отключил модератор.",
+    "common": {
+        "delta": {
+            "date": "{date|date}",
+            "allTime": "за всё время",
+            "lastMonth": "прошлый месяц",
+            "lastWeek": "прошлая неделя",
+            "lastYear": "прошлый год",
+            "thisMonth": "этот месяц",
+            "thisWeek": "эта неделя",
+            "thisYear": "этот год",
+            "today": "сегодня",
+            "yesterday": "вчера"
+        },
+        "id": "id: {id}"
+    },
+    "error": {
+        "api": "susgeeDank ошибка API",
+        "banned": {
+            "channel": "susgeeDank канал {channel} забанен: {reason}"
+        },
+        "general": "susgeeDank произошла ошибка",
+        "invalidUrl": "susgeeDank некорректный url",
+        "notFound": {
+            "channel": "susgeeDank канал {channel} не найден",
+            "channelPlatform": "susgeeDank канал {channel|antiPing} не найден на {platform}",
+            "command": "susgeeDank команды {command} не существует",
+            "database": "susgeeDank канала {channel|antiPing} нет в моей базе",
+            "emote": "susgeeDank эмоут {emote} не является twitch-эмоутом",
+            "permission": "susgeeDank права {permission} не существует. доступные права: {permissions}",
+            "user": "susgeeDank пользователь {user} не найден",
+            "userPlatform": "susgeeDank пользователь {user|antiPing} не найден на {platform}",
+            "userOrBadge": "susgeeDank бейдж или пользователь не найдены",
+            "userOrPaint": "susgeeDank краска или пользователь не найдены"
+        },
+        "unknown": {
+            "category": "(нет категории)",
+            "title": "(нет названия)",
+            "user": "(неизвестный пользователь)",
+            "bio": "(нет био)"
+        },
+        "usage": "susgeeDank использование: {prefix}{command} {usage|include}",
+        "userOptOut": "susgeeDank этот пользователь отключил логирование"
+    },
+    "toggle": {
+        "are": {
+            "changed": "susgeeOK {type|include} теперь {state|include}"
+        },
+        "channel": {
+            "changed": "susgeeOK {type|include} для {channel|antiPing} теперь {state|include}"
+        },
+        "is": {
+            "changed": "susgeeOK {type|include} теперь {state|include}",
+            "notChanged": "susgeeDank {type|include} уже {state|include}",
+            "state": "{type|include} сейчас {state|include}"
+        },
+        "names": {
+            "7tv": "обновления эмоутов (7TV)",
+            "banMsg": "обновления банов",
+            "command": "команда {command}",
+            "updateMsg": "обновления названия/категории"
+        },
+        "ping": {
+            "disabled": "я больше не буду тебя пинговать",
+            "enabled": "я буду тебя пинговать"
+        },
+        "list": "Отключённые команды ({count}): {link}"
+    },
     "7tv": {
+        "dod": "(7TV) сейчас лежит, попробуй позже",
+        "badge": {
+            "active": "{active|plural(one|пользователь использует, other|пользователей используют)} этот бейдж",
+            "name": "бейдж: {badge}",
+            "none": "нет активного бейджа",
+            "owned": "{owned|plural(one|пользователь владеет, other|пользователей владеют)} этим бейджем",
+            "added": "добавлен {date|time} назад"
+        },
+        "editor": {
+            "added": "susgeeOK {user|antiPing} добавлен как редактор 7TV",
+            "bot": "susgeeDank меня не нужно добавлять как редактора",
+            "list": "susgeeOK в этом канале эти пользователи — редакторы (7TV) для этого бота: {editors}",
+            "noChanges": "susgeeDank ничего не изменилось",
+            "noEntries": "susgeeDank в этом канале нет редакторов (7TV) для этого бота",
+            "removed": "susgeeOK {user|antiPing} убран из редакторов 7tv",
+            "self": "susgeeDank себя добавлять как редактора не нужно"
+        },
+        "emote": {
+            "added": "susgeeOK добавлен эмоут {emote}",
+            "removed": "susgeeOK удалён эмоут {emote}",
+            "renamed": "susgeeOK {oldName} переименован в {newName}",
+            "replaced": "susgeeOK {oldEmote} заменён на {newEmote}",
+            "yoinked": "susgeeOK эмоут {emote} украден с {channel|antiPing}",
+            "fromChannel": "с канала {channel|antiPing}"
+        },
+        "emotes": {
+            "removed": "удалённые эмоуты: {emotes}",
+            "notRemoved": "не удалённые эмоуты: {emotes}",
+            "notFound": "не найденные эмоуты: {emotes}"
+        },
         "emoteSet": {
+            "capacity": "вместимость: {count|number} / {capacity|number}",
             "name": "Название: {name}"
         },
+        "emoteSets": {
+            "noEntries": "susgeeDank у {channel|antiPing} нет наборов эмоутов",
+            "success": "наборы эмоутов {channel|antiPing} susgeePoint {paste}"
+        },
+        "error": {
+            "unhandled": "susgeeDank произошла необработанная ошибка",
+            "rateLimit": "susgeeDank лимит запросов (7TV) исчерпан, попробуй чуть позже",
+            "emoteSetNotFound": "susgeeDank набор эмоутов не найден",
+            "userNotFound": "susgeeDank пользователь (7TV) не найден",
+            "emoteNotPublic": "susgeeDank эмоут сначала должен быть одобрен для публичного списка",
+            "emoteNotAllowedInPersonal": "susgeeDank этот эмоут нельзя добавить в личные наборы",
+            "tooManyPendingRequests": "susgeeDank слишком много ожидающих модераций (7TV), попробуй позже",
+            "notANormalSet": "susgeeDank это не обычный набор эмоутов, его нельзя активировать",
+            "noBotPermission": "susgeeDank у бота нет прав (7TV) для этого действия. https://7tv.app/settings/editors",
+            "apiError": "susgeeDank у (7TV) внутренняя ошибка, попробуй чуть позже",
+            "emoteIsPrivate": "susgeeDank эмоут {emote} приватный и его нельзя добавить",
+            "emoteNameTaken": "эмоут с именем {emote} уже есть",
+            "emoteNotFound": "susgeeDank эмоут {emote} не найден",
+            "emoteNotFoundInSet": "susgeeDank эмоут {emote} не найден в этом наборе",
+            "emoteLinkNotFound": "susgeeDank по этой ссылке эмоут не найден",
+            "noEmotesFoundToRemove": "susgeeDank нечего удалять",
+            "emoteSetFull": "susgeeDank эмоут не добавлен, набор уже полный",
+            "invalidName": "susgeeDank в имени эмоута есть символ, который (7TV) не разрешает",
+            "noAccount": "susgeeDank у канала {channel|antiPing} нет аккаунта (7TV)",
+            "noActiveEmoteSet": "susgeeDank у канала {channel|antiPing} нет активного набора эмоутов",
+            "noChannelPerms": "susgeeDank ты не редактор (7TV) этого бота в этом канале. @{streamer} может добавить тебя командой {prefix}7tveditor add {user}",
+            "noEditor": "susgeeDank Susgeebot не является редактором (7TV) этого канала. добавь меня на https://7tv.app/settings/editors",
+            "noEmoteSetCreation": "susgeeDank у бота нет права создавать новый набор эмоутов. https://7tv.app/settings/editors",
+            "noActiveEmoteSetChange": "susgeeDank у бота нет права менять активный набор эмоутов. https://7tv.app/settings/editors",
+            "privateEmote": "susgeeDank эмоут {emote} приватный и его нельзя добавить",
+            "ezGifError": "susgeeDank сейчас поддерживаются только ссылки на эмоуты с BTTV, 7TV и FFZ",
+            "cantStealFromSelf": "susgeeDank нельзя тырить свои же эмоуты",
+            "cantImportFromSelf": "susgeeDank нельзя импортировать свой собственный набор",
+            "alreadySynced": "susgeeDank синхронизировать нечего, набор уже такой же"
+        },
         "paint": {
-            "name": "Краска: {paint}"
+            "active": "{active|plural(one|пользователь использует, other|пользователей используют)} эту краску",
+            "name": "Краска: {paint}",
+            "none": "нет активной краски",
+            "owned": "{owned|plural(one|пользователь владеет, other|пользователей владеют)} этой краской",
+            "added": "добавлена {date|time} назад"
+        },
+        "presence": {
+            "error": "не удалось обновить присутствие (7TV)",
+            "success": "присутствие (7TV) обновлено"
         },
         "preview": "Предпросмотр: {link}",
+        "sub": {
+            "ended": "закончилась {delta|time} назад",
+            "ends": "закончится через {delta|time}",
+            "expired": "больше не подписан",
+            "giftedSub": "подарена {giftedBy|antiPing}",
+            "neverSubbed": "никогда не был подписан на (7TV)",
+            "nextBadge": "следующий бейдж \"{badge}\" {delta} ({percent}%)",
+            "nextBadgeInDays": "через {days|plural(one|день, other|дней)}",
+            "nextBadgeInHours": "через {hours|plural(one|час, other|часов)}",
+            "renews": "продлится через {delta|time}",
+            "since": "всего подписан {days|plural(one|день, other|дней)}",
+            "subscribedFor": "раньше был подписан {days|plural(one|день, other|дней)}"
+        },
+        "copySet": {
+            "success": "susgeeOK скопировано {count|plural(one|эмоут, other|эмоутов)} в https://7tv.app/emote-sets/{emoteSetId} и набор активирован",
+            "notActivated": "susgeeOK скопировано {count|plural(one|эмоут, other|эмоутов)} в https://7tv.app/emote-sets/{emoteSetId}, но активировать не вышло",
+            "notCopied": "не скопированные эмоуты: {emotes}"
+        },
+        "syncSet": {
+            "success": "susgeeOK успешно синхронизировано с набором https://7tv.app/emote-sets/{emoteSetId}",
+            "running": "susgeeDank этот канал уже синхронизируется с другим набором"
+        },
         "user": {
+            "badge": "бейдж: {badge}",
+            "created": "создан {date|time} назад",
+            "editorOf": "редактор в {channels|plural(one|канале, other|каналах)}",
+            "editors": "{editors|plural(one|редактор, other|редакторов)}",
+            "emoteSet": "набор эмоутов: {count|number} / {capacity|number}",
+            "paint": "краска: {paint}",
             "profile": "Профиль: {profile}",
-            "roles": "Роли: {roles}"
-        }
+            "roles": "Роли: {roles}",
+            "unlocked": "открыто {paints|plural(one|краска, other|красок)} и {badges|plural(one|бейдж, other|бейджей)}"
+        },
+        "updates": {
+            "channel": "канал {channel|antiPing}",
+            "actor": "редактор {actor|antiPing}",
+            "emote": {
+                "added": "добавлен эмоут {emote}",
+                "removed": "удалён эмоут {emote}"
+            },
+            "emoteSet": {
+                "changed": "активный набор изменён с {old} на {new}",
+                "name": "название набора изменено с {old} на {new}",
+                "capacity": "вместимость набора изменена с {old} на {new}",
+                "emotes": "эмоут {old} переименован в {new}"
+            }
+        },
+        "whoAddedThisEmote": "susgeeNoted эмоут {emote} добавил {actor|antiPing} {delta|time} назад",
+        "yoink": "susgeeOK эмоут {emote} стырен с канала {channel|antiPing} WideHardo Clap"
     },
     "8ball": {
-        "msg12": "Да",
-        "msg7": "Нет!",
         "msg1": "скорее всего",
+        "msg10": "очень сомнительно",
         "msg11": "несомненно",
+        "msg12": "Да",
         "msg2": "безусловно да",
         "msg3": "очень сомнительно",
         "msg4": "мои источники говорят, что нет",
         "msg5": "мой ответ - нет",
-        "msg6": "хорошие перспективы"
+        "msg6": "хорошие перспективы",
+        "msg7": "Нет!",
+        "msg8": "можешь на это рассчитывать",
+        "msg9": "знаки говорят, что да"
+    },
+    "aare": "Ааре в {city} сейчас {temp}°C",
+    "activeChannel": {
+        "messages": "{channel} ({entries|plural(one|сообщение, other|сообщений)})",
+        "noEntries": "сообщений пользователя {user|antiPing} в базе нет",
+        "success": "susgeeNoted {messages|number} сообщений найдено в {channels|plural(one|channel, other|channels)} susgeePoint {paste}"
+    },
+    "addBot": "Добавьте Susgeebot через мой сайт susgeePoint https://susgee.dev/",
+    "affiliatePing": {
+        "alreadyAffiliate": "susgeeDank Канал {channel|antiPing} уже компаньон/партнёр",
+        "added": "susgeeOK теперь тебя пинганёт, когда {channel|antiPing} станет компаньоном",
+        "removed": "susgeeOK больше не буду пинговать, когда {channel|antiPing} станет компаньоном",
+        "ping": "@{channel} теперь компаньон!"
     },
     "afk": {
-        "returned": {
-            "brb": "@{user} вернулся",
-            "food": "@{user} закончил есть",
-            "gn": "@{user} проснулся",
-            "duration": "Продолжительность: {duration|time}",
-            "message": "Сообщение: {message}",
-            "afk": "@{user} больше не АФК",
-            "lurk": "@{user} больше не наблюдает",
-            "work": "@{user} вернулся с работы"
-        },
+        "afk": "@{user} теперь АФК {message}",
+        "brb": "@{user} скоро вернётся {message}",
+        "food": "@{user} пошёл есть {message}",
+        "gn": "@{user} пошёл спать {message}",
+        "nap": "@{user} сейчас вздремнёт {message}",
+        "lurk": "@{user} теперь наблюдает {message}",
         "resume": {
             "failed": "@{user} вы не можете снова войти в АФК, так как он закончился более {minutes} минут назад!",
             "ok": "@{user} снова АФК"
         },
-        "lurk": "@{user} теперь наблюдает {message}",
-        "afk": "@{user} теперь АФК {message}"
-    },
-    "affiliatePing": {
-        "ping": "@{channel} теперь компаньон!",
-        "alreadyAffiliate": "susgeeDank Канал {channel|antiPing} уже компаньон/партнёр"
-    },
-    "addBot": "Добавьте Susgeebot через мой сайт susgeePoint https://susgee.dev/",
-    "activeChannel": {
-        "success": "susgeeNoted {messages|number} сообщений найдено в {channels|plural(one|channel, other|channels)} susgeePoint {paste}"
+        "returned": {
+            "afk": "@{user} больше не АФК",
+            "brb": "@{user} вернулся",
+            "duration": "Продолжительность: {duration|time}",
+            "food": "@{user} закончил есть",
+            "gn": "@{user} проснулся",
+            "message": "Сообщение: {message}",
+            "nap": "@{user} отоспался",
+            "lurk": "@{user} больше не наблюдает",
+            "noMessage": "(нет сообщения)",
+            "shower": "@{user} закончил душ",
+            "study": "@{user} закончил учиться",
+            "work": "@{user} вернулся с работы"
+        },
+        "shower": "@{user} сейчас в душе {message}",
+        "study": "@{user} сейчас учится {message}",
+        "work": "@{user} пошёл на работу {message}"
     },
     "ambassador": {
-        "list": "susgeeOK Амбассадоры этого канала: {users}"
+        "none": "susgeeDank в этом канале пока нет амбассадоров",
+        "list": "susgeeOK Амбассадоры этого канала: {users}",
+        "alreadyAmbassador": "susgeeDank {user|antiPing} уже амбассадор в этом канале",
+        "notAmbassador": "susgeeDank {user|antiPing} не амбассадор в этом канале",
+        "added": "susgeeOK {user|antiPing} добавлен как амбассадор в этом канале",
+        "removed": "susgeeOK {user|antiPing} больше не амбассадор в этом канале"
     },
-    "banMsg": {
-        "allChannels": "для всех каналов"
+    "allEmotes": {
+        "noEmotes": "susgeeDank у {channel|antiPing} нет канальных эмоутов"
+    },
+    "ban": {
+        "admin": "susgeeOK своих админов я банить не буду",
+        "notBanned": "susgeeDank не удалось забанить {user}"
+    },
+    "banList": {
+        "success": "susgeeOK забанено {count|plural(one|пользователь, other|пользователей)}"
+    },
+    "bans": {
+        "noEntries": "susgeeDank у {channel|antiPing} нет залогированных банов {delta|include}",
+        "success": "susgeeOK забаненных пользователей {time|include} пока: {count|number}"
     },
     "bible": {
-        "added": "susgeeOK Добавлено в базу данных"
+        "added": "susgeeOK Добавлено в базу данных с ID: {id}",
+        "botInfo": "bible {id} (текст: {text}) удалил {user|antiPing}",
+        "deleted": "susgeeOK запись с id {id} удалена",
+        "entryExists": "susgeeDank этот текст уже есть в базе",
+        "noEntries": "susgeeDank в базе ничего нет",
+        "noEntryWithId": "susgeeDank записи с id {id} нет",
+        "notAllowed": "susgeeDank у тебя нет прав удалить текст с id {id}",
+        "noEntriesByUser": "susgeeDank твоих записей в базе нет"
+    },
+    "birthday": {
+        "added": "susgeeOK день рождения {user} добавлен на {day}.{month}.",
+        "notFound": "susgeeDank дня рождения {user} на {day}.{month}. в базе нет",
+        "removed": "susgeeOK день рождения {user} на {day}.{month}. удалён"
+    },
+    "birthdays": {
+        "next": "ближайшие дни рождения: {birthdays}",
+        "noEntries": "в этом канале нет дней рождения в базе. чтобы добавить, используй {prefix}birthday add <Name> <Day> <Month>",
+        "today": "сегодня день рождения у {users} FeelsBirthdayMan Clap",
+        "success": "Всего дней рождения: {totalBirthdays}",
+        "response": "Список дней рождения susgeePoint {pasteUrl}"
+    },
+    "botSubs": {
+        "none": "У Susgeebot нет сабов"
+    },
+    "botties": {
+        "appendix": "🏦 {botties|plural(one|bottie, other|botties)}, престиж {prestige}",
+        "banned": "FeelsBadMan тебя забанили в botties",
+        "cooldown": "susgeeDank {randomMessage|include} будет доступно через {cooldown|time}",
+        "cooldowns": {
+            "msg1": "⏳ Внимание! Процессоры перегреваются. Нужен короткий кулдаун, чтобы всё снова летало. 🌬️",
+            "msg10": "🔐 Проверка безопасности! Цифровые двери проверяют, всё ли под замком. Безопасность на первом месте! 🔒",
+            "msg2": "⚙️ Технический перерыв! Инженеры чуть подкручивают систему, чтобы она не сыпалась. Спасибо за терпение! 🛠️",
+            "msg3": "🔧 Важное обновление! Идёт тюнинг системы. Твои цифровые ресурсы сейчас прокачивают на максимум. 🚀",
+            "msg4": "🕰️ Время короткого перерыва! Виртуальные схемы чуть отдыхают перед следующими челленджами. ⏸️",
+            "msg5": "🔄 Нужен рестарт! Мягкий сброс снимает лишнюю нагрузку. Скоро снова можно будет крутить. 🔄",
+            "msg6": "⚡ Включён режим экономии! Системы временно берегут ресурсы. Полная мощность скоро вернётся! ⚡",
+            "msg7": "🛑 Стоп! Короткая пауза нужна, чтобы обновить важные настройки. Сейчас вернёмся! ⏩",
+            "msg8": "🔍 Идёт анализ! Данные внимательно смотрят, где ещё можно ускориться. Потерпи чуть-чуть. 🔬",
+            "msg9": "🚧 Код на стройке! Разрабы чинят баги. Скоро система будет стабильнее и без сюрпризов! 🚀"
+        },
+        "dailyBonus": "🎉 Ежедневный бонус за вход! Сегодня ты получил {bonus} Botties",
+        "messages": {
+            "0": "⛔️ Упс! Попытка не удалась, и ты словил {botties|number} вирусных атак forsenLaughingAtYou Держи оборону и прокачивай защиту на будущее!",
+            "<-27": "🚨 Крайне опасно! Система в критическом состоянии. Обнаружено {botties|number} срочных взломов! Действуй сейчас!",
+            "<-5": "⚠️ Внимание! Система очень уязвима. У тебя {botties|number} критических дыр в безопасности! Нужно срочно прикрыть тылы!",
+            "<=-1 >=-5": "📉 Упс! Ты словил {botties|number} системных крашей forsenLaughingAtYou . Подкрути стабильность, чтобы так больше не сыпалось!",
+            ">=1 <=4": "🌟 Круто! Ты получил {botties|number} новых технологических патентов! Используй знания с умом и переверни цифровой мир!",
+            ">=10 <=15": "🏆 Огонь! Ты получил {botties|number} апгрейдов виртуального железа! Техника теперь свежая. Так держать!",
+            ">=1001 <=1500": "🌌 Космос! Ты создал {botties|number} космических софтверных галактик! Твои программы тянутся через всю цифровую вселенную. Мастер цифрового космоса!",
+            ">=101 <=150": "🔮 Мистика! Ты открыл {botties|number} мистических алгоритмов! Твои скиллы уже за гранью логики. Мир программирования в шоке от твоей магии!",
+            ">=1501 <=2000": "🚀 Божественно! Ты создал {botties|number} божественных софтверных вселенных! Твой код как у бога, и программы гнутся под твою волю!",
+            ">=151 <=200": "🚁 В полёте! Ты создал {botties|number} летающих роботов на ИИ! Твои идеи поднимают технологии выше облаков. Будущее уже здесь!",
+            ">=16 <=20": "🔥 Невероятно! Ты поставил рекорд и закрыл {botties|number} файрвольных челленджей!",
+            ">=2001": "🌌 За гранью! Ты написал {botties|number} программ вне всех границ! Твой код ломает измерения, и равных тебе нет!",
+            ">=201 <=500": "🌈 Магия! Ты написал {botties|number} магических кодов! В программах аура, где техника встречается с фантазией. Настоящий маг кода!",
+            ">=21 <=30": "🚀 Жёстко! Ты создал {botties|number} прорывных инноваций! Твои идеи лепят будущее технологий. Мир смотрит на тебя!",
+            ">=31 <=40": "🌌 Сверхчеловек! Ты разработал {botties|number} галактических алгоритмов! Твой вклад в код уже не от мира сего. Звёзды тебе аплодируют!",
+            ">=41 <=50": "💡 Божественно! Ты создал {botties|number} божественных софтверных решений! Гений без конкурентов, и эти технологии станут легендой!",
+            ">=5 <=9": "🔒 Фантастика! Ты внедрил {botties|number} новых протоколов безопасности. Системы теперь лучше защищены. Кибермир тебя не достанет!",
+            ">=501 <=1000": "🌟 Эпик! Ты создал {botties|number} эпичных миров виртуальной реальности! Твои миры захватывают дух и тащат людей в новое измерение. Виртуальная реальность, реальная слава!",
+            ">=51 <=75": "🎉 Легенда! Ты оживил {botties|number} легендарных разработок ИИ! Твои штуки — вехи в истории ИИ. Аплодисменты!",
+            ">=76 <=100": "🌐 Виртуоз! Ты провёл {botties|number} виртуозных оркестровок данных! Таланта в управлении данными у тебя море. Потоки данных пляшут под твой ритм!"
+        },
+        "reminders": {
+            "msg1": "⏳ Прогресс окупается! Теперь можно фармить ещё больше Botties. Включай технические скиллы и собирай цифровые сокровища. Компьютерный мир ждёт! {user}",
+            "msg2": "💰 Время награды Botties! Твои старания окупились. Теперь можно взять ещё больше Botties под свои техцели. Погнали, {user} !",
+            "msg3": "🔥 Голе к следующему челленджу Botties? Ты уже настоящий техэксперт и можешь фармить ещё больше Botties. Покажи, на что способен! {user}",
+            "msg4": "🏆 Ты уже на пути к мастеру Botties! С таким упорством можно фармить ещё больше botties. Пусть технические скиллы сверкают, {user} !",
+            "msg5": "🌟 Готовься к взрыву botties! Слухи о твоих ачивах уже гуляют, и теперь можно складывать ещё больше Botties на виртуальный счёт. Празднуй успех в компьютерном мире! {user}",
+            "msg6": "💡 Банк Botties открыт! Можно забрать ещё больше Botties и расширить техническую коллекцию. Лови момент и воплощай цифровые мечты! {user}",
+            "msg7": "🚀 Для коллекции Botties потолка нет! С амбициями и любопытством можно фармить ещё больше Botties и забраться на вершину компьютерной элиты. Удачи, {user} !",
+            "msg8": "🎮 Скиллы будут вознаграждены! Ныряй в мир кода и алгоритмов за ещё большей пачкой botties. Цифровая арена ждёт, {user} !",
+            "msg9": "💻 Время технологического трофея! Труд окупается, и теперь можно собрать ещё больше Botties для виртуальных инноваций. Погнали, {user} !",
+            "msg10": "🚨 Готов к следующей техмиссии? Как мастер технологий ты можешь фармить ещё больше Botties. Покажи миру, что вызовы цифровой эры тебе по зубам, {user} !",
+            "msg11": "🔒 Вскрывай загадки Botties как профи! Упорство окупится, и можно фармить ещё больше Botties. Пусть технические скиллы сияют, {user} !",
+            "msg12": "🌐 Готовься к дождю из botties! Успех уже бежит впереди, и теперь можно складывать ещё больше Botties в цифровой сейф. Празднуй ачивы в мире технологий, {user} !",
+            "msg13": "🔍 Сокровищница технологий открыта! Бери ещё Botties и расширяй коллекцию. Используй шанс воплотить цифровые мечты, {user} !",
+            "msg14": "🛰️ Твоя галактика Botties растёт! С усердием и характером можно фармить ещё больше Botties и катапультироваться на вершину техэлиты. Успех впереди, {user} !",
+            "msg15": "🚀 Скиллы будут вознаграждены. Залезай в мир кода и алгоритмов и фарми ещё botties. Цифровая арена ждёт, {user}",
+            "msg16": "💼 Время технологического трофея. Труд окупается, и теперь можно собрать ещё Botties для виртуальных инноваций. Поехали, {user}",
+            "msg17": "🔧 Готов к следующей техмиссии. Как мастер технологий ты можешь фармить ещё botties. Покажи миру, что вызовы цифровой эры тебе по зубам, {user}",
+            "msg18": "🔑 Вскрывай загадки Botties как профи. Упорство окупится, и можно фармить ещё Botties. Пусть технические скиллы сияют, {user}",
+            "msg19": "💾 Готовься к дождю из botties. Успех уже бежит впереди, и теперь можно складывать ещё Botties в цифровой сейф. Празднуй ачивы в мире технологий, {user}",
+            "msg20": "🕵️‍♂️ Сокровищница технологий открыта. Бери ещё Botties и расширяй коллекцию. Используй шанс воплотить цифровые мечты, {user}",
+            "msg21": "🚁 Твоя галактика Botties растёт. С усердием и характером можно фармить ещё Botties и катапультироваться на вершину техэлиты. Успех впереди, {user}",
+            "msg22": "🌐 Информационная магистраль зовёт. Технические скиллы будут вознаграждены. Собирай цифровые сокровища и сделай компьютерный мир своей сценой, {user}",
+            "msg23": "💻 Время награды Botties. Старания окупились. Теперь можно взять ещё Botties под свои техцели. Погнали, {user}",
+            "msg24": "🔥 Готов к следующему челленджу Botties. Ты уже настоящий техэксперт и можешь фармить ещё Botties. Покажи, на что способен, {user}",
+            "msg25": "🏆 Ты уже на пути к мастеру Botties. С таким упорством можно фармить ещё botties. Пусть технические скиллы сверкают, {user}",
+            "msg26": "💻 Твой технический талант окупается. Ныряй глубже в код и алгоритмы и фарми ещё больше botties. Цифровой челлендж ждёт, {user}",
+            "msg27": "📈 Время буста Botties. Упорство окупается, и теперь можно собрать ещё Botties под свои техцели. Поехали, {user}",
+            "msg28": "🛠️ Готов к следующему техчелленджу. Ты уже настоящий техэксперт и можешь фармить ещё botties. Покажи, из чего ты сделан, {user}",
+            "msg29": "🎵 Ты на верном пути к мастеру Botties. Своими усилиями можно фармить ещё botties. Пусть технические скиллы сияют, {user}",
+            "msg30": "✨ Готовься к революции botties. Твои ачивы разлетелись, и теперь можно копить ещё Botties в виртуальном сейфе. Празднуй успех в мире технологий, {user}",
+            "msg31": "🌌 Банк Botties уже ждёт. Бери ещё Botties и расширяй техколлекцию. Используй шанс воплотить цифровые мечты, {user}"
+        },
+        "newUser": "Добро пожаловать в виртуальный мир, {user}! Как новичок ты получаешь стартовый набор из 20 цифровых Botties. Трать их с умом, начинай технологическое путешествие и открывай крутые апгрейды. Кайфуй от мира компьютеров!",
+        "notEnough": "susgeeDank у тебя не хватает botties! у тебя {botties|plural(one|bottie, other|botties)}",
+        "prestigeAvailable": "У тебя хватает Botties на следующий престиж. Престиж {prestige} стоит {cost|number} Botties",
+        "treasureChest": "🎁 Ты нашёл сундук! Получаешь {bonus} Botties!"
+    },
+    "bottiesBan": {
+        "admin": "susgeeDank нельзя банить админа в Botties",
+        "ban": "susgeeOK {user|antiPing} забанен в Botties",
+        "unban": "susgeeOK {user|antiPing} больше не забанен в Botties"
+    },
+    "channel": {
+        "joined": "susgeeOK канал {channel} подключён",
+        "parted": "канал {channel} отключён",
+        "rejoined": "susgeeOK канал {channel} подключён заново"
+    },
+    "channelStats": {
+        "added": "добавлен {added|time} назад",
+        "messages": "{messages|plural(one|залогированное сообщение, other|залогированных сообщений)}"
+    },
+    "channelSettings": {
+        "dashboard": "susgeePoint настройки этого канала живут в дашборде: {url}"
+    },
+    "chat": {
+        "noData": "у меня нет данных по этому пользователю",
+        "success": "последнее сообщение {user|antiPing} скорее всего ушло через {client|include}",
+        "thirdParty": "Chatterino или другой сторонний клиент B-)",
+        "hashFormat": "веб-чат twitch KEK",
+        "uuidFormat": "мобильное приложение twitch"
+    },
+    "chatters": {
+        "noEntries": "в канале {channel|antiPing} нет чаттеров",
+        "success": "в канале {channel|antiPing} сейчас {chatter|number} чаттеров ( {data} ) susgeePoint {link}"
+    },
+    "chatting": {
+        "noEntries": "susgeeDank сообщений от {user|antiPing} в канале {channel|antiPing} не найдено {delta|include}",
+        "success": "susgeeOK {user|antiPing} отправил {count|plural(one|сообщение, other|сообщений)} в канале {channel|antiPing} {delta|include}"
+    },
+    "clip": {
+        "forbidden": "susgeeSad канал {channel|antiPing} не разрешает создавать клипы",
+        "offline": "susgeeDank {channel|antiPing} оффлайн",
+        "unknown": "susgeeDank клипы для {channel|antiPing} сейчас недоступны"
+    },
+    "cock": "кок у {user|antiPing} длиной {cm}см {emote} {bar}",
+    "coinFlip": {
+        "heads": "орёл (да)",
+        "tails": "решка (нет)"
     },
     "command": {
-        "disabled": "susgeeOK Команда {command} успешно отключена",
-        "enabled": "susgeeOK Команда {command} успешно включена"
+        "notAllowed": "эту команду нельзя отключить"
+    },
+    "customCommands": {
+        "added": "susgeeOK команда {name} добавлена",
+        "removed": "susgeeOK команда {name} удалена",
+        "edited": "susgeeOK команда {name} обновлена",
+        "exists": "susgeeDank команда {name} уже есть",
+        "notExists": "susgeeDank команды {name} нет",
+        "noCommands": "susgeeDank в этом канале нет кастомных команд",
+        "list": "список всех кастомных команд этого канала susgeePoint {link}",
+        "reservedPrefix": "susgeeDank команда не может начинаться с зарезервированного символа twitch",
+        "copySuccess": "susgeeOK скопировано {copied|number} команд из {channel|antiPing} ({skipped|number} пропущено)",
+        "copyNone": "susgeeDank у {channel|antiPing} нет команд, которые можно скопировать",
+        "copyFromSelf": "susgeeDank нельзя копировать из своего же канала",
+        "copyNoCommands": "susgeeDank у {channel|antiPing} нет кастомных команд",
+        "rename": {
+            "done": "susgeeOK команда {name} теперь называется {newName}",
+            "notExists": "susgeeDank команды {name} нет",
+            "sameName": "susgeeDank {name} уже так называется",
+            "taken": "susgeeDank {newName} уже занято командой или алиасом"
+        },
+        "alias": {
+            "set": "susgeeOK алиасы для {name}: {aliases}",
+            "cleared": "susgeeOK все алиасы у {name} сняты",
+            "notExists": "susgeeDank команды {name} нет",
+            "taken": "susgeeDank {alias} уже занято командой или алиасом",
+            "tooMany": "susgeeDank у команды может быть максимум {limit|number} алиасов"
+        },
+        "link": {
+            "done": "susgeeOK {name} теперь запускает {command} из {channel|antiPing} susgeePoint изменения там применяются и здесь",
+            "notExists": "susgeeDank у {channel|antiPing} нет команды {name}",
+            "notPublic": "susgeeDank {name} не публичная в {channel|antiPing}",
+            "sameChannel": "susgeeDank нельзя линковать команду из своего же канала",
+            "taken": "susgeeDank {name} уже занято командой или алиасом",
+            "brokenSource": "susgeeDank эта команда ссылается на удалённую команду",
+            "isLink": "susgeeDank {name} запускает команду другого канала, правь её там"
+        }
+    },
+    "deleteSuggest": {
+        "botInfo": "предложение с id {id} (текст: {text}) удалил {user|antiPing}",
+        "entryDeleted": "предложение с id {id} от {user|antiPing} удалено",
+        "entryNotFound": "предложения с id {id} в базе нет",
+        "error": "у тебя нет прав удалить предложение с id {id}"
+    },
+    "discord": {
+        "link": "susgeeBot загляни к нам в discord susgeePoint {link}"
+    },
+    "eCount": {
+        "entry": "{emote} использовали {count|plural(one|раз, other|раз)} в канале {channel|antiPing}",
+        "noEntries": "susgeeDank в базе ничего нет"
+    },
+    "eCountToday": {
+        "entry": "эмоут {emote} сегодня использовали {count|plural(one|раз, other|раз)} в канале {channel|antiPing}",
+        "noEntries": "susgeeDank за сегодня в базе ничего нет"
+    },
+    "eCountUser": {
+        "entry": "{user|antiPing} использовал эмоут {emote} {entries|plural(one|раз, other|раз)} в канале {channel|antiPing}"
     },
     "emote": {
         "artist": "Художник: @{artist}",
         "channel": "Канал @{channel}"
     },
+    "emotes": {
+        "success": "эмоуты канала {channel|antiPing} susgeePoint {link}"
+    },
+    "esearch": {
+        "notFound": "susgeeDank эмоуты не найдены"
+    },
+    "followAge": {
+        "notFollowed": "FeelsBadMan {user|antiPing} не фолловит {channel|antiPing}",
+        "self": "susgeeDank себя фолловить нельзя",
+        "since": "susgeeOK {user|antiPing} фолловит {channel|antiPing} уже {since|time}"
+    },
+    "forecast": {
+        "title": "🌤 прогноз погоды на 5 дней:"
+    },
+    "founders": {
+        "response": "фаундеры {channel|antiPing} (незанято: {available}) susgeePoint {link}",
+        "none": "susgeeDank у канала {channel|antiPing} нет фаундеров",
+        "notSubscribable": "susgeeDank на канал {channel|antiPing} нельзя подписаться",
+        "since": "фаундер уже {since|time}",
+        "subbed": "всё ещё подписан: {emoji}"
+    },
+    "gamba": {
+        "lost": "проиграл 📉",
+        "noBotties": "susgeeDank у тебя нет botties! набери {prefix}botties, чтобы получить",
+        "notEnough": "susgeeDank нельзя ставить больше botties, чем есть. у тебя {botties|plural(one|bottie, other|botties)}",
+        "notZero": "susgeeDank нельзя ставить 0 botties",
+        "prestige": "У тебя хватает Botties на следующий престиж! Престиж {prestige} стоит {cost|number}. Чтобы перейти дальше, используй {prefix}prestige",
+        "response": "ты {result|include} {betAmount|plural(one|bottie, other|botties)}! теперь у тебя {newAmount|plural(one|bottie, other|botties)}",
+        "won": "выиграл 📈"
+    },
+    "give": {
+        "neverPlayed": "susgeeDank {user|antiPing} никогда не играл в botties",
+        "notEnough": "susgeeDank нельзя отдать больше botties, чем есть! у тебя {botties|plural(one|bottie, other|botties)}",
+        "notZero": "susgeeDank нельзя отдать 0 botties",
+        "self": "susgeeDank нельзя дарить botties самому себе",
+        "success": "ты отдал {user|antiPing} {amount|plural(one|bottie, other|botties)}. теперь у тебя {senderBotties|plural(one|bottie, other|botties)}, у {user|antiPing} теперь {receiverBotties|plural(one|bottie, other|botties)}"
+    },
+    "globalMessage": {
+        "preview": "предпросмотр: {link}",
+        "info": "инфо: {link}",
+        "description": "описание: {description}",
+        "emote": {
+            "added": "глобальный эмоут {set} \" {emote} \" добавлен",
+            "renamed": "глобальный эмоут {set} \" {oldName} \" переименован в \" {newName} \"",
+            "removed": "глобальный эмоут {set} \" {emote} \" удалён"
+        },
+        "badge": {
+            "added": "глобальный бейдж {set} \" {badge} \" добавлен",
+            "removed": "глобальный бейдж {set} \" {badge} \" удалён"
+        },
+        "7tv": {
+            "globalSet": "(7TV) сменил глобальный набор эмоутов на \"{name}\" ({link})",
+            "added": "(7TV) {kind} \"{name}\" добавлен",
+            "removed": "(7TV) {kind} \"{name}\" удалён",
+            "renamed": "(7TV) {kind} \"{oldName}\" переименован в \"{newName}\""
+        }
+    },
+    "gpt": {
+        "content1": "Ты мой личный ассистент 🤝 Отвечай прямо и по делу 💬 без встречных вопросов ❌ Отвечай как умеешь ✅ Максимум 500 символов 📏 Каждое предложение должно быть законченным ✍️ Куча эмодзи 😄 В каждом предложении минимум 1 эмодзи 🌟 Без сексуальных тем 🚫 Всегда дружелюбно 💛",
+        "content2": "Привет, меня зовут {user}. Вот мой вопрос: {args}"
+    },
+    "help": {
+        "access": "доступ: {access}",
+        "cooldown": "кулдаун: {cooldown}с",
+        "everyone": "все",
+        "usage": "использование: {usage|include}"
+    },
+    "hug": {
+        "bot": "MrDestructoid // 🤗",
+        "noUser": "{hugger} обнимает {receiver} VirtualHug",
+        "self": "{hugger} обнимает сам себя FeelsBadMan",
+        "success": "{hugger} обнимает {receiver} VirtualHug {receiver} обняли {count|plural(one|раз, other|раз)}"
+    },
+    "rehug": {
+        "noLastHug": "Тебя никто не обнимал за последние 24 часа. FeelsBadMan",
+        "userNotFound": "Пользователь не найден.",
+        "success": "{hugger} обнимает {receiver} в ответ! ({receiver} обняли {count|plural(one|раз, other|раз)})"
+    },
+    "irc": {
+        "banned": "@{user} забанен в канале @{channel}",
+        "lastMessages": "последние сообщения susgeePoint {link} MODS Clap",
+        "subgift": "susgeeBusiness получен сабгифт susgeePoint @{gifter} подарил саб {tier} тира @{receiver} в канале @{channel}"
+    },
+    "isBanned": {
+        "self": "susgeeDank в своём канале тебя забанить нельзя",
+        "banned": "{user|antiPing} скорее всего забанен в канале {channel|antiPing}",
+        "notBanned": "{user|antiPing} скорее всего не забанен в канале {channel|antiPing}"
+    },
+    "isInChat": {
+        "notMod": "susgeeDank Susgeebot не мод в {channel|antiPing}",
+        "true": "{user|antiPing} сейчас в канале {channel|antiPing}",
+        "false": "{user|antiPing} сейчас не в канале {channel|antiPing}"
+    },
+    "language": {
+        "changed": "susgeeOK язык теперь русский",
+        "invalid": "сейчас язык русский. доступные языки: {languages}"
+    },
     "lastTimeout": {
+        "self": "susgeeDank в своём канале тебе нельзя выдать таймаут",
+        "none": "у {user|antiPing} нет залогированных таймаутов в {channel|antiPing}",
+        "success": "последний таймаут {user|antiPing} в {channel|antiPing} был {delta|time} назад",
         "message": "Сообщение: {message}"
     },
     "leaderboard": {
         "cat": {
-            "commands": "Команды"
-        }
+            "badges": "бейджи (7TV)",
+            "botties": "botties",
+            "commands": "Команды",
+            "paints": "краски (7TV)",
+            "prestige": "престиж",
+            "treasures": "сундуки"
+        },
+        "template": {
+            "badges": "\"{name}\": {count|number}",
+            "botties": "престиж {prestige}, {botties|plural(one|bottie, other|botties)}",
+            "command": "{command}: {count|plural(one|использование, other|использований)}",
+            "paints": "\"{name}\": {count|number}",
+            "prestige": "{prestige}",
+            "treasures": "{treasures}"
+        },
+        "text": "топ-10 {rankingType} {category|include} susgeePoint {leaderboard}"
     },
-    "mode": {
-        "offline": "офлайн",
-        "default": "по умолчанию"
+    "lines": {
+        "success": "в канале {channel|antiPing} {count|plural(one|залогированная строка, other|залогированных строк)} {time|include}"
+    },
+    "linesUser": {
+        "success": "{user|antiPing} написал {count|plural(one|залогированную строку, other|залогированных строк)} {time|include} в канале {channel|antiPing}"
+    },
+    "liveMsg": "susgeeOK {state|include} лайв-обновления для {streamer|antiPing}",
+    "livePing": {
+        "text": "susgeeOK {ping|include} когда {streamer|antiPing} выйдет в эфир"
+    },
+    "logging": {
+        "added": "susgeeOK сообщения {user|antiPing} больше не будут логироваться",
+        "removed": "susgeeOK сообщения {user|antiPing} снова будут логироваться"
     },
     "logs": {
+        "link": "логи {user|antiPing} в канале {channel|antiPing} susgeePoint {link}",
+        "channelOrUserNotFound": "susgeeDank логов для этого канала или пользователя нет",
+        "firstMessage": "первое сообщение {user|antiPing} в канале {channel|antiPing}: {message}",
         "delta": "{time|time} назад"
     },
-    "mostSent": {
-        "message": "Сообщение: {message}"
-    },
-    "randLine": {
-        "delta": "{delta|time} назад"
-    },
-    "randLineChannel": {
-        "delta": "{delta|time} назад"
-    },
-    "stalk": {
-        "delta": "{delta|time} назад",
-        "channel": {
-            "other": "Канал {channel|antiPing}"
-        }
-    },
-    "streamInfo": {
-        "language": "Язык: {language} {flag}",
-        "category": "Категория: {category}",
-        "title": "Название: {title}",
-        "link": "Ссылка: {link}"
-    },
-    "user": {
-        "roles": {
-            "partner": "Партнёр",
-            "list": "Роли: {roles}",
-            "affiliate": "Компаньон",
-            "staff": "Команда"
-        },
-        "color": "Цвет: {color}",
-        "isBanned": "⛔ Забанен ({reason})"
-    },
-    "weather": {
-        "temperature": "🌡️ Температура: {temp}°C",
-        "weather": "🌥️ Погода: {weather}",
-        "feelsLike": "🌡️ Ощущается как: {temp}°C",
-        "humidity": "💧 Влажность: {humidity}%",
-        "wind": "🌬️ Скорость ветра: {wind}",
-        "sunrise": "🌅 Восход: {time}",
-        "sunset": "🌆 Закат: {time}",
-        "currentTime": "🕰️ Текущее время (примерно): {date}",
-        "locationHidden": "Местоположение скрыто susgeeBased {flag}"
-    },
-    "meta": {
-        "7tvEditor": {
-            "usage": "<Пользователь>"
-        },
-        "7tvSa": {
-            "usage": "<Пользователь>"
-        },
-        "7tvUser": {
-            "usage": "<Пользователь>"
-        },
-        "vipLookup": {
-            "usage": "<Пользователь>"
-        },
-        "vips": {
-            "usage": "<Канал>"
-        },
-        "vipAge": {
-            "usage": "<Пользователь> <Канал>"
-        },
-        "topBans": {
-            "usage": "<Канал>"
-        },
-        "swim": {
-            "usage": "<Местоположение>"
-        },
-        "unban": {
-            "usage": "<Пользователь>"
-        },
-        "subAge": {
-            "usage": "<Пользователь> <Канал>"
-        },
-        "streamInfo": {
-            "usage": "<Канал>"
-        },
-        "stats": {
-            "usage": "<Пользователь>"
-        },
-        "stalk": {
-            "usage": "<Пользователь>"
-        },
-        "suggest": {
-            "usage": "<Текст>"
-        },
-        "regex": {
-            "usage": "<Текст>"
-        },
-        "record": {
-            "usage": "<Канал>"
-        },
-        "say": {
-            "usage": "<Канал> <Текст>"
-        },
-        "seRank": {
-            "usage": "<Пользователь> <Канал>"
-        },
-        "split": {
-            "usage": "<Текст>"
-        },
-        "presence": {
-            "usage": "<Пользователь>"
-        },
-        "randLine": {
-            "usage": "<Пользователь> <Канал>"
-        },
-        "chat": {
-            "usage": "<Пользователь>"
-        },
-        "chatters": {
-            "usage": "<Канал>"
-        },
-        "clip": {
-            "usage": "<Канал>"
-        },
-        "channelStats": {
-            "usage": "<Канал>"
-        },
-        "blow": {
-            "description": "💨 🎈"
-        },
-        "bot": {
-            "usage": "<Пользователь>"
-        },
-        "bibleAdd": {
-            "usage": "<Текст>"
-        },
-        "bottiesBan": {
-            "usage": "<Пользователь>"
-        },
-        "antiPing": {
-            "usage": "<Слово/Текст>"
-        },
-        "ban": {
-            "usage": "<Пользователь>"
-        },
-        "badge": {
-            "usage": "<Пользователь>"
-        },
-        "avatar": {
-            "usage": "<Пользователь>"
-        },
-        "activeChannel": {
-            "usage": "<Пользователь>"
-        },
-        "affiliatePing": {
-            "usage": "<Пользователь>"
-        },
-        "allEmotes": {
-            "usage": "<Канал>"
-        },
-        "announce": {
-            "usage": "<Текст>"
-        },
-        "8ball": {
-            "usage": "<Сообщение>"
-        }
-    },
-    "web": {
-        "forms": {
-            "search": "Поиск"
-        }
+    "lookup": {
+        "hasRole": "susgeeOK {user|antiPing} {type|include} в канале {channel|antiPing} уже {since|time}",
+        "mod": "мод",
+        "none": "susgeeDank в канале {channel|antiPing} нет {type|include}",
+        "noRole": "susgeeDank {user|antiPing} не {type|include} в канале {channel|antiPing}",
+        "noTracked": "susgeeDank {user|antiPing} не {type|include} ни в одном отслеживаемом канале",
+        "since": "{type|include} уже {since|time}",
+        "success": "{user|antiPing} {type|include} в {count|plural(one|отслеживаемом канале, other|отслеживаемых каналах)} susgeePoint {link}",
+        "vip": "vip"
     },
     "maersuggest": {
         "error": "susgeeDank Сообщение не отправлено",
         "success": "BabyRage"
+    },
+    "mass": {
+        "noChatter": "susgeeDank не удалось получить чаттеров {channel|antiPing}"
+    },
+    "mostSent": {
+        "noEntries": "susgeeDank {user|antiPing} никогда не писал в {channel|antiPing}",
+        "success": "самое частое сообщение {user|antiPing} в канале {channel|antiPing}",
+        "message": "Сообщение: {message}",
+        "count": "{count|plural(one|раз, other|раз)}"
+    },
+    "mostSentChannel": {
+        "noEntries": "susgeeDank в {channel|antiPing} не нашлось сообщений {delta|include}",
+        "success": "самое частое сообщение {delta|include} в {channel|antiPing}",
+        "message": "сообщение: {message}",
+        "count": "{count|plural(one|раз, other|раз)}"
+    },
+    "myReminder": {
+        "noEntries": "susgeeDank у тебя нет активных напоминаний",
+        "message": "напоминание по сообщению: \n{reminder}",
+        "timed": "напоминание по времени: \n{reminder}",
+        "timedMessage": "сработало по времени: \n{reminder}"
+    },
+    "nameChanges": {
+        "noEntries": "пользователь {user|antiPing} никогда не менял ник",
+        "optOut": "{user|antiPing} отключил логирование susgeeNoted ",
+        "text": "ранее залогированные ники {user|antiPing} (текущий ник с {since|date}): {usernames}"
+    },
+    "noPing": {
+        "enabled": "susgeeOK твоё имя больше не будет тебя пинговать, когда другие используют на тебе команды",
+        "disabled": "susgeeOK твоё имя снова будет тебя пинговать, когда другие используют на тебе команды"
+    },
+    "noMention": {
+        "enabled": "susgeeOK тебя больше не будут упоминать в ответах команд",
+        "disabled": "susgeeOK тебя снова будут упоминать в ответах команд"
+    },
+    "notifications": {
+        "blog": "Новый пост в Twitch Blog: {title} susgeePoint {url}",
+        "changelog": "Ченджлог Twitch для разрабов обновился! susgeePoint {url}",
+        "types": {
+            "7tv": "косметика 7TV / глобальные эмоуты",
+            "twitch": "глобальные эмоуты / бейджи Twitch",
+            "blog": "обновления Twitch blog",
+            "changelog": "обновления ченджлога Twitch"
+        }
+    },
+    "notify": {
+        "invalidType": "susgeeDank неверный тип уведомления. доступные типы: {types} susgeePoint {docs}",
+        "usageHint": "типы: {types} susgeePoint {docs}",
+        "alreadySubscribed": "susgeeDank {type|include} уже включены здесь",
+        "subscribed": "susgeeOK подписался на {type|include}",
+        "noSubscriptions": "susgeeDank этот канал ни на что не подписан",
+        "notSubscribed": "susgeeDank {type|include} здесь не включены",
+        "unsubscribed": "susgeeOK отписался от {type|include}",
+        "onlyMod": "susgeeDank только моды могут менять подписки этого канала",
+        "onlyPersonal": "susgeeDank {type|include} только личные, используй {prefix}pingme",
+        "noChannelSubscription": "susgeeDank {type|include} для {channel|antiPing} здесь не включены. Мод может включить их командой {prefix}notify {command} {channel|antiPing}",
+        "noGlobalSubscription": "susgeeDank {type|include} здесь не включены. Мод может включить их командой {prefix}notify {command}",
+        "ping": {
+            "enabled": "susgeeOK буду пинговать тебя по {type|include} у {channel|antiPing}",
+            "disabled": "susgeeOK больше не буду пинговать тебя по {type|include} у {channel|antiPing}"
+        },
+        "globalPing": {
+            "enabled": "susgeeOK буду пинговать тебя по {type|include}",
+            "disabled": "susgeeOK больше не буду пинговать тебя по {type|include}"
+        },
+        "replaced": "susgeeDank эта команда больше ничего не делает. используй {command} susgeePoint {docs}",
+        "names": {
+            "live": "лайв-обновления",
+            "subgift": "пинги сабгифтов",
+            "affiliate": "пинги компаньона"
+        },
+        "list": {
+            "short": "susgeeOK {count|number} активных уведомлений в #{channel} susgeePoint {paste}"
+        },
+        "paste": {
+            "header": "Активные уведомления в {channel}",
+            "ping": "пинг: {users}"
+        }
+    },
+    "optOut": {
+        "triggered": "susgeeDank этот пользователь или канал отписался от этой команды",
+        "success": "susgeeOK ты отписался от команды {command}",
+        "alreadyOptedOutCommand": "susgeeDank ты уже отписан от команды {command}",
+        "optedOutOfAll": "susgeeOK ты отписался от всех поддерживаемых команд",
+        "notOptOutCommand": "susgeeDank от {command} нельзя отписаться",
+        "list": "Ты отписан от этих команд susgeePoint {list}",
+        "noList": "susgeeDank ты ни от каких команд не отписан.",
+        "optedOutOfAllList": "susgeeOK ты отписан от всех команд."
+    },
+    "optIn": {
+        "success": "susgeeOK ты снова подписался на команду {command}",
+        "alreadyOptedIn": "susgeeDank ты уже подписан на команду {command}",
+        "optedIntoAll": "susgeeOK ты снова подписан на все команды",
+        "cannotOptInSingle": "susgeeDank ты отписан от всех команд, нельзя включить только одну",
+        "nothingToOptIn": "susgeeDank ты и так подписан на всё",
+        "notOptOutCommand": "susgeeDank от {command} нельзя отписаться"
+    },
+    "permissions": {
+        "insufficient": {
+            "ignored": "susgeeDank ты в игнор-листе этого бота и не можешь использовать команды",
+            "helper": "нужно быть хелпером, чтобы использовать эту команду",
+            "vip": "нужно быть VIP, чтобы использовать эту команду",
+            "mod": "нужно быть модом, чтобы использовать эту команду",
+            "ambassador": "нужно быть амбассадором/стримером, чтобы использовать эту команду",
+            "broadcaster": "нужно быть стримером, чтобы использовать эту команду",
+            "admin": "нужно быть админом, чтобы использовать эту команду",
+            "dev": "нужно быть девом, чтобы использовать эту команду",
+            "owner": "NOIDONTTHINKSO только lucas может использовать эту команду"
+        },
+        "onlyAdmin": "susgeeDank менять права может только админ",
+        "onlyOwner": "susgeeDank права lucas менять нельзя",
+        "ownerForbidden": "susgeeDank право владельца выдавать нельзя",
+        "targetTooHigh": "susgeeDank можно менять права только у тех, кто ниже тебя",
+        "levelTooHigh": "susgeeDank нельзя выдать право {permission}, оно выше твоего",
+        "same": "susgeeDank у пользователя {user|antiPing} уже есть это право",
+        "status": "у {user|antiPing} право {permission}",
+        "success": "susgeeOK у {user|antiPing} теперь право {permission}"
+    },
+    "prefix": {
+        "reserved": "susgeeDank префикс не изменён, потому что начинается с зарезервированного символа twitch",
+        "success": "susgeeOK префикс изменён на {prefix}",
+        "tooLong": "susgeeDank префикс может быть максимум 15 символов"
+    },
+    "prestige": {
+        "notEnough": "у тебя не хватает botties. престиж {prestige} стоит {cost|number} botties, у тебя {botties|plural(one|bottie, other|botties)}",
+        "success": "престиж успешен! теперь у тебя {botties|plural(one|bottie, other|botties)} и ты на престиже {prestige}. следующий стоит {cost|number} botties"
+    },
+    "randLine": {
+        "noEntries": "susgeeDank {user|antiPing} никогда не писал в {channel|antiPing}",
+        "entry": "сообщение {user|antiPing} в канале {channel|antiPing}: {message}",
+        "delta": "{delta|time} назад"
+    },
+    "receivedSubs": {
+        "noEntries": "susgeeDank мы не логировали подаренных сабов для {user|antiPing}",
+        "success": "{user|antiPing} получил {count|plural(one|сабгифт, other|сабгифтов)} {delta|include}"
+    },
+    "remind": {
+        "at": "{time}",
+        "bot": "susgeeOK спасибо, что напомнил",
+        "userBot": "susgeeDank {user} известный бот, ему нельзя ставить напоминания",
+        "userIgnored": "susgeeDank {user|antiPing} в игноре и не может получать напоминания",
+        "maxReminders": "ты достиг лимита активных напоминаний",
+        "nextTimeSelf": "когда ты напишешь в следующий раз",
+        "nextTimeOther": "когда они напишут в следующий раз",
+        "other": "я напомню {user|antiPing}",
+        "pastDate": "susgeeDank нельзя ставить напоминания в прошлое",
+        "self": "я тебе напомню",
+        "tooFarAway": "susgeeDank нельзя ставить напоминание больше чем на 2 года вперёд",
+        "userBlocked": "susgeePoint тебе нельзя ставить напоминания {user|antiPing}"
+    },
+    "reminder": {
+        "tooLong": "@{receiver} твои напоминания слишком длинные для чата susgeePoint {paste}",
+        "message": "напоминание от {sender|antiPing} susgeePoint \" {text} \" {delta|time} назад",
+        "timed": "@{receiver} отложенное напоминание от {sender|antiPing} susgeePoint \" {text} \" {delta|time} назад"
+    },
+    "seRank": {
+        "notFound": "{user|antiPing} нет в топ-100 чаттеров {channel|antiPing}",
+        "success": "{user|antiPing} на {rank} месте в рейтинге StreamElements канала {channel|antiPing}"
+    },
+    "split": {
+        "usage": "susgeeDank в сообщении должно быть минимум {min} и максимум {max} слов"
+    },
+    "stalk": {
+        "bot": "я буквально уже здесь susgeeDank",
+        "channel": {
+            "other": "Канал {channel|antiPing}",
+            "theirs": "их канал"
+        },
+        "delta": "{delta|time} назад",
+        "neverSeen": "susgeeDank сообщений от {user|antiPing} не найдено",
+        "self": "ты буквально уже здесь susgeeDank",
+        "success": "susgeeNoted последнее сообщение {user|antiPing} было в {channel}: {message}"
+    },
+    "streamInfo": {
+        "live": "{channel|antiPing} в эфире susgeeLIVE",
+        "offline": "{channel|antiPing} оффлайн susgeeOffline",
+        "neverStreamed": "этот канал ещё никогда не стримил susgeeSad",
+        "lastStream": "последний стрим был {delta|time} назад",
+        "title": "Название: {title}",
+        "category": "Категория: {category}",
+        "uptime": "в эфире с: {delta|time}",
+        "viewers": "зрители: {viewers|number}",
+        "language": "Язык: {language} {flag}",
+        "link": "Ссылка: {link}",
+        "newCategoryAndTitle": "susgeeNoted новая категория и название в канале @{channel}",
+        "noTitle": "(нет названия)",
+        "noCategory": "(нет категории)",
+        "newTitle": "susgeeNoted новое название в канале @{channel}",
+        "newCategory": "susgeeNoted новая категория в канале @{channel}"
+    },
+    "streamStatus": {
+        "live": "@{streamer} сейчас susgeeLIVE",
+        "offline": "@{streamer} сейчас susgeeOffline"
+    },
+    "subAge": {
+        "ended": "закончилась {delta|time} назад",
+        "ends": "закончится через {delta|time}",
+        "giftedSub": "подарена {giftedBy|antiPing}",
+        "neverSubbed": "никогда не был подписан на {channel|antiPing}",
+        "notSubscribable": "susgeeDank канал {channel|antiPing} не компаньон/партнёр",
+        "permanent": "вечный саб",
+        "renews": "продлится через {delta|time}",
+        "statusHidden": "пользователь {user|antiPing} скрыл статус подписки",
+        "streak": "стрик {streak} мес.",
+        "since": "подписан на {channel|antiPing} уже {months|plural(one|месяц, other|месяцев)}",
+        "subscribedFor": "раньше был подписан на {channel|antiPing} {months|plural(one|месяц, other|месяцев)}",
+        "tier": "саб {tier} тира"
+    },
+    "subgifts": {
+        "noEntries": "{user|antiPing} не дарил сабов {delta|include} в канале {channel|antiPing}",
+        "stats": "{user|antiPing} подарил {count|number} сабов {delta|include} в канале {channel|antiPing} (на сумму: {price}€)"
+    },
+    "subGiftPing": {
+        "disabled": "susgeeOK больше не буду писать, когда увижу сабгифт",
+        "enabled": "susgeeOK буду писать, когда увижу сабгифт для тебя"
+    },
+    "alerts": {
+        "anonymous": "Аноним",
+        "sub": "$(user) оформил саб $(tier) на $(months) мес. sheCrazy",
+        "resub": "$(user) продлил саб $(tier) — подписан уже $(months) мес. sheCrazy",
+        "gift": "$(user) дарит $(count) саб(ов)!! sheCrazy всего подарено $(total) саб(ов)!",
+        "raid": "$(user) рейдит с $(viewers) зрител(ями) sheCrazy",
+        "bits": "$(user) закинул $(bits) битов, спасибо sheCrazy"
+    },
+    "subinfo": {
+        "noEntries": "В канале {channel|antiPing} не раздавали сабы {delta|include}",
+        "stats": "Инфо по сабам канала {channel|antiPing} {delta|include}: всего сабов: {total|number}, первых сабов: {firstTime|number}, тиры: (P, T1, T2, T3) => {prime|number}, {tier1|number}, {tier2|number}, {tier3|number}"
+    },
+    "suggestion": {
+        "actions": {
+            "finished": "завершено",
+            "approved": "одобрено и будет обработано вручную",
+            "deleted": "удалено",
+            "implemented": "внедрено"
+        },
+        "maxEntries": "susgeeDank нельзя отправлять больше 5 предложений в день",
+        "noEntries": "susgeeDank в базе нет предложений",
+        "notFound": "susgeeDank предложения с id {id} нет",
+        "notification": "susgeeOK предложение \"{text}\" {action|include}",
+        "response": "susgeeOK предложение {id} от {user|antiPing} {action|include}",
+        "success": "susgeeOK твоё предложение/запрос сохранён и будет обработан вручную (id: {id})"
+    },
+    "topBans": {
+        "noEntries": "susgeeDank в канале {channel|antiPing} нет банов",
+        "success": "Чаттеры с наибольшим числом банов в канале {channel|antiPing}: {leaderboard} KEK"
+    },
+    "topChatter": {
+        "noEntries": "susgeeDank в канале {channel|antiPing} никто не писал {delta|include}",
+        "entry": "{user|antiPing}: {count|number}",
+        "text": "самые активные чаттеры {delta|include} в канале {channel|antiPing}: {leaderboard}"
+    },
+    "topSubgifts": {
+        "noEntries": "susgeeDank в канале {channel|antiPing} нет залогированных сабгифтов {delta|include}",
+        "text": "топ сабгифтеров {delta|include} в канале {channel|antiPing}: {leaderboard}"
+    },
+    "topTimeouts": {
+        "noEntries": "susgeeDank в канале {channel|antiPing} нет залогированных таймаутов {delta|include}",
+        "success": "в канале {channel|antiPing} {count|number} залогированных таймаутов {delta|include}"
+    },
+    "timeouts": {
+        "noEntries": "{user|antiPing} ещё не получал таймаутов в канале {channel|antiPing} {delta|include}",
+        "userStats": "{user|antiPing} набрал всего {count|plural(one|таймаут, other|таймаутов)} в канале {channel|antiPing} {delta|include}"
+    },
+    "unban": {
+        "noUsers": "susgeeDank никого не удалось найти",
+        "success": "susgeeOK разбан пользователей завершён"
+    },
+    "unRemind": {
+        "invalidId": "susgeeDank id должен быть числом",
+        "notFound": "susgeeDank напоминания с id {id} нет",
+        "notYours": "susgeeDank напоминание с id {id} не твоё",
+        "success": "susgeeOK напоминание с id {id} удалено"
+    },
+    "user": {
+        "age": "возраст: {age|time}",
+        "badge": "бейдж: {badge}",
+        "banned": {
+            "deactivated": "бан: ⏸ FALSE ({reason}) аккаунт деактивирован с {since|time}",
+            "false": "бан: ⏸ FALSE",
+            "true": "бан: ⛔ TRUE ({reason}) в бане с {since|time}"
+        },
+        "banner": "баннер профиля: {banner}",
+        "bot": {
+            "known": "внутри помечен как бот: {check}",
+            "verified": "подтверждённый бот: {check}"
+        },
+        "color": "Цвет: {color}",
+        "createdAt": "создан: {createdAt|date}",
+        "bio": "био: {text}",
+        "followers": "фолловеры: {followers|number}",
+        "follows": "фолловы: {follows|number}",
+        "isBanned": "⛔ Забанен ({reason})",
+        "role": "{type|include}: {emoji}",
+        "roles": {
+            "affiliate": "Компаньон",
+            "list": "Роли: {roles}",
+            "partner": "Партнёр",
+            "preAffiliate": "до компаньона",
+            "staff": "Команда"
+        }
+    },
+    "weather": {
+        "noUser": "susgeeDank нужно указать пользователя",
+        "noUserLocation": "susgeeDank у этого пользователя нет сохранённой локации",
+        "noLocationSet": "susgeeDank укажи город или напиши Susgeebot в виспер \"weather <city>\", чтобы сохранить локацию",
+        "locationNotFound": "susgeeDank локацию с таким названием найти не удалось",
+        "location": "📍 {location} {flag}",
+        "locationHidden": "Местоположение скрыто susgeeBased {flag}",
+        "weather": "🌥️ Погода: {weather}",
+        "wind": "🌬️ Скорость ветра: {wind}",
+        "temperature": "🌡️ Температура: {temp}°C",
+        "feelsLike": "🌡️ Ощущается как: {temp}°C",
+        "humidity": "💧 Влажность: {humidity}%",
+        "sunrise": "🌅 Восход: {time}",
+        "sunset": "🌆 Закат: {time}",
+        "currentTime": "🕰️ Текущее время (примерно): {date}"
+    },
+    "youtube": {
+        "submitId": "нужно отправить ссылку/id youtube",
+        "likes": "👍 лайки: {likes|number} ({percentage}%)",
+        "dislikes": "👎 дизлайки: {dislikes|number} ({percentage}%)",
+        "views": "👁 просмотры: {views|number}",
+        "date": "📅 статистика собрана {delta|time} назад"
+    },
+    "meta": {
+        "7tv": {
+            "usage": "[add | remove | rename | replace | yoink | import]",
+            "description": "Управляет эмоутами 7TV в твоём Twitch-канале. (Боту нужны права редактора 7TV на канале)",
+            "usages": {
+                "add": "<эмоут> (<новое имя>)",
+                "remove": "<эмоут> <эмоут>",
+                "rename": "<эмоут> <новое имя>",
+                "replace": "<старый эмоут> <новый эмоут> (<новое имя>)",
+                "yoink": "<канал> <эмоут> (<новое имя>)",
+                "import": "<канал / id набора эмоутов>"
+            }
+        },
+        "7tvc": {
+            "usage": "[add | remove | rename | replace | yoink | import]",
+            "description": "Управляет эмоутами 7TV в других каналах",
+            "usages": {
+                "add": "<эмоут> (<новое имя>)",
+                "remove": "<эмоут> <эмоут>",
+                "rename": "<эмоут> <новое имя>",
+                "replace": "<старый эмоут> <новый эмоут> (<новое имя>)",
+                "yoink": "<канал> <эмоут> (<новое имя>)",
+                "import": "<канал / id набора эмоутов>"
+            }
+        },
+        "7tvEditor": {
+            "usage": "<Пользователь>",
+            "description": "добавляет редактора эмоутов (7TV)"
+        },
+        "7tvEditorList": {
+            "description": "показывает пользователей с правами редактора бота (7TV)"
+        },
+        "7tvMsg": {
+            "usage": "<канал>",
+            "description": "включает/выключает уведомления (7TV) в чате"
+        },
+        "7tvSa": {
+            "usage": "<Пользователь>",
+            "description": "Показывает статус подписки пользователя на (7TV)"
+        },
+        "7tvUser": {
+            "usage": "<Пользователь>",
+            "description": "ищет пользователя на 7TV"
+        },
+        "7tvlog": {
+            "description": "показывает недавние изменения эмоутов 7TV в канале"
+        },
+        "8ball": {
+            "usage": "<Сообщение>",
+            "description": "отвечает на твои вопросы"
+        },
+        "aare": {
+            "description": "температура реки в Туне"
+        },
+        "activeChannel": {
+            "usage": "<Пользователь>",
+            "description": "отправляет список каналов, где пользователь писал"
+        },
+        "addBetween": {
+            "usage": "<слово-вставка> <слово-разделитель>",
+            "description": "разбивает каждое слово в отдельное сообщение"
+        },
+        "addBot": {
+            "description": "информация, как добавить бота"
+        },
+        "affiliatePing": {
+            "usage": "<Пользователь>",
+            "description": "пингует тебя, когда канал становится компаньоном"
+        },
+        "afk": {
+            "usage": "<текст афк>",
+            "description": "ставит статус АФК"
+        },
+        "ambassador": {
+            "usage": "[add | remove] <пользователь> или list",
+            "description": "добавляет или снимает статус амбассадора в твоём канале для доверенных людей"
+        },
+        "allEmotes": {
+            "usage": "<Канал>",
+            "description": "кидает в чат все эмоуты 7TV/BTTV/FFZ/TWITCH канала"
+        },
+        "animal": {
+            "description": "отправляет случайную фотку животного"
+        },
+        "announce": {
+            "usage": "<Текст>",
+            "description": "отправляет анонс twitch в чат"
+        },
+        "antiPing": {
+            "usage": "<Слово/Текст>",
+            "description": "FeelsBingMan 💢"
+        },
+        "avatar": {
+            "usage": "<Пользователь>",
+            "description": "отправляет ссылку на аватарку пользователя"
+        },
+        "badge": {
+            "description": "показывает текущий бейдж (7TV) пользователя"
+        },
+        "ban": {
+            "usage": "<Пользователь>",
+            "description": "банит пользователя в канале"
+        },
+        "banList": {
+            "usage": "<raw user list url> [<причина>]",
+            "description": "банит список пользователей"
+        },
+        "banMsg": {
+            "usage": "<канал>",
+            "description": "включает/выключает сообщения о банах"
+        },
+        "bans": {
+            "usage": "[alltime | today | yesterday | month | lastmonth | year | lastyear] <канал>",
+            "description": "показывает число залогированных банов в канале"
+        },
+        "bible": {
+            "usage": "(<id>)",
+            "description": "отправляет случайную запись из базы bible"
+        },
+        "bibleAdd": {
+            "usage": "<Текст>",
+            "description": "добавляет текст в базу bible"
+        },
+        "bibleDelete": {
+            "usage": "<id>",
+            "description": "удаляет твой текст из базы bible"
+        },
+        "bibleList": {
+            "description": "даёт ссылку на страницу bible"
+        },
+        "birthday": {
+            "usage": "[add | remove] <имя> <день> <месяц>",
+            "description": "добавляет день рождения в базу или удаляет его"
+        },
+        "birthdayMsg": {
+            "description": "ведёт в дашборд канала, где настраиваются поздравления с днём рождения"
+        },
+        "birthdays": {
+            "description": "возвращает все сохранённые дни рождения в текущем канале"
+        },
+        "blow": {
+            "description": "💨 🎈"
+        },
+        "susgeebotmsg": {
+            "usage": "<сообщение>",
+            "description": "Шлёт сообщение как экшен во все активные каналы (нужно подтверждение)"
+        },
+        "botSubs": {
+            "description": "показывает все саб-эмоуты, которые сейчас есть у бота"
+        },
+        "botties": {
+            "description": "мини-игра botties"
+        },
+        "bottiesBan": {
+            "usage": "<Пользователь>",
+            "description": "банит пользователя в botties"
+        },
+        "channel": {
+            "usage": "[join | rejoin | part] <канал>",
+            "description": "заходит в канал или выходит из него"
+        },
+        "channelStats": {
+            "usage": "<Канал>",
+            "description": "показывает статистику чата канала"
+        },
+        "channelSettings": {
+            "description": "ведёт в дашборд канала, где живут настройки"
+        },
+        "chat": {
+            "usage": "<Пользователь>",
+            "description": "показывает, пишет ли пользователь через стороннее приложение или веб-чат twitch"
+        },
+        "chatis": {
+            "description": "даёт ссылку на оверлей chatis"
+        },
+        "chatterino": {
+            "description": "даёт ссылки на скачивание форков chatterino"
+        },
+        "chatters": {
+            "usage": "<Канал>",
+            "description": "показывает текущих чаттеров в канале"
+        },
+        "chatting": {
+            "usage": "[alltime | today | yesterday | month | lastmonth | year] <пользователь> <канал>",
+            "description": "показывает статистику сообщений пользователя в канале за период"
+        },
+        "clear": {
+            "description": "очищает чат"
+        },
+        "clip": {
+            "usage": "<Канал>",
+            "description": "создаёт клип с указанного канала"
+        },
+        "cock": {
+            "description": "насколько большой у тебя кок?"
+        },
+        "coinFlip": {
+            "description": "орёл или решка?"
+        },
+        "command": {
+            "usage": "[check | disable | enable] <команда>",
+            "description": "включает/выключает команду в текущем канале"
+        },
+        "customCommand": {
+            "usage": "[add | remove | edit | rename | alias | list | copy | link | enable | disable | cooldown | public | permission | live | info] <имя> <команда>",
+            "usages": {
+                "add": "<имя> <команда>",
+                "delete": "<имя>",
+                "copy": "<канал> <команда1> [команда2 ...]",
+                "rename": "<имя> <новое имя>",
+                "alias": "<имя> <алиас1, алиас2, ...>",
+                "link": "<канал> <команда> [своё имя]",
+                "enable": "<имя>",
+                "disable": "<имя>",
+                "cooldown": "<имя> <секунды>",
+                "public": "<имя> [on | off]",
+                "reply": "<имя> [on | off]",
+                "action": "<имя> [on | off]",
+                "permission": "<имя> [everyone | vip | mod | broadcaster]",
+                "live": "<имя> [always | online | offline]",
+                "info": "<имя>"
+            },
+            "description": "управляет кастомными командами (добавить, удалить, настройки, алиасы, копировать, линковать)"
+        },
+        "deleteSuggest": {
+            "usage": "<id>",
+            "description": "удаляет предложение"
+        },
+        "discord": {
+            "description": "отправляет ссылку на наш discord-сервер"
+        },
+        "dislikes": {
+            "usage": "<YouTube Video ID/Link>",
+            "description": "показывает статистику youtube-видео"
+        },
+        "duhuuuuuuure": {
+            "description": "особый шаут-аут случайному человеку в чате"
+        },
+        "echo": {
+            "usage": "<текст>",
+            "description": "повторяет сообщение"
+        },
+        "eCount": {
+            "usage": "<эмоут> <канал>",
+            "description": "показывает, сколько раз эмоут использовали в канале"
+        },
+        "eCountToday": {
+            "usage": "<эмоут> <канал>",
+            "description": "показывает, сколько раз эмоут использовали в канале сегодня"
+        },
+        "eCountUser": {
+            "usage": "<эмоут> <пользователь> <канал>",
+            "description": "показывает, сколько раз пользователь использовал эмоут в канале"
+        },
+        "emote": {
+            "usage": "<эмоут>",
+            "description": "показывает информацию о twitch-эмоуте"
+        },
+        "emotes": {
+            "usage": "<канал>",
+            "description": "отправляет ссылку на все эмоуты канала"
+        },
+        "emoteSet": {
+            "usage": "<канал>",
+            "description": "показывает информацию о текущем наборе эмоутов (7TV)"
+        },
+        "emoteSets": {
+            "usage": "<канал>",
+            "description": "показывает информацию обо всех наборах эмоутов (7TV) канала"
+        },
+        "eSearch": {
+            "usage": "[bttv | ffz | seventv] <эмоут>",
+            "description": "ищет эмоут на bttv/ffz/7tv по имени"
+        },
+        "eval": {
+            "usage": "<код>",
+            "description": "выполняет javascript-код"
+        },
+        "ezGif": {
+            "usage": "<эмоут>",
+            "description": "даёт ezgif-ссылку на эмоут"
+        },
+        "feelsGoodMan": {
+            "description": "FeelsGoodMan"
+        },
+        "fill": {
+            "usage": "<текст>",
+            "description": "повторяет текст, пока не наберётся 500 символов"
+        },
+        "firstLoggedLine": {
+            "usage": "<пользователь> <канал>",
+            "description": "показывает первое сообщение пользователя в канале с https://logs.florian2807.me"
+        },
+        "followAge": {
+            "usage": "<пользователь> <канал>",
+            "description": "показывает статус фоллова пользователя"
+        },
+        "founders": {
+            "usage": "<канал>",
+            "description": "показывает фаундеров канала"
+        },
+        "forecast": {
+            "description": "Показывает 5-дневный прогноз погоды для города",
+            "usage": "<город> или user <пользователь>"
+        },
+        "freeAll": {
+            "description": "снимает все таймауты со всех пользователей в текущем канале"
+        },
+        "fuck": {
+            "usage": "<пользователь>",
+            "description": "динкает конкретного пользователя или случайного чаттера"
+        },
+        "funFact": {
+            "description": "отправляет случайный факт"
+        },
+        "gamba": {
+            "usage": "<количество botties | half | all | например 20%>",
+            "description": "ставь свои botties"
+        },
+        "give": {
+            "usage": "<пользователь> <количество botties | half | all | например 20%>",
+            "description": "отдаёт твои botties другому пользователю"
+        },
+        "global": {
+            "description": "показывает все глобальные эмоуты 7TV/BTTV/FFZ/TWITCH"
+        },
+        "globalEmoteAnnounce": {
+            "description": "присылает уведомление, когда обновился глобальный бейдж/эмоут на Twitch, 7TV или BTTV"
+        },
+        "gpt": {
+            "usage": "<текст>",
+            "description": "спрашивает что-то у ChatGPT"
+        },
+        "help": {
+            "usage": "<команда | категория>",
+            "description": "показывает помощь по команде или список категории"
+        },
+        "history": {
+            "description": "отправляет ссылку на recent-messages канала"
+        },
+        "hug": {
+            "usage": "<пользователь>",
+            "description": "обнять кого-то 🤗"
+        },
+        "id": {
+            "usage": "<пользователь>",
+            "description": "возвращает id пользователя с Twitch и (7TV)"
+        },
+        "isBanned": {
+            "usage": "<пользователь> <канал>",
+            "description": "проверяет, забанен ли пользователь в канале"
+        },
+        "isInChat": {
+            "usage": "<пользователь> <канал>",
+            "description": "проверяет, есть ли пользователь в канале"
+        },
+        "insights": {
+            "usage": "<пользователь> <канал>",
+            "description": "показывает инсайты логов пользователя в канале (слова, эмоуты, первый/последний раз)"
+        },
+        "kok": {
+            "description": "ВОЛНА КОКА"
+        },
+        "lang": {
+            "usage": "[de | en]",
+            "description": "меняет язык бота в текущем канале"
+        },
+        "lastLine": {
+            "usage": "<пользователь> <канал>",
+            "description": "возвращает последнюю залогированную строку пользователя в канале"
+        },
+        "lastTimeout": {
+            "usage": "<пользователь> <канал>",
+            "description": "возвращает последний залогированный таймаут пользователя в канале"
+        },
+        "leaderboard": {
+            "description": "показывает таблицу лидеров мини-игры botties"
+        },
+        "lines": {
+            "usage": "[today | yesterday | month | year | alltime] <канал>",
+            "description": "отправляет число сообщений в канале"
+        },
+        "linesUser": {
+            "usage": "<пользователь> [today | yesterday | month | year | alltime] <канал>",
+            "description": "отправляет число сообщений пользователя в канале"
+        },
+        "liveMsg": {
+            "usage": "<канал>",
+            "description": "включает/выключает лайв-сообщения для стримера"
+        },
+        "liveMsgs": {
+            "description": "показывает все включённые лайв-сообщения в этом канале"
+        },
+        "livePing": {
+            "usage": "<канал>",
+            "description": "пингует тебя, когда стример выходит в эфир"
+        },
+        "logSearch": {
+            "usage": "<запрос> [@пользователь] [#канал]",
+            "description": "ищет логи пользователя в канале"
+        },
+        "logging": {
+            "usage": "(<пользователь>)",
+            "description": "включает/выключает логирование пользователя"
+        },
+        "logs": {
+            "usage": "<пользователь> <канал>",
+            "description": "отправляет ссылку на логи пользователя в канале"
+        },
+        "loserboard": {
+            "description": "показывает таблицу лузеров мини-игры botties"
+        },
+        "maersuggest": {
+            "usage": "<текст>",
+            "description": "BabyRage marceeeeel"
+        },
+        "mass": {
+            "usage": "<Текст>",
+            "description": "Пингует всех в канале"
+        },
+        "math": {
+            "usage": "<математика (5*2^2)>",
+            "description": "посчитать что-нибудь"
+        },
+        "modAge": {
+            "usage": "<пользователь> <канал>",
+            "description": "показывает статус мода пользователя в канале"
+        },
+        "mode": {
+            "description": "ведёт в дашборд канала, где живёт режим бота"
+        },
+        "modLookup": {
+            "usage": "<пользователь>",
+            "description": "показывает список каналов, где пользователь мод"
+        },
+        "mods": {
+            "usage": "<канал>",
+            "description": "показывает список модов канала"
+        },
+        "mostSent": {
+            "usage": "<пользователь> <канал>",
+            "description": "возвращает самое частое сообщение пользователя в канале"
+        },
+        "mostSentChannel": {
+            "usage": "[alltime | today | yesterday | month] <канал>",
+            "description": "возвращает самое частое сообщение в канале"
+        },
+        "myBible": {
+            "description": "показывает все твои тексты в базе bible"
+        },
+        "myReminder": {
+            "description": "показывает твои активные напоминания"
+        },
+        "nameChanges": {
+            "usage": "<пользователь>",
+            "description": "показывает прошлые ники пользователя"
+        },
+        "noPing": {
+            "description": "переключает, пингует ли тебя твоё имя, когда другие используют на тебе команды"
+        },
+        "noMention": {
+            "description": "позволяет отписаться от упоминаний в ответах команд"
+        },
+        "notify": {
+            "description": "Подписаться на уведомления о разных событиях",
+            "usage": "<тип> (<канал>)"
+        },
+        "notifications": {
+            "description": "Показывает, какие уведомления активны в этом канале"
+        },
+        "pingMe": {
+            "description": "Подписывает тебя лично на уведомление или снимает подписку",
+            "usage": "<тип> (<канал>)"
+        },
+        "unnotify": {
+            "description": "Выключает уведомление для этого канала",
+            "usage": "<тип> (<канал>)"
+        },
+        "nextBirthday": {
+            "description": "показывает ближайшие дни рождения"
+        },
+        "optOut": {
+            "description": "отписывает тебя от одной команды или от всех",
+            "usage": "[all | list | <команда>]"
+        },
+        "optIn": {
+            "description": "снова подписывает тебя на одну команду или на все",
+            "usage": "[all | <команда>]"
+        },
+        "paint": {
+            "usage": "<Пользователь | Краска>",
+            "description": "показывает информацию о краске или текущую краску пользователя"
+        },
+        "paste": {
+            "description": "ссылка на susgee-paste"
+        },
+        "percent": {
+            "description": "возвращает случайный процент"
+        },
+        "permission": {
+            "usage": "[status | default | vip | mod | ambassador | admin | dev] <пользователь>",
+            "description": "показывает права пользователя в боте или меняет их"
+        },
+        "pick": {
+            "usage": "<вариант 1> <вариант 2> . . .",
+            "description": "возвращает случайное слово из данного текста"
+        },
+        "ping": {
+            "description": "pong! 🏓"
+        },
+        "prefix": {
+            "usage": "<префикс>",
+            "description": "меняет префикс бота (по умолчанию ?)"
+        },
+        "presence": {
+            "usage": "<Пользователь>",
+            "description": "обновляет твою краску и бейдж (7TV)"
+        },
+        "prestige": {
+            "description": "поднимает престиж, чтобы фармить больше botties"
+        },
+        "pyramid": {
+            "usage": "<количество (1-25)> <текст> или stop, чтобы отменить пирамиду",
+            "description": "строит пирамиду в чате"
+        },
+        "randLine": {
+            "usage": "<Пользователь> <Канал>",
+            "description": "отправляет случайное сообщение пользователя"
+        },
+        "randLineChannel": {
+            "usage": "<канал>",
+            "description": "отправляет случайное сообщение из канала"
+        },
+        "randomColor": {
+            "description": "возвращает случайный hex-цвет"
+        },
+        "randomPing": {
+            "description": "пингует случайного пользователя"
+        },
+        "randomPoofAll": {
+            "description": "раздаёт всем в канале таймаут на случайное время"
+        },
+        "receivedSubs": {
+            "usage": "[alltime | today | yesterday | month] <пользователь>",
+            "description": "показывает, сколько залогированных сабов получил пользователь"
+        },
+        "regex": {
+            "usage": "<Текст>",
+            "description": "создаёт regex для chatterino"
+        },
+        "remind": {
+            "usage": "<пользователь> <текст> (in 6 days 49 minutes) или (on 14.02.2023 15:38)",
+            "description": "создаёт напоминание для пользователя или для себя. можно задать и конкретное время",
+            "usages": {
+                "me": "<текст> (in 49 minutes 15 seconds) или (on 14.02.2023 15:38)"
+            }
+        },
+        "say": {
+            "usage": "<Канал> <Текст>",
+            "description": "пишет что-то в указанный чат"
+        },
+        "scrape": {
+            "usage": "[7tv-cosmetics | 7tv-ids | 7tv-ids-kick | stop]",
+            "description": "скрапит некоторые данные"
+        },
+        "seRank": {
+            "usage": "<Пользователь> <Канал>",
+            "description": "показывает твоё место в рейтинге StreamElements"
+        },
+        "seen": {
+            "usage": "<пользователь> <канал>",
+            "description": "показывает первый/последний раз и число сообщений пользователя в канале"
+        },
+        "short": {
+            "usage": "<url>",
+            "description": "сокращает ссылку"
+        },
+        "spam": {
+            "usage": "<количество (1-50)> <сообщение> или stop, чтобы отменить спам",
+            "description": "спамит сообщение в чат"
+        },
+        "split": {
+            "usage": "<Текст>",
+            "description": "разбивает каждое слово в отдельное сообщение"
+        },
+        "sql": {
+            "usage": "(ch) [console | paste | chat] <SQL>",
+            "description": "выполняет sql-запрос"
+        },
+        "stalk": {
+            "usage": "<Пользователь>",
+            "description": "возвращает последнее увиденное сообщение пользователя"
+        },
+        "stats": {
+            "usage": "<Пользователь>",
+            "description": "показывает статистику botties пользователя"
+        },
+        "streamInfo": {
+            "usage": "<Канал>",
+            "description": "возвращает информацию о стриме"
+        },
+        "subAge": {
+            "usage": "<Пользователь> <Канал>",
+            "description": "показывает статус подписки пользователя в канале"
+        },
+        "subGiftPing": {
+            "usage": "(whisper) если сабгифты нужно анонсировать в виспер",
+            "description": "включает/выключает уведомления, когда найден сабгифт для пользователя"
+        },
+        "subGifts": {
+            "usage": "[alltime | today | yesterday | month] <пользователь> <канал>",
+            "description": "показывает, сколько сабов пользователь подарил в канале"
+        },
+        "subInfo": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <канал>",
+            "description": "проверяет, сколько сабов подарили в канале"
+        },
+        "suggest": {
+            "usage": "<Текст>",
+            "description": "предлагает фичу или репортит баг"
+        },
+        "suggestion": {
+            "usage": "[approve | finish | deletesilent] <id> или list",
+            "description": "управляет предложениями"
+        },
+        "copySet": {
+            "usage": "<канал / id набора эмоутов>",
+            "description": "копирует набор эмоутов в новый набор и активирует его"
+        },
+        "syncSet": {
+            "usage": "<канал / id набора эмоутов>",
+            "description": "синхронизирует текущий набор эмоутов с каналом или набором"
+        },
+        "timeouts": {
+            "usage": "[today | alltime] <пользователь> <канал>",
+            "description": "показывает, сколько таймаутов у пользователя в канале"
+        },
+        "topBadges": {
+            "description": "показывает топ-5 активных бейджей (7TV)"
+        },
+        "topBans": {
+            "usage": "<Канал>",
+            "description": "показывает самых забаненных пользователей канала"
+        },
+        "topChatter": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <канал>",
+            "description": "показывает самых активных чаттеров канала"
+        },
+        "topCommands": {
+            "description": "показывает 10 самых используемых команд"
+        },
+        "topPaints": {
+            "description": "показывает топ-5 активных красок (7TV)"
+        },
+        "topSubGifts": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <канал>",
+            "description": "показывает пользователей с наибольшим числом сабгифтов в канале"
+        },
+        "topTimeouts": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <канал>",
+            "description": "показывает 10 самых таймаученных пользователей канала"
+        },
+        "unban": {
+            "usage": "<Пользователь>",
+            "description": "разбанивает пользователя"
+        },
+        "unbanList": {
+            "usage": "<raw user list url, one user per line>",
+            "description": "разбанивает список пользователей"
+        },
+        "unRemind": {
+            "usage": "<id>",
+            "description": "удаляет напоминание"
+        },
+        "updateMsg": {
+            "usage": "<канал>",
+            "description": "включает/выключает обновления названия и категории канала"
+        },
+        "updateMsgs": {
+            "description": "показывает все включённые обновления названия и категории в этом канале"
+        },
+        "user": {
+            "usage": "<Пользователь | UserId>",
+            "description": "показывает информацию о пользователе twitch"
+        },
+        "vanish": {
+            "description": "тебе выдадут таймаут на 1 секунду"
+        },
+        "vanity": {
+            "description": "тестирует комбинации краски/бейджа"
+        },
+        "vipAge": {
+            "usage": "<Пользователь> <Канал>",
+            "description": "показывает статус VIP пользователя в канале"
+        },
+        "vipLookup": {
+            "usage": "<Пользователь>",
+            "description": "показывает список каналов, где пользователь VIP"
+        },
+        "vips": {
+            "usage": "<Канал>",
+            "description": "показывает список VIP канала"
+        },
+        "weather": {
+            "usage": "<локация> или user <ник>",
+            "description": "показывает погоду в указанном месте"
+        },
+        "whoAddedThisEmote": {
+            "usage": "<эмоут>",
+            "description": "показывает, кто добавил указанный эмоут"
+        },
+        "xd": {
+            "usage": "[restart | pull | load/reload/unload <команда> | module <Module>] можно цепочкой через ,|",
+            "description": "рестартит бота, тянет git, перезагружает команды/модули"
+        },
+        "y": {
+            "usage": "<EmoteName | 7TV-Link> -c channel1, channel2",
+            "description": "только для Laze"
+        },
+        "yoink": {
+            "usage": "<эмоут> (<новое имя>)",
+            "description": "тырит эмоут и добавляет его в твой канал (с опциональным алиасом)"
+        },
+        "z": {
+            "usage": "[add | remove | rename | replace | yoink | import]",
+            "description": "только для Laze",
+            "usages": {
+                "add": "<эмоут> (<новое имя>)",
+                "remove": "<эмоут> <эмоут>",
+                "rename": "<эмоут> <новое имя>",
+                "replace": "<старый эмоут> <новый эмоут> (<новое имя>)",
+                "yoink": "<канал> <эмоут> (<новое имя>)",
+                "import": "<Канал / Id набора эмоутов>"
+            }
+        },
+        "tldr": {
+            "description": "Делает саммари текущей истории чата."
+        },
+        "block": {
+            "description": "Блокирует пользователя, чтобы он не мог целиться в тебя отдельными командами.",
+            "usage": "<Пользователь>"
+        },
+        "unblock": {
+            "description": "Разблокирует пользователя для таких команд.",
+            "usage": "<Пользователь>",
+            "notBlocked": "susgeeDank {user|antiPing} не заблокирован.",
+            "success": "susgeeOK ты успешно разблокировал {user|antiPing}"
+        },
+        "stablediffusion": {
+            "description": "Генерирует картинку через StableDiffusion",
+            "usage": "<Промпт>"
+        },
+        "autopresence": {
+            "description": "Автоматически обновляет твою косметику 7TV."
+        }
+    },
+    "whisper": {
+        "commandList": "susgeePoint доступные команды (без префикса): weather, weatherupdate, weatherlocation",
+        "weather": {
+            "alreadySet": "Локация погоды уже задана: {city}. Чтобы сменить, напиши в виспер 'weatherupdate <city>'.",
+            "weatherSet": "Локация погоды сохранена. Чтобы сменить, используй 'weatherupdate <city>'.",
+            "noArgs": "Укажи город. Например: 'weather Berlin'.",
+            "weatherUpdated": "Локация погоды обновлена.",
+            "noWeatherLocationSet": "Локация погоды ещё не задана. Используй 'weather <city>', чтобы сохранить.",
+            "noArgsUpdate": "Укажи город. Например: 'weatherupdate Berlin'.",
+            "currentLocation": "Твоя текущая локация погоды: {city}"
+        }
+    },
+    "web": {
+        "forms": {
+            "searching": "Ищем…",
+            "search": "Поиск",
+            "selectOptions": "Выбери варианты",
+            "remove": "Убрать {name}"
+        },
+        "footer": {
+            "rightsReserved": "не связан с Twitch",
+            "privacy": "конфиденциальность"
+        },
+        "pages": {
+            "home": {
+                "metaTitle": "Главная",
+                "tagline": "Универсальный Twitch-бот для утилит, развлечения и статистики.",
+                "channelsJoined": "каналов подключено",
+                "features": {
+                    "7tv": {
+                        "title": "Интеграция 7TV",
+                        "description": "Управляй эмоутами канала прямо из чата простыми командами.",
+                        "cta": "Все команды 7TV"
+                    },
+                    "economy": {
+                        "title": "Экономика и игры",
+                        "description": "Вовлекай комьюнити полноценной экономикой и интерактивными играми.",
+                        "cta": "Посмотреть команды Botties"
+                    },
+                    "tools": {
+                        "title": "Инструменты и не только",
+                        "description": "Наши инструменты и фичи, чтобы чат был удобнее.",
+                        "cta": "Утилитарные команды"
+                    }
+                },
+                "modes": {
+                    "title": "Режимы бота",
+                    "description": "Ты решаешь, кто и когда может пользоваться Susgeebot в чате.",
+                    "default": {
+                        "name": "По умолчанию",
+                        "description": "Всё включено, для всех, в эфире и нет."
+                    },
+                    "audience": {
+                        "name": "По роли",
+                        "description": "Отдельно для эфира и оффлайна: все, VIP, моды или никто."
+                    },
+                    "7tv": {
+                        "name": "Только 7TV",
+                        "description": "Только команды 7TV и уведомления 7TV."
+                    }
+                },
+                "more": {
+                    "text": "Ещё есть статистика в реальном времени, логи активности и модераторские инструменты для банов и прав.",
+                    "stats": "Статистика бота →",
+                    "tools": "Наши инструменты →"
+                },
+                "cta": {
+                    "title": "Готов начать?",
+                    "description": "Присоединяйся к каналам, где уже стоит Susgeebot.",
+                    "signIn": "Войти через Twitch",
+                    "manage": "Управлять настройками",
+                    "add": "Добавить Susgeebot на канал"
+                }
+            },
+            "stats": {
+                "commandsExecuted": "Команд выполнено",
+                "messages": "Залогированных сообщений",
+                "subGifts": "Залогированных сабгифтов",
+                "modActions": "Залогированных мод-действий",
+                "nameChanges": "Залогированных смен ника",
+                "chatter": "Уникальных чаттеров",
+                "reminder": "Активных напоминаний",
+                "afk": "Активных АФК",
+                "botties": "Игроков Botties",
+                "title": "Статистика",
+                "description": "Статистика Susgeebot в реальном времени.",
+                "liveConnection": "Живое соединение",
+                "channels": "Каналы",
+                "commands": "Команды",
+                "uptime": "Аптайм",
+                "msgPerMin": "Ø сообщ. / мин",
+                "totals": "Итого",
+                "topCommands": "Топ команд"
+            },
+            "commands": {
+                "search": "поиск команд",
+                "title": "Команды бота",
+                "description": "Ищи и фильтруй все доступные команды бота.",
+                "metaDescription": "Смотри и ищи команды бота",
+                "allCategories": "Все категории",
+                "anyAccess": "Любой доступ",
+                "searchLabel": "Поиск",
+                "selectCategory": "Выбери категорию",
+                "selectAccess": "Выбери уровень доступа",
+                "empty": "Команды не найдены. Попробуй другой поиск или категорию."
+            },
+            "command": {
+                "backToCommands": "назад к командам",
+                "description": "Описание",
+                "usage": "Использование",
+                "metaTitle": "команда {name}",
+                "notFoundTitle": "Команда не найдена",
+                "notFoundMessage": "Команды с таким именем нет.",
+                "aliases": "Алиасы",
+                "permission": "Права",
+                "cooldown": "Кулдаун"
+            },
+            "bans": {
+                "description": "Ищи баны по каналу и/или пользователю",
+                "time": "Время",
+                "noSearchCriteria": "Введи канал или пользователя для поиска",
+                "noEntries": "По этому запросу банов нет",
+                "title": "Баны Twitch",
+                "channel": "Канал",
+                "user": "Пользователь",
+                "vod": "VOD",
+                "link": "Ссылка",
+                "logs": "Логи",
+                "itemsLabel": "банов",
+                "findVod": "Найти VOD",
+                "searchingVod": "Ищем…",
+                "noVod": "Нет VOD",
+                "vodError": "Ошибка"
+            },
+            "tools": {
+                "metaTitle": "Инструменты",
+                "metaDescription": "Конвертируй Twitch ID, следи за фолловами, управляй модерами и не только с Susgee Tools.",
+                "title": "Susgee Tools",
+                "description": "Набор полезных инструментов для пользователей и стримеров Twitch.",
+                "groups": {
+                    "tools": "Инструменты",
+                    "services": "Сервисы"
+                },
+                "status": {
+                    "checking": "Проверяем",
+                    "online": "Онлайн",
+                    "offline": "Оффлайн"
+                },
+                "items": {
+                    "bans": {
+                        "title": "Проверка банов",
+                        "description": "Ищи баны по каналу и/или пользователю."
+                    },
+                    "user": {
+                        "title": "Найти пользователя Twitch",
+                        "description": "Базовая информация Twitch по нику или ID."
+                    },
+                    "vodTime": {
+                        "title": "Поиск момента в VOD",
+                        "description": "Перейди к точному моменту записи стрима по времени или клипу."
+                    },
+                    "emotes": {
+                        "title": "Susgee Emotes",
+                        "description": "Смотри Twitch-эмоуты любого канала."
+                    },
+                    "history": {
+                        "title": "Susgee History",
+                        "description": "Читай недавние сообщения любого канала Twitch в удобном виде."
+                    },
+                    "logs": {
+                        "title": "Susgee Logs",
+                        "description": "Смотри и ищи логи чата Twitch по каналам и пользователям."
+                    },
+                    "paste": {
+                        "title": "Susgee Paste",
+                        "description": "Делись сниппетами и текстом через наш paste."
+                    },
+                    "uploader": {
+                        "title": "Susgee Uploader",
+                        "description": "Загружай и делись картинками и видео через наш хостинг."
+                    }
+                }
+            },
+            "user": {
+                "metaTitle": "Инструмент пользователя",
+                "metaDescription": "Найди пользователя Twitch по ID или нику.",
+                "title": "Найти пользователя Twitch",
+                "description": "Поиск по нику или ID",
+                "userId": "ID пользователя",
+                "username": "Ник",
+                "go": "Поехали",
+                "searchById": "Искать по ID",
+                "searchByName": "Искать по нику",
+                "notFound": "Пользователь не найден",
+                "apiError": "Пользователь не найден или ошибка API",
+                "banned": "Забанен:",
+                "followers": "Фолловеры",
+                "following": "Фолловит",
+                "partner": "Партнёр",
+                "affiliate": "Компаньон",
+                "lastStream": "Последний стрим:"
+            },
+            "vodTime": {
+                "metaTitle": "Время VOD",
+                "title": "Поиск момента в VOD",
+                "description": "Перейди к точному моменту записи стрима по времени или клипу.",
+                "channel": "Канал",
+                "channelPlaceholder": "Чей VOD ищем?",
+                "howLongAgo": "Как давно?",
+                "howLongAgoHint": "Отмотать на какое-то время назад…",
+                "daysAgo": "Дней назад",
+                "hoursAgo": "Часов назад",
+                "minutesAgo": "Минут назад",
+                "days": "дней",
+                "hours": "часов",
+                "minutes": "минут",
+                "specificTime": "Конкретная дата и время",
+                "specificTimeHint": "…или выбери конкретный момент (оба поля синхронизируются)",
+                "exactTime": "Точное время",
+                "clip": "Использовать клип как ориентир",
+                "clipPlaceholder": "Вставь ссылку на клип — найдём этот момент в VOD выбранного канала",
+                "searching": "Ищем…",
+                "jump": "Перейти к моменту",
+                "errors": {
+                    "noChannel": "Введи канал",
+                    "noTime": "Введи время или ссылку на клип",
+                    "invalidTime": "Некорректное время",
+                    "noVod": "VOD на это время не найден. Возможно, он истёк или удалён."
+                },
+                "timestamp": "Таймкод:",
+                "basedOnClip": "На основе клипа от",
+                "approximate": "(VOD клипа уже нет, берём время создания клипа, менее точно)",
+                "openVod": "Открыть VOD на таймкоде",
+                "player": "Плеер Twitch VOD"
+            },
+            "seventv": {
+                "metaTitle": "Права редактора 7TV",
+                "title": "Редакторы 7TV",
+                "editorOf": "Редактор <count>{count}</count> каналов:"
+            },
+            "bible": {
+                "metaTitle": "Bible",
+                "title": "Susgeebot Bible",
+                "description": "Ищи и листай записи Susgeebot Bible.",
+                "searchLabel": "Поиск по Bible",
+                "searchPlaceholder": "Поиск по Bible...",
+                "confirmDelete": "Точно удалить эту запись bible?",
+                "empty": "По твоему поиску записей bible нет.",
+                "itemsLabel": "записей"
+            },
+            "publicCommands": {
+                "title": "Команды {name}",
+                "joinedDescription": "Кастомные команды, на которые Susgeebot отвечает в канале {name}.",
+                "notJoinedDescription": "Susgeebot не в канале {name}.",
+                "notJoined": "Команд нет, потому что бот ещё не зашёл на этот канал.",
+                "addFromDashboard": "Если это твой канал, войди и добавь Susgeebot в <link>дашборде</link>.",
+                "noPublic": "В этом канале нет публичных кастомных команд.",
+                "cooldown": "кулдаун"
+            },
+            "paint": {
+                "metaTitle": "краска 7TV \"{name}\"",
+                "metaNotFound": "Краска не найдена",
+                "noPaintTitle": "Краска не указана",
+                "noPaintMessage": "Укажи в URL id краски, имя краски или ник Twitch",
+                "notFoundTitle": "Краска не найдена",
+                "notFoundMessage": "Запрошенной краски не существует",
+                "previewPlaceholder": "Введи текст для предпросмотра...",
+                "paintName": "Название краски:"
+            }
+        },
+        "common": {
+            "cancel": "Отмена",
+            "add": "Добавить",
+            "save": "Сохранить",
+            "loading": "Загрузка…",
+            "saved": "Сохранено",
+            "saving": "Сохраняем…",
+            "couldNotSave": "Не удалось сохранить",
+            "goHome": "На главную",
+            "tryAgain": "Попробовать снова",
+            "items": "элементов",
+            "or": "или",
+            "actions": "Действия",
+            "enabled": "Включено",
+            "public": "Публичная",
+            "chars": "{used} / {limit}",
+            "id": "ID:",
+            "new": "новое"
+        },
+        "nav": {
+            "commands": "Команды",
+            "stats": "Статистика",
+            "tools": "Инструменты",
+            "discord": "Discord",
+            "dashboard": "Дашборд",
+            "settings": "Настройки",
+            "logout": "Выйти",
+            "signIn": "Войти",
+            "userMenu": "Меню пользователя",
+            "navigation": "Навигация",
+            "openMenu": "Открыть меню навигации",
+            "home": "Главная Susgee",
+            "language": "Язык",
+            "admin": "Админ"
+        },
+        "errors": {
+            "badRequest": {
+                "title": "Некорректный запрос",
+                "message": "С твоим запросом что-то пошло не так."
+            },
+            "forbidden": {
+                "title": "Нет доступа",
+                "message": "У тебя нет прав на этот ресурс."
+            },
+            "notFound": {
+                "title": "Не найдено",
+                "message": "Такой страницы нет. Ещё нет или уже нет."
+            },
+            "serverError": {
+                "title": "Ошибка сервера",
+                "message": "У нас что-то сломалось."
+            },
+            "somethingWentWrong": "Что-то пошло не так!",
+            "image": "Ошибка"
+        },
+        "pagination": {
+            "first": "Первая",
+            "previous": "Назад",
+            "next": "Дальше",
+            "last": "Последняя",
+            "showing": "Показано <visible>{visible}</visible> из <total>{total}</total> {label}"
+        },
+        "permissions": {
+            "bot": "Бот",
+            "ignored": "Игнор",
+            "default": "По умолчанию",
+            "vip": "VIP",
+            "mod": "Мод",
+            "ambassador": "Амбассадор",
+            "broadcaster": "Стример",
+            "admin": "Админ",
+            "dev": "Дев",
+            "owner": "Владелец"
+        },
+        "categories": {
+            "fun": "Фан",
+            "botties": "Botties",
+            "twitch": "Twitch",
+            "chatting": "Чат",
+            "utils": "Утилиты",
+            "apps": "Приложения",
+            "bot": "Бот",
+            "7tv": "7TV"
+        },
+        "live": {
+            "connected": "WebSocket подключён",
+            "disconnected": "WebSocket отключён"
+        },
+        "chat": {
+            "moderator": "Модератор",
+            "bot": "Чат-бот"
+        },
+        "time": {
+            "days": "{count|plural(one|день,other|дней)}"
+        },
+        "notificationTypes": {
+            "live": "Эфир и оффлайн",
+            "title": "Смена названия и категории",
+            "bans": "Баны и таймауты",
+            "emotes": "Изменения эмоутов 7TV",
+            "subgift": "Сабгифты",
+            "affiliate": "Статус компаньона",
+            "7tv": "Косметика 7TV и глобальные эмоуты",
+            "twitchglobals": "Глобальные эмоуты и бейджи Twitch",
+            "blog": "Twitch blog",
+            "changelog": "Ченджлог Twitch"
+        },
+        "actions": {
+            "fetchBans": "Ошибка при загрузке банов.",
+            "fetchBible": "Ошибка при загрузке bible.",
+            "deleteBible": "Ошибка при удалении записи bible.",
+            "partChannel": "Не удалось выйти из канала.",
+            "joinChannel": "Не удалось зайти на канал.",
+            "save": "Не удалось сохранить.",
+            "noSuchUser": "Нет пользователя Twitch с ником \"{login}\".",
+            "lookupUser": "Не удалось найти этого пользователя.",
+            "invalidTimestamp": "Некорректный таймкод.",
+            "lookupVod": "Ошибка при поиске VOD.",
+            "saveLocation": "Не удалось сохранить локацию.",
+            "updateAutoPresence": "Не удалось обновить авто-присутствие.",
+            "removePing": "Не удалось убрать пинг.",
+            "deleteReminder": "Не удалось удалить напоминание.",
+            "createCommand": "Не удалось создать команду.",
+            "updateCommand": "Не удалось обновить команду.",
+            "deleteCommand": "Не удалось удалить команду.",
+            "invalidClip": "Некорректный URL клипа.",
+            "clipNotFound": "Клип не найден.",
+            "subscribe": "Не удалось включить уведомление.",
+            "unsubscribe": "Не удалось выключить уведомление.",
+            "addPing": "Не удалось добавить пинг.",
+            "saveAlert": "Не удалось сохранить алерт.",
+            "removeAlert": "Не удалось выключить алерт.",
+            "loadAudit": "Историю загрузить не удалось."
+        },
+        "dashboard": {
+            "title": "Дашборд",
+            "preview": "Как это будет выглядеть в чате",
+            "metaCommands": "Команды {name}",
+            "metaNotifications": "Уведомления {name}",
+            "noAccessTitle": "Нет доступа",
+            "noAccessDescription": "Ты не можешь управлять #{login}.",
+            "noAccessHint": "Нужно быть владельцем канала или его амбассадором, и Susgeebot должен уже зайти на канал.",
+            "tabs": {
+                "settings": "Настройки",
+                "commands": "Команды",
+                "alerts": "События",
+                "notifications": "Уведомления",
+                "joinFirst": "Доступно, когда Susgeebot зайдёт на этот канал",
+                "audit": "История"
+            },
+            "selector": {
+                "label": "Канал",
+                "you": "(Ты)",
+                "adminAccess": "админ-доступ",
+                "suspended": "заблокирован"
+            },
+            "join": {
+                "title": "Подключить Susgeebot",
+                "description": "Подключи бота к каналу, чтобы настраивать канал.",
+                "button": "Зайти на канал",
+                "joining": "Заходим…",
+                "modRequired": "Susgeebot нужны права модератора. Напиши <code>/mod Susgeebot</code> в <link>своём канале</link> и попробуй снова.",
+                "loggingOnly": "Susgeebot сейчас только логирует этот канал. Подключи его, чтобы команды и уведомления заработали.",
+                "adminHint": "Владелец должен сделать Susgeebot модератором. Как админ ты можешь только логировать этот канал.",
+                "admin": {
+                    "title": "Админ",
+                    "description": "Также для каналов, которые бот только читает.",
+                    "loggingHint": "То же самое, что ?channel join и ?channel part.",
+                    "unknown": "Susgeebot ещё не знает этот канал.",
+                    "lurk": "Зайти как логирование"
+                }
+            },
+            "general": {
+                "title": "Общее",
+                "prefix": "Префикс команд",
+                "prefixPlaceholder": "напр. !",
+                "prefixError": "Максимум 15 символов, не должен начинаться с . или /",
+                "language": "Язык канала",
+                "disabled": "Бот выключен",
+                "disabledHint": "Ничего не отвечает и ничего не постит. Остальные настройки остаются как есть.",
+                "stvOnly": "Только 7TV",
+                "stvOnlyHint": "Только команды 7TV и уведомления 7TV, всё остальное молчит.",
+                "commandsWhenLive": "Команды, пока ты в эфире",
+                "commandsWhenOffline": "Команды, пока ты оффлайн",
+                "audiences": {
+                    "everyone": "все",
+                    "vips": "VIP и выше",
+                    "mods": "моды и выше",
+                    "nobody": "никто"
+                },
+                "summary": {
+                    "off": "Susgeebot полностью игнорирует этот канал.",
+                    "stvOnly": "Только команды 7TV и уведомления 7TV, для всех, в эфире и нет.",
+                    "active": "Эфир: {live}. Оффлайн: {offline}."
+                }
+            },
+            "privacy": {
+                "title": "Приватность",
+                "logging": "Логировать сообщения в моём канале",
+                "hideFromLookups": "Скрыть мой канал из поисков",
+                "hideFromLookupsHint": "Канал больше не показывается в списках ?ac и в поиске банов. Команды внутри самого канала продолжают работать."
+            },
+            "autoMessages": {
+                "title": "Автосообщения",
+                "birthdayGreetings": "Поздравления с днём рождения",
+                "bottiesReminder": "Напоминание Botties"
+            },
+            "alerts": {
+                "title": "События",
+                "description": "Susgeebot анонсирует сабы, гифты, бейджи Bits и рейды в твоём чате. Оставь сообщение пустым, чтобы использовать текст по умолчанию.",
+                "affiliateOnly": "События доступны каналам-компаньонам и партнёрам.",
+                "minValue": {
+                    "raid": "От стольких зрителей",
+                    "bits": "От стольких битов"
+                },
+                "types": {
+                    "sub": "Новые сабы",
+                    "resub": "Ресабы",
+                    "gift": "Подаренные сабы",
+                    "raid": "Рейды",
+                    "bits": "Bits"
+                },
+                "hints": {
+                    "sub": "Кто-то подписывается впервые",
+                    "resub": "Кто-то продлевает саб",
+                    "gift": "Кто-то дарит один или несколько сабов",
+                    "raid": "Другой канал рейдит твой",
+                    "bits": "Кто-то кидает биты"
+                },
+                "message": "Сообщение для {type}",
+                "variables": "Переменные",
+                "edit": "Изменить",
+                "close": "Закрыть",
+                "defaultText": "Текст по умолчанию",
+                "useDefault": "Использовать текст по умолчанию",
+                "from": {
+                    "raid": "от {value} зрителей",
+                    "bits": "от {value} битов"
+                }
+            },
+            "ambassadors": {
+                "title": "Амбассадоры",
+                "description": "Разреши доверенным людям управлять настройками канала.",
+                "readOnly": "Этот список может менять только владелец канала. Себя убрать можно.",
+                "leave": "Убрать меня из амбассадоров",
+                "add": "Добавить амбассадора",
+                "empty": "Амбассадоров пока нет",
+                "remove": "Убрать {name}",
+                "username": "Ник Twitch",
+                "usernamePlaceholder": "напр. xqc",
+                "notFound": "Пользователь не найден",
+                "alreadyAmbassador": "Пользователь уже амбассадор"
+            },
+            "danger": {
+                "title": "Убрать Susgeebot с этого канала",
+                "description": "Бот выходит из чата, а логи, которые он вёл для этого канала, удаляются.",
+                "button": "Выйти из канала",
+                "parting": "Выходим из канала…",
+                "confirmTitle": "Выйти из канала",
+                "confirmMessage": "Точно убрать бота с канала?\nСуществующие логи будут удалены."
+            },
+            "commands": {
+                "title": "Кастомные команды",
+                "publicPage": "Публичная страница",
+                "add": "Добавить команду",
+                "empty": "Кастомных команд пока нет",
+                "command": "Команда",
+                "enable": "Включить {name}",
+                "makePublic": "Сделать {name} публичной",
+                "edit": "Изменить {name}",
+                "delete": "Удалить {name}",
+                "footnote": "Публичные команды отображаются на твоей <link>публичной странице команд</link>. Выключенные команды остаются сохранёнными, но не отвечают.",
+                "editTitle": "Изменить {name}",
+                "name": "Имя команды",
+                "namePlaceholder": "напр. !discord",
+                "response": "Ответ",
+                "responsePlaceholder": "Что должен ответить бот",
+                "cooldown": "Кулдаун (секунды)",
+                "required": "Имя и ответ обязательны",
+                "aliases": "Алиасы",
+                "aliasesPlaceholder": "введи алиас и нажми Enter",
+                "permission": "Кто может использовать",
+                "permissions": {
+                    "0": "Все",
+                    "1": "VIP",
+                    "2": "Модератор",
+                    "4": "Стример"
+                },
+                "sections": {
+                    "general": "Общее",
+                    "aliases": "Алиасы",
+                    "conditions": "Условия"
+                },
+                "responseType": {
+                    "label": "Тип ответа",
+                    "hint": "Как бот отправляет ответ",
+                    "say": "Обычное сообщение",
+                    "sayHint": "Постит ответ обычным сообщением в чат",
+                    "reply": "Как реплай",
+                    "replyHint": "Отвечает тредом под сообщением, которое её вызвало",
+                    "action": "Как /me",
+                    "actionHint": "Постит ответ как действие /me"
+                },
+                "liveState": {
+                    "label": "Отвечать, когда стрим",
+                    "always": "Онлайн и оффлайн",
+                    "online": "Только онлайн",
+                    "offline": "Только оффлайн"
+                },
+                "search": "Поиск команд…",
+                "noResults": "Нет команды по запросу \"{query}\"",
+                "emptyDescription": "Кастомные команды — это автоответы, которые чат вызывает чем-то вроде !discord. Переменные вроде $(sender) или $(customapi …) делают их динамическими.",
+                "hints": {
+                    "name": "Триггер, с ! или без (напр. !discord)",
+                    "response": "Что отвечает бот. Поддерживает <link>переменные</link>.",
+                    "cooldown": "Секунд до следующего срабатывания. 0 — без кулдауна",
+                    "permission": "Минимальный уровень, чтобы вызвать команду",
+                    "aliases": "Дополнительные триггеры той же команды, максимум {limit}",
+                    "count": "Текущее значение $(count). Поставь любое число, чтобы сбросить",
+                    "enabled": "Выключенная команда остаётся сохранённой, но не отвечает",
+                    "public": "Публичные команды показываются на публичной странице команд"
+                },
+                "count": "Счётчик",
+                "linked": "Запускает {name} из {channel}",
+                "linkedBroken": "Команда, на которую это ссылается, удалена",
+                "linkedHint": "Ответ принадлежит исходному каналу и правится только там.",
+                "docs": {
+                    "title": "Переменные",
+                    "description": "Плейсхолдеры, которые можно вставить в ответ",
+                    "channel": "Имя канала, где использовали команду",
+                    "channelId": "ID канала, где использовали команду",
+                    "sender": "Пользователь, который вызвал команду",
+                    "senderId": "ID отправителя, если есть",
+                    "user": "Целевой пользователь (аргумент 1, если есть, иначе отправитель)",
+                    "argument": "Конкретный аргумент на этой позиции",
+                    "rest": "Аргумент и все следующие аргументы",
+                    "fallback": "Аргумент или запасное значение, если его нет (запасное — обычный текст или ключевые слова 'sender' или 'channel')",
+                    "streamTitle": "Название канала (если пусто, будет '(no title)')",
+                    "game": "Текущая игра или категория (если пусто, будет '(no game)')",
+                    "followers": "Число фолловеров",
+                    "randomNumber": "Случайное целое число. По умолчанию от 1 до 100",
+                    "randomPick": "Случайный элемент из списка через запятую",
+                    "time": "Текущее время в часовом поясе IANA (по умолчанию UTC)",
+                    "date": "Текущая дата в часовом поясе IANA (по умолчанию UTC)",
+                    "count": "Увеличивается на один при каждом использовании",
+                    "customApi": "Забрать данные с внешнего URL (только хосты из белого списка). В URL можно любые переменные, включая аргументы вроде $(1) — каждое значение URL-кодируется",
+                    "allowlist": "Белый список Custom API (запросы вне него блокируются). Напиши нам, если нужно добавить хост"
+                }
+            },
+            "builtin": {
+                "title": "Встроенные команды",
+                "description": "Собственные команды Susgeebot. Выключенная команда в этом канале не отвечает.",
+                "count": "{enabled} из {total} включено",
+                "search": "Поиск команд…",
+                "noResults": "Нет команды по запросу \"{query}\"",
+                "toggle": "Включить или выключить {name}",
+                "unavailable": "Список встроенных команд загрузить не удалось.",
+                "presets": {
+                    "title": "Быстрые настройки",
+                    "description": "Переключает сразу целую группу. Отдельные команды ниже всё равно можно крутить.",
+                    "partial": "{disabled} из {total} выключено: {commands}"
+                },
+                "groups": {
+                    "spam": "Спам",
+                    "rude": "Грубые",
+                    "botties": "Botties"
+                }
+            },
+            "notifications": {
+                "announcements": "Анонсы канала",
+                "streamers": "Уведомления о стримерах",
+                "removePing": "Убрать пинг для {name}",
+                "verboseLiveMsg": "Добавлять название и категорию в лайв-сообщения",
+                "addStreamer": "Добавить стримера…",
+                "pingMe": "Пинговать меня",
+                "alreadySubscribed": "{type} для {login} уже включены",
+                "removeSubscription": "Убрать {type} для {name}",
+                "addFor": "Добавить стримера для {type}",
+                "search": "Поиск стримеров…",
+                "showMore": "Показать ещё ({shown} из {total})",
+                "whenLive": "Присылать уведомления, пока я в эфире",
+                "whenLiveHint": "Выкл: пока идёт твой стрим, ничего не постится. Твоё собственное лайв-сообщение всё равно уйдёт.",
+                "liveMessage": "Лайв-сообщение",
+                "liveMessageDescription": "Постится, когда стример из «Эфир и оффлайн» выходит в эфир.",
+                "liveMessageHint": "Переменные:",
+                "includeLink": "Добавлять ссылку на канал"
+            },
+            "metaChannel": "Дашборд {name}",
+            "metaAlerts": "События для {name}",
+            "birthdays": {
+                "title": "Дни рождения",
+                "description": "В эти дни Susgeebot поздравляет в чате, если поздравления включены. То же самое, что ?birthday в чате.",
+                "empty": "Дней рождения пока нет.",
+                "add": "Добавить",
+                "login": "Ник",
+                "day": "День",
+                "month": "Месяц",
+                "remove": "Удалить день рождения {name}",
+                "date": "{day}.{month}."
+            },
+            "metaAudit": "История {name}",
+            "audit": {
+                "title": "История",
+                "description": "Кто что и когда менял, в дашборде или в чате.",
+                "filters": {
+                    "all": "Все",
+                    "commands": "Команды",
+                    "alerts": "События",
+                    "notifications": "Уведомления",
+                    "settings": "Настройки"
+                },
+                "persons": "Все",
+                "bot": "Susgeebot",
+                "viaChat": "в чате",
+                "empty": "Записей пока нет.",
+                "noMatch": "По этому фильтру записей нет.",
+                "loadMore": "Загрузить старше",
+                "change": "{field}: с {before} на {after}",
+                "fields": {
+                    "botMode": "Режим бота",
+                    "message": "Сообщение",
+                    "minValue": "Порог",
+                    "enabled": "Включено",
+                    "public": "Публичная",
+                    "permission": "Права",
+                    "reply": "Как реплай",
+                    "action": "Как /me",
+                    "liveState": "Отвечает"
+                },
+                "values": {
+                    "on": "вкл",
+                    "off": "выкл",
+                    "empty": "пусто",
+                    "defaultText": "текст по умолчанию",
+                    "quoted": "«{value}»",
+                    "botMode": {
+                        "0": "Бот выключен",
+                        "1": "По умолчанию",
+                        "3": "Только 7TV"
+                    }
+                },
+                "actions": {
+                    "command": {
+                        "create": "Команда {name} создана: {response}",
+                        "delete": "Команда {name} удалена",
+                        "update": "Команда {name} изменена: {changes}",
+                        "saved": "Команда {name} сохранена",
+                        "rename": "Команда {before} переименована в {after}",
+                        "aliases": "Алиасы {name}: {aliases}",
+                        "aliasesCleared": "Все алиасы {name} удалены",
+                        "link": "Команда {name} привязана к {command} из {channel}",
+                        "copy": "Команда {name} скопирована из {channel}"
+                    },
+                    "builtin": {
+                        "enable": "{name} включена",
+                        "disable": "{name} выключена",
+                        "groupOn": "Группа {group} включена: {commands}",
+                        "groupOff": "Группа {group} выключена: {commands}"
+                    },
+                    "ambassadors": {
+                        "added": "Амбассадор добавлен: {names}",
+                        "removed": "Амбассадор убран: {names}"
+                    },
+                    "alert": {
+                        "enabled": "Событие {type} включено",
+                        "set": "Событие {type} изменено: {changes}",
+                        "remove": "Событие {type} выключено"
+                    },
+                    "notification": {
+                        "subscribe": "{type} включены",
+                        "subscribeTarget": "{type} для {login} включены",
+                        "unsubscribe": "{type} выключены",
+                        "unsubscribeTarget": "{type} для {login} выключены"
+                    },
+                    "ping": {
+                        "add": "Пинг для {login} по {type} добавлен",
+                        "addTarget": "Пинг для {login} по {type} от {target} добавлен",
+                        "remove": "Пинг для {login} по {type} убран",
+                        "removeTarget": "Пинг для {login} по {type} от {target} убран"
+                    },
+                    "birthday": {
+                        "add": "День рождения {user} добавлен: {date}",
+                        "remove": "День рождения {user} удалён"
+                    },
+                    "channel": {
+                        "join": "Susgeebot зашёл на канал",
+                        "joinLogging": "Susgeebot теперь логирует канал",
+                        "part": "Susgeebot вышел из канала",
+                        "rejoin": "Susgeebot заново зашёл на канал",
+                        "downgrade": "Susgeebot понижен до логирования: {reason}"
+                    }
+                }
+            }
+        },
+        "settings": {
+            "metaTitle": "Настройки",
+            "title": "Настройки",
+            "general": {
+                "title": "Общее",
+                "mention": "Упоминать меня в ответах",
+                "mentionHint": "Susgeebot отвечает на твои команды реплаем, чтобы Twitch подсветил это тебе.",
+                "pingable": "Пинговать меня, когда другие используют на мне команды",
+                "pingableHint": "По умолчанию выкл. Susgeebot пишет твоё имя так, чтобы Twitch не подсвечивал его, когда кто-то использует на тебе команду.",
+                "autoPresence": "Автоматически обновлять моё присутствие 7TV",
+                "autoPresenceHint": "Держит твою краску и бейдж 7TV видимыми в каждом канале, где ты пишешь."
+            },
+            "privacy": {
+                "title": "Приватность",
+                "logging": "Сохранять мои сообщения в чате",
+                "loggingHint": "Нужно для команд, которые ищут твои сообщения, вроде lastline. Выключи — и Susgeebot перестанет их сохранять.",
+                "location": "Локация погоды",
+                "locationPlaceholder": "напр. Berlin",
+                "locationHint": "Используется, когда ты запускаешь погоду без города. Здесь её видишь только ты, бот никогда не показывает её в чате.",
+                "optOut": "Отписаться от команд",
+                "optOutPlaceholder": "Выбери команды…",
+                "optOutHint": "Никто не сможет использовать эти команды на тебе."
+            },
+            "pings": {
+                "title": "Уведомления",
+                "description": "Везде, где Susgeebot пингует тебя по имени, во всех каналах.",
+                "for": "для {name}",
+                "in": "в #{channel}",
+                "remove": "Больше не пинговать меня по {type} в {channel}",
+                "empty": "Тебя пока нигде не пингуют. Используй ?pingme в канале или поле «Пинговать меня» в дашборде этого канала."
+            },
+            "reminders": {
+                "title": "Напоминания",
+                "description": "Напоминания, которые ты поставил и которые ещё не сработали.",
+                "someone": "кто-то",
+                "onNextMessage": "{name}, в их следующем сообщении",
+                "at": "{name}, {date}",
+                "atInChannel": "{name} в #{channel}, {date}",
+                "delete": "Удалить напоминание {id}",
+                "empty": "Активных напоминаний нет."
+            },
+            "blocks": {
+                "title": "Заблокированные",
+                "description": "Эти пользователи не могут целиться в тебя командами вроде ?remind или ?hug. То же самое, что ?block в чате.",
+                "empty": "Ты никого не блокировал.",
+                "add": "Заблокировать",
+                "placeholder": "Ник…",
+                "remove": "Разблокировать {name}"
+            }
+        },
+        "guide": {
+            "metaTitle": "Уведомления",
+            "title": "Уведомления",
+            "description": "Как получать уведомления, когда что-то происходит на Twitch или 7TV.",
+            "howItWorks": {
+                "title": "Как это работает",
+                "lead": "Мы можем писать в твой чат, когда стример выходит в эфир, когда кто-то меняет эмоуты 7TV или когда Twitch публикует что-то новое.",
+                "body": "<data>?notify</data> и <data>?unnotify</data> настраивают уведомление на весь канал, <data>?pingme</data> только для тебя, а <data>?notifications</data> показывает, что сейчас включено."
+            },
+            "list": {
+                "title": "?notifications",
+                "lead": "Показывает, на что подписан этот канал и кого за это пингуют.",
+                "body": "Может использовать кто угодно. Мы отвечаем ссылкой на paste, потому что в активном канале подписок гораздо больше, чем влезает в одно сообщение."
+            },
+            "notify": {
+                "title": "?notify и ?unnotify",
+                "lead": "Включает или выключает уведомление на весь канал. Только для модов.",
+                "body": "Типы без цели работают так же, просто второе слово не пишешь. <data>?notify 7tv</data> подписывает канал на глобальные изменения 7TV."
+            },
+            "pingme": {
+                "title": "?pingme",
+                "lead": "Подписывает лично тебя, чтобы мы пинговали по имени. Может использовать кто угодно.",
+                "body": "Запусти ещё раз, чтобы снять себя. Для <data>live</data> каналу сначала нужна подписка, её ставит мод через <data>?notify live forsen</data>. Мы никогда не создаём эту канальную подписку из <data>?pingme</data>, иначе любой зритель мог бы включить мод-настройку через чёрный ход."
+            },
+            "types": {
+                "title": "Типы",
+                "lead": "Десять типов. Одни следят за конкретным каналом, остальные глобальные.",
+                "headers": {
+                    "type": "Тип",
+                    "fires": "Срабатывает когда",
+                    "target": "Цель",
+                    "pingme": "?pingme"
+                },
+                "targets": {
+                    "streamer": "стример",
+                    "channel": "канал",
+                    "none": "—"
+                },
+                "personal": {
+                    "yes": "да",
+                    "only": "только"
+                },
+                "rows": {
+                    "live": "Стример выходит в эфир и снова уходит в оффлайн.",
+                    "title": "Стример меняет название или категорию.",
+                    "bans": "Кого-то перманентно банят в канале, за которым ты следишь.",
+                    "emotes": "Стример добавляет, удаляет или переименовывает эмоуты в своём наборе 7TV.",
+                    "subgift": "Тебе дарят сабгифт где угодно на Twitch.",
+                    "affiliate": "Канал становится компаньоном Twitch.",
+                    "7tv": "7TV меняет глобальные эмоуты, краски или бейджи.",
+                    "twitchglobals": "Twitch меняет глобальные эмоуты или бейджи.",
+                    "blog": "Twitch публикует новую статью в блоге.",
+                    "changelog": "Обновляется ченджлог для разрабов Twitch."
+                },
+                "note": "<data>только</data> в колонке ?pingme значит, что канальной версии этого типа нет, он существует только как личная подписка."
+            },
+            "permissions": {
+                "title": "Кому что можно",
+                "lead": "Зависит от того, меняешь ли ты что-то для канала или только для себя.",
+                "channel": "Менять что-то на весь канал может только <strong>модератор</strong>.",
+                "own": "Менять свой пинг может <strong>кто угодно</strong>.",
+                "read": "Читать может <strong>кто угодно</strong>."
+            },
+            "replaced": {
+                "title": "Заменённые команды",
+                "lead": "Эти команды больше ничего не делают. Они только говорят, чем пользоваться вместо них.",
+                "headers": {
+                    "old": "Старое",
+                    "now": "Используй вместо"
+                },
+                "note": "Всё, что ты настроил ими, переехало и осталось на месте. Исключение — висперы о сабгифтах, их мы убрали. Смотри <link>ченджлог</link>, что и когда поменялось."
+            }
+        },
+        "privacy": {
+            "metaTitle": "Политика конфиденциальности",
+            "title": "Юридическое и конфиденциальность",
+            "updated": "Последнее обновление: 1 января 2025"
+        },
+        "apiErrors": {
+            "auth": {
+                "missing": "Ты не вошёл в аккаунт.",
+                "invalidSession": "Сессия истекла, войди снова.",
+                "adminOnly": "Это могут делать только админы.",
+                "selfOnly": "Ты можешь менять только свои настройки.",
+                "notEditor": "Тебе нельзя управлять этим каналом."
+            },
+            "route": {
+                "notFound": "Такого эндпоинта нет.",
+                "rateLimited": "Слишком много запросов, попробуй через {seconds} сек."
+            },
+            "channel": {
+                "notJoined": "Бота нет в этом канале.",
+                "notFound": "Канал не найден.",
+                "idMissing": "ID канала не указан.",
+                "idInvalid": "ID канала должен быть числом.",
+                "processing": "Этот канал ещё обрабатывается, попробуй чуть позже.",
+                "joining": "Бот уже заходит на этот канал.",
+                "alreadyJoined": "Бот уже в этом канале.",
+                "modRequired": "Чтобы зайти, бот должен быть модератором этого канала.",
+                "fetchFailed": "Не удалось загрузить данные канала.",
+                "loginNotFound": "Не удалось определить имя канала.",
+                "ambassadorsOwnerOnly": "Амбассадоров может менять только владелец канала.",
+                "updateFailed": "Не удалось сохранить настройки канала."
+            },
+            "command": {
+                "exists": "Команда \"{name}\" уже есть.",
+                "notFound": "Команды \"{name}\" нет.",
+                "name": {
+                    "missing": "Введи имя команды.",
+                    "tooLong": "Имя команды может быть максимум 50 символов.",
+                    "whitespace": "В имени команды не должно быть пробелов."
+                },
+                "response": {
+                    "missing": "Введи ответ.",
+                    "empty": "Ответ не может быть пустым.",
+                    "tooLong": "Ответ может быть максимум 500 символов.",
+                    "reserved": "Ответ не может начинаться с зарезервированного символа."
+                },
+                "cooldown": {
+                    "invalid": "Кулдаун должен быть целым числом секунд от 0 до 86400."
+                }
+            },
+            "field": {
+                "boolean": "{field} должно быть вкл или выкл."
+            },
+            "nothingToUpdate": "Нечего обновлять.",
+            "notification": {
+                "unknownType": "Неизвестный тип уведомления \"{type}\".",
+                "pingOnly": "\"{type}\" существует только как пинг.",
+                "targetRequired": "\"{type}\" нужен целевой канал.",
+                "noTarget": "\"{type}\" не принимает цель.",
+                "targetInvalid": "Цель должна быть числовым ID пользователя.",
+                "userInvalid": "Пользователь должен быть числовым ID.",
+                "alreadySubscribed": "Этот канал уже на это подписан.",
+                "notSubscribed": "Этот канал на это не подписан.",
+                "notSubscribedTarget": "Этот канал не подписан на {type}.",
+                "targetNotFound": "Целевой пользователь не найден.",
+                "bansNeedLogging": "Уведомления о банах доступны только для каналов, которые бот логирует."
+            },
+            "alert": {
+                "unknownType": "Неизвестный тип алерта \"{type}\".",
+                "notEnabled": "Этот алерт не включён.",
+                "message": {
+                    "tooLong": "Сообщение может быть максимум {limit} символов.",
+                    "unknownVariable": "Неизвестная переменная {variable}. Доступны: {variables}"
+                },
+                "affiliateOnly": "Алерты доступны только каналам-компаньонам и партнёрам."
+            },
+            "ping": {
+                "affiliateChatOnly": "Пинги компаньона можно настроить только командой в чате.",
+                "selfOnly": "Пинги можно добавлять только для себя.",
+                "alreadyPinged": "Этого пользователя уже пингуют.",
+                "notPinged": "Этого пользователя не пингуют.",
+                "notPingedSelf": "Тебя за это не пингуют.",
+                "channelInvalid": "Канал должен быть числовым ID пользователя."
+            },
+            "user": {
+                "notFound": "Пользователь не найден.",
+                "idMissing": "ID пользователя не указан.",
+                "updateFailed": "Не удалось сохранить настройки пользователя."
+            },
+            "settings": {
+                "prefix": {
+                    "length": "Префикс должен быть от 1 до 15 символов.",
+                    "whitespace": "В префиксе не должно быть пробелов.",
+                    "reserved": "Префикс не может начинаться с зарезервированного символа."
+                },
+                "language": {
+                    "invalid": "Язык должен быть одним из: {languages}."
+                },
+                "botMode": {
+                    "invalid": "Режим бота должен быть одним из: {modes}."
+                },
+                "optOut": {
+                    "list": "{field} должен быть списком имён команд.",
+                    "unknown": "От \"{command}\" нельзя отписаться."
+                },
+                "liveMessage": {
+                    "tooLong": "Лайв-сообщение может быть максимум {limit} символов.",
+                    "unknownVariable": "Неизвестная переменная {variable}. Доступны: {variables}"
+                },
+                "audience": {
+                    "invalid": "Допустимо: {audiences}."
+                }
+            },
+            "autoPresence": {
+                "no7tv": "К твоему аккаунту Twitch не привязан аккаунт 7TV."
+            },
+            "location": {
+                "invalid": "Город должен быть текстом.",
+                "tooLong": "Город может быть максимум 100 символов.",
+                "updateFailed": "Не удалось сохранить локацию."
+            },
+            "reminder": {
+                "idInvalid": "Некорректный ID напоминания.",
+                "notFound": "Напоминание не найдено.",
+                "notOwner": "Удалять можно только свои напоминания."
+            },
+            "bible": {
+                "idMissing": "ID bible не указан.",
+                "idInvalid": "ID bible должен быть положительным числом.",
+                "notFound": "Записи bible с ID {id} нет."
+            },
+            "block": {
+                "loginMissing": "Ник не указан.",
+                "userNotFound": "Пользователь \"{login}\" не найден.",
+                "self": "Себя блокировать нельзя.",
+                "exists": "\"{login}\" уже заблокирован.",
+                "notFound": "Этот пользователь не заблокирован."
+            },
+            "birthday": {
+                "loginMissing": "Ник не указан.",
+                "dateInvalid": "Такой даты не существует.",
+                "exists": "Этот день рождения для {user} уже сохранён.",
+                "notFound": "Такого дня рождения для {user} нет."
+            },
+            "suggestion": {
+                "actionInvalid": "Неизвестное действие.",
+                "notFound": "Этого предложения больше нет."
+            },
+            "error": {
+                "notFound": "Этой ошибки больше нет."
+            },
+            "bottiesBan": {
+                "loginMissing": "Ник не указан.",
+                "userNotFound": "Пользователь \"{login}\" не найден.",
+                "admin": "Админов банить нельзя.",
+                "exists": "\"{login}\" уже забанен.",
+                "notFound": "Этот пользователь не забанен."
+            }
+        },
+        "admin": {
+            "metaTitle": "Админ",
+            "title": "Админ",
+            "tiles": {
+                "seventv": "Каналы с редактором 7TV",
+                "channels": "Подключённые каналы",
+                "channelsHint": "{lurked} только в люрке, всего {total}",
+                "suggestions": "Открытые предложения",
+                "errors": "Ошибки за 24 часа",
+                "botties": "Баны Botties"
+            },
+            "suggestions": {
+                "title": "Предложения",
+                "empty": "Предложений нет.",
+                "by": "от {user} в #{channel}",
+                "pending": "ожидает",
+                "approved": "одобрено",
+                "approve": "Одобрить",
+                "finish": "Завершить",
+                "delete": "Удалить предложение {id}"
+            },
+            "errors": {
+                "title": "Ошибки",
+                "empty": "Ошибок нет.",
+                "delete": "Удалить ошибку {id}"
+            },
+            "channels": {
+                "title": "Каналы",
+                "search": "Поиск логина…",
+                "joined": "подключён",
+                "lurked": "только люрк",
+                "live": "в эфире",
+                "logging": "логирование",
+                "unknown": "Бот не знает {login}. Открой всё равно, чтобы зайти как логирование.",
+                "open": "Открыть"
+            },
+            "botties": {
+                "title": "Баны Botties",
+                "empty": "Никто не забанен.",
+                "ban": "Забанить",
+                "placeholder": "Ник…",
+                "unban": "Разбанить {name}"
+            },
+            "bot": {
+                "uptime": "Работает",
+                "since": "Запущен {date}",
+                "lastError": "Последняя ошибка",
+                "ago": "{delta|time(largest|1)} назад",
+                "noErrors": "нет"
+            }
+        }
+    },
+    "tldr": {
+        "generating": "⏳ Делаю саммари по последним {limit} сообщениям...",
+        "no_logs": "Слишком мало активности, чтобы сделать саммари.",
+        "not_enough_activity": "Чат сейчас слишком тихий для саммари.",
+        "system": "Ты юморной, дерзкий Twitch-бот в канале {channel}. Твоя задача — в 1–2 коротких живых предложениях передать вайб и тему чата по последним сообщениям. Будь развлекательным, можно кидать глобальные эмоуты Twitch/7TV, но без оскорблений. Если ставишь эмоут, пусть он стоит отдельно, без точки или запятой до и после.",
+        "chat_context": "Вот последние сообщения: {chatContext}"
+    },
+    "block": {
+        "self": "susgeeDank Себя блокировать нельзя.",
+        "alreadyBlocked": "susgeeDank {user|antiPing} уже заблокирован.",
+        "success": "susgeeOK ты успешно заблокировал {user|antiPing}"
+    },
+    "autopresence": {
+        "disabled": "susgeeOK авто-присутствие выключено",
+        "enabled": "susgeeOK авто-присутствие включено"
     }
 }

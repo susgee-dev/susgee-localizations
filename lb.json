@@ -1,9 +1,10 @@
 {
+    "enabled": "aktivéiert",
+    "commandDisabled": "{user}, de command {command} gouf am kanal {channel} vun engem moderator ausgemaach.",
     "common": {
-        "channel": {
-            "joined": "susgeeArrive unkomm"
-        },
         "delta": {
+            "date": "um {date|date}",
+            "allTime": "am Ganzen",
             "lastMonth": "lëschte Mount",
             "lastWeek": "lëscht Woch",
             "lastYear": "lëscht Joer",
@@ -13,15 +14,12 @@
             "today": "haut",
             "yesterday": "gëschter"
         },
-        "has": "hued",
-        "have": "hued",
         "id": "id: {id}"
     },
     "error": {
         "api": "susgeeDank API Feeler",
         "banned": {
-            "channel": "susgeeDank Kanal {channel} ass verbannt: {reason}",
-            "user": "susgeeDank Notzer {channel} ass verbannt: {reason}"
+            "channel": "susgeeDank Kanal {channel} ass verbannt: {reason}"
         },
         "general": "susgeeDank e Feeler ass opgetrueden",
         "invalidUrl": "susgeeDank ongëlteg url",
@@ -30,7 +28,2809 @@
             "channelPlatform": "susgeeDank kanal {channel|antiPing} konnt net fonnt ginn op {platform}",
             "command": "susgeeDank command {command} konnt net fonnt ginn",
             "database": "susgeeDank kanal {channel|antiPing} ass net an der Datenbank",
-            "emote": "susgeeDank emote {emote} ass këen twitch emote"
+            "emote": "susgeeDank emote {emote} ass këen twitch emote",
+            "permission": "susgeeDank berechtegung {permission} existéiert net. disponibel berechtegungen: {permissions}",
+            "user": "susgeeDank notzer {user} konnt net fonnt ginn",
+            "userPlatform": "susgeeDank notzer {user|antiPing} konnt net fonnt ginn op {platform}",
+            "userOrBadge": "susgeeDank kee badge oder notzer fonnt",
+            "userOrPaint": "susgeeDank keng paint oder notzer fonnt"
+        },
+        "unknown": {
+            "category": "(keng kategorie)",
+            "title": "(keen titel)",
+            "user": "(onbekannten notzer)",
+            "bio": "(keng bio)"
+        },
+        "usage": "susgeeDank benotzung: {prefix}{command} {usage|include}",
+        "userOptOut": "susgeeDank dësen notzer huet sech vum logging ofgemellt"
+    },
+    "toggle": {
+        "are": {
+            "changed": "susgeeOK {type|include} sinn elo {state|include}"
+        },
+        "channel": {
+            "changed": "susgeeOK {type|include} fir {channel|antiPing} sinn elo {state|include}"
+        },
+        "is": {
+            "changed": "susgeeOK {type|include} ass elo {state|include}",
+            "notChanged": "susgeeDank {type|include} ass schonn {state|include}",
+            "state": "{type|include} ass aktuell {state|include}"
+        },
+        "names": {
+            "7tv": "(7TV) emote-updates",
+            "banMsg": "ban-updates",
+            "command": "Command {command}",
+            "updateMsg": "titel-/kategorie-updates"
+        },
+        "ping": {
+            "disabled": "ech pingen dech net méi",
+            "enabled": "ech pingen dech"
+        },
+        "list": "ausgemaache commands ({count}): {link}"
+    },
+    "7tv": {
+        "dod": "(7TV) ass aktuell dod, probéier et méi spéit nach eng Kéier",
+        "badge": {
+            "active": "{active|plural(one|notzer huet, other|notzer hunn)} dëst badge aktiv",
+            "name": "Badge: {badge}",
+            "none": "kee badge aktiv",
+            "owned": "{owned|plural(one|notzer huet, other|notzer hunn)} dëst badge",
+            "added": "dobäigesat virun {date|time}"
+        },
+        "editor": {
+            "added": "susgeeOK {user|antiPing} als (7TV) editor dobäigesat",
+            "bot": "susgeeDank du brauchs mech net als editor dobäizesetzen",
+            "list": "susgeeOK an dësem kanal sinn dës notzer (7TV) editeure fir dëse bot: {editors}",
+            "noChanges": "susgeeDank keng ännerunge gemaach",
+            "noEntries": "susgeeDank dëse kanal huet keng (7TV) editeure fir dëse bot",
+            "removed": "susgeeOK {user|antiPing} als (7TV) editor ewechgeholl",
+            "self": "susgeeDank du brauchs dech net selwer als editor dobäizesetzen"
+        },
+        "emote": {
+            "added": "susgeeOK emote {emote} dobäigesat",
+            "removed": "susgeeOK emote {emote} ewechgeholl",
+            "renamed": "susgeeOK {oldName} ëmbenannt an {newName}",
+            "replaced": "susgeeOK {oldEmote} ersat duerch {newEmote}",
+            "yoinked": "susgeeOK emote {emote} vun {channel|antiPing} geklaut",
+            "fromChannel": "vum kanal {channel|antiPing}"
+        },
+        "emotes": {
+            "removed": "ewechgeholl emotes: {emotes}",
+            "notRemoved": "net ewechgeholl emotes: {emotes}",
+            "notFound": "net fonnt emotes: {emotes}"
+        },
+        "emoteSet": {
+            "capacity": "kapazitéit: {count|number} / {capacity|number}",
+            "name": "numm: {name}"
+        },
+        "emoteSets": {
+            "noEntries": "susgeeDank {channel|antiPing} huet keng emote-sets",
+            "success": "emote-sets vun {channel|antiPing} susgeePoint {paste}"
+        },
+        "error": {
+            "unhandled": "susgeeDank en onerwaarte feeler ass opgetrueden",
+            "rateLimit": "susgeeDank (7TV) rate-limit erreecht, probéier et gläich nach eng Kéier",
+            "emoteSetNotFound": "susgeeDank emote-set konnt net fonnt ginn",
+            "userNotFound": "susgeeDank (7TV) notzer konnt net fonnt ginn",
+            "emoteNotPublic": "susgeeDank emote muss éischt ëffentlech fräiginn ginn, ier et dobäigesat ka ginn",
+            "emoteNotAllowedInPersonal": "susgeeDank dëst emote ass a perséinlechen emote-sets net erlaabt",
+            "tooManyPendingRequests": "susgeeDank ze vill oppe (7TV) moderatiounsufroen, probéier et méi spéit nach eng Kéier",
+            "notANormalSet": "susgeeDank dat ass kee normalt emote-set a kann net aktivéiert ginn",
+            "noBotPermission": "susgeeDank dem bot feelen d'(7TV) berechtegungen fir dës aktioun. https://7tv.app/settings/editors",
+            "apiError": "susgeeDank (7TV) hat en interne feeler, probéier et gläich nach eng Kéier",
+            "emoteIsPrivate": "susgeeDank emote {emote} ass privat a kann net dobäigesat ginn",
+            "emoteNameTaken": "emote existéiert schonn mam numm {emote}",
+            "emoteNotFound": "susgeeDank emote {emote} konnt net fonnt ginn",
+            "emoteNotFoundInSet": "susgeeDank emote {emote} an dësem set konnt net fonnt ginn",
+            "emoteLinkNotFound": "susgeeDank keen emote mat dësem link fonnt",
+            "noEmotesFoundToRemove": "susgeeDank keng emotes fonnt zum ewechhuelen",
+            "emoteSetFull": "susgeeDank emote net dobäigesat, d'set ass schonn voll",
+            "invalidName": "susgeeDank emote-numm enthält e zeechen, dat (7TV) net erlaabt",
+            "noAccount": "susgeeDank kanal {channel|antiPing} huet keen (7TV) account",
+            "noActiveEmoteSet": "susgeeDank kanal {channel|antiPing} huet kee aktiivt emote-set",
+            "noChannelPerms": "susgeeDank du bass keen (7TV) editor fir dëse bot an dësem kanal. @{streamer} kann dech dobäisetzen mat {prefix}7tveditor add {user}",
+            "noEditor": "susgeeDank Susgeebot ass keen (7TV) editor fir dëse kanal. setz mech als editor dobäi op https://7tv.app/settings/editors",
+            "noEmoteSetCreation": "susgeeDank de bot huet keng berechtegung, en neit emote-set ze maachen. https://7tv.app/settings/editors",
+            "noActiveEmoteSetChange": "susgeeDank de bot huet keng berechtegung, dat aktiivt emote-set ze wiesselen. https://7tv.app/settings/editors",
+            "privateEmote": "susgeeDank emote {emote} ass privat a kann net dobäigesat ginn",
+            "ezGifError": "susgeeDank aktuell ginn nëmmen emote-linken vun BTTV, 7TV an FFZ ënnerstëtzt",
+            "cantStealFromSelf": "susgeeDank du kanns deng eegen emotes net klauen",
+            "cantImportFromSelf": "susgeeDank du kanns däin eegent emote-set net importéieren",
+            "alreadySynced": "susgeeDank näischt ze synchroniséieren, d'emote-set ass identesch"
+        },
+        "paint": {
+            "active": "{active|plural(one|notzer huet, other|notzer hunn)} dës paint aktiv",
+            "name": "Paint: {paint}",
+            "none": "keng paint aktiv",
+            "owned": "{owned|plural(one|notzer huet, other|notzer hunn)} dës paint",
+            "added": "dobäigesat virun {date|time}"
+        },
+        "presence": {
+            "error": "konnt (7TV) presence net aktualiséieren",
+            "success": "(7TV) presence aktualiséiert"
+        },
+        "preview": "virschau: {link}",
+        "sub": {
+            "ended": "eriwwer virun {delta|time}",
+            "ends": "hält op an {delta|time}",
+            "expired": "kee sub méi",
+            "giftedSub": "geschenkt vun {giftedBy|antiPing}",
+            "neverSubbed": "nach ni e (7TV) sub gehat",
+            "nextBadge": "nächst badge \"{badge}\" {delta} ({percent}%)",
+            "nextBadgeInDays": "an {days|plural(one|dag, other|deeg)}",
+            "nextBadgeInHours": "an {hours|plural(one|stonn, other|stonnen)}",
+            "renews": "erneiert sech an {delta|time}",
+            "since": "am Ganzen sub zënter {days|plural(one|dag, other|deeg)}",
+            "subscribedFor": "hat virdrun e sub fir {days|plural(one|dag, other|deeg)}"
+        },
+        "copySet": {
+            "success": "susgeeOK {count|plural(one|emote, other|emotes)} kopéiert no https://7tv.app/emote-sets/{emoteSetId} an aktivéiert",
+            "notActivated": "susgeeOK {count|plural(one|emote, other|emotes)} kopéiert no https://7tv.app/emote-sets/{emoteSetId}, mä konnt et net aktivéieren",
+            "notCopied": "net kopéiert emotes: {emotes}"
+        },
+        "syncSet": {
+            "success": "susgeeOK erfollegräich synchroniséiert mat emote-set https://7tv.app/emote-sets/{emoteSetId}",
+            "running": "susgeeDank dëse kanal synchroniséiert schonn mat engem aneren emote-set"
+        },
+        "user": {
+            "badge": "Badge: {badge}",
+            "created": "erstallt virun {date|time}",
+            "editorOf": "editor an {channels|plural(one|kanal, other|kanäl)}",
+            "editors": "{editors|plural(one|editor, other|editeuren)}",
+            "emoteSet": "emote-set: {count|number} / {capacity|number}",
+            "paint": "Paint: {paint}",
+            "profile": "profil: {profile}",
+            "roles": "rollen: {roles}",
+            "unlocked": "{paints|plural(one|paint, other|paints)} an {badges|plural(one|badge, other|badges)} fräigeschalt"
+        },
+        "updates": {
+            "channel": "kanal {channel|antiPing}",
+            "actor": "Editor {actor|antiPing}",
+            "emote": {
+                "added": "emote {emote} dobäigesat",
+                "removed": "emote {emote} ewechgeholl"
+            },
+            "emoteSet": {
+                "changed": "aktiivt emote-set geännert vun {old} op {new}",
+                "name": "emote-set numm geännert vun {old} op {new}",
+                "capacity": "emote-set kapazitéit geännert vun {old} op {new}",
+                "emotes": "emote {old} ëmbenannt an {new}"
+            }
+        },
+        "whoAddedThisEmote": "susgeeNoted emote {emote} gouf vun {actor|antiPing} virun {delta|time} dobäigesat",
+        "yoink": "susgeeOK emote {emote} yoinked vum kanal {channel|antiPing} WideHardo Clap"
+    },
+    "8ball": {
+        "msg1": "héichstwarscheinlech",
+        "msg10": "ganz zweifelhaft",
+        "msg11": "ouni zweifel",
+        "msg12": "jo",
+        "msg2": "op jidde fall jo",
+        "msg3": "ganz zweifelhaft",
+        "msg4": "meng quelle soen neen",
+        "msg5": "meng äntwert ass neen",
+        "msg6": "gutt chancen",
+        "msg7": "neen!",
+        "msg8": "drop kanns du dech verloossen",
+        "msg9": "d'zeechen deiten op jo"
+    },
+    "aare": "d'Aare zu {city} huet aktuell {temp}°C",
+    "activeChannel": {
+        "messages": "{channel} ({entries|plural(one|noriicht, other|noriichten)})",
+        "noEntries": "keng noriichte vum notzer {user|antiPing} an der datenbank fonnt",
+        "success": "susgeeNoted {messages|number} noriichten an {channels|plural(one|kanal, other|kanäl)} fonnt susgeePoint {paste}"
+    },
+    "addBot": "setz Susgeebot iwwer meng website dobäi susgeePoint https://susgee.dev/",
+    "affiliatePing": {
+        "alreadyAffiliate": "susgeeDank kanal {channel|antiPing} ass schonn affiliate/partner",
+        "added": "susgeeOK du gëss elo gepingt, wann {channel|antiPing} affiliate gëtt",
+        "removed": "susgeeOK du gëss net méi gepingt, wann {channel|antiPing} affiliate gëtt",
+        "ping": "@{channel} ass elo affiliate!"
+    },
+    "afk": {
+        "afk": "@{user} ass elo AFK {message}",
+        "brb": "@{user} ass gläich erëm do {message}",
+        "food": "@{user} geet elo iessen {message}",
+        "gn": "@{user} geet elo schlofen {message}",
+        "nap": "@{user} mécht elo e powernap {message}",
+        "lurk": "@{user} ass elo am lurk {message}",
+        "resume": {
+            "failed": "@{user} du kanns däin AFK-status net erëm ophuelen, well e viru méi wéi {minutes} minutten eriwwer war!",
+            "ok": "@{user} ass erëm AFK"
+        },
+        "returned": {
+            "afk": "@{user} ass net méi AFK",
+            "brb": "@{user} ass erëm do",
+            "duration": "dauer: {duration|time}",
+            "food": "@{user} huet fäerdeg giess",
+            "gn": "@{user} ass opgewacht",
+            "message": "noriicht: {message}",
+            "nap": "@{user} fillt sech erfrëscht",
+            "lurk": "@{user} ass net méi am lurk",
+            "noMessage": "(keng noriicht)",
+            "shower": "@{user} huet fäerdeg geduscht",
+            "study": "@{user} huet opgehalen ze léieren",
+            "work": "@{user} ass zeréck vum schaffen"
+        },
+        "shower": "@{user} geet elo duschen {message}",
+        "study": "@{user} geet elo léieren {message}",
+        "work": "@{user} geet elo schaffen {message}"
+    },
+    "ambassador": {
+        "none": "susgeeDank dëse kanal huet nach keng ambassadeuren",
+        "list": "susgeeOK ambassadeure fir dëse kanal sinn: {users}",
+        "alreadyAmbassador": "susgeeDank {user|antiPing} ass schonn ambassador an dësem kanal",
+        "notAmbassador": "susgeeDank {user|antiPing} ass keen ambassador an dësem kanal",
+        "added": "susgeeOK {user|antiPing} gouf als ambassador an dësem kanal dobäigesat",
+        "removed": "susgeeOK {user|antiPing} gouf als ambassador an dësem kanal ewechgeholl"
+    },
+    "allEmotes": {
+        "noEmotes": "susgeeDank {channel|antiPing} huet keng kanal-emotes"
+    },
+    "ban": {
+        "admin": "susgeeOK ech banne keng vun menge admins",
+        "notBanned": "susgeeDank {user} konnt net verbannt ginn"
+    },
+    "banList": {
+        "success": "susgeeOK {count|plural(one|notzer, other|notzer)} verbannt"
+    },
+    "bans": {
+        "noEntries": "susgeeDank {channel|antiPing} huet keng geloggte bans {delta|include}",
+        "success": "susgeeOK verbannt notzer {time|include} bis elo: {count|number}"
+    },
+    "bible": {
+        "added": "susgeeOK an d'datenbank dobäigesat mat id: {id}",
+        "botInfo": "bibel {id} (text: {text}) gouf vun {user|antiPing} geläscht",
+        "deleted": "susgeeOK atrag mat id {id} gouf geläscht",
+        "entryExists": "susgeeDank dësen text ass schonn an der datenbank",
+        "noEntries": "susgeeDank keng enträg an der datenbank fonnt",
+        "noEntryWithId": "susgeeDank keen atrag mat der id {id} fonnt",
+        "notAllowed": "susgeeDank du hues keng berechtegung, den text mat der id {id} ze läschen",
+        "noEntriesByUser": "susgeeDank keng enträg vun dir an der datenbank fonnt"
+    },
+    "birthday": {
+        "added": "susgeeOK gebuertsdag fir {user} um {day}.{month}. dobäigesat",
+        "notFound": "susgeeDank et gëtt kee gebuertsdag fir de notzer {user} um {day}.{month}. an der datenbank",
+        "removed": "susgeeOK gebuertsdag fir {user} um {day}.{month}. ewechgeholl"
+    },
+    "birthdays": {
+        "next": "nächst gebuertsdeeg: {birthdays}",
+        "noEntries": "dëse kanal huet keng gebuertsdeeg an der datenbank. fir der dobäizesetzen, benotz {prefix}birthday add <Name> <Day> <Month>",
+        "today": "haut ass de gebuertsdag vun {users} FeelsBirthdayMan Clap",
+        "success": "gesamtzuel vun de gebuertsdeeg: {totalBirthdays}",
+        "response": "gebuertsdagslëscht susgeePoint {pasteUrl}"
+    },
+    "botSubs": {
+        "none": "Susgeebot huet keng subs"
+    },
+    "botties": {
+        "appendix": "🏦 {botties|plural(one|bottie, other|botties)}, prestige {prestige}",
+        "banned": "FeelsBadMan du bass vun de botties gespaart",
+        "cooldown": "susgeeDank {randomMessage|include} disponibel an {cooldown|time}",
+        "cooldowns": {
+            "msg1": "⏳ opgepasst! deng prozessere sinn iwwerhitzt. eng kuerz ofkillung ass néideg, fir optimal leeschtung ze halen. 🌬️",
+            "msg10": "🔐 sécherheetscheck! deng digital diere ginn iwwerpréift, datt alles geschützt ass. d'sécherheet huet iewescht prioritéit! 🔒",
+            "msg2": "⚙️ technesch paus! eis ingenieure maachen maintenance, fir deng systemstabilitéit ze verbesseren. merci fir deng gedold! 🛠️",
+            "msg3": "🔧 wichteg aktualiséierung! e systemtuning leeft. deng digital ressource ginn ofgestëmmt, fir héchstleeschtung ze packen. 🚀",
+            "msg4": "🕰️ zäit fir eng kuerz paus! deng virtuell schaltkreesser huelen sech eng kleng paus, fir sech op déi nächst erausfuerderungen virzebereeden. ⏸️",
+            "msg5": "🔄 neistart néideg! e soft-reset leeft, fir onnéidege ballast ewechzehuelen. gläich bass du erëm prett. 🔄",
+            "msg6": "⚡ sparmodus aktivéiert! deng systemer gi kuerz an de sparmodus, fir ressource ze schounen. geschwënn geet et mat voller power weider! ⚡",
+            "msg7": "🛑 stopp! e kuerzen systemstopp ass néideg, fir wichteg konfiguratiounen z'aktualiséieren. mir si gläich erëm do! ⏩",
+            "msg8": "🔍 analys leeft! deng date ginn genee gekuckt, fir méiglech leeschtungsverbesserungen ze fannen. hunn e moment gedold. 🔬",
+            "msg9": "🚧 chantier am code! eis entwéckler schaffen un e puer bugs. däi system ass geschwënn feelerfräi a méi stabil! 🚀"
+        },
+        "dailyBonus": "🎉 deegleche login-bonus! du hues {bonus} botties fir däin login vun haut kritt",
+        "messages": {
+            "0": "⛔️ ups! däi Versuch huet net geklappt, an du hues {botties|number} virusugerëff kritt forsenLaughingAtYou bleif wachsam a schäerf deng ofwier fir spéider ugrëff!",
+            "<-27": "🚨 extrem geféierlech! däi system ass an engem kriteschen zoustand. {botties|number} direkt sécherheetslächer goufe fonnt! handelen elo!",
+            "<-5": "⚠️ opgepasst! däi system ass staark gefäerdet. du hues {botties|number} kritesch sécherheetslächer! direkt moossnamen si néideg, fir deng systemer ze schützen!",
+            "<=-1 >=-5": "📉 ups! du hues {botties|number} systemofstierz kritt forsenLaughingAtYou . schaff un der stabilitéit vun dengen systemer, fir spéider ausfäll ze vermeiden!",
+            ">=1 <=4": "🌟 super! du hues {botties|number} nei technologiepatenter kritt! notz däi wëssen gescheit a revolutionéier d'computerwelt!",
+            ">=10 <=15": "🏆 fantastesch! du hues {botties|number} upgrades fir deng virtuell ausrüstung kritt! deng technologie ass elo um neisten stand. maach esou weider!",
+            ">=1001 <=1500": "🌌 kosmesch! du hues {botties|number} kosmesch software-galaxien erstallt! deng programmer zéie sech iwwer d'weidere vum digitale universum. e meeschter vum digitale kosmos!",
+            ">=101 <=150": "🔮 mystesch! du hues {botties|number} mystesch algorithmen entdeckt! deng fäegkeete ginn iwwer logesch grenzen eraus. d'programméierwelt staunt iwwer däi mystescht kënnen!",
+            ">=1501 <=2000": "🚀 gëttlech! du hues {botties|number} gëttlech software-universen erstallt! deng coding-fäegkeete si gëttlech, an deng programmer formen d'digitalt universum no däinem wëllen!",
+            ">=151 <=200": "🚁 fléiend! du hues {botties|number} fléiend AI-robote gebaut! deng innovatioun hieft d'technologie op nei héichten. d'zukunft ass elo!",
+            ">=16 <=20": "🔥 onheemlech! du hues e rekord opgestallt an {botties|number} firewall-erausfuerderunge gepackt!",
+            ">=2001": "🌌 doriwwer eraus! du hues {botties|number} programmer iwwer all grenze geschriwwen! deng code ginn duerch dimensiounen, an deng programméierkonscht ass ouni gläichen!",
+            ">=201 <=500": "🌈 magesch! du hues {botties|number} magesch code geschriwwen! deng programmer hunn eng magesch aura, déi technologie a fantasie verbënnt. e magesche programméierer!",
+            ">=21 <=30": "🚀 erausragend! du hues {botties|number} banebriechend innovatiounen erstallt! deng ideeë formen d'zukunft vun der technologie. d'welt kuckt op dech!",
+            ">=31 <=40": "🌌 iwwermënschlech! du hues {botties|number} galaktesch code-algorithmen entwéckelt! däi bäitrag zur programméierung ass ausserierdesch. d'stären applaudéieren!",
+            ">=41 <=50": "💡 gëttlech! du hues {botties|number} gëttlech software-léisungen erstallt! däi genie ass ouni gläichen, an deng technologie ginn legendär!",
+            ">=5 <=9": "🔒 fantastesch! du hues {botties|number} nei sécherheetsprotokoller ageréicht. deng systemer si besser geschützt. d'cyberwelt ka dir näischt ukommen!",
+            ">=501 <=1000": "🌟 epesch! du hues {botties|number} epesch virtual-reality-welten erstallt! deng kreatioune sinn otemberaubend a féieren d'notzer an eng nei dimensioun. virtuell realitéit, richtege roum!",
+            ">=51 <=75": "🎉 legendär! du hues {botties|number} legendär KI-entwécklungen op d'liewe bruecht! deng bäiträg si meilesteng an der KI-geschicht. applaus, applaus!",
+            ">=76 <=100": "🌐 virtuos! du hues {botties|number} virtuos date-orchester dirigéiert! däin talent fir datemanagement ass ouni gläichen. d'datestréim danzen op däin takt!"
+        },
+        "reminders": {
+            "msg1": "⏳ däi fuerschratt sech lount! du kanns elo nach méi botties verdéngen. notz däin technescht geschéck a sammel weider digital schätz. d'computerwelt waart op dech! {user}",
+            "msg2": "💰 zäit fir eng bottie-belounung! deng ustrengunge sech gelount. du kanns elo nach méi botties kréien, fir deng technologesch ziler ze packen. lass, {user} !",
+            "msg3": "🔥 prett fir déi nächst bottie-erausfuerderung? du hues dech als richtegen technikexpert gewisen a kanns elo nach méi botties verdéngen. weist der welt, wat s du kanns! {user}",
+            "msg4": "🏆 du bass um beschte wee zum bottie-meeschter! mat däinem asaz an denger hingab kanns du elo nach méi botties verdéngen. looss deng technesch fäegkeete glänzen, {user} !",
+            "msg5": "🌟 maach dech prett fir eng bottie-explosioun! deng leeschtunge sech ronderëm geschwat, an elo kanns du nach méi botties op däinem virtuelle bankkont sammelen. feier däin erfolleg an der computerwelt! {user}",
+            "msg6": "💡 d'bottie-bank ass op! du kanns elo nach méi botties ofhuelen an deng technesch sammlung erweideren. notz dës geleeënheet, fir deng digital dreem wouer ze maachen! {user}",
+            "msg7": "🚀 den Himmel ass d'limit fir deng bottie-sammlung! mat däinem éiergeiz an denger neigier kanns du elo nach méi botties verdéngen an dech an der spëtzt vun der computerelite setzen. vill erfolleg, {user} !",
+            "msg8": "🎮 däi kënnen gëtt belount! dauch an d'welt vun de coden an algorithmen, fir nach méi botties ze verdéngen. déi digital arena waart op dech, {user} !",
+            "msg9": "💻 zäit fir eng technologie-trophä! däi fleiss sech lount, an elo kanns du nach méi botties sammelen, fir deng virtuell innovatiounen no vir ze dreiwen. lass, {user} !",
+            "msg10": "🚨 prett fir déi nächst tech-missioun? als meeschter vun der technik kanns du elo nach méi botties verdéngen. weist der welt, datt s du d'erausfuerderunge vun der digitaler ära spillend packs, {user} !",
+            "msg11": "🔒 du knacks d'bottie-rätselen wéi e pro! deng hingab gëtt belount an du kanns elo nach méi botties verdéngen. looss deng technesch fäegkeete stralen, {user} !",
+            "msg12": "🌐 maach dech prett fir e bottie-reen! däin erfolleg leeft dir viraus, an elo kanns du nach méi botties an däinem digitalen tresor sammelen. feier deng leeschtungen an der tech-welt, {user} !",
+            "msg13": "🔍 d'tech-schatzkummer ass op! huel der elo méi botties an erweider deng sammlung. notz dës geleeënheet, fir deng digital dreem ëmzesetzen, {user} !",
+            "msg14": "🛰️ deng bottie-galaxie wuessst! mat däinem fleiss an denger entschlossenheet kanns du elo nach méi botties verdéngen an dech un d'spëtzt vun der technologie-elite katapultéieren. erfolleg virun dir, {user} !",
+            "msg15": "🚀 däi kënnen gëtt belount. maach mat an der welt vun de coden an algorithmen, fir méi botties ze verdéngen. déi digital arena waart op dech, {user}",
+            "msg16": "💼 zäit fir eng technologie-trophä. däi fleiss sech lount, an elo kanns du méi botties sammelen, fir deng virtuell innovatiounen no vir ze dreiwen. lass, {user}",
+            "msg17": "🔧 prett fir déi nächst tech-missioun. als meeschter vun der technik kanns du méi botties verdéngen. weist der welt, datt s du d'erausfuerderunge vun der digitaler ära spillend packs, {user}",
+            "msg18": "🔑 du knacks d'bottie-rätselen wéi e pro. deng hingab gëtt belount an du kanns méi botties verdéngen. looss deng technesch fäegkeete stralen, {user}",
+            "msg19": "💾 maach dech prett fir e bottie-reen. däin erfolleg leeft dir viraus, an elo kanns du méi botties an däinem digitalen tresor sammelen. feier deng leeschtungen an der tech-welt, {user}",
+            "msg20": "🕵️‍♂️ d'tech-schatzkummer ass op. huel der méi botties an erweider deng sammlung. notz dës geleeënheet, fir deng digital dreem ëmzesetzen, {user}",
+            "msg21": "🚁 deng bottie-galaxie wuessst. mat däinem eifer an denger entschlossenheet kanns du méi botties verdéngen an dech un d'spëtzt vun der technologieelite katapultéieren. erfolleg viraus, {user}",
+            "msg22": "🌐 d'dateautobunn rufft. däin technescht geschéck gëtt belount. sammel weider digital schätz a maach d'computerwelt zu denger bün, {user}",
+            "msg23": "💻 zäit fir eng bottie-belounung. deng ustrengunge sech gelount. du kanns elo méi botties kréien, fir deng technologesch ziler ze packen. lass, {user}",
+            "msg24": "🔥 prett fir déi nächst bottie-erausfuerderung. du hues dech als richtegen technikexpert gewisen a kanns elo méi botties verdéngen. weist der welt, wat s du kanns, {user}",
+            "msg25": "🏆 du bass um beschte wee zum bottie-meeschter. mat däinem asaz an denger hingab kanns du méi botties verdéngen. looss deng technesch fäegkeete glänzen, {user}",
+            "msg26": "💻 däin technescht talent sech lount. dauch méi déif an d'welt vun de coden an algorithmen, fir nach méi botties ze verdéngen. déi digital erausfuerderung waart op dech, {user}",
+            "msg27": "📈 zäit fir e bottie-boost. däin asaz sech lount, an elo kanns du méi botties sammelen, fir deng technologieziler ze packen. lass, {user}",
+            "msg28": "🛠️ prett fir déi nächst technik-erausfuerderung. du hues bewisen, datt s du e richtegen technikexpert bass, a kanns elo méi botties verdéngen. weist der welt, wat an dir stécht, {user}",
+            "msg29": "🎵 du bass um richtege wee zum bottie-meeschter. mat däinem asaz kanns du elo méi botties verdéngen. looss deng technesch fäegkeete stralen, {user}",
+            "msg30": "✨ maach dech prett fir eng bottie-revolutioun. deng erfolleger sech verbreet, an elo kanns du méi botties an däinem virtuelle tresor sammelen. feier däin erfolleg an der tech-welt, {user}",
+            "msg31": "🌌 d'bottie-bank freet sech op dech. huel der elo méi botties an erweider deng technesch sammlung. notz dës geleeënheet, fir deng digital dreem wouer ze maachen, {user}"
+        },
+        "newUser": "wëllkomm an der virtueller welt, {user}! als neie spiller kritt du dat exklusivt starterkit, besteet aus 20 digitale botties. notz se gescheit, fir deng technologesch rees unzefänken a spannend upgrades fräizeschalten. vill spaass beim entdecke vun der computerwelt!",
+        "notEnough": "susgeeDank du hues net genuch botties! du hues {botties|plural(one|bottie, other|botties)}",
+        "prestigeAvailable": "du hues genuch botties fir dat nächst prestige. prestige {prestige} kascht {cost|number} botties",
+        "treasureChest": "🎁 du hues eng schatzkëscht fonnt! du kritt {bonus} botties!"
+    },
+    "bottiesBan": {
+        "admin": "susgeeDank du kanns keen admin vun de botties spären",
+        "ban": "susgeeOK {user|antiPing} gouf vun de botties gespaart",
+        "unban": "susgeeOK {user|antiPing} ass net méi vun de botties gespaart"
+    },
+    "channel": {
+        "joined": "susgeeOK kanal {channel} bäigetrueden",
+        "parted": "kanal {channel} verlooss",
+        "rejoined": "susgeeOK kanal {channel} erëm bäigetrueden"
+    },
+    "channelStats": {
+        "added": "dobäigesat virun {added|time}",
+        "messages": "{messages|plural(one|geloggt noriicht, other|geloggt noriichten)}"
+    },
+    "channelSettings": {
+        "dashboard": "susgeePoint d'astellungen fir dëse kanal stinn am dashboard: {url}"
+    },
+    "chat": {
+        "noData": "ech hu keng date vun dësem notzer",
+        "success": "déi lëscht noriicht vun {user|antiPing} gouf warscheinlech iwwer {client|include} geschéckt",
+        "thirdParty": "Chatterino oder en aneren drëtt-client B-)",
+        "hashFormat": "twitch webchat KEK",
+        "uuidFormat": "Twitch Mobile App"
+    },
+    "chatters": {
+        "noEntries": "kanal {channel|antiPing} huet keng chatter",
+        "success": "et sinn {chatter|number} chatter am kanal {channel|antiPing} ( {data} ) susgeePoint {link}"
+    },
+    "chatting": {
+        "noEntries": "susgeeDank keng noriichte vun {user|antiPing} am kanal {channel|antiPing} {delta|include} fonnt",
+        "success": "susgeeOK {user|antiPing} huet {count|plural(one|noriicht, other|noriichten)} am kanal {channel|antiPing} {delta|include} geschéckt"
+    },
+    "clip": {
+        "forbidden": "susgeeSad kanal {channel|antiPing} erlaabt keng clips",
+        "offline": "susgeeDank {channel|antiPing} ass offline",
+        "unknown": "susgeeDank clips fir {channel|antiPing} sinn aktuell net méiglech"
+    },
+    "cock": "de kok vun {user|antiPing} ass {cm}cm laang {emote} {bar}",
+    "coinFlip": {
+        "heads": "kapp (jo)",
+        "tails": "zuel (neen)"
+    },
+    "command": {
+        "notAllowed": "du kanns dëse command net ausmaachen"
+    },
+    "customCommands": {
+        "added": "susgeeOK command {name} dobäigesat",
+        "removed": "susgeeOK command {name} ewechgeholl",
+        "edited": "susgeeOK command {name} aktualiséiert",
+        "exists": "susgeeDank command {name} existéiert schonn",
+        "notExists": "susgeeDank command {name} existéiert net",
+        "noCommands": "susgeeDank dëse kanal huet keng custom commands",
+        "list": "lëscht vun all custom commands an dësem kanal susgeePoint {link}",
+        "reservedPrefix": "susgeeDank command däerf net mat engem vun twitch reservéierte symbol ufänken",
+        "copySuccess": "susgeeOK {copied|number} commands vun {channel|antiPing} kopéiert ({skipped|number} iwwersprongen)",
+        "copyNone": "susgeeDank keng kopéierbar commands vun {channel|antiPing} fonnt",
+        "copyFromSelf": "susgeeDank du kanns net vun däinem eegene kanal kopéieren",
+        "copyNoCommands": "susgeeDank {channel|antiPing} huet keng custom commands",
+        "rename": {
+            "done": "susgeeOK command {name} heescht elo {newName}",
+            "notExists": "susgeeDank command {name} existéiert net",
+            "sameName": "susgeeDank {name} heescht schonn esou",
+            "taken": "susgeeDank {newName} ass schonn als command oder alias verginn"
+        },
+        "alias": {
+            "set": "susgeeOK aliase fir {name}: {aliases}",
+            "cleared": "susgeeOK all aliase vun {name} ewechgeholl",
+            "notExists": "susgeeDank command {name} existéiert net",
+            "taken": "susgeeDank {alias} ass schonn als command oder alias verginn",
+            "tooMany": "susgeeDank e command däerf héchstens {limit|number} aliase hunn"
+        },
+        "link": {
+            "done": "susgeeOK {name} leeft elo {command} vun {channel|antiPing} susgeePoint ännerungen do gëllen och hei",
+            "notExists": "susgeeDank {channel|antiPing} huet kee command namens {name}",
+            "notPublic": "susgeeDank {name} ass zu {channel|antiPing} net ëffentlech",
+            "sameChannel": "susgeeDank du kanns kee command aus däinem eegene kanal verlinken",
+            "taken": "susgeeDank {name} ass schonn als command oder alias verginn",
+            "brokenSource": "susgeeDank dee command weist op e geläschte command",
+            "isLink": "susgeeDank {name} leeft de command vun engem anere kanal, ännert e do"
         }
+    },
+    "deleteSuggest": {
+        "botInfo": "de virschlag mat id {id} (text: {text}) gouf vun {user|antiPing} geläscht",
+        "entryDeleted": "virschlag mat der id {id} vun {user|antiPing} gouf geläscht",
+        "entryNotFound": "et gëtt kee virschlag mat der id {id} an der datenbank",
+        "error": "du hues keng berechtegung, de virschlag mat der id {id} ze läschen"
+    },
+    "discord": {
+        "link": "susgeeBot kuck op eisem discord eriwwer susgeePoint {link}"
+    },
+    "eCount": {
+        "entry": "{emote} gouf {count|plural(one|kéier, other|mol)} am kanal {channel|antiPing} benotzt",
+        "noEntries": "susgeeDank keng enträg an der datenbank fonnt"
+    },
+    "eCountToday": {
+        "entry": "d'emote {emote} gouf haut {count|plural(one|kéier, other|mol)} am kanal {channel|antiPing} benotzt",
+        "noEntries": "susgeeDank keng enträg fir haut an der datenbank fonnt"
+    },
+    "eCountUser": {
+        "entry": "{user|antiPing} huet d'emote {emote} {entries|plural(one|kéier, other|mol)} am kanal {channel|antiPing} benotzt"
+    },
+    "emote": {
+        "artist": "kënschtler: @{artist}",
+        "channel": "kanal @{channel}"
+    },
+    "emotes": {
+        "success": "emotes fir kanal {channel|antiPing} susgeePoint {link}"
+    },
+    "esearch": {
+        "notFound": "susgeeDank keng emotes fonnt"
+    },
+    "followAge": {
+        "notFollowed": "FeelsBadMan {user|antiPing} follegt {channel|antiPing} net",
+        "self": "susgeeDank du kanns der net selwer follegen",
+        "since": "susgeeOK {user|antiPing} follegt {channel|antiPing} zënter {since|time}"
+    },
+    "forecast": {
+        "title": "🌤 5-deeg-wiedervirausso:"
+    },
+    "founders": {
+        "response": "founder fir {channel|antiPing} (fräi: {available}) susgeePoint {link}",
+        "none": "susgeeDank kanal {channel|antiPing} huet keng founder",
+        "notSubscribable": "susgeeDank kanal {channel|antiPing} kann een net abonnéieren",
+        "since": "founder ginn virun {since|time}",
+        "subbed": "nach ëmmer sub: {emoji}"
+    },
+    "gamba": {
+        "lost": "verluer 📉",
+        "noBotties": "susgeeDank du hues keng botties! benotz {prefix}botties fir der ze kréien",
+        "notEnough": "susgeeDank du kanns net méi botties setzen, wéi s du hues. du hues {botties|plural(one|bottie, other|botties)}",
+        "notZero": "susgeeDank du kanns net 0 botties setzen",
+        "prestige": "du hues genuch botties fir dat nächst prestige! prestige {prestige} kascht {cost|number}. fir an dat nächst prestige ze kommen, benotz de command {prefix}prestige",
+        "response": "du hues {betAmount|plural(one|bottie, other|botties)} {result|include}! du hues elo {newAmount|plural(one|bottie, other|botties)}",
+        "won": "gewonnen 📈"
+    },
+    "give": {
+        "neverPlayed": "susgeeDank {user|antiPing} huet nach ni mat botties gespillt",
+        "notEnough": "susgeeDank du kanns net méi botties ofginn, wéi s du hues! du hues {botties|plural(one|bottie, other|botties)}",
+        "notZero": "susgeeDank du kanns net 0 botties ginn",
+        "self": "susgeeDank du kanns der selwer keng botties ginn",
+        "success": "du hues {user|antiPing} {amount|plural(one|bottie, other|botties)} ginn. du hues elo {senderBotties|plural(one|bottie, other|botties)}, {user|antiPing} huet elo {receiverBotties|plural(one|bottie, other|botties)}"
+    },
+    "globalMessage": {
+        "preview": "virschau: {link}",
+        "info": "Info: {link}",
+        "description": "beschreiwung: {description}",
+        "emote": {
+            "added": "{set} global emote \" {emote} \" gouf dobäigesat",
+            "renamed": "{set} global emote \" {oldName} \" gouf ëmbenannt an \" {newName} \"",
+            "removed": "{set} global emote \" {emote} \" gouf ewechgeholl"
+        },
+        "badge": {
+            "added": "{set} global badge \" {badge} \" gouf dobäigesat",
+            "removed": "{set} global badge \" {badge} \" gouf ewechgeholl"
+        },
+        "7tv": {
+            "globalSet": "(7TV) huet dat globalt emote-set op \"{name}\" ({link}) geännert",
+            "added": "(7TV) {kind} \"{name}\" gouf dobäigesat",
+            "removed": "(7TV) {kind} \"{name}\" gouf ewechgeholl",
+            "renamed": "(7TV) {kind} \"{oldName}\" gouf ëmbenannt an \"{newName}\""
+        }
+    },
+    "gpt": {
+        "content1": "du bass mäi perséinlechen assistent 🤝 äntwert direkt a perséinlech 💬 ouni nofroen ❌ äntwert esou gutt wéi méiglech ✅ maximal 500 zeechen 📏 all satz muss komplett sinn ✍️ benotz vill emojis 😄 all satz enthält mindestens 1 emoji 🌟 keng sexuell themen 🚫 ëmmer frëndlech 💛",
+        "content2": "moien, mäin numm ass {user}. hei ass meng fro: {args}"
+    },
+    "help": {
+        "access": "zougang: {access}",
+        "cooldown": "Cooldown: {cooldown}s",
+        "everyone": "jiddereen",
+        "usage": "benotzung: {usage|include}"
+    },
+    "hug": {
+        "bot": "MrDestructoid // 🤗",
+        "noUser": "{hugger} ëmfaasst {receiver} VirtualHug",
+        "self": "{hugger} ëmfaasst sech selwer FeelsBadMan",
+        "success": "{hugger} ëmfaasst {receiver} VirtualHug {receiver} gouf schonn {count|plural(one|kéier, other|mol)} ëmfaasst"
+    },
+    "rehug": {
+        "noLastHug": "keen huet dech an de lëschte 24 stonnen ëmfaasst. FeelsBadMan",
+        "userNotFound": "de notzer konnt net fonnt ginn.",
+        "success": "{hugger} ëmfaasst {receiver} zeréck! ({receiver} gouf schonn {count|plural(one|kéier, other|mol)} ëmfaasst)"
+    },
+    "irc": {
+        "banned": "@{user} gouf am kanal @{channel} verbannt",
+        "lastMessages": "lëscht noriichten susgeePoint {link} MODS Clap",
+        "subgift": "susgeeBusiness subgift kritt susgeePoint @{gifter} huet en tier {tier} sub un @{receiver} am kanal @{channel} verschenkt"
+    },
+    "isBanned": {
+        "self": "susgeeDank du kanns an däinem eegene kanal net verbannt ginn",
+        "banned": "{user|antiPing} ass warscheinlech am kanal {channel|antiPing} verbannt",
+        "notBanned": "{user|antiPing} ass warscheinlech net am kanal {channel|antiPing} verbannt"
+    },
+    "isInChat": {
+        "notMod": "susgeeDank Susgeebot ass kee mod zu {channel|antiPing}",
+        "true": "{user|antiPing} ass grade am kanal {channel|antiPing}",
+        "false": "{user|antiPing} ass grade net am kanal {channel|antiPing}"
+    },
+    "language": {
+        "changed": "susgeeOK sprooch ass elo lëtzebuergesch",
+        "invalid": "aktuell sprooch ass lëtzebuergesch. disponibel sproochen: {languages}"
+    },
+    "lastTimeout": {
+        "self": "susgeeDank du kanns an däinem eegene kanal keen timeout kréien",
+        "none": "{user|antiPing} huet keng geloggt timeouts zu {channel|antiPing}",
+        "success": "lëschten timeout vun {user|antiPing} zu {channel|antiPing} war virun {delta|time}",
+        "message": "noriicht: {message}"
+    },
+    "leaderboard": {
+        "cat": {
+            "badges": "(7TV) Badges",
+            "botties": "botties",
+            "commands": "commands",
+            "paints": "(7TV) Paints",
+            "prestige": "prestige",
+            "treasures": "schatzkëschten"
+        },
+        "template": {
+            "badges": "\"{name}\": {count|number}",
+            "botties": "prestige {prestige}, {botties|plural(one|bottie, other|botties)}",
+            "command": "{command}: {count|plural(one|benotzung, other|benotzungen)}",
+            "paints": "\"{name}\": {count|number}",
+            "prestige": "{prestige}",
+            "treasures": "{treasures}"
+        },
+        "text": "{rankingType} 10 {category|include} susgeePoint {leaderboard}"
+    },
+    "lines": {
+        "success": "kanal {channel|antiPing} huet {count|plural(one|geloggt zeil, other|geloggt zeilen)} {time|include}"
+    },
+    "linesUser": {
+        "success": "{user|antiPing} huet {count|plural(one|geloggt zeil, other|geloggt zeilen)} {time|include} am kanal {channel|antiPing} geschriwwen"
+    },
+    "liveMsg": "susgeeOK {state|include} live-updates fir {streamer|antiPing}",
+    "livePing": {
+        "text": "susgeeOK {ping|include} wann {streamer|antiPing} live geet"
+    },
+    "logging": {
+        "added": "susgeeOK noriichte vun {user|antiPing} ginn net méi geloggt",
+        "removed": "susgeeOK noriichte vun {user|antiPing} ginn elo geloggt"
+    },
+    "logs": {
+        "link": "logs vun {user|antiPing} am kanal {channel|antiPing} susgeePoint {link}",
+        "channelOrUserNotFound": "susgeeDank keng logs fir dëse kanal oder notzer fonnt",
+        "firstMessage": "éischt noriicht vun {user|antiPing} am kanal {channel|antiPing}: {message}",
+        "delta": "virun {time|time}"
+    },
+    "lookup": {
+        "hasRole": "susgeeOK {user|antiPing} ass {type|include} am kanal {channel|antiPing} zënter {since|time}",
+        "mod": "mod",
+        "none": "susgeeDank kanal {channel|antiPing} huet keng {type|include}s",
+        "noRole": "susgeeDank {user|antiPing} ass kee {type|include} am kanal {channel|antiPing}",
+        "noTracked": "susgeeDank {user|antiPing} ass an kengem getrackte kanal {type|include}",
+        "since": "{type|include} zënter {since|time}",
+        "success": "{user|antiPing} ass {type|include} an {count|plural(one|getrackte kanal, other|getrackte kanäl)} susgeePoint {link}",
+        "vip": "vip"
+    },
+    "maersuggest": {
+        "error": "susgeeDank noriicht net geschéckt",
+        "success": "BabyRage"
+    },
+    "mass": {
+        "noChatter": "susgeeDank chatter fir {channel|antiPing} konnten net geluede ginn"
+    },
+    "mostSent": {
+        "noEntries": "susgeeDank {user|antiPing} huet nach ni zu {channel|antiPing} geschwat",
+        "success": "am meeschte geschéckt noriicht vun {user|antiPing} am kanal {channel|antiPing}",
+        "message": "noriicht: {message}",
+        "count": "{count|plural(one|kéier, other|mol)}"
+    },
+    "mostSentChannel": {
+        "noEntries": "susgeeDank keng noriicht zu {channel|antiPing} {delta|include} fonnt",
+        "success": "am meeschte geschéckt noriicht {delta|include} zu {channel|antiPing}",
+        "message": "noriicht: {message}",
+        "count": "{count|plural(one|kéier, other|mol)}"
+    },
+    "myReminder": {
+        "noEntries": "susgeeDank du hues keng oppe reminder",
+        "message": "noriicht-reminder: \n{reminder}",
+        "timed": "zäit-reminder: \n{reminder}",
+        "timedMessage": "zäitgesteiert noriicht: \n{reminder}"
+    },
+    "nameChanges": {
+        "noEntries": "notzer {user|antiPing} huet säin numm nach ni geännert",
+        "optOut": "{user|antiPing} huet sech vum logging ofgemellt susgeeNoted ",
+        "text": "virdrun geloggt nimm fir {user|antiPing} (aktuellen numm zënter {since|date}): {usernames}"
+    },
+    "noPing": {
+        "enabled": "susgeeOK däin numm pingt dech net méi, wann anerer commands op dech benotzen",
+        "disabled": "susgeeOK däin numm pingt dech erëm, wann anerer commands op dech benotzen"
+    },
+    "noMention": {
+        "enabled": "susgeeOK du gëss an enger command-äntwert net méi ernimmt",
+        "disabled": "susgeeOK du gëss an enger command-äntwert erëm ernimmt"
+    },
+    "notifications": {
+        "blog": "neien Twitch blog-artikel: {title} susgeePoint {url}",
+        "changelog": "Twitch developer changelogs goufen aktualiséiert! susgeePoint {url}",
+        "types": {
+            "7tv": "7TV cosmetics / global emote-ännerungen",
+            "twitch": "Twitch global emote / badge-ännerungen",
+            "blog": "Twitch blog-updates",
+            "changelog": "Twitch changelog-updates"
+        }
+    },
+    "notify": {
+        "invalidType": "susgeeDank ongëltegen benoriichtegungstyp. disponibel typen: {types} susgeePoint {docs}",
+        "usageHint": "typen: {types} susgeePoint {docs}",
+        "alreadySubscribed": "susgeeDank {type|include} ass hei schonn abonnéiert",
+        "subscribed": "susgeeOK {type|include} abonnéiert",
+        "noSubscriptions": "susgeeDank dëse kanal huet keng benoriichtegungen abonnéiert",
+        "notSubscribed": "susgeeDank {type|include} ass hei net abonnéiert",
+        "unsubscribed": "susgeeOK {type|include} ofbestallt",
+        "onlyMod": "susgeeDank nëmme mods kënnen d'aboe vun dësem kanal änneren",
+        "onlyPersonal": "susgeeDank {type|include} gëtt et nëmme perséinlech, huel {prefix}pingme",
+        "noChannelSubscription": "susgeeDank {type|include} fir {channel|antiPing} sinn hei net un. e mod kann se unmaache mat {prefix}notify {command} {channel|antiPing}",
+        "noGlobalSubscription": "susgeeDank {type|include} sinn hei net un. e mod kann se unmaache mat {prefix}notify {command}",
+        "ping": {
+            "enabled": "susgeeOK ech pingen dech bei {type|include} vun {channel|antiPing}",
+            "disabled": "susgeeOK ech pingen dech net méi bei {type|include} vun {channel|antiPing}"
+        },
+        "globalPing": {
+            "enabled": "susgeeOK ech pingen dech bei {type|include}",
+            "disabled": "susgeeOK ech pingen dech net méi bei {type|include}"
+        },
+        "replaced": "susgeeDank dëse command mécht näischt méi. huel stattdeem {command} susgeePoint {docs}",
+        "names": {
+            "live": "live-updates",
+            "subgift": "subgift-pings",
+            "affiliate": "affiliate-pings"
+        },
+        "list": {
+            "short": "susgeeOK {count|number} aktiv benoriichtegungen an #{channel} susgeePoint {paste}"
+        },
+        "paste": {
+            "header": "aktiv benoriichtegungen zu {channel}",
+            "ping": "Ping: {users}"
+        }
+    },
+    "optOut": {
+        "triggered": "susgeeDank dësen notzer oder kanal huet sech ofgemellt, vun dësem command getraff ze ginn",
+        "success": "susgeeOK du hues dech vum command {command} ofgemellt",
+        "alreadyOptedOutCommand": "susgeeDank du bass schonn vum command {command} ofgemellt",
+        "optedOutOfAll": "susgeeOK du hues dech vun all ënnerstëtzte commands ofgemellt",
+        "notOptOutCommand": "susgeeDank {command} ass kee command, vun deem s du dech ofmelle kanns",
+        "list": "du hues dech vun dëse commands ofgemellt susgeePoint {list}",
+        "noList": "susgeeDank du bass vun kengem command ofgemellt.",
+        "optedOutOfAllList": "susgeeOK du bass vun all commands ofgemellt."
+    },
+    "optIn": {
+        "success": "susgeeOK du hues dech erëm beim command {command} ugemellt",
+        "alreadyOptedIn": "susgeeDank du bass schonn beim command {command} ugemellt",
+        "optedIntoAll": "susgeeOK du bass elo bei all commands ugemellt",
+        "cannotOptInSingle": "susgeeDank du bass vun all commands ofgemellt, du kanns dech net fir eeenzelen erëm umellen",
+        "nothingToOptIn": "susgeeDank du bass schonn iwwerall ugemellt",
+        "notOptOutCommand": "susgeeDank {command} ass kee command, vun deem s du dech ofmelle kanns"
+    },
+    "permissions": {
+        "insufficient": {
+            "ignored": "susgeeDank du bass op der ignore-lëscht vun dësem bot a kanns keng commands ausféieren",
+            "helper": "du muss helper sinn, fir dëse command ze benotzen",
+            "vip": "du muss VIP sinn, fir dëse command ze benotzen",
+            "mod": "du muss mod sinn, fir dëse command ze benotzen",
+            "ambassador": "du muss ambassador/broadcaster sinn, fir dëse command ze benotzen",
+            "broadcaster": "du muss de broadcaster sinn, fir dëse command ze benotzen",
+            "admin": "du muss admin sinn, fir dëse command ze benotzen",
+            "dev": "du muss dev sinn, fir dëse command ze benotzen",
+            "owner": "NOIDONTTHINKSO nëmme lucas kann dëse command ausféieren"
+        },
+        "onlyAdmin": "susgeeDank du muss admin sinn, fir berechtegungen z'änneren",
+        "onlyOwner": "susgeeDank du kanns lucas' berechtegung net änneren",
+        "ownerForbidden": "susgeeDank d'owner-berechtegung kann net verginn ginn",
+        "targetTooHigh": "susgeeDank du kanns nëmmen notzer ënner denger eegener berechtegung änneren",
+        "levelTooHigh": "susgeeDank du kanns d'berechtegung {permission} net verginn, se läit iwwer denger eegener",
+        "same": "susgeeDank notzer {user|antiPing} huet dës berechtegung schonn",
+        "status": "{user|antiPing} huet d'berechtegung {permission}",
+        "success": "susgeeOK {user|antiPing} huet elo d'berechtegung {permission}"
+    },
+    "prefix": {
+        "reserved": "susgeeDank prefix gouf net geännert, well e mat engem vun twitch reservéierte symbol ufänkt",
+        "success": "susgeeOK prefix op {prefix} geännert",
+        "tooLong": "susgeeDank de prefix däerf maximal 15 zeechen hunn"
+    },
+    "prestige": {
+        "notEnough": "du hues net genuch botties. prestige {prestige} kascht {cost|number} botties, du hues {botties|plural(one|bottie, other|botties)}",
+        "success": "prestige gepackt! du hues elo {botties|plural(one|bottie, other|botties)} an bass am prestige {prestige}. dat nächst prestige kascht {cost|number} botties"
+    },
+    "randLine": {
+        "noEntries": "susgeeDank {user|antiPing} huet nach ni zu {channel|antiPing} geschwat",
+        "entry": "noriicht vun {user|antiPing} am kanal {channel|antiPing}: {message}",
+        "delta": "virun {delta|time}"
+    },
+    "receivedSubs": {
+        "noEntries": "susgeeDank mir hunn nach keng verschenkt subs fir {user|antiPing} geloggt",
+        "success": "{user|antiPing} huet {count|plural(one|subgift, other|subgifts)} {delta|include} kritt"
+    },
+    "remind": {
+        "at": "um {time}",
+        "bot": "susgeeOK merci datt s du mech erënnerst",
+        "userBot": "susgeeDank {user} ass e bekannte bot a kann keng reminder kréien",
+        "userIgnored": "susgeeDank {user|antiPing} gëtt ignoréiert a kann keng reminder kréien",
+        "maxReminders": "du hues d'maximum un aktive remindere erreecht",
+        "nextTimeSelf": "wann s du dat nächst mol schreifs",
+        "nextTimeOther": "wann si dat nächst mol schreiwen",
+        "other": "ech erënneren {user|antiPing}",
+        "pastDate": "susgeeDank du kanns keng reminder fir d'vergaangenheet setzen",
+        "self": "ech erënneren dech",
+        "tooFarAway": "susgeeDank du kanns kee reminder méi wäit wéi 2 joer an der zukunft maachen",
+        "userBlocked": "susgeePoint du bass bei {user|antiPing} fir reminder blockéiert"
+    },
+    "reminder": {
+        "tooLong": "@{receiver} deng reminder sinn ze laang fir de chat susgeePoint {paste}",
+        "message": "reminder vun {sender|antiPing} susgeePoint \" {text} \" virun {delta|time}",
+        "timed": "@{receiver} geplangte reminder vun {sender|antiPing} susgeePoint \" {text} \" virun {delta|time}"
+    },
+    "seRank": {
+        "notFound": "{user|antiPing} ass net an den top 100 chattere vun {channel|antiPing}",
+        "success": "{user|antiPing} ass plaz {rank} am StreamElements-ranking vun {channel|antiPing}"
+    },
+    "split": {
+        "usage": "susgeeDank d'noriicht muss mindestens {min} an maximal {max} wierder hunn"
+    },
+    "stalk": {
+        "bot": "ech sinn dach hei susgeeDank",
+        "channel": {
+            "other": "kanal {channel|antiPing}",
+            "theirs": "hire kanal"
+        },
+        "delta": "virun {delta|time}",
+        "neverSeen": "susgeeDank keng noriichte vun {user|antiPing} fonnt",
+        "self": "du bass dach hei susgeeDank",
+        "success": "susgeeNoted lëscht noriicht vun {user|antiPing} war zu {channel}: {message}"
+    },
+    "streamInfo": {
+        "live": "{channel|antiPing} ass live susgeeLIVE",
+        "offline": "{channel|antiPing} ass offline susgeeOffline",
+        "neverStreamed": "op dësem kanal gouf nach ni gestreamt susgeeSad",
+        "lastStream": "lëschte stream war virun {delta|time}",
+        "title": "titel: {title}",
+        "category": "kategorie: {category}",
+        "uptime": "live zënter: {delta|time}",
+        "viewers": "zuschauer: {viewers|number}",
+        "language": "sprooch: {language} {flag}",
+        "link": "Link: {link}",
+        "newCategoryAndTitle": "susgeeNoted nei kategorie an titel am kanal @{channel}",
+        "noTitle": "(keen titel)",
+        "noCategory": "(keng kategorie)",
+        "newTitle": "susgeeNoted neien titel am kanal @{channel}",
+        "newCategory": "susgeeNoted nei kategorie am kanal @{channel}"
+    },
+    "streamStatus": {
+        "live": "@{streamer} ass susgeeLIVE",
+        "offline": "@{streamer} ass susgeeOffline"
+    },
+    "subAge": {
+        "ended": "eriwwer virun {delta|time}",
+        "ends": "hält op an {delta|time}",
+        "giftedSub": "geschenkt vun {giftedBy|antiPing}",
+        "neverSubbed": "nach ni bei {channel|antiPing} abonnéiert",
+        "notSubscribable": "susgeeDank kanal {channel|antiPing} ass net affiliate/partner",
+        "permanent": "permanente sub",
+        "renews": "erneiert sech an {delta|time}",
+        "statusHidden": "notzer {user|antiPing} huet säi substatus verstoppt",
+        "streak": "{streak} mount streak",
+        "since": "abonnéiert bei {channel|antiPing} zënter {months|plural(one|mount, other|méint)}",
+        "subscribedFor": "war virdrun {months|plural(one|mount, other|méint)} bei {channel|antiPing} abonnéiert",
+        "tier": "{tier} sub"
+    },
+    "subgifts": {
+        "noEntries": "{user|antiPing} huet keng subs verschenkt {delta|include} am kanal {channel|antiPing}",
+        "stats": "{user|antiPing} huet {count|number} subs verschenkt {delta|include} am kanal {channel|antiPing} (wäert: {price}€)"
+    },
+    "subGiftPing": {
+        "disabled": "susgeeOK ech soen der net méi Bescheed, wann ech e subgift erkennen",
+        "enabled": "susgeeOK ech soen der Bescheed, wann ech e subgift fir dech erkennen"
+    },
+    "alerts": {
+        "anonymous": "en anonyme notzer",
+        "sub": "$(user) huet e $(tier) sub fir $(months) mount(en) ofgeschloss sheCrazy",
+        "resub": "$(user) huet de $(tier) sub erneiert - schonn $(months) mount(en) dobäi sheCrazy",
+        "gift": "$(user) verschenkt $(count) sub(s)!! sheCrazy am Ganzen $(total) sub(s) verschenkt!",
+        "raid": "$(user) raidet mat $(viewers) zuschauer(en) sheCrazy",
+        "bits": "$(user) huet $(bits) bits gecheert, merci sheCrazy"
+    },
+    "subinfo": {
+        "noEntries": "am kanal {channel|antiPing} goufe keng subs verdeelt {delta|include}",
+        "stats": "sub-info fir kanal {channel|antiPing} {delta|include}: subs am Ganzen: {total|number}, éischt-kéier subs: {firstTime|number}, tiers: (P, T1, T2, T3) => {prime|number}, {tier1|number}, {tier2|number}, {tier3|number}"
+    },
+    "suggestion": {
+        "actions": {
+            "finished": "fäerdeg",
+            "approved": "ugeholl a gëtt manuell beaarbecht",
+            "deleted": "geläscht",
+            "implemented": "ëmgesat"
+        },
+        "maxEntries": "susgeeDank du kanns net méi wéi 5 virschléi pro dag arechen",
+        "noEntries": "susgeeDank keng virschléi an der datenbank fonnt",
+        "notFound": "susgeeDank kee virschlag mat der id {id} fonnt",
+        "notification": "susgeeOK virschlag \"{text}\" gouf {action|include}",
+        "response": "susgeeOK virschlag {id} vun {user|antiPing} gouf {action|include}",
+        "success": "susgeeOK däi virschlag/däin ufro gouf gespäichert a gëtt manuell beaarbecht (id: {id})"
+    },
+    "topBans": {
+        "noEntries": "susgeeDank am kanal {channel|antiPing} gëtt et keng bans",
+        "success": "d'chatter mat de meeschte bans am kanal {channel|antiPing} sinn: {leaderboard} KEK"
+    },
+    "topChatter": {
+        "noEntries": "susgeeDank am kanal {channel|antiPing} gouf {delta|include} net geschwat",
+        "entry": "{user|antiPing}: {count|number}",
+        "text": "déi aktivst chatter {delta|include} am kanal {channel|antiPing} sinn: {leaderboard}"
+    },
+    "topSubgifts": {
+        "noEntries": "susgeeDank am kanal {channel|antiPing} goufe keng subgifts {delta|include} geloggt",
+        "text": "déi top subgifter {delta|include} am kanal {channel|antiPing} sinn: {leaderboard}"
+    },
+    "topTimeouts": {
+        "noEntries": "susgeeDank am kanal {channel|antiPing} goufe keng timeouts {delta|include} geloggt",
+        "success": "am kanal {channel|antiPing} ginn et {count|number} geloggt timeouts {delta|include}"
+    },
+    "timeouts": {
+        "noEntries": "{user|antiPing} huet nach keng timeouts am kanal {channel|antiPing} {delta|include} kritt",
+        "userStats": "{user|antiPing} huet am Ganzen {count|plural(one|timeout, other|timeouts)} am kanal {channel|antiPing} {delta|include} kritt"
+    },
+    "unban": {
+        "noUsers": "susgeeDank konnt keen notzer fannen",
+        "success": "susgeeOK fäerdeg mam entbannen"
+    },
+    "unRemind": {
+        "invalidId": "susgeeDank id muss eng zuel sinn",
+        "notFound": "susgeeDank kee reminder mat id {id} fonnt",
+        "notYours": "susgeeDank reminder mat id {id} ass net vun dir",
+        "success": "susgeeOK reminder mat id {id} gouf geläscht"
+    },
+    "user": {
+        "age": "alter: {age|time}",
+        "badge": "Badge: {badge}",
+        "banned": {
+            "deactivated": "verbannt: ⏸ FALSE ({reason}) account desaktivéiert zënter {since|time}",
+            "false": "verbannt: ⏸ FALSE",
+            "true": "verbannt: ⛔ TRUE ({reason}) verbannt zënter {since|time}"
+        },
+        "banner": "profilbanner: {banner}",
+        "bot": {
+            "known": "intern als bot markéiert: {check}",
+            "verified": "verifizéierte bot: {check}"
+        },
+        "color": "faarf: {color}",
+        "createdAt": "erstallt um: {createdAt|date}",
+        "bio": "bio: {text}",
+        "followers": "follower: {followers|number}",
+        "follows": "Follows: {follows|number}",
+        "isBanned": "⛔ verbannt ({reason})",
+        "role": "{type|include}: {emoji}",
+        "roles": {
+            "affiliate": "affiliate",
+            "list": "rollen: {roles}",
+            "partner": "partner",
+            "preAffiliate": "Pre-Affiliate",
+            "staff": "staff"
+        }
+    },
+    "weather": {
+        "noUser": "susgeeDank du muss en notzer uginn",
+        "noUserLocation": "susgeeDank dësen notzer huet keng gespäichert stad",
+        "noLocationSet": "susgeeDank gëff eng stad un, oder schéck Susgeebot e whisper mat \"wieder <city>\", fir deng stad ze späicheren",
+        "locationNotFound": "susgeeDank konnt keen uert mat dësem numm fannen",
+        "location": "📍 {location} {flag}",
+        "locationHidden": "standuert verstoppt susgeeBased {flag}",
+        "weather": "🌥️ wieder: {weather}",
+        "wind": "🌬️ wandvitess: {wind}",
+        "temperature": "🌡️ temperatur: {temp}°C",
+        "feelsLike": "🌡️ fillt sech un: {temp}°C",
+        "humidity": "💧 loftfiichtegkeet: {humidity}%",
+        "sunrise": "🌅 sonnenopgang: {time}",
+        "sunset": "🌆 sonnenënnergang: {time}",
+        "currentTime": "🕰️ aktuell auerzäit (circa): {date}"
+    },
+    "youtube": {
+        "submitId": "du muss e youtube link/id uginn",
+        "likes": "👍 Likes: {likes|number} ({percentage}%)",
+        "dislikes": "👎 Dislikes: {dislikes|number} ({percentage}%)",
+        "views": "👁 Views: {views|number}",
+        "date": "📅 stats ofgeruff virun {delta|time}"
+    },
+    "meta": {
+        "7tv": {
+            "usage": "[add | remove | rename | replace | yoink | import]",
+            "description": "geréiert 7TV emotes an däinem Twitch-kanal. (de bot brauch 7TV editor-rechter am kanal)",
+            "usages": {
+                "add": "<emote> (<new name>)",
+                "remove": "<emote> <emote>",
+                "rename": "<emote> <new name>",
+                "replace": "<old emote> <new emote> (<new name>)",
+                "yoink": "<channel> <emote> (<new name>)",
+                "import": "<Channel / emote-set id>"
+            }
+        },
+        "7tvc": {
+            "usage": "[add | remove | rename | replace | yoink | import]",
+            "description": "geréiert 7TV emotes an anere kanäl",
+            "usages": {
+                "add": "<emote> (<new name>)",
+                "remove": "<emote> <emote>",
+                "rename": "<emote> <new name>",
+                "replace": "<old emote> <new emote> (<new name>)",
+                "yoink": "<channel> <emote> (<new name>)",
+                "import": "<channel / emote-set id>"
+            }
+        },
+        "7tvEditor": {
+            "usage": "<user>",
+            "description": "setzt en editor fir (7TV) emotes dobäi"
+        },
+        "7tvEditorList": {
+            "description": "weist notzer mat (7TV) bot-editor-rechter"
+        },
+        "7tvMsg": {
+            "usage": "<channel>",
+            "description": "mécht (7TV) benoriichtegungen am chat un/aus"
+        },
+        "7tvSa": {
+            "usage": "<user>",
+            "description": "weist de substatus vun engem notzer op (7TV)"
+        },
+        "7tvUser": {
+            "usage": "<user>",
+            "description": "sicht no engem notzer op 7TV"
+        },
+        "7tvlog": {
+            "description": "weist déi lëscht 7TV emote-ännerungen am kanal"
+        },
+        "8ball": {
+            "usage": "<message>",
+            "description": "äntwert op deng froen"
+        },
+        "aare": {
+            "description": "flosstemperatur zu Thun"
+        },
+        "activeChannel": {
+            "usage": "<user>",
+            "description": "schéckt eng lëscht vu kanäl, wou e notzer eng noriicht geschéckt huet"
+        },
+        "addBetween": {
+            "usage": "<fill-word> <split-word>",
+            "description": "deelt all wuert an eng eegen noriicht op"
+        },
+        "addBot": {
+            "description": "infoen, wéi s du de bot dobäisetz"
+        },
+        "affiliatePing": {
+            "usage": "<user>",
+            "description": "seet der Bescheed, wann e kanal affiliate gëtt"
+        },
+        "afk": {
+            "usage": "<afk text>",
+            "description": "setzt däin status op AFK"
+        },
+        "ambassador": {
+            "usage": "[add | remove] <user> or list",
+            "description": "setzt ambassador-status an däinem kanal fir vertrauenswierdeg notzer dobäi oder hëlt e ewech"
+        },
+        "allEmotes": {
+            "usage": "<channel>",
+            "description": "schéckt all 7TV/BTTV/FFZ/TWITCH emotes vun engem kanal an de chat"
+        },
+        "animal": {
+            "description": "schéckt e zoufällegt bild vun engem déier"
+        },
+        "announce": {
+            "usage": "<text>",
+            "description": "schéckt eng twitch-ukënnegung am chat"
+        },
+        "antiPing": {
+            "usage": "<word/text>",
+            "description": "FeelsBingMan 💢"
+        },
+        "avatar": {
+            "usage": "<user>",
+            "description": "schéckt de link zum profilbild vun engem notzer"
+        },
+        "badge": {
+            "description": "weist dat aktuellt (7TV) badge vun engem notzer"
+        },
+        "ban": {
+            "usage": "<user>",
+            "description": "bant en notzer an engem kanal"
+        },
+        "banList": {
+            "usage": "<raw user list url> [<Reason>]",
+            "description": "bant eng lëscht vun notzer"
+        },
+        "banMsg": {
+            "usage": "<channel>",
+            "description": "mécht ban-noriichten un/aus"
+        },
+        "bans": {
+            "usage": "[alltime | today | yesterday | month | lastmonth | year | lastyear] <channel>",
+            "description": "weist d'zuel vun de geloggte bans an engem kanal"
+        },
+        "bible": {
+            "usage": "(<id>)",
+            "description": "schéckt en zoufällegen atrag aus der bibel-datenbank"
+        },
+        "bibleAdd": {
+            "usage": "<text>",
+            "description": "setzt en text an d'bibel-datenbank dobäi"
+        },
+        "bibleDelete": {
+            "usage": "<id>",
+            "description": "läscht en text vun dir aus der bibel-datenbank"
+        },
+        "bibleList": {
+            "description": "gëtt de link zur bibel-säit zeréck"
+        },
+        "birthday": {
+            "usage": "[add | remove] <name> <day> <month>",
+            "description": "setzt e gebuertsdag an d'datenbank oder hëlt e ewech"
+        },
+        "birthdayMsg": {
+            "description": "weist op d'dashboard vum kanal, wou gebuertsdagsnoriichte agestallt ginn"
+        },
+        "birthdays": {
+            "description": "gëtt all gespäichert gebuertsdeeg am aktuellen kanal zeréck"
+        },
+        "blow": {
+            "description": "💨 🎈"
+        },
+        "susgeebotmsg": {
+            "usage": "<message>",
+            "description": "schéckt eng noriicht als action un all aktiv kanäl (mat confirmatioun)"
+        },
+        "botSubs": {
+            "description": "weist all sub-emotes, déi de bot aktuell huet"
+        },
+        "botties": {
+            "description": "botties mini-spill"
+        },
+        "bottiesBan": {
+            "usage": "<user>",
+            "description": "spärt en notzer vun de botties"
+        },
+        "channel": {
+            "usage": "[join | rejoin | part] <channel>",
+            "description": "trëtt engem kanal bäi oder verléisst e"
+        },
+        "channelStats": {
+            "usage": "<channel>",
+            "description": "weist d'chat-statistike vun engem kanal"
+        },
+        "channelSettings": {
+            "description": "weist op d'dashboard vum kanal, wou d'astellunge stinn"
+        },
+        "chat": {
+            "usage": "<user>",
+            "description": "weist ob e notzer eng drëtt-app oder twitch webchat benotzt"
+        },
+        "chatis": {
+            "description": "gëtt de link zum chatis overlay zeréck"
+        },
+        "chatterino": {
+            "description": "gëtt download-linken zu de chatterino-forks zeréck"
+        },
+        "chatters": {
+            "usage": "<channel>",
+            "description": "weist déi aktuell chatter an engem kanal"
+        },
+        "chatting": {
+            "usage": "[alltime | today | yesterday | month | lastmonth | year] <user> <channel>",
+            "description": "weist chat-statistike vun engem notzer an engem kanal fir e zäitraum"
+        },
+        "clear": {
+            "description": "eidelt de chat"
+        },
+        "clip": {
+            "usage": "<channel>",
+            "description": "mécht e clip vum uginnene kanal"
+        },
+        "cock": {
+            "description": "wéi huge ass däi kok?"
+        },
+        "coinFlip": {
+            "description": "kapp oder zuel?"
+        },
+        "command": {
+            "usage": "[check | disable | enable] <command>",
+            "description": "mécht e command am aktuellen kanal un/aus"
+        },
+        "customCommand": {
+            "usage": "[add | remove | edit | rename | alias | list | copy | link | enable | disable | cooldown | public | permission | live | info] <name> <command>",
+            "usages": {
+                "add": "<name> <command>",
+                "delete": "<name>",
+                "copy": "<channel> <command1> [command2 ...]",
+                "rename": "<name> <new name>",
+                "alias": "<name> <alias1, alias2, ...>",
+                "link": "<channel> <command> [own name]",
+                "enable": "<name>",
+                "disable": "<name>",
+                "cooldown": "<name> <seconds>",
+                "public": "<name> [on | off]",
+                "reply": "<name> [on | off]",
+                "action": "<name> [on | off]",
+                "permission": "<name> [everyone | vip | mod | broadcaster]",
+                "live": "<name> [always | online | offline]",
+                "info": "<name>"
+            },
+            "description": "geréiert custom commands (dobäisetzen, ewechhuelen, astellungen, aliase, kopéieren, verlinken)"
+        },
+        "deleteSuggest": {
+            "usage": "<id>",
+            "description": "läscht e virschlag"
+        },
+        "discord": {
+            "description": "schéckt de link op eisen discord"
+        },
+        "dislikes": {
+            "usage": "<YouTube Video ID/Link>",
+            "description": "weist stats vun engem youtube video"
+        },
+        "duhuuuuuuure": {
+            "description": "special shoutout fir en zoufällegen notzer am chat"
+        },
+        "echo": {
+            "usage": "<text>",
+            "description": "widderhëlt eng noriicht"
+        },
+        "eCount": {
+            "usage": "<emote> <channel>",
+            "description": "weist wéi oft en emote an engem kanal benotzt gouf"
+        },
+        "eCountToday": {
+            "usage": "<emote> <channel>",
+            "description": "weist wéi oft en emote haut an engem kanal benotzt gouf"
+        },
+        "eCountUser": {
+            "usage": "<emote> <user> <channel>",
+            "description": "weist wéi oft en notzer en emote an engem kanal benotzt huet"
+        },
+        "emote": {
+            "usage": "<emote>",
+            "description": "weist informatiounen iwwer en twitch emote"
+        },
+        "emotes": {
+            "usage": "<channel>",
+            "description": "schéckt e link op all emotes vun engem kanal"
+        },
+        "emoteSet": {
+            "usage": "<channel>",
+            "description": "weist informatiounen iwwer dat aktuellt (7TV) emote-set"
+        },
+        "emoteSets": {
+            "usage": "<channel>",
+            "description": "weist informatiounen iwwer all (7TV) emote-sets vun engem kanal"
+        },
+        "eSearch": {
+            "usage": "[bttv | ffz | seventv] <emote>",
+            "description": "sicht en emote op bttv/ffz/7tv nom numm"
+        },
+        "eval": {
+            "usage": "<code>",
+            "description": "féiert javascript code aus"
+        },
+        "ezGif": {
+            "usage": "<emote>",
+            "description": "gëtt en ezgif-link vun engem emote zeréck"
+        },
+        "feelsGoodMan": {
+            "description": "FeelsGoodMan"
+        },
+        "fill": {
+            "usage": "<text>",
+            "description": "widderhëlt en uginnenen text bis 500 zeechen"
+        },
+        "firstLoggedLine": {
+            "usage": "<user> <channel>",
+            "description": "weist déi éischt noriicht vun engem notzer an engem kanal vun https://logs.florian2807.me"
+        },
+        "followAge": {
+            "usage": "<user> <channel>",
+            "description": "weist de follow-status vun engem notzer"
+        },
+        "founders": {
+            "usage": "<channel>",
+            "description": "weist d'founder vun engem kanal"
+        },
+        "forecast": {
+            "description": "weist eng 5-deeg-wiedervirausso fir eng stad",
+            "usage": "<city> or user <user>"
+        },
+        "freeAll": {
+            "description": "hieft all timeouts vun all notzer am aktuellen kanal op"
+        },
+        "fuck": {
+            "usage": "<user>",
+            "description": "dinkt e bestëmmten notzer oder wielt zoufälleg e chatter"
+        },
+        "funFact": {
+            "description": "schéckt e zoufällege funfact"
+        },
+        "gamba": {
+            "usage": "<amount of botties | half | all | eg 20%>",
+            "description": "spill deng botties"
+        },
+        "give": {
+            "usage": "<user> <amount of botties | half | all | eg 20%>",
+            "description": "gëtt deng botties un en aneren notzer"
+        },
+        "global": {
+            "description": "weist all global emotes vun 7TV/BTTV/FFZ/TWITCH"
+        },
+        "globalEmoteAnnounce": {
+            "description": "schéckt eng noriicht, wann e globalt badge/emote op Twitch, 7TV oder BTTV aktualiséiert gëtt"
+        },
+        "gpt": {
+            "usage": "<text>",
+            "description": "freet ChatGPT eppes"
+        },
+        "help": {
+            "usage": "<command | category>",
+            "description": "weist hëllef zu engem command oder lëscht eng kategorie"
+        },
+        "history": {
+            "description": "schéckt e link op recent-messages vun engem kanal"
+        },
+        "hug": {
+            "usage": "<user>",
+            "description": "ëmfaass een 🤗"
+        },
+        "id": {
+            "usage": "<user>",
+            "description": "gëtt d'user-ids vun Twitch an (7TV) zeréck"
+        },
+        "isBanned": {
+            "usage": "<user> <channel>",
+            "description": "kuckt ob e notzer an engem kanal verbannt ass"
+        },
+        "isInChat": {
+            "usage": "<user> <channel>",
+            "description": "kuckt ob e notzer an engem kanal ass"
+        },
+        "insights": {
+            "usage": "<user> <channel>",
+            "description": "weist Log-Insights vun engem Notzer an engem Kanal (Wierder, Emotes, éischt/lescht gesinn)"
+        },
+        "kok": {
+            "description": "COCK WAVE"
+        },
+        "lang": {
+            "usage": "[de | en]",
+            "description": "ännert d'sprooch vum bot am aktuellen kanal"
+        },
+        "lastLine": {
+            "usage": "<user> <channel>",
+            "description": "gëtt déi lëscht geloggt zeil vun engem notzer an engem kanal zeréck"
+        },
+        "lastTimeout": {
+            "usage": "<user> <channel>",
+            "description": "gëtt de lëschte geloggten timeout vun engem notzer an engem kanal zeréck"
+        },
+        "leaderboard": {
+            "description": "weist d'leaderboard vum botties mini-spill"
+        },
+        "lines": {
+            "usage": "[today | yesterday | month | year | alltime] <channel>",
+            "description": "schéckt d'zuel vun de noriichten an engem kanal"
+        },
+        "linesUser": {
+            "usage": "<user> [today | yesterday | month | year | alltime] <channel>",
+            "description": "schéckt d'zuel vun de noriichte vun engem notzer an engem kanal"
+        },
+        "liveMsg": {
+            "usage": "<channel>",
+            "description": "mécht live-noriichte fir e streamer un/aus"
+        },
+        "liveMsgs": {
+            "description": "weist all ugemaachte live-noriichten an dësem kanal"
+        },
+        "livePing": {
+            "usage": "<channel>",
+            "description": "pingt dech, wann e streamer live geet"
+        },
+        "logSearch": {
+            "usage": "<query> [@user] [#channel]",
+            "description": "sicht an de logs vun engem notzer an engem kanal"
+        },
+        "logging": {
+            "usage": "(<user>)",
+            "description": "mécht logging fir en notzer un/aus"
+        },
+        "logs": {
+            "usage": "<user> <channel>",
+            "description": "schéckt e link op user-logs an engem kanal"
+        },
+        "loserboard": {
+            "description": "weist d'loserboard vum botties mini-spill"
+        },
+        "maersuggest": {
+            "usage": "<text>",
+            "description": "BabyRage marceeeeel"
+        },
+        "mass": {
+            "usage": "<Text>",
+            "description": "pingt all notzer am kanal"
+        },
+        "math": {
+            "usage": "<math (5*2^2)>",
+            "description": "rechent eppes aus"
+        },
+        "modAge": {
+            "usage": "<user> <channel>",
+            "description": "weist de mod-status vun engem notzer an engem kanal"
+        },
+        "mode": {
+            "description": "weist op d'dashboard vum kanal, wou de bot-modus steet"
+        },
+        "modLookup": {
+            "usage": "<user>",
+            "description": "weist eng lëscht vu kanäl, wou e notzer mod ass"
+        },
+        "mods": {
+            "usage": "<channel>",
+            "description": "weist eng lëscht vun de mods an engem kanal"
+        },
+        "mostSent": {
+            "usage": "<user> <channel>",
+            "description": "gëtt déi am meeschte geschéckt noriicht vun engem notzer an engem kanal zeréck"
+        },
+        "mostSentChannel": {
+            "usage": "[alltime | today | yesterday | month] <channel>",
+            "description": "gëtt déi am meeschte geschéckt noriicht an engem kanal zeréck"
+        },
+        "myBible": {
+            "description": "weist all texter vun dir an der bibel-datenbank"
+        },
+        "myReminder": {
+            "description": "weist deng aktiv reminder"
+        },
+        "nameChanges": {
+            "usage": "<user>",
+            "description": "weist al nimm vun engem notzer"
+        },
+        "noPing": {
+            "description": "schalt ëm, ob däin numm dech pingt, wann anerer commands op dech benotzen"
+        },
+        "noMention": {
+            "description": "léisst dech ofmellen, an enger command-äntwert ernimmt ze ginn"
+        },
+        "notify": {
+            "description": "abonnéier benoriichtegungen fir verschidden evenementer",
+            "usage": "<type> (<channel>)"
+        },
+        "notifications": {
+            "description": "weist, wat fir benoriichtegungen an dësem kanal aktiv sinn"
+        },
+        "pingMe": {
+            "description": "mellt dech perséinlech fir eng benoriichtegung un, oder hëlt dech ewech",
+            "usage": "<type> (<channel>)"
+        },
+        "unnotify": {
+            "description": "mécht eng benoriichtegung fir dëse kanal aus",
+            "usage": "<type> (<channel>)"
+        },
+        "nextBirthday": {
+            "description": "weist déi nächst gebuertsdeeg"
+        },
+        "optOut": {
+            "description": "mellt dech of, vun engem oder all commands getraff ze ginn",
+            "usage": "[all | list | <command>]"
+        },
+        "optIn": {
+            "description": "mellt dech erëm un, vun engem oder all commands getraff ze ginn",
+            "usage": "[all | <command>]"
+        },
+        "paint": {
+            "usage": "<User | Paint>",
+            "description": "weist informatiounen iwwer eng paint oder déi aktuell paint vun engem notzer"
+        },
+        "paste": {
+            "description": "link zur susgee-paste"
+        },
+        "percent": {
+            "description": "gëtt eng zoufälleg prozentzuel zeréck"
+        },
+        "permission": {
+            "usage": "[status | default | vip | mod | ambassador | admin | dev] <user>",
+            "description": "weist d'bot-berechtegung vun engem notzer oder ännert se"
+        },
+        "pick": {
+            "usage": "<option 1> <option 2> . . .",
+            "description": "gëtt e zoufälleg gewielt wuert aus engem text zeréck"
+        },
+        "ping": {
+            "description": "pong! 🏓"
+        },
+        "prefix": {
+            "usage": "<prefix>",
+            "description": "ännert de prefix vum bot (standard ass ?)"
+        },
+        "presence": {
+            "usage": "<user>",
+            "description": "frëscht deng (7TV) paint an badge op"
+        },
+        "prestige": {
+            "description": "erhéicht däi prestige, fir méi botties ze kréien"
+        },
+        "pyramid": {
+            "usage": "<amount (1-25)> <text> or stop, to cancel the pyramid",
+            "description": "mécht eng pyramid am chat"
+        },
+        "randLine": {
+            "usage": "<user> <channel>",
+            "description": "schéckt eng zoufälleg noriicht vun engem notzer"
+        },
+        "randLineChannel": {
+            "usage": "<channel>",
+            "description": "schéckt eng zoufälleg noriicht aus dem kanal"
+        },
+        "randomColor": {
+            "description": "gëtt eng zoufälleg hex-faarf zeréck"
+        },
+        "randomPing": {
+            "description": "pingt en zoufällegen notzer"
+        },
+        "randomPoofAll": {
+            "description": "gëtt all notzer am kanal en timeout mat zoufälleger dauer"
+        },
+        "receivedSubs": {
+            "usage": "[alltime | today | yesterday | month] <user>",
+            "description": "weist wéi vill geloggt subs e notzer kritt huet"
+        },
+        "regex": {
+            "usage": "<text>",
+            "description": "mécht e regex fir chatterino"
+        },
+        "remind": {
+            "usage": "<user> <text> (in 6 days 49 minutes) or (on 14.02.2023 15:38)",
+            "description": "mécht e reminder fir en notzer oder dech selwer. reminder kënnen och op eng zäit gesat ginn",
+            "usages": {
+                "me": "<text> (in 49 minutes 15 seconds) or (on 14.02.2023 15:38)"
+            }
+        },
+        "say": {
+            "usage": "<channel> <text>",
+            "description": "seet eppes an engem uginnene chat"
+        },
+        "scrape": {
+            "usage": "[7tv-cosmetics | 7tv-ids | 7tv-ids-kick | stop]",
+            "description": "scrapt e puer daten"
+        },
+        "seRank": {
+            "usage": "<user> <channel>",
+            "description": "weist deng plaz am StreamElements-ranking"
+        },
+        "seen": {
+            "usage": "<user> <channel>",
+            "description": "weist éischt/lescht gesinn an d'Noriichtenzuel vun engem Notzer an engem Kanal"
+        },
+        "short": {
+            "usage": "<url>",
+            "description": "kierzt e link"
+        },
+        "spam": {
+            "usage": "<amount (1-50)> <message> or stop, to cancel the spam",
+            "description": "spammt eng noriicht am chat"
+        },
+        "split": {
+            "usage": "<text>",
+            "description": "deelt all wuert an eng eegen noriicht op"
+        },
+        "sql": {
+            "usage": "(ch) [console | paste | chat] <SQL>",
+            "description": "féiert eng sql-query aus"
+        },
+        "stalk": {
+            "usage": "<user>",
+            "description": "gëtt déi lëscht gesinn noriicht vun engem notzer zeréck"
+        },
+        "stats": {
+            "usage": "<user>",
+            "description": "weist d'botties-stats vun engem notzer"
+        },
+        "streamInfo": {
+            "usage": "<channel>",
+            "description": "gëtt informatiounen iwwer e stream zeréck"
+        },
+        "subAge": {
+            "usage": "<user> <channel>",
+            "description": "weist de substatus vun engem notzer an engem kanal"
+        },
+        "subGiftPing": {
+            "usage": "(whisper) when subgifts should be announced via whisper",
+            "description": "mécht benoriichtegungen un/aus, wann e subgift fir en notzer erkannt gëtt"
+        },
+        "subGifts": {
+            "usage": "[alltime | today | yesterday | month] <user> <channel>",
+            "description": "weist wéi vill subs e notzer an engem kanal verschenkt huet"
+        },
+        "subInfo": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
+            "description": "kuckt wéi vill subs an engem kanal verschenkt goufen"
+        },
+        "suggest": {
+            "usage": "<text>",
+            "description": "proposéiert e feature oder mellt e bug"
+        },
+        "suggestion": {
+            "usage": "[approve | finish | deletesilent] <id> or list",
+            "description": "geréiert virschléi"
+        },
+        "copySet": {
+            "usage": "<channel / emote-set id>",
+            "description": "kopéiert en emote-set an en neit set an aktivéiert et"
+        },
+        "syncSet": {
+            "usage": "<channel / emote-set id>",
+            "description": "synchroniséiert dat aktuellt emote-set mat engem kanal oder emote-set"
+        },
+        "timeouts": {
+            "usage": "[today | alltime] <user> <channel>",
+            "description": "weist wéi vill timeouts e notzer an engem kanal huet"
+        },
+        "topBadges": {
+            "description": "weist déi top 5 aktiv (7TV) badges"
+        },
+        "topBans": {
+            "usage": "<channel>",
+            "description": "weist déi am meeschte verbannte notzer an engem kanal"
+        },
+        "topChatter": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
+            "description": "weist déi aktivst chatter an engem kanal"
+        },
+        "topCommands": {
+            "description": "weist déi 10 am meeschte benotzte commands"
+        },
+        "topPaints": {
+            "description": "weist déi top 5 aktiv (7TV) paints"
+        },
+        "topSubGifts": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
+            "description": "weist d'notzer mat de meeschte subgifts an engem kanal"
+        },
+        "topTimeouts": {
+            "usage": "[alltime | today | yesterday | month | date (Format: 2024-06-26)] <channel>",
+            "description": "weist déi 10 notzer mat de meeschten timeouts an engem kanal"
+        },
+        "unban": {
+            "usage": "<user>",
+            "description": "entbant en notzer"
+        },
+        "unbanList": {
+            "usage": "<raw user list url, one user per line>",
+            "description": "entbant eng lëscht vun notzer"
+        },
+        "unRemind": {
+            "usage": "<id>",
+            "description": "läscht e reminder"
+        },
+        "updateMsg": {
+            "usage": "<channel>",
+            "description": "mécht titel- a kategorie-updates fir e kanal un/aus"
+        },
+        "updateMsgs": {
+            "description": "weist all ugemaachten titel- a kategorie-updates an dësem kanal"
+        },
+        "user": {
+            "usage": "<User | UserId>",
+            "description": "weist informatiounen iwwer en twitch-notzer"
+        },
+        "vanish": {
+            "description": "du kritt en timeout vun 1 sekund"
+        },
+        "vanity": {
+            "description": "test paint/badge-kombinatiounen"
+        },
+        "vipAge": {
+            "usage": "<user> <channel>",
+            "description": "weist de vip-status vun engem notzer an engem kanal"
+        },
+        "vipLookup": {
+            "usage": "<user>",
+            "description": "weist eng lëscht vu kanäl, wou e notzer vip ass"
+        },
+        "vips": {
+            "usage": "<channel>",
+            "description": "weist eng lëscht vun de vips an engem kanal"
+        },
+        "weather": {
+            "usage": "<location> or user <username>",
+            "description": "weist wiederinformatiounen fir en uginnenen uert"
+        },
+        "whoAddedThisEmote": {
+            "usage": "<emote>",
+            "description": "weist wien en uginnent emote dobäigesat huet"
+        },
+        "xd": {
+            "usage": "[restart | pull | load/reload/unload <command> | module <Module>] chainable with ,|",
+            "description": "start de bot nei, pullt vu git, lued commands/moduler nei"
+        },
+        "y": {
+            "usage": "<EmoteName | 7TV-Link> -c channel1, channel2",
+            "description": "Laze only"
+        },
+        "yoink": {
+            "usage": "<emote> (<new name>)",
+            "description": "klaut en emote a setzt et an däi kanal (optional mat alias)"
+        },
+        "z": {
+            "usage": "[add | remove | rename | replace | yoink | import]",
+            "description": "Laze only",
+            "usages": {
+                "add": "<emote> (<new name>)",
+                "remove": "<emote> <emote>",
+                "rename": "<emote> <new name>",
+                "replace": "<old emote> <new emote> (<new name>)",
+                "yoink": "<channel> <emote> (<new name>)",
+                "import": "<Channel / Emote-Set-Id>"
+            }
+        },
+        "tldr": {
+            "description": "mécht eng zesummefaassung vum aktuellen chat-verlaf."
+        },
+        "block": {
+            "description": "blockéiert en notzer, datt e dech mat bestëmmte commands net méi als zil huelen kann.",
+            "usage": "<User>"
+        },
+        "unblock": {
+            "description": "hieft d'blockéierung vun engem notzer fir bestëmmt commands op.",
+            "usage": "<User>",
+            "notBlocked": "susgeeDank {user|antiPing} ass net blockéiert.",
+            "success": "susgeeOK du hues d'blockéierung vun {user|antiPing} opgehuewen"
+        },
+        "stablediffusion": {
+            "description": "generéiert e bild mat StableDiffusion",
+            "usage": "<Prompt>"
+        },
+        "autopresence": {
+            "description": "aktualiséiert deng 7TV cosmetics automatesch."
+        }
+    },
+    "whisper": {
+        "commandList": "susgeePoint disponibel commands sinn (wgl ouni prefix): wieder, wiederupdate, wiederuert",
+        "weather": {
+            "alreadySet": "du hues schonn e wieder-standuert gesat: {city}. wann s du e wiesselen wëlls, schéck e whisper mat 'wiederupdate <city>'.",
+            "weatherSet": "wieder-standuert erfollegräich gesat. fir e z'änneren, benotz 'wiederupdate <city>'.",
+            "noArgs": "gëff wgl eng stad un. beispill: 'wieder Berlin'.",
+            "weatherUpdated": "wieder-standuert erfollegräich aktualiséiert.",
+            "noWeatherLocationSet": "du hues nach kee wieder-standuert gesat. benotz wgl 'wieder <city>', fir een ze setzen.",
+            "noArgsUpdate": "gëff wgl eng stad un. beispill: 'wiederupdate Berlin'.",
+            "currentLocation": "däin aktuelle wieder-standuert ass: {city}"
+        }
+    },
+    "web": {
+        "forms": {
+            "searching": "sich…",
+            "search": "sichen",
+            "selectOptions": "optiounen wielen",
+            "remove": "{name} ewechhuelen"
+        },
+        "footer": {
+            "rightsReserved": "steet a kenger Verbindung mat Twitch",
+            "privacy": "dateschutz"
+        },
+        "pages": {
+            "home": {
+                "metaTitle": "startsäit",
+                "tagline": "e villfältegen Twitch-bot fir nëtzleches, ënnerhalung a statistiken.",
+                "channelsJoined": "kanäl bäigetrueden",
+                "features": {
+                    "7tv": {
+                        "title": "7TV-integratioun",
+                        "description": "geréier deng kanal-emotes direkt aus dem chat, mat einfache commands.",
+                        "cta": "all 7TV-commands entdecken"
+                    },
+                    "economy": {
+                        "title": "wirtschaft & spiller",
+                        "description": "bréng deng community mat engem komplette wirtschaftssystem an interaktive spiller zesummen.",
+                        "cta": "botties-commands ukucken"
+                    },
+                    "tools": {
+                        "title": "tools & méi",
+                        "description": "entdeck eis tools a méi, fir däin chat-erliefnis ze verbesseren.",
+                        "cta": "nëtzlech commands entdecken"
+                    }
+                },
+                "modes": {
+                    "title": "bot-modi",
+                    "description": "du entscheeds, wien Susgeebot an däinem chat benotze däerf, a wéini.",
+                    "default": {
+                        "name": "standard",
+                        "description": "alles un, fir jiddereen, live oder net."
+                    },
+                    "audience": {
+                        "name": "no roll",
+                        "description": "getrennt fir live an offline: jiddereen, VIPs, mods oder keen."
+                    },
+                    "7tv": {
+                        "name": "nëmmen 7TV",
+                        "description": "nëmmen d'7TV-commands an 7TV-meldungen."
+                    }
+                },
+                "more": {
+                    "text": "dobäi kommen statistiken an echtzäit, aktivitéits-logs vun notzer a moderatiouns-tools fir bans a berechtegungen.",
+                    "stats": "bot-stats ukucken →",
+                    "tools": "eis tools entdecken →"
+                },
+                "cta": {
+                    "title": "prett fir unzefänken?",
+                    "description": "komm bäi bei de kanäl, déi Susgeebot scho benotzen.",
+                    "signIn": "mat Twitch umellen",
+                    "manage": "astellungen geréieren",
+                    "add": "Susgeebot an däi kanal dobäisetzen"
+                }
+            },
+            "stats": {
+                "commandsExecuted": "ausgefouert commands",
+                "messages": "geloggt noriichten",
+                "subGifts": "geloggt subgifts",
+                "modActions": "geloggt mod-aktiounen",
+                "nameChanges": "geloggt nummsännerungen",
+                "chatter": "eenzel chatter",
+                "reminder": "aktiv reminder",
+                "afk": "aktiv AFKs",
+                "botties": "botties-spiller",
+                "title": "Stats",
+                "description": "echtzäit-statistike vun Susgeebot.",
+                "liveConnection": "live-verbindung",
+                "channels": "Kanäl",
+                "commands": "Commands",
+                "uptime": "Uptime",
+                "msgPerMin": "Ø noriichten / min",
+                "totals": "am Ganzen",
+                "topCommands": "Top-commands"
+            },
+            "commands": {
+                "search": "no commands sichen",
+                "title": "Bot-commands",
+                "description": "sich a filter duerch all disponibel bot-commands.",
+                "metaDescription": "bot-commands duerchsichen",
+                "allCategories": "all kategorien",
+                "anyAccess": "all zougang",
+                "searchLabel": "Sich",
+                "selectCategory": "kategorie wielen",
+                "selectAccess": "zougang wielen",
+                "empty": "keng commands fonnt. probéier eng aner sich oder kategorie."
+            },
+            "command": {
+                "backToCommands": "zeréck bei d'commands",
+                "description": "Beschreiwung",
+                "usage": "Benotzung",
+                "metaTitle": "{name} Command",
+                "notFoundTitle": "command konnt net fonnt ginn",
+                "notFoundMessage": "et gëtt kee command mat dësem numm.",
+                "aliases": "Aliase",
+                "permission": "Berechtegung",
+                "cooldown": "Cooldown"
+            },
+            "bans": {
+                "description": "sich bans no kanal an/oder notzer",
+                "time": "Zäit",
+                "noSearchCriteria": "gëff wgl e kanal oder notzer zum sichen un",
+                "noEntries": "keng bans mat dëse sichkrittäre fonnt",
+                "title": "Twitch-bans",
+                "channel": "Kanal",
+                "user": "Notzer",
+                "vod": "VOD",
+                "link": "Link",
+                "logs": "Logs",
+                "itemsLabel": "bans",
+                "findVod": "VOD sichen",
+                "searchingVod": "sich…",
+                "noVod": "kee VOD",
+                "vodError": "Feeler"
+            },
+            "tools": {
+                "metaTitle": "Tools",
+                "metaDescription": "Twitch-IDs ëmwandelen, follows noliesen, moderatoren geréieren a méi mat de Susgee Tools.",
+                "title": "Susgee Tools",
+                "description": "eng sammlung nëtzlech tools fir Twitch-notzer a streamer.",
+                "groups": {
+                    "tools": "Tools",
+                    "services": "Servicer"
+                },
+                "status": {
+                    "checking": "préift",
+                    "online": "Online",
+                    "offline": "Offline"
+                },
+                "items": {
+                    "bans": {
+                        "title": "Ban-check",
+                        "description": "sich bans no kanal an/oder notzer."
+                    },
+                    "user": {
+                        "title": "Twitch-notzer noliesen",
+                        "description": "grondleeënd Twitch-infoe nom username oder user-ID ofruffen."
+                    },
+                    "vodTime": {
+                        "title": "VOD-zäitfinder",
+                        "description": "sprang op de geneeë moment an enger stream-ophuelung, iwwer zäit oder clip."
+                    },
+                    "emotes": {
+                        "title": "Susgee Emotes",
+                        "description": "Twitch-emotes aus all kanal duerchstéberen an ukucken."
+                    },
+                    "history": {
+                        "title": "Susgee History",
+                        "description": "déi lëscht noriichten aus all Twitch-kanal liesbar opbereet."
+                    },
+                    "logs": {
+                        "title": "Susgee Logs",
+                        "description": "Twitch-chatlogen vu kanäl an notzer ukucken an duerchsichen."
+                    },
+                    "paste": {
+                        "title": "Susgee Paste",
+                        "description": "code-stécker an text mat eisem paste-service deelen."
+                    },
+                    "uploader": {
+                        "title": "Susgee Uploader",
+                        "description": "biller a videoen mat eisem hosting-service eroplueden an deelen."
+                    }
+                }
+            },
+            "user": {
+                "metaTitle": "Notzer-tool",
+                "metaDescription": "en Twitch-notzer no ID oder username noliesen.",
+                "title": "en Twitch-notzer noliesen",
+                "description": "sich nom username oder user-ID",
+                "userId": "User-ID",
+                "username": "Username",
+                "go": "Lass",
+                "searchById": "no user-ID sichen",
+                "searchByName": "nom username sichen",
+                "notFound": "notzer konnt net fonnt ginn",
+                "apiError": "notzer konnt net fonnt ginn oder API-feeler",
+                "banned": "Verbannt:",
+                "followers": "Follower",
+                "following": "Follegt",
+                "partner": "Partner",
+                "affiliate": "Affiliate",
+                "lastStream": "Lëschte stream:"
+            },
+            "vodTime": {
+                "metaTitle": "VOD-zäit",
+                "title": "VOD-zäitfinder",
+                "description": "sprang op de geneeë moment an enger stream-ophuelung, iwwer zäit oder clip.",
+                "channel": "Kanal",
+                "channelPlaceholder": "wien säi VOD wëlls du duerchsichen?",
+                "howLongAgo": "wéi laang hier?",
+                "howLongAgoHint": "eng bestëmmt zäit zerécksprangen…",
+                "daysAgo": "deeg hier",
+                "hoursAgo": "stonnen hier",
+                "minutesAgo": "minutten hier",
+                "days": "deeg",
+                "hours": "stonnen",
+                "minutes": "minutten",
+                "specificTime": "bestëmmten datum & auerzäit",
+                "specificTimeHint": "…oder e bestëmmte moment wielen (béid felder bleiwen synchron)",
+                "exactTime": "genee zäit",
+                "clip": "e clip als referenz benotzen",
+                "clipPlaceholder": "clip-link asetzen, mir fannen de moment am VOD vum gewielte kanal",
+                "searching": "sich…",
+                "jump": "op de moment sprangen",
+                "errors": {
+                    "noChannel": "gëff wgl e kanal un",
+                    "noTime": "gëff wgl eng zäit oder e clip-link un",
+                    "invalidTime": "ongëlteg zäit",
+                    "noVod": "kee VOD fir déi zäit fonnt. et ass vläicht ofgelaf oder geläscht."
+                },
+                "timestamp": "zäitstempel:",
+                "basedOnClip": "op Basis vun engem clip vun",
+                "approximate": "(de VOD vum clip ass ewech, stattdeem zielt d'erstallungszäit vum clip, manner genee)",
+                "openVod": "VOD um zäitstempel opmaachen",
+                "player": "Twitch-VOD-player"
+            },
+            "seventv": {
+                "metaTitle": "7TV editor-rechter",
+                "title": "7TV editeuren",
+                "editorOf": "editor vun <count>{count}</count> kanäl:"
+            },
+            "bible": {
+                "metaTitle": "Bibel",
+                "title": "Susgeebot-bibel",
+                "description": "sich a stöber duerch d'enträg vun der Susgeebot-bibel.",
+                "searchLabel": "bibel duerchsichen",
+                "searchPlaceholder": "bibel duerchsichen...",
+                "confirmDelete": "wëlls du dëse bibel-atrag wierklech läschen?",
+                "empty": "keng bibel-enträg fir deng sich fonnt.",
+                "itemsLabel": "enträg"
+            },
+            "publicCommands": {
+                "title": "commands vun {name}",
+                "joinedDescription": "custom commands, op déi Susgeebot am kanal vun {name} äntwert.",
+                "notJoinedDescription": "Susgeebot ass net am kanal vun {name}.",
+                "notJoined": "et gëtt keng commands ze weisen, well de bot dësem kanal nach net bäigetrueden ass.",
+                "addFromDashboard": "wann dat däi kanal ass, mell dech un a setz Susgeebot iwwer d'<link>dashboard</link> dobäi.",
+                "noPublic": "dëse kanal huet keng ëffentlech custom commands.",
+                "cooldown": "cooldown"
+            },
+            "paint": {
+                "metaTitle": "7TV Paint \"{name}\"",
+                "metaNotFound": "paint konnt net fonnt ginn",
+                "noPaintTitle": "keng paint uginn",
+                "noPaintMessage": "gëff wgl eng paint-ID, e paint-numm oder en Twitch-username an der URL un",
+                "notFoundTitle": "paint konnt net fonnt ginn",
+                "notFoundMessage": "déi gefrote paint existéiert net",
+                "previewPlaceholder": "text fir d'virschau aginn...",
+                "paintName": "paint-numm:"
+            }
+        },
+        "common": {
+            "cancel": "Ofbriechen",
+            "add": "Dobäisetzen",
+            "save": "Späicheren",
+            "loading": "lued…",
+            "saved": "gespäichert",
+            "saving": "späichert…",
+            "couldNotSave": "konnt net späicheren",
+            "goHome": "op d'startsäit",
+            "tryAgain": "nach eng Kéier probéieren",
+            "items": "enträg",
+            "or": "oder",
+            "actions": "Aktiounen",
+            "enabled": "Aktiv",
+            "public": "Ëffentlech",
+            "chars": "{used} / {limit}",
+            "id": "ID:",
+            "new": "nei"
+        },
+        "nav": {
+            "commands": "Commands",
+            "stats": "Stats",
+            "tools": "Tools",
+            "discord": "Discord",
+            "dashboard": "Dashboard",
+            "settings": "Astellungen",
+            "logout": "Ofmellen",
+            "signIn": "Umellen",
+            "userMenu": "Notzermenü",
+            "navigation": "Navigatioun",
+            "openMenu": "navigatiounsmenü opmaachen",
+            "home": "Susgee startsäit",
+            "language": "Sprooch",
+            "admin": "Admin"
+        },
+        "errors": {
+            "badRequest": {
+                "title": "Ongëlteg ufro",
+                "message": "mat denger ufro stimmt eppes net."
+            },
+            "forbidden": {
+                "title": "Kee zougang",
+                "message": "du hues keng berechtegung fir dës ressource."
+            },
+            "notFound": {
+                "title": "Net fonnt",
+                "message": "d'säit, déi s du sichs, gëtt et net. nach net, oder net méi."
+            },
+            "serverError": {
+                "title": "Serverfeeler",
+                "message": "bei eis ass eppes schif gaangen."
+            },
+            "somethingWentWrong": "eppes ass schif gaangen!",
+            "image": "Feeler"
+        },
+        "pagination": {
+            "first": "Éischt",
+            "previous": "Zeréck",
+            "next": "Weider",
+            "last": "Lëscht",
+            "showing": "<visible>{visible}</visible> vun <total>{total}</total> {label}"
+        },
+        "permissions": {
+            "bot": "Bot",
+            "ignored": "Ignoréiert",
+            "default": "Standard",
+            "vip": "VIP",
+            "mod": "Mod",
+            "ambassador": "Ambassador",
+            "broadcaster": "Broadcaster",
+            "admin": "Admin",
+            "dev": "Dev",
+            "owner": "Owner"
+        },
+        "categories": {
+            "fun": "Spaass",
+            "botties": "Botties",
+            "twitch": "Twitch",
+            "chatting": "Chat",
+            "utils": "Nëtzleches",
+            "apps": "Apps",
+            "bot": "Bot",
+            "7tv": "7TV"
+        },
+        "live": {
+            "connected": "WebSocket verbonnen",
+            "disconnected": "WebSocket getrennt"
+        },
+        "chat": {
+            "moderator": "Moderator",
+            "bot": "Chat-bot"
+        },
+        "time": {
+            "days": "{count|plural(one|dag,other|deeg)}"
+        },
+        "notificationTypes": {
+            "live": "Live & offline",
+            "title": "Titel- & kategoriewiessel",
+            "bans": "Bans & Timeouts",
+            "emotes": "7TV emote-ännerungen",
+            "subgift": "Subgifts",
+            "affiliate": "Affiliate-status",
+            "7tv": "7TV-Cosmetics & global Emotes",
+            "twitchglobals": "Twitch global Emotes & Badges",
+            "blog": "Twitch-blog",
+            "changelog": "Twitch-changelog"
+        },
+        "actions": {
+            "fetchBans": "beim luede vun de bans ass e feeler opgetrueden.",
+            "fetchBible": "beim luede vun der bibel ass e feeler opgetrueden.",
+            "deleteBible": "beim läsche vum bibel-atrag ass e feeler opgetrueden.",
+            "partChannel": "de bot konnt de kanal net verloossen.",
+            "joinChannel": "de bot konnt dem kanal net bäitrieden.",
+            "save": "späicheren feelgeschloen.",
+            "noSuchUser": "et gëtt keen Twitch-notzer namens \"{login}\".",
+            "lookupUser": "de notzer konnt net nogelies ginn.",
+            "invalidTimestamp": "ongëltegen zäitstempel.",
+            "lookupVod": "beim sichen nom VOD ass e feeler opgetrueden.",
+            "saveLocation": "de standuert konnt net gespäichert ginn.",
+            "updateAutoPresence": "d'auto-presence konnt net geännert ginn.",
+            "removePing": "de ping konnt net ewechgeholl ginn.",
+            "deleteReminder": "de reminder konnt net geläscht ginn.",
+            "createCommand": "de command konnt net erstallt ginn.",
+            "updateCommand": "de command konnt net geännert ginn.",
+            "deleteCommand": "de command konnt net geläscht ginn.",
+            "invalidClip": "ongëlteg clip-URL.",
+            "clipNotFound": "clip konnt net fonnt ginn.",
+            "subscribe": "d'benoriichtegung konnt net ugemaach ginn.",
+            "unsubscribe": "d'benoriichtegung konnt net ausgemaach ginn.",
+            "addPing": "de ping konnt net dobäigesat ginn.",
+            "saveAlert": "den alert konnt net gespäichert ginn.",
+            "removeAlert": "den alert konnt net ausgemaach ginn.",
+            "loadAudit": "de verlaf konnt net geluede ginn."
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "preview": "esou kënnt et am chat un",
+            "metaCommands": "commands vun {name}",
+            "metaNotifications": "benoriichtegungen vun {name}",
+            "noAccessTitle": "Kee zougang",
+            "noAccessDescription": "du kanns #{login} net geréieren.",
+            "noAccessHint": "du muss de kanalbesëtzer oder en ambassador vun deem kanal sinn, a Susgeebot muss him bäigetrueden sinn.",
+            "tabs": {
+                "settings": "Astellungen",
+                "commands": "Commands",
+                "alerts": "Events",
+                "notifications": "Benoriichtegungen",
+                "joinFirst": "disponibel, soubal Susgeebot dësem kanal bäigetrueden ass",
+                "audit": "Verlaf"
+            },
+            "selector": {
+                "label": "Kanal",
+                "you": "(Du)",
+                "adminAccess": "admin-zougang",
+                "suspended": "gespaart"
+            },
+            "join": {
+                "title": "Susgeebot verbannen",
+                "description": "verbann de bot mat däinem kanal, fir d'kanal-astellungen ze setzen.",
+                "button": "kanal bäitrieden",
+                "joining": "trëtt bäi…",
+                "modRequired": "Susgeebot brauch moderator-rechter. benotz <code>/mod Susgeebot</code> an <link>däinem kanal</link>, da probéier nach eng Kéier.",
+                "loggingOnly": "Susgeebot loggt dëse kanal grade nëmmen. verbann e, fir datt commands a benoriichtegunge lafen.",
+                "adminHint": "den owner muss Susgeebot zum mod maachen. als admin kanns du de kanal nëmme loggen.",
+                "admin": {
+                    "title": "Admin",
+                    "description": "gëllt och fir kanäl, wou de bot nëmme matliest.",
+                    "loggingHint": "wéi ?channel join an ?channel part.",
+                    "unknown": "Susgeebot kennt dëse kanal nach net.",
+                    "lurk": "als logging bäitrieden"
+                }
+            },
+            "general": {
+                "title": "Allgemeng",
+                "prefix": "Command-prefix",
+                "prefixPlaceholder": "z. B. !",
+                "prefixError": "max 15 zeechen, däerf net mat . oder / ufänken",
+                "language": "Kanal-sprooch",
+                "disabled": "Bot ausgemaach",
+                "disabledHint": "näischt äntwert, näischt gëtt gepost. déi aner astellunge bleiwen wéi se sinn.",
+                "stvOnly": "Nëmmen 7TV",
+                "stvOnlyHint": "nëmmen d'7TV-commands an 7TV-meldungen, alles anert bleift stëll.",
+                "commandsWhenLive": "Commands wann s du live bass",
+                "commandsWhenOffline": "Commands wann s du offline bass",
+                "audiences": {
+                    "everyone": "jiddereen",
+                    "vips": "VIPs an driwwer",
+                    "mods": "mods an driwwer",
+                    "nobody": "keen"
+                },
+                "summary": {
+                    "off": "Susgeebot ignoréiert dëse kanal komplett.",
+                    "stvOnly": "nëmmen 7TV-commands an 7TV-meldungen, fir jiddereen, live oder net.",
+                    "active": "Live: {live}. Offline: {offline}."
+                }
+            },
+            "privacy": {
+                "title": "Privatsphär",
+                "logging": "noriichten an mengem kanal loggen",
+                "hideFromLookups": "mäi kanal bei ofroen verstoppen",
+                "hideFromLookupsHint": "de kanal taucht net méi an ?ac-lëschten oder an der ban-sich op. commands am kanal selwer lafe weider."
+            },
+            "autoMessages": {
+                "title": "Automatesch noriichten",
+                "birthdayGreetings": "Gebuertsdagsnoriichten",
+                "bottiesReminder": "Botties-reminder"
+            },
+            "alerts": {
+                "title": "Events",
+                "description": "Susgeebot mellt subs, geschenker, bits-badges a raids an däinem chat. eidel noriicht heescht standardtext.",
+                "affiliateOnly": "events gëtt et fir affiliate- a partner-kanäl.",
+                "minValue": {
+                    "raid": "ab esou ville zuschauer",
+                    "bits": "ab esou ville bits"
+                },
+                "types": {
+                    "sub": "Nei subs",
+                    "resub": "Resubs",
+                    "gift": "Verschenkt subs",
+                    "raid": "Raids",
+                    "bits": "Bits"
+                },
+                "hints": {
+                    "sub": "een abonnéiert fir d'éischt Kéier",
+                    "resub": "een erneiert säi sub",
+                    "gift": "een verschenkt een oder méi subs",
+                    "raid": "en anere kanal raidet däinen",
+                    "bits": "een cheert bits"
+                },
+                "message": "noriicht fir {type}",
+                "variables": "Variabelen",
+                "edit": "Änneren",
+                "close": "Zoumaachen",
+                "defaultText": "Standardtext",
+                "useDefault": "standardtext benotzen",
+                "from": {
+                    "raid": "ab {value} zuschauer",
+                    "bits": "ab {value} bits"
+                }
+            },
+            "ambassadors": {
+                "title": "Ambassadeuren",
+                "description": "erlaab vertrauenswierdegen notzer, deng kanal-astellungen ze geréieren.",
+                "readOnly": "nëmmen de kanalbesëtzer kann dës lëscht änneren. dech selwer kanns du ewechhuelen.",
+                "leave": "mech als ambassador ewechhuelen",
+                "add": "ambassador dobäisetzen",
+                "empty": "nach keng ambassadeuren",
+                "remove": "{name} ewechhuelen",
+                "username": "Twitch-username",
+                "usernamePlaceholder": "z. B. xqc",
+                "notFound": "notzer konnt net fonnt ginn",
+                "alreadyAmbassador": "notzer ass schonn ambassador"
+            },
+            "danger": {
+                "title": "Susgeebot aus dësem kanal ewechhuelen",
+                "description": "de bot verléisst däi chat, an d'logs, déi e fir dëse kanal gehalen huet, ginn geläscht.",
+                "button": "kanal verloossen",
+                "parting": "verléisst kanal…",
+                "confirmTitle": "kanal verloossen",
+                "confirmMessage": "wëlls du de bot wierklech aus däinem kanal ewechhuelen?\nbestoend logs ginn geläscht."
+            },
+            "commands": {
+                "title": "Eege Commands",
+                "publicPage": "Ëffentlech säit",
+                "add": "command dobäisetzen",
+                "empty": "nach keng custom commands",
+                "command": "Command",
+                "enable": "{name} aktivéieren",
+                "makePublic": "{name} ëffentlech maachen",
+                "edit": "{name} änneren",
+                "delete": "{name} läschen",
+                "footnote": "ëffentlech commands stinn op denger <link>ëffentlecher command-säit</link>. ausgemaache commands bleiwen gespäichert, äntweren awer net.",
+                "editTitle": "{name} änneren",
+                "name": "Command-numm",
+                "namePlaceholder": "z. B. !discord",
+                "response": "Äntwert",
+                "responsePlaceholder": "wat de bot äntwere soll",
+                "cooldown": "Cooldown (sekonnen)",
+                "required": "numm an äntwert sinn Pflicht",
+                "aliases": "Aliase",
+                "aliasesPlaceholder": "alias tippen, Enter zum dobäisetzen",
+                "permission": "wien däerf e benotzen",
+                "permissions": {
+                    "0": "Jiddereen",
+                    "1": "VIP",
+                    "2": "Moderator",
+                    "4": "Broadcaster"
+                },
+                "sections": {
+                    "general": "Allgemeng",
+                    "aliases": "Aliase",
+                    "conditions": "Konditiounen"
+                },
+                "responseType": {
+                    "label": "Äntwerttyp",
+                    "hint": "wéi de bot d'äntwert schéckt",
+                    "say": "Normal noriicht",
+                    "sayHint": "post d'äntwert als normal chat-noriicht",
+                    "reply": "Als äntwert",
+                    "replyHint": "äntwert am thread ënner der noriicht, déi e ausgeléist huet",
+                    "action": "Als /me",
+                    "actionHint": "post d'äntwert als /me-action"
+                },
+                "liveState": {
+                    "label": "äntweren, wann de stream",
+                    "always": "Online an offline",
+                    "online": "Nëmmen online",
+                    "offline": "Nëmmen offline"
+                },
+                "search": "commands duerchsichen…",
+                "noResults": "kee command passt op \"{query}\"",
+                "emptyDescription": "custom commands sinn automatesch äntwerten, déi däi chat mat eppes wéi !discord ausléist. variabelen wéi $(sender) oder $(customapi …) maachen se dynamesch.",
+                "hints": {
+                    "name": "den trigger, mat oder ouni ! (z. B. !discord)",
+                    "response": "wat de bot äntwert. versteet <link>variabelen</link>.",
+                    "cooldown": "sekonnen, bis de command erëm geet. 0 heescht kee cooldown",
+                    "permission": "mindeststuf, fir e auszeléisen",
+                    "aliases": "weider trigger fir dee selwechte command, héchstens {limit}",
+                    "count": "aktuell wäert vun $(count). setz en op eng zuel, fir e zeréckzesetzen",
+                    "enabled": "en ausgemaache command bleift gespäichert, äntwert awer net",
+                    "public": "ëffentlech commands stinn op denger ëffentlecher command-säit"
+                },
+                "count": "Zieler",
+                "linked": "leeft {name} vun {channel}",
+                "linkedBroken": "de command, op deen dat weist, gouf geläscht",
+                "linkedHint": "d'äntwert gehéiert dem quell-kanal a kann nëmmen do geännert ginn.",
+                "docs": {
+                    "title": "Variabelen",
+                    "description": "platzhalter, déi s du an eng äntwert asetze kanns",
+                    "channel": "de kanalnumm, wou de command benotzt gouf",
+                    "channelId": "d'kanal-ID, wou de command benotzt gouf",
+                    "sender": "de notzer, deen de command ausgeléist huet",
+                    "senderId": "d'ID vum ofsender, falls disponibel",
+                    "user": "zil-notzer (argument 1 falls uginn, soss den ofsender)",
+                    "argument": "dat argument op där positoun",
+                    "rest": "dat argument an all folgend",
+                    "fallback": "argument oder Ersatzwäert, falls net uginn (den Ersatz ass e feste text oder eent vun de Schlësselwierder 'sender' oder 'channel')",
+                    "streamTitle": "kanaltitel (fällt zeréck op '(no title)' wann eidel)",
+                    "game": "aktuellt spill oder kategorie (fällt zeréck op '(no game)' wann eidel)",
+                    "followers": "follower-zuel",
+                    "randomNumber": "zoufälleg ganz zuel. standard 1 bis 100",
+                    "randomPick": "zoufällegen atrag aus enger komma-getrennt lëscht",
+                    "time": "aktuell auerzäit an enger IANA-zäitzon (standard UTC)",
+                    "date": "aktuellen datum an enger IANA-zäitzon (standard UTC)",
+                    "count": "zielt bei all benotzung ëm eens erop",
+                    "customApi": "daten vun enger externer URL huelen (nëmmen erlaabte hosts). d'URL däerf all variabel enthalen, och argumenter wéi $(1) - all wäert gëtt URL-kodéiert",
+                    "allowlist": "custom API allowlist (ufroen dobaussen ginn blockéiert). kontaktéier eis, wann s du eng ergänzung brauchs"
+                }
+            },
+            "builtin": {
+                "title": "Built-in Commands",
+                "description": "Susgeebot seng eegen commands. e command deen aus ass, äntwert an dësem kanal net.",
+                "count": "{enabled} vun {total} un",
+                "search": "commands sichen…",
+                "noResults": "kee command passt op \"{query}\"",
+                "toggle": "{name} un- oder ausmaachen",
+                "unavailable": "d'lëscht vun de built-in commands konnt net geluede ginn.",
+                "presets": {
+                    "title": "séier astellen",
+                    "description": "schalt eng ganz grupp op eemol. eenzel commands bleiwen drënner ännerbar.",
+                    "partial": "{disabled} vun {total} aus: {commands}"
+                },
+                "groups": {
+                    "spam": "Spam",
+                    "rude": "Derb",
+                    "botties": "Botties"
+                }
+            },
+            "notifications": {
+                "announcements": "Kanal-ukënnegungen",
+                "streamers": "Streamer-benoriichtegungen",
+                "removePing": "ping fir {name} ewechhuelen",
+                "verboseLiveMsg": "titel a kategorie an live-noriichten weisen",
+                "addStreamer": "streamer dobäisetzen…",
+                "pingMe": "mech pingen",
+                "alreadySubscribed": "{type} fir {login} ass schonn abonnéiert",
+                "removeSubscription": "{type} fir {name} ewechhuelen",
+                "addFor": "streamer fir {type} dobäisetzen",
+                "search": "streamer sichen…",
+                "showMore": "méi weisen ({shown} vun {total})",
+                "whenLive": "benoriichtegunge schécken, während ech live sinn",
+                "whenLiveHint": "aus: soulaang däi stream leeft, gëtt näischt gepost. deng eegen live-noriicht geet trotzdem eraus.",
+                "liveMessage": "Live-noriicht",
+                "liveMessageDescription": "gëtt gepost, wann e streamer aus „Live & offline“ live geet.",
+                "liveMessageHint": "Variabelen:",
+                "includeLink": "e link zum kanal matschécken"
+            },
+            "metaChannel": "dashboard vun {name}",
+            "metaAlerts": "events fir {name}",
+            "birthdays": {
+                "title": "Gebuertsdeeg",
+                "description": "op dësen deeg congratuléiert Susgeebot an däinem chat, soulaang gebuertsdagsnoriichten un sinn. datselwecht wéi ?birthday am chat.",
+                "empty": "nach keng gebuertsdeeg gespäichert.",
+                "add": "Dobäisetzen",
+                "login": "Username",
+                "day": "Dag",
+                "month": "Mount",
+                "remove": "gebuertsdag vun {name} ewechhuelen",
+                "date": "{day}.{month}."
+            },
+            "metaAudit": "verlaf vun {name}",
+            "audit": {
+                "title": "Verlaf",
+                "description": "wien huet wat a wéini geännert, am dashboard oder am chat.",
+                "filters": {
+                    "all": "All",
+                    "commands": "Commands",
+                    "alerts": "Events",
+                    "notifications": "Benoriichtegungen",
+                    "settings": "Astellungen"
+                },
+                "persons": "Jiddereen",
+                "bot": "Susgeebot",
+                "viaChat": "am chat",
+                "empty": "nach keng enträg.",
+                "noMatch": "keen atrag passt op dëse filter.",
+                "loadMore": "méi al lueden",
+                "change": "{field}: vun {before} op {after}",
+                "fields": {
+                    "botMode": "Bot-modus",
+                    "message": "Noriicht",
+                    "minValue": "Schwelle",
+                    "enabled": "Aktiv",
+                    "public": "Ëffentlech",
+                    "permission": "Berechtegung",
+                    "reply": "Als äntwert",
+                    "action": "Als /me",
+                    "liveState": "Äntwert"
+                },
+                "values": {
+                    "on": "un",
+                    "off": "aus",
+                    "empty": "eidel",
+                    "defaultText": "standardtext",
+                    "quoted": "„{value}“",
+                    "botMode": {
+                        "0": "Bot ausgemaach",
+                        "1": "Standard",
+                        "3": "Nëmmen 7TV"
+                    }
+                },
+                "actions": {
+                    "command": {
+                        "create": "command {name} erstallt: {response}",
+                        "delete": "command {name} geläscht",
+                        "update": "command {name} geännert: {changes}",
+                        "saved": "command {name} gespäichert",
+                        "rename": "command {before} ëmbenannt an {after}",
+                        "aliases": "aliase vun {name}: {aliases}",
+                        "aliasesCleared": "all aliase vun {name} ewechgeholl",
+                        "link": "command {name} mat {command} vun {channel} verlinkt",
+                        "copy": "command {name} vun {channel} kopéiert"
+                    },
+                    "builtin": {
+                        "enable": "{name} ugemaach",
+                        "disable": "{name} ausgemaach",
+                        "groupOn": "grupp {group} ugemaach: {commands}",
+                        "groupOff": "grupp {group} ausgemaach: {commands}"
+                    },
+                    "ambassadors": {
+                        "added": "ambassador dobäigesat: {names}",
+                        "removed": "ambassador ewechgeholl: {names}"
+                    },
+                    "alert": {
+                        "enabled": "event {type} ugemaach",
+                        "set": "event {type} geännert: {changes}",
+                        "remove": "event {type} ausgemaach"
+                    },
+                    "notification": {
+                        "subscribe": "{type} ugemaach",
+                        "subscribeTarget": "{type} fir {login} ugemaach",
+                        "unsubscribe": "{type} ausgemaach",
+                        "unsubscribeTarget": "{type} fir {login} ausgemaach"
+                    },
+                    "ping": {
+                        "add": "ping fir {login} bei {type} dobäigesat",
+                        "addTarget": "ping fir {login} bei {type} vun {target} dobäigesat",
+                        "remove": "ping fir {login} bei {type} ewechgeholl",
+                        "removeTarget": "ping fir {login} bei {type} vun {target} ewechgeholl"
+                    },
+                    "birthday": {
+                        "add": "gebuertsdag vun {user} agedroen: {date}",
+                        "remove": "gebuertsdag vun {user} ewechgeholl"
+                    },
+                    "channel": {
+                        "join": "Susgeebot ass dem kanal bäigetrueden",
+                        "joinLogging": "Susgeebot loggt de kanal elo",
+                        "part": "Susgeebot huet de kanal verlooss",
+                        "rejoin": "Susgeebot ass dem kanal erëm bäigetrueden",
+                        "downgrade": "Susgeebot op logging zeréckgestuft: {reason}"
+                    }
+                }
+            }
+        },
+        "settings": {
+            "metaTitle": "Astellungen",
+            "title": "Astellungen",
+            "general": {
+                "title": "Allgemeng",
+                "mention": "mech an äntwerten ernimmen",
+                "mentionHint": "Susgeebot äntwert op deng commands als äntwert, datt Twitch se fir dech ervirhieft.",
+                "pingable": "mech pingen, wann anerer commands op mech benotzen",
+                "pingableHint": "standardméisseg aus. Susgeebot schreift däin numm esou, datt Twitch e net ervirhieft, wann een e command op dech leeft.",
+                "autoPresence": "meng 7TV-presence automatesch opfrëschen",
+                "autoPresenceHint": "hält deng 7TV paint an badge an all kanal siichtbar, wou s du chatts."
+            },
+            "privacy": {
+                "title": "Privatsphär",
+                "logging": "meng chat-noriichte späicheren",
+                "loggingHint": "néideg fir commands, déi deng noriichten noliesen, wéi lastline. maachs du et aus, späichert Susgeebot se net méi.",
+                "location": "Wieder-standuert",
+                "locationPlaceholder": "z. B. Berlin",
+                "locationHint": "gëtt benotzt, wann s du wieder-commands ouni stad leeft. nëmmen du gesäis e hei, am chat weist de bot e ni.",
+                "optOut": "vun commands ofmellen",
+                "optOutPlaceholder": "commands wielen…",
+                "optOutHint": "keen kann dës commands op dech benotzen."
+            },
+            "pings": {
+                "title": "Benoriichtegungen",
+                "description": "iwwerall wou Susgeebot dech mam numm pingt, iwwer all kanäl.",
+                "for": "fir {name}",
+                "in": "an #{channel}",
+                "remove": "mech fir {type} zu {channel} net méi pingen",
+                "empty": "du gëss nach nirgends gepingt. benotz ?pingme an engem kanal, oder d'këscht „mech pingen“ am dashboard vun deem kanal."
+            },
+            "reminders": {
+                "title": "Reminder",
+                "description": "reminder déi s du gesat hues, déi nach net ausgeléist goufen.",
+                "someone": "een",
+                "onNextMessage": "{name}, bei hirer nächster noriicht",
+                "at": "{name}, {date}",
+                "atInChannel": "{name} an #{channel}, {date}",
+                "delete": "reminder {id} läschen",
+                "empty": "keng oppe reminder."
+            },
+            "blocks": {
+                "title": "Blockéiert notzer",
+                "description": "dës notzer kënnen dech net mat commands wéi ?remind oder ?hug treffen. datselwecht wéi ?block am chat.",
+                "empty": "du hues keen blockéiert.",
+                "add": "Blockéieren",
+                "placeholder": "Username…",
+                "remove": "{name} entblockéieren"
+            }
+        },
+        "guide": {
+            "metaTitle": "Benoriichtegungen",
+            "title": "Benoriichtegungen",
+            "description": "wéi s du Bescheed kritt, wann op Twitch oder 7TV eppes passéiert.",
+            "howItWorks": {
+                "title": "esou funktionéiert et",
+                "lead": "mir kënnen an däi chat schreiwen, wann e streamer live geet, wann een seng 7TV-emotes ännert, oder wann Twitch eppes neies publizéiert.",
+                "body": "<data>?notify</data> an <data>?unnotify</data> riichten eng benoriichtegung fir de ganzen kanal an, <data>?pingme</data> nëmme fir dech, an <data>?notifications</data> weist wat grade agestallt ass."
+            },
+            "list": {
+                "title": "?notifications",
+                "lead": "weist wat dëse kanal abonnéiert huet a wien dofir gepingt gëtt.",
+                "body": "jiddereen kann e benotzen. mir äntweren mat engem paste-link, well e volle kanal vill méi aboe huet, wéi an eng chat-noriicht passen."
+            },
+            "notify": {
+                "title": "?notify an ?unnotify",
+                "lead": "mécht eng benoriichtegung fir de ganzen kanal un oder aus. nëmme fir mods.",
+                "body": "typen ouni zil funktionéieren d'selwecht, du léiss just dat zweet wuert ewech. <data>?notify 7tv</data> abonnéiert dengem kanal déi global ännerunge vun 7TV."
+            },
+            "pingme": {
+                "title": "?pingme",
+                "lead": "mellt dech perséinlech un, datt mir dech mam numm pingen. jiddereen kann e benotzen.",
+                "body": "leef e nach eng Kéier, fir dech erëm ofzemellen. bei <data>live</data> brauch de kanal éischt d'abo, dat e mod mat <data>?notify live forsen</data> setzt. dat kanal-abo leeën mir iwwer <data>?pingme</data> ni un, soss kéint all zuschauer duerch d'hannerdir eng mod-astellung unmaachen."
+            },
+            "types": {
+                "title": "Typen",
+                "lead": "zéng typen. e puer kucken op ee bestëmmte kanal, de rest ass global.",
+                "headers": {
+                    "type": "Typ",
+                    "fires": "léist aus, wann",
+                    "target": "Zil",
+                    "pingme": "?pingme"
+                },
+                "targets": {
+                    "streamer": "streamer",
+                    "channel": "kanal",
+                    "none": "—"
+                },
+                "personal": {
+                    "yes": "jo",
+                    "only": "nëmmen"
+                },
+                "rows": {
+                    "live": "e streamer geet live, an erëm offline.",
+                    "title": "e streamer ännert säin titel oder seng kategorie.",
+                    "bans": "een gëtt an deem kanal, deen s du kucks, dauerhaft verbannt.",
+                    "emotes": "e streamer setzt emotes an säin 7TV-set dobäi, hëlt se ewech oder benennt se ëm.",
+                    "subgift": "du kritt e subgift, iergendwou op Twitch.",
+                    "affiliate": "e kanal gëtt Twitch-affiliate.",
+                    "7tv": "7TV ännert seng global emotes, paints oder badges.",
+                    "twitchglobals": "Twitch ännert seng global emotes oder badges.",
+                    "blog": "Twitch publizéiert en neie blog-artikel.",
+                    "changelog": "den Twitch-entwéckler-changelog gëtt aktualiséiert."
+                },
+                "note": "<data>nëmmen</data> an der ?pingme-spalt heescht: et gëtt keng kanal-wäit variant vun deem typ, e existéiert nëmme als perséinlech umeldung."
+            },
+            "permissions": {
+                "title": "wien däerf wat",
+                "lead": "et hänkt dovun of, ob s du eppes fir de kanal oder just fir dech ännert.",
+                "channel": "eppes fir de ganzen kanal z'änneren, brauch <strong>moderator</strong>.",
+                "own": "däin eegene ping z'änneren, däerf <strong>jiddereen</strong>.",
+                "read": "liesen däerf <strong>jiddereen</strong>."
+            },
+            "replaced": {
+                "title": "ersate commands",
+                "lead": "dës commands maachen näischt méi. si soen der just, wat s du stattdeem benotze solls.",
+                "headers": {
+                    "old": "Al",
+                    "now": "stattdeem"
+                },
+                "note": "alles wat s du domat ageriicht hues, ass eriwwergezunn a nach do. déi eenzeg ausnam sinn subgift-whisper, déi hu mir gestrach. am <link>changelog</link> steet, wat sech wéini geännert huet."
+            }
+        },
+        "privacy": {
+            "metaTitle": "Dateschutz",
+            "title": "Rechtleches & dateschutz",
+            "updated": "lëscht aktualiséiert: 1. Januar 2025"
+        },
+        "apiErrors": {
+            "auth": {
+                "missing": "du bass net ugemellt.",
+                "invalidSession": "däin sëtzung ass ofgelaf, mell dech wgl nei un.",
+                "adminOnly": "dat däerfen nëmmen admins.",
+                "selfOnly": "du kanns nëmmen deng eegen astellungen änneren.",
+                "notEditor": "du däerfs dëse kanal net geréieren."
+            },
+            "route": {
+                "notFound": "dësen endpoint gëtt et net.",
+                "rateLimited": "ze vill ufroen, probéier et an {seconds} sekonnen nach eng Kéier."
+            },
+            "channel": {
+                "notJoined": "de bot ass net an dësem kanal.",
+                "notFound": "kanal konnt net fonnt ginn.",
+                "idMissing": "keng kanal-ID uginn.",
+                "idInvalid": "d'kanal-ID muss eng zuel sinn.",
+                "processing": "dëse kanal gëtt grade verschafft, probéier et gläich nach eng Kéier.",
+                "joining": "de bot trëtt dësem kanal grade bäi.",
+                "alreadyJoined": "de bot ass schonn an dësem kanal.",
+                "modRequired": "de bot muss an dësem kanal moderator sinn, fir bäizetrieden.",
+                "fetchFailed": "d'kanal-date konnten net geluede ginn.",
+                "loginNotFound": "de kanalnumm konnt net opgeléist ginn.",
+                "ambassadorsOwnerOnly": "nëmmen de kanalbesëtzer kann ambassadeuren änneren.",
+                "updateFailed": "d'kanal-astellunge konnten net gespäichert ginn."
+            },
+            "command": {
+                "exists": "e command namens \"{name}\" gëtt et schonn.",
+                "notFound": "et gëtt kee command namens \"{name}\".",
+                "name": {
+                    "missing": "gëff e command-numm un.",
+                    "tooLong": "de command-numm däerf héchstens 50 zeechen hunn.",
+                    "whitespace": "de command-numm däerf keng espaces enthalen."
+                },
+                "response": {
+                    "missing": "gëff eng äntwert un.",
+                    "empty": "d'äntwert däerf net eidel sinn.",
+                    "tooLong": "d'äntwert däerf héchstens 500 zeechen hunn.",
+                    "reserved": "d'äntwert däerf net mat engem reservéierte zeechen ufänken."
+                },
+                "cooldown": {
+                    "invalid": "de cooldown muss eng ganz zuel sekonnen tëscht 0 an 86400 sinn."
+                }
+            },
+            "field": {
+                "boolean": "{field} muss un oder aus sinn."
+            },
+            "nothingToUpdate": "näischt z'aktualiséieren.",
+            "notification": {
+                "unknownType": "onbekannten benoriichtegungstyp \"{type}\".",
+                "pingOnly": "\"{type}\" gëtt et nëmmen als ping.",
+                "targetRequired": "\"{type}\" brauch e zil-kanal.",
+                "noTarget": "\"{type}\" huet keen zil.",
+                "targetInvalid": "d'zil muss eng numeresch user-ID sinn.",
+                "userInvalid": "de notzer muss eng numeresch user-ID sinn.",
+                "alreadySubscribed": "dëse kanal huet dat schonn abonnéiert.",
+                "notSubscribed": "dëse kanal huet dat net abonnéiert.",
+                "notSubscribedTarget": "dëse kanal huet {type} net abonnéiert.",
+                "targetNotFound": "zil-notzer konnt net fonnt ginn.",
+                "bansNeedLogging": "ban-benoriichtegunge gëtt et nëmme fir kanäl, déi de bot loggt."
+            },
+            "alert": {
+                "unknownType": "onbekannten alert-typ \"{type}\".",
+                "notEnabled": "dësen alert ass net aktiv.",
+                "message": {
+                    "tooLong": "d'noriicht däerf héchstens {limit} zeechen hunn.",
+                    "unknownVariable": "onbekannt variabel {variable}. disponibel: {variables}"
+                },
+                "affiliateOnly": "alerts gëtt et nëmme fir affiliate- a partner-kanäl."
+            },
+            "ping": {
+                "affiliateChatOnly": "affiliate-pings kënnen nëmmen iwwer de chat-command ageriicht ginn.",
+                "selfOnly": "du kanns pings nëmme fir dech selwer dobäisetzen.",
+                "alreadyPinged": "deen notzer gëtt scho gepingt.",
+                "notPinged": "deen notzer gëtt net gepingt.",
+                "notPingedSelf": "du gëss dofir net gepingt.",
+                "channelInvalid": "de kanal muss eng numeresch user-ID sinn."
+            },
+            "user": {
+                "notFound": "notzer konnt net fonnt ginn.",
+                "idMissing": "keng user-ID uginn.",
+                "updateFailed": "d'notzer-astellunge konnten net gespäichert ginn."
+            },
+            "settings": {
+                "prefix": {
+                    "length": "de prefix muss 1 bis 15 zeechen hunn.",
+                    "whitespace": "de prefix däerf keng espaces enthalen.",
+                    "reserved": "de prefix däerf net mat engem reservéierte zeechen ufänken."
+                },
+                "language": {
+                    "invalid": "d'sprooch muss eng vun dësen sinn: {languages}."
+                },
+                "botMode": {
+                    "invalid": "de bot-modus muss ee vun dësen sinn: {modes}."
+                },
+                "optOut": {
+                    "list": "{field} muss eng lëscht vu command-nimm sinn.",
+                    "unknown": "vun \"{command}\" kanns du dech net ofmellen."
+                },
+                "liveMessage": {
+                    "tooLong": "d'live-noriicht däerf héchstens {limit} zeechen hunn.",
+                    "unknownVariable": "onbekannt variabel {variable}. disponibel: {variables}"
+                },
+                "audience": {
+                    "invalid": "erlaabt sinn: {audiences}."
+                }
+            },
+            "autoPresence": {
+                "no7tv": "mat däinem Twitch-konto ass kee 7TV-konto verlinkt."
+            },
+            "location": {
+                "invalid": "d'stad muss en text sinn.",
+                "tooLong": "d'stad däerf héchstens 100 zeechen hunn.",
+                "updateFailed": "de standuert konnt net gespäichert ginn."
+            },
+            "reminder": {
+                "idInvalid": "ongëlteg reminder-ID.",
+                "notFound": "reminder konnt net fonnt ginn.",
+                "notOwner": "du kanns nëmmen reminder läschen, déi s du gesat hues."
+            },
+            "bible": {
+                "idMissing": "keng bibel-ID uginn.",
+                "idInvalid": "d'bibel-ID muss eng positiv zuel sinn.",
+                "notFound": "et gëtt kee bibel-atrag mat der id {id}."
+            },
+            "block": {
+                "loginMissing": "kee username uginn.",
+                "userNotFound": "notzer \"{login}\" konnt net fonnt ginn.",
+                "self": "du kanns dech net selwer blockéieren.",
+                "exists": "\"{login}\" ass scho blockéiert.",
+                "notFound": "dësen notzer ass net blockéiert."
+            },
+            "birthday": {
+                "loginMissing": "kee username uginn.",
+                "dateInvalid": "deen datum gëtt et net.",
+                "exists": "dee gebuertsdag ass fir {user} scho gespäichert.",
+                "notFound": "kee sou gebuertsdag fir {user}."
+            },
+            "suggestion": {
+                "actionInvalid": "onbekannt aktioun.",
+                "notFound": "dee virschlag gëtt et net méi."
+            },
+            "error": {
+                "notFound": "dee feeler gëtt et net méi."
+            },
+            "bottiesBan": {
+                "loginMissing": "kee username uginn.",
+                "userNotFound": "notzer \"{login}\" konnt net fonnt ginn.",
+                "admin": "du kanns keng admins bannen.",
+                "exists": "\"{login}\" ass scho verbannt.",
+                "notFound": "dësen notzer ass net verbannt."
+            }
+        },
+        "admin": {
+            "metaTitle": "Admin",
+            "title": "Admin",
+            "tiles": {
+                "seventv": "kanäl mat 7TV-editor",
+                "channels": "kanäl bäigetrueden",
+                "channelsHint": "{lurked} nëmme gelurkt, {total} am Ganzen",
+                "suggestions": "oppe virschléi",
+                "errors": "feeler an 24 stonnen",
+                "botties": "botties-bans"
+            },
+            "suggestions": {
+                "title": "Virschléi",
+                "empty": "keng virschléi.",
+                "by": "vun {user} an #{channel}",
+                "pending": "oppen",
+                "approved": "ugeholl",
+                "approve": "Unhuelen",
+                "finish": "Fäerdeg",
+                "delete": "virschlag {id} läschen"
+            },
+            "errors": {
+                "title": "Feeler",
+                "empty": "keng feeler.",
+                "delete": "feeler {id} läschen"
+            },
+            "channels": {
+                "title": "Kanäl",
+                "search": "login sichen…",
+                "joined": "bäigetrueden",
+                "lurked": "nëmme gelurkt",
+                "live": "live",
+                "logging": "logging",
+                "unknown": "de bot kennt {login} net. trotzdem opmaachen, fir e als logging bäizetrieden.",
+                "open": "Opmaachen"
+            },
+            "botties": {
+                "title": "Botties-bans",
+                "empty": "keen ass verbannt.",
+                "ban": "Bannen",
+                "placeholder": "Username…",
+                "unban": "{name} entbannen"
+            },
+            "bot": {
+                "uptime": "leeft zënter",
+                "since": "start {date}",
+                "lastError": "lëschte feeler",
+                "ago": "virun {delta|time(largest|1)}",
+                "noErrors": "keen"
+            }
+        }
+    },
+    "tldr": {
+        "generating": "⏳ zesummefaassung gëtt aus de lëschte {limit} noriichten gemaach...",
+        "no_logs": "et ass net genuch aktivitéit fir eng zesummefaassung.",
+        "not_enough_activity": "de chat ass grade ze roueg fir eng zesummefaassung.",
+        "system": "du bass en humorousen, frächen Twitch-bot am kanal vun {channel}. deng aufgab ass et, déi aktuell stëmmung an d'thema vum chat an 1-2 kuerzen, knackegen sätz op Basis vun de lëschte noriichten zesummenzefaassen. sief ënnerhalend, benotz gären Twitch/7TV global emotes, mä sief net beleidegend. wann s du emotes benotz, solle se eleng stoen, ouni punkt oder komma virdrun oder duerno.",
+        "chat_context": "hei sinn déi neist noriichten: {chatContext}"
+    },
+    "block": {
+        "self": "susgeeDank du kanns dech net selwer blockéieren.",
+        "alreadyBlocked": "susgeeDank {user|antiPing} ass schonn blockéiert.",
+        "success": "susgeeOK du hues {user|antiPing} erfollegräich blockéiert"
+    },
+    "autopresence": {
+        "disabled": "susgeeOK auto presence ausgemaach",
+        "enabled": "susgeeOK auto presence ugemaach"
     }
 }
