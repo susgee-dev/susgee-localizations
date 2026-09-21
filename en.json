@@ -1999,6 +1999,54 @@
                 "notFoundMessage": "The paint you requested does not exist",
                 "previewPlaceholder": "Enter text to preview...",
                 "paintName": "Paint name:"
+            },
+            "translate": {
+                "metaTitle": "Translate",
+                "title": "Help translate Susgeebot",
+                "description": "Fix wrong strings for the website and the bot, or start a new language. Submissions are reviewed before they go live.",
+                "fab": "Translate",
+                "fabHint": "Report or improve a translation",
+                "languages": "Languages",
+                "existing": "Improve an existing language",
+                "newLanguage": "Start a new language",
+                "newLanguageHint": "Propose a language that is not in the project yet. After that you can translate keys into it.",
+                "code": "Language code",
+                "codeHint": "ISO code, e.g. fr or pt-br",
+                "name": "English name",
+                "nativeName": "Native name",
+                "locale": "Locale",
+                "localeHint": "e.g. fr-FR",
+                "propose": "Propose language",
+                "keys": "{count} keys",
+                "proposed": "Proposed",
+                "search": "Search keys or text",
+                "filterAll": "All",
+                "filterWeb": "Website",
+                "filterBot": "Bot",
+                "missingOnly": "Needs translation",
+                "english": "English",
+                "current": "Current",
+                "proposedText": "Your translation",
+                "note": "Note (optional)",
+                "noteHint": "Why is the current text wrong?",
+                "submit": "Submit",
+                "submitted": "Submitted",
+                "empty": "No keys match this filter.",
+                "mine": "Your submissions",
+                "mineEmpty": "You have not submitted anything yet.",
+                "status": {
+                    "pending": "Pending",
+                    "approved": "Approved",
+                    "rejected": "Rejected"
+                },
+                "back": "All languages",
+                "source": {
+                    "web": "Website",
+                    "bot": "Bot"
+                },
+                "errors": {
+                    "save": "Could not save the translation."
+                }
             }
         },
         "common": {
@@ -2774,7 +2822,11 @@
                 "admin": "You cannot ban admins.",
                 "exists": "\"{login}\" is already banned.",
                 "notFound": "This user is not banned."
-            }
+            },
+            "translateInvalidLang": "That language code is not valid.",
+            "translateLangExists": "This language already exists.",
+            "translateUnknownKey": "Unknown translation key.",
+            "translateEmpty": "Please enter a translation."
         },
         "admin": {
             "metaTitle": "Admin",
@@ -2785,7 +2837,9 @@
                 "channelsHint": "{lurked} only lurked, {total} total",
                 "suggestions": "Open suggestions",
                 "errors": "Errors in 24 hours",
-                "botties": "Botties bans"
+                "botties": "Botties bans",
+                "translations": "Translations",
+                "translationsHint": "Pending language and string reports"
             },
             "suggestions": {
                 "title": "Suggestions",
@@ -2825,6 +2879,14 @@
                 "lastError": "Last error",
                 "ago": "{delta|time(largest|1)} ago",
                 "noErrors": "none"
+            },
+            "translations": {
+                "title": "Translation reviews",
+                "languages": "New languages",
+                "reports": "String reports",
+                "empty": "Nothing to review.",
+                "approve": "Approve",
+                "reject": "Reject"
             }
         }
     },

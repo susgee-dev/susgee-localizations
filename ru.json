@@ -1999,6 +1999,54 @@
                 "notFoundMessage": "Запрошенной краски не существует",
                 "previewPlaceholder": "Введи текст для предпросмотра...",
                 "paintName": "Название краски:"
+            },
+            "translate": {
+                "metaTitle": "Перевод",
+                "title": "Помоги перевести Susgeebot",
+                "description": "Исправь тексты сайта и бота или начни новый язык. Предложения проверяются перед публикацией.",
+                "fab": "Перевод",
+                "fabHint": "Сообщить об ошибке или улучшить перевод",
+                "languages": "Языки",
+                "existing": "Улучшить существующий язык",
+                "newLanguage": "Начать новый язык",
+                "newLanguageHint": "Предложи язык, которого ещё нет в проекте. После этого можно переводить ключи.",
+                "code": "Код языка",
+                "codeHint": "ISO-код, например fr или pt-br",
+                "name": "Название на английском",
+                "nativeName": "Собственное название",
+                "locale": "Locale",
+                "localeHint": "например fr-FR",
+                "propose": "Предложить язык",
+                "keys": "{count} ключей",
+                "proposed": "Предложен",
+                "search": "Искать ключи или текст",
+                "filterAll": "Все",
+                "filterWeb": "Сайт",
+                "filterBot": "Бот",
+                "missingOnly": "Нужен перевод",
+                "english": "Английский",
+                "current": "Сейчас",
+                "proposedText": "Твой перевод",
+                "note": "Заметка (необязательно)",
+                "noteHint": "Почему текущий текст неверный?",
+                "submit": "Отправить",
+                "submitted": "Отправлено",
+                "empty": "Нет ключей по этому фильтру.",
+                "mine": "Твои предложения",
+                "mineEmpty": "Ты ещё ничего не отправлял.",
+                "status": {
+                    "pending": "На проверке",
+                    "approved": "Принято",
+                    "rejected": "Отклонено"
+                },
+                "back": "Все языки",
+                "source": {
+                    "web": "Сайт",
+                    "bot": "Бот"
+                },
+                "errors": {
+                    "save": "Не удалось сохранить перевод."
+                }
             }
         },
         "common": {
@@ -2774,7 +2822,11 @@
                 "admin": "Админов банить нельзя.",
                 "exists": "\"{login}\" уже забанен.",
                 "notFound": "Этот пользователь не забанен."
-            }
+            },
+            "translateInvalidLang": "Неверный код языка.",
+            "translateLangExists": "Этот язык уже есть.",
+            "translateUnknownKey": "Неизвестный ключ перевода.",
+            "translateEmpty": "Введи перевод."
         },
         "admin": {
             "metaTitle": "Админ",
@@ -2785,7 +2837,9 @@
                 "channelsHint": "{lurked} только в люрке, всего {total}",
                 "suggestions": "Открытые предложения",
                 "errors": "Ошибки за 24 часа",
-                "botties": "Баны Botties"
+                "botties": "Баны Botties",
+                "translations": "Переводы",
+                "translationsHint": "Открытые языки и правки текстов"
             },
             "suggestions": {
                 "title": "Предложения",
@@ -2825,6 +2879,14 @@
                 "lastError": "Последняя ошибка",
                 "ago": "{delta|time(largest|1)} назад",
                 "noErrors": "нет"
+            },
+            "translations": {
+                "title": "Проверка переводов",
+                "languages": "Новые языки",
+                "reports": "Правки текстов",
+                "empty": "Нечего проверять.",
+                "approve": "Принять",
+                "reject": "Отклонить"
             }
         }
     },

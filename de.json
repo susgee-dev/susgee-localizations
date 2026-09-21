@@ -1999,6 +1999,54 @@
                 "notFoundMessage": "Das angefragte Paint existiert nicht",
                 "previewPlaceholder": "Text für die Vorschau eingeben...",
                 "paintName": "Paint-Name:"
+            },
+            "translate": {
+                "metaTitle": "Übersetzen",
+                "title": "Hilf, Susgeebot zu übersetzen",
+                "description": "Korrigiere falsche Texte von Website und Bot oder starte eine neue Sprache. Einreichungen werden geprüft, bevor sie live gehen.",
+                "fab": "Übersetzen",
+                "fabHint": "Übersetzung melden oder verbessern",
+                "languages": "Sprachen",
+                "existing": "Bestehende Sprache verbessern",
+                "newLanguage": "Neue Sprache starten",
+                "newLanguageHint": "Schlage eine Sprache vor, die es noch nicht gibt. Danach kannst du Keys dafür übersetzen.",
+                "code": "Sprachcode",
+                "codeHint": "ISO-Code, z. B. fr oder pt-br",
+                "name": "Englischer Name",
+                "nativeName": "Eigenname",
+                "locale": "Locale",
+                "localeHint": "z. B. fr-FR",
+                "propose": "Sprache vorschlagen",
+                "keys": "{count} Keys",
+                "proposed": "Vorgeschlagen",
+                "search": "Keys oder Text suchen",
+                "filterAll": "Alle",
+                "filterWeb": "Website",
+                "filterBot": "Bot",
+                "missingOnly": "Braucht Übersetzung",
+                "english": "Englisch",
+                "current": "Aktuell",
+                "proposedText": "Deine Übersetzung",
+                "note": "Hinweis (optional)",
+                "noteHint": "Warum ist der aktuelle Text falsch?",
+                "submit": "Einreichen",
+                "submitted": "Eingereicht",
+                "empty": "Keine Keys passen zu diesem Filter.",
+                "mine": "Deine Einreichungen",
+                "mineEmpty": "Du hast noch nichts eingereicht.",
+                "status": {
+                    "pending": "Offen",
+                    "approved": "Angenommen",
+                    "rejected": "Abgelehnt"
+                },
+                "back": "Alle Sprachen",
+                "source": {
+                    "web": "Website",
+                    "bot": "Bot"
+                },
+                "errors": {
+                    "save": "Übersetzung konnte nicht gespeichert werden."
+                }
             }
         },
         "common": {
@@ -2774,7 +2822,11 @@
                 "admin": "Admins kannst du nicht bannen.",
                 "exists": "\"{login}\" ist schon gebannt.",
                 "notFound": "Dieser User ist nicht gebannt."
-            }
+            },
+            "translateInvalidLang": "Dieser Sprachcode ist ungültig.",
+            "translateLangExists": "Diese Sprache gibt es schon.",
+            "translateUnknownKey": "Unbekannter Übersetzungsschlüssel.",
+            "translateEmpty": "Bitte eine Übersetzung eingeben."
         },
         "admin": {
             "metaTitle": "Admin",
@@ -2785,7 +2837,9 @@
                 "channelsHint": "{lurked} nur gelurkt, {total} gesamt",
                 "suggestions": "Offene Vorschläge",
                 "errors": "Fehler in 24 Stunden",
-                "botties": "Botties-Bans"
+                "botties": "Botties-Bans",
+                "translations": "Übersetzungen",
+                "translationsHint": "Offene Sprachen und Textmeldungen"
             },
             "suggestions": {
                 "title": "Vorschläge",
@@ -2825,6 +2879,14 @@
                 "lastError": "Letzter Fehler",
                 "ago": "vor {delta|time(largest|1)}",
                 "noErrors": "keiner"
+            },
+            "translations": {
+                "title": "Übersetzungen prüfen",
+                "languages": "Neue Sprachen",
+                "reports": "Textmeldungen",
+                "empty": "Nichts zu prüfen.",
+                "approve": "Annehmen",
+                "reject": "Ablehnen"
             }
         }
     },

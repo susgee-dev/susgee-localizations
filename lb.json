@@ -1999,6 +1999,54 @@
                 "notFoundMessage": "déi gefrote paint existéiert net",
                 "previewPlaceholder": "text fir d'virschau aginn...",
                 "paintName": "paint-numm:"
+            },
+            "translate": {
+                "metaTitle": "Iwwersetzen",
+                "title": "Hëllef, de Susgeebot z’iwwersetzen",
+                "description": "Verbesser falsch Texter vun der Websäit an dem Bot, oder start eng nei Sprooch. Virschléi ginn iwwerpréift, ier se live ginn.",
+                "fab": "Iwwersetzen",
+                "fabHint": "Iwwersetzung mellen oder verbesseren",
+                "languages": "Sproochen",
+                "existing": "Eng existent Sprooch verbesseren",
+                "newLanguage": "Eng nei Sprooch starten",
+                "newLanguageHint": "Schlo eng Sprooch vir, déi et nach net gëtt. Duerno kanns du Keys dofir iwwersetzen.",
+                "code": "Sproochcode",
+                "codeHint": "ISO-Code, z. B. fr oder pt-br",
+                "name": "Engleschen Numm",
+                "nativeName": "Eegenen Numm",
+                "locale": "Locale",
+                "localeHint": "z. B. fr-FR",
+                "propose": "Sprooch virschloen",
+                "keys": "{count} Keys",
+                "proposed": "Virgeschloen",
+                "search": "Keys oder Text sichen",
+                "filterAll": "All",
+                "filterWeb": "Websäit",
+                "filterBot": "Bot",
+                "missingOnly": "Braucht Iwwersetzung",
+                "english": "Englesch",
+                "current": "Aktuell",
+                "proposedText": "Deng Iwwersetzung",
+                "note": "Notiz (optional)",
+                "noteHint": "Firwat ass den aktuellen Text falsch?",
+                "submit": "Areechen",
+                "submitted": "Ageeicht",
+                "empty": "Keng Keys passen op dëse Filter.",
+                "mine": "Deng Areechungen",
+                "mineEmpty": "Du hues nach näischt ageeicht.",
+                "status": {
+                    "pending": "Offen",
+                    "approved": "Acceptéiert",
+                    "rejected": "Ofgeleent"
+                },
+                "back": "All Sproochen",
+                "source": {
+                    "web": "Websäit",
+                    "bot": "Bot"
+                },
+                "errors": {
+                    "save": "D'Iwwersetzung konnt net gespäichert ginn."
+                }
             }
         },
         "common": {
@@ -2774,7 +2822,11 @@
                 "admin": "du kanns keng admins bannen.",
                 "exists": "\"{login}\" ass scho verbannt.",
                 "notFound": "dësen notzer ass net verbannt."
-            }
+            },
+            "translateInvalidLang": "Dee Sproochcode ass net valabel.",
+            "translateLangExists": "Dës Sprooch gëtt et schonn.",
+            "translateUnknownKey": "Onbekannten Iwwersetzungsschlëssel.",
+            "translateEmpty": "Gëff w.e.g. eng Iwwersetzung an."
         },
         "admin": {
             "metaTitle": "Admin",
@@ -2785,7 +2837,9 @@
                 "channelsHint": "{lurked} nëmme gelurkt, {total} am Ganzen",
                 "suggestions": "oppe virschléi",
                 "errors": "feeler an 24 stonnen",
-                "botties": "botties-bans"
+                "botties": "botties-bans",
+                "translations": "Iwwersetzungen",
+                "translationsHint": "Offe Sproochen an Textmellungen"
             },
             "suggestions": {
                 "title": "Virschléi",
@@ -2825,6 +2879,14 @@
                 "lastError": "lëschte feeler",
                 "ago": "virun {delta|time(largest|1)}",
                 "noErrors": "keen"
+            },
+            "translations": {
+                "title": "Iwwersetzungen iwwerpréiwen",
+                "languages": "Nei Sproochen",
+                "reports": "Textmellungen",
+                "empty": "Näischt ze iwwerpréiwen.",
+                "approve": "Acceptéieren",
+                "reject": "Ofleenen"
             }
         }
     },
