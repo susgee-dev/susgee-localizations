@@ -1731,7 +1731,7 @@
             "description": "Автоматически обновляет твою косметику 7TV."
         },
         "error": {
-            "usage": "[finish | delete] <ID> or list",
+            "usage": "[finish | delete] <ID> или список",
             "description": "manage stored errors"
         }
     },
