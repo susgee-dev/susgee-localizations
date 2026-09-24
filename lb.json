@@ -1732,7 +1732,7 @@
         },
         "error": {
             "usage": "[finish | delete] <ID> oder Lëscht",
-            "description": "manage stored errors"
+            "description": "Gespäichert Feeler verwalten"
         }
     },
     "whisper": {
