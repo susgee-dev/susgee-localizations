@@ -1731,7 +1731,7 @@
             "description": "aktualiséiert deng 7TV cosmetics automatesch."
         },
         "error": {
-            "usage": "[finish | delete] <ID> or list",
+            "usage": "[finish | delete] <ID> oder Lëscht",
             "description": "manage stored errors"
         }
     },
