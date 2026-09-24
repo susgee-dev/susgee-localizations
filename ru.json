@@ -1732,7 +1732,7 @@
         },
         "error": {
             "usage": "[finish | delete] <ID> или список",
-            "description": "manage stored errors"
+            "description": "управление сохраненными ошибками"
         }
     },
     "whisper": {
