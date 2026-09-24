@@ -1729,6 +1729,10 @@
         },
         "autopresence": {
             "description": "aktualiséiert deng 7TV cosmetics automatesch."
+        },
+        "error": {
+            "usage": "[finish | delete] <ID> or list",
+            "description": "manage stored errors"
         }
     },
     "whisper": {

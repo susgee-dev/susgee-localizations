@@ -1729,6 +1729,10 @@
         },
         "autopresence": {
             "description": "Actualiza tus cosmetics de 7TV automáticamente."
+        },
+        "error": {
+            "usage": "[finish | delete] <ID> or list",
+            "description": "manage stored errors"
         }
     },
     "whisper": {
