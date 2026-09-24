@@ -1731,7 +1731,7 @@
             "description": "Actualiza tus cosmetics de 7TV automáticamente."
         },
         "error": {
-            "usage": "[finish | delete] <ID> or list",
+            "usage": "[finish | delete] <ID> o lista",
             "description": "manage stored errors"
         }
     },
