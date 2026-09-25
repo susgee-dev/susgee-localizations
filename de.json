@@ -2233,7 +2233,7 @@
                 "title": "Allgemein",
                 "prefix": "Command-Prefix",
                 "prefixPlaceholder": "z. B. !",
-                "prefixError": "Maximal 15 Zeichen, darf nicht mit . oder / beginnen",
+                "prefixError": "Maximal 15 Zeichen, keine Leerzeichen, darf nicht mit . oder / beginnen",
                 "language": "Channel-Sprache",
                 "disabled": "Bot deaktiviert",
                 "disabledHint": "Nichts antwortet, nichts wird gepostet. Die übrigen Einstellungen bleiben erhalten.",
@@ -2485,7 +2485,11 @@
                     "permission": "Berechtigung",
                     "reply": "Als Antwort",
                     "action": "Als /me",
-                    "liveState": "Antwortet"
+                    "liveState": "Antwortet",
+                    "hideFromLookups": "Channel in Abfragen verstecken",
+                    "logging": "Nachrichten loggen",
+                    "commandsWhenLive": "Commands live",
+                    "commandsWhenOffline": "Commands offline"
                 },
                 "values": {
                     "on": "an",

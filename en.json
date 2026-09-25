@@ -2233,7 +2233,7 @@
                 "title": "General",
                 "prefix": "Command prefix",
                 "prefixPlaceholder": "e.g. !",
-                "prefixError": "Max 15 characters, must not start with . or /",
+                "prefixError": "Max 15 characters, no spaces, must not start with . or /",
                 "language": "Channel language",
                 "disabled": "Bot disabled",
                 "disabledHint": "Nothing answers, nothing is posted. The other settings stay as they are.",
@@ -2485,7 +2485,11 @@
                     "permission": "Permission",
                     "reply": "As reply",
                     "action": "As /me",
-                    "liveState": "Responds"
+                    "liveState": "Responds",
+                    "hideFromLookups": "Hide channel from lookups",
+                    "logging": "Log messages",
+                    "commandsWhenLive": "Commands while live",
+                    "commandsWhenOffline": "Commands while offline"
                 },
                 "values": {
                     "on": "on",
