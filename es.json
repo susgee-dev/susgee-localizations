@@ -129,6 +129,7 @@
             "invalidName": "susgeeDank el nombre del emote contiene un carácter no permitido por (7TV)",
             "noAccount": "susgeeDank el canal {channel|antiPing} no tiene cuenta de (7TV)",
             "noActiveEmoteSet": "susgeeDank el canal {channel|antiPing} no tiene un emote-set activo",
+            "foreignEmoteSet": "susgeeDank el emote-set activo pertenece a {owner|antiPing}, no a {channel|antiPing}. no edito emote-sets de otros usuarios",
             "noChannelPerms": "susgeeDank no eres editor (7TV) de este bot en este canal. @{streamer} puede añadirte con {prefix}7tveditor add {user}",
             "noEditor": "susgeeDank Susgeebot no es editor (7TV) de este canal. añádeme como editor en https://7tv.app/settings/editors",
             "noEmoteSetCreation": "susgeeDank el bot no tiene permiso para crear un emote-set nuevo. https://7tv.app/settings/editors",

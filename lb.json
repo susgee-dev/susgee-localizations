@@ -129,6 +129,7 @@
             "invalidName": "susgeeDank emote-numm enthält e zeechen, dat (7TV) net erlaabt",
             "noAccount": "susgeeDank kanal {channel|antiPing} huet keen (7TV) account",
             "noActiveEmoteSet": "susgeeDank kanal {channel|antiPing} huet kee aktiivt emote-set",
+            "foreignEmoteSet": "susgeeDank dat aktiivt emote-set gehéiert {owner|antiPing}, net {channel|antiPing}. emote-sets vun anere benotzer änneren ech net",
             "noChannelPerms": "susgeeDank du bass keen (7TV) editor fir dëse bot an dësem kanal. @{streamer} kann dech dobäisetzen mat {prefix}7tveditor add {user}",
             "noEditor": "susgeeDank Susgeebot ass keen (7TV) editor fir dëse kanal. setz mech als editor dobäi op https://7tv.app/settings/editors",
             "noEmoteSetCreation": "susgeeDank de bot huet keng berechtegung, en neit emote-set ze maachen. https://7tv.app/settings/editors",

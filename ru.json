@@ -129,6 +129,7 @@
             "invalidName": "susgeeDank в имени эмоута есть символ, который (7TV) не разрешает",
             "noAccount": "susgeeDank у канала {channel|antiPing} нет аккаунта (7TV)",
             "noActiveEmoteSet": "susgeeDank у канала {channel|antiPing} нет активного набора эмоутов",
+            "foreignEmoteSet": "susgeeDank активный набор эмоутов принадлежит {owner|antiPing}, а не {channel|antiPing}. чужие наборы эмоутов я не редактирую",
             "noChannelPerms": "susgeeDank ты не редактор (7TV) этого бота в этом канале. @{streamer} может добавить тебя командой {prefix}7tveditor add {user}",
             "noEditor": "susgeeDank Susgeebot не является редактором (7TV) этого канала. добавь меня на https://7tv.app/settings/editors",
             "noEmoteSetCreation": "susgeeDank у бота нет права создавать новый набор эмоутов. https://7tv.app/settings/editors",
