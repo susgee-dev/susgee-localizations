@@ -1,5 +1,6 @@
 {
     "enabled": "enabled",
+    "disabled": "disabled",
     "commandDisabled": "{user}, the command {command} has been disabled in the channel {channel} by a moderator.",
     "common": {
         "delta": {
@@ -388,7 +389,9 @@
     "channel": {
         "joined": "susgeeOK channel {channel} joined",
         "parted": "channel {channel} parted",
-        "rejoined": "susgeeOK channel {channel} rejoined"
+        "rejoined": "susgeeOK channel {channel} rejoined",
+        "welcome": "susgeeArrive Hi! Prefix: {prefix} • Commands: https://susgee.dev/commands • Settings and language: {url}",
+        "welcomeBack": "susgeeArrive Back again! Your commands, events and settings still apply: {url}"
     },
     "channelStats": {
         "added": "added {added|time} ago",
@@ -2288,6 +2291,7 @@
                 "close": "Close",
                 "defaultText": "Default text",
                 "useDefault": "Use default text",
+                "saveAndEnable": "Save and turn on",
                 "from": {
                     "raid": "from {value} viewers",
                     "bits": "from {value} bits"

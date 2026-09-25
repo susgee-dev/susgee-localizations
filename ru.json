@@ -1,5 +1,6 @@
 {
     "enabled": "включено",
+    "disabled": "отключено",
     "commandDisabled": "{user}, команду {command} в канале {channel} отключил модератор.",
     "common": {
         "delta": {
@@ -388,7 +389,9 @@
     "channel": {
         "joined": "susgeeOK канал {channel} подключён",
         "parted": "канал {channel} отключён",
-        "rejoined": "susgeeOK канал {channel} подключён заново"
+        "rejoined": "susgeeOK канал {channel} подключён заново",
+        "welcome": "susgeeArrive Привет! Префикс: {prefix} • Команды: https://susgee.dev/commands • Настройки и язык: {url}",
+        "welcomeBack": "susgeeArrive Снова здесь! Твои команды, события и настройки по-прежнему действуют: {url}"
     },
     "channelStats": {
         "added": "добавлен {added|time} назад",
@@ -2288,6 +2291,7 @@
                 "close": "Закрыть",
                 "defaultText": "Текст по умолчанию",
                 "useDefault": "Использовать текст по умолчанию",
+                "saveAndEnable": "Сохранить и включить",
                 "from": {
                     "raid": "от {value} зрителей",
                     "bits": "от {value} битов"

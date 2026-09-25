@@ -1,5 +1,6 @@
 {
     "enabled": "aktiviert",
+    "disabled": "deaktiviert",
     "commandDisabled": "{user}, der Command {command} wurde im Channel {channel} von einem Moderator deaktiviert.",
     "common": {
         "delta": {
@@ -388,7 +389,9 @@
     "channel": {
         "joined": "Channel {channel} beigetreten",
         "parted": "susgeeOK Channel {channel} verlassen",
-        "rejoined": "Channel {channel} erneut beigetreten"
+        "rejoined": "Channel {channel} erneut beigetreten",
+        "welcome": "susgeeArrive Hallo! Prefix: {prefix} • Commands: https://susgee.dev/commands • Einstellungen und Sprache: {url}",
+        "welcomeBack": "susgeeArrive Wieder da! Deine Commands, Events und Einstellungen gelten weiter: {url}"
     },
     "channelStats": {
         "added": "vor {added|time} hinzugefügt",
@@ -2288,6 +2291,7 @@
                 "close": "Schliessen",
                 "defaultText": "Standardtext",
                 "useDefault": "Standardtext verwenden",
+                "saveAndEnable": "Speichern und einschalten",
                 "from": {
                     "raid": "ab {value} Zuschauern",
                     "bits": "ab {value} Bits"

@@ -1,5 +1,6 @@
 {
     "enabled": "aktivéiert",
+    "disabled": "deaktivéiert",
     "commandDisabled": "{user}, de command {command} gouf am kanal {channel} vun engem moderator ausgemaach.",
     "common": {
         "delta": {
@@ -388,7 +389,9 @@
     "channel": {
         "joined": "susgeeOK kanal {channel} bäigetrueden",
         "parted": "kanal {channel} verlooss",
-        "rejoined": "susgeeOK kanal {channel} erëm bäigetrueden"
+        "rejoined": "susgeeOK kanal {channel} erëm bäigetrueden",
+        "welcome": "susgeeArrive Moien! Prefix: {prefix} • Commands: https://susgee.dev/commands • Astellungen a Sprooch: {url}",
+        "welcomeBack": "susgeeArrive Erëm do! Deng Commands, Eventer an Astellungen gëllen nach ëmmer: {url}"
     },
     "channelStats": {
         "added": "dobäigesat virun {added|time}",
@@ -2288,6 +2291,7 @@
                 "close": "Zoumaachen",
                 "defaultText": "Standardtext",
                 "useDefault": "standardtext benotzen",
+                "saveAndEnable": "späicheren an aschalten",
                 "from": {
                     "raid": "ab {value} zuschauer",
                     "bits": "ab {value} bits"
