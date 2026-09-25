@@ -2220,6 +2220,7 @@
                 "modRequired": "Susgeebot brauch moderator-rechter. benotz <code>/mod Susgeebot</code> an <link>däinem kanal</link>, da probéier nach eng Kéier.",
                 "loggingOnly": "Susgeebot loggt dëse kanal grade nëmmen. verbann e, fir datt commands a benoriichtegunge lafen.",
                 "adminHint": "den owner muss Susgeebot zum mod maachen. als admin kanns du de kanal nëmme loggen.",
+                "ambassadorHint": "nëmmen den owner kann de bot verbannen. soubal Susgeebot am kanal ass, kanns du hei alles astellen.",
                 "admin": {
                     "title": "Admin",
                     "description": "gëllt och fir kanäl, wou de bot nëmme matliest.",

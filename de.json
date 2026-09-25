@@ -2220,6 +2220,7 @@
                 "modRequired": "Susgeebot braucht Moderator-Rechte. Benutze <code>/mod Susgeebot</code> in <link>deinem Channel</link> und versuch es dann nochmal.",
                 "loggingOnly": "Susgeebot loggt diesen Channel im Moment nur. Verbinde ihn, damit Commands und Benachrichtigungen funktionieren.",
                 "adminHint": "Der Owner muss Susgeebot zum Mod machen. Als Admin kannst du den Channel nur loggen.",
+                "ambassadorHint": "Verbinden kann den Bot nur der Owner. Sobald Susgeebot im Channel ist, kannst du hier alles einstellen.",
                 "admin": {
                     "title": "Admin",
                     "description": "Gilt auch für Channels, in denen der Bot nur mitliest.",
