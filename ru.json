@@ -1760,7 +1760,8 @@
         },
         "footer": {
             "rightsReserved": "не связан с Twitch",
-            "privacy": "конфиденциальность"
+            "privacy": "конфиденциальность",
+            "suggestions": "Suggestions"
         },
         "pages": {
             "home": {
@@ -2054,6 +2055,50 @@
                 },
                 "errors": {
                     "save": "Не удалось сохранить перевод."
+                }
+            },
+            "suggestions": {
+                "metaTitle": "Suggestions",
+                "title": "Suggestions & Feedback",
+                "description": "Submit ideas, feature requests, and improvements, and track the status of your suggestions.",
+                "form": {
+                    "title": "Submit a new suggestion",
+                    "description": "Have an idea for new features, commands, or improvements?",
+                    "loginRequired": "Authentication required",
+                    "loginRequiredHint": "Log in with Twitch to submit suggestions and track your ideas.",
+                    "loginButton": "Log in with Twitch",
+                    "placeholder": "Describe your suggestion or feature request in detail (e.g. new command, parameter, integration)…",
+                    "minLength": "At least 5 characters",
+                    "submittingAs": "Submitting as",
+                    "submit": "Submit suggestion",
+                    "success": "Your suggestion has been submitted successfully and sent to the team! Thank you."
+                },
+                "tabs": {
+                    "mine": "My suggestions",
+                    "community": "Community suggestions"
+                },
+                "filters": {
+                    "all": "All",
+                    "pending": "Pending",
+                    "approved": "Approved",
+                    "finished": "Finished"
+                },
+                "status": {
+                    "pending": "Pending",
+                    "approved": "Approved",
+                    "finished": "Finished",
+                    "rejected": "Rejected"
+                },
+                "empty": {
+                    "title": "No suggestions found",
+                    "mine": "You have not submitted any suggestions yet or the filter excludes them.",
+                    "community": "No matching community suggestions right now."
+                },
+                "errors": {
+                    "save": "Could not save the suggestion.",
+                    "empty": "The suggestion cannot be empty.",
+                    "tooShort": "The suggestion must be at least 5 characters.",
+                    "tooLong": "The suggestion must not exceed 2000 characters."
                 }
             }
         },

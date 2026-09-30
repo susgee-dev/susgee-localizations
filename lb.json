@@ -1760,7 +1760,8 @@
         },
         "footer": {
             "rightsReserved": "steet a kenger Verbindung mat Twitch",
-            "privacy": "dateschutz"
+            "privacy": "dateschutz",
+            "suggestions": "Vorschläge"
         },
         "pages": {
             "home": {
@@ -2054,6 +2055,50 @@
                 },
                 "errors": {
                     "save": "D'Iwwersetzung konnt net gespäichert ginn."
+                }
+            },
+            "suggestions": {
+                "metaTitle": "Vorschläge",
+                "title": "Vorschläge & Feedback",
+                "description": "Reiche Ideen, Feature-Wünsche und Verbesserungen ein und verfolge den Status deiner Vorschläge.",
+                "form": {
+                    "title": "Neuen Vorschlag einreichen",
+                    "description": "Hast du eine Idee für neue Features, Commands oder Verbesserungen?",
+                    "loginRequired": "Anmeldung erforderlich",
+                    "loginRequiredHint": "Melde dich mit Twitch an, um Vorschläge einzureichen und Benachrichtigungen zu erhalten.",
+                    "loginButton": "Mit Twitch anmelden",
+                    "placeholder": "Beschreibe deinen Vorschlag oder Feature-Wunsch möglichst genau (z. B. neuer Command, Parameter, Integration)…",
+                    "minLength": "Mindestens 5 Zeichen",
+                    "submittingAs": "Eingereicht als",
+                    "submit": "Vorschlag absenden",
+                    "success": "Dein Vorschlag wurde erfolgreich eingereicht und an das Team gesendet! Vielen Dank."
+                },
+                "tabs": {
+                    "mine": "Meine Vorschläge",
+                    "community": "Community-Vorschläge"
+                },
+                "filters": {
+                    "all": "Alle",
+                    "pending": "Offen",
+                    "approved": "Angenommen",
+                    "finished": "Umgesetzt"
+                },
+                "status": {
+                    "pending": "Offen",
+                    "approved": "Angenommen",
+                    "finished": "Umgesetzt",
+                    "rejected": "Abgelehnt"
+                },
+                "empty": {
+                    "title": "Keine Vorschläge gefunden",
+                    "mine": "Du hast noch keine Vorschläge eingereicht oder der Filter schließt sie aus.",
+                    "community": "Aktuell gibt es keine passenden Community-Vorschläge."
+                },
+                "errors": {
+                    "save": "Vorschlag konnte nicht gespeichert werden.",
+                    "empty": "Der Vorschlag darf nicht leer sein.",
+                    "tooShort": "Der Vorschlag muss mindestens 5 Zeichen lang sein.",
+                    "tooLong": "Der Vorschlag darf höchstens 2000 Zeichen lang sein."
                 }
             }
         },
