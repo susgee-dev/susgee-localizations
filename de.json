@@ -2075,7 +2075,8 @@
                 },
                 "tabs": {
                     "mine": "Meine Vorschläge",
-                    "community": "Community-Vorschläge"
+                    "community": "Community-Vorschläge",
+                    "allAdmin": "Alle Vorschläge (Admin)"
                 },
                 "filters": {
                     "all": "Alle",
@@ -2099,7 +2100,8 @@
                     "empty": "Der Vorschlag darf nicht leer sein.",
                     "tooShort": "Der Vorschlag muss mindestens 5 Zeichen lang sein.",
                     "tooLong": "Der Vorschlag darf höchstens 2000 Zeichen lang sein."
-                }
+                },
+                "adminPanel": "Im Admin-Panel verwalten"
             }
         },
         "common": {
@@ -2135,7 +2137,8 @@
             "openMenu": "Navigationsmenü öffnen",
             "home": "Susgee Startseite",
             "language": "Sprache",
-            "admin": "Admin"
+            "admin": "Admin",
+            "suggestions": "Vorschläge"
         },
         "errors": {
             "badRequest": {

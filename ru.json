@@ -2075,7 +2075,8 @@
                 },
                 "tabs": {
                     "mine": "My suggestions",
-                    "community": "Community suggestions"
+                    "community": "Community suggestions",
+                    "allAdmin": "All suggestions (Admin)"
                 },
                 "filters": {
                     "all": "All",
@@ -2099,7 +2100,8 @@
                     "empty": "The suggestion cannot be empty.",
                     "tooShort": "The suggestion must be at least 5 characters.",
                     "tooLong": "The suggestion must not exceed 2000 characters."
-                }
+                },
+                "adminPanel": "Manage in admin panel"
             }
         },
         "common": {
@@ -2135,7 +2137,8 @@
             "openMenu": "Открыть меню навигации",
             "home": "Главная Susgee",
             "language": "Язык",
-            "admin": "Админ"
+            "admin": "Админ",
+            "suggestions": "Предложения"
         },
         "errors": {
             "badRequest": {
