@@ -137,6 +137,7 @@
             "privateEmote": "susgeeDank el emote {emote} es privado y no se puede añadir",
             "ezGifError": "susgeeDank ahora mismo solo se admiten enlaces de emotes de BTTV, 7TV y FFZ",
             "cantStealFromSelf": "susgeeDank no puedes robar tus propios emotes",
+            "emoteSetNotOwned": "susgeeDank este emote-set no pertenece a {channel|antiPing}",
             "cantImportFromSelf": "susgeeDank no puedes importar tu propio emote-set",
             "alreadySynced": "susgeeDank no hay cambios que sincronizar, el emote-set es idéntico"
         },
@@ -169,6 +170,10 @@
             "success": "susgeeOK se copiaron {count|plural(one|emote, other|emotes)} en https://7tv.app/emote-sets/{emoteSetId} y se activó",
             "notActivated": "susgeeOK se copiaron {count|plural(one|emote, other|emotes)} en https://7tv.app/emote-sets/{emoteSetId}, pero no se pudo activar",
             "notCopied": "emotes no copiados: {emotes}"
+        },
+        "mergeSet": {
+            "success": "susgeeOK {added|plural(one|emote añadido, other|emotes añadidos)} y {replaced} reemplazados en https://7tv.app/emote-sets/{emoteSetId}",
+            "nothingToDo": "susgeeDank todos los emotes ya están en el emote-set"
         },
         "syncSet": {
             "success": "susgeeOK sincronizado correctamente con el emote-set https://7tv.app/emote-sets/{emoteSetId}",
@@ -1607,6 +1612,10 @@
         "copySet": {
             "usage": "<channel / emote-set id>",
             "description": "copia un emote-set a un set nuevo y lo activa"
+        },
+        "mergeSet": {
+            "usage": "<channel / emote-set id> (<id del emote-set destino>)",
+            "description": "añade los emotes de un set al set activo (o indicado), reemplazando los emotes con el mismo nombre"
         },
         "syncSet": {
             "usage": "<channel / emote-set id>",

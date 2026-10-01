@@ -137,6 +137,7 @@
             "privateEmote": "susgeeDank эмоут {emote} приватный и его нельзя добавить",
             "ezGifError": "susgeeDank сейчас поддерживаются только ссылки на эмоуты с BTTV, 7TV и FFZ",
             "cantStealFromSelf": "susgeeDank нельзя тырить свои же эмоуты",
+            "emoteSetNotOwned": "susgeeDank этот набор эмоутов не принадлежит {channel|antiPing}",
             "cantImportFromSelf": "susgeeDank нельзя импортировать свой собственный набор",
             "alreadySynced": "susgeeDank синхронизировать нечего, набор уже такой же"
         },
@@ -169,6 +170,10 @@
             "success": "susgeeOK скопировано {count|plural(one|эмоут, other|эмоутов)} в https://7tv.app/emote-sets/{emoteSetId} и набор активирован",
             "notActivated": "susgeeOK скопировано {count|plural(one|эмоут, other|эмоутов)} в https://7tv.app/emote-sets/{emoteSetId}, но активировать не вышло",
             "notCopied": "не скопированные эмоуты: {emotes}"
+        },
+        "mergeSet": {
+            "success": "susgeeOK добавлено {added|plural(one|эмоут, other|эмоутов)}, заменено {replaced} в https://7tv.app/emote-sets/{emoteSetId}",
+            "nothingToDo": "susgeeDank все эмоуты уже есть в наборе"
         },
         "syncSet": {
             "success": "susgeeOK успешно синхронизировано с набором https://7tv.app/emote-sets/{emoteSetId}",
@@ -1607,6 +1612,10 @@
         "copySet": {
             "usage": "<канал / id набора эмоутов>",
             "description": "копирует набор эмоутов в новый набор и активирует его"
+        },
+        "mergeSet": {
+            "usage": "<канал / id набора эмоутов> (<id целевого набора>)",
+            "description": "добавляет эмоуты из набора в активный (или указанный) набор, заменяя эмоуты с тем же именем"
         },
         "syncSet": {
             "usage": "<канал / id набора эмоутов>",
