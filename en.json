@@ -2095,34 +2095,25 @@
                     "success": "Your suggestion has been submitted successfully and sent to the team! Thank you."
                 },
                 "tabs": {
-                    "mine": "My suggestions",
-                    "community": "Community suggestions",
-                    "allAdmin": "All suggestions (Admin)"
+                    "mine": "My suggestions"
                 },
                 "filters": {
                     "all": "All",
                     "pending": "Pending",
-                    "approved": "Approved",
-                    "finished": "Finished"
+                    "approved": "Approved"
                 },
                 "status": {
                     "pending": "Pending",
-                    "approved": "Approved",
-                    "finished": "Finished",
-                    "rejected": "Rejected"
+                    "approved": "Approved"
                 },
                 "empty": {
                     "title": "No suggestions found",
-                    "mine": "You have not submitted any suggestions yet or the filter excludes them.",
-                    "community": "No matching community suggestions right now."
+                    "mine": "You have not submitted any suggestions yet or the filter excludes them."
                 },
                 "errors": {
-                    "save": "Could not save the suggestion.",
-                    "empty": "The suggestion cannot be empty.",
-                    "tooShort": "The suggestion must be at least 5 characters.",
-                    "tooLong": "The suggestion must not exceed 2000 characters."
+                    "save": "Could not save the suggestion."
                 },
-                "adminPanel": "Manage in admin panel"
+                "manage": "Manage all"
             },
             "emoteUsage": {
                 "metaTitle": "Emote usage",
@@ -2193,7 +2184,8 @@
             "public": "Public",
             "chars": "{used} / {limit}",
             "id": "ID:",
-            "new": "new"
+            "new": "new",
+            "showMore": "Show more ({shown} of {total})"
         },
         "nav": {
             "commands": "Commands",
@@ -2210,7 +2202,8 @@
             "home": "Susgee home",
             "language": "Language",
             "admin": "Admin",
-            "suggestions": "Suggestions"
+            "suggestions": "Suggestions",
+            "back": "Back"
         },
         "errors": {
             "badRequest": {
@@ -2947,7 +2940,10 @@
             },
             "suggestion": {
                 "actionInvalid": "Unknown action.",
-                "notFound": "That suggestion no longer exists."
+                "notFound": "That suggestion no longer exists.",
+                "tooShort": "A suggestion needs at least {min} characters.",
+                "tooLong": "A suggestion can be at most {max} characters long.",
+                "dailyLimit": "You already sent {limit} suggestions today, try again tomorrow."
             },
             "error": {
                 "notFound": "That error no longer exists."
@@ -2962,7 +2958,16 @@
             "translateInvalidLang": "That language code is not valid.",
             "translateLangExists": "This language already exists.",
             "translateUnknownKey": "Unknown translation key.",
-            "translateEmpty": "Please enter a translation."
+            "translateEmpty": "Please enter a translation.",
+            "translation": {
+                "langInvalid": "Invalid language code.",
+                "statusInvalid": "Invalid status.",
+                "keyMissing": "No key given.",
+                "empty": "The text cannot be empty.",
+                "tooLong": "The text is too long.",
+                "langExists": "{code} has already been proposed.",
+                "notFound": "This entry no longer exists."
+            }
         },
         "admin": {
             "metaTitle": "Admin",
@@ -2980,17 +2985,19 @@
             "suggestions": {
                 "title": "Suggestions",
                 "empty": "No suggestions.",
-                "by": "by {user} in #{channel}",
-                "pending": "pending",
-                "approved": "approved",
                 "approve": "Approve",
                 "finish": "Finish",
-                "delete": "Delete suggestion {id}"
+                "delete": "Delete suggestion {id}",
+                "confirmTitle": "Delete suggestion?",
+                "confirmBody": "Suggestion #{id} will be deleted without notifying anyone.",
+                "confirmDelete": "Delete"
             },
             "errors": {
                 "title": "Errors",
                 "empty": "No errors.",
-                "delete": "Delete error {id}"
+                "delete": "Delete error {id}",
+                "search": "Search errors…",
+                "allTypes": "All"
             },
             "channels": {
                 "title": "Channels",
@@ -3014,7 +3021,8 @@
                 "since": "Started {date}",
                 "lastError": "Last error",
                 "ago": "{delta|time(largest|1)} ago",
-                "noErrors": "none"
+                "noErrors": "none",
+                "commit": "Commit"
             },
             "translations": {
                 "title": "Translation reviews",
@@ -3023,6 +3031,18 @@
                 "empty": "Nothing to review.",
                 "approve": "Approve",
                 "reject": "Reject"
+            },
+            "tabs": {
+                "overview": "Overview",
+                "channels": "Channels",
+                "suggestions": "Suggestions",
+                "translations": "Translations",
+                "errors": "Errors",
+                "botties": "Botties",
+                "seventv": "7TV"
+            },
+            "seventv": {
+                "search": "Search channels…"
             }
         }
     },

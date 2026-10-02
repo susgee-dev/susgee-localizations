@@ -2091,34 +2091,24 @@
                     "success": "Your suggestion has been submitted successfully and sent to the team! Thank you."
                 },
                 "tabs": {
-                    "mine": "My suggestions",
-                    "community": "Community suggestions",
-                    "allAdmin": "All suggestions (Admin)"
+                    "mine": "My suggestions"
                 },
                 "filters": {
                     "all": "All",
                     "pending": "Pending",
-                    "approved": "Approved",
-                    "finished": "Finished"
+                    "approved": "Approved"
                 },
                 "status": {
                     "pending": "Pending",
-                    "approved": "Approved",
-                    "finished": "Finished",
-                    "rejected": "Rejected"
+                    "approved": "Approved"
                 },
                 "empty": {
                     "title": "No suggestions found",
-                    "mine": "You have not submitted any suggestions yet or the filter excludes them.",
-                    "community": "No matching community suggestions right now."
+                    "mine": "You have not submitted any suggestions yet or the filter excludes them."
                 },
                 "errors": {
-                    "save": "Could not save the suggestion.",
-                    "empty": "The suggestion cannot be empty.",
-                    "tooShort": "The suggestion must be at least 5 characters.",
-                    "tooLong": "The suggestion must not exceed 2000 characters."
-                },
-                "adminPanel": "Manage in admin panel"
+                    "save": "Could not save the suggestion."
+                }
             }
         },
         "common": {
@@ -2919,9 +2909,6 @@
             "suggestions": {
                 "title": "Sugerencias",
                 "empty": "No hay sugerencias.",
-                "by": "de {user} en #{channel}",
-                "pending": "pendiente",
-                "approved": "aprobada",
                 "approve": "Aprobar",
                 "finish": "Terminar",
                 "delete": "Eliminar sugerencia {id}"

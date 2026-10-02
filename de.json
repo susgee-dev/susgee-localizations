@@ -2095,34 +2095,25 @@
                     "success": "Dein Vorschlag wurde erfolgreich eingereicht und an das Team gesendet! Vielen Dank."
                 },
                 "tabs": {
-                    "mine": "Meine Vorschläge",
-                    "community": "Community-Vorschläge",
-                    "allAdmin": "Alle Vorschläge (Admin)"
+                    "mine": "Meine Vorschläge"
                 },
                 "filters": {
                     "all": "Alle",
                     "pending": "Offen",
-                    "approved": "Angenommen",
-                    "finished": "Umgesetzt"
+                    "approved": "Angenommen"
                 },
                 "status": {
                     "pending": "Offen",
-                    "approved": "Angenommen",
-                    "finished": "Umgesetzt",
-                    "rejected": "Abgelehnt"
+                    "approved": "Angenommen"
                 },
                 "empty": {
                     "title": "Keine Vorschläge gefunden",
-                    "mine": "Du hast noch keine Vorschläge eingereicht oder der Filter schließt sie aus.",
-                    "community": "Aktuell gibt es keine passenden Community-Vorschläge."
+                    "mine": "Du hast noch keine Vorschläge eingereicht oder der Filter schliesst sie aus."
                 },
                 "errors": {
-                    "save": "Vorschlag konnte nicht gespeichert werden.",
-                    "empty": "Der Vorschlag darf nicht leer sein.",
-                    "tooShort": "Der Vorschlag muss mindestens 5 Zeichen lang sein.",
-                    "tooLong": "Der Vorschlag darf höchstens 2000 Zeichen lang sein."
+                    "save": "Vorschlag konnte nicht gespeichert werden."
                 },
-                "adminPanel": "Im Admin-Panel verwalten"
+                "manage": "Alle verwalten"
             },
             "emoteUsage": {
                 "metaTitle": "Emote-Nutzung",
@@ -2193,7 +2184,8 @@
             "public": "Öffentlich",
             "chars": "{used} / {limit}",
             "id": "ID:",
-            "new": "neu"
+            "new": "neu",
+            "showMore": "Mehr anzeigen ({shown} von {total})"
         },
         "nav": {
             "commands": "Commands",
@@ -2210,7 +2202,8 @@
             "home": "Susgee Startseite",
             "language": "Sprache",
             "admin": "Admin",
-            "suggestions": "Vorschläge"
+            "suggestions": "Vorschläge",
+            "back": "Zurück"
         },
         "errors": {
             "badRequest": {
@@ -2947,7 +2940,10 @@
             },
             "suggestion": {
                 "actionInvalid": "Unbekannte Aktion.",
-                "notFound": "Diesen Vorschlag gibt es nicht mehr."
+                "notFound": "Diesen Vorschlag gibt es nicht mehr.",
+                "tooShort": "Der Vorschlag muss mindestens {min} Zeichen lang sein.",
+                "tooLong": "Der Vorschlag darf höchstens {max} Zeichen lang sein.",
+                "dailyLimit": "Du hast heute schon {limit} Vorschläge eingereicht, versuch es morgen wieder."
             },
             "error": {
                 "notFound": "Diesen Fehler gibt es nicht mehr."
@@ -2962,7 +2958,16 @@
             "translateInvalidLang": "Dieser Sprachcode ist ungültig.",
             "translateLangExists": "Diese Sprache gibt es schon.",
             "translateUnknownKey": "Unbekannter Übersetzungsschlüssel.",
-            "translateEmpty": "Bitte eine Übersetzung eingeben."
+            "translateEmpty": "Bitte eine Übersetzung eingeben.",
+            "translation": {
+                "langInvalid": "Ungültiger Sprachcode.",
+                "statusInvalid": "Ungültiger Status.",
+                "keyMissing": "Kein Key angegeben.",
+                "empty": "Der Text darf nicht leer sein.",
+                "tooLong": "Der Text ist zu lang.",
+                "langExists": "{code} wurde schon vorgeschlagen.",
+                "notFound": "Diesen Eintrag gibt es nicht mehr."
+            }
         },
         "admin": {
             "metaTitle": "Admin",
@@ -2980,17 +2985,19 @@
             "suggestions": {
                 "title": "Vorschläge",
                 "empty": "Keine Vorschläge.",
-                "by": "von {user} in #{channel}",
-                "pending": "offen",
-                "approved": "angenommen",
                 "approve": "Annehmen",
                 "finish": "Erledigt",
-                "delete": "Vorschlag {id} löschen"
+                "delete": "Vorschlag {id} löschen",
+                "confirmTitle": "Vorschlag löschen?",
+                "confirmBody": "Vorschlag #{id} wird gelöscht, ohne dass jemand benachrichtigt wird.",
+                "confirmDelete": "Löschen"
             },
             "errors": {
                 "title": "Fehler",
                 "empty": "Keine Fehler.",
-                "delete": "Fehler {id} löschen"
+                "delete": "Fehler {id} löschen",
+                "search": "Fehler durchsuchen…",
+                "allTypes": "Alle"
             },
             "channels": {
                 "title": "Channels",
@@ -3014,7 +3021,8 @@
                 "since": "Start {date}",
                 "lastError": "Letzter Fehler",
                 "ago": "vor {delta|time(largest|1)}",
-                "noErrors": "keiner"
+                "noErrors": "keiner",
+                "commit": "Commit"
             },
             "translations": {
                 "title": "Übersetzungen prüfen",
@@ -3023,6 +3031,18 @@
                 "empty": "Nichts zu prüfen.",
                 "approve": "Annehmen",
                 "reject": "Ablehnen"
+            },
+            "tabs": {
+                "overview": "Übersicht",
+                "channels": "Channels",
+                "suggestions": "Vorschläge",
+                "translations": "Übersetzungen",
+                "errors": "Fehler",
+                "botties": "Botties",
+                "seventv": "7TV"
+            },
+            "seventv": {
+                "search": "Channels suchen…"
             }
         }
     },

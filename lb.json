@@ -2091,34 +2091,24 @@
                     "success": "Dein Vorschlag wurde erfolgreich eingereicht und an das Team gesendet! Vielen Dank."
                 },
                 "tabs": {
-                    "mine": "Meine Vorschläge",
-                    "community": "Community-Vorschläge",
-                    "allAdmin": "Alle Vorschläge (Admin)"
+                    "mine": "Meine Vorschläge"
                 },
                 "filters": {
                     "all": "Alle",
                     "pending": "Offen",
-                    "approved": "Angenommen",
-                    "finished": "Umgesetzt"
+                    "approved": "Angenommen"
                 },
                 "status": {
                     "pending": "Offen",
-                    "approved": "Angenommen",
-                    "finished": "Umgesetzt",
-                    "rejected": "Abgelehnt"
+                    "approved": "Angenommen"
                 },
                 "empty": {
                     "title": "Keine Vorschläge gefunden",
-                    "mine": "Du hast noch keine Vorschläge eingereicht oder der Filter schließt sie aus.",
-                    "community": "Aktuell gibt es keine passenden Community-Vorschläge."
+                    "mine": "Du hast noch keine Vorschläge eingereicht oder der Filter schließt sie aus."
                 },
                 "errors": {
-                    "save": "Vorschlag konnte nicht gespeichert werden.",
-                    "empty": "Der Vorschlag darf nicht leer sein.",
-                    "tooShort": "Der Vorschlag muss mindestens 5 Zeichen lang sein.",
-                    "tooLong": "Der Vorschlag darf höchstens 2000 Zeichen lang sein."
-                },
-                "adminPanel": "Im Admin-Panel verwalten"
+                    "save": "Vorschlag konnte nicht gespeichert werden."
+                }
             }
         },
         "common": {
@@ -2919,9 +2909,6 @@
             "suggestions": {
                 "title": "Virschléi",
                 "empty": "keng virschléi.",
-                "by": "vun {user} an #{channel}",
-                "pending": "oppen",
-                "approved": "ugeholl",
                 "approve": "Unhuelen",
                 "finish": "Fäerdeg",
                 "delete": "virschlag {id} läschen"
