@@ -1937,6 +1937,10 @@
                     "uploader": {
                         "title": "Susgee Uploader",
                         "description": "Bilder und Videos mit unserem Hosting-Dienst hochladen und teilen."
+                    },
+                    "emoteUsage": {
+                        "title": "Emote-Nutzung",
+                        "description": "Top-Emote-Stats pro Channel oder über das gesamte Network."
                     }
                 }
             },
@@ -2119,6 +2123,51 @@
                     "tooLong": "Der Vorschlag darf höchstens 2000 Zeichen lang sein."
                 },
                 "adminPanel": "Im Admin-Panel verwalten"
+            },
+            "emoteUsage": {
+                "metaTitle": "Emote-Nutzung",
+                "metaDescription": "Sieh, welche Emotes in einem Channel oder im gesamten Susgee-Network am häufigsten genutzt werden.",
+                "title": "Emote-Nutzung",
+                "description": "Top-Emote-Stats für einen Channel oder über alle geloggten Channels — Counts, letzte Nutzung und Active-Status.",
+                "modes": {
+                    "network": "Network",
+                    "channel": "Channel"
+                },
+                "channel": "Channel",
+                "channelPlaceholder": "Username oder Twitch-ID",
+                "search": "Nutzung anzeigen",
+                "refresh": "Aktualisieren",
+                "networkHint": "Aggregierte Nutzung über alle Channels, die der Bot loggt.",
+                "networkTitle": "Network-Leaderboard",
+                "networkSubtitle": "Top-Emotes über alle geloggten Channels.",
+                "inactive": "Nicht im Set",
+                "filterSearch": "Nach Emote-Name oder ID filtern…",
+                "empty": "Keine Emotes passen zu diesen Filtern.",
+                "showing": "Zeige {shown} von {total}",
+                "channelCount": "{count} Channels",
+                "stats": {
+                    "emotes": "Emotes",
+                    "uses": "Nutzungen gesamt",
+                    "channelsReached": "Channel-Treffer"
+                },
+                "columns": {
+                    "emote": "Emote",
+                    "uses": "Nutzungen",
+                    "lastUsed": "Zuletzt",
+                    "channels": "Channels"
+                },
+                "activeFilter": {
+                    "all": "Alle",
+                    "active": "Aktiv",
+                    "removed": "Entfernt"
+                },
+                "errors": {
+                    "noChannel": "Bitte Username oder ID eingeben.",
+                    "notFound": "Channel oder User nicht gefunden.",
+                    "notJoined": "Dieser Channel ist nicht vom Bot gejoint (Logging).",
+                    "rateLimit": "Rate-Limit erreicht — bitte kurz warten.",
+                    "api": "Emote-Nutzung konnte nicht geladen werden."
+                }
             }
         },
         "common": {
@@ -2254,7 +2303,9 @@
             "addPing": "Der Ping konnte nicht hinzugefügt werden.",
             "saveAlert": "Der Alert konnte nicht gespeichert werden.",
             "removeAlert": "Der Alert konnte nicht deaktiviert werden.",
-            "loadAudit": "Der Verlauf konnte nicht geladen werden."
+            "loadAudit": "Der Verlauf konnte nicht geladen werden.",
+            "lookupChannelEmoteUsage": "Channel-Emote-Nutzung konnte nicht geladen werden.",
+            "lookupNetworkEmoteUsage": "Network-Emote-Nutzung konnte nicht geladen werden."
         },
         "dashboard": {
             "title": "Dashboard",
