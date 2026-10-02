@@ -2128,7 +2128,7 @@
                 "metaTitle": "Emote-Nutzung",
                 "metaDescription": "Sieh, welche Emotes in einem Channel oder im gesamten Susgee-Network am häufigsten genutzt werden.",
                 "title": "Emote-Nutzung",
-                "description": "Top-Emote-Stats für einen Channel oder über alle geloggten Channels — Counts, letzte Nutzung und Active-Status.",
+                "description": "Top-Emote-Stats nach Platform für einen Channel oder das Network — Network zusätzlich mit Globals-Spalte.",
                 "modes": {
                     "network": "Network",
                     "channel": "Channel"
@@ -2167,6 +2167,9 @@
                     "notJoined": "Dieser Channel ist nicht vom Bot gejoint (Logging).",
                     "rateLimit": "Rate-Limit erreicht — bitte kurz warten.",
                     "api": "Emote-Nutzung konnte nicht geladen werden."
+                },
+                "platformColumns": {
+                    "globals": "Globals"
                 }
             }
         },

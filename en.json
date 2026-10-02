@@ -2128,7 +2128,7 @@
                 "metaTitle": "Emote usage",
                 "metaDescription": "See which emotes are used most in a channel or across the whole Susgee network.",
                 "title": "Emote usage",
-                "description": "Top emote stats for a channel or across every logged channel — counts, last use, and active status.",
+                "description": "Top emote stats by platform for a channel or across the network — plus a Globals column for network-wide global emotes.",
                 "modes": {
                     "network": "Network",
                     "channel": "Channel"
@@ -2167,6 +2167,9 @@
                     "notJoined": "That channel is not joined by the bot (logging).",
                     "rateLimit": "Rate limit hit — try again in a moment.",
                     "api": "Could not load emote usage."
+                },
+                "platformColumns": {
+                    "globals": "Globals"
                 }
             }
         },
