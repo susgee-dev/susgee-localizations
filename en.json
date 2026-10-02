@@ -2171,7 +2171,8 @@
                 "platformColumns": {
                     "globals": "Globals",
                     "bttvFfz": "BTTV / FFZ"
-                }
+                },
+                "lastUsed": "Last used"
             }
         },
         "common": {
