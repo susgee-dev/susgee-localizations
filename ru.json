@@ -490,6 +490,10 @@
     "eCountUser": {
         "entry": "{user|antiPing} использовал эмоут {emote} {entries|plural(one|раз, other|раз)} в канале {channel|antiPing}"
     },
+    "eLast": {
+        "entry": "эмоут {emote} последний раз использовали {date} в канале {channel|antiPing} ({delta|time} назад)",
+        "noEntries": "susgeeDank в базе ничего нет для {emote}"
+    },
     "emote": {
         "artist": "Художник: @{artist}",
         "channel": "Канал @{channel}"
@@ -1237,6 +1241,10 @@
         "eCountUser": {
             "usage": "<эмоут> <пользователь> <канал>",
             "description": "показывает, сколько раз пользователь использовал эмоут в канале"
+        },
+        "eLast": {
+            "usage": "<эмоут> <канал>",
+            "description": "показывает, когда эмоут последний раз использовали в канале"
         },
         "emote": {
             "usage": "<эмоут>",

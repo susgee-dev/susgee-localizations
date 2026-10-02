@@ -490,6 +490,10 @@
     "eCountUser": {
         "entry": "{user|antiPing} huet d'emote {emote} {entries|plural(one|kéier, other|mol)} am kanal {channel|antiPing} benotzt"
     },
+    "eLast": {
+        "entry": "emote {emote} gouf fir d'lescht den {date} am kanal {channel|antiPing} benotzt (virun {delta|time})",
+        "noEntries": "susgeeDank keng enträg fir {emote} an der datenbank fonnt"
+    },
     "emote": {
         "artist": "kënschtler: @{artist}",
         "channel": "kanal @{channel}"
@@ -1237,6 +1241,10 @@
         "eCountUser": {
             "usage": "<emote> <user> <channel>",
             "description": "weist wéi oft en notzer en emote an engem kanal benotzt huet"
+        },
+        "eLast": {
+            "usage": "<emote> <channel>",
+            "description": "weist wéini en emote fir d'lescht an engem kanal benotzt gouf"
         },
         "emote": {
             "usage": "<emote>",

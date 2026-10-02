@@ -490,6 +490,10 @@
     "eCountUser": {
         "entry": "{user|antiPing} used the emote {emote} {entries|plural(one|time, other|times)} in the channel {channel|antiPing}"
     },
+    "eLast": {
+        "entry": "emote {emote} was last used on {date} in channel {channel|antiPing} ({delta|time} ago)",
+        "noEntries": "susgeeDank no entries found for {emote} in the database"
+    },
     "emote": {
         "artist": "artist: @{artist}",
         "channel": "channel @{channel}"
@@ -1237,6 +1241,10 @@
         "eCountUser": {
             "usage": "<emote> <user> <channel>",
             "description": "shows how often an emote has been used by a user in a channel"
+        },
+        "eLast": {
+            "usage": "<emote> <channel>",
+            "description": "shows when an emote was last used in a channel"
         },
         "emote": {
             "usage": "<emote>",
