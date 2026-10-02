@@ -2169,7 +2169,8 @@
                     "api": "Emote-Nutzung konnte nicht geladen werden."
                 },
                 "platformColumns": {
-                    "globals": "Globals"
+                    "globals": "Globals",
+                    "bttvFfz": "BTTV / FFZ"
                 }
             }
         },

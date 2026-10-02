@@ -2169,7 +2169,8 @@
                     "api": "Could not load emote usage."
                 },
                 "platformColumns": {
-                    "globals": "Globals"
+                    "globals": "Globals",
+                    "bttvFfz": "BTTV / FFZ"
                 }
             }
         },
