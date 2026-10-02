@@ -2137,7 +2137,7 @@
                 "channelPlaceholder": "Username or Twitch ID",
                 "search": "Show usage",
                 "refresh": "Refresh",
-                "networkHint": "Aggregated usage across all channels the bot is logging.",
+                "networkHint": "Live network stats across all logged channels, plus global emotes.",
                 "networkTitle": "Network leaderboard",
                 "networkSubtitle": "Top emotes across every logged channel.",
                 "inactive": "Not in set",
@@ -2172,7 +2172,8 @@
                     "globals": "Globals",
                     "bttvFfz": "BTTV / FFZ"
                 },
-                "lastUsed": "Last used"
+                "lastUsed": "Last used",
+                "live": "Live"
             }
         },
         "common": {

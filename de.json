@@ -2137,7 +2137,7 @@
                 "channelPlaceholder": "Username oder Twitch-ID",
                 "search": "Nutzung anzeigen",
                 "refresh": "Aktualisieren",
-                "networkHint": "Aggregierte Nutzung über alle Channels, die der Bot loggt.",
+                "networkHint": "Live Network-Stats über alle geloggten Channels, plus Global-Emotes.",
                 "networkTitle": "Network-Leaderboard",
                 "networkSubtitle": "Top-Emotes über alle geloggten Channels.",
                 "inactive": "Nicht im Set",
@@ -2172,7 +2172,8 @@
                     "globals": "Globals",
                     "bttvFfz": "BTTV / FFZ"
                 },
-                "lastUsed": "Zuletzt genutzt"
+                "lastUsed": "Zuletzt genutzt",
+                "live": "Live"
             }
         },
         "common": {
