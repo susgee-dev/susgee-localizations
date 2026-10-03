@@ -1841,6 +1841,7 @@
                 "reminder": "Активных напоминаний",
                 "afk": "Активных АФК",
                 "botties": "Игроков Botties",
+                "trackedEmotes": "Отслеживаемые эмоуты",
                 "title": "Статистика",
                 "description": "Статистика Susgeebot в реальном времени.",
                 "liveConnection": "Живое соединение",

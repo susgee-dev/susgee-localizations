@@ -1841,6 +1841,7 @@
                 "reminder": "Aktive Reminder",
                 "afk": "Aktive AFKs",
                 "botties": "Botties-Spieler",
+                "trackedEmotes": "Getrackte Emotes",
                 "title": "Stats",
                 "description": "Statistiken von Susgeebot in Echtzeit.",
                 "liveConnection": "Live-Verbindung",
