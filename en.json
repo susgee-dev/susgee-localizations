@@ -1773,7 +1773,8 @@
             "searching": "Searching…",
             "search": "Search",
             "selectOptions": "Select options",
-            "remove": "Remove {name}"
+            "remove": "Remove {name}",
+            "selectOption": "Select option"
         },
         "footer": {
             "rightsReserved": "not affiliated with Twitch",
@@ -1996,7 +1997,8 @@
                 "basedOnClip": "Based on a clip from",
                 "approximate": "(the clip's VOD is gone, using the clip creation time instead, less accurate)",
                 "openVod": "Open VOD at timestamp",
-                "player": "Twitch VOD player"
+                "player": "Twitch VOD player",
+                "offset": "{hours}h {minutes}m {seconds}s"
             },
             "seventv": {
                 "metaTitle": "7TV editor permissions",
@@ -2078,7 +2080,9 @@
                 },
                 "errors": {
                     "save": "Could not save the translation."
-                }
+                },
+                "namePlaceholder": "French",
+                "nativeNamePlaceholder": "Français"
             },
             "suggestions": {
                 "metaTitle": "Suggestions",
@@ -2580,7 +2584,10 @@
                 "day": "Day",
                 "month": "Month",
                 "remove": "Remove the birthday of {name}",
-                "date": "{day}.{month}."
+                "date": "{day}.{month}.",
+                "confirmTitle": "Remove birthday",
+                "confirmMessage": "Are you sure you want to remove the birthday for {name} ({date})?",
+                "confirmButton": "Remove"
             },
             "metaAudit": "History of {name}",
             "audit": {
