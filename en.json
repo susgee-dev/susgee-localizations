@@ -3055,7 +3055,7 @@
                 "title": "Changelog",
                 "create": "New release",
                 "edit": "Edit release",
-                "hint": "Use `code` and [label](/path) in titles and descriptions.",
+                "hint": "Select text, then use code or link. Preview matches the public changelog.",
                 "date": "Date",
                 "item": "Item {n}",
                 "itemTitle": "Title",
@@ -3069,7 +3069,13 @@
                 "cancel": "Cancel",
                 "empty": "No changelog entries yet.",
                 "itemCount": "{count|plural(one|item, other|items)}",
-                "delete": "Delete release"
+                "delete": "Delete release",
+                "formatCode": "Code",
+                "formatLink": "Link",
+                "linkLabel": "Label",
+                "linkHref": "URL",
+                "applyLink": "Insert link",
+                "preview": "Preview"
             }
         }
     },
