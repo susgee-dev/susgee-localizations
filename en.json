@@ -1791,17 +1791,43 @@
                     "7tv": {
                         "title": "7TV integration",
                         "description": "Manage your channel emotes directly from the chat with simple commands.",
-                        "cta": "Discover all 7TV commands"
+                        "cta": "Discover all 7TV commands",
+                        "demos": {
+                            "add": "<ok></ok> added emote Susge",
+                            "yoink": "<ok></ok> Emote PepeHands yoinked from channel xqcow",
+                            "rename": "<ok></ok> Susge renamed to Susgeebot",
+                            "whoAdded": "<noted></noted> Emote Susge was added by username 2 hours ago",
+                            "presence": "<ok></ok> (7TV) presence updated",
+                            "syncset": "<ok></ok> successfully synced with emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
+                        }
                     },
                     "economy": {
                         "title": "Economy & games",
                         "description": "Engage your community with a full-featured economy system and interactive games.",
-                        "cta": "Check out Botties commands"
+                        "cta": "Check out Botties commands",
+                        "demos": {
+                            "botties": "@username 💡 Divine! You have created 41 divine software solutions! Your genius is unmatched, and your technologies will become legendary! • 🏦 208 botties, prestige 5",
+                            "gambaLost": "@username you lost 📉 961 botties! you now have 0 botties",
+                            "gambaWon": "@username you won 📈 104 botties! you now have 312 botties",
+                            "prestige": "prestige successful! you now have 50 botties and are in prestige 6. next prestige costs 1000 botties",
+                            "give": "you gave susgeebot 100 botties. you now have 150 botties, susgeebot now has 250 botties",
+                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gambled: 1250 botties • Biggest win: 250 botties • Biggest loss: 100 botties",
+                            "gambaWonSmall": "@username you won 📈 50 botties! you now have 200 botties"
+                        }
                     },
                     "tools": {
                         "title": "Tools & more",
                         "description": "Discover our tools and more to enhance your chat experience.",
-                        "cta": "Explore utility commands"
+                        "cta": "Explore utility commands",
+                        "demos": {
+                            "gpt": "Hello @username ! The exact number of Twitch bots can vary since new ones can be created and others might be discontinued. However, some popular Twitch bots include Nightbot, Moobot, and Streamlabs Cloudbot. These bots help with moderating chat, running polls, managing giveaways, and more.",
+                            "ezgif": "<ok></ok> <link>https://s.susgee.dev/5C5DH8uz</link>",
+                            "subage": "<glitch></glitch> susgeebot • subscribed to revedtv for 58 months • 57 month streak • Tier 1 sub • renews in 2 months, 21 hours and 33 minutes",
+                            "short": "<ok></ok> https://s.susgee.dev/abc123",
+                            "weather": "📍 Berlin 🇩🇪 🌥️ weather: Partly cloudy 🌡️ temperature: 18°C 🌡️ feels like: 17°C 💧 humidity: 65% 🌬️ windspeed: 12 km/h 🌅 sunrise: 06:15 🌆 sunset: 20:30",
+                            "regex": "<ok></ok> Chatterino regex: /test/i",
+                            "randomColor": "<ok></ok> #FF5733"
+                        }
                     }
                 },
                 "modes": {
@@ -2533,6 +2559,26 @@
                     "count": "Counts up by one on every use",
                     "customApi": "Fetch data from an external URL (allowlisted hosts only). The URL can include any variable, arguments like $(1) included - every value is URL encoded",
                     "allowlist": "Custom API allowlist (requests outside it are blocked). Contact us if you need an addition"
+                },
+                "docsExamples": {
+                    "channel": "Welcome to $(channel)'s stream!",
+                    "channelId": "Current channel ID: $(channelId)",
+                    "sender": "Thanks for lurking, $(sender)!",
+                    "senderId": "Sender ID: $(senderId)",
+                    "user": "Thanks for lurking, $(user)!",
+                    "argument": "Shoutout to $(1)! Check them out at twitch.tv/$(1)",
+                    "rest": "Note saved: $(1:)",
+                    "fallback": "golive now $(1|channel)!",
+                    "streamTitle": "Now live: $(title)",
+                    "game": "Playing: $(game)",
+                    "followers": "$(channel) has $(followers) followers",
+                    "randomNumber": "You rolled a $(random.number 1 6)",
+                    "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
+                    "time": "It is $(time Europe/Zurich) here",
+                    "count": "$(channel) has said something questionable $(count) times",
+                    "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
+                    "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
+                    "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
                 }
             },
             "builtin": {
@@ -2749,17 +2795,26 @@
             "list": {
                 "title": "?notifications",
                 "lead": "Shows what this channel is subscribed to and who gets pinged for it.",
-                "body": "Anyone can use it. We answer with a paste link, because a busy channel has far more subscriptions than fit into one chat message."
+                "body": "Anyone can use it. We answer with a paste link, because a busy channel has far more subscriptions than fit into one chat message.",
+                "demo": "susgeeOK 8 active notifications in #lilb_lxryer susgeePoint p.susgee.dev/abc"
             },
             "notify": {
                 "title": "?notify and ?unnotify",
                 "lead": "Turns a notification on or off for the whole channel. Mods only.",
-                "body": "Types that have no target work the same way, you just leave the second word out. <data>?notify 7tv</data> subscribes your channel to 7TV's global changes."
+                "body": "Types that have no target work the same way, you just leave the second word out. <data>?notify 7tv</data> subscribes your channel to 7TV's global changes.",
+                "demo": {
+                    "subscribe": "susgeeOK subscribed to live updates",
+                    "unsubscribe": "susgeeOK unsubscribed from live updates"
+                }
             },
             "pingme": {
                 "title": "?pingme",
                 "lead": "Signs you up personally, so we ping you by name. Anyone can use it.",
-                "body": "Run it again to remove yourself. For <data>live</data>, the channel needs the subscription first, which a mod sets with <data>?notify live forsen</data>. We never create that channel subscription from <data>?pingme</data>, otherwise any viewer could turn on a mod-only setting through the back door."
+                "body": "Run it again to remove yourself. For <data>live</data>, the channel needs the subscription first, which a mod sets with <data>?notify live forsen</data>. We never create that channel subscription from <data>?pingme</data>, otherwise any viewer could turn on a mod-only setting through the back door.",
+                "demo": {
+                    "live": "susgeeOK i will ping you for live updates of forsen",
+                    "subgift": "susgeeOK I will notify you when I detect a subgift for you"
+                }
             },
             "types": {
                 "title": "Types",
