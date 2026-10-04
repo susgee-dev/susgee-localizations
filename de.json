@@ -1793,12 +1793,12 @@
                         "description": "Verwalte die Emotes deines Channels direkt aus dem Chat, mit einfachen Commands.",
                         "cta": "Alle 7TV-Commands entdecken",
                         "demos": {
-                            "add": "<ok></ok> added emote Susge",
-                            "yoink": "<ok></ok> Emote PepeHands yoinked from channel xqcow",
-                            "rename": "<ok></ok> Susge renamed to Susgeebot",
-                            "whoAdded": "<noted></noted> Emote Susge was added by username 2 hours ago",
-                            "presence": "<ok></ok> (7TV) presence updated",
-                            "syncset": "<ok></ok> successfully synced with emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
+                            "add": "<ok></ok> Emote Susge hinzugefügt",
+                            "yoink": "<ok></ok> Emote PepeHands yoinked vom Channel xqcow",
+                            "rename": "<ok></ok> Susge umbenannt in Susgeebot",
+                            "whoAdded": "<noted></noted> Emote Susge wurde von username vor 2 hours hinzugefügt",
+                            "presence": "<ok></ok> (7TV) Presence aktualisiert",
+                            "syncset": "<ok></ok> Emote-Set erfolgreich synchronisiert mit <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
                         }
                     },
                     "economy": {
@@ -1806,13 +1806,13 @@
                         "description": "Bring deine Community mit einem vollständigen Wirtschaftssystem und interaktiven Spielen zusammen.",
                         "cta": "Botties-Commands ansehen",
                         "demos": {
-                            "botties": "@username 💡 Divine! You have created 41 divine software solutions! Your genius is unmatched, and your technologies will become legendary! • 🏦 208 botties, prestige 5",
-                            "gambaLost": "@username you lost 📉 961 botties! you now have 0 botties",
-                            "gambaWon": "@username you won 📈 104 botties! you now have 312 botties",
-                            "prestige": "prestige successful! you now have 50 botties and are in prestige 6. next prestige costs 1000 botties",
-                            "give": "you gave susgeebot 100 botties. you now have 150 botties, susgeebot now has 250 botties",
-                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gambled: 1250 botties • Biggest win: 250 botties • Biggest loss: 100 botties",
-                            "gambaWonSmall": "@username you won 📈 50 botties! you now have 200 botties"
+                            "botties": "@username 💡 Göttlich! Du hast 41 göttliche Software-Lösungen geschaffen! Dein Genie ist unübertroffen, und deine Technologien werden legendär! • 🏦 208 Botties, Prestige 5",
+                            "gambaLost": "@username Du hast 961 Botties verloren 📉! Du hast jetzt 0 Botties",
+                            "gambaWon": "@username Du hast 104 Botties gewonnen 📈! Du hast jetzt 312 Botties",
+                            "prestige": "Prestige erfolgreich! Du hast jetzt 50 Botties und bist im Prestige 6. Nächstes Prestige kostet 1000 Botties",
+                            "give": "Du gibst susgeebot 100 Botties. Du hast jetzt 150 Botties, susgeebot hat jetzt 250 Botties",
+                            "stats": "susgeebot 🏦 500 Botties, Prestige 3 • Gesamt gewettet: 1250 Botties • Größter Gewinn: 250 Botties • Größter Verlust: 100 Botties",
+                            "gambaWonSmall": "@username Du hast 50 Botties gewonnen 📈! Du hast jetzt 200 Botties"
                         }
                     },
                     "tools": {
@@ -1820,11 +1820,11 @@
                         "description": "Entdecke unsere Tools und mehr, um dein Chat-Erlebnis zu verbessern.",
                         "cta": "Nützliche Commands entdecken",
                         "demos": {
-                            "gpt": "Hello @username ! The exact number of Twitch bots can vary since new ones can be created and others might be discontinued. However, some popular Twitch bots include Nightbot, Moobot, and Streamlabs Cloudbot. These bots help with moderating chat, running polls, managing giveaways, and more.",
+                            "gpt": "Hallo @username ! Die genaue Zahl der Twitch-Bots schwankt, weil ständig neue entstehen und andere eingestellt werden. Bekannte Bots sind zum Beispiel Nightbot, Moobot und Streamlabs Cloudbot – sie helfen bei Moderation, Umfragen, Giveaways und mehr.",
                             "ezgif": "<ok></ok> <link>https://s.susgee.dev/5C5DH8uz</link>",
-                            "subage": "<glitch></glitch> susgeebot • subscribed to revedtv for 58 months • 57 month streak • Tier 1 sub • renews in 2 months, 21 hours and 33 minutes",
+                            "subage": "<glitch></glitch> susgeebot • Sub bei revedtv seit {months|plural(one|Monat, other|Monaten)} • 57-monatige Streak • Tier 1 Sub • erneuert sich in 2 months, 21 hours and 33 minutes",
                             "short": "<ok></ok> https://s.susgee.dev/abc123",
-                            "weather": "📍 Berlin 🇩🇪 🌥️ weather: Partly cloudy 🌡️ temperature: 18°C 🌡️ feels like: 17°C 💧 humidity: 65% 🌬️ windspeed: 12 km/h 🌅 sunrise: 06:15 🌆 sunset: 20:30",
+                            "weather": "📍 Berlin 🇩🇪 🌥️ Wetter: Partly cloudy 🌡️ Temperatur: 18°C 🌡️ Gefühlt: 17°C 💧 Luftfeuchtigkeit: 65% 🌬️ Windgeschwindigkeit: 12 km/h 🌅 Sonnenaufgang: 06:15 🌆 Sonnenuntergang: 20:30",
                             "regex": "<ok></ok> Chatterino regex: /test/i",
                             "randomColor": "<ok></ok> #FF5733"
                         }
@@ -2796,15 +2796,15 @@
                 "title": "?notifications",
                 "lead": "Zeigt, was dieser Channel abonniert hat und wer dafür gepingt wird.",
                 "body": "Jeder kann ihn benutzen. Wir antworten mit einem Paste-Link, weil ein voller Channel weit mehr Abos hat, als in eine Chat-Nachricht passen.",
-                "demo": "susgeeOK 8 active notifications in #lilb_lxryer susgeePoint p.susgee.dev/abc"
+                "demo": "susgeeOK 8 aktive Benachrichtigungen in #lilb_lxryer susgeePoint p.susgee.dev/abc"
             },
             "notify": {
                 "title": "?notify und ?unnotify",
                 "lead": "Schaltet eine Benachrichtigung für den ganzen Channel ein oder aus. Nur für Mods.",
                 "body": "Typen ohne Ziel funktionieren genauso, du lässt nur das zweite Wort weg. <data>?notify 7tv</data> abonniert die globalen Änderungen von 7TV für deinen Channel.",
                 "demo": {
-                    "subscribe": "susgeeOK subscribed to live updates",
-                    "unsubscribe": "susgeeOK unsubscribed from live updates"
+                    "subscribe": "susgeeOK Live-Updates abonniert",
+                    "unsubscribe": "susgeeOK Live-Updates abbestellt"
                 }
             },
             "pingme": {
@@ -2812,8 +2812,8 @@
                 "lead": "Meldet dich persönlich an, damit wir dich mit Namen pingen. Jeder kann ihn benutzen.",
                 "body": "Führ ihn nochmal aus, um dich wieder abzumelden. Bei <data>live</data> braucht der Channel zuerst das Abo, das ein Mod mit <data>?notify live forsen</data> setzt. Dieses Channel-Abo legen wir über <data>?pingme</data> nie an, sonst könnte jeder Zuschauer durch die Hintertür eine Mod-Einstellung einschalten.",
                 "demo": {
-                    "live": "susgeeOK i will ping you for live updates of forsen",
-                    "subgift": "susgeeOK I will notify you when I detect a subgift for you"
+                    "live": "susgeeOK Ich pinge dich bei Live-Updates von forsen",
+                    "subgift": "susgeeOK Ich werde dich pingen, wenn ich ein Subgift für dich erkenne"
                 }
             },
             "types": {

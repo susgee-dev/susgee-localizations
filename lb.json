@@ -1774,7 +1774,7 @@
             "search": "sichen",
             "selectOptions": "optiounen wielen",
             "remove": "{name} ewechhuelen",
-            "selectOption": "Select option"
+            "selectOption": "Optioun wielen"
         },
         "footer": {
             "rightsReserved": "steet a kenger Verbindung mat Twitch",
@@ -1793,12 +1793,12 @@
                         "description": "geréier deng kanal-emotes direkt aus dem chat, mat einfache commands.",
                         "cta": "all 7TV-commands entdecken",
                         "demos": {
-                            "add": "<ok></ok> added emote Susge",
-                            "yoink": "<ok></ok> Emote PepeHands yoinked from channel xqcow",
-                            "rename": "<ok></ok> Susge renamed to Susgeebot",
-                            "whoAdded": "<noted></noted> Emote Susge was added by username 2 hours ago",
-                            "presence": "<ok></ok> (7TV) presence updated",
-                            "syncset": "<ok></ok> successfully synced with emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
+                            "add": "<ok></ok> emote Susge dobäigesat",
+                            "yoink": "<ok></ok> emote PepeHands yoinked vum kanal xqcow",
+                            "rename": "<ok></ok> Susge ëmbenannt an Susgeebot",
+                            "whoAdded": "<noted></noted> emote Susge gouf vun username virun 2 hours dobäigesat",
+                            "presence": "<ok></ok> (7TV) presence aktualiséiert",
+                            "syncset": "<ok></ok> erfollegräich synchroniséiert mat emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
                         }
                     },
                     "economy": {
@@ -1806,13 +1806,13 @@
                         "description": "bréng deng community mat engem komplette wirtschaftssystem an interaktive spiller zesummen.",
                         "cta": "botties-commands ukucken",
                         "demos": {
-                            "botties": "@username 💡 Divine! You have created 41 divine software solutions! Your genius is unmatched, and your technologies will become legendary! • 🏦 208 botties, prestige 5",
-                            "gambaLost": "@username you lost 📉 961 botties! you now have 0 botties",
-                            "gambaWon": "@username you won 📈 104 botties! you now have 312 botties",
-                            "prestige": "prestige successful! you now have 50 botties and are in prestige 6. next prestige costs 1000 botties",
-                            "give": "you gave susgeebot 100 botties. you now have 150 botties, susgeebot now has 250 botties",
-                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gambled: 1250 botties • Biggest win: 250 botties • Biggest loss: 100 botties",
-                            "gambaWonSmall": "@username you won 📈 50 botties! you now have 200 botties"
+                            "botties": "@username 💡 gëttlech! du hues 41 gëttlech software-léisungen erstallt! däi genie ass ouni gläichen, an deng technologien ginn legendär! • 🏦 208 botties, prestige 5",
+                            "gambaLost": "@username du hues 961 botties verluer 📉! du hues elo 0 botties",
+                            "gambaWon": "@username du hues 104 botties gewonnen 📈! du hues elo 312 botties",
+                            "prestige": "prestige gepackt! du hues elo 50 botties an bass am prestige 6. nächste prestige kascht 1000 botties",
+                            "give": "du hues susgeebot 100 botties ginn. du hues elo 150 botties, susgeebot huet elo 250 botties",
+                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gesat: 1250 botties • Gréisste Gewënn: 250 botties • Gréisste Verloscht: 100 botties",
+                            "gambaWonSmall": "@username du hues 50 botties gewonnen 📈! du hues elo 200 botties"
                         }
                     },
                     "tools": {
@@ -1820,11 +1820,11 @@
                         "description": "entdeck eis tools a méi, fir däin chat-erliefnis ze verbesseren.",
                         "cta": "nëtzlech commands entdecken",
                         "demos": {
-                            "gpt": "Hello @username ! The exact number of Twitch bots can vary since new ones can be created and others might be discontinued. However, some popular Twitch bots include Nightbot, Moobot, and Streamlabs Cloudbot. These bots help with moderating chat, running polls, managing giveaways, and more.",
+                            "gpt": "Moien @username ! Déi genee Zuel vu Twitch-Botte variéiert, well ëmmer nei entstinn an anerer ophalen. Bekannt Botte sinn z. B. Nightbot, Moobot a Streamlabs Cloudbot – si hëllefen bei Moderatioun, Ëmfroen, Giveaways a méi.",
                             "ezgif": "<ok></ok> <link>https://s.susgee.dev/5C5DH8uz</link>",
-                            "subage": "<glitch></glitch> susgeebot • subscribed to revedtv for 58 months • 57 month streak • Tier 1 sub • renews in 2 months, 21 hours and 33 minutes",
+                            "subage": "<glitch></glitch> susgeebot • abonnéiert bei revedtv zënter {months|plural(one|mount, other|méint)} • 57 mount streak • Tier 1 sub • erneiert sech an 2 months, 21 hours and 33 minutes",
                             "short": "<ok></ok> https://s.susgee.dev/abc123",
-                            "weather": "📍 Berlin 🇩🇪 🌥️ weather: Partly cloudy 🌡️ temperature: 18°C 🌡️ feels like: 17°C 💧 humidity: 65% 🌬️ windspeed: 12 km/h 🌅 sunrise: 06:15 🌆 sunset: 20:30",
+                            "weather": "📍 Berlin 🇩🇪 🌥️ wieder: Partly cloudy 🌡️ temperatur: 18°C 🌡️ fillt sech un: 17°C 💧 loftfiichtegkeet: 65% 🌬️ wandvitess: 12 km/h 🌅 sonnenopgang: 06:15 🌆 sonnenënnergang: 20:30",
                             "regex": "<ok></ok> Chatterino regex: /test/i",
                             "randomColor": "<ok></ok> #FF5733"
                         }
@@ -2107,7 +2107,7 @@
                 "errors": {
                     "save": "D'Iwwersetzung konnt net gespäichert ginn."
                 },
-                "namePlaceholder": "French",
+                "namePlaceholder": "Franséisch",
                 "nativeNamePlaceholder": "Français"
             },
             "suggestions": {
@@ -2201,8 +2201,8 @@
             "changelog": {
                 "metaTitle": "Changelog",
                 "title": "Changelog",
-                "description": "Keep track of the latest changes and improvements to Susgeebot.",
-                "empty": "No changelog entries yet."
+                "description": "All Ännerungen a Verbesserungen un Susgeebot am Iwwerbléck.",
+                "empty": "Nach keng Changelog-Entréeën."
             }
         },
         "common": {
@@ -2561,21 +2561,21 @@
                     "allowlist": "custom API allowlist (ufroen dobaussen ginn blockéiert). kontaktéier eis, wann s du eng ergänzung brauchs"
                 },
                 "docsExamples": {
-                    "channel": "Welcome to $(channel)'s stream!",
-                    "channelId": "Current channel ID: $(channelId)",
-                    "sender": "Thanks for lurking, $(sender)!",
-                    "senderId": "Sender ID: $(senderId)",
-                    "user": "Thanks for lurking, $(user)!",
-                    "argument": "Shoutout to $(1)! Check them out at twitch.tv/$(1)",
-                    "rest": "Note saved: $(1:)",
+                    "channel": "Wëllkomm am Stream vu $(channel)!",
+                    "channelId": "Aktuell Channel-ID: $(channelId)",
+                    "sender": "Merci firs Lurken, $(sender)!",
+                    "senderId": "Sender-ID: $(senderId)",
+                    "user": "Merci firs Lurken, $(user)!",
+                    "argument": "Shoutout un $(1)! Kuckt e bei twitch.tv/$(1)",
+                    "rest": "Notiz gespäichert: $(1:)",
                     "fallback": "golive now $(1|channel)!",
-                    "streamTitle": "Now live: $(title)",
-                    "game": "Playing: $(game)",
-                    "followers": "$(channel) has $(followers) followers",
-                    "randomNumber": "You rolled a $(random.number 1 6)",
+                    "streamTitle": "Elo live: $(title)",
+                    "game": "Spillt: $(game)",
+                    "followers": "$(channel) huet $(followers) Follower",
+                    "randomNumber": "Du hues eng $(random.number 1 6) geworfelt",
                     "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
-                    "time": "It is $(time Europe/Zurich) here",
-                    "count": "$(channel) has said something questionable $(count) times",
+                    "time": "Hei ass et $(time Europe/Zurich)",
+                    "count": "$(channel) huet schonn $(count) Mol eppes Frogewierdeges gesot",
                     "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
                     "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
                     "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
@@ -2631,9 +2631,9 @@
                 "month": "Mount",
                 "remove": "gebuertsdag vun {name} ewechhuelen",
                 "date": "{day}.{month}.",
-                "confirmTitle": "Remove birthday",
-                "confirmMessage": "Are you sure you want to remove the birthday for {name} ({date})?",
-                "confirmButton": "Remove"
+                "confirmTitle": "Gebuertsdag ewechhuelen",
+                "confirmMessage": "Wëlls du de Gebuertsdag vun {name} ({date}) wierklech ewechhuelen?",
+                "confirmButton": "Ewechhuelen"
             },
             "metaAudit": "verlaf vun {name}",
             "audit": {
@@ -2796,15 +2796,15 @@
                 "title": "?notifications",
                 "lead": "weist wat dëse kanal abonnéiert huet a wien dofir gepingt gëtt.",
                 "body": "jiddereen kann e benotzen. mir äntweren mat engem paste-link, well e volle kanal vill méi aboe huet, wéi an eng chat-noriicht passen.",
-                "demo": "susgeeOK 8 active notifications in #lilb_lxryer susgeePoint p.susgee.dev/abc"
+                "demo": "susgeeOK 8 aktiv benoriichtegungen an #lilb_lxryer susgeePoint p.susgee.dev/abc"
             },
             "notify": {
                 "title": "?notify an ?unnotify",
                 "lead": "mécht eng benoriichtegung fir de ganzen kanal un oder aus. nëmme fir mods.",
                 "body": "typen ouni zil funktionéieren d'selwecht, du léiss just dat zweet wuert ewech. <data>?notify 7tv</data> abonnéiert dengem kanal déi global ännerunge vun 7TV.",
                 "demo": {
-                    "subscribe": "susgeeOK subscribed to live updates",
-                    "unsubscribe": "susgeeOK unsubscribed from live updates"
+                    "subscribe": "susgeeOK live-updates abonnéiert",
+                    "unsubscribe": "susgeeOK live-updates ofbestallt"
                 }
             },
             "pingme": {
@@ -2812,8 +2812,8 @@
                 "lead": "mellt dech perséinlech un, datt mir dech mam numm pingen. jiddereen kann e benotzen.",
                 "body": "leef e nach eng Kéier, fir dech erëm ofzemellen. bei <data>live</data> brauch de kanal éischt d'abo, dat e mod mat <data>?notify live forsen</data> setzt. dat kanal-abo leeën mir iwwer <data>?pingme</data> ni un, soss kéint all zuschauer duerch d'hannerdir eng mod-astellung unmaachen.",
                 "demo": {
-                    "live": "susgeeOK i will ping you for live updates of forsen",
-                    "subgift": "susgeeOK I will notify you when I detect a subgift for you"
+                    "live": "susgeeOK ech pingen dech bei live-updates vun forsen",
+                    "subgift": "susgeeOK ech soen der Bescheed, wann ech e subgift fir dech erkennen"
                 }
             },
             "types": {
@@ -3038,11 +3038,11 @@
                 "langExists": "{code} has already been proposed.",
                 "notFound": "This entry no longer exists."
             },
-            "changelogInvalidDate": "Please enter a valid date.",
-            "changelogItemsRequired": "Add at least one item with a title.",
-            "changelogTitleRequired": "Every item needs a title.",
-            "changelogItemTooLong": "Title or description is too long.",
-            "changelogTooManyItems": "Too many items in this release."
+            "changelogInvalidDate": "Gëff w.e.g. e gültegt Datum an.",
+            "changelogItemsRequired": "Mindestens eng Entrée mat Titel néideg.",
+            "changelogTitleRequired": "All Entrée brauch en Titel.",
+            "changelogItemTooLong": "Titel oder Beschreiwung ass ze laang.",
+            "changelogTooManyItems": "Ze vill Entréeën an dësem Release."
         },
         "admin": {
             "metaTitle": "Admin",
@@ -3122,36 +3122,36 @@
             },
             "changelog": {
                 "title": "Changelog",
-                "create": "New release",
-                "edit": "Edit release",
-                "hint": "Select text and use the toolbar, or type Markdown directly.",
-                "date": "Date",
-                "item": "Item {n}",
-                "itemTitle": "Title",
-                "itemDescription": "Description",
-                "addItem": "Add item",
-                "removeItem": "Remove item",
-                "moveUp": "Move up",
-                "moveDown": "Move down",
-                "publish": "Publish",
-                "save": "Save",
-                "cancel": "Cancel",
-                "empty": "No changelog entries yet.",
-                "itemCount": "{count|plural(one|item, other|items)}",
-                "delete": "Delete release",
+                "create": "Neit Release",
+                "edit": "Release änneren",
+                "hint": "Text markéieren an d’Toolbar benotzen, oder direkt Markdown schreiwen.",
+                "date": "Datum",
+                "item": "Entrée {n}",
+                "itemTitle": "Titel",
+                "itemDescription": "Beschreiwung",
+                "addItem": "Entrée dobäisetzen",
+                "removeItem": "Entrée ewechhuelen",
+                "moveUp": "No uewen",
+                "moveDown": "No ënnen",
+                "publish": "Verëffentlechen",
+                "save": "Späicheren",
+                "cancel": "Ofbriechen",
+                "empty": "Nach keng Changelog-Entréeën.",
+                "itemCount": "{count|plural(one|Entrée, other|Entréeën)}",
+                "delete": "Release läschen",
                 "formatCode": "Code",
                 "formatLink": "Link",
                 "linkLabel": "Label",
                 "linkHref": "URL",
-                "applyLink": "Insert link",
-                "preview": "Preview",
-                "shortcuts": "Shortcuts: Ctrl/Cmd+B bold, Ctrl/Cmd+I italic, Ctrl/Cmd+E code, Ctrl/Cmd+K link.",
-                "write": "Write",
-                "previewEmpty": "Nothing to preview",
-                "formatBold": "Bold",
-                "formatItalic": "Italic",
-                "placeholderBold": "bold text",
-                "placeholderItalic": "italic text",
+                "applyLink": "Link asetzen",
+                "preview": "Virschau",
+                "shortcuts": "Shortcuts: Ctrl/Cmd+B fett, Ctrl/Cmd+I kursiv, Ctrl/Cmd+E Code, Ctrl/Cmd+K Link.",
+                "write": "Schreiwen",
+                "previewEmpty": "Näischt fir unzeweisen",
+                "formatBold": "Fett",
+                "formatItalic": "Kursiv",
+                "placeholderBold": "fetten Text",
+                "placeholderItalic": "kursiven Text",
                 "placeholderCode": "code"
             }
         }

@@ -1774,7 +1774,7 @@
             "search": "Поиск",
             "selectOptions": "Выбери варианты",
             "remove": "Убрать {name}",
-            "selectOption": "Select option"
+            "selectOption": "Выберите вариант"
         },
         "footer": {
             "rightsReserved": "не связан с Twitch",
@@ -1793,12 +1793,12 @@
                         "description": "Управляй эмоутами канала прямо из чата простыми командами.",
                         "cta": "Все команды 7TV",
                         "demos": {
-                            "add": "<ok></ok> added emote Susge",
-                            "yoink": "<ok></ok> Emote PepeHands yoinked from channel xqcow",
-                            "rename": "<ok></ok> Susge renamed to Susgeebot",
-                            "whoAdded": "<noted></noted> Emote Susge was added by username 2 hours ago",
-                            "presence": "<ok></ok> (7TV) presence updated",
-                            "syncset": "<ok></ok> successfully synced with emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
+                            "add": "<ok></ok> добавлен эмоут Susge",
+                            "yoink": "<ok></ok> эмоут PepeHands стырен с канала xqcow",
+                            "rename": "<ok></ok> Susge переименован в Susgeebot",
+                            "whoAdded": "<noted></noted> эмоут Susge добавил username 2 hours назад",
+                            "presence": "<ok></ok> присутствие (7TV) обновлено",
+                            "syncset": "<ok></ok> успешно синхронизировано с набором <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
                         }
                     },
                     "economy": {
@@ -1806,13 +1806,13 @@
                         "description": "Вовлекай комьюнити полноценной экономикой и интерактивными играми.",
                         "cta": "Посмотреть команды Botties",
                         "demos": {
-                            "botties": "@username 💡 Divine! You have created 41 divine software solutions! Your genius is unmatched, and your technologies will become legendary! • 🏦 208 botties, prestige 5",
-                            "gambaLost": "@username you lost 📉 961 botties! you now have 0 botties",
-                            "gambaWon": "@username you won 📈 104 botties! you now have 312 botties",
-                            "prestige": "prestige successful! you now have 50 botties and are in prestige 6. next prestige costs 1000 botties",
-                            "give": "you gave susgeebot 100 botties. you now have 150 botties, susgeebot now has 250 botties",
-                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gambled: 1250 botties • Biggest win: 250 botties • Biggest loss: 100 botties",
-                            "gambaWonSmall": "@username you won 📈 50 botties! you now have 200 botties"
+                            "botties": "@username 💡 Божественно! Ты создал 41 божественных софтверных решений! Гений без конкурентов, и твои технологии станут легендой! • 🏦 208 botties, престиж 5",
+                            "gambaLost": "@username ты проиграл 📉 961 botties! теперь у тебя 0 botties",
+                            "gambaWon": "@username ты выиграл 📈 104 botties! теперь у тебя 312 botties",
+                            "prestige": "престиж успешен! теперь у тебя 50 botties и ты на престиже 6. следующий престиж стоит 1000 botties",
+                            "give": "ты отдал susgeebot 100 botties. теперь у тебя 150 botties, у susgeebot теперь 250 botties",
+                            "stats": "susgeebot 🏦 500 botties, престиж 3 • Всего поставлено: 1250 botties • Крупнейший выигрыш: 250 botties • Крупнейший проигрыш: 100 botties",
+                            "gambaWonSmall": "@username ты выиграл 📈 50 botties! теперь у тебя 200 botties"
                         }
                     },
                     "tools": {
@@ -1820,11 +1820,11 @@
                         "description": "Наши инструменты и фичи, чтобы чат был удобнее.",
                         "cta": "Утилитарные команды",
                         "demos": {
-                            "gpt": "Hello @username ! The exact number of Twitch bots can vary since new ones can be created and others might be discontinued. However, some popular Twitch bots include Nightbot, Moobot, and Streamlabs Cloudbot. These bots help with moderating chat, running polls, managing giveaways, and more.",
+                            "gpt": "Привет, @username ! Точное число Twitch-ботов меняется: одни появляются, другие исчезают. Популярные — Nightbot, Moobot и Streamlabs Cloudbot; они помогают с модерацией, опросами, розыгрышами и не только.",
                             "ezgif": "<ok></ok> <link>https://s.susgee.dev/5C5DH8uz</link>",
-                            "subage": "<glitch></glitch> susgeebot • subscribed to revedtv for 58 months • 57 month streak • Tier 1 sub • renews in 2 months, 21 hours and 33 minutes",
+                            "subage": "<glitch></glitch> susgeebot • подписан на revedtv уже {months|plural(one|месяц, other|месяцев)} • стрик 57 мес. • саб Tier 1 тира • продлится через 2 months, 21 hours and 33 minutes",
                             "short": "<ok></ok> https://s.susgee.dev/abc123",
-                            "weather": "📍 Berlin 🇩🇪 🌥️ weather: Partly cloudy 🌡️ temperature: 18°C 🌡️ feels like: 17°C 💧 humidity: 65% 🌬️ windspeed: 12 km/h 🌅 sunrise: 06:15 🌆 sunset: 20:30",
+                            "weather": "📍 Berlin 🇩🇪 🌥️ Погода: Partly cloudy 🌡️ Температура: 18°C 🌡️ Ощущается как: 17°C 💧 Влажность: 65% 🌬️ Скорость ветра: 12 km/h 🌅 Восход: 06:15 🌆 Закат: 20:30",
                             "regex": "<ok></ok> Chatterino regex: /test/i",
                             "randomColor": "<ok></ok> #FF5733"
                         }
@@ -2024,7 +2024,7 @@
                 "approximate": "(VOD клипа уже нет, берём время создания клипа, менее точно)",
                 "openVod": "Открыть VOD на таймкоде",
                 "player": "Плеер Twitch VOD",
-                "offset": "{hours}h {minutes}m {seconds}s"
+                "offset": "{hours}ч {minutes}м {seconds}с"
             },
             "seventv": {
                 "metaTitle": "Права редактора 7TV",
@@ -2107,7 +2107,7 @@
                 "errors": {
                     "save": "Не удалось сохранить перевод."
                 },
-                "namePlaceholder": "French",
+                "namePlaceholder": "Французский",
                 "nativeNamePlaceholder": "Français"
             },
             "suggestions": {
@@ -2201,8 +2201,8 @@
             "changelog": {
                 "metaTitle": "Changelog",
                 "title": "Changelog",
-                "description": "Keep track of the latest changes and improvements to Susgeebot.",
-                "empty": "No changelog entries yet."
+                "description": "Следите за последними изменениями и улучшениями Susgeebot.",
+                "empty": "Пока нет записей в changelog."
             }
         },
         "common": {
@@ -2561,21 +2561,21 @@
                     "allowlist": "Белый список Custom API (запросы вне него блокируются). Напиши нам, если нужно добавить хост"
                 },
                 "docsExamples": {
-                    "channel": "Welcome to $(channel)'s stream!",
-                    "channelId": "Current channel ID: $(channelId)",
-                    "sender": "Thanks for lurking, $(sender)!",
-                    "senderId": "Sender ID: $(senderId)",
-                    "user": "Thanks for lurking, $(user)!",
-                    "argument": "Shoutout to $(1)! Check them out at twitch.tv/$(1)",
-                    "rest": "Note saved: $(1:)",
+                    "channel": "Добро пожаловать на стрим $(channel)!",
+                    "channelId": "ID текущего канала: $(channelId)",
+                    "sender": "Спасибо, что заглянул, $(sender)!",
+                    "senderId": "ID отправителя: $(senderId)",
+                    "user": "Спасибо, что заглянул, $(user)!",
+                    "argument": "Шаутаут $(1)! Загляните на twitch.tv/$(1)",
+                    "rest": "Заметка сохранена: $(1:)",
                     "fallback": "golive now $(1|channel)!",
-                    "streamTitle": "Now live: $(title)",
-                    "game": "Playing: $(game)",
-                    "followers": "$(channel) has $(followers) followers",
-                    "randomNumber": "You rolled a $(random.number 1 6)",
+                    "streamTitle": "Сейчас в эфире: $(title)",
+                    "game": "Играет в: $(game)",
+                    "followers": "У $(channel) $(followers) фолловеров",
+                    "randomNumber": "Тебе выпало $(random.number 1 6)",
                     "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
-                    "time": "It is $(time Europe/Zurich) here",
-                    "count": "$(channel) has said something questionable $(count) times",
+                    "time": "Сейчас $(time Europe/Zurich)",
+                    "count": "$(channel) уже $(count) раз сказал что-то сомнительное",
                     "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
                     "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
                     "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
@@ -2631,9 +2631,9 @@
                 "month": "Месяц",
                 "remove": "Удалить день рождения {name}",
                 "date": "{day}.{month}.",
-                "confirmTitle": "Remove birthday",
-                "confirmMessage": "Are you sure you want to remove the birthday for {name} ({date})?",
-                "confirmButton": "Remove"
+                "confirmTitle": "Удалить день рождения",
+                "confirmMessage": "Точно удалить день рождения {name} ({date})?",
+                "confirmButton": "Удалить"
             },
             "metaAudit": "История {name}",
             "audit": {
@@ -2796,15 +2796,15 @@
                 "title": "?notifications",
                 "lead": "Показывает, на что подписан этот канал и кого за это пингуют.",
                 "body": "Может использовать кто угодно. Мы отвечаем ссылкой на paste, потому что в активном канале подписок гораздо больше, чем влезает в одно сообщение.",
-                "demo": "susgeeOK 8 active notifications in #lilb_lxryer susgeePoint p.susgee.dev/abc"
+                "demo": "susgeeOK 8 активных уведомлений в #lilb_lxryer susgeePoint p.susgee.dev/abc"
             },
             "notify": {
                 "title": "?notify и ?unnotify",
                 "lead": "Включает или выключает уведомление на весь канал. Только для модов.",
                 "body": "Типы без цели работают так же, просто второе слово не пишешь. <data>?notify 7tv</data> подписывает канал на глобальные изменения 7TV.",
                 "demo": {
-                    "subscribe": "susgeeOK subscribed to live updates",
-                    "unsubscribe": "susgeeOK unsubscribed from live updates"
+                    "subscribe": "susgeeOK подписался на лайв-обновления",
+                    "unsubscribe": "susgeeOK отписался от лайв-обновлений"
                 }
             },
             "pingme": {
@@ -2812,8 +2812,8 @@
                 "lead": "Подписывает лично тебя, чтобы мы пинговали по имени. Может использовать кто угодно.",
                 "body": "Запусти ещё раз, чтобы снять себя. Для <data>live</data> каналу сначала нужна подписка, её ставит мод через <data>?notify live forsen</data>. Мы никогда не создаём эту канальную подписку из <data>?pingme</data>, иначе любой зритель мог бы включить мод-настройку через чёрный ход.",
                 "demo": {
-                    "live": "susgeeOK i will ping you for live updates of forsen",
-                    "subgift": "susgeeOK I will notify you when I detect a subgift for you"
+                    "live": "susgeeOK буду пинговать тебя по лайв-обновлениям у forsen",
+                    "subgift": "susgeeOK буду писать, когда увижу сабгифт для тебя"
                 }
             },
             "types": {
@@ -3038,11 +3038,11 @@
                 "langExists": "{code} has already been proposed.",
                 "notFound": "This entry no longer exists."
             },
-            "changelogInvalidDate": "Please enter a valid date.",
-            "changelogItemsRequired": "Add at least one item with a title.",
-            "changelogTitleRequired": "Every item needs a title.",
-            "changelogItemTooLong": "Title or description is too long.",
-            "changelogTooManyItems": "Too many items in this release."
+            "changelogInvalidDate": "Введите корректную дату.",
+            "changelogItemsRequired": "Добавьте хотя бы одну запись с заголовком.",
+            "changelogTitleRequired": "У каждой записи должен быть заголовок.",
+            "changelogItemTooLong": "Заголовок или описание слишком длинные.",
+            "changelogTooManyItems": "Слишком много записей в этом релизе."
         },
         "admin": {
             "metaTitle": "Админ",
@@ -3122,37 +3122,37 @@
             },
             "changelog": {
                 "title": "Changelog",
-                "create": "New release",
-                "edit": "Edit release",
-                "hint": "Select text and use the toolbar, or type Markdown directly.",
-                "date": "Date",
-                "item": "Item {n}",
-                "itemTitle": "Title",
-                "itemDescription": "Description",
-                "addItem": "Add item",
-                "removeItem": "Remove item",
-                "moveUp": "Move up",
-                "moveDown": "Move down",
-                "publish": "Publish",
-                "save": "Save",
-                "cancel": "Cancel",
-                "empty": "No changelog entries yet.",
-                "itemCount": "{count|plural(one|item, other|items)}",
-                "delete": "Delete release",
-                "formatCode": "Code",
-                "formatLink": "Link",
-                "linkLabel": "Label",
+                "create": "Новый релиз",
+                "edit": "Редактировать релиз",
+                "hint": "Выделите текст и используйте панель или пишите Markdown напрямую.",
+                "date": "Дата",
+                "item": "Запись {n}",
+                "itemTitle": "Заголовок",
+                "itemDescription": "Описание",
+                "addItem": "Добавить запись",
+                "removeItem": "Удалить запись",
+                "moveUp": "Выше",
+                "moveDown": "Ниже",
+                "publish": "Опубликовать",
+                "save": "Сохранить",
+                "cancel": "Отмена",
+                "empty": "Пока нет записей в changelog.",
+                "itemCount": "{count|plural(one|запись, other|записей)}",
+                "delete": "Удалить релиз",
+                "formatCode": "Код",
+                "formatLink": "Ссылка",
+                "linkLabel": "Текст",
                 "linkHref": "URL",
-                "applyLink": "Insert link",
-                "preview": "Preview",
-                "shortcuts": "Shortcuts: Ctrl/Cmd+B bold, Ctrl/Cmd+I italic, Ctrl/Cmd+E code, Ctrl/Cmd+K link.",
-                "write": "Write",
-                "previewEmpty": "Nothing to preview",
-                "formatBold": "Bold",
-                "formatItalic": "Italic",
-                "placeholderBold": "bold text",
-                "placeholderItalic": "italic text",
-                "placeholderCode": "code"
+                "applyLink": "Вставить ссылку",
+                "preview": "Превью",
+                "shortcuts": "Шорткаты: Ctrl/Cmd+B жирный, Ctrl/Cmd+I курсив, Ctrl/Cmd+E код, Ctrl/Cmd+K ссылка.",
+                "write": "Писать",
+                "previewEmpty": "Нечего показывать",
+                "formatBold": "Жирный",
+                "formatItalic": "Курсив",
+                "placeholderBold": "жирный текст",
+                "placeholderItalic": "курсивный текст",
+                "placeholderCode": "код"
             }
         }
     },
