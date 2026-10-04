@@ -3055,7 +3055,7 @@
                 "title": "Changelog",
                 "create": "New release",
                 "edit": "Edit release",
-                "hint": "Select text, then use code or link. Preview matches the public changelog.",
+                "hint": "Select text and use the toolbar, or type Markdown directly.",
                 "date": "Date",
                 "item": "Item {n}",
                 "itemTitle": "Title",
@@ -3075,7 +3075,15 @@
                 "linkLabel": "Label",
                 "linkHref": "URL",
                 "applyLink": "Insert link",
-                "preview": "Preview"
+                "preview": "Preview",
+                "shortcuts": "Shortcuts: Ctrl/Cmd+B bold, Ctrl/Cmd+I italic, Ctrl/Cmd+E code, Ctrl/Cmd+K link.",
+                "write": "Write",
+                "previewEmpty": "Nothing to preview",
+                "formatBold": "Bold",
+                "formatItalic": "Italic",
+                "placeholderBold": "bold text",
+                "placeholderItalic": "italic text",
+                "placeholderCode": "code"
             }
         }
     },
