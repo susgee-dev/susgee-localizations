@@ -2167,6 +2167,12 @@
                 },
                 "lastUsed": "Last used",
                 "live": "Live"
+            },
+            "changelog": {
+                "metaTitle": "Changelog",
+                "title": "Changelog",
+                "description": "Keep track of the latest changes and improvements to Susgeebot.",
+                "empty": "No changelog entries yet."
             }
         },
         "common": {
