@@ -1773,12 +1773,14 @@
             "searching": "Suche…",
             "search": "Suchen",
             "selectOptions": "Optionen wählen",
-            "remove": "{name} entfernen"
+            "remove": "{name} entfernen",
+            "selectOption": "Option wählen"
         },
         "footer": {
             "rightsReserved": "steht in keiner rechtlichen Verbindung zu Twitch",
             "privacy": "Datenschutz",
-            "suggestions": "Vorschläge"
+            "suggestions": "Vorschläge",
+            "changelog": "Changelog"
         },
         "pages": {
             "home": {
@@ -1789,17 +1791,43 @@
                     "7tv": {
                         "title": "7TV-Integration",
                         "description": "Verwalte die Emotes deines Channels direkt aus dem Chat, mit einfachen Commands.",
-                        "cta": "Alle 7TV-Commands entdecken"
+                        "cta": "Alle 7TV-Commands entdecken",
+                        "demos": {
+                            "add": "<ok></ok> added emote Susge",
+                            "yoink": "<ok></ok> Emote PepeHands yoinked from channel xqcow",
+                            "rename": "<ok></ok> Susge renamed to Susgeebot",
+                            "whoAdded": "<noted></noted> Emote Susge was added by username 2 hours ago",
+                            "presence": "<ok></ok> (7TV) presence updated",
+                            "syncset": "<ok></ok> successfully synced with emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
+                        }
                     },
                     "economy": {
                         "title": "Wirtschaft & Spiele",
                         "description": "Bring deine Community mit einem vollständigen Wirtschaftssystem und interaktiven Spielen zusammen.",
-                        "cta": "Botties-Commands ansehen"
+                        "cta": "Botties-Commands ansehen",
+                        "demos": {
+                            "botties": "@username 💡 Divine! You have created 41 divine software solutions! Your genius is unmatched, and your technologies will become legendary! • 🏦 208 botties, prestige 5",
+                            "gambaLost": "@username you lost 📉 961 botties! you now have 0 botties",
+                            "gambaWon": "@username you won 📈 104 botties! you now have 312 botties",
+                            "prestige": "prestige successful! you now have 50 botties and are in prestige 6. next prestige costs 1000 botties",
+                            "give": "you gave susgeebot 100 botties. you now have 150 botties, susgeebot now has 250 botties",
+                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gambled: 1250 botties • Biggest win: 250 botties • Biggest loss: 100 botties",
+                            "gambaWonSmall": "@username you won 📈 50 botties! you now have 200 botties"
+                        }
                     },
                     "tools": {
                         "title": "Tools & mehr",
                         "description": "Entdecke unsere Tools und mehr, um dein Chat-Erlebnis zu verbessern.",
-                        "cta": "Nützliche Commands entdecken"
+                        "cta": "Nützliche Commands entdecken",
+                        "demos": {
+                            "gpt": "Hello @username ! The exact number of Twitch bots can vary since new ones can be created and others might be discontinued. However, some popular Twitch bots include Nightbot, Moobot, and Streamlabs Cloudbot. These bots help with moderating chat, running polls, managing giveaways, and more.",
+                            "ezgif": "<ok></ok> <link>https://s.susgee.dev/5C5DH8uz</link>",
+                            "subage": "<glitch></glitch> susgeebot • subscribed to revedtv for 58 months • 57 month streak • Tier 1 sub • renews in 2 months, 21 hours and 33 minutes",
+                            "short": "<ok></ok> https://s.susgee.dev/abc123",
+                            "weather": "📍 Berlin 🇩🇪 🌥️ weather: Partly cloudy 🌡️ temperature: 18°C 🌡️ feels like: 17°C 💧 humidity: 65% 🌬️ windspeed: 12 km/h 🌅 sunrise: 06:15 🌆 sunset: 20:30",
+                            "regex": "<ok></ok> Chatterino regex: /test/i",
+                            "randomColor": "<ok></ok> #FF5733"
+                        }
                     }
                 },
                 "modes": {
@@ -1995,7 +2023,8 @@
                 "basedOnClip": "Basierend auf einem Clip von",
                 "approximate": "(das VOD des Clips ist weg, stattdessen zählt die Erstellungszeit des Clips, weniger genau)",
                 "openVod": "VOD beim Zeitstempel öffnen",
-                "player": "Twitch-VOD-Player"
+                "player": "Twitch-VOD-Player",
+                "offset": "{hours}h {minutes}m {seconds}s"
             },
             "seventv": {
                 "metaTitle": "7TV-Editor-Rechte",
@@ -2077,7 +2106,9 @@
                 },
                 "errors": {
                     "save": "Übersetzung konnte nicht gespeichert werden."
-                }
+                },
+                "namePlaceholder": "Französisch",
+                "nativeNamePlaceholder": "Français"
             },
             "suggestions": {
                 "metaTitle": "Vorschläge",
@@ -2166,6 +2197,12 @@
                 },
                 "lastUsed": "Zuletzt genutzt",
                 "live": "Live"
+            },
+            "changelog": {
+                "metaTitle": "Changelog",
+                "title": "Changelog",
+                "description": "Alle Änderungen und Verbesserungen an Susgeebot im Überblick.",
+                "empty": "Noch keine Changelog-Einträge."
             }
         },
         "common": {
@@ -2522,6 +2559,26 @@
                     "count": "Zählt bei jeder Benutzung um eins hoch",
                     "customApi": "Daten von einer externen URL holen (nur freigegebene Hosts). Die URL darf jede Variable enthalten, auch Argumente wie $(1) - jeder Wert wird URL-kodiert",
                     "allowlist": "Freigegebene Hosts für die Custom API (alles andere wird blockiert). Melde dich, wenn du einen weiteren brauchst"
+                },
+                "docsExamples": {
+                    "channel": "Willkommen im Stream von $(channel)!",
+                    "channelId": "Aktuelle Channel-ID: $(channelId)",
+                    "sender": "Danke fürs Lurken, $(sender)!",
+                    "senderId": "Sender-ID: $(senderId)",
+                    "user": "Danke fürs Lurken, $(user)!",
+                    "argument": "Shoutout an $(1)! Schaut vorbei: twitch.tv/$(1)",
+                    "rest": "Notiz gespeichert: $(1:)",
+                    "fallback": "golive now $(1|channel)!",
+                    "streamTitle": "Jetzt live: $(title)",
+                    "game": "Spielt: $(game)",
+                    "followers": "$(channel) hat $(followers) Follower",
+                    "randomNumber": "Du hast eine $(random.number 1 6) gewürfelt",
+                    "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
+                    "time": "Hier ist es $(time Europe/Zurich)",
+                    "count": "$(channel) hat schon $(count) Mal etwas Fragwürdiges gesagt",
+                    "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
+                    "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
+                    "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
                 }
             },
             "builtin": {
@@ -2573,7 +2630,10 @@
                 "day": "Tag",
                 "month": "Monat",
                 "remove": "Geburtstag von {name} entfernen",
-                "date": "{day}.{month}."
+                "date": "{day}.{month}.",
+                "confirmTitle": "Geburtstag entfernen",
+                "confirmMessage": "Möchtest du den Geburtstag von {name} ({date}) wirklich entfernen?",
+                "confirmButton": "Entfernen"
             },
             "metaAudit": "Verlauf von {name}",
             "audit": {
@@ -2735,17 +2795,26 @@
             "list": {
                 "title": "?notifications",
                 "lead": "Zeigt, was dieser Channel abonniert hat und wer dafür gepingt wird.",
-                "body": "Jeder kann ihn benutzen. Wir antworten mit einem Paste-Link, weil ein voller Channel weit mehr Abos hat, als in eine Chat-Nachricht passen."
+                "body": "Jeder kann ihn benutzen. Wir antworten mit einem Paste-Link, weil ein voller Channel weit mehr Abos hat, als in eine Chat-Nachricht passen.",
+                "demo": "susgeeOK 8 active notifications in #lilb_lxryer susgeePoint p.susgee.dev/abc"
             },
             "notify": {
                 "title": "?notify und ?unnotify",
                 "lead": "Schaltet eine Benachrichtigung für den ganzen Channel ein oder aus. Nur für Mods.",
-                "body": "Typen ohne Ziel funktionieren genauso, du lässt nur das zweite Wort weg. <data>?notify 7tv</data> abonniert die globalen Änderungen von 7TV für deinen Channel."
+                "body": "Typen ohne Ziel funktionieren genauso, du lässt nur das zweite Wort weg. <data>?notify 7tv</data> abonniert die globalen Änderungen von 7TV für deinen Channel.",
+                "demo": {
+                    "subscribe": "susgeeOK subscribed to live updates",
+                    "unsubscribe": "susgeeOK unsubscribed from live updates"
+                }
             },
             "pingme": {
                 "title": "?pingme",
                 "lead": "Meldet dich persönlich an, damit wir dich mit Namen pingen. Jeder kann ihn benutzen.",
-                "body": "Führ ihn nochmal aus, um dich wieder abzumelden. Bei <data>live</data> braucht der Channel zuerst das Abo, das ein Mod mit <data>?notify live forsen</data> setzt. Dieses Channel-Abo legen wir über <data>?pingme</data> nie an, sonst könnte jeder Zuschauer durch die Hintertür eine Mod-Einstellung einschalten."
+                "body": "Führ ihn nochmal aus, um dich wieder abzumelden. Bei <data>live</data> braucht der Channel zuerst das Abo, das ein Mod mit <data>?notify live forsen</data> setzt. Dieses Channel-Abo legen wir über <data>?pingme</data> nie an, sonst könnte jeder Zuschauer durch die Hintertür eine Mod-Einstellung einschalten.",
+                "demo": {
+                    "live": "susgeeOK i will ping you for live updates of forsen",
+                    "subgift": "susgeeOK I will notify you when I detect a subgift for you"
+                }
             },
             "types": {
                 "title": "Typen",
@@ -2968,7 +3037,12 @@
                 "tooLong": "Der Text ist zu lang.",
                 "langExists": "{code} wurde schon vorgeschlagen.",
                 "notFound": "Diesen Eintrag gibt es nicht mehr."
-            }
+            },
+            "changelogInvalidDate": "Bitte ein gültiges Datum eingeben.",
+            "changelogItemsRequired": "Mindestens ein Eintrag mit Titel nötig.",
+            "changelogTitleRequired": "Jeder Eintrag braucht einen Titel.",
+            "changelogItemTooLong": "Titel oder Beschreibung ist zu lang.",
+            "changelogTooManyItems": "Zu viele Einträge in diesem Release."
         },
         "admin": {
             "metaTitle": "Admin",
@@ -3040,10 +3114,45 @@
                 "translations": "Übersetzungen",
                 "errors": "Fehler",
                 "botties": "Botties",
-                "seventv": "7TV"
+                "seventv": "7TV",
+                "changelog": "Changelog"
             },
             "seventv": {
                 "search": "Channels suchen…"
+            },
+            "changelog": {
+                "title": "Changelog",
+                "create": "Neues Release",
+                "edit": "Release bearbeiten",
+                "hint": "Text markieren und die Toolbar nutzen, oder direkt Markdown schreiben.",
+                "date": "Datum",
+                "item": "Eintrag {n}",
+                "itemTitle": "Titel",
+                "itemDescription": "Beschreibung",
+                "addItem": "Eintrag hinzufügen",
+                "removeItem": "Eintrag entfernen",
+                "moveUp": "Nach oben",
+                "moveDown": "Nach unten",
+                "publish": "Veröffentlichen",
+                "save": "Speichern",
+                "cancel": "Abbrechen",
+                "empty": "Noch keine Changelog-Einträge.",
+                "itemCount": "{count|plural(one|Eintrag, other|Einträge)}",
+                "delete": "Release löschen",
+                "formatCode": "Code",
+                "formatLink": "Link",
+                "linkLabel": "Beschriftung",
+                "linkHref": "URL",
+                "applyLink": "Link einfügen",
+                "preview": "Vorschau",
+                "shortcuts": "Shortcuts: Ctrl/Cmd+B fett, Ctrl/Cmd+I kursiv, Ctrl/Cmd+E Code, Ctrl/Cmd+K Link.",
+                "write": "Schreiben",
+                "previewEmpty": "Nichts zum Anzeigen",
+                "formatBold": "Fett",
+                "formatItalic": "Kursiv",
+                "placeholderBold": "fetter Text",
+                "placeholderItalic": "kursiver Text",
+                "placeholderCode": "code"
             }
         }
     },

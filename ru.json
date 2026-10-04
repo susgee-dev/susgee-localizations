@@ -1773,12 +1773,14 @@
             "searching": "Ищем…",
             "search": "Поиск",
             "selectOptions": "Выбери варианты",
-            "remove": "Убрать {name}"
+            "remove": "Убрать {name}",
+            "selectOption": "Select option"
         },
         "footer": {
             "rightsReserved": "не связан с Twitch",
             "privacy": "конфиденциальность",
-            "suggestions": "Suggestions"
+            "suggestions": "Suggestions",
+            "changelog": "Changelog"
         },
         "pages": {
             "home": {
@@ -1789,17 +1791,43 @@
                     "7tv": {
                         "title": "Интеграция 7TV",
                         "description": "Управляй эмоутами канала прямо из чата простыми командами.",
-                        "cta": "Все команды 7TV"
+                        "cta": "Все команды 7TV",
+                        "demos": {
+                            "add": "<ok></ok> added emote Susge",
+                            "yoink": "<ok></ok> Emote PepeHands yoinked from channel xqcow",
+                            "rename": "<ok></ok> Susge renamed to Susgeebot",
+                            "whoAdded": "<noted></noted> Emote Susge was added by username 2 hours ago",
+                            "presence": "<ok></ok> (7TV) presence updated",
+                            "syncset": "<ok></ok> successfully synced with emote-set <link>https://7tv.app/emote-sets/01FY4X0H4G00077WTWSFD40A96</link>"
+                        }
                     },
                     "economy": {
                         "title": "Экономика и игры",
                         "description": "Вовлекай комьюнити полноценной экономикой и интерактивными играми.",
-                        "cta": "Посмотреть команды Botties"
+                        "cta": "Посмотреть команды Botties",
+                        "demos": {
+                            "botties": "@username 💡 Divine! You have created 41 divine software solutions! Your genius is unmatched, and your technologies will become legendary! • 🏦 208 botties, prestige 5",
+                            "gambaLost": "@username you lost 📉 961 botties! you now have 0 botties",
+                            "gambaWon": "@username you won 📈 104 botties! you now have 312 botties",
+                            "prestige": "prestige successful! you now have 50 botties and are in prestige 6. next prestige costs 1000 botties",
+                            "give": "you gave susgeebot 100 botties. you now have 150 botties, susgeebot now has 250 botties",
+                            "stats": "susgeebot 🏦 500 botties, prestige 3 • Total gambled: 1250 botties • Biggest win: 250 botties • Biggest loss: 100 botties",
+                            "gambaWonSmall": "@username you won 📈 50 botties! you now have 200 botties"
+                        }
                     },
                     "tools": {
                         "title": "Инструменты и не только",
                         "description": "Наши инструменты и фичи, чтобы чат был удобнее.",
-                        "cta": "Утилитарные команды"
+                        "cta": "Утилитарные команды",
+                        "demos": {
+                            "gpt": "Hello @username ! The exact number of Twitch bots can vary since new ones can be created and others might be discontinued. However, some popular Twitch bots include Nightbot, Moobot, and Streamlabs Cloudbot. These bots help with moderating chat, running polls, managing giveaways, and more.",
+                            "ezgif": "<ok></ok> <link>https://s.susgee.dev/5C5DH8uz</link>",
+                            "subage": "<glitch></glitch> susgeebot • subscribed to revedtv for 58 months • 57 month streak • Tier 1 sub • renews in 2 months, 21 hours and 33 minutes",
+                            "short": "<ok></ok> https://s.susgee.dev/abc123",
+                            "weather": "📍 Berlin 🇩🇪 🌥️ weather: Partly cloudy 🌡️ temperature: 18°C 🌡️ feels like: 17°C 💧 humidity: 65% 🌬️ windspeed: 12 km/h 🌅 sunrise: 06:15 🌆 sunset: 20:30",
+                            "regex": "<ok></ok> Chatterino regex: /test/i",
+                            "randomColor": "<ok></ok> #FF5733"
+                        }
                     }
                 },
                 "modes": {
@@ -1938,6 +1966,10 @@
                     "uploader": {
                         "title": "Susgee Uploader",
                         "description": "Загружай и делись картинками и видео через наш хостинг."
+                    },
+                    "emoteUsage": {
+                        "title": "Emote usage",
+                        "description": "Top emote stats per channel or across the whole network."
                     }
                 }
             },
@@ -1991,7 +2023,8 @@
                 "basedOnClip": "На основе клипа от",
                 "approximate": "(VOD клипа уже нет, берём время создания клипа, менее точно)",
                 "openVod": "Открыть VOD на таймкоде",
-                "player": "Плеер Twitch VOD"
+                "player": "Плеер Twitch VOD",
+                "offset": "{hours}h {minutes}m {seconds}s"
             },
             "seventv": {
                 "metaTitle": "Права редактора 7TV",
@@ -2073,7 +2106,9 @@
                 },
                 "errors": {
                     "save": "Не удалось сохранить перевод."
-                }
+                },
+                "namePlaceholder": "French",
+                "nativeNamePlaceholder": "Français"
             },
             "suggestions": {
                 "metaTitle": "Suggestions",
@@ -2109,7 +2144,65 @@
                 },
                 "errors": {
                     "save": "Could not save the suggestion."
-                }
+                },
+                "manage": "Manage all"
+            },
+            "emoteUsage": {
+                "metaTitle": "Emote usage",
+                "metaDescription": "See which emotes are used most in a channel or across the whole Susgee network.",
+                "title": "Emote usage",
+                "description": "Top emote stats by platform for a channel or across the network — plus a Globals column for network-wide global emotes.",
+                "modes": {
+                    "network": "Network",
+                    "channel": "Channel"
+                },
+                "channel": "Channel",
+                "channelPlaceholder": "Username or Twitch ID",
+                "search": "Show usage",
+                "refresh": "Refresh",
+                "networkHint": "Live network stats across all logged channels, plus global emotes.",
+                "networkTitle": "Network leaderboard",
+                "networkSubtitle": "Top emotes across every logged channel.",
+                "inactive": "Not in set",
+                "filterSearch": "Filter by emote name or ID…",
+                "empty": "No emotes match these filters.",
+                "showing": "Showing {shown} of {total}",
+                "channelCount": "{count} channels",
+                "stats": {
+                    "emotes": "Emotes",
+                    "uses": "Total uses",
+                    "channelsReached": "Channel hits"
+                },
+                "columns": {
+                    "emote": "Emote",
+                    "uses": "Uses",
+                    "lastUsed": "Last used",
+                    "channels": "Channels"
+                },
+                "activeFilter": {
+                    "all": "All",
+                    "active": "Active",
+                    "removed": "Removed"
+                },
+                "errors": {
+                    "noChannel": "Enter a channel username or ID.",
+                    "notFound": "Channel or user not found.",
+                    "notJoined": "That channel is not joined by the bot (logging).",
+                    "rateLimit": "Rate limit hit — try again in a moment.",
+                    "api": "Could not load emote usage."
+                },
+                "platformColumns": {
+                    "globals": "Globals",
+                    "bttvFfz": "BTTV / FFZ"
+                },
+                "lastUsed": "Last used",
+                "live": "Live"
+            },
+            "changelog": {
+                "metaTitle": "Changelog",
+                "title": "Changelog",
+                "description": "Keep track of the latest changes and improvements to Susgeebot.",
+                "empty": "No changelog entries yet."
             }
         },
         "common": {
@@ -2129,7 +2222,8 @@
             "public": "Публичная",
             "chars": "{used} / {limit}",
             "id": "ID:",
-            "new": "новое"
+            "new": "новое",
+            "showMore": "Show more ({shown} of {total})"
         },
         "nav": {
             "commands": "Команды",
@@ -2146,7 +2240,8 @@
             "home": "Главная Susgee",
             "language": "Язык",
             "admin": "Админ",
-            "suggestions": "Предложения"
+            "suggestions": "Предложения",
+            "back": "Back"
         },
         "errors": {
             "badRequest": {
@@ -2245,7 +2340,9 @@
             "addPing": "Не удалось добавить пинг.",
             "saveAlert": "Не удалось сохранить алерт.",
             "removeAlert": "Не удалось выключить алерт.",
-            "loadAudit": "Историю загрузить не удалось."
+            "loadAudit": "Историю загрузить не удалось.",
+            "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
+            "lookupNetworkEmoteUsage": "Failed to load network emote usage."
         },
         "dashboard": {
             "title": "Дашборд",
@@ -2462,6 +2559,26 @@
                     "count": "Увеличивается на один при каждом использовании",
                     "customApi": "Забрать данные с внешнего URL (только хосты из белого списка). В URL можно любые переменные, включая аргументы вроде $(1) — каждое значение URL-кодируется",
                     "allowlist": "Белый список Custom API (запросы вне него блокируются). Напиши нам, если нужно добавить хост"
+                },
+                "docsExamples": {
+                    "channel": "Welcome to $(channel)'s stream!",
+                    "channelId": "Current channel ID: $(channelId)",
+                    "sender": "Thanks for lurking, $(sender)!",
+                    "senderId": "Sender ID: $(senderId)",
+                    "user": "Thanks for lurking, $(user)!",
+                    "argument": "Shoutout to $(1)! Check them out at twitch.tv/$(1)",
+                    "rest": "Note saved: $(1:)",
+                    "fallback": "golive now $(1|channel)!",
+                    "streamTitle": "Now live: $(title)",
+                    "game": "Playing: $(game)",
+                    "followers": "$(channel) has $(followers) followers",
+                    "randomNumber": "You rolled a $(random.number 1 6)",
+                    "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
+                    "time": "It is $(time Europe/Zurich) here",
+                    "count": "$(channel) has said something questionable $(count) times",
+                    "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
+                    "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
+                    "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
                 }
             },
             "builtin": {
@@ -2513,7 +2630,10 @@
                 "day": "День",
                 "month": "Месяц",
                 "remove": "Удалить день рождения {name}",
-                "date": "{day}.{month}."
+                "date": "{day}.{month}.",
+                "confirmTitle": "Remove birthday",
+                "confirmMessage": "Are you sure you want to remove the birthday for {name} ({date})?",
+                "confirmButton": "Remove"
             },
             "metaAudit": "История {name}",
             "audit": {
@@ -2542,7 +2662,11 @@
                     "permission": "Права",
                     "reply": "Как реплай",
                     "action": "Как /me",
-                    "liveState": "Отвечает"
+                    "liveState": "Отвечает",
+                    "hideFromLookups": "Hide channel from lookups",
+                    "logging": "Log messages",
+                    "commandsWhenLive": "Commands while live",
+                    "commandsWhenOffline": "Commands while offline"
                 },
                 "values": {
                     "on": "вкл",
@@ -2671,17 +2795,26 @@
             "list": {
                 "title": "?notifications",
                 "lead": "Показывает, на что подписан этот канал и кого за это пингуют.",
-                "body": "Может использовать кто угодно. Мы отвечаем ссылкой на paste, потому что в активном канале подписок гораздо больше, чем влезает в одно сообщение."
+                "body": "Может использовать кто угодно. Мы отвечаем ссылкой на paste, потому что в активном канале подписок гораздо больше, чем влезает в одно сообщение.",
+                "demo": "susgeeOK 8 active notifications in #lilb_lxryer susgeePoint p.susgee.dev/abc"
             },
             "notify": {
                 "title": "?notify и ?unnotify",
                 "lead": "Включает или выключает уведомление на весь канал. Только для модов.",
-                "body": "Типы без цели работают так же, просто второе слово не пишешь. <data>?notify 7tv</data> подписывает канал на глобальные изменения 7TV."
+                "body": "Типы без цели работают так же, просто второе слово не пишешь. <data>?notify 7tv</data> подписывает канал на глобальные изменения 7TV.",
+                "demo": {
+                    "subscribe": "susgeeOK subscribed to live updates",
+                    "unsubscribe": "susgeeOK unsubscribed from live updates"
+                }
             },
             "pingme": {
                 "title": "?pingme",
                 "lead": "Подписывает лично тебя, чтобы мы пинговали по имени. Может использовать кто угодно.",
-                "body": "Запусти ещё раз, чтобы снять себя. Для <data>live</data> каналу сначала нужна подписка, её ставит мод через <data>?notify live forsen</data>. Мы никогда не создаём эту канальную подписку из <data>?pingme</data>, иначе любой зритель мог бы включить мод-настройку через чёрный ход."
+                "body": "Запусти ещё раз, чтобы снять себя. Для <data>live</data> каналу сначала нужна подписка, её ставит мод через <data>?notify live forsen</data>. Мы никогда не создаём эту канальную подписку из <data>?pingme</data>, иначе любой зритель мог бы включить мод-настройку через чёрный ход.",
+                "demo": {
+                    "live": "susgeeOK i will ping you for live updates of forsen",
+                    "subgift": "susgeeOK I will notify you when I detect a subgift for you"
+                }
             },
             "types": {
                 "title": "Типы",
@@ -2877,7 +3010,10 @@
             },
             "suggestion": {
                 "actionInvalid": "Неизвестное действие.",
-                "notFound": "Этого предложения больше нет."
+                "notFound": "Этого предложения больше нет.",
+                "tooShort": "A suggestion needs at least {min} characters.",
+                "tooLong": "A suggestion can be at most {max} characters long.",
+                "dailyLimit": "You already sent {limit} suggestions today, try again tomorrow."
             },
             "error": {
                 "notFound": "Этой ошибки больше нет."
@@ -2892,7 +3028,21 @@
             "translateInvalidLang": "Неверный код языка.",
             "translateLangExists": "Этот язык уже есть.",
             "translateUnknownKey": "Неизвестный ключ перевода.",
-            "translateEmpty": "Введи перевод."
+            "translateEmpty": "Введи перевод.",
+            "translation": {
+                "langInvalid": "Invalid language code.",
+                "statusInvalid": "Invalid status.",
+                "keyMissing": "No key given.",
+                "empty": "The text cannot be empty.",
+                "tooLong": "The text is too long.",
+                "langExists": "{code} has already been proposed.",
+                "notFound": "This entry no longer exists."
+            },
+            "changelogInvalidDate": "Please enter a valid date.",
+            "changelogItemsRequired": "Add at least one item with a title.",
+            "changelogTitleRequired": "Every item needs a title.",
+            "changelogItemTooLong": "Title or description is too long.",
+            "changelogTooManyItems": "Too many items in this release."
         },
         "admin": {
             "metaTitle": "Админ",
@@ -2912,12 +3062,17 @@
                 "empty": "Предложений нет.",
                 "approve": "Одобрить",
                 "finish": "Завершить",
-                "delete": "Удалить предложение {id}"
+                "delete": "Удалить предложение {id}",
+                "confirmTitle": "Delete suggestion?",
+                "confirmBody": "Suggestion #{id} will be deleted without notifying anyone.",
+                "confirmDelete": "Delete"
             },
             "errors": {
                 "title": "Ошибки",
                 "empty": "Ошибок нет.",
-                "delete": "Удалить ошибку {id}"
+                "delete": "Удалить ошибку {id}",
+                "search": "Search errors…",
+                "allTypes": "All"
             },
             "channels": {
                 "title": "Каналы",
@@ -2941,7 +3096,8 @@
                 "since": "Запущен {date}",
                 "lastError": "Последняя ошибка",
                 "ago": "{delta|time(largest|1)} назад",
-                "noErrors": "нет"
+                "noErrors": "нет",
+                "commit": "Commit"
             },
             "translations": {
                 "title": "Проверка переводов",
@@ -2950,6 +3106,53 @@
                 "empty": "Нечего проверять.",
                 "approve": "Принять",
                 "reject": "Отклонить"
+            },
+            "tabs": {
+                "overview": "Overview",
+                "channels": "Channels",
+                "suggestions": "Suggestions",
+                "translations": "Translations",
+                "errors": "Errors",
+                "botties": "Botties",
+                "seventv": "7TV",
+                "changelog": "Changelog"
+            },
+            "seventv": {
+                "search": "Search channels…"
+            },
+            "changelog": {
+                "title": "Changelog",
+                "create": "New release",
+                "edit": "Edit release",
+                "hint": "Select text and use the toolbar, or type Markdown directly.",
+                "date": "Date",
+                "item": "Item {n}",
+                "itemTitle": "Title",
+                "itemDescription": "Description",
+                "addItem": "Add item",
+                "removeItem": "Remove item",
+                "moveUp": "Move up",
+                "moveDown": "Move down",
+                "publish": "Publish",
+                "save": "Save",
+                "cancel": "Cancel",
+                "empty": "No changelog entries yet.",
+                "itemCount": "{count|plural(one|item, other|items)}",
+                "delete": "Delete release",
+                "formatCode": "Code",
+                "formatLink": "Link",
+                "linkLabel": "Label",
+                "linkHref": "URL",
+                "applyLink": "Insert link",
+                "preview": "Preview",
+                "shortcuts": "Shortcuts: Ctrl/Cmd+B bold, Ctrl/Cmd+I italic, Ctrl/Cmd+E code, Ctrl/Cmd+K link.",
+                "write": "Write",
+                "previewEmpty": "Nothing to preview",
+                "formatBold": "Bold",
+                "formatItalic": "Italic",
+                "placeholderBold": "bold text",
+                "placeholderItalic": "italic text",
+                "placeholderCode": "code"
             }
         }
     },
