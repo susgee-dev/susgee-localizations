@@ -1778,7 +1778,8 @@
         "footer": {
             "rightsReserved": "not affiliated with Twitch",
             "privacy": "privacy",
-            "suggestions": "Suggestions"
+            "suggestions": "Suggestions",
+            "changelog": "Changelog"
         },
         "pages": {
             "home": {
