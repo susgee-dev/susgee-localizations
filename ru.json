@@ -1825,7 +1825,7 @@
                             "subage": "<glitch></glitch> susgeebot • подписан на revedtv уже {months|plural(one|месяц, other|месяцев)} • стрик 57 мес. • саб Tier 1 тира • продлится через 2 months, 21 hours and 33 minutes",
                             "short": "<ok></ok> https://s.susgee.dev/abc123",
                             "weather": "📍 Berlin 🇩🇪 🌥️ Погода: Partly cloudy 🌡️ Температура: 18°C 🌡️ Ощущается как: 17°C 💧 Влажность: 65% 🌬️ Скорость ветра: 12 km/h 🌅 Восход: 06:15 🌆 Закат: 20:30",
-                            "regex": "<ok></ok> Chatterino regex: /test/i",
+                            "regex": "<ok></ok> Regex для Chatterino: /test/i",
                             "randomColor": "<ok></ok> #FF5733"
                         }
                     }
@@ -1968,8 +1968,8 @@
                         "description": "Загружай и делись картинками и видео через наш хостинг."
                     },
                     "emoteUsage": {
-                        "title": "Emote usage",
-                        "description": "Top emote stats per channel or across the whole network."
+                        "title": "Использование эмоутов",
+                        "description": "Топ эмоутов по каналу или по всей сети."
                     }
                 }
             },
@@ -2568,17 +2568,17 @@
                     "user": "Спасибо, что заглянул, $(user)!",
                     "argument": "Шаутаут $(1)! Загляните на twitch.tv/$(1)",
                     "rest": "Заметка сохранена: $(1:)",
-                    "fallback": "golive now $(1|channel)!",
+                    "fallback": "golive сейчас $(1|channel)!",
                     "streamTitle": "Сейчас в эфире: $(title)",
                     "game": "Играет в: $(game)",
                     "followers": "У $(channel) $(followers) фолловеров",
                     "randomNumber": "Тебе выпало $(random.number 1 6)",
-                    "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
+                    "randomPick": "$(sender) — это $(random.pick based, cringe, built different)",
                     "time": "Сейчас $(time Europe/Zurich)",
                     "count": "$(channel) уже $(count) раз сказал что-то сомнительное",
-                    "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
-                    "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
-                    "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
+                    "customApi1": "У $(channel) $(customapi https://decapi.me/twitch/followcount/$(channel)) фолловеров!",
+                    "customApi2": "$(user) фолловит уже $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
+                    "customApi3": "$(1) в эфире: $(customapi https://decapi.me/twitch/status/$(1))"
                 }
             },
             "builtin": {

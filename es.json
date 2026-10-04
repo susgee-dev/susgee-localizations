@@ -1825,7 +1825,7 @@
                             "subage": "<glitch></glitch> susgeebot • subscrito a revedtv durante {months|plural(one|mes, other|meses)} • racha de 57 meses • sub Tier 1 • se renueva en 2 months, 21 hours and 33 minutes",
                             "short": "<ok></ok> https://s.susgee.dev/abc123",
                             "weather": "📍 Berlin 🇩🇪 🌥️ tiempo: Partly cloudy 🌡️ temperatura: 18°C 🌡️ sensación térmica: 17°C 💧 humedad: 65% 🌬️ viento: 12 km/h 🌅 amanecer: 06:15 🌆 atardecer: 20:30",
-                            "regex": "<ok></ok> Chatterino regex: /test/i",
+                            "regex": "<ok></ok> Regex de Chatterino: /test/i",
                             "randomColor": "<ok></ok> #FF5733"
                         }
                     }
@@ -1968,8 +1968,8 @@
                         "description": "Sube y comparte imágenes y vídeos con nuestro servicio de hosting."
                     },
                     "emoteUsage": {
-                        "title": "Emote usage",
-                        "description": "Top emote stats per channel or across the whole network."
+                        "title": "Uso de emotes",
+                        "description": "Top de emotes por canal o en toda la red."
                     }
                 }
             },
@@ -2024,7 +2024,7 @@
                 "approximate": "(el VOD del clip ya no está, se usa la hora de creación del clip, menos preciso)",
                 "openVod": "Abrir VOD en la marca de tiempo",
                 "player": "Reproductor de VOD de Twitch",
-                "offset": "{hours}h {minutes}m {seconds}s"
+                "offset": "{hours} h {minutes} m {seconds} s"
             },
             "seventv": {
                 "metaTitle": "Permisos de editor 7TV",
@@ -2568,17 +2568,17 @@
                     "user": "¡Gracias por lurkear, $(user)!",
                     "argument": "¡Shoutout a $(1)! Miradlo en twitch.tv/$(1)",
                     "rest": "Nota guardada: $(1:)",
-                    "fallback": "golive now $(1|channel)!",
+                    "fallback": "¡golive ahora $(1|channel)!",
                     "streamTitle": "Ahora en directo: $(title)",
                     "game": "Jugando: $(game)",
                     "followers": "$(channel) tiene $(followers) seguidores",
                     "randomNumber": "Has sacado un $(random.number 1 6)",
-                    "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
+                    "randomPick": "$(sender) es $(random.pick based, cringe, built different)",
                     "time": "Aquí son las $(time Europe/Zurich)",
                     "count": "$(channel) ha dicho algo dudoso $(count) veces",
-                    "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
-                    "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
-                    "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
+                    "customApi1": "$(channel) tiene $(customapi https://decapi.me/twitch/followcount/$(channel)) seguidores!",
+                    "customApi2": "$(user) sigue desde hace $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
+                    "customApi3": "$(1) está en directo: $(customapi https://decapi.me/twitch/status/$(1))"
                 }
             },
             "builtin": {

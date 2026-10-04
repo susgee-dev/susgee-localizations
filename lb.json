@@ -1825,7 +1825,7 @@
                             "subage": "<glitch></glitch> susgeebot • abonnéiert bei revedtv zënter {months|plural(one|mount, other|méint)} • 57 mount streak • Tier 1 sub • erneiert sech an 2 months, 21 hours and 33 minutes",
                             "short": "<ok></ok> https://s.susgee.dev/abc123",
                             "weather": "📍 Berlin 🇩🇪 🌥️ wieder: Partly cloudy 🌡️ temperatur: 18°C 🌡️ fillt sech un: 17°C 💧 loftfiichtegkeet: 65% 🌬️ wandvitess: 12 km/h 🌅 sonnenopgang: 06:15 🌆 sonnenënnergang: 20:30",
-                            "regex": "<ok></ok> Chatterino regex: /test/i",
+                            "regex": "<ok></ok> Chatterino-Regex: /test/i",
                             "randomColor": "<ok></ok> #FF5733"
                         }
                     }
@@ -1968,8 +1968,8 @@
                         "description": "biller a videoen mat eisem hosting-service eroplueden an deelen."
                     },
                     "emoteUsage": {
-                        "title": "Emote usage",
-                        "description": "Top emote stats per channel or across the whole network."
+                        "title": "Emote-Notzung",
+                        "description": "Top-Emotes pro Channel oder iwwer dat ganzt Netzwierk."
                     }
                 }
             },
@@ -2568,17 +2568,17 @@
                     "user": "Merci firs Lurken, $(user)!",
                     "argument": "Shoutout un $(1)! Kuckt e bei twitch.tv/$(1)",
                     "rest": "Notiz gespäichert: $(1:)",
-                    "fallback": "golive now $(1|channel)!",
+                    "fallback": "golive elo $(1|channel)!",
                     "streamTitle": "Elo live: $(title)",
                     "game": "Spillt: $(game)",
                     "followers": "$(channel) huet $(followers) Follower",
                     "randomNumber": "Du hues eng $(random.number 1 6) geworfelt",
-                    "randomPick": "$(sender) is $(random.pick based, cringe, built different)",
+                    "randomPick": "$(sender) ass $(random.pick based, cringe, built different)",
                     "time": "Hei ass et $(time Europe/Zurich)",
                     "count": "$(channel) huet schonn $(count) Mol eppes Frogewierdeges gesot",
-                    "customApi1": "$(channel) has $(customapi https://decapi.me/twitch/followcount/$(channel)) followers!",
-                    "customApi2": "$(user) has been following for $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
-                    "customApi3": "$(1) is live: $(customapi https://decapi.me/twitch/status/$(1))"
+                    "customApi1": "$(channel) huet $(customapi https://decapi.me/twitch/followcount/$(channel)) Follower!",
+                    "customApi2": "$(user) follegt zanter $(customapi https://decapi.me/twitch/followage/$(channel)/$(user))",
+                    "customApi3": "$(1) ass live: $(customapi https://decapi.me/twitch/status/$(1))"
                 }
             },
             "builtin": {
@@ -3141,7 +3141,7 @@
                 "delete": "Release läschen",
                 "formatCode": "Code",
                 "formatLink": "Link",
-                "linkLabel": "Label",
+                "linkLabel": "Text",
                 "linkHref": "URL",
                 "applyLink": "Link asetzen",
                 "preview": "Virschau",
