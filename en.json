@@ -2968,7 +2968,12 @@
                 "tooLong": "The text is too long.",
                 "langExists": "{code} has already been proposed.",
                 "notFound": "This entry no longer exists."
-            }
+            },
+            "changelogInvalidDate": "Please enter a valid date.",
+            "changelogItemsRequired": "Add at least one item with a title.",
+            "changelogTitleRequired": "Every item needs a title.",
+            "changelogItemTooLong": "Title or description is too long.",
+            "changelogTooManyItems": "Too many items in this release."
         },
         "admin": {
             "metaTitle": "Admin",
@@ -3040,10 +3045,31 @@
                 "translations": "Translations",
                 "errors": "Errors",
                 "botties": "Botties",
-                "seventv": "7TV"
+                "seventv": "7TV",
+                "changelog": "Changelog"
             },
             "seventv": {
                 "search": "Search channels…"
+            },
+            "changelog": {
+                "title": "Changelog",
+                "create": "New release",
+                "edit": "Edit release",
+                "hint": "Use `code` and [label](/path) in titles and descriptions.",
+                "date": "Date",
+                "item": "Item {n}",
+                "itemTitle": "Title",
+                "itemDescription": "Description",
+                "addItem": "Add item",
+                "removeItem": "Remove item",
+                "moveUp": "Move up",
+                "moveDown": "Move down",
+                "publish": "Publish",
+                "save": "Save",
+                "cancel": "Cancel",
+                "empty": "No changelog entries yet.",
+                "itemCount": "{count|plural(one|item, other|items)}",
+                "delete": "Delete release"
             }
         }
     },
