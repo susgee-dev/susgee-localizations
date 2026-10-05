@@ -1973,6 +1973,18 @@
                     "emoteUsage": {
                         "title": "Emote usage",
                         "description": "Top emote stats per channel or across the whole network."
+                    },
+                    "paint": {
+                        "title": "Vanity tester",
+                        "description": "Try every 7TV paint and badge on a Twitch chat-style preview."
+                    },
+                    "regex": {
+                        "title": "Regex tester",
+                        "description": "Test regular expressions and highlight matches in your text."
+                    },
+                    "color": {
+                        "title": "Color picker",
+                        "description": "Pick a color in hex or RGB and preview it as a Twitch chat name."
                     }
                 }
             },
@@ -2206,6 +2218,75 @@
                 "title": "Changelog",
                 "description": "Keep track of the latest changes and improvements to Susgeebot.",
                 "empty": "No changelog entries yet."
+            },
+            "paintLookup": {
+                "metaTitle": "Vanity tester",
+                "title": "7TV vanity tester",
+                "description": "Browse all 7TV paints and badges, or load a user’s equipped cosmetics.",
+                "username": "Username",
+                "usernamePlaceholder": "Load cosmetics from a Twitch user…",
+                "search": "Load user",
+                "displayName": "Display name",
+                "message": "Chat message",
+                "color": "Name color",
+                "config": "Config",
+                "clear": "Clear paint & badge",
+                "loadedUser": "Loaded from {name}",
+                "paintLabel": "Paint",
+                "badgeLabel": "Badge",
+                "none": "None",
+                "defaultMessage": "pog",
+                "tabPaints": "Paints ({count})",
+                "tabBadges": "Badges ({count})",
+                "filterPlaceholder": "Filter by name…",
+                "loadingCatalog": "Loading 7TV catalog…",
+                "catalogError": "Could not load the 7TV catalog",
+                "showing": "Showing {shown} of {total}",
+                "userNotFound": "User not found",
+                "noPaint": "This user has no active 7TV paint",
+                "noCosmetics": "This user has no active 7TV paint or badge",
+                "apiError": "Could not look up this user",
+                "previewText": "Preview text",
+                "openShare": "Open shareable paint page",
+                "pageStatus": "Page {page}/{pages} · showing {shown} of {total}",
+                "chatPreview": "Chat preview",
+                "scopeOwned": "Owned",
+                "scopeGlobal": "All",
+                "ownedHint": "Load a Twitch user to browse their paints and badges.",
+                "emptyList": "Nothing here yet.",
+                "random": "Random"
+            },
+            "regexTester": {
+                "metaTitle": "Regex tester",
+                "title": "Regex tester",
+                "description": "Build a pattern, toggle flags, and see matches highlighted live.",
+                "pattern": "Pattern",
+                "patternPlaceholder": "e.g. \\b(sus|gee)\\b",
+                "flags": "Flags",
+                "testString": "Test string",
+                "testPlaceholder": "Paste text to match against…",
+                "preview": "Highlighted result",
+                "emptyPreview": "Enter a test string to see highlighted matches.",
+                "matches": "{count} match(es)",
+                "noMatches": "No matches",
+                "matchAt": "at index {index}",
+                "group": "group {index}: {value}"
+            },
+            "colorPicker": {
+                "metaTitle": "Color picker",
+                "title": "Color picker",
+                "description": "Convert hex and RGB colors and preview them in a Twitch chat style.",
+                "picker": "Color",
+                "hex": "Hex",
+                "random": "Random",
+                "red": "Red",
+                "green": "Green",
+                "blue": "Blue",
+                "invalidHex": "Invalid hex color",
+                "chatPreview": "Twitch chat preview",
+                "previewName": "Username",
+                "previewMessage": "Message",
+                "defaultMessage": "hello chat"
             }
         },
         "common": {
@@ -2346,7 +2427,8 @@
             "loadAudit": "The history could not be loaded.",
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
             "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
-            "loadApiUsage": "An error occurred while loading API usage."
+            "loadApiUsage": "An error occurred while loading API usage.",
+            "lookupPaint": "Could not look up this paint"
         },
         "dashboard": {
             "title": "Dashboard",

@@ -1969,6 +1969,18 @@
                     "emoteUsage": {
                         "title": "Использование эмоутов",
                         "description": "Топ эмоутов по каналу или по всей сети."
+                    },
+                    "paint": {
+                        "title": "Vanity-тестер",
+                        "description": "Пробуйте все 7TV paints и badges в превью чата Twitch."
+                    },
+                    "regex": {
+                        "title": "Regex-тестер",
+                        "description": "Проверяйте регулярные выражения и подсвечивайте совпадения в тексте."
+                    },
+                    "color": {
+                        "title": "Выбор цвета",
+                        "description": "Выберите цвет в hex или RGB и посмотрите его как имя в чате Twitch."
                     }
                 }
             },
@@ -2202,6 +2214,75 @@
                 "title": "Changelog",
                 "description": "Следите за последними изменениями и улучшениями Susgeebot.",
                 "empty": "Пока нет записей в changelog."
+            },
+            "paintLookup": {
+                "metaTitle": "Vanity tester",
+                "title": "7TV vanity-тестер",
+                "description": "Смотрите все 7TV paints и badges или загрузите косметику пользователя.",
+                "username": "Username",
+                "usernamePlaceholder": "Load cosmetics from a Twitch user…",
+                "search": "Загрузить",
+                "displayName": "Display name",
+                "message": "Chat message",
+                "color": "Name color",
+                "config": "Config",
+                "clear": "Сбросить paint и badge",
+                "loadedUser": "Loaded from {name}",
+                "paintLabel": "Paint",
+                "badgeLabel": "Badge",
+                "none": "None",
+                "defaultMessage": "pog",
+                "tabPaints": "Paints ({count})",
+                "tabBadges": "Badges ({count})",
+                "filterPlaceholder": "Filter by name…",
+                "loadingCatalog": "Загрузка каталога 7TV…",
+                "catalogError": "Не удалось загрузить каталог 7TV",
+                "showing": "Показано {shown} из {total}",
+                "userNotFound": "User not found",
+                "noPaint": "This user has no active 7TV paint",
+                "noCosmetics": "У этого пользователя нет активного 7TV paint или badge",
+                "apiError": "Could not look up this user",
+                "previewText": "Preview text",
+                "openShare": "Open shareable paint page",
+                "pageStatus": "Страница {page}/{pages} · показано {shown} из {total}",
+                "chatPreview": "Превью чата",
+                "scopeOwned": "Свои",
+                "scopeGlobal": "Все",
+                "ownedHint": "Загрузите пользователя Twitch, чтобы увидеть его paints и badges.",
+                "emptyList": "Пока ничего нет.",
+                "random": "Случайно"
+            },
+            "regexTester": {
+                "metaTitle": "Regex-тестер",
+                "title": "Regex-тестер",
+                "description": "Соберите шаблон, включите флаги и смотрите совпадения вживую.",
+                "pattern": "Шаблон",
+                "patternPlaceholder": "напр. \\b(sus|gee)\\b",
+                "flags": "Флаги",
+                "testString": "Тестовая строка",
+                "testPlaceholder": "Вставьте текст для проверки…",
+                "preview": "Подсвеченный результат",
+                "emptyPreview": "Введите тестовую строку, чтобы увидеть совпадения.",
+                "matches": "{count} совпадений",
+                "noMatches": "Нет совпадений",
+                "matchAt": "на индексе {index}",
+                "group": "группа {index}: {value}"
+            },
+            "colorPicker": {
+                "metaTitle": "Выбор цвета",
+                "title": "Выбор цвета",
+                "description": "Конвертируйте hex и RGB и смотрите превью в стиле чата Twitch.",
+                "picker": "Цвет",
+                "hex": "Hex",
+                "random": "Случайный",
+                "red": "Красный",
+                "green": "Зелёный",
+                "blue": "Синий",
+                "invalidHex": "Неверный hex-цвет",
+                "chatPreview": "Превью чата Twitch",
+                "previewName": "Имя пользователя",
+                "previewMessage": "Сообщение",
+                "defaultMessage": "привет чат"
             }
         },
         "common": {
@@ -2342,7 +2423,8 @@
             "loadAudit": "Историю загрузить не удалось.",
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
             "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
-            "loadApiUsage": "Не удалось загрузить использование API."
+            "loadApiUsage": "Не удалось загрузить использование API.",
+            "lookupPaint": "Не удалось загрузить paint"
         },
         "dashboard": {
             "title": "Дашборд",

@@ -1973,6 +1973,18 @@
                     "emoteUsage": {
                         "title": "Emote-Nutzung",
                         "description": "Top-Emote-Stats pro Channel oder über das gesamte Network."
+                    },
+                    "paint": {
+                        "title": "Vanity-Tester",
+                        "description": "Alle 7TV-Paints und -Badges in einer Twitch-Chat-Vorschau ausprobieren."
+                    },
+                    "regex": {
+                        "title": "Regex-Tester",
+                        "description": "Reguläre Ausdrücke testen und Treffer im Text hervorheben."
+                    },
+                    "color": {
+                        "title": "Farbwähler",
+                        "description": "Farbe in Hex oder RGB wählen und als Twitch-Chat-Name vorschauen."
                     }
                 }
             },
@@ -2206,6 +2218,75 @@
                 "title": "Changelog",
                 "description": "Alle Änderungen und Verbesserungen an Susgeebot im Überblick.",
                 "empty": "Noch keine Changelog-Einträge."
+            },
+            "paintLookup": {
+                "metaTitle": "Vanity-Tester",
+                "title": "7TV Vanity-Tester",
+                "description": "Alle 7TV-Paints und -Badges durchstöbern oder die Cosmetics eines Users laden.",
+                "username": "Username",
+                "usernamePlaceholder": "Cosmetics von einem Twitch-User laden…",
+                "search": "User laden",
+                "displayName": "Anzeigename",
+                "message": "Chat-Nachricht",
+                "color": "Namensfarbe",
+                "config": "Einstellungen",
+                "clear": "Paint & Badge löschen",
+                "loadedUser": "Geladen von {name}",
+                "paintLabel": "Paint",
+                "badgeLabel": "Badge",
+                "none": "Keins",
+                "defaultMessage": "pog",
+                "tabPaints": "Paints ({count})",
+                "tabBadges": "Badges ({count})",
+                "filterPlaceholder": "Nach Name filtern…",
+                "loadingCatalog": "7TV-Katalog wird geladen…",
+                "catalogError": "7TV-Katalog konnte nicht geladen werden",
+                "showing": "Zeige {shown} von {total}",
+                "userNotFound": "User nicht gefunden",
+                "noPaint": "Dieser User hat kein aktives 7TV-Paint",
+                "noCosmetics": "Dieser User hat kein aktives 7TV-Paint oder Badge",
+                "apiError": "User konnte nicht geladen werden",
+                "previewText": "Vorschautext",
+                "openShare": "Teilbare Paint-Seite öffnen",
+                "pageStatus": "Seite {page}/{pages} · zeige {shown} von {total}",
+                "chatPreview": "Chat-Vorschau",
+                "scopeOwned": "Eigene",
+                "scopeGlobal": "Alle",
+                "ownedHint": "Lade einen Twitch-User, um seine Paints und Badges zu sehen.",
+                "emptyList": "Noch nichts vorhanden.",
+                "random": "Zufällig"
+            },
+            "regexTester": {
+                "metaTitle": "Regex-Tester",
+                "title": "Regex-Tester",
+                "description": "Muster bauen, Flags setzen und Treffer live hervorheben.",
+                "pattern": "Muster",
+                "patternPlaceholder": "z. B. \\b(sus|gee)\\b",
+                "flags": "Flags",
+                "testString": "Testtext",
+                "testPlaceholder": "Text zum Testen einfügen…",
+                "preview": "Hervorgehobenes Ergebnis",
+                "emptyPreview": "Gib einen Testtext ein, um Treffer zu sehen.",
+                "matches": "{count} Treffer",
+                "noMatches": "Keine Treffer",
+                "matchAt": "bei Index {index}",
+                "group": "Gruppe {index}: {value}"
+            },
+            "colorPicker": {
+                "metaTitle": "Farbwähler",
+                "title": "Farbwähler",
+                "description": "Hex- und RGB-Farben umrechnen und im Twitch-Chat-Stil vorschauen.",
+                "picker": "Farbe",
+                "hex": "Hex",
+                "random": "Zufällig",
+                "red": "Rot",
+                "green": "Grün",
+                "blue": "Blau",
+                "invalidHex": "Ungültige Hex-Farbe",
+                "chatPreview": "Twitch-Chat-Vorschau",
+                "previewName": "Username",
+                "previewMessage": "Nachricht",
+                "defaultMessage": "hallo chat"
             }
         },
         "common": {
@@ -2346,7 +2427,8 @@
             "loadAudit": "Der Verlauf konnte nicht geladen werden.",
             "lookupChannelEmoteUsage": "Channel-Emote-Nutzung konnte nicht geladen werden.",
             "lookupNetworkEmoteUsage": "Network-Emote-Nutzung konnte nicht geladen werden.",
-            "loadApiUsage": "Beim Laden der API-Nutzung ist ein Fehler aufgetreten."
+            "loadApiUsage": "Beim Laden der API-Nutzung ist ein Fehler aufgetreten.",
+            "lookupPaint": "Paint konnte nicht geladen werden"
         },
         "dashboard": {
             "title": "Dashboard",
