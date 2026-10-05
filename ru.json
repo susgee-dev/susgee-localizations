@@ -932,7 +932,6 @@
         "success": "susgeeOK разбан пользователей завершён"
     },
     "unRemind": {
-        "invalidId": "susgeeDank id должен быть числом",
         "notFound": "susgeeDank напоминания с id {id} нет",
         "notYours": "susgeeDank напоминание с id {id} не твоё",
         "success": "susgeeOK напоминание с id {id} удалено"

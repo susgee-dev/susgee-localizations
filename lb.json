@@ -932,7 +932,6 @@
         "success": "susgeeOK fäerdeg mam entbannen"
     },
     "unRemind": {
-        "invalidId": "susgeeDank id muss eng zuel sinn",
         "notFound": "susgeeDank kee reminder mat id {id} fonnt",
         "notYours": "susgeeDank reminder mat id {id} ass net vun dir",
         "success": "susgeeOK reminder mat id {id} gouf geläscht"

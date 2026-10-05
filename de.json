@@ -932,10 +932,12 @@
         "success": "susgeeOK Fertig mit dem Unbannen"
     },
     "unRemind": {
-        "invalidId": "susgeeDank ID muss eine Zahl sein",
         "notFound": "susgeeDank Keinen Reminder mit der ID {id} gefunden",
         "notYours": "susgeeDank Reminder mit der ID {id} ist nicht von dir",
-        "success": "susgeeOK Reminder mit der ID {id} wurde gelöscht"
+        "success": "susgeeOK Reminder mit der ID {id} wurde gelöscht",
+        "noneLeft": "susgeeDank Du hast keine offenen Reminder",
+        "noneFor": "susgeeDank Du hast keinen offenen Reminder für {user}",
+        "successFor": "susgeeOK Reminder mit der ID {id} für {user} wurde gelöscht"
     },
     "user": {
         "age": "Alter: {age|time}",
@@ -1667,8 +1669,8 @@
             "description": "Entbannt eine Liste von Leuten im Channel"
         },
         "unRemind": {
-            "usage": "<ID>",
-            "description": "Entfernt einen Reminder aus der Datenbank"
+            "usage": "<ID | last | User>",
+            "description": "Entfernt einen Reminder per ID, deinen letzten oder deinen letzten für einen User"
         },
         "updateMsg": {
             "usage": "<Channel>",

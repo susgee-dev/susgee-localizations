@@ -932,10 +932,12 @@
         "success": "susgeeOK finished unbanning user"
     },
     "unRemind": {
-        "invalidId": "susgeeDank id has to be a number",
         "notFound": "susgeeDank no reminder found with id {id}",
         "notYours": "susgeeDank reminder with id {id} is not from you",
-        "success": "susgeeOK reminder with id {id} has been deleted"
+        "success": "susgeeOK reminder with id {id} has been deleted",
+        "noneLeft": "susgeeDank you have no open reminders",
+        "noneFor": "susgeeDank you have no open reminder for {user}",
+        "successFor": "susgeeOK reminder with id {id} for {user} has been deleted"
     },
     "user": {
         "age": "age: {age|time}",
@@ -1667,8 +1669,8 @@
             "description": "unbans a list of users"
         },
         "unRemind": {
-            "usage": "<id>",
-            "description": "deletes a reminder"
+            "usage": "<id | last | user>",
+            "description": "deletes a reminder by id, your latest one or your latest one for a user"
         },
         "updateMsg": {
             "usage": "<channel>",

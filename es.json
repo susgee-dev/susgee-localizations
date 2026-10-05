@@ -932,7 +932,6 @@
         "success": "susgeeOK desbaneo de usuario terminado"
     },
     "unRemind": {
-        "invalidId": "susgeeDank el id tiene que ser un número",
         "notFound": "susgeeDank no se encontró ningún recordatorio con el id {id}",
         "notYours": "susgeeDank el recordatorio con el id {id} no es tuyo",
         "success": "susgeeOK el recordatorio con el id {id} ha sido eliminado"
