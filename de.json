@@ -563,7 +563,8 @@
         "access": "Berechtigung: {access}",
         "cooldown": "Cooldown: {cooldown}s",
         "everyone": "alle",
-        "usage": "Benutzung: {usage|include}"
+        "usage": "Benutzung: {usage|include}",
+        "category": "Kategorie {category} • {count} Commands • {link}"
     },
     "hug": {
         "bot": "MrDestructoid // 🤗",
