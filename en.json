@@ -2342,7 +2342,8 @@
             "removeAlert": "Failed to disable the alert.",
             "loadAudit": "The history could not be loaded.",
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
-            "lookupNetworkEmoteUsage": "Failed to load network emote usage."
+            "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
+            "loadApiUsage": "An error occurred while loading API usage."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3113,6 +3114,7 @@
                 "suggestions": "Suggestions",
                 "translations": "Translations",
                 "errors": "Errors",
+                "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
                 "changelog": "Changelog"
@@ -3153,6 +3155,34 @@
                 "placeholderBold": "bold text",
                 "placeholderItalic": "italic text",
                 "placeholderCode": "code"
+            },
+            "api": {
+                "title": "API usage",
+                "empty": "No requests in this range.",
+                "range": "{days|plural(one|day, other|days)}",
+                "bucket": "{date}: {requests|plural(one|request, other|requests)} from {clients|plural(one|client, other|clients)}",
+                "source": {
+                    "external": "External only",
+                    "all": "Including dashboard"
+                },
+                "totals": {
+                    "requests": "Requests",
+                    "clients": "Clients",
+                    "rateLimited": "Rate-limited",
+                    "errors": "Server errors",
+                    "p95": "Latency p95"
+                },
+                "clients": {
+                    "title": "Top clients",
+                    "hint": "Clients are grouped by hashed IP. User-Agent, origin and Twitch user come from their latest request.",
+                    "noAgent": "(no User-Agent)",
+                    "rateLimited": "{count} rate-limited",
+                    "meta": "{routes|plural(one|route, other|routes)}, mostly {route} · last seen {delta|time(largest|1)} ago"
+                },
+                "routes": {
+                    "title": "Top routes",
+                    "meta": "{clients|plural(one|client, other|clients)} · {failed} failed · p95 {p95} ms"
+                }
             }
         }
     },

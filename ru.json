@@ -2342,7 +2342,8 @@
             "removeAlert": "Не удалось выключить алерт.",
             "loadAudit": "Историю загрузить не удалось.",
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
-            "lookupNetworkEmoteUsage": "Failed to load network emote usage."
+            "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
+            "loadApiUsage": "Не удалось загрузить использование API."
         },
         "dashboard": {
             "title": "Дашборд",
@@ -3113,6 +3114,7 @@
                 "suggestions": "Suggestions",
                 "translations": "Translations",
                 "errors": "Errors",
+                "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
                 "changelog": "Changelog"
@@ -3153,6 +3155,34 @@
                 "placeholderBold": "жирный текст",
                 "placeholderItalic": "курсивный текст",
                 "placeholderCode": "код"
+            },
+            "api": {
+                "title": "Использование API",
+                "empty": "За этот период запросов нет.",
+                "range": "{days|plural(one|день, other|дней)}",
+                "bucket": "{date}: {requests|plural(one|запрос, other|запросов)} от {clients|plural(one|клиента, other|клиентов)}",
+                "source": {
+                    "external": "Только внешние",
+                    "all": "Вместе с дашбордом"
+                },
+                "totals": {
+                    "requests": "Запросы",
+                    "clients": "Клиенты",
+                    "rateLimited": "Ограничено",
+                    "errors": "Ошибки сервера",
+                    "p95": "Задержка p95"
+                },
+                "clients": {
+                    "title": "Топ клиентов",
+                    "hint": "Клиенты сгруппированы по хешу IP. User-Agent, origin и пользователь Twitch берутся из последнего запроса.",
+                    "noAgent": "(без User-Agent)",
+                    "rateLimited": "ограничено: {count}",
+                    "meta": "{routes|plural(one|маршрут, other|маршрутов)}, чаще всего {route} · был {delta|time(largest|1)} назад"
+                },
+                "routes": {
+                    "title": "Топ маршрутов",
+                    "meta": "{clients|plural(one|клиент, other|клиентов)} · ошибок: {failed} · p95 {p95} ms"
+                }
             }
         }
     },

@@ -2342,7 +2342,8 @@
             "removeAlert": "den alert konnt net ausgemaach ginn.",
             "loadAudit": "de verlaf konnt net geluede ginn.",
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
-            "lookupNetworkEmoteUsage": "Failed to load network emote usage."
+            "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
+            "loadApiUsage": "d'API-notzung konnt net geluede ginn."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3113,6 +3114,7 @@
                 "suggestions": "Suggestions",
                 "translations": "Translations",
                 "errors": "Errors",
+                "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
                 "changelog": "Changelog"
@@ -3153,6 +3155,34 @@
                 "placeholderBold": "fetten Text",
                 "placeholderItalic": "kursiven Text",
                 "placeholderCode": "code"
+            },
+            "api": {
+                "title": "API-notzung",
+                "empty": "keng requests an dësem zäitraum.",
+                "range": "{days|plural(one|dag, other|deeg)}",
+                "bucket": "{date}: {requests|plural(one|request, other|requests)} vun {clients|plural(one|client, other|clienten)}",
+                "source": {
+                    "external": "nëmmen extern",
+                    "all": "mam dashboard"
+                },
+                "totals": {
+                    "requests": "requests",
+                    "clients": "clienten",
+                    "rateLimited": "rate-limitéiert",
+                    "errors": "serverfeeler",
+                    "p95": "latenz p95"
+                },
+                "clients": {
+                    "title": "top-clienten",
+                    "hint": "clienten sinn no gehashter IP gruppéiert. user-agent, origin an twitch-user kommen aus hirem leschte request.",
+                    "noAgent": "(keen user-agent)",
+                    "rateLimited": "{count} rate-limitéiert",
+                    "meta": "{routes|plural(one|route, other|routen)}, meeschtens {route} · lescht gesinn virun {delta|time(largest|1)}"
+                },
+                "routes": {
+                    "title": "top-routen",
+                    "meta": "{clients|plural(one|client, other|clienten)} · {failed} feelgeschloen · p95 {p95} ms"
+                }
             }
         }
     },

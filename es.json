@@ -2342,7 +2342,8 @@
             "removeAlert": "No se pudo desactivar el aviso.",
             "loadAudit": "No se pudo cargar el historial.",
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
-            "lookupNetworkEmoteUsage": "Failed to load network emote usage."
+            "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
+            "loadApiUsage": "No se pudo cargar el uso de la API."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3113,6 +3114,7 @@
                 "suggestions": "Suggestions",
                 "translations": "Translations",
                 "errors": "Errors",
+                "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
                 "changelog": "Changelog"
@@ -3153,6 +3155,34 @@
                 "placeholderBold": "texto en negrita",
                 "placeholderItalic": "texto en cursiva",
                 "placeholderCode": "código"
+            },
+            "api": {
+                "title": "Uso de la API",
+                "empty": "No hay peticiones en este periodo.",
+                "range": "{days|plural(one|día, other|días)}",
+                "bucket": "{date}: {requests|plural(one|petición, other|peticiones)} de {clients|plural(one|cliente, other|clientes)}",
+                "source": {
+                    "external": "Solo externas",
+                    "all": "Con dashboard"
+                },
+                "totals": {
+                    "requests": "Peticiones",
+                    "clients": "Clientes",
+                    "rateLimited": "Limitadas",
+                    "errors": "Errores del servidor",
+                    "p95": "Latencia p95"
+                },
+                "clients": {
+                    "title": "Clientes principales",
+                    "hint": "Los clientes se agrupan por IP hasheada. User-Agent, origen y usuario de Twitch salen de su última petición.",
+                    "noAgent": "(sin User-Agent)",
+                    "rateLimited": "{count} limitadas",
+                    "meta": "{routes|plural(one|ruta, other|rutas)}, sobre todo {route} · visto hace {delta|time(largest|1)}"
+                },
+                "routes": {
+                    "title": "Rutas principales",
+                    "meta": "{clients|plural(one|cliente, other|clientes)} · {failed} fallidas · p95 {p95} ms"
+                }
             }
         }
     },

@@ -2342,7 +2342,8 @@
             "removeAlert": "Der Alert konnte nicht deaktiviert werden.",
             "loadAudit": "Der Verlauf konnte nicht geladen werden.",
             "lookupChannelEmoteUsage": "Channel-Emote-Nutzung konnte nicht geladen werden.",
-            "lookupNetworkEmoteUsage": "Network-Emote-Nutzung konnte nicht geladen werden."
+            "lookupNetworkEmoteUsage": "Network-Emote-Nutzung konnte nicht geladen werden.",
+            "loadApiUsage": "Beim Laden der API-Nutzung ist ein Fehler aufgetreten."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3113,6 +3114,7 @@
                 "suggestions": "Vorschläge",
                 "translations": "Übersetzungen",
                 "errors": "Fehler",
+                "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
                 "changelog": "Changelog"
@@ -3153,6 +3155,34 @@
                 "placeholderBold": "fetter Text",
                 "placeholderItalic": "kursiver Text",
                 "placeholderCode": "code"
+            },
+            "api": {
+                "title": "API-Nutzung",
+                "empty": "Keine Requests in diesem Zeitraum.",
+                "range": "{days|plural(one|Tag, other|Tage)}",
+                "bucket": "{date}: {requests|plural(one|Request, other|Requests)} von {clients|plural(one|Client, other|Clients)}",
+                "source": {
+                    "external": "Nur extern",
+                    "all": "Mit Dashboard"
+                },
+                "totals": {
+                    "requests": "Requests",
+                    "clients": "Clients",
+                    "rateLimited": "Rate-limitiert",
+                    "errors": "Serverfehler",
+                    "p95": "Latenz p95"
+                },
+                "clients": {
+                    "title": "Top-Clients",
+                    "hint": "Clients sind nach gehashter IP gruppiert. User-Agent, Origin und Twitch-User stammen aus dem letzten Request.",
+                    "noAgent": "(kein User-Agent)",
+                    "rateLimited": "{count} rate-limitiert",
+                    "meta": "{routes|plural(one|Route, other|Routen)}, meist {route} · zuletzt vor {delta|time(largest|1)}"
+                },
+                "routes": {
+                    "title": "Top-Routen",
+                    "meta": "{clients|plural(one|Client, other|Clients)} · {failed} fehlgeschlagen · p95 {p95} ms"
+                }
             }
         }
     },
