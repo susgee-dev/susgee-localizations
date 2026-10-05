@@ -1050,7 +1050,7 @@
         },
         "addBetween": {
             "usage": "<fill-word> <split-word>",
-            "description": "splits each word into a separate message"
+            "description": "puts a filler word between every word or letter"
         },
         "addBot": {
             "description": "information on how to add the bot"

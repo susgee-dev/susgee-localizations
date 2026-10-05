@@ -1050,7 +1050,7 @@
         },
         "addBetween": {
             "usage": "<Füllwort> <Trennwort>",
-            "description": "Teilt jedes Wort in eine einzelne Nachricht auf"
+            "description": "Setzt ein Füllwort zwischen jedes Wort oder jeden Buchstaben"
         },
         "addBot": {
             "description": "Infos, wie du den Bot hinzufügen kannst"
