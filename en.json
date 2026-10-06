@@ -1783,7 +1783,8 @@
             "rightsReserved": "not affiliated with Twitch",
             "privacy": "privacy",
             "suggestions": "Suggestions",
-            "changelog": "Changelog"
+            "changelog": "Changelog",
+            "api": "API"
         },
         "pages": {
             "home": {
@@ -1917,7 +1918,6 @@
                 "vod": "VOD",
                 "link": "Link",
                 "logs": "Logs",
-                "itemsLabel": "bans",
                 "findVod": "Find VOD",
                 "searchingVod": "Searching…",
                 "noVod": "No VOD",
