@@ -3245,12 +3245,9 @@
                 "empty": "Keine Requests in diesem Zeitraum.",
                 "range": "{days|plural(one|Tag, other|Tage)}",
                 "bucket": "{date}: {requests|plural(one|Request, other|Requests)} von {clients|plural(one|Client, other|Clients)}",
-                "source": {
-                    "external": "Nur extern",
-                    "all": "Mit Dashboard"
-                },
                 "totals": {
                     "requests": "Requests",
+                    "sources": "Quellen",
                     "clients": "Clients",
                     "rateLimited": "Rate-limitiert",
                     "errors": "Serverfehler",
@@ -3258,7 +3255,7 @@
                 },
                 "clients": {
                     "title": "Top-Clients",
-                    "hint": "Clients sind nach gehashter IP gruppiert. User-Agent, Origin und Twitch-User stammen aus dem letzten Request.",
+                    "hint": "Clients sind nach gehashter IP gruppiert. User-Agent, Quelle und Twitch-User stammen aus dem letzten Request.",
                     "noAgent": "(kein User-Agent)",
                     "rateLimited": "{count} rate-limitiert",
                     "meta": "{routes|plural(one|Route, other|Routen)}, meist {route} · zuletzt vor {delta|time(largest|1)}"
@@ -3266,6 +3263,18 @@
                 "routes": {
                     "title": "Top-Routen",
                     "meta": "{clients|plural(one|Client, other|Clients)} · {failed} fehlgeschlagen · p95 {p95} ms"
+                },
+                "sources": {
+                    "title": "Woher die Requests kommen",
+                    "hint": "Websites erkennt man am Origin, alles andere am User-Agent. Neu heisst: zum ersten Mal in den letzten 24 Stunden.",
+                    "meta": "{clients|plural(one|Client, other|Clients)}, meist {route} · zuletzt vor {delta|time(largest|1)}",
+                    "kind": {
+                        "site": "Website",
+                        "bot": "Bot",
+                        "browser": "Direkt im Browser",
+                        "script": "Skript",
+                        "unknown": "Ohne User-Agent"
+                    }
                 }
             }
         }

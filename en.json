@@ -3245,12 +3245,9 @@
                 "empty": "No requests in this range.",
                 "range": "{days|plural(one|day, other|days)}",
                 "bucket": "{date}: {requests|plural(one|request, other|requests)} from {clients|plural(one|client, other|clients)}",
-                "source": {
-                    "external": "External only",
-                    "all": "Including dashboard"
-                },
                 "totals": {
                     "requests": "Requests",
+                    "sources": "Sources",
                     "clients": "Clients",
                     "rateLimited": "Rate-limited",
                     "errors": "Server errors",
@@ -3258,7 +3255,7 @@
                 },
                 "clients": {
                     "title": "Top clients",
-                    "hint": "Clients are grouped by hashed IP. User-Agent, origin and Twitch user come from their latest request.",
+                    "hint": "Clients are grouped by hashed IP. User-Agent, source and Twitch user come from their latest request.",
                     "noAgent": "(no User-Agent)",
                     "rateLimited": "{count} rate-limited",
                     "meta": "{routes|plural(one|route, other|routes)}, mostly {route} · last seen {delta|time(largest|1)} ago"
@@ -3266,6 +3263,18 @@
                 "routes": {
                     "title": "Top routes",
                     "meta": "{clients|plural(one|client, other|clients)} · {failed} failed · p95 {p95} ms"
+                },
+                "sources": {
+                    "title": "Where requests come from",
+                    "hint": "Websites are recognised by their origin, everything else by its User-Agent. New means first seen in the last 24 hours.",
+                    "meta": "{clients|plural(one|client, other|clients)}, mostly {route} · last seen {delta|time(largest|1)} ago",
+                    "kind": {
+                        "site": "Website",
+                        "bot": "Bot",
+                        "browser": "Opened in a browser",
+                        "script": "Script",
+                        "unknown": "No User-Agent"
+                    }
                 }
             }
         }
