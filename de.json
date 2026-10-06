@@ -2961,7 +2961,6 @@
                 "missing": "Du bist nicht angemeldet.",
                 "invalidSession": "Deine Sitzung ist abgelaufen, bitte melde dich neu an.",
                 "adminOnly": "Das dürfen nur Admins.",
-                "selfOnly": "Du kannst nur deine eigenen Einstellungen ändern.",
                 "notEditor": "Du darfst diesen Channel nicht verwalten."
             },
             "route": {
