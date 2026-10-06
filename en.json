@@ -2961,7 +2961,6 @@
                 "missing": "You are not signed in.",
                 "invalidSession": "Your session has expired, please sign in again.",
                 "adminOnly": "Only admins can do that.",
-                "selfOnly": "You can only change your own settings.",
                 "notEditor": "You are not allowed to manage this channel."
             },
             "route": {

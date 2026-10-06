@@ -2957,7 +2957,6 @@
                 "missing": "No has iniciado sesión.",
                 "invalidSession": "Tu sesión ha caducado, por favor inicia sesión otra vez.",
                 "adminOnly": "Solo los admins pueden hacer eso.",
-                "selfOnly": "Solo puedes cambiar tus propios ajustes.",
                 "notEditor": "No tienes permiso para gestionar este canal."
             },
             "route": {
