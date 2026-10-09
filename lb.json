@@ -2825,7 +2825,9 @@
                 "pingable": "mech pingen, wann anerer commands op mech benotzen",
                 "pingableHint": "standardméisseg aus. Susgeebot schreift däin numm esou, datt Twitch e net ervirhieft, wann een e command op dech leeft.",
                 "autoPresence": "meng 7TV-presence automatesch opfrëschen",
-                "autoPresenceHint": "hält deng 7TV paint an badge an all kanal siichtbar, wou s du chatts."
+                "autoPresenceHint": "hält deng 7TV paint an badge an all kanal siichtbar, wou s du chatts.",
+                "seasonalDecor": "Saisonal Dekoratioun",
+                "seasonalDecorHint": "Halloween- a Chrëschtdagsfaarwen, Schnéi, Liichter an aner saisonal Extraen op der Säit. Gëtt nëmmen an dësem Browser gespäichert."
             },
             "privacy": {
                 "title": "Privatsphär",

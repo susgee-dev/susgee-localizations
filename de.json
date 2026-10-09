@@ -2829,7 +2829,9 @@
                 "pingable": "Mich pingen, wenn andere Commands auf mich anwenden",
                 "pingableHint": "Standardmässig aus. Susgeebot schreibt deinen Namen so, dass Twitch ihn nicht hervorhebt, wenn jemand einen Command auf dich anwendet.",
                 "autoPresence": "Meine 7TV-Presence automatisch auffrischen",
-                "autoPresenceHint": "Hält dein 7TV-Paint und -Badge in jedem Channel sichtbar, in dem du chattest."
+                "autoPresenceHint": "Hält dein 7TV-Paint und -Badge in jedem Channel sichtbar, in dem du chattest.",
+                "seasonalDecor": "Saisonale Dekoration",
+                "seasonalDecorHint": "Halloween- und Weihnachtsfarben, Schnee, Lichter und andere saisonale Extras auf der Seite. Wird nur in diesem Browser gespeichert."
             },
             "privacy": {
                 "title": "Privatsphäre",
