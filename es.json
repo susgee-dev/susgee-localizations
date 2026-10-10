@@ -3270,7 +3270,8 @@
                     "meta": "{clients|plural(one|cliente, other|clientes)} · {failed} fallidas · p95 {p95} ms"
                 },
                 "sources": {
-                    "meta": "{clients|plural(one|cliente, other|clientes)}, principalmente {route} · visto por última vez hace {delta|time(largest|1)}"
+                    "meta": "{clients|plural(one|cliente, other|clientes)}, principalmente {route} · visto por última vez hace {delta|time(largest|1)}",
+                    "title": "Origen de las solicitudes"
                 }
             }
         }
