@@ -934,7 +934,8 @@
     "unRemind": {
         "notFound": "susgeeDank no se encontró ningún recordatorio con el id {id}",
         "notYours": "susgeeDank el recordatorio con el id {id} no es tuyo",
-        "success": "susgeeOK el recordatorio con el id {id} ha sido eliminado"
+        "success": "susgeeOK el recordatorio con el id {id} ha sido eliminado",
+        "noneFor": "susgeeDank no tienes recordatorios abrir para {user}"
     },
     "user": {
         "age": "edad: {age|time}",
