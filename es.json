@@ -3274,7 +3274,8 @@
                     "title": "Origen de las solicitudes",
                     "hint": "Los sitios web se indetifcan por su origen; todo los demás se indentifica por su User-Agent. \"Nuevo\" significa que se ha visto por primera vez en la últimas 24 horas.",
                     "kind": {
-                        "bot": "Bot"
+                        "bot": "Bot",
+                        "script": "Script"
                     }
                 }
             }
