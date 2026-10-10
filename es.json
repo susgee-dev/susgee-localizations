@@ -3277,7 +3277,8 @@
                         "bot": "Bot",
                         "script": "Script",
                         "site": "Sitio web",
-                        "browser": "Se abre en un navegador"
+                        "browser": "Se abre en un navegador",
+                        "unknown": "No User-Agent"
                     }
                 }
             }
