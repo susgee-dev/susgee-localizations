@@ -563,7 +563,8 @@
         "access": "acceso: {access}",
         "cooldown": "cooldown: {cooldown}s",
         "everyone": "todo el mundo",
-        "usage": "uso: {usage|include}"
+        "usage": "uso: {usage|include}",
+        "category": "categoría {category} • {count} comandos • {link}"
     },
     "hug": {
         "bot": "MrDestructoid // 🤗",
