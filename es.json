@@ -1783,7 +1783,8 @@
             "rightsReserved": "no afiliado a Twitch",
             "privacy": "privacidad",
             "suggestions": "Suggestions",
-            "changelog": "Changelog"
+            "changelog": "Changelog",
+            "api": "API"
         },
         "pages": {
             "home": {
