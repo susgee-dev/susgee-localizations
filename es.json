@@ -936,7 +936,8 @@
         "notYours": "susgeeDank el recordatorio con el id {id} no es tuyo",
         "success": "susgeeOK el recordatorio con el id {id} ha sido eliminado",
         "noneFor": "susgeeDank no tienes recordatorios abrir para {user}",
-        "noneLeft": "susgeeDank no tienes recordatorios abrir"
+        "noneLeft": "susgeeDank no tienes recordatorios abrir",
+        "successFor": "susgeeOK recordatorio con id {id} para {user} ha sido eliminado"
     },
     "user": {
         "age": "edad: {age|time}",
