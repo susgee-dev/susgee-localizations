@@ -3276,7 +3276,8 @@
                     "kind": {
                         "bot": "Bot",
                         "script": "Script",
-                        "site": "Sitio web"
+                        "site": "Sitio web",
+                        "browser": "Se abre en un navegador"
                     }
                 }
             }
