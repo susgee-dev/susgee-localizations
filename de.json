@@ -3203,7 +3203,8 @@
                 "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
-                "changelog": "Changelog"
+                "changelog": "Changelog",
+                "badges": "Badges"
             },
             "seventv": {
                 "search": "Channels suchen…"
@@ -3277,6 +3278,24 @@
                         "script": "Skript",
                         "unknown": "Ohne User-Agent"
                     }
+                }
+            },
+            "badges": {
+                "title": "Badges",
+                "manualTitle": "Vergebene Badges",
+                "manualDescription": "VIP- oder Translator-Badges vergeben. Owner und Dev kommen aus den Bot-Permissions.",
+                "derivedTitle": "Owner & Dev",
+                "derivedDescription": "Automatisch aus den Bot-Permissions. Hier nicht editierbar.",
+                "derivedHint": "Aus Permissions",
+                "derivedEmpty": "Keine Owner- oder Dev-Permissions gefunden.",
+                "empty": "Noch keine VIP- oder Translator-Badges vergeben.",
+                "placeholder": "Benutzername…",
+                "badge": "Badge",
+                "grant": "Vergeben",
+                "revoke": "{name} entfernen",
+                "kinds": {
+                    "vip": "VIP",
+                    "translator": "Translator"
                 }
             }
         }

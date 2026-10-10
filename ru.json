@@ -3199,7 +3199,8 @@
                 "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
-                "changelog": "Changelog"
+                "changelog": "Changelog",
+                "badges": "Badges"
             },
             "seventv": {
                 "search": "Search channels…"
@@ -3264,6 +3265,24 @@
                 "routes": {
                     "title": "Топ маршрутов",
                     "meta": "{clients|plural(one|клиент, other|клиентов)} · ошибок: {failed} · p95 {p95} ms"
+                }
+            },
+            "badges": {
+                "title": "Badges",
+                "manualTitle": "Назначенные бейджи",
+                "manualDescription": "Выдавайте VIP или Translator. Owner и Dev берутся из прав бота.",
+                "derivedTitle": "Owner & Dev",
+                "derivedDescription": "Определяются автоматически из прав бота. Здесь не редактируются.",
+                "derivedHint": "Из прав",
+                "derivedEmpty": "Права owner или dev не найдены.",
+                "empty": "VIP или Translator ещё не назначены.",
+                "placeholder": "Имя пользователя…",
+                "badge": "Badge",
+                "grant": "Выдать",
+                "revoke": "Снять у {name}",
+                "kinds": {
+                    "vip": "VIP",
+                    "translator": "Translator"
                 }
             }
         }

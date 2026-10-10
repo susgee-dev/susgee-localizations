@@ -3203,7 +3203,8 @@
                 "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
-                "changelog": "Changelog"
+                "changelog": "Changelog",
+                "badges": "Badges"
             },
             "seventv": {
                 "search": "Search channels…"
@@ -3277,6 +3278,24 @@
                         "script": "Script",
                         "unknown": "No User-Agent"
                     }
+                }
+            },
+            "badges": {
+                "title": "Badges",
+                "manualTitle": "Assigned badges",
+                "manualDescription": "Grant VIP or Translator badges. Owner and Dev come from bot permissions.",
+                "derivedTitle": "Owner & Dev",
+                "derivedDescription": "Resolved automatically from bot permissions. Not editable here.",
+                "derivedHint": "From permissions",
+                "derivedEmpty": "No owner or dev permissions found.",
+                "empty": "No VIP or Translator badges assigned yet.",
+                "placeholder": "Username…",
+                "badge": "Badge",
+                "grant": "Grant",
+                "revoke": "Revoke {name}",
+                "kinds": {
+                    "vip": "VIP",
+                    "translator": "Translator"
                 }
             }
         }

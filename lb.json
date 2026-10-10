@@ -3199,7 +3199,8 @@
                 "api": "API",
                 "botties": "Botties",
                 "seventv": "7TV",
-                "changelog": "Changelog"
+                "changelog": "Changelog",
+                "badges": "Badges"
             },
             "seventv": {
                 "search": "Search channels…"
@@ -3264,6 +3265,24 @@
                 "routes": {
                     "title": "top-routen",
                     "meta": "{clients|plural(one|client, other|clienten)} · {failed} feelgeschloen · p95 {p95} ms"
+                }
+            },
+            "badges": {
+                "title": "Badges",
+                "manualTitle": "Vergeben Badges",
+                "manualDescription": "VIP oder Translator Badges verginn. Owner an Dev kommen aus de Bot-Permissions.",
+                "derivedTitle": "Owner & Dev",
+                "derivedDescription": "Automatesch aus de Bot-Permissions. Hei net editabel.",
+                "derivedHint": "Aus Permissions",
+                "derivedEmpty": "Keng Owner- oder Dev-Permissions fonnt.",
+                "empty": "Nach keng VIP- oder Translator-Badges verginn.",
+                "placeholder": "Benotzernumm…",
+                "badge": "Badge",
+                "grant": "Verginn",
+                "revoke": "{name} ewechhuelen",
+                "kinds": {
+                    "vip": "VIP",
+                    "translator": "Translator"
                 }
             }
         }
