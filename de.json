@@ -380,7 +380,7 @@
             "msg29": "🏅 Du bist auf dem richtigen Weg zum Bottie-Meister. Mit deinem Einsatz kannst du jetzt mehr Botties verdienen. Lass deine technischen Fähigkeiten erstrahlen, {user}",
             "msg30": "✨ Mach dich bereit für eine Bottie-Revolution. Deine Erfolge haben sich verbreitet, und jetzt kannst du mehr Botties in deinem virtuellen Tresor ansammeln. Feiere deinen Erfolg in der Tech-Welt, {user}",
             "msg31": "🌌 Die Bottie-Bank freut sich auf dich. Hol dir jetzt mehr Botties und erweitere deine technische Sammlung. Nutze diese Gelegenheit, um deine digitalen Träume zu verwirklichen, {user}",
-            "msg14": "🛰️ Deine Bottie-Galaxie wächst! Mit deinem Fleiss und deiner Entschlossenheit kannst du jetzt noch mehr Botties verdienen und dich an die Spitze der Technologie-Elite katapultieren. Erfolg liegt vor dir, {user} !"
+            "msg14": "🛰️ Deine Bottie-Galaxie wächst! Mit deinem Fleiß und deiner Entschlossenheit kannst du jetzt noch mehr Botties verdienen und dich an die Spitze der Technologie-Elite katapultieren. Erfolg liegt vor dir, {user} !"
         },
         "newUser": "Willkommen in der virtuellen Welt, {user}! Als neuer Spieler erhältst du das exklusive Starterkit, bestehend aus 20 digitalen Botties. Nutze sie weise, um deine technologische Reise zu beginnen und aufregende Upgrades freizuschalten. Viel Spass beim Entdecken der Computerwelt!",
         "notEnough": "susgeeDank Du hast nicht genug Botties! Du hast {botties|plural(one|Bottie, other|Botties)}",
