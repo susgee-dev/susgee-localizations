@@ -2213,7 +2213,13 @@
                 "metaTitle": "Changelog",
                 "title": "Changelog",
                 "description": "Следите за последними изменениями и улучшениями Susgeebot.",
-                "empty": "Пока нет записей в changelog."
+                "empty": "Пока нет записей в changelog.",
+                "addReaction": "Добавить реакцию",
+                "searchEmotes": "Поиск эмоутов 7TV",
+                "searchPlaceholder": "Искать эмоуты…",
+                "loginToReact": "Войдите, чтобы реагировать",
+                "noEmotes": "Эмоуты не найдены.",
+                "suggestedReactions": "Популярные"
             },
             "paintLookup": {
                 "metaTitle": "Vanity tester",
@@ -2424,7 +2430,8 @@
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
             "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
             "loadApiUsage": "Не удалось загрузить использование API.",
-            "lookupPaint": "Не удалось загрузить paint"
+            "lookupPaint": "Не удалось загрузить paint",
+            "lookupSevenTvEmotes": "Не удалось найти эмоуты 7TV."
         },
         "dashboard": {
             "title": "Дашборд",
@@ -3125,7 +3132,9 @@
             "changelogItemsRequired": "Добавьте хотя бы одну запись с заголовком.",
             "changelogTitleRequired": "У каждой записи должен быть заголовок.",
             "changelogItemTooLong": "Заголовок или описание слишком длинные.",
-            "changelogTooManyItems": "Слишком много записей в этом релизе."
+            "changelogTooManyItems": "Слишком много записей в этом релизе.",
+            "changelogInvalidEmote": "Этот эмоут нельзя использовать как реакцию.",
+            "changelogTooManyReactions": "Можно добавить не больше {max} реакций на релиз."
         },
         "admin": {
             "metaTitle": "Админ",

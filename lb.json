@@ -2213,7 +2213,13 @@
                 "metaTitle": "Changelog",
                 "title": "Changelog",
                 "description": "All Ännerungen a Verbesserungen un Susgeebot am Iwwerbléck.",
-                "empty": "Nach keng Changelog-Entréeën."
+                "empty": "Nach keng Changelog-Entréeën.",
+                "addReaction": "Reaction derbäisetzen",
+                "searchEmotes": "7TV-Emotes sichen",
+                "searchPlaceholder": "Emotes sichen…",
+                "loginToReact": "Aloggen fir ze reagéieren",
+                "noEmotes": "Keng Emotes fonnt.",
+                "suggestedReactions": "Beléift"
             },
             "paintLookup": {
                 "metaTitle": "Vanity-Tester",
@@ -2424,7 +2430,8 @@
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
             "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
             "loadApiUsage": "d'API-notzung konnt net geluede ginn.",
-            "lookupPaint": "Paint konnte nicht geladen werden"
+            "lookupPaint": "Paint konnte nicht geladen werden",
+            "lookupSevenTvEmotes": "7TV-Emotes konnten net gesicht ginn."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3125,7 +3132,9 @@
             "changelogItemsRequired": "Mindestens eng Entrée mat Titel néideg.",
             "changelogTitleRequired": "All Entrée brauch en Titel.",
             "changelogItemTooLong": "Titel oder Beschreiwung ass ze laang.",
-            "changelogTooManyItems": "Ze vill Entréeën an dësem Release."
+            "changelogTooManyItems": "Ze vill Entréeën an dësem Release.",
+            "changelogInvalidEmote": "Dëst Emote kann net als Reaction benotzt ginn.",
+            "changelogTooManyReactions": "Du kanns maximal {max} Reactions pro Release setzen."
         },
         "admin": {
             "metaTitle": "Admin",

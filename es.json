@@ -2218,7 +2218,13 @@
                 "metaTitle": "Changelog",
                 "title": "Changelog",
                 "description": "Sigue los últimos cambios y mejoras de Susgeebot.",
-                "empty": "Aún no hay entradas en el changelog."
+                "empty": "Aún no hay entradas en el changelog.",
+                "addReaction": "Añadir reacción",
+                "searchEmotes": "Buscar emotes de 7TV",
+                "searchPlaceholder": "Buscar emotes…",
+                "loginToReact": "Inicia sesión para reaccionar",
+                "noEmotes": "No se encontraron emotes.",
+                "suggestedReactions": "Populares"
             },
             "paintLookup": {
                 "metaTitle": "Vanity tester",
@@ -2429,7 +2435,8 @@
             "lookupChannelEmoteUsage": "Failed to load channel emote usage.",
             "lookupNetworkEmoteUsage": "Failed to load network emote usage.",
             "loadApiUsage": "No se pudo cargar el uso de la API.",
-            "lookupPaint": "No se pudo cargar el paint"
+            "lookupPaint": "No se pudo cargar el paint",
+            "lookupSevenTvEmotes": "No se pudieron buscar emotes de 7TV."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3130,7 +3137,9 @@
             "changelogItemsRequired": "Añade al menos una entrada con título.",
             "changelogTitleRequired": "Cada entrada necesita un título.",
             "changelogItemTooLong": "El título o la descripción es demasiado largo.",
-            "changelogTooManyItems": "Demasiadas entradas en esta versión."
+            "changelogTooManyItems": "Demasiadas entradas en esta versión.",
+            "changelogInvalidEmote": "Ese emote no se puede usar como reacción.",
+            "changelogTooManyReactions": "Puedes añadir como máximo {max} reacciones por versión."
         },
         "admin": {
             "metaTitle": "Admin",

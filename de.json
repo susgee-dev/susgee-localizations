@@ -2217,7 +2217,13 @@
                 "metaTitle": "Changelog",
                 "title": "Changelog",
                 "description": "Alle Änderungen und Verbesserungen an Susgeebot im Überblick.",
-                "empty": "Noch keine Changelog-Einträge."
+                "empty": "Noch keine Changelog-Einträge.",
+                "addReaction": "Reaction hinzufügen",
+                "searchEmotes": "7TV-Emotes suchen",
+                "searchPlaceholder": "Emotes suchen…",
+                "loginToReact": "Einloggen zum Reagieren",
+                "noEmotes": "Keine Emotes gefunden.",
+                "suggestedReactions": "Beliebt"
             },
             "paintLookup": {
                 "metaTitle": "Vanity-Tester",
@@ -2428,7 +2434,8 @@
             "lookupChannelEmoteUsage": "Channel-Emote-Nutzung konnte nicht geladen werden.",
             "lookupNetworkEmoteUsage": "Network-Emote-Nutzung konnte nicht geladen werden.",
             "loadApiUsage": "Beim Laden der API-Nutzung ist ein Fehler aufgetreten.",
-            "lookupPaint": "Paint konnte nicht geladen werden"
+            "lookupPaint": "Paint konnte nicht geladen werden",
+            "lookupSevenTvEmotes": "7TV-Emotes konnten nicht gesucht werden."
         },
         "dashboard": {
             "title": "Dashboard",
@@ -3129,7 +3136,9 @@
             "changelogItemsRequired": "Mindestens ein Eintrag mit Titel nötig.",
             "changelogTitleRequired": "Jeder Eintrag braucht einen Titel.",
             "changelogItemTooLong": "Titel oder Beschreibung ist zu lang.",
-            "changelogTooManyItems": "Zu viele Einträge in diesem Release."
+            "changelogTooManyItems": "Zu viele Einträge in diesem Release.",
+            "changelogInvalidEmote": "Dieses Emote kann nicht als Reaction genutzt werden.",
+            "changelogTooManyReactions": "Du kannst höchstens {max} Reactions pro Release setzen."
         },
         "admin": {
             "metaTitle": "Admin",
