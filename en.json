@@ -1931,7 +1931,10 @@
                 "description": "A collection of useful tools for Twitch users and streamers.",
                 "groups": {
                     "tools": "Tools",
-                    "services": "Services"
+                    "services": "Services",
+                    "stats": "Stats",
+                    "lookup": "Lookup",
+                    "testers": "Testers"
                 },
                 "status": {
                     "checking": "Checking",

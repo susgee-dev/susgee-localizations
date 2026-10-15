@@ -1931,7 +1931,10 @@
                 "description": "Eine Sammlung nützlicher Tools für Twitch-User und Streamer.",
                 "groups": {
                     "tools": "Tools",
-                    "services": "Dienste"
+                    "services": "Dienste",
+                    "stats": "Statistiken",
+                    "lookup": "Nachschlagen",
+                    "testers": "Tester"
                 },
                 "status": {
                     "checking": "Prüft",
