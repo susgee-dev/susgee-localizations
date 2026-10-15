@@ -2167,7 +2167,7 @@
                 "metaTitle": "Emote-Nutzung",
                 "metaDescription": "Sieh, welche Emotes in einem Channel oder im gesamten Susgee-Network am häufigsten genutzt werden.",
                 "title": "Emote-Nutzung",
-                "description": "Top-Emote-Stats nach Platform für einen Channel oder das Network — Network zusätzlich mit Globals-Spalte.",
+                "description": "Die meistgenutzten Emotes im ganzen Network oder in einem Channel, live und nach Plattform.",
                 "modes": {
                     "network": "Network",
                     "channel": "Channel"
