@@ -1986,6 +1986,10 @@
                     "color": {
                         "title": "Color picker",
                         "description": "Pick a color in hex or RGB and preview it as a Twitch chat name."
+                    },
+                    "badges": {
+                        "title": "Badge usage",
+                        "description": "Global Twitch badge stats, channel sightings, and a user's inventory."
                     }
                 }
             },
@@ -2294,6 +2298,76 @@
                 "previewName": "Username",
                 "previewMessage": "Message",
                 "defaultMessage": "hello chat"
+            },
+            "badges": {
+                "metaTitle": "Twitch badges",
+                "metaDescription": "See which global Twitch badges are held, worn in chat, or active, and look up a channel or user.",
+                "title": "Twitch badges",
+                "description": "Global badge stats from chat sightings and inventory checks, plus what showed up in a channel or on a user.",
+                "modes": {
+                    "global": "Global",
+                    "channel": "Channel",
+                    "user": "User"
+                },
+                "channel": "Channel",
+                "channelPlaceholder": "Username or Twitch ID",
+                "user": "User",
+                "userPlaceholder": "Username or Twitch ID",
+                "search": "Show badges",
+                "refresh": "Refresh",
+                "filterSearch": "Filter by badge name or set ID…",
+                "peopleSearch": "Filter by login…",
+                "empty": "No badges match these filters.",
+                "peopleEmpty": "Nobody in this list.",
+                "showing": "Showing {shown} of {total}",
+                "back": "Back",
+                "loading": "Loading the badge index…",
+                "loadMore": "Load more",
+                "untracked": "This badge is not in the global inventory index. Channel badges such as subscriber or bits only show up as chat sightings.",
+                "heldUnchecked": "No inventory check for this user yet.",
+                "checkedAt": "Checked {date}",
+                "computedAt": "As of {date}",
+                "window": "Last {days} days",
+                "sections": {
+                    "worn": "Seen wearing",
+                    "held": "In inventory"
+                },
+                "sort": {
+                    "held": "In inventory",
+                    "worn": "Seen wearing",
+                    "active": "Active ({days}d)"
+                },
+                "metrics": {
+                    "held": "in inventory",
+                    "worn": "seen wearing",
+                    "active": "active",
+                    "messages": "Messages",
+                    "wearers": "Wearers",
+                    "firstSeen": "First seen",
+                    "lastSeen": "Last seen"
+                },
+                "stats": {
+                    "tracked": "Tracked versions",
+                    "checked": "Users checked",
+                    "trackingSince": "Tracking since",
+                    "liveSince": "Daily stats since"
+                },
+                "people": {
+                    "owners": "Seen wearing",
+                    "holders": "In inventory",
+                    "recent": "Recent",
+                    "first": "First seen",
+                    "allVersions": "All versions"
+                },
+                "chart": "Wearers per day",
+                "chartEmpty": "No daily wearers in this window yet.",
+                "errors": {
+                    "noQuery": "Enter a username or Twitch ID.",
+                    "notFound": "Channel, user, or badge not found.",
+                    "rateLimit": "Rate limit hit — try again in a moment.",
+                    "invalidLogin": "Login filters use letters, numbers, and underscores.",
+                    "api": "Could not load badge stats."
+                }
             }
         },
         "common": {

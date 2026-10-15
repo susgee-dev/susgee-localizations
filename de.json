@@ -1986,6 +1986,10 @@
                     "color": {
                         "title": "Farbwähler",
                         "description": "Farbe in Hex oder RGB wählen und als Twitch-Chat-Name vorschauen."
+                    },
+                    "badges": {
+                        "title": "Badge-Nutzung",
+                        "description": "Globale Twitch-Badge-Stats, Channel-Sichtungen und das Inventar eines Users."
                     }
                 }
             },
@@ -2294,6 +2298,76 @@
                 "previewName": "Username",
                 "previewMessage": "Nachricht",
                 "defaultMessage": "hallo chat"
+            },
+            "badges": {
+                "metaTitle": "Twitch-Badges",
+                "metaDescription": "Sieh, welche globalen Twitch-Badges im Inventar liegen, im Chat getragen wurden oder gerade aktiv sind — und schlag Channel oder User nach.",
+                "title": "Twitch-Badges",
+                "description": "Globale Badge-Stats aus Chat-Sichtungen und Inventar-Checks, plus was in einem Channel oder bei einem User auftaucht.",
+                "modes": {
+                    "global": "Global",
+                    "channel": "Channel",
+                    "user": "User"
+                },
+                "channel": "Channel",
+                "channelPlaceholder": "Username oder Twitch-ID",
+                "user": "User",
+                "userPlaceholder": "Username oder Twitch-ID",
+                "search": "Badges anzeigen",
+                "refresh": "Aktualisieren",
+                "filterSearch": "Nach Badge-Name oder Set-ID filtern…",
+                "peopleSearch": "Nach Login filtern…",
+                "empty": "Keine Badges passen zu diesen Filtern.",
+                "peopleEmpty": "Niemand in dieser Liste.",
+                "showing": "Zeige {shown} von {total}",
+                "back": "Zurück",
+                "loading": "Badge-Index wird geladen…",
+                "loadMore": "Mehr laden",
+                "untracked": "Dieses Badge liegt nicht im globalen Inventar-Index. Channel-Badges wie Subscriber oder Bits gibt es hier nur als Chat-Sichtung.",
+                "heldUnchecked": "Für diesen User gibt es noch keinen Inventar-Check.",
+                "checkedAt": "Geprüft {date}",
+                "computedAt": "Stand {date}",
+                "window": "Letzte {days} Tage",
+                "sections": {
+                    "worn": "Im Chat gesehen",
+                    "held": "Im Inventar"
+                },
+                "sort": {
+                    "held": "Im Inventar",
+                    "worn": "Im Chat gesehen",
+                    "active": "Aktiv ({days} T.)"
+                },
+                "metrics": {
+                    "held": "im Inventar",
+                    "worn": "im Chat gesehen",
+                    "active": "aktiv",
+                    "messages": "Nachrichten",
+                    "wearers": "Träger",
+                    "firstSeen": "Zuerst gesehen",
+                    "lastSeen": "Zuletzt gesehen"
+                },
+                "stats": {
+                    "tracked": "Getrackte Versionen",
+                    "checked": "Geprüfte User",
+                    "trackingSince": "Tracking seit",
+                    "liveSince": "Tagesstats seit"
+                },
+                "people": {
+                    "owners": "Im Chat gesehen",
+                    "holders": "Im Inventar",
+                    "recent": "Zuletzt",
+                    "first": "Zuerst",
+                    "allVersions": "Alle Versionen"
+                },
+                "chart": "Träger pro Tag",
+                "chartEmpty": "In diesem Fenster gibt es noch keine Tageswerte.",
+                "errors": {
+                    "noQuery": "Bitte Username oder Twitch-ID eingeben.",
+                    "notFound": "Channel, User oder Badge nicht gefunden.",
+                    "rateLimit": "Rate-Limit erreicht — bitte kurz warten.",
+                    "invalidLogin": "Login-Filter nur mit Buchstaben, Zahlen und Unterstrich.",
+                    "api": "Badge-Stats konnten nicht geladen werden."
+                }
             }
         },
         "common": {
