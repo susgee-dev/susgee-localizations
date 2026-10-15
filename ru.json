@@ -126,6 +126,7 @@
             "emoteLinkNotFound": "susgeeDank по этой ссылке эмоут не найден",
             "noEmotesFoundToRemove": "susgeeDank нечего удалять",
             "emoteSetFull": "susgeeDank эмоут не добавлен, набор уже полный",
+            "emoteSetLimitReached": "susgeeDank достигнут максимум наборов эмоутов. Удали неиспользуемый набор на https://7tv.app и попробуй снова",
             "invalidName": "susgeeDank в имени эмоута есть символ, который (7TV) не разрешает",
             "noAccount": "susgeeDank у канала {channel|antiPing} нет аккаунта (7TV)",
             "noActiveEmoteSet": "susgeeDank у канала {channel|antiPing} нет активного набора эмоутов",

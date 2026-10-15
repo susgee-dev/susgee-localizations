@@ -126,6 +126,7 @@
             "emoteLinkNotFound": "susgeeDank no emote found with this link",
             "noEmotesFoundToRemove": "susgeeDank no emotes found to remove",
             "emoteSetFull": "susgeeDank emote not added, the set is already full",
+            "emoteSetLimitReached": "susgeeDank the maximum number of emote sets has been reached. Delete an unused set on https://7tv.app and try again",
             "invalidName": "susgeeDank emote-name contains a character which is not allowed by (7TV)",
             "noAccount": "susgeeDank channel {channel|antiPing} has no (7TV) account",
             "noActiveEmoteSet": "susgeeDank channel {channel|antiPing} has no active emote-set",

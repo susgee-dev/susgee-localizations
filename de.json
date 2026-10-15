@@ -125,6 +125,7 @@
             "emoteNotFound": "susgeeDank Emote {emote} nicht gefunden",
             "emoteNotFoundInSet": "susgeeDank Emote {emote} in diesem Set nicht gefunden",
             "emoteSetFull": "susgeeDank Emote nicht hinzugefügt, das Emote-Set ist bereits voll",
+            "emoteSetLimitReached": "susgeeDank Die maximale Anzahl an Emote-Sets ist erreicht. Lösche ein unbenutztes Set auf https://7tv.app und versuch es erneut",
             "noEmotesFoundToRemove": "susgeeDank Keine Emotes gefunden zum Entfernen",
             "invalidName": "susgeeDank Name vom Emote enthält ein Zeichen, welches (7TV) nicht erlaubt",
             "noAccount": "susgeeDank Channel {channel|antiPing} hat keinen (7TV) Account",

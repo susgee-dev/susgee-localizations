@@ -126,6 +126,7 @@
             "emoteLinkNotFound": "susgeeDank keen emote mat dësem link fonnt",
             "noEmotesFoundToRemove": "susgeeDank keng emotes fonnt zum ewechhuelen",
             "emoteSetFull": "susgeeDank emote net dobäigesat, d'set ass schonn voll",
+            "emoteSetLimitReached": "susgeeDank d'maximal unzuel un emote-sets ass erreecht. Läsch en onbenotzt set op https://7tv.app a probéier et nach eng kéier",
             "invalidName": "susgeeDank emote-numm enthält e zeechen, dat (7TV) net erlaabt",
             "noAccount": "susgeeDank kanal {channel|antiPing} huet keen (7TV) account",
             "noActiveEmoteSet": "susgeeDank kanal {channel|antiPing} huet kee aktiivt emote-set",
