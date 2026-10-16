@@ -706,7 +706,7 @@
             "twitch": "Twitch global emote / badge changes",
             "blog": "Twitch blog updates",
             "changelog": "Twitch changelog updates",
-            "susgeechangelog": "susgee changelog"
+            "susgeechangelog": "Susgee changelog"
         }
     },
     "notify": {
