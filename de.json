@@ -2207,6 +2207,10 @@
                     "active": "Aktiv",
                     "removed": "Entfernt"
                 },
+                "order": {
+                    "desc": "Meiste Nutzung",
+                    "asc": "Wenigste Nutzung"
+                },
                 "errors": {
                     "noChannel": "Bitte Username oder ID eingeben.",
                     "notFound": "Channel oder User nicht gefunden.",
@@ -2334,6 +2338,10 @@
                 "sections": {
                     "worn": "Im Chat gesehen",
                     "held": "Im Inventar"
+                },
+                "order": {
+                    "desc": "Meiste Nutzung",
+                    "asc": "Wenigste Nutzung"
                 },
                 "sort": {
                     "held": "Im Inventar",

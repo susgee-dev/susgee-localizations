@@ -2207,6 +2207,10 @@
                     "active": "Active",
                     "removed": "Removed"
                 },
+                "order": {
+                    "desc": "Most used",
+                    "asc": "Least used"
+                },
                 "errors": {
                     "noChannel": "Enter a channel username or ID.",
                     "notFound": "Channel or user not found.",
@@ -2334,6 +2338,10 @@
                 "sections": {
                     "worn": "Seen wearing",
                     "held": "In inventory"
+                },
+                "order": {
+                    "desc": "Most used",
+                    "asc": "Least used"
                 },
                 "sort": {
                     "held": "In inventory",
