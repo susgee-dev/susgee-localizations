@@ -699,11 +699,13 @@
     "notifications": {
         "blog": "neien Twitch blog-artikel: {title} susgeePoint {url}",
         "changelog": "Twitch developer changelogs goufen aktualiséiert! susgeePoint {url}",
+        "susgeechangelog": "neie susgee changelog: {summary} susgeePoint {url}",
         "types": {
             "7tv": "7TV cosmetics / global emote-ännerungen",
             "twitch": "Twitch global emote / badge-ännerungen",
             "blog": "Twitch blog-updates",
-            "changelog": "Twitch changelog-updates"
+            "changelog": "Twitch changelog-updates",
+            "susgeechangelog": "susgee changelog"
         }
     },
     "notify": {
@@ -2400,7 +2402,8 @@
             "7tv": "7TV-Cosmetics & global Emotes",
             "twitchglobals": "Twitch global Emotes & Badges",
             "blog": "Twitch-blog",
-            "changelog": "Twitch-changelog"
+            "changelog": "Twitch-changelog",
+            "susgeechangelog": "susgee changelog"
         },
         "actions": {
             "fetchBans": "beim luede vun de bans ass e feeler opgetrueden.",
@@ -2910,7 +2913,7 @@
             },
             "types": {
                 "title": "Typen",
-                "lead": "zéng typen. e puer kucken op ee bestëmmte kanal, de rest ass global.",
+                "lead": "eelef typen. e puer kucken op ee bestëmmte kanal, de rest ass global.",
                 "headers": {
                     "type": "Typ",
                     "fires": "léist aus, wann",
@@ -2936,7 +2939,8 @@
                     "7tv": "7TV ännert seng global emotes, paints oder badges.",
                     "twitchglobals": "Twitch ännert seng global emotes oder badges.",
                     "blog": "Twitch publizéiert en neie blog-artikel.",
-                    "changelog": "den Twitch-entwéckler-changelog gëtt aktualiséiert."
+                    "changelog": "den Twitch-entwéckler-changelog gëtt aktualiséiert.",
+                    "susgeechangelog": "en neie susgee changelog gëtt publizéiert."
                 },
                 "note": "<data>nëmmen</data> an der ?pingme-spalt heescht: et gëtt keng kanal-wäit variant vun deem typ, e existéiert nëmme als perséinlech umeldung."
             },

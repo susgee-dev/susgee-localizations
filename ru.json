@@ -699,11 +699,13 @@
     "notifications": {
         "blog": "Новый пост в Twitch Blog: {title} susgeePoint {url}",
         "changelog": "Ченджлог Twitch для разрабов обновился! susgeePoint {url}",
+        "susgeechangelog": "Новый changelog susgee: {summary} susgeePoint {url}",
         "types": {
             "7tv": "косметика 7TV / глобальные эмоуты",
             "twitch": "глобальные эмоуты / бейджи Twitch",
             "blog": "обновления Twitch blog",
-            "changelog": "обновления ченджлога Twitch"
+            "changelog": "обновления ченджлога Twitch",
+            "susgeechangelog": "changelog susgee"
         }
     },
     "notify": {
@@ -2400,7 +2402,8 @@
             "7tv": "Косметика 7TV и глобальные эмоуты",
             "twitchglobals": "Глобальные эмоуты и бейджи Twitch",
             "blog": "Twitch blog",
-            "changelog": "Ченджлог Twitch"
+            "changelog": "Ченджлог Twitch",
+            "susgeechangelog": "Ченджлог susgee"
         },
         "actions": {
             "fetchBans": "Ошибка при загрузке банов.",
@@ -2910,7 +2913,7 @@
             },
             "types": {
                 "title": "Типы",
-                "lead": "Десять типов. Одни следят за конкретным каналом, остальные глобальные.",
+                "lead": "Одиннадцать типов. Одни следят за конкретным каналом, остальные глобальные.",
                 "headers": {
                     "type": "Тип",
                     "fires": "Срабатывает когда",
@@ -2936,7 +2939,8 @@
                     "7tv": "7TV меняет глобальные эмоуты, краски или бейджи.",
                     "twitchglobals": "Twitch меняет глобальные эмоуты или бейджи.",
                     "blog": "Twitch публикует новую статью в блоге.",
-                    "changelog": "Обновляется ченджлог для разрабов Twitch."
+                    "changelog": "Обновляется ченджлог для разрабов Twitch.",
+                    "susgeechangelog": "Выходит новый changelog susgee."
                 },
                 "note": "<data>только</data> в колонке ?pingme значит, что канальной версии этого типа нет, он существует только как личная подписка."
             },

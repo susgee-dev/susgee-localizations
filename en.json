@@ -700,11 +700,13 @@
     "notifications": {
         "blog": "New Twitch Blog post: {title} susgeePoint {url}",
         "changelog": "Twitch developer change logs just updated! susgeePoint {url}",
+        "susgeechangelog": "New susgee changelog: {summary} susgeePoint {url}",
         "types": {
             "7tv": "7TV cosmetics / global emote changes",
             "twitch": "Twitch global emote / badge changes",
             "blog": "Twitch blog updates",
-            "changelog": "Twitch changelog updates"
+            "changelog": "Twitch changelog updates",
+            "susgeechangelog": "susgee changelog"
         }
     },
     "notify": {
@@ -2489,7 +2491,8 @@
             "7tv": "7TV cosmetics & global emotes",
             "twitchglobals": "Twitch global emotes & badges",
             "blog": "Twitch blog",
-            "changelog": "Twitch changelog"
+            "changelog": "Twitch changelog",
+            "susgeechangelog": "susgee changelog"
         },
         "actions": {
             "fetchBans": "An error occurred while fetching bans.",
@@ -2999,7 +3002,7 @@
             },
             "types": {
                 "title": "Types",
-                "lead": "Ten types. Some watch one specific channel, the rest are global.",
+                "lead": "Eleven types. Some watch one specific channel, the rest are global.",
                 "headers": {
                     "type": "Type",
                     "fires": "Fires when",
@@ -3025,7 +3028,8 @@
                     "7tv": "7TV changes its global emotes, paints or badges.",
                     "twitchglobals": "Twitch changes its global emotes or badges.",
                     "blog": "Twitch publishes a new blog article.",
-                    "changelog": "The Twitch developer changelog gets updated."
+                    "changelog": "The Twitch developer changelog gets updated.",
+                    "susgeechangelog": "A new susgee changelog is published."
                 },
                 "note": "<data>only</data> in the ?pingme column means there is no channel-wide version of that type, it exists purely as a personal signup."
             },

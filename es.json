@@ -700,11 +700,13 @@
     "notifications": {
         "blog": "Nuevo post del blog de Twitch: {title} susgeePoint {url}",
         "changelog": "¡Se acaba de actualizar el changelog de desarrolladores de Twitch! susgeePoint {url}",
+        "susgeechangelog": "Nuevo changelog de susgee: {summary} susgeePoint {url}",
         "types": {
             "7tv": "cambios de cosmetics / emotes globales de 7TV",
             "twitch": "cambios de emotes / badges globales de Twitch",
             "blog": "actualizaciones del blog de Twitch",
-            "changelog": "actualizaciones del changelog de Twitch"
+            "changelog": "actualizaciones del changelog de Twitch",
+            "susgeechangelog": "changelog de susgee"
         }
     },
     "notify": {
@@ -2405,7 +2407,8 @@
             "7tv": "Cosmetics y emotes globales de 7TV",
             "twitchglobals": "Emotes y badges globales de Twitch",
             "blog": "Blog de Twitch",
-            "changelog": "Changelog de Twitch"
+            "changelog": "Changelog de Twitch",
+            "susgeechangelog": "Changelog de susgee"
         },
         "actions": {
             "fetchBans": "Ha ocurrido un error al obtener los bans.",
@@ -2915,7 +2918,7 @@
             },
             "types": {
                 "title": "Tipos",
-                "lead": "Diez tipos. Algunos vigilan un canal concreto, el resto son globales.",
+                "lead": "Once tipos. Algunos vigilan un canal concreto, el resto son globales.",
                 "headers": {
                     "type": "Tipo",
                     "fires": "Salta cuando",
@@ -2941,7 +2944,8 @@
                     "7tv": "7TV cambia sus emotes globales, paints o badges.",
                     "twitchglobals": "Twitch cambia sus emotes o badges globales.",
                     "blog": "Twitch publica un artículo nuevo del blog.",
-                    "changelog": "Se actualiza el changelog de desarrolladores de Twitch."
+                    "changelog": "Se actualiza el changelog de desarrolladores de Twitch.",
+                    "susgeechangelog": "Se publica un changelog nuevo de susgee."
                 },
                 "note": "<data>solo</data> en la columna de ?pingme significa que no hay versión para todo el canal de ese tipo, existe solo como apunte personal."
             },

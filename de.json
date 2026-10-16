@@ -700,11 +700,13 @@
     "notifications": {
         "blog": "Neuer Twitch-Blog-Artikel: {title} susgeePoint {url}",
         "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}",
+        "susgeechangelog": "Neuer susgee Changelog: {summary} susgeePoint {url}",
         "types": {
             "7tv": "7TV-Cosmetics / Global-Emote-Änderungen",
             "twitch": "Änderungen an Twitch Global Emotes / Badges",
             "blog": "Neue Twitch-Blog-Beiträge",
-            "changelog": "Twitch-Changelog-Änderungen"
+            "changelog": "Twitch-Changelog-Änderungen",
+            "susgeechangelog": "susgee Changelog"
         }
     },
     "notify": {
@@ -2489,7 +2491,8 @@
             "7tv": "7TV-Cosmetics & Global-Emotes",
             "twitchglobals": "Twitch Global-Emotes & Badges",
             "blog": "Twitch-Blog",
-            "changelog": "Twitch-Changelog"
+            "changelog": "Twitch-Changelog",
+            "susgeechangelog": "susgee Changelog"
         },
         "actions": {
             "fetchBans": "Beim Laden der Bans ist ein Fehler aufgetreten.",
@@ -2999,7 +3002,7 @@
             },
             "types": {
                 "title": "Typen",
-                "lead": "Zehn Typen. Manche beobachten einen bestimmten Channel, der Rest ist global.",
+                "lead": "Elf Typen. Manche beobachten einen bestimmten Channel, der Rest ist global.",
                 "headers": {
                     "type": "Typ",
                     "fires": "Löst aus, wenn",
@@ -3025,7 +3028,8 @@
                     "7tv": "7TV ändert seine globalen Emotes, Paints oder Badges.",
                     "twitchglobals": "Twitch ändert seine globalen Emotes oder Badges.",
                     "blog": "Twitch veröffentlicht einen neuen Blog-Artikel.",
-                    "changelog": "Der Twitch-Entwickler-Changelog wird aktualisiert."
+                    "changelog": "Der Twitch-Entwickler-Changelog wird aktualisiert.",
+                    "susgeechangelog": "Ein neuer susgee Changelog wird veröffentlicht."
                 },
                 "note": "<data>nur</data> in der ?pingme-Spalte heisst: Es gibt keine Channel-weite Variante dieses Typs, er existiert nur als persönliche Anmeldung."
             },
