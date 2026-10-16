@@ -700,7 +700,7 @@
     "notifications": {
         "blog": "Neuer Twitch-Blog-Artikel: {title} susgeePoint {url}",
         "changelog": "Twitch Developer Changelogs wurden aktualisiert susgeePoint {url}",
-        "susgeechangelog": "Neuer susgee Changelog: {summary} susgeePoint {url}",
+        "susgeechangelog": "Neuer Susgee Changelog: {summary} susgeePoint {url}",
         "types": {
             "7tv": "7TV-Cosmetics / Global-Emote-Änderungen",
             "twitch": "Änderungen an Twitch Global Emotes / Badges",
