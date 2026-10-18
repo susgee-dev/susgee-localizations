@@ -2310,21 +2310,32 @@
             },
             "badges": {
                 "metaTitle": "Twitch badges",
-                "metaDescription": "See which global Twitch badges are held, worn in chat, or active, and look up a channel or user.",
+                "metaDescription": "Which Twitch badges are worn most, what shows up in a chat, and what one person has.",
                 "title": "Twitch badges",
-                "description": "Global badge stats from chat sightings and inventory checks, plus what showed up in a channel or on a user.",
+                "description": "The most common badges, a single chat, or one person's badges.",
                 "modes": {
-                    "global": "Global",
-                    "channel": "Channel",
-                    "user": "User"
+                    "global": "Most common",
+                    "channel": "One chat",
+                    "user": "One person"
                 },
+                "hints": {
+                    "global": "Worldwide ranking. The big number follows the choice below.",
+                    "channel": "Badges worn in this chat during the selected period. The number is distinct people.",
+                    "user": "What this person wore in chat, and what was in their inventory at the last check."
+                },
+                "sortHelp": {
+                    "worn": "Distinct accounts that wore the badge in chat at least once.",
+                    "held": "Checked accounts that have the badge in inventory. Unchecked accounts are not counted.",
+                    "active": "Accounts that wore it in chat during the last {days} days."
+                },
+                "summary": "{worn} wore it in chat. {held} have it in inventory.",
                 "channel": "Channel",
                 "channelPlaceholder": "Username or Twitch ID",
                 "user": "User",
                 "userPlaceholder": "Username or Twitch ID",
                 "search": "Show badges",
                 "refresh": "Refresh",
-                "filterSearch": "Filter by badge name or set ID…",
+                "filterSearch": "Search badges…",
                 "peopleSearch": "Filter by login…",
                 "empty": "No badges match these filters.",
                 "peopleEmpty": "Nobody in this list.",
@@ -2332,48 +2343,52 @@
                 "back": "Back",
                 "loading": "Loading the badge index…",
                 "loadMore": "Load more",
-                "untracked": "This badge is not in the global inventory index. Channel badges such as subscriber or bits only show up as chat sightings.",
-                "heldUnchecked": "No inventory check for this user yet.",
+                "untracked": "This is a channel badge, such as subscriber or bits. There is no worldwide ranking for it. The numbers only cover the chat you came from.",
+                "heldUnchecked": "Inventory has not been checked yet. Badges this person wore in chat are under “Worn”.",
                 "checkedAt": "Checked {date}",
                 "computedAt": "As of {date}",
                 "window": "Last {days} days",
                 "sections": {
-                    "worn": "Seen wearing",
+                    "worn": "Worn",
                     "held": "In inventory"
                 },
                 "order": {
-                    "desc": "Most used",
-                    "asc": "Least used"
+                    "desc": "Most first",
+                    "asc": "Least first"
                 },
                 "sort": {
-                    "held": "In inventory",
-                    "worn": "Seen wearing",
-                    "active": "Active ({days}d)"
+                    "held": "Own it",
+                    "worn": "Worn",
+                    "active": "Active ({days} days)"
                 },
                 "metrics": {
                     "held": "in inventory",
-                    "worn": "seen wearing",
+                    "worn": "worn in chat",
                     "active": "active",
                     "messages": "Messages",
-                    "wearers": "Wearers",
+                    "wearers": "People",
                     "firstSeen": "First seen",
                     "lastSeen": "Last seen"
                 },
                 "stats": {
-                    "tracked": "Tracked versions",
-                    "checked": "Users checked",
-                    "trackingSince": "Tracking since",
-                    "liveSince": "Daily stats since"
+                    "tracked": "Badges",
+                    "trackedHint": "Each version is counted separately",
+                    "checked": "Inventories checked",
+                    "checkedHint": "Only these accounts have an inventory count",
+                    "trackingSince": "Watching since",
+                    "liveSince": "Daily numbers since"
                 },
                 "people": {
-                    "owners": "Seen wearing",
+                    "owners": "Worn",
                     "holders": "In inventory",
-                    "recent": "Recent",
+                    "ownersHelp": "These accounts wore this badge in chat.",
+                    "holdersHelp": "These accounts had it in inventory.",
+                    "recent": "Active recently",
                     "first": "First seen",
                     "allVersions": "All versions"
                 },
-                "chart": "Wearers per day",
-                "chartEmpty": "No daily wearers in this window yet.",
+                "chart": "Worn on these days",
+                "chartEmpty": "Nobody wore this badge in this period.",
                 "errors": {
                     "noQuery": "Enter a username or Twitch ID.",
                     "notFound": "Channel, user, or badge not found.",

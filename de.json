@@ -2310,21 +2310,32 @@
             },
             "badges": {
                 "metaTitle": "Twitch-Badges",
-                "metaDescription": "Sieh, welche globalen Twitch-Badges im Inventar liegen, im Chat getragen wurden oder gerade aktiv sind — und schlag Channel oder User nach.",
+                "metaDescription": "Welche Twitch-Badges am häufigsten getragen werden, was in einem Chat auftaucht, und was eine Person hat.",
                 "title": "Twitch-Badges",
-                "description": "Globale Badge-Stats aus Chat-Sichtungen und Inventar-Checks, plus was in einem Channel oder bei einem User auftaucht.",
+                "description": "Beliebteste Badges, ein einzelner Chat, oder die Badges einer Person.",
                 "modes": {
-                    "global": "Global",
-                    "channel": "Channel",
-                    "user": "User"
+                    "global": "Beliebteste",
+                    "channel": "Ein Chat",
+                    "user": "Eine Person"
                 },
+                "hints": {
+                    "global": "Weltweite Rangliste. Die große Zahl folgt der Auswahl darunter.",
+                    "channel": "Badges, die in diesem Chat im gewählten Zeitraum getragen wurden. Die Zahl sind verschiedene Leute.",
+                    "user": "Was diese Person im Chat getragen hat, und was beim letzten Inventar-Check da war."
+                },
+                "sortHelp": {
+                    "worn": "Verschiedene Accounts, die das Badge mindestens einmal im Chat anhatten.",
+                    "held": "Geprüfte Accounts, die das Badge im Inventar haben. Ungeprüfte zählen nicht.",
+                    "active": "Accounts, die es in den letzten {days} Tagen im Chat getragen haben."
+                },
+                "summary": "{worn} haben es im Chat getragen. {held} haben es im Inventar.",
                 "channel": "Channel",
                 "channelPlaceholder": "Username oder Twitch-ID",
                 "user": "User",
                 "userPlaceholder": "Username oder Twitch-ID",
                 "search": "Badges anzeigen",
                 "refresh": "Aktualisieren",
-                "filterSearch": "Nach Badge-Name oder Set-ID filtern…",
+                "filterSearch": "Badge suchen…",
                 "peopleSearch": "Nach Login filtern…",
                 "empty": "Keine Badges passen zu diesen Filtern.",
                 "peopleEmpty": "Niemand in dieser Liste.",
@@ -2332,48 +2343,52 @@
                 "back": "Zurück",
                 "loading": "Badge-Index wird geladen…",
                 "loadMore": "Mehr laden",
-                "untracked": "Dieses Badge liegt nicht im globalen Inventar-Index. Channel-Badges wie Subscriber oder Bits gibt es hier nur als Chat-Sichtung.",
-                "heldUnchecked": "Für diesen User gibt es noch keinen Inventar-Check.",
+                "untracked": "Das ist ein Channel-Badge, zum Beispiel Subscriber oder Bits. Dafür gibt es keine weltweite Rangliste. Die Zahlen gelten nur für den Chat, aus dem du gekommen bist.",
+                "heldUnchecked": "Das Inventar wurde noch nicht geprüft. Was die Person im Chat getragen hat, steht unter „Getragen“.",
                 "checkedAt": "Geprüft {date}",
                 "computedAt": "Stand {date}",
                 "window": "Letzte {days} Tage",
                 "sections": {
-                    "worn": "Im Chat gesehen",
+                    "worn": "Getragen",
                     "held": "Im Inventar"
                 },
                 "order": {
-                    "desc": "Meiste Nutzung",
-                    "asc": "Wenigste Nutzung"
+                    "desc": "Meiste zuerst",
+                    "asc": "Wenigste zuerst"
                 },
                 "sort": {
-                    "held": "Im Inventar",
-                    "worn": "Im Chat gesehen",
-                    "active": "Aktiv ({days} T.)"
+                    "held": "Besitzen",
+                    "worn": "Getragen",
+                    "active": "Aktiv ({days} Tage)"
                 },
                 "metrics": {
                     "held": "im Inventar",
-                    "worn": "im Chat gesehen",
+                    "worn": "im Chat getragen",
                     "active": "aktiv",
                     "messages": "Nachrichten",
-                    "wearers": "Träger",
+                    "wearers": "Leute",
                     "firstSeen": "Zuerst gesehen",
                     "lastSeen": "Zuletzt gesehen"
                 },
                 "stats": {
-                    "tracked": "Getrackte Versionen",
-                    "checked": "Geprüfte User",
-                    "trackingSince": "Tracking seit",
-                    "liveSince": "Tagesstats seit"
+                    "tracked": "Badges",
+                    "trackedHint": "Jede Version zählt einzeln",
+                    "checked": "Inventare geprüft",
+                    "checkedHint": "Nur diese Accounts haben eine Inventar-Zahl",
+                    "trackingSince": "Beobachtet seit",
+                    "liveSince": "Tageszahlen seit"
                 },
                 "people": {
-                    "owners": "Im Chat gesehen",
+                    "owners": "Getragen",
                     "holders": "Im Inventar",
-                    "recent": "Zuletzt",
-                    "first": "Zuerst",
+                    "ownersHelp": "Diese Accounts haben das Badge im Chat an.",
+                    "holdersHelp": "Bei diesen Accounts lag es im Inventar.",
+                    "recent": "Zuletzt aktiv",
+                    "first": "Zuerst gesehen",
                     "allVersions": "Alle Versionen"
                 },
-                "chart": "Träger pro Tag",
-                "chartEmpty": "In diesem Fenster gibt es noch keine Tageswerte.",
+                "chart": "An diesen Tagen getragen",
+                "chartEmpty": "In diesem Zeitraum hat niemand das Badge getragen.",
                 "errors": {
                     "noQuery": "Bitte Username oder Twitch-ID eingeben.",
                     "notFound": "Channel, User oder Badge nicht gefunden.",
