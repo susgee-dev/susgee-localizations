@@ -2301,7 +2301,8 @@
             "badges": {
                 "user": "Usuario",
                 "title": "Insignias de Twitch",
-                "loadMore": "Cargar más"
+                "loadMore": "Cargar más",
+                "checkedAt": "Marcado {date}"
             }
         },
         "common": {
