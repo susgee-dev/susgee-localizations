@@ -2297,6 +2297,9 @@
                 "previewName": "Usuario",
                 "previewMessage": "Mensaje",
                 "defaultMessage": "hola chat"
+            },
+            "badges": {
+                "user": "Usuario"
             }
         },
         "common": {
