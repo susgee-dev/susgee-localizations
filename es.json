@@ -2299,7 +2299,8 @@
                 "defaultMessage": "hola chat"
             },
             "badges": {
-                "user": "Usuario"
+                "user": "Usuario",
+                "title": "Insignias de Twitch"
             }
         },
         "common": {
