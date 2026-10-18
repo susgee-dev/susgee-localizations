@@ -2300,7 +2300,8 @@
             },
             "badges": {
                 "user": "Usuario",
-                "title": "Insignias de Twitch"
+                "title": "Insignias de Twitch",
+                "loadMore": "Cargar más"
             }
         },
         "common": {
