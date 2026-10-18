@@ -2305,7 +2305,8 @@
                 "checkedAt": "Marcado {date}",
                 "chart": "Usado en estos días",
                 "channelPlaceholder": "Nombre de usuario o ID de Twitch",
-                "back": "Volver"
+                "back": "Volver",
+                "channel": "Canal"
             }
         },
         "common": {
