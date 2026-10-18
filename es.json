@@ -2302,7 +2302,8 @@
                 "user": "Usuario",
                 "title": "Insignias de Twitch",
                 "loadMore": "Cargar más",
-                "checkedAt": "Marcado {date}"
+                "checkedAt": "Marcado {date}",
+                "chart": "Usado en estos días"
             }
         },
         "common": {
