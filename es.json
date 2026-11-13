@@ -2309,7 +2309,8 @@
                 "channel": "Canal",
                 "errors": {
                     "noQuery": "Introduce un nombre de usuario o ID de Twitch."
-                }
+                },
+                "loading": "Cargando el índice de insignias..."
             }
         },
         "common": {
