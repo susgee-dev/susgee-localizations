@@ -2311,7 +2311,10 @@
                     "noQuery": "Introduce un nombre de usuario o ID de Twitch."
                 },
                 "loading": "Cargando el índice de insignias...",
-                "metaTitle": "Insignias de Twitch"
+                "metaTitle": "Insignias de Twitch",
+                "metrics": {
+                    "active": "activo"
+                }
             }
         },
         "common": {
