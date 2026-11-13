@@ -2314,7 +2314,8 @@
                 "metaTitle": "Insignias de Twitch",
                 "metrics": {
                     "active": "activo",
-                    "firstSeen": "Primera vez visto"
+                    "firstSeen": "Primera vez visto",
+                    "held": "en inventario"
                 }
             }
         },
