@@ -2313,7 +2313,8 @@
                 "loading": "Cargando el índice de insignias...",
                 "metaTitle": "Insignias de Twitch",
                 "metrics": {
-                    "active": "activo"
+                    "active": "activo",
+                    "firstSeen": "Primera vez visto"
                 }
             }
         },
