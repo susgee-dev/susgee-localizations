@@ -2306,7 +2306,10 @@
                 "chart": "Usado en estos días",
                 "channelPlaceholder": "Nombre de usuario o ID de Twitch",
                 "back": "Volver",
-                "channel": "Canal"
+                "channel": "Canal",
+                "errors": {
+                    "noQuery": "Introduce un nombre de usuario o ID de Twitch."
+                }
             }
         },
         "common": {
